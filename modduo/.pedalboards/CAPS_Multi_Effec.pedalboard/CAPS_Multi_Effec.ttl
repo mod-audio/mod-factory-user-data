@@ -1,0 +1,996 @@
+@prefix atom:  <http://lv2plug.in/ns/ext/atom#> .
+@prefix doap:  <http://usefulinc.com/ns/doap#> .
+@prefix ingen: <http://drobilla.net/ns/ingen#> .
+@prefix lv2:   <http://lv2plug.in/ns/lv2core#> .
+@prefix midi:  <http://lv2plug.in/ns/ext/midi#> .
+@prefix mod:   <http://moddevices.com/ns/mod#> .
+@prefix pedal: <http://moddevices.com/ns/modpedal#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+_:b1
+    ingen:tail <Plate/outr> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b2
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
+
+_:b3
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
+
+_:b4
+    ingen:tail <capture_1> ;
+    ingen:head <AmpVTS/in> .
+
+_:b5
+    ingen:tail <AmpVTS/out> ;
+    ingen:head <CabinetIV/in> .
+
+_:b6
+    ingen:tail <Plate/outl> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b7
+    ingen:tail <CabinetIV/out> ;
+    ingen:head <SwitchBox2_2/In> .
+
+_:b8
+    ingen:tail <SwitchBox2_2/Out1> ;
+    ingen:head <SwitchBox2/In> .
+
+_:b9
+    ingen:tail <SwitchBox2_2/Out2> ;
+    ingen:head <SwitchBox2_1/In> .
+
+_:b10
+    ingen:tail <SwitchBox2/Out1> ;
+    ingen:head <Wider/in> .
+
+_:b11
+    ingen:tail <Wider/outl> ;
+    ingen:head <chorusflanger/InputL> .
+
+_:b12
+    ingen:tail <Wider/outr> ;
+    ingen:head <chorusflanger/InputR> .
+
+_:b13
+    ingen:tail <SwitchBox2/Out2> ;
+    ingen:head <mono/in> .
+
+_:b14
+    ingen:tail <SwitchBox2_1/Out2> ;
+    ingen:head <tremolo/input_0> .
+
+_:b15
+    ingen:tail <tremolo/output_0> ;
+    ingen:head <Plate/in> .
+
+_:b16
+    ingen:tail <chorusflanger/OutputL> ;
+    ingen:head <roomy/in_left> .
+
+_:b17
+    ingen:tail <chorusflanger/OutputR> ;
+    ingen:head <roomy/in_right> .
+
+_:b18
+    ingen:tail <roomy/out_left> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b19
+    ingen:tail <roomy/out_right> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b20
+    ingen:tail <mono/outL> ;
+    ingen:head <roomy/in_left> .
+
+_:b21
+    ingen:tail <mono/outR> ;
+    ingen:head <roomy/in_right> .
+
+_:b22
+    ingen:tail <SwitchBox2_1/Out1> ;
+    ingen:head <echo/inputleft> .
+
+_:b23
+    ingen:tail <echo/outputleft> ;
+    ingen:head <Plate/in> .
+
+<AmpVTS>
+    ingen:canvasX 231.0 ;
+    ingen:canvasY 105.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 24 ;
+    lv2:minorVersion 9 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 4 ;
+    lv2:port <AmpVTS/in> ,
+             <AmpVTS/out> ,
+             <AmpVTS/over> ,
+             <AmpVTS/gain> ,
+             <AmpVTS/bright> ,
+             <AmpVTS/power> ,
+             <AmpVTS/tonestack> ,
+             <AmpVTS/bass> ,
+             <AmpVTS/mid> ,
+             <AmpVTS/treble> ,
+             <AmpVTS/attack> ,
+             <AmpVTS/squash> ,
+             <AmpVTS/low_cut> ,
+             <AmpVTS/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/caps/AmpVTS> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<AmpVTS/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<AmpVTS/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<AmpVTS/squash>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<AmpVTS/bass>
+    ingen:value 0.312000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<AmpVTS/low_cut>
+    ingen:value 0.156000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<AmpVTS/attack>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<AmpVTS/gain>
+    ingen:value 0.312000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<AmpVTS/over>
+    ingen:value 2.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<AmpVTS/power>
+    ingen:value 0.375000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<AmpVTS/tonestack>
+    ingen:value 4.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<AmpVTS/bright>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<AmpVTS/mid>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<AmpVTS/treble>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<AmpVTS/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CabinetIV>
+    ingen:canvasX 313.0 ;
+    ingen:canvasY 549.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 24 ;
+    lv2:minorVersion 9 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 4 ;
+    lv2:port <CabinetIV/in> ,
+             <CabinetIV/out> ,
+             <CabinetIV/model> ,
+             <CabinetIV/gain> ,
+             <CabinetIV/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/caps/CabinetIV> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<CabinetIV/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<CabinetIV/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<CabinetIV/model>
+    ingen:value 11.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CabinetIV/gain>
+    ingen:value -1.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CabinetIV/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2>
+    ingen:canvasX 3150.0 ;
+    ingen:canvasY 593.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <Gain2x2/In1> ,
+             <Gain2x2/In2> ,
+             <Gain2x2/Out1> ,
+             <Gain2x2/Out2> ,
+             <Gain2x2/Gain> ,
+             <Gain2x2/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/Gain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Plate>
+    ingen:canvasX 2549.0 ;
+    ingen:canvasY 939.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 24 ;
+    lv2:minorVersion 9 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 4 ;
+    lv2:port <Plate/in> ,
+             <Plate/outl> ,
+             <Plate/outr> ,
+             <Plate/bandwidth> ,
+             <Plate/tail> ,
+             <Plate/damping> ,
+             <Plate/blend> ,
+             <Plate/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/caps/Plate> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Plate/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Plate/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Plate/damping>
+    ingen:value 0.906250 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Plate/tail>
+    ingen:value 0.171875 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Plate/blend>
+    ingen:value 0.343000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Plate/bandwidth>
+    ingen:value 0.703125 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Plate/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger>
+    ingen:canvasX 2344.0 ;
+    ingen:canvasY 0.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 7 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 2 ;
+    lv2:port <chorusflanger/InputL> ,
+             <chorusflanger/InputR> ,
+             <chorusflanger/OutputL> ,
+             <chorusflanger/OutputR> ,
+             <chorusflanger/Frequency> ,
+             <chorusflanger/LRPhaseShift> ,
+             <chorusflanger/Depth> ,
+             <chorusflanger/Delay> ,
+             <chorusflanger/Contour> ,
+             <chorusflanger/DryLevel> ,
+             <chorusflanger/WetLevel> ,
+             <chorusflanger/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/tap/chorusflanger> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<chorusflanger/InputL>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<chorusflanger/InputR>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<chorusflanger/InputL>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<chorusflanger/InputR>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<chorusflanger/Contour>
+    ingen:value 100.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/DryLevel>
+    ingen:value -3.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/WetLevel>
+    ingen:value -3.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/LRPhaseShift>
+    ingen:value 90.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/Frequency>
+    ingen:value 1.750000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/Delay>
+    ingen:value 26.562500 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/Depth>
+    ingen:value 87.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono>
+    ingen:canvasX 2049.0 ;
+    ingen:canvasY 438.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 1 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 2 ;
+    lv2:port <mono/in> ,
+             <mono/outL> ,
+             <mono/outR> ,
+             <mono/bypass> ,
+             <mono/cycle> ,
+             <mono/phase> ,
+             <mono/width> ,
+             <mono/depth> ,
+             <mono/noClip> ,
+             <mono/lampDrive> ,
+             <mono/lampL> ,
+             <mono/lampR> ,
+             <mono/meterOutL> ,
+             <mono/meterOutR> ,
+             <mono/meterIn> ,
+             <mono/:bypass> ;
+    lv2:prototype <http://invadarecords.com/plugins/lv2/phaser/mono> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mono/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mono/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mono/width>
+    ingen:value 11.062500 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/bypass>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/noClip>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/cycle>
+    ingen:value 3.489153 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/phase>
+    ingen:value 45.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/depth>
+    ingen:value 100.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/lampDrive>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono/lampL>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono/lampR>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono/meterOutL>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono/meterOutR>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono/meterIn>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tremolo>
+    ingen:canvasX 1908.0 ;
+    ingen:canvasY 1161.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 7 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 2 ;
+    lv2:port <tremolo/input_0> ,
+             <tremolo/output_0> ,
+             <tremolo/frequency> ,
+             <tremolo/depth> ,
+             <tremolo/gain> ,
+             <tremolo/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/tap/tremolo> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<tremolo/input_0>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<tremolo/input_0>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<tremolo/gain>
+    ingen:value 1.718750 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tremolo/frequency>
+    ingen:value 5.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tremolo/depth>
+    ingen:value 81.250000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tremolo/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<SwitchBox2>
+    ingen:canvasX 1390.0 ;
+    ingen:canvasY 265.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 1 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <SwitchBox2/In> ,
+             <SwitchBox2/Out1> ,
+             <SwitchBox2/Out2> ,
+             <SwitchBox2/Switch> ,
+             <SwitchBox2/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/SwitchBox2> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<SwitchBox2/In>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<SwitchBox2/In>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<SwitchBox2/Switch>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<SwitchBox2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<SwitchBox2_1>
+    ingen:canvasX 1270.0 ;
+    ingen:canvasY 1180.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 1 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <SwitchBox2_1/In> ,
+             <SwitchBox2_1/Out1> ,
+             <SwitchBox2_1/Out2> ,
+             <SwitchBox2_1/Switch> ,
+             <SwitchBox2_1/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/SwitchBox2> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<SwitchBox2_1/In>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<SwitchBox2_1/In>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<SwitchBox2_1/Switch>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<SwitchBox2_1/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<SwitchBox2_2>
+    ingen:canvasX 908.0 ;
+    ingen:canvasY 617.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 1 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <SwitchBox2_2/In> ,
+             <SwitchBox2_2/Out1> ,
+             <SwitchBox2_2/Out2> ,
+             <SwitchBox2_2/Switch> ,
+             <SwitchBox2_2/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/SwitchBox2> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<SwitchBox2_2/In>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<SwitchBox2_2/In>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<SwitchBox2_2/Switch>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<SwitchBox2_2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Wider>
+    ingen:canvasX 1843.0 ;
+    ingen:canvasY 30.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 24 ;
+    lv2:minorVersion 9 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 4 ;
+    lv2:port <Wider/in> ,
+             <Wider/outl> ,
+             <Wider/outr> ,
+             <Wider/pan> ,
+             <Wider/width> ,
+             <Wider/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/caps/Wider> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Wider/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Wider/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Wider/width>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Wider/pan>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Wider/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<roomy>
+    ingen:canvasX 2877.0 ;
+    ingen:canvasY 171.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 3 ;
+    lv2:port <roomy/in_left> ,
+             <roomy/in_right> ,
+             <roomy/out_left> ,
+             <roomy/out_right> ,
+             <roomy/time> ,
+             <roomy/damping> ,
+             <roomy/dry_wet> ,
+             <roomy/:bypass> ;
+    lv2:prototype <http://www.openavproductions.com/artyfx#roomy> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<roomy/in_left>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<roomy/in_right>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<roomy/in_left>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<roomy/in_right>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<roomy/dry_wet>
+    ingen:value 0.312500 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<roomy/time>
+    ingen:value 0.453125 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<roomy/damping>
+    ingen:value 0.671875 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<roomy/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<echo>
+    ingen:canvasX 1556.9 ;
+    ingen:canvasY 752.5 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 7 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 2 ;
+    lv2:port <echo/inputleft> ,
+             <echo/inputright> ,
+             <echo/outputleft> ,
+             <echo/outputright> ,
+             <echo/ldelay> ,
+             <echo/lfeedback> ,
+             <echo/rhaasdelay> ,
+             <echo/rhaasfeedback> ,
+             <echo/lecholevel> ,
+             <echo/recholevel> ,
+             <echo/dryLevel> ,
+             <echo/crossmode> ,
+             <echo/haaseffect> ,
+             <echo/swapoutputs> ,
+             <echo/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/tap/echo> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<echo/inputleft>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<echo/inputright>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<echo/inputleft>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<echo/inputright>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<echo/ldelay>
+    ingen:value 406.250000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<echo/haaseffect>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<echo/rhaasdelay>
+    ingen:value 300.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<echo/rhaasfeedback>
+    ingen:value 50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<echo/lfeedback>
+    ingen:value 50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<echo/dryLevel>
+    ingen:value -4.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<echo/lecholevel>
+    ingen:value -4.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<echo/crossmode>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<echo/recholevel>
+    ingen:value -4.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<echo/swapoutputs>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<echo/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<control_in>
+    atom:bufferType atom:Sequence ;
+    lv2:index 0 ;
+    lv2:name "Control In" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "control_in" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<control_out>
+    atom:bufferType atom:Sequence ;
+    lv2:index 1 ;
+    lv2:name "Control Out" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "control_out" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:OutputPort .
+
+<capture_1>
+    lv2:index 2 ;
+    lv2:name "Capture 1" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "capture_1" ;
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<capture_2>
+    lv2:index 3 ;
+    lv2:name "Capture 2" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "capture_2" ;
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<playback_1>
+    lv2:index 4 ;
+    lv2:name "Playback 1" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "playback_1" ;
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<playback_2>
+    lv2:index 5 ;
+    lv2:name "Playback 2" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "playback_2" ;
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<serial_midi_in>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    lv2:index 6 ;
+    lv2:name "Serial MIDI In" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "serial_midi_in" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<serial_midi_out>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    lv2:index 7 ;
+    lv2:name "Serial MIDI In" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "serial_midi_out" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:OutputPort .
+
+<>
+    doap:name "CAPS Multi Effects" ;
+    pedal:width 3840 ;
+    pedal:height 1778 ;
+    pedal:addressings <addressings.json> ;
+    pedal:screenshot <screenshot.png> ;
+    pedal:thumbnail <thumbnail.png> ;
+    ingen:polyphony 1 ;
+    ingen:arc _:b1 ,
+              _:b2 ,
+              _:b3 ,
+              _:b4 ,
+              _:b5 ,
+              _:b6 ,
+              _:b7 ,
+              _:b8 ,
+              _:b9 ,
+              _:b10 ,
+              _:b11 ,
+              _:b12 ,
+              _:b13 ,
+              _:b14 ,
+              _:b15 ,
+              _:b16 ,
+              _:b17 ,
+              _:b18 ,
+              _:b19 ,
+              _:b20 ,
+              _:b21 ,
+              _:b22 ,
+              _:b23 ;
+    ingen:block <AmpVTS> ,
+                <CabinetIV> ,
+                <Gain2x2> ,
+                <Plate> ,
+                <chorusflanger> ,
+                <mono> ,
+                <tremolo> ,
+                <SwitchBox2> ,
+                <SwitchBox2_1> ,
+                <SwitchBox2_2> ,
+                <Wider> ,
+                <roomy> ,
+                <echo> ;
+    lv2:port <control_in> ,
+             <control_out> ,
+             <serial_midi_in> ,
+             <serial_midi_out> ,
+             <capture_1> ,
+             <capture_2> ,
+             <playback_1> ,
+             <playback_2> ;
+    lv2:extensionData <http://lv2plug.in/ns/ext/state#interface> ;
+    a lv2:Plugin ,
+        ingen:Graph ,
+        pedal:Pedalboard .
