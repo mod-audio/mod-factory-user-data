@@ -1,0 +1,139 @@
+#!/bin/bash
+
+# list of diretories to copy
+TO_COPY=(".pedalboards" "data")
+
+function check {
+    local LIST="$(eval $1),"
+
+    for i in ${LIST}; do
+        if [[ "${i::-1}" == "$2" ]]; then
+            return 0
+        fi
+    done
+
+    return 1
+}
+
+function list_plaforms {
+    local PLATS
+    for d in mod*/; do
+        PLATS+="${d%/}, "
+    done
+
+    echo ${PLATS::-2}
+}
+
+function list_actions {
+    echo "retrieve, deploy"
+}
+
+function check_plaform {
+    check list_plaforms "$1"
+}
+
+function check_action {
+    check list_actions "$1"
+}
+
+function show_usage {
+    echo -e "Usage:\t$0 <platform> <action>"
+    echo -e "\tplatform: $(list_plaforms)"
+    echo -e "\taction: $(list_actions)"
+    exit 1
+}
+
+function git_me {
+    git $@
+    if [[ $? != 0 ]]; then
+        echo "git command failed probably due conflict"
+        echo "please solve it manually and try again"
+        echo "the last command was: git $@"
+        exit 1
+    fi
+}
+
+function wait_mod {
+    while true; do
+        BROADCAST_IP=$(ifconfig | grep -oE "192\.168\.(50|51)\.255")
+        if [[ -z ${BROADCAST_IP} ]]; then
+            echo "Waiting MOD connection"
+            sleep 1
+        else
+            MOD_IP="${BROADCAST_IP::-3}1"
+            break
+        fi
+    done
+    echo "MOD connected at ${MOD_IP}"
+}
+
+function copy_key {
+    # checking access using user key
+    ssh -o "PasswordAuthentication no" root@${MOD_IP} "touch /dev/null" 2>/dev/null
+    if [[ $? == 0 ]]; then
+        return 0
+    fi
+
+    # checking access using mod_access_key and mod_early_users_key
+    for KEY_FILE in ~/.ssh/mod_access_key.pem ~/.ssh/mod_early_users_key.pem; do
+        ssh -o "PasswordAuthentication no" -i ${KEY_FILE} root@${MOD_IP} "touch /dev/null" 2>/dev/null
+        if [[ $? == 0 ]]; then
+            scp -i ${KEY_FILE} ~/.ssh/id_rsa.pub root@${MOD_IP}:/tmp/user-key 1>/dev/null 2>/dev/null
+            ssh -i ${KEY_FILE} root@${MOD_IP} "cat /tmp/user-key >> /root/.ssh/authorized_keys" 2>/dev/null
+            return 0
+        fi
+    done
+
+    ssh-copy-id root@${MOD_IP} 2>/dev/null
+}
+
+function retrieve {
+    echo "retrieving user data from MOD"
+    for d in ${TO_COPY[@]}; do
+        scp -r root@${MOD_IP}:/root/$d $1/
+        ssh root@${MOD_IP} "cp -rf /root/$d /tmp/ && rm -rf /root/$d"
+        ssh root@${MOD_IP} "mv /root/user-data-backup/$d /root"
+    done
+
+    # restart services
+    ssh root@${MOD_IP} "systemctl restart jack2 mod-host mod-ui"
+
+    echo "committing changes"
+    git commit -a -m "factory user data updated by $(git config user.name)"
+
+    echo "uploading recent changes to remote repository"
+    git_me pull --rebase
+    git_me push
+
+    echo "done"
+}
+
+function deploy {
+    echo "downloading the latest user data from remote repository"
+    git_me pull --rebase
+
+    ssh root@${MOD_IP} "mkdir -p /root/user-data-backup"
+
+    echo "deploying user data to MOD"
+    for d in ${TO_COPY[@]}; do
+        ssh root@${MOD_IP} "mv /root/$d /root/user-data-backup"
+        scp -r "$1/$d" root@${MOD_IP}:/root/
+    done
+
+    echo "restarting services"
+    ssh root@${MOD_IP} "systemctl restart jack2 mod-host mod-ui"
+
+    echo "done"
+}
+
+# check arguments
+if [[ "$#" != "2" ]] ||
+   ! check_plaform "$1" ||
+   ! check_action "$2"; then
+    show_usage
+fi
+
+wait_mod
+copy_key
+
+eval $2 $1
