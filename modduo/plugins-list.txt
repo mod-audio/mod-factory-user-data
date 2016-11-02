@@ -13,6 +13,7 @@ gx_cabinet.lv2
 gx_fuzzfacefm.lv2
 gx_gcb_95.lv2
 gx_hogsfoot.lv2
+gx_jcm800pre.lv2
 gx_oc_2.lv2
 gx_scream.lv2
 gx_studiopre.lv2
