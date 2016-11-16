@@ -8,22 +8,30 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <playback_1> .
-
-_:b2
     ingen:tail <Gain2x2/Out2> ;
     ingen:head <playback_2> .
 
+_:b2
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
+
+_:b3
+    ingen:tail <capture_1> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b4
+    ingen:tail <capture_2> ;
+    ingen:head <Gain2x2/In2> .
+
 <Gain2x2>
-    ingen:canvasX 2795.3 ;
-    ingen:canvasY 430.5 ;
+    ingen:canvasX 2642.0 ;
+    ingen:canvasY 419.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 0 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 4 ;
     lv2:port <Gain2x2/In1> ,
              <Gain2x2/In2> ,
              <Gain2x2/Out1> ,
@@ -51,7 +59,7 @@ _:b2
         lv2:OutputPort .
 
 <Gain2x2/Gain>
-    ingen:value 3.000000 ;
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -136,14 +144,16 @@ _:b2
 
 <>
     doap:name "Default" ;
-    pedal:width 0 ;
-    pedal:height 0 ;
+    pedal:width 3356 ;
+    pedal:height 1718 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
-              _:b2 ;
+              _:b2 ,
+              _:b3 ,
+              _:b4 ;
     ingen:block <Gain2x2> ;
     lv2:port <control_in> ,
              <control_out> ,

@@ -102,7 +102,7 @@ function retrieve {
     git commit -a -m "factory user data updated by $(git config user.name)"
 
     echo "uploading recent changes to remote repository"
-    git_me pull --rebase
+    #git_me pull --rebase
     git_me push
 
     echo "done"
