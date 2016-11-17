@@ -20,202 +20,40 @@ _:b3
     ingen:head <studiopre/in> .
 
 _:b4
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <playback_2> .
-
-_:b5
     ingen:tail <CABINET/out> ;
     ingen:head <chorusflanger/InputL> .
+
+_:b5
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
 
 _:b6
     ingen:tail <CABINET/out> ;
     ingen:head <chorusflanger/InputR> .
 
 _:b7
+    ingen:tail <chorusflanger/OutputR> ;
+    ingen:head <roomy/in_right> .
+
+_:b8
     ingen:tail <Capo/Out> ;
     ingen:head <studiopre/in> .
 
-_:b8
+_:b9
     ingen:tail <capture_1> ;
     ingen:head <Capo/In> .
-
-_:b9
-    ingen:tail <chorusflanger/OutputR> ;
-    ingen:head <roomy/in_right> .
 
 _:b10
     ingen:tail <chorusflanger/OutputL> ;
     ingen:head <roomy/in_left> .
 
 _:b11
-    ingen:tail <roomy/out_left> ;
-    ingen:head <Gain2x2/In1> .
-
-_:b12
     ingen:tail <roomy/out_right> ;
     ingen:head <Gain2x2/In2> .
 
-<CABINET>
-    ingen:canvasX 1175.0 ;
-    ingen:canvasY 339.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 3 ;
-    lv2:minorVersion 28 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 6 ;
-    lv2:port <CABINET/in> ,
-             <CABINET/out> ,
-             <CABINET/CLevel> ,
-             <CABINET/CBass> ,
-             <CABINET/CTreble> ,
-             <CABINET/c_model> ,
-             <CABINET/SCHEDULE> ,
-             <CABINET/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_cabinet#CABINET> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<CABINET/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<CABINET/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<CABINET/c_model>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CABINET/CTreble>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CABINET/CBass>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CABINET/CLevel>
-    ingen:value 1.062500 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CABINET/SCHEDULE>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<CABINET/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Gain2x2>
-    ingen:canvasX 2552.0 ;
-    ingen:canvasY 377.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 0 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
-    lv2:port <Gain2x2/In1> ,
-             <Gain2x2/In2> ,
-             <Gain2x2/Out1> ,
-             <Gain2x2/Out2> ,
-             <Gain2x2/Gain> ,
-             <Gain2x2/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<Gain2x2/In1>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Gain2x2/In2>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Gain2x2/In1>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Gain2x2/In2>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Gain2x2/Gain>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Gain2x2/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre>
-    ingen:canvasX 762.2 ;
-    ingen:canvasY 269.2 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 3 ;
-    lv2:minorVersion 28 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 6 ;
-    lv2:port <studiopre/in> ,
-             <studiopre/out> ,
-             <studiopre/bright> ,
-             <studiopre/volume> ,
-             <studiopre/bass> ,
-             <studiopre/middle> ,
-             <studiopre/treble> ,
-             <studiopre/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_studiopre#studiopre> ;
-    pedal:preset <file:///root/.lv2/gx_studiopre.lv2/default-preset> ;
-    a ingen:Block .
-
-<studiopre/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<studiopre/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<studiopre/bright>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/treble>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/middle>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/bass>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/volume>
-    ingen:value 5.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
+_:b12
+    ingen:tail <roomy/out_left> ;
+    ingen:head <Gain2x2/In1> .
 
 <roomy>
     ingen:canvasX 2253.2 ;
@@ -254,6 +92,11 @@ _:b12
     a lv2:AudioPort ,
         lv2:OutputPort .
 
+<roomy/time>
+    ingen:value 0.312500 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <roomy/damping>
     ingen:value 0.687500 ;
     a lv2:ControlPort ,
@@ -264,12 +107,66 @@ _:b12
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<roomy/time>
-    ingen:value 0.312500 ;
+<roomy/:bypass>
+    ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<roomy/:bypass>
+<studiopre>
+    ingen:canvasX 762.2 ;
+    ingen:canvasY 269.2 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 28 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 6 ;
+    lv2:port <studiopre/in> ,
+             <studiopre/out> ,
+             <studiopre/bright> ,
+             <studiopre/volume> ,
+             <studiopre/bass> ,
+             <studiopre/middle> ,
+             <studiopre/treble> ,
+             <studiopre/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_studiopre#studiopre> ;
+    pedal:preset <file:///root/.lv2/gx_studiopre.lv2/default-preset> ;
+    a ingen:Block .
+
+<studiopre/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<studiopre/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<studiopre/bass>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/treble>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/middle>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/volume>
+    ingen:value 5.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/bright>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -315,21 +212,6 @@ _:b12
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<chorusflanger/WetLevel>
-    ingen:value -3.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<chorusflanger/DryLevel>
-    ingen:value -3.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<chorusflanger/Contour>
-    ingen:value 100.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <chorusflanger/Depth>
     ingen:value 75.000000 ;
     a lv2:ControlPort ,
@@ -340,17 +222,90 @@ _:b12
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<chorusflanger/LRPhaseShift>
-    ingen:value 90.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <chorusflanger/Frequency>
     ingen:value 1.750000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<chorusflanger/LRPhaseShift>
+    ingen:value 90.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/Contour>
+    ingen:value 100.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/WetLevel>
+    ingen:value -3.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/DryLevel>
+    ingen:value -3.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <chorusflanger/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CABINET>
+    ingen:canvasX 1175.0 ;
+    ingen:canvasY 339.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 28 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 6 ;
+    lv2:port <CABINET/in> ,
+             <CABINET/out> ,
+             <CABINET/CLevel> ,
+             <CABINET/CBass> ,
+             <CABINET/CTreble> ,
+             <CABINET/c_model> ,
+             <CABINET/SCHEDULE> ,
+             <CABINET/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_cabinet#CABINET> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<CABINET/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<CABINET/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<CABINET/c_model>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CABINET/CTreble>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CABINET/CLevel>
+    ingen:value 1.062500 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CABINET/CBass>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CABINET/SCHEDULE>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<CABINET/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -382,6 +337,11 @@ _:b12
     a lv2:AudioPort ,
         lv2:OutputPort .
 
+<Capo/Fidelity>
+    ingen:value 2.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <Capo/Step>
     ingen:value 7.000000 ;
     a lv2:ControlPort ,
@@ -392,12 +352,52 @@ _:b12
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Capo/Fidelity>
-    ingen:value 2.000000 ;
+<Capo/:bypass>
+    ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Capo/:bypass>
+<Gain2x2>
+    ingen:canvasX 2552.0 ;
+    ingen:canvasY 377.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <Gain2x2/In1> ,
+             <Gain2x2/In2> ,
+             <Gain2x2/Out1> ,
+             <Gain2x2/Out2> ,
+             <Gain2x2/Gain> ,
+             <Gain2x2/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/Gain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -496,12 +496,12 @@ _:b12
               _:b10 ,
               _:b11 ,
               _:b12 ;
-    ingen:block <CABINET> ,
-                <Gain2x2> ,
+    ingen:block <roomy> ,
                 <studiopre> ,
-                <roomy> ,
                 <chorusflanger> ,
-                <Capo> ;
+                <CABINET> ,
+                <Capo> ,
+                <Gain2x2> ;
     lv2:port <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

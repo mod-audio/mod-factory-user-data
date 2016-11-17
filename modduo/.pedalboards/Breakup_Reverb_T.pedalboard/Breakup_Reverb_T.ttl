@@ -8,20 +8,20 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <AmpVTS/out> ;
-    ingen:head <CabinetIV/in> .
+    ingen:tail <roomy/out_right> ;
+    ingen:head <Gain2x2/In2> .
 
 _:b2
     ingen:tail <Gain2x2/Out1> ;
     ingen:head <playback_1> .
 
 _:b3
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <playback_2> .
-
-_:b4
     ingen:tail <capture_1> ;
     ingen:head <ts9sim/in> .
+
+_:b4
+    ingen:tail <AmpVTS/out> ;
+    ingen:head <CabinetIV/in> .
 
 _:b5
     ingen:tail <ts9sim/out> ;
@@ -29,19 +29,19 @@ _:b5
 
 _:b6
     ingen:tail <CabinetIV/out> ;
-    ingen:head <roomy/in_right> .
+    ingen:head <roomy/in_left> .
 
 _:b7
     ingen:tail <CabinetIV/out> ;
-    ingen:head <roomy/in_left> .
+    ingen:head <roomy/in_right> .
 
 _:b8
     ingen:tail <roomy/out_left> ;
     ingen:head <Gain2x2/In1> .
 
 _:b9
-    ingen:tail <roomy/out_right> ;
-    ingen:head <Gain2x2/In2> .
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
 
 <AmpVTS>
     ingen:canvasX 830.0 ;
@@ -78,13 +78,13 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<AmpVTS/gain>
-    ingen:value 0.312500 ;
+<AmpVTS/tonestack>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<AmpVTS/attack>
-    ingen:value 0.000000 ;
+<AmpVTS/bass>
+    ingen:value 0.437500 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -108,28 +108,28 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<AmpVTS/tonestack>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<AmpVTS/bass>
-    ingen:value 0.437500 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <AmpVTS/treble>
     ingen:value 0.750000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<AmpVTS/low_cut>
-    ingen:value 0.479688 ;
+<AmpVTS/squash>
+    ingen:value 0.125000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<AmpVTS/squash>
-    ingen:value 0.125000 ;
+<AmpVTS/gain>
+    ingen:value 0.312500 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<AmpVTS/attack>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<AmpVTS/low_cut>
+    ingen:value 0.479688 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -164,13 +164,13 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<CabinetIV/gain>
-    ingen:value 0.000000 ;
+<CabinetIV/model>
+    ingen:value 16.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<CabinetIV/model>
-    ingen:value 16.000000 ;
+<CabinetIV/gain>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -224,56 +224,9 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<ts9sim>
-    ingen:canvasX 397.2 ;
-    ingen:canvasY 519.9 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 3 ;
-    lv2:minorVersion 28 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 6 ;
-    lv2:port <ts9sim/in> ,
-             <ts9sim/out> ,
-             <ts9sim/fslider0_> ,
-             <ts9sim/fslider1_> ,
-             <ts9sim/fslider2_> ,
-             <ts9sim/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gxts9#ts9sim> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<ts9sim/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<ts9sim/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<ts9sim/fslider2_>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<ts9sim/fslider0_>
-    ingen:value -1.625000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<ts9sim/fslider1_>
-    ingen:value 634.375000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<ts9sim/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <roomy>
-    ingen:canvasX 2355.9 ;
-    ingen:canvasY 599.8 ;
+    ingen:canvasX 2355.0 ;
+    ingen:canvasY 599.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -308,8 +261,8 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<roomy/dry_wet>
-    ingen:value 0.312500 ;
+<roomy/time>
+    ingen:value 0.062500 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -318,12 +271,59 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<roomy/time>
-    ingen:value 0.062500 ;
+<roomy/dry_wet>
+    ingen:value 0.312500 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <roomy/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<ts9sim>
+    ingen:canvasX 397.0 ;
+    ingen:canvasY 519.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 28 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 6 ;
+    lv2:port <ts9sim/in> ,
+             <ts9sim/out> ,
+             <ts9sim/fslider0_> ,
+             <ts9sim/fslider1_> ,
+             <ts9sim/fslider2_> ,
+             <ts9sim/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gxts9#ts9sim> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<ts9sim/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<ts9sim/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<ts9sim/fslider2_>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<ts9sim/fslider0_>
+    ingen:value -5.750000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<ts9sim/fslider1_>
+    ingen:value 1000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<ts9sim/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -404,8 +404,8 @@ _:b9
 
 <>
     doap:name "Breakup Reverb TubeScreamer" ;
-    pedal:width 3360 ;
-    pedal:height 1736 ;
+    pedal:width 3840 ;
+    pedal:height 1746 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
@@ -422,8 +422,8 @@ _:b9
     ingen:block <AmpVTS> ,
                 <CabinetIV> ,
                 <Gain2x2> ,
-                <ts9sim> ,
-                <roomy> ;
+                <roomy> ,
+                <ts9sim> ;
     lv2:port <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

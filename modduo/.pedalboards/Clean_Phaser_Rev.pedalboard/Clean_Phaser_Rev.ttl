@@ -8,32 +8,32 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <playback_1> .
-
-_:b2
-    ingen:tail <studiopre/out> ;
-    ingen:head <CABINET/in> .
-
-_:b3
     ingen:tail <capture_1> ;
     ingen:head <studiopre/in> .
 
+_:b2
+    ingen:tail <PhaserII/out> ;
+    ingen:head <roomy/in_left> .
+
+_:b3
+    ingen:tail <PhaserII/out> ;
+    ingen:head <roomy/in_right> .
+
 _:b4
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <playback_2> .
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
 
 _:b5
     ingen:tail <CABINET/out> ;
     ingen:head <PhaserII/in> .
 
 _:b6
-    ingen:tail <PhaserII/out> ;
-    ingen:head <roomy/in_right> .
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
 
 _:b7
-    ingen:tail <PhaserII/out> ;
-    ingen:head <roomy/in_left> .
+    ingen:tail <studiopre/out> ;
+    ingen:head <CABINET/in> .
 
 _:b8
     ingen:tail <roomy/out_left> ;
@@ -82,13 +82,13 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<CABINET/CBass>
-    ingen:value 0.000000 ;
+<CABINET/CLevel>
+    ingen:value 1.062500 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<CABINET/CLevel>
-    ingen:value 1.062500 ;
+<CABINET/CBass>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -146,68 +146,9 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<studiopre>
-    ingen:canvasX 540.2 ;
-    ingen:canvasY 379.2 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 3 ;
-    lv2:minorVersion 28 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 6 ;
-    lv2:port <studiopre/in> ,
-             <studiopre/out> ,
-             <studiopre/bright> ,
-             <studiopre/volume> ,
-             <studiopre/bass> ,
-             <studiopre/middle> ,
-             <studiopre/treble> ,
-             <studiopre/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_studiopre#studiopre> ;
-    pedal:preset <file:///root/.lv2/gx_studiopre.lv2/default-preset> ;
-    a ingen:Block .
-
-<studiopre/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<studiopre/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<studiopre/bright>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/treble>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/middle>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/bass>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/volume>
-    ingen:value 5.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <PhaserII>
-    ingen:canvasX 1694.7 ;
-    ingen:canvasY 728.3 ;
+    ingen:canvasX 1694.0 ;
+    ingen:canvasY 728.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 24 ;
@@ -234,8 +175,8 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<PhaserII/depth>
-    ingen:value 0.593750 ;
+<PhaserII/lfo>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -244,8 +185,8 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<PhaserII/spread>
-    ingen:value 0.890625 ;
+<PhaserII/depth>
+    ingen:value 0.593750 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -254,8 +195,8 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<PhaserII/lfo>
-    ingen:value 0.000000 ;
+<PhaserII/spread>
+    ingen:value 0.890625 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -265,8 +206,8 @@ _:b9
         lv2:InputPort .
 
 <roomy>
-    ingen:canvasX 2146.7 ;
-    ingen:canvasY 638.5 ;
+    ingen:canvasX 2146.0 ;
+    ingen:canvasY 638.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -301,6 +242,11 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
+<roomy/time>
+    ingen:value 0.375000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <roomy/damping>
     ingen:value 0.625000 ;
     a lv2:ControlPort ,
@@ -311,12 +257,66 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<roomy/time>
-    ingen:value 0.375000 ;
+<roomy/:bypass>
+    ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<roomy/:bypass>
+<studiopre>
+    ingen:canvasX 540.2 ;
+    ingen:canvasY 379.2 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 28 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 6 ;
+    lv2:port <studiopre/in> ,
+             <studiopre/out> ,
+             <studiopre/bright> ,
+             <studiopre/volume> ,
+             <studiopre/bass> ,
+             <studiopre/middle> ,
+             <studiopre/treble> ,
+             <studiopre/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_studiopre#studiopre> ;
+    pedal:preset <file:///root/.lv2/gx_studiopre.lv2/default-preset> ;
+    a ingen:Block .
+
+<studiopre/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<studiopre/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<studiopre/bass>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/treble>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/middle>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/volume>
+    ingen:value 5.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/bright>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -414,9 +414,9 @@ _:b9
               _:b9 ;
     ingen:block <CABINET> ,
                 <Gain2x2> ,
-                <studiopre> ,
                 <PhaserII> ,
-                <roomy> ;
+                <roomy> ,
+                <studiopre> ;
     lv2:port <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

@@ -12,8 +12,8 @@ _:b1
     ingen:head <CABINET/in> .
 
 _:b2
-    ingen:tail <capture_1> ;
-    ingen:head <vibrochump/in> .
+    ingen:tail <CABINET/out> ;
+    ingen:head <Gain2x2/In2> .
 
 _:b3
     ingen:tail <Gain2x2/Out1> ;
@@ -24,83 +24,12 @@ _:b4
     ingen:head <playback_2> .
 
 _:b5
-    ingen:tail <CABINET/out> ;
-    ingen:head <Gain2x2/In1> .
+    ingen:tail <capture_1> ;
+    ingen:head <vibrochump/in> .
 
 _:b6
     ingen:tail <CABINET/out> ;
-    ingen:head <Gain2x2/In2> .
-
-<vibrochump>
-    ingen:canvasX 687.4 ;
-    ingen:canvasY 691.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 3 ;
-    lv2:minorVersion 28 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 8 ;
-    lv2:port <vibrochump/in> ,
-             <vibrochump/out> ,
-             <vibrochump/Gain> ,
-             <vibrochump/Tone> ,
-             <vibrochump/Volume> ,
-             <vibrochump/Feedback> ,
-             <vibrochump/Speed> ,
-             <vibrochump/Intensity> ,
-             <vibrochump/Sinewave> ,
-             <vibrochump/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_redeye#vibrochump> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<vibrochump/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<vibrochump/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<vibrochump/Speed>
-    ingen:value 6.751563 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vibrochump/Intensity>
-    ingen:value 5.781250 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vibrochump/Volume>
-    ingen:value -0.312500 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vibrochump/Sinewave>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vibrochump/Feedback>
-    ingen:value 0.515625 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vibrochump/Gain>
-    ingen:value 10.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vibrochump/Tone>
-    ingen:value 0.656250 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vibrochump/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
+    ingen:head <Gain2x2/In1> .
 
 <CABINET>
     ingen:canvasX 1717.0 ;
@@ -141,13 +70,13 @@ _:b6
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<CABINET/CBass>
-    ingen:value 0.000000 ;
+<CABINET/CLevel>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<CABINET/CLevel>
-    ingen:value 1.000000 ;
+<CABINET/CBass>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -196,11 +125,82 @@ _:b6
         lv2:OutputPort .
 
 <Gain2x2/Gain>
-    ingen:value 3.000000 ;
+    ingen:value -2.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <Gain2x2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vibrochump>
+    ingen:canvasX 687.4 ;
+    ingen:canvasY 691.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 28 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 8 ;
+    lv2:port <vibrochump/in> ,
+             <vibrochump/out> ,
+             <vibrochump/Gain> ,
+             <vibrochump/Tone> ,
+             <vibrochump/Volume> ,
+             <vibrochump/Feedback> ,
+             <vibrochump/Speed> ,
+             <vibrochump/Intensity> ,
+             <vibrochump/Sinewave> ,
+             <vibrochump/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_redeye#vibrochump> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<vibrochump/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<vibrochump/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<vibrochump/Speed>
+    ingen:value 6.751563 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vibrochump/Intensity>
+    ingen:value 5.781250 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vibrochump/Feedback>
+    ingen:value 0.515625 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vibrochump/Sinewave>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vibrochump/Gain>
+    ingen:value 10.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vibrochump/Tone>
+    ingen:value 0.656250 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vibrochump/Volume>
+    ingen:value -0.312500 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vibrochump/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -293,9 +293,9 @@ _:b6
               _:b4 ,
               _:b5 ,
               _:b6 ;
-    ingen:block <vibrochump> ,
-                <CABINET> ,
-                <Gain2x2> ;
+    ingen:block <CABINET> ,
+                <Gain2x2> ,
+                <vibrochump> ;
     lv2:port <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

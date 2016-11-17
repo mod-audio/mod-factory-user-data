@@ -8,77 +8,36 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <playback_2> .
-
-_:b2
     ingen:tail <Gain2x2/Out1> ;
     ingen:head <playback_1> .
 
-_:b3
-    ingen:tail <capture_1> ;
-    ingen:head <GUITARIX/in> .
-
-_:b4
+_:b2
     ingen:tail <GUITARIX/out> ;
     ingen:head <booster/in> .
 
+_:b3
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
+
+_:b4
+    ingen:tail <capture_1> ;
+    ingen:head <GUITARIX/in> .
+
 _:b5
     ingen:tail <booster/out> ;
-    ingen:head <Gain2x2/In2> .
+    ingen:head <modulay/lv2_audio_in_1> .
 
 _:b6
-    ingen:tail <booster/out> ;
+    ingen:tail <modulay/lv2_audio_out_1> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b7
+    ingen:tail <modulay/lv2_audio_out_1> ;
     ingen:head <Gain2x2/In1> .
 
-<Gain2x2>
-    ingen:canvasX 2878.0 ;
-    ingen:canvasY 553.4 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 0 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
-    lv2:port <Gain2x2/In1> ,
-             <Gain2x2/In2> ,
-             <Gain2x2/Out1> ,
-             <Gain2x2/Out2> ,
-             <Gain2x2/Gain> ,
-             <Gain2x2/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<Gain2x2/In1>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Gain2x2/In2>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Gain2x2/In1>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Gain2x2/In2>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Gain2x2/Gain>
-    ingen:value -17.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Gain2x2/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <GUITARIX>
-    ingen:canvasX 988.0 ;
-    ingen:canvasY 602.0 ;
+    ingen:canvasX 714.0 ;
+    ingen:canvasY 544.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 3 ;
@@ -113,8 +72,8 @@ _:b6
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<GUITARIX/MasterGain>
-    ingen:value 10.625000 ;
+<GUITARIX/Cabinet>
+    ingen:value 6.937500 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -133,13 +92,8 @@ _:b6
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<GUITARIX/Cabinet>
-    ingen:value 6.937500 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<GUITARIX/Middle>
-    ingen:value 0.265625 ;
+<GUITARIX/Distortion>
+    ingen:value 76.796875 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -148,13 +102,13 @@ _:b6
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<GUITARIX/PreGain>
-    ingen:value 10.625000 ;
+<GUITARIX/t_model>
+    ingen:value 9.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<GUITARIX/Presence>
-    ingen:value 10.000000 ;
+<GUITARIX/PreGain>
+    ingen:value 10.625000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -163,13 +117,18 @@ _:b6
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<GUITARIX/Distortion>
-    ingen:value 76.796875 ;
+<GUITARIX/Middle>
+    ingen:value 0.265625 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<GUITARIX/t_model>
-    ingen:value 9.000000 ;
+<GUITARIX/Presence>
+    ingen:value 10.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<GUITARIX/MasterGain>
+    ingen:value 10.625000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -182,10 +141,55 @@ _:b6
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<booster>
-    ingen:canvasX 2245.0 ;
-    ingen:canvasY 551.7 ;
+<Gain2x2>
+    ingen:canvasX 2996.0 ;
+    ingen:canvasY 835.4 ;
     ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <Gain2x2/In1> ,
+             <Gain2x2/In2> ,
+             <Gain2x2/Out1> ,
+             <Gain2x2/Out2> ,
+             <Gain2x2/Gain> ,
+             <Gain2x2/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/Gain>
+    ingen:value -22.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<booster>
+    ingen:canvasX 1945.0 ;
+    ingen:canvasY 451.0 ;
+    ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 3 ;
     lv2:minorVersion 28 ;
@@ -219,7 +223,78 @@ _:b6
         lv2:InputPort .
 
 <booster/:bypass>
-    ingen:value 0 ;
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<modulay>
+    ingen:canvasX 2414.3 ;
+    ingen:canvasY 711.2 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 7 ;
+    lv2:port <modulay/lv2_audio_in_1> ,
+             <modulay/lv2_audio_out_1> ,
+             <modulay/repeats> ,
+             <modulay/mix> ,
+             <modulay/rate> ,
+             <modulay/depth> ,
+             <modulay/time> ,
+             <modulay/morph> ,
+             <modulay/tone> ,
+             <modulay/:bypass> ;
+    lv2:prototype <https://github.com/ninodewit/SHIRO-Plugins/plugins/modulay> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<modulay/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<modulay/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<modulay/rate>
+    ingen:value 2.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<modulay/depth>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<modulay/repeats>
+    ingen:value 75.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<modulay/mix>
+    ingen:value 43.750000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<modulay/tone>
+    ingen:value 1129.994555 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<modulay/time>
+    ingen:value 387.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<modulay/morph>
+    ingen:value 50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<modulay/:bypass>
+    ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -299,8 +374,8 @@ _:b6
 
 <>
     doap:name "High-gain" ;
-    pedal:width 3360 ;
-    pedal:height 1736 ;
+    pedal:width 3840 ;
+    pedal:height 1746 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
@@ -310,10 +385,12 @@ _:b6
               _:b3 ,
               _:b4 ,
               _:b5 ,
-              _:b6 ;
-    ingen:block <Gain2x2> ,
-                <GUITARIX> ,
-                <booster> ;
+              _:b6 ,
+              _:b7 ;
+    ingen:block <GUITARIX> ,
+                <Gain2x2> ,
+                <booster> ,
+                <modulay> ;
     lv2:port <control_in> ,
              <control_out> ,
              <serial_midi_in> ,
