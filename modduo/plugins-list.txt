@@ -21,6 +21,7 @@ gxtilttone.lv2
 gxbooster.lv2
 gxts9.lv2
 invada.lv2
+midifilter.lv2
 mod-bigmuff.lv2
 mod-caps-AmpVTS.lv2
 mod-caps-CabinetIV.lv2
