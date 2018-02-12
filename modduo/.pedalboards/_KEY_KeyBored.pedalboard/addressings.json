@@ -1,0 +1,1 @@
+{"/hmi/footswitch2": [{"maximum": 1.0, "port": ":bypass", "instance": "/graph/FluidPlug_FluidEnsemble", "minimum": 0.0, "steps": 33, "label": "Fluid Ensemble"}], "/hmi/footswitch1": [{"maximum": 1.0, "port": ":bypass", "instance": "/graph/FluidPlug_FluidPianos", "minimum": 0.0, "steps": 33, "label": "Fluid Pianos"}], "/hmi/knob1": [], "/hmi/knob2": []}

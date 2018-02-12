@@ -1,0 +1,1 @@
+{"/hmi/footswitch2": [], "/hmi/knob2": [{"port": "Gain", "minimum": -40.0, "instance": "/graph/Gain2x2", "label": "Output Volume", "steps": 65, "maximum": 40.0}], "/hmi/knob1": [{"port": ":presets", "minimum": -1.0, "instance": "/graph/JX10", "label": "JX10", "steps": 33, "maximum": 53}], "/hmi/footswitch1": []}
