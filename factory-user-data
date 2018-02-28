@@ -120,8 +120,11 @@ function retrieve {
     # restart services
     sshpass -p mod ssh root@${MOD_IP} "systemctl restart jack2 mod-ui"
 
+    # add possible new files
+    git add $1
+
     echo "committing changes"
-    git commit -a -m "factory user data updated by $(git config user.name)"
+    git commit -m "factory user data updated by $(git config user.name)"
 
     echo "uploading recent changes to remote repository"
     git_me pull --rebase
