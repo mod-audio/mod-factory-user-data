@@ -99,11 +99,23 @@ function copy_key {
 
 function retrieve {
     echo "retrieving user data from MOD"
+
+    sshpass -p mod ssh root@${MOD_IP} "rm -rf /tmp/new-factory-data && mkdir -p /tmp/new-factory-data"
     for d in ${TO_COPY[@]}; do
+        # copy data from MOD to user's PC
         sshpass -p mod scp -r root@${MOD_IP}:/root/$d $1/
-        sshpass -p mod ssh root@${MOD_IP} "cp -rf /root/$d /tmp/ && rm -rf /root/$d"
-        sshpass -p mod ssh root@${MOD_IP} "mv /root/user-data-backup/$d /root"
+
+        # move current data to /tmp
+        # in case something goes wrong is still a way to recover the data yet
+        sshpass -p mod ssh root@${MOD_IP} "cp -rf /root/$d /tmp/new-factory-data"
+
+        # recover previous user data
+        sshpass -p mod ssh root@${MOD_IP} "[[ -d /root/user-data-backup ]] && rm -rf /root/$d"
+        sshpass -p mod ssh root@${MOD_IP} "[[ -d /root/user-data-backup ]] && mv /root/user-data-backup/$d /root"
     done
+
+    # clean old user data
+    sshpass -p mod ssh root@${MOD_IP} "[[ -d /root/user-data-backup ]] && mv /root/user-data-backup /tmp"
 
     # restart services
     sshpass -p mod ssh root@${MOD_IP} "systemctl restart jack2 mod-ui"
