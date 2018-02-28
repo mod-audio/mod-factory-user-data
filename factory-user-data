@@ -68,7 +68,7 @@ function git_me {
 function wait_mod {
     while true; do
         if command -v ifconfig > /dev/null; then
-            MOD_IP=$(ifconfig | grep -oE "192\.168\.(50|51)\.")
+            MOD_IP=$(ifconfig | grep -oE "192\.168\.(50|51)\." | head -1)
         elif command -v ip > /dev/null; then
             MOD_IP=$(ip route | grep -oE "192\.168\.(50|51)\." | head -1)
         else
