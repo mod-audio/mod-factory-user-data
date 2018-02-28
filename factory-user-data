@@ -98,33 +98,39 @@ function copy_key {
 }
 
 function retrieve {
-    echo "retrieving user data from MOD"
+    echo "retrieving new factory data from MOD"
 
-    sshpass -p mod ssh root@${MOD_IP} "rm -rf /tmp/new-factory-data && mkdir -p /tmp/new-factory-data"
+    LOCAL_BACKUP=/tmp/mod-factory-data/$1
+    MOD_BACKUP=/tmp/new-factory-data
+
+    # create backup directories
+    # in the case something goes wrong is still a way to recover the data yet
+    mkdir -p ${LOCAL_BACKUP}
+    sshpass -p mod ssh root@${MOD_IP} "rm -rf ${MOD_BACKUP} && mkdir -p ${MOD_BACKUP}"
+
     for d in ${TO_COPY[@]}; do
+        # move files to backup dir (local)
+        mv $1/$d ${LOCAL_BACKUP}
+
         # copy data from MOD to user's PC
         sshpass -p mod scp -r root@${MOD_IP}:/root/$d $1/
 
-        # move current data to /tmp
-        # in case something goes wrong is still a way to recover the data yet
+        # move files to backup dir (device)
         sshpass -p mod ssh root@${MOD_IP} "cp -rf /root/$d /tmp/new-factory-data"
-
-        # recover previous user data
-        sshpass -p mod ssh root@${MOD_IP} "[[ -d /root/user-data-backup ]] && rm -rf /root/$d"
-        sshpass -p mod ssh root@${MOD_IP} "[[ -d /root/user-data-backup ]] && mv /root/user-data-backup/$d /root"
     done
 
-    # clean old user data
-    sshpass -p mod ssh root@${MOD_IP} "[[ -d /root/user-data-backup ]] && mv /root/user-data-backup /tmp"
+    # update plugins list
+    sshpass -p mod ssh root@${MOD_IP} "ls -1 /root/.lv2 | tr -d '/'" > $1/plugins-list.txt
 
     # restart services
     sshpass -p mod ssh root@${MOD_IP} "systemctl restart jack2 mod-ui"
 
-    # add possible new files
-    git add $1
+    # add possible new files to git
+    git_me add $1
 
     echo "committing changes"
-    git commit -m "factory user data updated by $(git config user.name)"
+    GIT_USER=$(git config user.name)
+    git_me commit -am 'factory user data updated by ${GIT_USER}'
 
     echo "uploading recent changes to remote repository"
     git_me pull --rebase
@@ -137,11 +143,13 @@ function deploy {
     echo "downloading the latest user data from remote repository"
     git_me pull --rebase
 
-    sshpass -p mod ssh root@${MOD_IP} "mkdir -p /root/user-data-backup"
+    # create dir to backup user data
+    USER_BACKUP=/tmp/user-data-backup
+    sshpass -p mod ssh root@${MOD_IP} "mkdir -p ${USER_BACKUP}"
 
-    echo "deploying user data to MOD"
+    echo "deploying factory data to MOD"
     for d in ${TO_COPY[@]}; do
-        sshpass -p mod ssh root@${MOD_IP} "mv /root/$d /root/user-data-backup"
+        sshpass -p mod ssh root@${MOD_IP} "mv /root/$d ${USER_BACKUP}"
         sshpass -p mod scp -r "$1/$d" root@${MOD_IP}:/root/
     done
 
