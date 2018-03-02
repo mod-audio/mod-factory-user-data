@@ -1,1 +1,0 @@
-{"/hmi/footswitch2": [{"port": ":bypass", "minimum": 0.0, "instance": "/graph/roomy", "label": "Roomy", "steps": 33, "maximum": 1.0}], "/hmi/knob2": [], "/hmi/knob1": [], "/hmi/footswitch1": [{"port": ":bypass", "minimum": 0.0, "instance": "/graph/harmless", "label": "Harmless", "steps": 33, "maximum": 1.0}]}
