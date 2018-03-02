@@ -100,7 +100,7 @@ function copy_key {
 function retrieve {
     echo "retrieving new factory data from MOD"
 
-    LOCAL_BACKUP=/tmp/mod-factory-data/$1
+    LOCAL_BACKUP="/tmp/mod-factory-data/$1-$(date +%s)"
     MOD_BACKUP=/tmp/new-factory-data
 
     # create backup directories
@@ -130,7 +130,7 @@ function retrieve {
 
     echo "committing changes"
     GIT_USER=$(git config user.name)
-    git_me commit -am 'factory user data updated by ${GIT_USER}'
+    git commit -am "factory user data updated by ${GIT_USER}"
 
     echo "uploading recent changes to remote repository"
     git_me pull --rebase
