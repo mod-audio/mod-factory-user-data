@@ -1,0 +1,1 @@
+{"/hmi/knob2": [{"label": "Output Volume", "steps": 33, "instance": "/graph/Gain2x2", "minimum": -20.0, "port": "Gain", "maximum": 12.0}], "/hmi/footswitch2": [], "/hmi/footswitch1": [], "/hmi/knob1": []}

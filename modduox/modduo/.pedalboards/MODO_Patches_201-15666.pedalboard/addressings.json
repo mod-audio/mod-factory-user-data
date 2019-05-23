@@ -1,0 +1,1 @@
+{"/hmi/knob1": [], "/hmi/footswitch2": [], "/hmi/knob2": [], "/hmi/footswitch1": [{"steps": 1, "port": "tap", "minimum": 0.0, "instance": "/graph/bolliedelay", "maximum": 1.0, "label": "Tap"}]}
