@@ -1,12 +1,3 @@
-Black_Pearl_5.lv2
-FluidBass.lv2
-FluidBrass.lv2
-FluidChromPerc.lv2
-FluidDrums.lv2
-FluidEnsemble.lv2
-FluidPianos.lv2
-FluidStrings.lv2
-FluidSynthLeads.lv2
 Harmless.lv2
 Larynx.lv2
 MVerb.lv2
