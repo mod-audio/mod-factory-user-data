@@ -1,0 +1,589 @@
+@prefix atom:  <http://lv2plug.in/ns/ext/atom#> .
+@prefix doap:  <http://usefulinc.com/ns/doap#> .
+@prefix ingen: <http://drobilla.net/ns/ingen#> .
+@prefix lv2:   <http://lv2plug.in/ns/lv2core#> .
+@prefix midi:  <http://lv2plug.in/ns/ext/midi#> .
+@prefix mod:   <http://moddevices.com/ns/mod#> .
+@prefix pedal: <http://moddevices.com/ns/modpedal#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+_:b1
+    ingen:tail <capture_1> ;
+    ingen:head <filta/in_left> .
+
+_:b2
+    ingen:tail <capture_2> ;
+    ingen:head <filta/in_right> .
+
+_:b3
+    ingen:tail <filta/out_right> ;
+    ingen:head <DubDelay/right_in> .
+
+_:b4
+    ingen:tail <filta/out_left> ;
+    ingen:head <DubDelay/left_in> .
+
+_:b5
+    ingen:tail <filta/out_left> ;
+    ingen:head <_reverb_stereo/in> .
+
+_:b6
+    ingen:tail <filta/out_right> ;
+    ingen:head <_reverb_stereo/in1> .
+
+_:b7
+    ingen:tail <_reverb_stereo/out> ;
+    ingen:head <xfade/inA_left> .
+
+_:b8
+    ingen:tail <_reverb_stereo/out1> ;
+    ingen:head <xfade/inA_right> .
+
+_:b9
+    ingen:tail <DubDelay/left_out> ;
+    ingen:head <xfade/inB_left> .
+
+_:b10
+    ingen:tail <DubDelay/right_out> ;
+    ingen:head <xfade/inB_right> .
+
+_:b11
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <filta_1/in_right> .
+
+_:b12
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <filta_1/in_left> .
+
+_:b13
+    ingen:tail <xfade/out_right> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b14
+    ingen:tail <xfade/out_left> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b15
+    ingen:tail <filta_1/out_left> ;
+    ingen:head <playback_1> .
+
+_:b16
+    ingen:tail <filta_1/out_right> ;
+    ingen:head <playback_2> .
+
+<Gain2x2>
+    ingen:canvasX 1830.0 ;
+    ingen:canvasY 339.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 11 ;
+    lv2:port <Gain2x2/In1> ,
+             <Gain2x2/In2> ,
+             <Gain2x2/Out1> ,
+             <Gain2x2/Out2> ,
+             <Gain2x2/Gain> ,
+             <Gain2x2/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/Gain>
+    ingen:value -0.070000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<filta>
+    ingen:canvasX 259.0 ;
+    ingen:canvasY 404.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <filta/in_left> ,
+             <filta/in_right> ,
+             <filta/out_left> ,
+             <filta/out_right> ,
+             <filta/frequency_control> ,
+             <filta/active> ,
+             <filta/:bypass> ;
+    lv2:prototype <http://www.openavproductions.com/artyfx#filta> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<filta/in_left>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<filta/in_right>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<filta/in_left>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<filta/in_right>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<filta/active>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<filta/frequency_control>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<filta/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DubDelay>
+    ingen:canvasX 753.0 ;
+    ingen:canvasY 535.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 6 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 7 ;
+    lv2:port <DubDelay/left_in> ,
+             <DubDelay/right_in> ,
+             <DubDelay/left_out> ,
+             <DubDelay/right_out> ,
+             <DubDelay/delay> ,
+             <DubDelay/feedback> ,
+             <DubDelay/fb_tone> ,
+             <DubDelay/lfo_depth> ,
+             <DubDelay/lfo_rate> ,
+             <DubDelay/fx_mix> ,
+             <DubDelay/output> ,
+             <DubDelay/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mda/DubDelay> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<DubDelay/left_in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<DubDelay/right_in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<DubDelay/left_in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<DubDelay/right_in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<DubDelay/fb_tone>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DubDelay/lfo_depth>
+    ingen:value 50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DubDelay/feedback>
+    ingen:value -5.240000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DubDelay/fx_mix>
+    ingen:value 44.538000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DubDelay/output>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DubDelay/delay>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DubDelay/lfo_rate>
+    ingen:value 50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DubDelay/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_reverb_stereo>
+    ingen:canvasX 887.4 ;
+    ingen:canvasY 4.4 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 28 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 20 ;
+    lv2:port <_reverb_stereo/in> ,
+             <_reverb_stereo/in1> ,
+             <_reverb_stereo/out> ,
+             <_reverb_stereo/out1> ,
+             <_reverb_stereo/dry_wet> ,
+             <_reverb_stereo/lfo> ,
+             <_reverb_stereo/roomsize> ,
+             <_reverb_stereo/damp> ,
+             <_reverb_stereo/mode> ,
+             <_reverb_stereo/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_reverb_stereo#_reverb_stereo> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<_reverb_stereo/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<_reverb_stereo/in1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<_reverb_stereo/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<_reverb_stereo/in1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<_reverb_stereo/dry_wet>
+    ingen:value 45.487000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_reverb_stereo/roomsize>
+    ingen:value 0.242000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_reverb_stereo/mode>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_reverb_stereo/lfo>
+    ingen:value 0.200000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_reverb_stereo/damp>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_reverb_stereo/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade>
+    ingen:canvasX 1302.0 ;
+    ingen:canvasY 352.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 516 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <xfade/inA_left> ,
+             <xfade/inA_right> ,
+             <xfade/inB_left> ,
+             <xfade/inB_right> ,
+             <xfade/out_left> ,
+             <xfade/out_right> ,
+             <xfade/xfade> ,
+             <xfade/shape> ,
+             <xfade/mode> ,
+             <xfade/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/xfade> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<xfade/inA_left>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade/inA_right>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade/inB_left>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade/inB_right>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade/inA_left>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade/inA_right>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade/inB_left>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade/inB_right>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade/mode>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade/xfade>
+    ingen:value 0.023000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade/shape>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<filta_1>
+    ingen:canvasX 2306.0 ;
+    ingen:canvasY 342.4 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <filta_1/in_left> ,
+             <filta_1/in_right> ,
+             <filta_1/out_left> ,
+             <filta_1/out_right> ,
+             <filta_1/frequency_control> ,
+             <filta_1/active> ,
+             <filta_1/:bypass> ;
+    lv2:prototype <http://www.openavproductions.com/artyfx#filta> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<filta_1/in_left>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<filta_1/in_right>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<filta_1/in_left>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<filta_1/in_right>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<filta_1/active>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<filta_1/frequency_control>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<filta_1/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpb>
+    ingen:value 4.000000 ;
+    lv2:index 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpm>
+    ingen:value 120.000000 ;
+    lv2:index 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:rolling>
+    ingen:value 0 ;
+    lv2:index 2 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<control_in>
+    atom:bufferType atom:Sequence ;
+    lv2:index 3 ;
+    lv2:name "Control In" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "control_in" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<control_out>
+    atom:bufferType atom:Sequence ;
+    lv2:index 4 ;
+    lv2:name "Control Out" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "control_out" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:OutputPort .
+
+<capture_1>
+    lv2:index 5 ;
+    lv2:name "Capture 1" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "capture_1" ;
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<capture_2>
+    lv2:index 6 ;
+    lv2:name "Capture 2" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "capture_2" ;
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<playback_1>
+    lv2:index 7 ;
+    lv2:name "Playback 1" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "playback_1" ;
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<playback_2>
+    lv2:index 8 ;
+    lv2:name "Playback 2" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "playback_2" ;
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<serial_midi_in>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    lv2:index 9 ;
+    lv2:name "DIN MIDI In" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "serial_midi_in" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<serial_midi_out>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    lv2:index 10 ;
+    lv2:name "DIN MIDI In" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "serial_midi_out" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:OutputPort .
+
+<midi_legacy_mode>
+    ingen:value 0 ;
+    lv2:index 11 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<>
+    doap:name "Filter Verb w Dub Delay" ;
+    pedal:width 3206 ;
+    pedal:height 1426 ;
+    pedal:addressings <addressings.json> ;
+    pedal:screenshot <screenshot.png> ;
+    pedal:thumbnail <thumbnail.png> ;
+    ingen:polyphony 1 ;
+    ingen:arc _:b1 ,
+              _:b2 ,
+              _:b3 ,
+              _:b4 ,
+              _:b5 ,
+              _:b6 ,
+              _:b7 ,
+              _:b8 ,
+              _:b9 ,
+              _:b10 ,
+              _:b11 ,
+              _:b12 ,
+              _:b13 ,
+              _:b14 ,
+              _:b15 ,
+              _:b16 ;
+    ingen:block <Gain2x2> ,
+                <filta> ,
+                <DubDelay> ,
+                <_reverb_stereo> ,
+                <xfade> ,
+                <filta_1> ;
+    lv2:port <:bpb> ,
+             <:bpm> ,
+             <:rolling> ,
+             <midi_legacy_mode> ,
+             <control_in> ,
+             <control_out> ,
+             <serial_midi_in> ,
+             <serial_midi_out> ,
+             <capture_1> ,
+             <capture_2> ,
+             <playback_1> ,
+             <playback_2> ;
+    lv2:extensionData <http://lv2plug.in/ns/ext/state#interface> ;
+    a lv2:Plugin ,
+        ingen:Graph ,
+        pedal:Pedalboard .
