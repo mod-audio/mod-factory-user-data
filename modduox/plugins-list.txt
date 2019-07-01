@@ -1,4 +1,5 @@
 abGate.lv2
+amsynth.lv2
 artyfx.lv2
 avocado.lv2
 bolliedelay.lv2
@@ -31,6 +32,7 @@ Nekobi.lv2
 rkr.lv2
 Shiroverb.lv2
 shiroverb_mkII.lv2
+stepseq_s8n8.lv2
 TAL-NoiseMaker-ME.lv2
 tap-autopan.lv2
 tap-chorusflanger.lv2
@@ -38,4 +40,5 @@ tap-dynamics-st.lv2
 tap-reflector.lv2
 tap-reverb.lv2
 tap-tubewarmth.lv2
+WOV_gendsp.lv2
 xfade.lv2
