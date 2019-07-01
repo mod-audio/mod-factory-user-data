@@ -1,1 +1,176 @@
-[]
+[
+    {
+        "title": "Duo X ",
+        "pedalboards": [
+            {
+                "title": "Bass Enhance",
+                "bundle": "/root/.pedalboards/Bass_Enhance.pedalboard"
+            },
+            {
+                "title": "Cabinet Flange",
+                "bundle": "/root/.pedalboards/Cabinet_Flange.pedalboard"
+            },
+            {
+                "title": "Chorus Flanger w Master EQ and Dynamics",
+                "bundle": "/root/.pedalboards/Chorus_Flanger_w.pedalboard"
+            },
+            {
+                "title": "Classic Flange  w Master EQ and Dynamics",
+                "bundle": "/root/.pedalboards/Classic_Flange_w.pedalboard"
+            },
+            {
+                "title": "Chorus w Master EQ and Dynamics",
+                "bundle": "/root/.pedalboards/Chorus_w_Master_.pedalboard"
+            },
+            {
+                "title": "Dual Acid Machine w Delay and Reverb",
+                "bundle": "/root/.pedalboards/Dual_Acid_Machin.pedalboard"
+            },
+            {
+                "title": "Floating Morph Delay w Master EQ and Dynamics",
+                "bundle": "/root/.pedalboards/Floating_Morph_D-99145.pedalboard"
+            },
+            {
+                "title": "Parallel Gated Verb w Dub Delay Master EQ and Dynamics",
+                "bundle": "/root/.pedalboards/Parallel_Gated_V-93497.pedalboard"
+            },
+            {
+                "title": "Stereo Dynamics and EQ",
+                "bundle": "/root/.pedalboards/Stereo_Dynamics_.pedalboard"
+            },
+            {
+                "title": "Tap Tempo Delay Network",
+                "bundle": "/root/.pedalboards/Tap_Tempo_Delay_.pedalboard"
+            },
+            {
+                "title": "Tape and Tube Emulator w Filter and Master EQ and Dynamics",
+                "bundle": "/root/.pedalboards/Tape_and_Tube_Em.pedalboard"
+            },
+            {
+                "title": "X-Fade MOD Delay w Filter and Pan",
+                "bundle": "/root/.pedalboards/X_Fade_MOD_Delay-2003.pedalboard"
+            },
+            {
+                "title": "Vintage Delay w Scramble and Filter",
+                "bundle": "/root/.pedalboards/Vintage_Delay_w_.pedalboard"
+            },
+            {
+                "title": "Vintage Delay W crossfaded Reverb",
+                "bundle": "/root/.pedalboards/Vintage_Delay_W_.pedalboard"
+            },
+            {
+                "title": "Shimmer Reverb w Master EQ and Dynamics",
+                "bundle": "/root/.pedalboards/Shimmer_Reverb_w.pedalboard"
+            },
+            {
+                "title": "Switchable Filters w Master EQ and Dynamics",
+                "bundle": "/root/.pedalboards/Switchable_Filte-68653.pedalboard"
+            },
+            {
+                "title": "Switchable Delay with Reverb Master EQ and Dynamics",
+                "bundle": "/root/.pedalboards/Switchable_Delay.pedalboard"
+            },
+            {
+                "title": "Ring Modulator w Master EQ and Dynamics",
+                "bundle": "/root/.pedalboards/Ring_Modulator_w.pedalboard"
+            },
+            {
+                "title": "Noise Maker",
+                "bundle": "/root/.pedalboards/Noise_Maker.pedalboard"
+            },
+            {
+                "title": "Harmonic Distortion w Master EQ and Dynamics",
+                "bundle": "/root/.pedalboards/Harmonic_Distort.pedalboard"
+            },
+            {
+                "title": "Filter Delay",
+                "bundle": "/root/.pedalboards/Filter_Delay.pedalboard"
+            },
+            {
+                "title": "Filtered Stereo Delay w Master EQ and Dynamics",
+                "bundle": "/root/.pedalboards/Filtered_Stereo_.pedalboard"
+            },
+            {
+                "title": "Filtered Dual 4 Point Pitch Blend",
+                "bundle": "/root/.pedalboards/Filtered_Dual_4_.pedalboard"
+            },
+            {
+                "title": "Filter Verb w Dub Delay",
+                "bundle": "/root/.pedalboards/Filter_Verb_w_Du.pedalboard"
+            },
+            {
+                "title": "Envelope Filter with Reverb and Dynamics",
+                "bundle": "/root/.pedalboards/Envelope_Filter_-64479.pedalboard"
+            },
+            {
+                "title": "Exciter w Master EQ",
+                "bundle": "/root/.pedalboards/Exciter_w_Master.pedalboard"
+            },
+            {
+                "title": "Envelope Filter w Master EQ and Dynamics",
+                "bundle": "/root/.pedalboards/Envelope_Filter_-16470.pedalboard"
+            },
+            {
+                "title": "Ducked Delay w Filter Master EQ and Dynamics",
+                "bundle": "/root/.pedalboards/Ducked_Delay_w_F-2659.pedalboard"
+            },
+            {
+                "title": "Dub Delay with Master EQ and  Dynamics",
+                "bundle": "/root/.pedalboards/Dub_Delay_with_M.pedalboard"
+            },
+            {
+                "title": "Dual Filtered Pitch Shifter w Master EQ and Dynamics",
+                "bundle": "/root/.pedalboards/Dual_Filtered_Pi-29709.pedalboard"
+            },
+            {
+                "title": "Dual Stereo Cabinet and Tube Emulation with Stereo Compression/ Limiting",
+                "bundle": "/root/.pedalboards/Dual_Stereo_Cabi-70343.pedalboard"
+            },
+            {
+                "title": "Dual Shelved Distortion",
+                "bundle": "/root/.pedalboards/Dual_Shelved_Dis.pedalboard"
+            },
+            {
+                "title": "Classic Reverb (MVerb) w Master EQ and Dynamics",
+                "bundle": "/root/.pedalboards/Classic_Reverb_M.pedalboard"
+            },
+            {
+                "title": "Vintage Delay w Scramble and Filter",
+                "bundle": "/root/.pedalboards/Vintage_Delay_w_.pedalboard"
+            },
+            {
+                "title": "Vintage Delay W crossfaded Reverb",
+                "bundle": "/root/.pedalboards/Vintage_Delay_W_.pedalboard"
+            },
+            {
+                "title": "X-Fade MOD Delay w Filter and Pan",
+                "bundle": "/root/.pedalboards/X_Fade_MOD_Delay-2003.pedalboard"
+            },
+            {
+                "title": "Flange Lab",
+                "bundle": "/root/.pedalboards/Flange_Lab.pedalboard"
+            },
+            {
+                "title": "Noise Maker",
+                "bundle": "/root/.pedalboards/Noise_Maker.pedalboard"
+            },
+            {
+                "title": "Vintage Delay W crossfaded Reverb",
+                "bundle": "/root/.pedalboards/Vintage_Delay_W_.pedalboard"
+            }
+        ]
+    },
+    {
+        "title": "Synth",
+        "pedalboards": [
+            {
+                "title": "Noise Maker",
+                "bundle": "/root/.pedalboards/Noise_Maker.pedalboard"
+            },
+            {
+                "title": "Dual Acid Machine w Delay and Reverb",
+                "bundle": "/root/.pedalboards/Dual_Acid_Machin.pedalboard"
+            }
+        ]
+    }
+]
