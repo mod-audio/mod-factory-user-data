@@ -3,6 +3,10 @@
         "title": "Duo X ",
         "pedalboards": [
             {
+                "title": "FX - BOLLIEDELAY",
+                "bundle": "/root/.pedalboards/FX_BOLLIEDELAY.pedalboard"
+            },
+            {
                 "title": "Chorus Flanger w Master EQ and Dynamics",
                 "bundle": "/root/.pedalboards/Chorus_Flanger_w.pedalboard"
             },
@@ -13,10 +17,6 @@
             {
                 "title": "Chorus w Master EQ and Dynamics",
                 "bundle": "/root/.pedalboards/Chorus_w_Master_.pedalboard"
-            },
-            {
-                "title": "Dual Acid Machine w Delay and Reverb",
-                "bundle": "/root/.pedalboards/Dual_Acid_Machin.pedalboard"
             },
             {
                 "title": "Floating Morph Delay w Master EQ and Dynamics",
@@ -37,10 +37,6 @@
             {
                 "title": "Switchable Filters w Master EQ and Dynamics",
                 "bundle": "/root/.pedalboards/Switchable_Filte-68653.pedalboard"
-            },
-            {
-                "title": "Noise Maker",
-                "bundle": "/root/.pedalboards/Noise_Maker.pedalboard"
             },
             {
                 "title": "Filter Delay",
@@ -75,7 +71,7 @@
                 "bundle": "/root/.pedalboards/Dual_Filtered_Pi-29709.pedalboard"
             },
             {
-                "title": "Dual Stereo Cabinet and Tube Emulation with Stereo Compression/ Limiting",
+                "title": "Dual Stereo Cabinet and Tube Emulation with Stereo Com                                                                                                                                                             pression/ Limiting",
                 "bundle": "/root/.pedalboards/Dual_Stereo_Cabi-70343.pedalboard"
             },
             {
@@ -93,10 +89,6 @@
             {
                 "title": "Flange Lab",
                 "bundle": "/root/.pedalboards/Flange_Lab.pedalboard"
-            },
-            {
-                "title": "Noise Maker",
-                "bundle": "/root/.pedalboards/Noise_Maker.pedalboard"
             }
         ]
     },
@@ -110,7 +102,20 @@
             {
                 "title": "Dual Acid Machine w Delay and Reverb",
                 "bundle": "/root/.pedalboards/Dual_Acid_Machin.pedalboard"
+            },
+            {
+                "title": "SYNTH - FM",
+                "bundle": "/root/.pedalboards/SYNTH_FM.pedalboard"
+            },
+            {
+                "title": "SYNTH - PIANO EPIANO",
+                "bundle": "/root/.pedalboards/SYNTH_PIANO_EPIA.pedalboard"
+            },
+            {
+                "title": "SYNTH - ACID",
+                "bundle": "/root/.pedalboards/SYNTH_ACID.pedalboard"
             }
         ]
     }
 ]
+
