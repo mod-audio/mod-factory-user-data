@@ -1,1 +1,1 @@
-{"/hmi/knob2": [{"label": "Output Volume", "steps": 33, "instance": "/graph/Gain2x2", "minimum": -20.0, "port": "Gain", "maximum": 12.0}], "/hmi/footswitch2": [], "/hmi/footswitch1": [], "/hmi/knob1": []}
+{"/hmi/footswitch1": [], "/hmi/footswitch2": [{"port": ":bypass", "steps": 33, "maximum": 1.0, "label": "T.Bypass", "instance": "/graph/HardwareBypass", "minimum": 0.0}], "/hmi/knob2": [], "/hmi/knob1": []}
