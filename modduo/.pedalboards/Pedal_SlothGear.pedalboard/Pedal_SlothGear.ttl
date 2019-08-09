@@ -8,315 +8,91 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <Plate/outl> ;
-    ingen:head <Gain2x2/In1> .
+    ingen:tail <capture_1> ;
+    ingen:head <_slowgear_/in> .
 
 _:b2
-    ingen:tail <Plate/outr> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b3
-    ingen:tail <modulay/lv2_audio_out_1> ;
-    ingen:head <Plate/in> .
-
-_:b4
-    ingen:tail <Gain2x2/Out1> ;
+    ingen:tail <_slowgear_/out> ;
     ingen:head <playback_1> .
 
-_:b5
-    ingen:tail <Gain2x2/Out2> ;
+_:b3
+    ingen:tail <_slowgear_/out> ;
     ingen:head <playback_2> .
 
-_:b6
-    ingen:tail <cabsim_vintage/Out> ;
-    ingen:head <modulay/lv2_audio_in_1> .
-
-_:b7
-    ingen:tail <onyx/Out> ;
-    ingen:head <cabsim_vintage/In> .
-
-_:b8
-    ingen:tail <capture_1> ;
-    ingen:head <onyx/In> .
-
-<Gain2x2>
-    ingen:canvasX 3101.0 ;
-    ingen:canvasY 381.0 ;
-    ingen:enabled true ;
+<HardwareBypass>
+    ingen:canvasX 2237.0 ;
+    ingen:canvasY 814.0 ;
+    ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 12 ;
-    lv2:port <Gain2x2/In1> ,
-             <Gain2x2/In2> ,
-             <Gain2x2/Out1> ,
-             <Gain2x2/Out2> ,
-             <Gain2x2/Gain> ,
-             <Gain2x2/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    mod:releaseNumber 7 ;
+    lv2:port <HardwareBypass/enabled> ,
+             <HardwareBypass/mode> ,
+             <HardwareBypass/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/HardwareBypass> ;
     pedal:preset <> ;
     a ingen:Block .
 
-<Gain2x2/In1>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Gain2x2/In2>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Gain2x2/In1>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Gain2x2/In2>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Gain2x2/Gain>
-    ingen:value -2.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Gain2x2/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Plate>
-    ingen:canvasX 1755.0 ;
-    ingen:canvasY 912.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 24 ;
-    lv2:minorVersion 9 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 11 ;
-    lv2:port <Plate/in> ,
-             <Plate/outl> ,
-             <Plate/outr> ,
-             <Plate/bandwidth> ,
-             <Plate/tail> ,
-             <Plate/damping> ,
-             <Plate/blend> ,
-             <Plate/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/caps/Plate> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<Plate/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Plate/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Plate/tail>
-    ingen:value 0.360491 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Plate/blend>
-    ingen:value 0.250000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Plate/bandwidth>
-    ingen:value 0.587054 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Plate/damping>
-    ingen:value 0.665179 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Plate/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<cabsim_vintage>
-    ingen:canvasX 1827.0 ;
-    ingen:canvasY 339.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 1 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 3 ;
-    lv2:port <cabsim_vintage/In> ,
-             <cabsim_vintage/Out> ,
-             <cabsim_vintage/Attenuation> ,
-             <cabsim_vintage/Model> ,
-             <cabsim_vintage/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mod-devel/cabsim-vintage> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<cabsim_vintage/In>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<cabsim_vintage/In>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<cabsim_vintage/Model>
-    ingen:value 5.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<cabsim_vintage/Attenuation>
+<HardwareBypass/enabled>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<cabsim_vintage/:bypass>
-    ingen:value 0 ;
+<HardwareBypass/mode>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<modulay>
-    ingen:canvasX 1180.0 ;
-    ingen:canvasY 930.0 ;
-    ingen:enabled false ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 9 ;
-    lv2:port <modulay/lv2_audio_in_1> ,
-             <modulay/lv2_audio_out_1> ,
-             <modulay/repeats> ,
-             <modulay/mix> ,
-             <modulay/rate> ,
-             <modulay/depth> ,
-             <modulay/time> ,
-             <modulay/morph> ,
-             <modulay/tone> ,
-             <modulay/:bypass> ;
-    lv2:prototype <https://github.com/ninodewit/SHIRO-Plugins/plugins/modulay> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<modulay/lv2_audio_in_1>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<modulay/lv2_audio_in_1>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<modulay/tone>
-    ingen:value 3000.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<modulay/depth>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<modulay/morph>
-    ingen:value 50.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<modulay/repeats>
-    ingen:value 20.625000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<modulay/mix>
-    ingen:value 75.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<modulay/rate>
-    ingen:value 2.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<modulay/time>
-    ingen:value 500.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<modulay/:bypass>
+<HardwareBypass/:bypass>
     ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<onyx>
-    ingen:canvasX 583.9 ;
-    ingen:canvasY 295.3 ;
+<_slowgear_>
+    ingen:canvasX 1494.4 ;
+    ingen:canvasY 295.9 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
-    lv2:minorVersion 1 ;
+    lv2:minorVersion 34 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
-    lv2:port <onyx/In> ,
-             <onyx/Out> ,
-             <onyx/Gain> ,
-             <onyx/clip> ,
-             <onyx/Character> ,
-             <onyx/Bass> ,
-             <onyx/Mid> ,
-             <onyx/Treble> ,
-             <onyx/Vol> ,
-             <onyx/:bypass> ;
-    lv2:prototype <http://VeJaPlugins.com/plugins/Release/onyx> ;
+    mod:releaseNumber 6 ;
+    lv2:port <_slowgear_/in> ,
+             <_slowgear_/out> ,
+             <_slowgear_/DOWNTIME> ,
+             <_slowgear_/TRESHOLD> ,
+             <_slowgear_/UPTIME> ,
+             <_slowgear_/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_slowgear_#_slowgear_> ;
     pedal:preset <> ;
     a ingen:Block .
 
-<onyx/In>
+<_slowgear_/in>
     a lv2:AudioPort ,
         lv2:InputPort .
 
-<onyx/In>
+<_slowgear_/in>
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<onyx/Mid>
-    ingen:value 0.586957 ;
+<_slowgear_/TRESHOLD>
+    ingen:value 0.250000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<onyx/clip>
-    ingen:value 250.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<onyx/Treble>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<onyx/Character>
+<_slowgear_/DOWNTIME>
     ingen:value 50.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<onyx/Gain>
-    ingen:value 75.250000 ;
+<_slowgear_/UPTIME>
+    ingen:value 350.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<onyx/Vol>
-    ingen:value 50.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<onyx/Bass>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<onyx/:bypass>
+<_slowgear_/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -557,26 +333,18 @@ _:b8
         lv2:OutputPort .
 
 <>
-    doap:name "Rig: Hardrock Essentials" ;
+    doap:name "Pedal: SlothGear" ;
     pedal:width 3840 ;
-    pedal:height 1758 ;
+    pedal:height 1838 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
-              _:b3 ,
-              _:b4 ,
-              _:b5 ,
-              _:b6 ,
-              _:b7 ,
-              _:b8 ;
-    ingen:block <Gain2x2> ,
-                <Plate> ,
-                <cabsim_vintage> ,
-                <modulay> ,
-                <onyx> ;
+              _:b3 ;
+    ingen:block <HardwareBypass> ,
+                <_slowgear_> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
