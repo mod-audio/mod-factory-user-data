@@ -1,0 +1,77 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": -50.0,
+            "maximum": 50.0,
+            "page": null,
+            "instance": "/graph/EPiano",
+            "tempo": null,
+            "port": "hardness",
+            "dividers": null,
+            "label": "Hardness",
+            "steps": 33
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/roomy",
+            "tempo": null,
+            "port": "time",
+            "dividers": null,
+            "label": "Decay",
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.10000000149011612,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/harmless",
+            "tempo": null,
+            "port": "rate",
+            "dividers": null,
+            "label": "rate",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "tempo": null,
+            "port": "Gain",
+            "dividers": null,
+            "label": "Master Volume",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/harmless",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "Harmless",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/roomy",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "Roomy",
+            "steps": 33
+        }
+    ]
+}

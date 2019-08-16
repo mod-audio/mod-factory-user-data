@@ -1,0 +1,77 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": -0.5,
+            "maximum": 1.5,
+            "page": null,
+            "instance": "/graph/amsynth",
+            "tempo": null,
+            "port": "filter_cutoff",
+            "dividers": null,
+            "label": "Filter Cutoff",
+            "steps": 33
+        },
+        {
+            "minimum": 20.0,
+            "maximum": 1000.0,
+            "page": null,
+            "instance": "/graph/modulay",
+            "tempo": null,
+            "port": "time",
+            "dividers": null,
+            "label": "time",
+            "steps": 65
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.5,
+            "maximum": 2.0,
+            "page": null,
+            "instance": "/graph/shiroverb",
+            "tempo": null,
+            "port": "ratio",
+            "dividers": null,
+            "label": "ratio",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "tempo": null,
+            "port": "Gain",
+            "dividers": null,
+            "label": "Master Volume",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/shiroverb",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "Shiroverb",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/modulay",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "Modulay",
+            "steps": 33
+        }
+    ]
+}

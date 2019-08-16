@@ -1,0 +1,136 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": -12.0,
+            "maximum": 24.0,
+            "page": null,
+            "instance": "/graph/_2Voices",
+            "tempo": false,
+            "port": "Step1",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Ch1 Shift 1",
+            "steps": 36
+        },
+        {
+            "minimum": -12.0,
+            "maximum": 24.0,
+            "page": null,
+            "instance": "/graph/_2Voices",
+            "tempo": false,
+            "port": "Step2",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Ch1 Shift 2",
+            "steps": 36
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/_2Voices",
+            "tempo": false,
+            "port": "Gain_1",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Ch1 Gain 1",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/_2Voices",
+            "tempo": false,
+            "port": "Gain_2",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Ch1 Gain 2",
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.0,
+            "maximum": 11.0,
+            "page": null,
+            "instance": "/graph/Harmonizer",
+            "tempo": false,
+            "port": "Tone",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Ch2 Tone",
+            "steps": 11
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 2.0,
+            "page": null,
+            "instance": "/graph/Harmonizer",
+            "tempo": false,
+            "port": "Scale",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Ch2 Scale",
+            "steps": 2
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 9.0,
+            "page": null,
+            "instance": "/graph/Harmonizer",
+            "tempo": false,
+            "port": "Interval",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Ch2 Interval",
+            "steps": 9
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2_1",
+            "tempo": false,
+            "port": "Gain",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Master Volume",
+            "steps": 65
+        }
+    ],
+    "/hmi/footswitch2": [],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/SwitchBox2",
+            "tempo": false,
+            "port": "Switch",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Channel",
+            "steps": 1
+        }
+    ]
+}

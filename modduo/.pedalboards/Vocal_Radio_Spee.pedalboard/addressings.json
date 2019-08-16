@@ -1,0 +1,103 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": -12.0,
+            "maximum": 0.0,
+            "page": null,
+            "instance": "/graph/Drop",
+            "tempo": false,
+            "port": "Step",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Pitch Shift",
+            "steps": 12
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Drop",
+            "tempo": false,
+            "port": "Gain",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Pitch shift level",
+            "steps": 33
+        },
+        {
+            "minimum": -70.0,
+            "maximum": 12.0,
+            "page": null,
+            "instance": "/graph/gate",
+            "tempo": false,
+            "port": "threshold",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Gate Threshold",
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/ts9sim",
+            "tempo": null,
+            "port": "fslider2_",
+            "dividers": null,
+            "label": "Drive",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "tempo": null,
+            "port": "Gain",
+            "dividers": null,
+            "label": "Master Volume",
+            "steps": 65
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/ts9sim",
+            "tempo": false,
+            "port": ":bypass",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Screamer",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/gate",
+            "tempo": false,
+            "port": ":bypass",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Gate",
+            "steps": 33
+        }
+    ]
+}

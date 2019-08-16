@@ -1,0 +1,88 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/JX10",
+            "tempo": null,
+            "port": "vcf_freq",
+            "dividers": null,
+            "label": "VCF Freq",
+            "steps": 33
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/JX10",
+            "tempo": null,
+            "port": "vcf_vel",
+            "dividers": null,
+            "label": "VCF Vel",
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "page": null,
+            "instance": "/graph/_reverb_stereo",
+            "tempo": null,
+            "port": "dry_wet",
+            "dividers": null,
+            "label": "Mix",
+            "steps": 33
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/_reverb_stereo",
+            "tempo": null,
+            "port": "damp",
+            "dividers": null,
+            "label": "Damp",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "tempo": null,
+            "port": "Gain",
+            "dividers": null,
+            "label": "Master Volume",
+            "steps": 65
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/_reverb_stereo",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "Reverb",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/ZamCompX2",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "Comp",
+            "steps": 33
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": -12.0,
+            "maximum": 24.0,
+            "page": null,
+            "instance": "/graph/_2Voices",
+            "tempo": false,
+            "port": "Step1",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Pitch shift 1",
+            "steps": 36
+        },
+        {
+            "minimum": -12.0,
+            "maximum": 24.0,
+            "page": null,
+            "instance": "/graph/_2Voices",
+            "tempo": false,
+            "port": "Step2",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Pitch shift 2",
+            "steps": 36
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/_2Voices",
+            "tempo": false,
+            "port": "Gain_1",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "PS level 1",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/_2Voices",
+            "tempo": false,
+            "port": "Gain_2",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "PS level 2",
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/Plate",
+            "tempo": false,
+            "port": "tail",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Plate Decay",
+            "steps": 33
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/Plate",
+            "tempo": false,
+            "port": "blend",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Plate Mix",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "tempo": false,
+            "port": "Gain",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Master Volume",
+            "steps": 65
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/Plate",
+            "tempo": false,
+            "port": ":bypass",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Plate",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/_2Voices",
+            "tempo": false,
+            "port": ":bypass",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "2Voices",
+            "steps": 33
+        }
+    ]
+}

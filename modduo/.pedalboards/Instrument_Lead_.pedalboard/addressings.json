@@ -1,0 +1,88 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": 0.0,
+            "maximum": 8.0,
+            "page": null,
+            "instance": "/graph/FluidPlug_FluidSynthLeads",
+            "tempo": null,
+            "port": "program",
+            "dividers": null,
+            "label": "Program",
+            "steps": 8
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/hip2b",
+            "tempo": null,
+            "port": "WETDRY",
+            "dividers": null,
+            "label": "HIP2B Mix",
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "page": null,
+            "instance": "/graph/chorusflanger",
+            "tempo": null,
+            "port": "Depth",
+            "dividers": null,
+            "label": "Depth",
+            "steps": 33
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/_reverb_stereo",
+            "tempo": null,
+            "port": "roomsize",
+            "dividers": null,
+            "label": "Roomsize",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "tempo": null,
+            "port": "Gain",
+            "dividers": null,
+            "label": "Master Volume",
+            "steps": 65
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/chorusflanger",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "Chorus/Flanger",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/hip2b",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "hip2b",
+            "steps": 33
+        }
+    ]
+}

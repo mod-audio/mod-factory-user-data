@@ -1,0 +1,127 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": 20.0,
+            "maximum": 1000.0,
+            "page": null,
+            "instance": "/graph/modulay",
+            "tempo": null,
+            "port": "time",
+            "dividers": null,
+            "label": "Delay time",
+            "steps": 65
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 110.0,
+            "page": null,
+            "instance": "/graph/modulay",
+            "tempo": null,
+            "port": "repeats",
+            "dividers": null,
+            "label": "repeats",
+            "steps": 33
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "page": null,
+            "instance": "/graph/modulay",
+            "tempo": null,
+            "port": "mix",
+            "dividers": null,
+            "label": "mix",
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 1.0,
+            "maximum": 100.0,
+            "page": null,
+            "instance": "/graph/shiroverb",
+            "tempo": null,
+            "port": "decay",
+            "dividers": null,
+            "label": "Verb decay",
+            "steps": 33
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "page": null,
+            "instance": "/graph/shiroverb",
+            "tempo": null,
+            "port": "shimmer",
+            "dividers": null,
+            "label": "shimmer",
+            "steps": 33
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "page": null,
+            "instance": "/graph/shiroverb",
+            "tempo": null,
+            "port": "mix",
+            "dividers": null,
+            "label": "mix",
+            "steps": 33
+        },
+        {
+            "minimum": 0.5,
+            "maximum": 2.0,
+            "page": null,
+            "instance": "/graph/shiroverb",
+            "tempo": null,
+            "port": "ratio",
+            "dividers": null,
+            "label": "ratio",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2_1",
+            "tempo": null,
+            "port": "Gain",
+            "dividers": null,
+            "label": "Master Volume",
+            "steps": 65
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/shiroverb",
+            "tempo": false,
+            "port": ":bypass",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Shiroverb",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "port": ":bypass",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Modulay",
+            "steps": 33
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/ts9sim",
+            "tempo": null,
+            "port": "fslider2_",
+            "dividers": null,
+            "label": "Drive",
+            "steps": 33
+        },
+        {
+            "minimum": 0.10000000000000001,
+            "maximum": 10.0,
+            "page": null,
+            "instance": "/graph/vibrochump",
+            "tempo": false,
+            "port": "Speed",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Vibe Speed",
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.0,
+            "maximum": 10000.0,
+            "page": null,
+            "instance": "/graph/reverb",
+            "tempo": null,
+            "port": "decay",
+            "dividers": null,
+            "label": "Decay",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "tempo": null,
+            "port": "Gain",
+            "dividers": null,
+            "label": "Master Volume",
+            "steps": 65
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/reverb",
+            "tempo": false,
+            "port": ":bypass",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Reverb",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/ts9sim",
+            "tempo": false,
+            "port": ":bypass",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Screamer",
+            "steps": 33
+        }
+    ]
+}

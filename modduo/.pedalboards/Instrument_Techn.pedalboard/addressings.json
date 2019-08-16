@@ -1,0 +1,91 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": 20.0,
+            "maximum": 280.0,
+            "page": null,
+            "instance": "/pedalboard",
+            "tempo": null,
+            "port": ":bpm",
+            "dividers": null,
+            "label": "Beats Per Minute",
+            "steps": 260
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 127.0,
+            "page": null,
+            "instance": "/graph/s8n16",
+            "tempo": false,
+            "port": "note16",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Note",
+            "steps": 127
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 20.0,
+            "maximum": 20000.0,
+            "page": null,
+            "instance": "/graph/HighPassFilter",
+            "tempo": null,
+            "port": "Freq",
+            "dividers": null,
+            "label": "Freq",
+            "steps": 33
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 10.0,
+            "page": null,
+            "instance": "/graph/Ambience",
+            "tempo": null,
+            "port": "size",
+            "dividers": null,
+            "label": "Roomsize",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "tempo": null,
+            "port": "Gain",
+            "dividers": null,
+            "label": "Master Volume",
+            "steps": 65
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/Ambience",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "Ambience",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/pedalboard",
+            "tempo": null,
+            "port": ":rolling",
+            "dividers": null,
+            "label": "Play",
+            "steps": 1
+        }
+    ]
+}

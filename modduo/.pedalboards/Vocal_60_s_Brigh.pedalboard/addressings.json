@@ -1,0 +1,108 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": 0.0,
+            "maximum": 10.0,
+            "page": null,
+            "instance": "/graph/vibrochump",
+            "tempo": null,
+            "port": "Intensity",
+            "dividers": null,
+            "label": "Vibe Intensity",
+            "steps": 33
+        },
+        {
+            "minimum": 0.10000000149011612,
+            "maximum": 10.0,
+            "page": null,
+            "instance": "/graph/vibrochump",
+            "tempo": null,
+            "port": "Speed",
+            "dividers": null,
+            "label": "Vibe Speed",
+            "steps": 33
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/Plate",
+            "tempo": false,
+            "port": "blend",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Reverb Mix",
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": -110.0,
+            "maximum": 110.0,
+            "page": null,
+            "instance": "/graph/DubDelay",
+            "tempo": null,
+            "port": "feedback",
+            "dividers": null,
+            "label": "Feedback",
+            "steps": 33
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "page": null,
+            "instance": "/graph/DubDelay",
+            "tempo": null,
+            "port": "fx_mix",
+            "dividers": null,
+            "label": "Slap Mix",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "tempo": null,
+            "port": "Gain",
+            "dividers": null,
+            "label": "Master Volume",
+            "steps": 65
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/DubDelay",
+            "tempo": false,
+            "port": ":bypass",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Slapback",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/Plate",
+            "tempo": false,
+            "port": ":bypass",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Reverb",
+            "steps": 33
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": 0.0,
+            "maximum": 2.0,
+            "page": null,
+            "instance": "/graph/mod",
+            "tempo": null,
+            "port": "rt_speed",
+            "dividers": null,
+            "label": "Motor",
+            "steps": 2
+        },
+        {
+            "minimum": 5.0,
+            "maximum": 200.0,
+            "page": null,
+            "instance": "/graph/mod",
+            "tempo": null,
+            "port": "hornrpmslow",
+            "dividers": null,
+            "label": "Horn Speed Slow",
+            "steps": 33
+        },
+        {
+            "minimum": 5.0,
+            "maximum": 100.0,
+            "page": null,
+            "instance": "/graph/mod",
+            "tempo": null,
+            "port": "drumrpmslow",
+            "dividers": null,
+            "label": "Drum Speed Slow",
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 100.0,
+            "maximum": 1000.0,
+            "page": null,
+            "instance": "/graph/mod",
+            "tempo": null,
+            "port": "hornrpmfast",
+            "dividers": null,
+            "label": "Horn Speed Fast",
+            "steps": 33
+        },
+        {
+            "minimum": 60.0,
+            "maximum": 600.0,
+            "page": null,
+            "instance": "/graph/mod",
+            "tempo": null,
+            "port": "drumrpmfast",
+            "dividers": null,
+            "label": "Drum Speed Fast",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "tempo": null,
+            "port": "Gain",
+            "dividers": null,
+            "label": "Master Volume",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/Overdrive",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "Overdrive",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/mod",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "Leslie",
+            "steps": 33
+        }
+    ]
+}

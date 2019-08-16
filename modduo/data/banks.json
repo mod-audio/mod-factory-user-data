@@ -1,1 +1,428 @@
-[{"title": "Distortion Pedals", "navigateFootswitches": false, "pedalboards": [{"title": "Pedal: Big Puff", "bundle": "/root/.pedalboards/Pedal_Big_Puff.pedalboard"}, {"title": "Pedal: Dee-Ess-One", "bundle": "/root/.pedalboards/Pedal_Dee_Ess_On-98556.pedalboard"}, {"title": "Pedal: TubeScreamer", "bundle": "/root/.pedalboards/Pedal_TubeScream.pedalboard"}, {"title": "Pedal: Fuzz", "bundle": "/root/.pedalboards/Pedal_Fuzz-1774.pedalboard"}, {"title": "Pedal: SuperDrive", "bundle": "/root/.pedalboards/Pedal_SuperDrive.pedalboard"}, {"title": "Pedal: ToneMachine", "bundle": "/root/.pedalboards/Pedal_ToneMachin-48841.pedalboard"}, {"title": "Pedal: ScreamingBird", "bundle": "/root/.pedalboards/Pedal_ScreamingB.pedalboard"}, {"title": "Pedal: TubeWarmth", "bundle": "/root/.pedalboards/Pedal_TubeWarmth.pedalboard"}, {"title": "Pedal: HogFoot", "bundle": "/root/.pedalboards/Pedal_HogFoot.pedalboard"}, {"title": "Pedal: Tilt Tone", "bundle": "/root/.pedalboards/Pedal_Tilt_Tone.pedalboard"}, {"title": "Pedal: Hog Screamer", "bundle": "/root/.pedalboards/Pedal_Hog_Scream.pedalboard"}], "navigateChannel": 16}, {"title": "Modulation Pedals", "navigateFootswitches": false, "pedalboards": [{"title": "Pedal: Chorus", "bundle": "/root/.pedalboards/Pedal_Chorus.pedalboard"}, {"title": "Pedal: Dual Chorus", "bundle": "/root/.pedalboards/Pedal_Dual_Choru.pedalboard"}, {"title": "Pedal: Stereo Chorus", "bundle": "/root/.pedalboards/Pedal_Stereo_Cho.pedalboard"}, {"title": "Pedal: Phaser", "bundle": "/root/.pedalboards/Pedal_Phaser.pedalboard"}, {"title": "Pedal: Flanger", "bundle": "/root/.pedalboards/Pedal_Flanger.pedalboard"}, {"title": "Pedal: Vibrato", "bundle": "/root/.pedalboards/Pedal_Vibrato.pedalboard"}, {"title": "Pedal: Tremolo", "bundle": "/root/.pedalboards/Pedal_Tremolo.pedalboard"}, {"title": "Pedal: ShapedTremolo", "bundle": "/root/.pedalboards/Pedal_ShapedTrem.pedalboard"}, {"title": "Pedal: Leslie", "bundle": "/root/.pedalboards/Pedal_Leslie.pedalboard"}, {"title": "Pedal: Leslie - ST", "bundle": "/root/.pedalboards/Pedal_Leslie_ST.pedalboard"}, {"title": "Pedal: RingModulator", "bundle": "/root/.pedalboards/Pedal_RingModula.pedalboard"}], "navigateChannel": 16}, {"title": "Delay-Reverb Pedals", "navigateFootswitches": false, "pedalboards": [{"title": "Pedal: Hall Reverb", "bundle": "/root/.pedalboards/Pedal_Hall_Rever.pedalboard"}, {"title": "Pedal: Plate Reverb", "bundle": "/root/.pedalboards/Pedal_Plate_Reve.pedalboard"}, {"title": "Pedal: Shimmer Reverb", "bundle": "/root/.pedalboards/Pedal_Shimmer_Re.pedalboard"}, {"title": "Pedal: Mega Reverb", "bundle": "/root/.pedalboards/Pedal_Mega_Rever.pedalboard"}, {"title": "Pedal: DigitalDelay", "bundle": "/root/.pedalboards/Pedal_DigitalDel.pedalboard"}, {"title": "Pedal: DigitalDelay ST", "bundle": "/root/.pedalboards/Pedal_DigitalDel-7879.pedalboard"}, {"title": "Pedal: Modulated Delay", "bundle": "/root/.pedalboards/Pedal_Modulated_.pedalboard"}, {"title": "Pedal: FreezeDrone", "bundle": "/root/.pedalboards/Pedal_FreezeDron.pedalboard"}, {"title": "Pedal: Reflector", "bundle": "/root/.pedalboards/Pedal_Reflector.pedalboard"}, {"title": "Pedal: Soundscape", "bundle": "/root/.pedalboards/Pedal_Soundscape.pedalboard"}, {"title": "Pedal: Soundscape ST", "bundle": "/root/.pedalboards/Pedal_Soundscape-5521.pedalboard"}], "navigateChannel": 16}, {"title": "Compressor-Dynamics Pedals", "navigateFootswitches": false, "pedalboards": [{"title": "Pedal: Compressor", "bundle": "/root/.pedalboards/Pedal_Compressor.pedalboard"}, {"title": "Pedal: Multi Dynamics", "bundle": "/root/.pedalboards/Pedal_Multi_Dyna.pedalboard"}, {"title": "Pedal: NoiseGate", "bundle": "/root/.pedalboards/Pedal_NoiseGate.pedalboard"}, {"title": "Pedal: SlothGear", "bundle": "/root/.pedalboards/Pedal_SlothGear.pedalboard"}], "navigateChannel": 16}, {"title": "Filter Pedals", "navigateFootswitches": false, "pedalboards": [{"title": "Pedal: 4BandEQ", "bundle": "/root/.pedalboards/Pedal_4BandEQ.pedalboard"}, {"title": "Pedal: AutoWah", "bundle": "/root/.pedalboards/Pedal_AutoWah.pedalboard"}, {"title": "Pedal: AutoFilter", "bundle": "/root/.pedalboards/Pedal_AutoFilter.pedalboard"}, {"title": "Pedal: High-Low Booster", "bundle": "/root/.pedalboards/Pedal_High_Low_B.pedalboard"}, {"title": "Pedal: Quack Filter", "bundle": "/root/.pedalboards/Pedal_Quack_Filt.pedalboard"}], "navigateChannel": 16}, {"title": "Pitch Pedals", "navigateFootswitches": false, "pedalboards": [{"title": "Pedal: AutoTune", "bundle": "/root/.pedalboards/Pedal_AutoTune.pedalboard"}, {"title": "Pedal: Detuner", "bundle": "/root/.pedalboards/Pedal_Detuner.pedalboard"}, {"title": "Pedal: PitchUp", "bundle": "/root/.pedalboards/Pedal_PitchUp.pedalboard"}, {"title": "Pedal: PitchDown", "bundle": "/root/.pedalboards/Pedal_PitchDown-52403.pedalboard"}, {"title": "Pedal: Double Pitch", "bundle": "/root/.pedalboards/Pedal_Double_Pit.pedalboard"}, {"title": "Pedal: SubSynth", "bundle": "/root/.pedalboards/Pedal_SubSynth.pedalboard"}], "navigateChannel": 16}, {"title": "Pedalboards", "navigateFootswitches": false, "pedalboards": [{"title": "PB: That's Swell", "bundle": "/root/.pedalboards/PB_That_s_Swell.pedalboard"}, {"title": "PB: Digital Destruction", "bundle": "/root/.pedalboards/PB_Digital_Destr.pedalboard"}, {"title": "PB: Obligatory Shimmer", "bundle": "/root/.pedalboards/PB_Obligatory_Sh.pedalboard"}, {"title": "PB: Modulation Madness", "bundle": "/root/.pedalboards/PB_Modulation_Ma.pedalboard"}, {"title": "PB: Quack-Quack", "bundle": "/root/.pedalboards/PB_Quack_Quack.pedalboard"}, {"title": "PB: So How's the Drive", "bundle": "/root/.pedalboards/PB_So_How_s_the_.pedalboard"}], "navigateChannel": 16}, {"title": "Reference Pedalboards", "navigateFootswitches": false, "pedalboards": [{"title": "PB: Fire Ball", "bundle": "/root/.pedalboards/PB_Fire_Ball.pedalboard"}, {"title": "PB: Stripes Are White", "bundle": "/root/.pedalboards/PB_Stripes_Are_W.pedalboard"}, {"title": "PB: Subterranean Radio", "bundle": "/root/.pedalboards/PB_Subterranean_-71425.pedalboard"}, {"title": "PB: Tamed Elephant", "bundle": "/root/.pedalboards/PB_Tamed_Elephan.pedalboard"}, {"title": "PB: Stairway To Solo", "bundle": "/root/.pedalboards/PB_Stairway_To_S.pedalboard"}, {"title": "PB: Enraged Machine", "bundle": "/root/.pedalboards/PB_Enraged_Machi.pedalboard"}, {"title": "PB: Taming Endors", "bundle": "/root/.pedalboards/PB_Taming_Endors.pedalboard"}, {"title": "PB: Nerver in Mind", "bundle": "/root/.pedalboards/PB_Nerver_in_Min.pedalboard"}, {"title": "PB: Puppet Master", "bundle": "/root/.pedalboards/PB_Puppet_Master.pedalboard"}, {"title": "PB: How Soon is Marr - ST", "bundle": "/root/.pedalboards/PB_How_Soon_is_M.pedalboard"}, {"title": "PB: Run Like Floyd", "bundle": "/root/.pedalboards/PB_Run_Like_Floy.pedalboard"}, {"title": "PB: Whole Lot of Zep", "bundle": "/root/.pedalboards/PB_Whole_Lot_of_.pedalboard"}, {"title": "PB: Surfing Dale", "bundle": "/root/.pedalboards/PB_Surfing_Dale.pedalboard"}, {"title": "PB: Jimi Haze", "bundle": "/root/.pedalboards/PB_Jimi_Haze.pedalboard"}, {"title": "PB: Edge Delay", "bundle": "/root/.pedalboards/PB_Edge_Delay.pedalboard"}, {"title": "PB: Pink Time", "bundle": "/root/.pedalboards/PB_Pink_Time.pedalboard"}], "navigateChannel": 16}, {"title": "Full Rigs /w Ampsim", "navigateFootswitches": false, "pedalboards": [{"title": "Rig: Dronebot", "bundle": "/root/.pedalboards/Rig_Dronebot.pedalboard"}, {"title": "Rig: Stoned Fuzz", "bundle": "/root/.pedalboards/Rig_Stoned_Fuzz.pedalboard"}, {"title": "Rig: Hardrock Essentials", "bundle": "/root/.pedalboards/Rig_Hardrock_Ess.pedalboard"}, {"title": "Rig: Funky Situation", "bundle": "/root/.pedalboards/Rig_Funky_Situat.pedalboard"}, {"title": "Rig: Funky Situation (Dirty)", "bundle": "/root/.pedalboards/Rig_Funky_Situat-26861.pedalboard"}, {"title": "Rig: Nashville", "bundle": "/root/.pedalboards/Rig_Nashville.pedalboard"}, {"title": "Rig: Blues Clues", "bundle": "/root/.pedalboards/Rig_Blues_Clues.pedalboard"}, {"title": "Rig: Multi Cabinet Clean Guitar", "bundle": "/root/.pedalboards/Rig_Multi_Cabine.pedalboard"}], "navigateChannel": 16}, {"title": "Reference Full Rigs /w Ampsim", "navigateFootswitches": false, "pedalboards": [{"title": "Rig: Jimi Haze", "bundle": "/root/.pedalboards/Rig_Jimi_Haze.pedalboard"}, {"title": "Rig: Subterranean Radio", "bundle": "/root/.pedalboards/Rig_Subterranean.pedalboard"}, {"title": "Rig: Stripes Are White", "bundle": "/root/.pedalboards/Rig_Stripes_Are_.pedalboard"}, {"title": "Rig: Enraged Machine", "bundle": "/root/.pedalboards/Rig_Enraged_Mach.pedalboard"}, {"title": "Rig: Taming Endors", "bundle": "/root/.pedalboards/Rig_Taming_Endor.pedalboard"}, {"title": "Rig: Nerver in Mind", "bundle": "/root/.pedalboards/Rig_Nerver_in_Mi.pedalboard"}, {"title": "Rig: Puppet Master", "bundle": "/root/.pedalboards/Rig_Puppet_Maste.pedalboard"}, {"title": "Rig: Run Like Floyd", "bundle": "/root/.pedalboards/Rig_Run_Like_Flo.pedalboard"}, {"title": "Rig: Whole Lot of Zep", "bundle": "/root/.pedalboards/Rig_Whole_Lot_of.pedalboard"}, {"title": "Rig: How Soon is Marr", "bundle": "/root/.pedalboards/Rig_How_Soon_is_.pedalboard"}, {"title": "Rig: Tamed Elephant", "bundle": "/root/.pedalboards/Rig_Tamed_Elepha.pedalboard"}, {"title": "Rig: Stairway To Solo", "bundle": "/root/.pedalboards/Rig_Stairway_To_.pedalboard"}, {"title": "Rig: Surfing Dale", "bundle": "/root/.pedalboards/Rig_Surfing_Dale.pedalboard"}, {"title": "Rig: Edge Delay", "bundle": "/root/.pedalboards/Rig_Edge_Delay.pedalboard"}, {"title": "Rig: Fire Ball", "bundle": "/root/.pedalboards/Rig_Fire_Ball.pedalboard"}, {"title": "Rig: Pink Time", "bundle": "/root/.pedalboards/Rig_Pink_Time.pedalboard"}], "navigateChannel": 16}]
+[
+    {
+        "pedalboards": [
+            {
+                "bundle": "/root/.pedalboards/Pedal_Big_Puff.pedalboard",
+                "title": "Pedal: Big Puff"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Dee_Ess_On-98556.pedalboard",
+                "title": "Pedal: Dee-Ess-One"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_TubeScream.pedalboard",
+                "title": "Pedal: TubeScreamer"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Fuzz-1774.pedalboard",
+                "title": "Pedal: Fuzz"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_SuperDrive.pedalboard",
+                "title": "Pedal: SuperDrive"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_ToneMachin-48841.pedalboard",
+                "title": "Pedal: ToneMachine"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_ScreamingB.pedalboard",
+                "title": "Pedal: ScreamingBird"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_TubeWarmth.pedalboard",
+                "title": "Pedal: TubeWarmth"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_HogFoot.pedalboard",
+                "title": "Pedal: HogFoot"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Tilt_Tone.pedalboard",
+                "title": "Pedal: Tilt Tone"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Hog_Scream.pedalboard",
+                "title": "Pedal: Hog Screamer"
+            }
+        ],
+        "title": "Distortion Pedals"
+    },
+    {
+        "pedalboards": [
+            {
+                "bundle": "/root/.pedalboards/Pedal_Chorus.pedalboard",
+                "title": "Pedal: Chorus"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Dual_Choru.pedalboard",
+                "title": "Pedal: Dual Chorus"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Stereo_Cho.pedalboard",
+                "title": "Pedal: Stereo Chorus"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Phaser.pedalboard",
+                "title": "Pedal: Phaser"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Flanger.pedalboard",
+                "title": "Pedal: Flanger"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Vibrato.pedalboard",
+                "title": "Pedal: Vibrato"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Tremolo.pedalboard",
+                "title": "Pedal: Tremolo"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_ShapedTrem.pedalboard",
+                "title": "Pedal: ShapedTremolo"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Leslie.pedalboard",
+                "title": "Pedal: Leslie"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Leslie_ST.pedalboard",
+                "title": "Pedal: Leslie - ST"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_RingModula.pedalboard",
+                "title": "Pedal: RingModulator"
+            }
+        ],
+        "title": "Modulation Pedals"
+    },
+    {
+        "pedalboards": [
+            {
+                "bundle": "/root/.pedalboards/Pedal_Hall_Rever.pedalboard",
+                "title": "Pedal: Hall Reverb"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Plate_Reve.pedalboard",
+                "title": "Pedal: Plate Reverb"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Shimmer_Re.pedalboard",
+                "title": "Pedal: Shimmer Reverb"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Mega_Rever.pedalboard",
+                "title": "Pedal: Mega Reverb"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_DigitalDel.pedalboard",
+                "title": "Pedal: DigitalDelay"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_DigitalDel-7879.pedalboard",
+                "title": "Pedal: DigitalDelay ST"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Modulated_.pedalboard",
+                "title": "Pedal: Modulated Delay"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_FreezeDron.pedalboard",
+                "title": "Pedal: FreezeDrone"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Reflector.pedalboard",
+                "title": "Pedal: Reflector"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Soundscape.pedalboard",
+                "title": "Pedal: Soundscape"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Soundscape-5521.pedalboard",
+                "title": "Pedal: Soundscape ST"
+            }
+        ],
+        "title": "Delay-Reverb Pedals"
+    },
+    {
+        "pedalboards": [
+            {
+                "bundle": "/root/.pedalboards/Pedal_Compressor.pedalboard",
+                "title": "Pedal: Compressor"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Multi_Dyna.pedalboard",
+                "title": "Pedal: Multi Dynamics"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_NoiseGate.pedalboard",
+                "title": "Pedal: NoiseGate"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_SlothGear.pedalboard",
+                "title": "Pedal: SlothGear"
+            }
+        ],
+        "title": "Compressor-Dynamics Pedals"
+    },
+    {
+        "pedalboards": [
+            {
+                "bundle": "/root/.pedalboards/Pedal_4BandEQ.pedalboard",
+                "title": "Pedal: 4BandEQ"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_AutoWah.pedalboard",
+                "title": "Pedal: AutoWah"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_AutoFilter.pedalboard",
+                "title": "Pedal: AutoFilter"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_High_Low_B.pedalboard",
+                "title": "Pedal: High-Low Booster"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Quack_Filt.pedalboard",
+                "title": "Pedal: Quack Filter"
+            }
+        ],
+        "title": "Filter Pedals"
+    },
+    {
+        "pedalboards": [
+            {
+                "bundle": "/root/.pedalboards/Pedal_AutoTune.pedalboard",
+                "title": "Pedal: AutoTune"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Detuner.pedalboard",
+                "title": "Pedal: Detuner"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_PitchUp.pedalboard",
+                "title": "Pedal: PitchUp"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_PitchDown-52403.pedalboard",
+                "title": "Pedal: PitchDown"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_Double_Pit.pedalboard",
+                "title": "Pedal: Double Pitch"
+            },
+            {
+                "bundle": "/root/.pedalboards/Pedal_SubSynth.pedalboard",
+                "title": "Pedal: SubSynth"
+            }
+        ],
+        "title": "Pitch Pedals"
+    },
+    {
+        "pedalboards": [
+            {
+                "bundle": "/root/.pedalboards/PB_That_s_Swell.pedalboard",
+                "title": "PB: That's Swell"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Digital_Destr.pedalboard",
+                "title": "PB: Digital Destruction"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Obligatory_Sh.pedalboard",
+                "title": "PB: Obligatory Shimmer"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Modulation_Ma.pedalboard",
+                "title": "PB: Modulation Madness"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Quack_Quack.pedalboard",
+                "title": "PB: Quack-Quack"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_So_How_s_the_.pedalboard",
+                "title": "PB: So How's the Drive"
+            }
+        ],
+        "title": "Pedalboards"
+    },
+    {
+        "pedalboards": [
+            {
+                "bundle": "/root/.pedalboards/PB_Fire_Ball.pedalboard",
+                "title": "PB: Fire Ball"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Stripes_Are_W.pedalboard",
+                "title": "PB: Stripes Are White"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Subterranean_-71425.pedalboard",
+                "title": "PB: Subterranean Radio"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Tamed_Elephan.pedalboard",
+                "title": "PB: Tamed Elephant"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Stairway_To_S.pedalboard",
+                "title": "PB: Stairway To Solo"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Enraged_Machi.pedalboard",
+                "title": "PB: Enraged Machine"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Taming_Endors.pedalboard",
+                "title": "PB: Taming Endors"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Nerver_in_Min.pedalboard",
+                "title": "PB: Nerver in Mind"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Puppet_Master.pedalboard",
+                "title": "PB: Puppet Master"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_How_Soon_is_M.pedalboard",
+                "title": "PB: How Soon is Marr - ST"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Run_Like_Floy.pedalboard",
+                "title": "PB: Run Like Floyd"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Whole_Lot_of_.pedalboard",
+                "title": "PB: Whole Lot of Zep"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Surfing_Dale.pedalboard",
+                "title": "PB: Surfing Dale"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Jimi_Haze.pedalboard",
+                "title": "PB: Jimi Haze"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Edge_Delay.pedalboard",
+                "title": "PB: Edge Delay"
+            },
+            {
+                "bundle": "/root/.pedalboards/PB_Pink_Time.pedalboard",
+                "title": "PB: Pink Time"
+            }
+        ],
+        "title": "Reference Pedalboards"
+    },
+    {
+        "pedalboards": [
+            {
+                "bundle": "/root/.pedalboards/Rig_Dronebot.pedalboard",
+                "title": "Rig: Dronebot"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Stoned_Fuzz.pedalboard",
+                "title": "Rig: Stoned Fuzz"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Hardrock_Ess.pedalboard",
+                "title": "Rig: Hardrock Essentials"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Funky_Situat.pedalboard",
+                "title": "Rig: Funky Situation"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Funky_Situat-26861.pedalboard",
+                "title": "Rig: Funky Situation (Dirty)"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Nashville.pedalboard",
+                "title": "Rig: Nashville"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Blues_Clues.pedalboard",
+                "title": "Rig: Blues Clues"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Multi_Cabine.pedalboard",
+                "title": "Rig: Multi Cabinet Clean Guitar"
+            }
+        ],
+        "title": "Full Rigs /w Ampsim"
+    },
+    {
+        "pedalboards": [
+            {
+                "bundle": "/root/.pedalboards/Rig_Jimi_Haze.pedalboard",
+                "title": "Rig: Jimi Haze"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Subterranean.pedalboard",
+                "title": "Rig: Subterranean Radio"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Stripes_Are_.pedalboard",
+                "title": "Rig: Stripes Are White"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Enraged_Mach.pedalboard",
+                "title": "Rig: Enraged Machine"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Taming_Endor.pedalboard",
+                "title": "Rig: Taming Endors"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Nerver_in_Mi.pedalboard",
+                "title": "Rig: Nerver in Mind"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Puppet_Maste.pedalboard",
+                "title": "Rig: Puppet Master"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Run_Like_Flo.pedalboard",
+                "title": "Rig: Run Like Floyd"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Whole_Lot_of.pedalboard",
+                "title": "Rig: Whole Lot of Zep"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_How_Soon_is_.pedalboard",
+                "title": "Rig: How Soon is Marr"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Tamed_Elepha.pedalboard",
+                "title": "Rig: Tamed Elephant"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Stairway_To_.pedalboard",
+                "title": "Rig: Stairway To Solo"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Surfing_Dale.pedalboard",
+                "title": "Rig: Surfing Dale"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Edge_Delay.pedalboard",
+                "title": "Rig: Edge Delay"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Fire_Ball.pedalboard",
+                "title": "Rig: Fire Ball"
+            },
+            {
+                "bundle": "/root/.pedalboards/Rig_Pink_Time.pedalboard",
+                "title": "Rig: Pink Time"
+            }
+        ],
+        "title": "Reference Full Rigs /w Ampsim"
+    }
+]

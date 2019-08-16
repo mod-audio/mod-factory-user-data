@@ -1,0 +1,1500 @@
+@prefix atom:  <http://lv2plug.in/ns/ext/atom#> .
+@prefix doap:  <http://usefulinc.com/ns/doap#> .
+@prefix ingen: <http://drobilla.net/ns/ingen#> .
+@prefix lv2:   <http://lv2plug.in/ns/lv2core#> .
+@prefix midi:  <http://lv2plug.in/ns/ext/midi#> .
+@prefix mod:   <http://moddevices.com/ns/mod#> .
+@prefix pedal: <http://moddevices.com/ns/modpedal#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+_:b1
+    ingen:tail <serial_midi_in> ;
+    ingen:head <Nekobi_1/lv2_events_in> .
+
+_:b2
+    ingen:tail <HighPassFilter/Out1> ;
+    ingen:head <Ambience/left_in> .
+
+_:b3
+    ingen:tail <Nekobi_1/lv2_audio_out_1> ;
+    ingen:head <BigMuffPi/In> .
+
+_:b4
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
+
+_:b5
+    ingen:tail <midi_merger_out> ;
+    ingen:head <Nekobi_1/lv2_events_in> .
+
+_:b6
+    ingen:tail <Ambience/right_out> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b7
+    ingen:tail <HighPassFilter/Out1> ;
+    ingen:head <Ambience/right_in> .
+
+_:b8
+    ingen:tail <Ambience/left_out> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b9
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
+
+_:b10
+    ingen:tail <s8n16/midiout> ;
+    ingen:head <Nekobi/lv2_events_in> .
+
+_:b11
+    ingen:tail <Nekobi/lv2_audio_out_1> ;
+    ingen:head <BigMuffPi/In> .
+
+_:b12
+    ingen:tail <BigMuffPi/Out1> ;
+    ingen:head <HighPassFilter/In> .
+
+<Gain2x2>
+    ingen:canvasX 3390.3 ;
+    ingen:canvasY 392.3 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 12 ;
+    lv2:port <Gain2x2/In1> ,
+             <Gain2x2/In2> ,
+             <Gain2x2/Out1> ,
+             <Gain2x2/Out2> ,
+             <Gain2x2/Gain> ,
+             <Gain2x2/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/Gain>
+    ingen:value 5.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<HighPassFilter>
+    ingen:canvasX 2321.0 ;
+    ingen:canvasY 290.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 12 ;
+    lv2:port <HighPassFilter/In> ,
+             <HighPassFilter/Out1> ,
+             <HighPassFilter/Freq> ,
+             <HighPassFilter/Order> ,
+             <HighPassFilter/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/HighPassFilter> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<HighPassFilter/In>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<HighPassFilter/In>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<HighPassFilter/Freq>
+    ingen:value 20.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<HighPassFilter/Order>
+    ingen:value 2.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<HighPassFilter/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi>
+    ingen:canvasX 785.0 ;
+    ingen:canvasY 336.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 1 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 13 ;
+    lv2:port <Nekobi/lv2_audio_out_1> ,
+             <Nekobi/waveform> ,
+             <Nekobi/tuning> ,
+             <Nekobi/cutoff> ,
+             <Nekobi/resonance> ,
+             <Nekobi/env_mod> ,
+             <Nekobi/decay> ,
+             <Nekobi/accent> ,
+             <Nekobi/volume> ,
+             <Nekobi/lv2_enabled> ,
+             <Nekobi/lv2_events_in> ,
+             <Nekobi/:bypass> ;
+    lv2:prototype <http://distrho.sf.net/plugins/Nekobi> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Nekobi/lv2_events_in>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<Nekobi/tuning>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi/lv2_enabled>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi/cutoff>
+    ingen:value 29.399586 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi/resonance>
+    ingen:value 34.223602 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi/decay>
+    ingen:value 75.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi/waveform>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi/volume>
+    ingen:value 75.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi/accent>
+    ingen:value 25.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi/env_mod>
+    ingen:value 50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi_1>
+    ingen:canvasX 790.4 ;
+    ingen:canvasY 135.1 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 1 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 13 ;
+    lv2:port <Nekobi_1/lv2_audio_out_1> ,
+             <Nekobi_1/waveform> ,
+             <Nekobi_1/tuning> ,
+             <Nekobi_1/cutoff> ,
+             <Nekobi_1/resonance> ,
+             <Nekobi_1/env_mod> ,
+             <Nekobi_1/decay> ,
+             <Nekobi_1/accent> ,
+             <Nekobi_1/volume> ,
+             <Nekobi_1/lv2_enabled> ,
+             <Nekobi_1/lv2_events_in> ,
+             <Nekobi_1/:bypass> ;
+    lv2:prototype <http://distrho.sf.net/plugins/Nekobi> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Nekobi_1/lv2_events_in>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<Nekobi_1/tuning>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi_1/lv2_enabled>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi_1/cutoff>
+    ingen:value 40.269150 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi_1/resonance>
+    ingen:value 27.732920 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi_1/decay>
+    ingen:value 75.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi_1/waveform>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi_1/volume>
+    ingen:value 75.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi_1/accent>
+    ingen:value 25.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi_1/env_mod>
+    ingen:value 50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi_1/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16>
+    ingen:canvasX 538.0 ;
+    ingen:canvasY 581.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 5 ;
+    lv2:minorVersion 777 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 7 ;
+    lv2:port <s8n16/sync> ,
+             <s8n16/bpm> ,
+             <s8n16/div> ,
+             <s8n16/swing> ,
+             <s8n16/drummode> ,
+             <s8n16/chn> ,
+             <s8n16/panic> ,
+             <s8n16/note1> ,
+             <s8n16/note2> ,
+             <s8n16/note3> ,
+             <s8n16/note4> ,
+             <s8n16/note5> ,
+             <s8n16/note6> ,
+             <s8n16/note7> ,
+             <s8n16/note8> ,
+             <s8n16/note9> ,
+             <s8n16/note10> ,
+             <s8n16/note11> ,
+             <s8n16/note12> ,
+             <s8n16/note13> ,
+             <s8n16/note14> ,
+             <s8n16/note15> ,
+             <s8n16/note16> ,
+             <s8n16/grid_1_1> ,
+             <s8n16/grid_2_1> ,
+             <s8n16/grid_3_1> ,
+             <s8n16/grid_4_1> ,
+             <s8n16/grid_5_1> ,
+             <s8n16/grid_6_1> ,
+             <s8n16/grid_7_1> ,
+             <s8n16/grid_8_1> ,
+             <s8n16/grid_1_2> ,
+             <s8n16/grid_2_2> ,
+             <s8n16/grid_3_2> ,
+             <s8n16/grid_4_2> ,
+             <s8n16/grid_5_2> ,
+             <s8n16/grid_6_2> ,
+             <s8n16/grid_7_2> ,
+             <s8n16/grid_8_2> ,
+             <s8n16/grid_1_3> ,
+             <s8n16/grid_2_3> ,
+             <s8n16/grid_3_3> ,
+             <s8n16/grid_4_3> ,
+             <s8n16/grid_5_3> ,
+             <s8n16/grid_6_3> ,
+             <s8n16/grid_7_3> ,
+             <s8n16/grid_8_3> ,
+             <s8n16/grid_1_4> ,
+             <s8n16/grid_2_4> ,
+             <s8n16/grid_3_4> ,
+             <s8n16/grid_4_4> ,
+             <s8n16/grid_5_4> ,
+             <s8n16/grid_6_4> ,
+             <s8n16/grid_7_4> ,
+             <s8n16/grid_8_4> ,
+             <s8n16/grid_1_5> ,
+             <s8n16/grid_2_5> ,
+             <s8n16/grid_3_5> ,
+             <s8n16/grid_4_5> ,
+             <s8n16/grid_5_5> ,
+             <s8n16/grid_6_5> ,
+             <s8n16/grid_7_5> ,
+             <s8n16/grid_8_5> ,
+             <s8n16/grid_1_6> ,
+             <s8n16/grid_2_6> ,
+             <s8n16/grid_3_6> ,
+             <s8n16/grid_4_6> ,
+             <s8n16/grid_5_6> ,
+             <s8n16/grid_6_6> ,
+             <s8n16/grid_7_6> ,
+             <s8n16/grid_8_6> ,
+             <s8n16/grid_1_7> ,
+             <s8n16/grid_2_7> ,
+             <s8n16/grid_3_7> ,
+             <s8n16/grid_4_7> ,
+             <s8n16/grid_5_7> ,
+             <s8n16/grid_6_7> ,
+             <s8n16/grid_7_7> ,
+             <s8n16/grid_8_7> ,
+             <s8n16/grid_1_8> ,
+             <s8n16/grid_2_8> ,
+             <s8n16/grid_3_8> ,
+             <s8n16/grid_4_8> ,
+             <s8n16/grid_5_8> ,
+             <s8n16/grid_6_8> ,
+             <s8n16/grid_7_8> ,
+             <s8n16/grid_8_8> ,
+             <s8n16/grid_1_9> ,
+             <s8n16/grid_2_9> ,
+             <s8n16/grid_3_9> ,
+             <s8n16/grid_4_9> ,
+             <s8n16/grid_5_9> ,
+             <s8n16/grid_6_9> ,
+             <s8n16/grid_7_9> ,
+             <s8n16/grid_8_9> ,
+             <s8n16/grid_1_10> ,
+             <s8n16/grid_2_10> ,
+             <s8n16/grid_3_10> ,
+             <s8n16/grid_4_10> ,
+             <s8n16/grid_5_10> ,
+             <s8n16/grid_6_10> ,
+             <s8n16/grid_7_10> ,
+             <s8n16/grid_8_10> ,
+             <s8n16/grid_1_11> ,
+             <s8n16/grid_2_11> ,
+             <s8n16/grid_3_11> ,
+             <s8n16/grid_4_11> ,
+             <s8n16/grid_5_11> ,
+             <s8n16/grid_6_11> ,
+             <s8n16/grid_7_11> ,
+             <s8n16/grid_8_11> ,
+             <s8n16/grid_1_12> ,
+             <s8n16/grid_2_12> ,
+             <s8n16/grid_3_12> ,
+             <s8n16/grid_4_12> ,
+             <s8n16/grid_5_12> ,
+             <s8n16/grid_6_12> ,
+             <s8n16/grid_7_12> ,
+             <s8n16/grid_8_12> ,
+             <s8n16/grid_1_13> ,
+             <s8n16/grid_2_13> ,
+             <s8n16/grid_3_13> ,
+             <s8n16/grid_4_13> ,
+             <s8n16/grid_5_13> ,
+             <s8n16/grid_6_13> ,
+             <s8n16/grid_7_13> ,
+             <s8n16/grid_8_13> ,
+             <s8n16/grid_1_14> ,
+             <s8n16/grid_2_14> ,
+             <s8n16/grid_3_14> ,
+             <s8n16/grid_4_14> ,
+             <s8n16/grid_5_14> ,
+             <s8n16/grid_6_14> ,
+             <s8n16/grid_7_14> ,
+             <s8n16/grid_8_14> ,
+             <s8n16/grid_1_15> ,
+             <s8n16/grid_2_15> ,
+             <s8n16/grid_3_15> ,
+             <s8n16/grid_4_15> ,
+             <s8n16/grid_5_15> ,
+             <s8n16/grid_6_15> ,
+             <s8n16/grid_7_15> ,
+             <s8n16/grid_8_15> ,
+             <s8n16/grid_1_16> ,
+             <s8n16/grid_2_16> ,
+             <s8n16/grid_3_16> ,
+             <s8n16/grid_4_16> ,
+             <s8n16/grid_5_16> ,
+             <s8n16/grid_6_16> ,
+             <s8n16/grid_7_16> ,
+             <s8n16/grid_8_16> ,
+             <s8n16/pos> ,
+             <s8n16/hostbpm> ,
+             <s8n16/midiout> ,
+             <s8n16/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/stepseq#s8n16> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<s8n16/midiout>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    a atom:AtomPort ,
+        lv2:OutputPort .
+
+<s8n16/note14>
+    ingen:value 40.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/note15>
+    ingen:value 45.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/note16>
+    ingen:value 36.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/note10>
+    ingen:value 53.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/note11>
+    ingen:value 52.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/note12>
+    ingen:value 50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/note13>
+    ingen:value 48.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_8_10>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/note3>
+    ingen:value 65.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_4_14>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_5_10>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_1_14>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_1_15>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_1_16>
+    ingen:value 127.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/swing>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_1_11>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_1_12>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_1_13>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_7_13>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_8_16>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/drummode>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/chn>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_6_12>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_4_11>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_8_15>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/sync>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_5_11>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_5_16>
+    ingen:value 127.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_7_16>
+    ingen:value 127.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/note9>
+    ingen:value 55.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_6_11>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_4_8>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_4_9>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_4_10>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_4_4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_4_5>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_4_6>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_4_7>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_3_11>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_4_1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_4_2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_4_3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_5_5>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_5_4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_5_7>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_5_6>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_5_1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_5_3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_5_2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_6_14>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_5_12>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_5_9>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_5_8>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_3_13>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/note4>
+    ingen:value 64.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_7_2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/note6>
+    ingen:value 60.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/note7>
+    ingen:value 52.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_7_7>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_7_6>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_7_5>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_7_4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_7_9>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_7_8>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/note8>
+    ingen:value 57.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/panic>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_1_1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_2_14>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_1_3>
+    ingen:value 127.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_1_2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_1_5>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_1_4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_1_7>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_1_6>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_1_9>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_1_8>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_2_16>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_1_10>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_4_12>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_8_11>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_3_9>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_3_8>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_3_7>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_3_6>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_3_5>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_3_4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_3_3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_3_2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_3_1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_2_11>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_2_12>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_3_10>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_2_13>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_6_15>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_4_13>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_8_12>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_5_13>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_7_15>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_3_14>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/div>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_7_14>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_6_16>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/note2>
+    ingen:value 52.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_8_13>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_3_12>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/bpm>
+    ingen:value 125.411766 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_5_15>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_2_10>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_6_8>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_6_9>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_3_15>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_6_2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_6_3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_6_1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_6_6>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_6_7>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_6_4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_6_5>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_5_14>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_8_1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_8_2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_8_3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_8_4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_8_5>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_8_6>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_8_7>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_8_8>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_8_9>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_7_11>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_8_14>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_7_3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_3_16>
+    ingen:value 127.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_6_10>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/note5>
+    ingen:value 62.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_4_16>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_6_13>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_2_15>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_7_1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_2_6>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_2_7>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_2_4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_2_5>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_2_2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_2_3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_7_10>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_2_1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_7_12>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_2_9>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_4_15>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/grid_2_8>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/note1>
+    ingen:value 63.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<s8n16/pos>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<s8n16/hostbpm>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<s8n16/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Ambience>
+    ingen:canvasX 2839.0 ;
+    ingen:canvasY 311.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 7 ;
+    lv2:port <Ambience/left_in> ,
+             <Ambience/right_in> ,
+             <Ambience/left_out> ,
+             <Ambience/right_out> ,
+             <Ambience/size> ,
+             <Ambience/hf_damp> ,
+             <Ambience/mix> ,
+             <Ambience/output> ,
+             <Ambience/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mda/Ambience> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Ambience/left_in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Ambience/right_in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Ambience/left_in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Ambience/right_in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Ambience/size>
+    ingen:value 5.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Ambience/output>
+    ingen:value -0.803571 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Ambience/hf_damp>
+    ingen:value 54.687500 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Ambience/mix>
+    ingen:value 42.522320 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Ambience/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<BigMuffPi>
+    ingen:canvasX 1919.0 ;
+    ingen:canvasY 177.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 7 ;
+    lv2:port <BigMuffPi/In> ,
+             <BigMuffPi/Out1> ,
+             <BigMuffPi/Tone> ,
+             <BigMuffPi/Level> ,
+             <BigMuffPi/Sustain> ,
+             <BigMuffPi/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/BigMuffPi> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<BigMuffPi/In>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<BigMuffPi/In>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<BigMuffPi/Sustain>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<BigMuffPi/Level>
+    ingen:value 0.132813 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<BigMuffPi/Tone>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<BigMuffPi/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpb>
+    ingen:value 4.000000 ;
+    lv2:index 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpm>
+    ingen:value 120.000000 ;
+    lv2:index 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:rolling>
+    ingen:value 0 ;
+    lv2:index 2 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<control_in>
+    atom:bufferType atom:Sequence ;
+    lv2:index 3 ;
+    lv2:name "Control In" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "control_in" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<control_out>
+    atom:bufferType atom:Sequence ;
+    lv2:index 4 ;
+    lv2:name "Control Out" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "control_out" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:OutputPort .
+
+<capture_1>
+    lv2:index 5 ;
+    lv2:name "Capture 1" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "capture_1" ;
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<capture_2>
+    lv2:index 6 ;
+    lv2:name "Capture 2" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "capture_2" ;
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<playback_1>
+    lv2:index 7 ;
+    lv2:name "Playback 1" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "playback_1" ;
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<playback_2>
+    lv2:index 8 ;
+    lv2:name "Playback 2" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "playback_2" ;
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<serial_midi_in>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    lv2:index 9 ;
+    lv2:name "DIN MIDI In" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "serial_midi_in" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<serial_midi_out>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    lv2:index 10 ;
+    lv2:name "DIN MIDI In" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "serial_midi_out" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:OutputPort .
+
+<midi_legacy_mode>
+    ingen:value 0 ;
+    lv2:index 11 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<>
+    doap:name "Instrument: Technocal Difficulties" ;
+    pedal:unitName "MOD Duo" ;
+    pedal:unitModel "duo:arm-a7" ;
+    pedal:width 3840 ;
+    pedal:height 1758 ;
+    pedal:addressings <addressings.json> ;
+    pedal:screenshot <screenshot.png> ;
+    pedal:thumbnail <thumbnail.png> ;
+    ingen:polyphony 1 ;
+    ingen:arc _:b1 ,
+              _:b2 ,
+              _:b3 ,
+              _:b4 ,
+              _:b5 ,
+              _:b6 ,
+              _:b7 ,
+              _:b8 ,
+              _:b9 ,
+              _:b10 ,
+              _:b11 ,
+              _:b12 ;
+    ingen:block <Gain2x2> ,
+                <HighPassFilter> ,
+                <Nekobi> ,
+                <Nekobi_1> ,
+                <s8n16> ,
+                <Ambience> ,
+                <BigMuffPi> ;
+    lv2:port <:bpb> ,
+             <:bpm> ,
+             <:rolling> ,
+             <midi_legacy_mode> ,
+             <control_in> ,
+             <control_out> ,
+             <serial_midi_in> ,
+             <serial_midi_out> ,
+             <capture_1> ,
+             <capture_2> ,
+             <playback_1> ,
+             <playback_2> ;
+    lv2:extensionData <http://lv2plug.in/ns/ext/state#interface> ;
+    a lv2:Plugin ,
+        ingen:Graph ,
+        pedal:Pedalboard .

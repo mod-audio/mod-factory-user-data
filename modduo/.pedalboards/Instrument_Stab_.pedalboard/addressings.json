@@ -1,0 +1,66 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": 0.0,
+            "maximum": 2.5,
+            "page": null,
+            "instance": "/graph/amsynth",
+            "tempo": null,
+            "port": "amp_decay",
+            "dividers": null,
+            "label": "Amp Decay",
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/amsynth",
+            "tempo": null,
+            "port": "amp_sustain",
+            "dividers": null,
+            "label": "Amp Sustain",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "tempo": null,
+            "port": "Gain",
+            "dividers": null,
+            "label": "Master Volume",
+            "steps": 65
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/Plate",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "Plate",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/cs_chorus1",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "CS Chorus 1",
+            "steps": 33
+        }
+    ]
+}

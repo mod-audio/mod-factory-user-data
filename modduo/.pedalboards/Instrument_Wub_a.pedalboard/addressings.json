@@ -1,0 +1,66 @@
+{
+    "/hmi/footswitch1": [
+        {
+            "maximum": 1.0,
+            "tempo": null,
+            "instance": "/graph/JX10",
+            "page": null,
+            "steps": 33,
+            "dividers": null,
+            "label": "LO JX10",
+            "minimum": 0.0,
+            "port": ":bypass"
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "maximum": 20000.0,
+            "tempo": null,
+            "instance": "/graph/LowPassFilter",
+            "page": null,
+            "steps": 17,
+            "dividers": null,
+            "label": "Freq",
+            "minimum": 20.0,
+            "port": "Freq"
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "maximum": 1.0,
+            "tempo": null,
+            "instance": "/graph/_vstb_",
+            "page": null,
+            "steps": 33,
+            "dividers": null,
+            "label": "FUZZ",
+            "minimum": 0.0,
+            "port": "FUZZ"
+        },
+        {
+            "maximum": 20.0,
+            "tempo": null,
+            "instance": "/graph/Gain2x2",
+            "page": null,
+            "steps": 65,
+            "dividers": null,
+            "label": "Master Volume",
+            "minimum": -20.0,
+            "port": "Gain"
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "maximum": 1.0,
+            "tempo": null,
+            "instance": "/graph/JX10_1",
+            "page": null,
+            "steps": 33,
+            "dividers": null,
+            "label": "HI JX10",
+            "minimum": 0.0,
+            "port": ":bypass"
+        }
+    ],
+    "/bpm": []
+}

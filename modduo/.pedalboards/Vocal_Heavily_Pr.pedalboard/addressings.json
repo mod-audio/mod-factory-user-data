@@ -1,0 +1,109 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": -1.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "port": "xfade",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "AutoTune Mix",
+            "steps": 33
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/fat1",
+            "tempo": false,
+            "port": "corr",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Correction",
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/PlateX2",
+            "tempo": false,
+            "port": "tail",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Plate Decay",
+            "steps": 33
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/PlateX2",
+            "tempo": false,
+            "port": "blend",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Plate Mix",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "tempo": false,
+            "port": "Gain",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Master Volume",
+            "steps": 65
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/PlateX2",
+            "tempo": false,
+            "port": ":bypass",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Plate",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/fat1",
+            "tempo": false,
+            "port": ":bypass",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Autotune",
+            "steps": 33
+        }
+    ]
+}

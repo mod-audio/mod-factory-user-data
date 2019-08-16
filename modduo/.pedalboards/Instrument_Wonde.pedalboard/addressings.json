@@ -1,0 +1,77 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": -6.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/_quack_",
+            "tempo": null,
+            "port": "PEAK",
+            "dividers": null,
+            "label": "PEAK",
+            "steps": 33
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/_quack_",
+            "tempo": null,
+            "port": "DEPTH",
+            "dividers": null,
+            "label": "DEPTH",
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "page": null,
+            "instance": "/graph/modulay",
+            "tempo": null,
+            "port": "mix",
+            "dividers": null,
+            "label": "mix",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain",
+            "tempo": null,
+            "port": "Gain",
+            "dividers": null,
+            "label": "Master Volume",
+            "steps": 65
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/modulay",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "Modulay",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/_quack_",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "AutoWah",
+            "steps": 33
+        }
+    ]
+}

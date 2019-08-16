@@ -1,0 +1,103 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": 4.0,
+            "maximum": 500.0,
+            "page": null,
+            "instance": "/graph/dynamics",
+            "tempo": false,
+            "port": "attack",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Comp Attack",
+            "steps": 33
+        },
+        {
+            "minimum": 4.0,
+            "maximum": 1000.0,
+            "page": null,
+            "instance": "/graph/dynamics",
+            "tempo": false,
+            "port": "release",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Comp Release",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/dynamics",
+            "tempo": false,
+            "port": "makeup",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Makeup Gain",
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": -1.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/xfade",
+            "tempo": null,
+            "port": "xfade",
+            "dividers": null,
+            "label": "Compressor Mix",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "tempo": null,
+            "port": "Gain",
+            "dividers": null,
+            "label": "Master Volume",
+            "steps": 65
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/studiopre",
+            "tempo": false,
+            "port": "bright",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Bright",
+            "steps": 1
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/dynamics",
+            "tempo": false,
+            "port": ":bypass",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Compress",
+            "steps": 33
+        }
+    ]
+}

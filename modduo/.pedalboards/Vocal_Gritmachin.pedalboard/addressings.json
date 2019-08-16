@@ -1,0 +1,137 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/ts9sim",
+            "tempo": false,
+            "port": "fslider2_",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Drive",
+            "steps": 33
+        },
+        {
+            "minimum": 100.0,
+            "maximum": 1000.0,
+            "page": null,
+            "instance": "/graph/ts9sim",
+            "tempo": false,
+            "port": "fslider1_",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Tone",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 4.0,
+            "page": null,
+            "instance": "/graph/ts9sim",
+            "tempo": false,
+            "port": "fslider0_",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Level",
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.0,
+            "maximum": 127.0,
+            "page": null,
+            "instance": "/graph/dist",
+            "tempo": false,
+            "port": "DRIVE",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Drive",
+            "steps": 127
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 127.0,
+            "page": null,
+            "instance": "/graph/dist",
+            "tempo": false,
+            "port": "WETDRY",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Mix",
+            "steps": 127
+        },
+        {
+            "minimum": 5.0,
+            "maximum": 25.0,
+            "page": null,
+            "instance": "/graph/dist",
+            "tempo": false,
+            "port": "LEVEL",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Level",
+            "steps": 127
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "tempo": false,
+            "port": "Gain",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Master Volume",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/dist",
+            "tempo": false,
+            "port": ":bypass",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Distort",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/ts9sim",
+            "tempo": false,
+            "port": ":bypass",
+            "dividers": {
+                "value": null,
+                "options": []
+            },
+            "label": "Screamer",
+            "steps": 33
+        }
+    ]
+}

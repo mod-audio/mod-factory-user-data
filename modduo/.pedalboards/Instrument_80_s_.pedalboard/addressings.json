@@ -1,0 +1,77 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "page": null,
+            "instance": "/graph/DX10",
+            "tempo": null,
+            "port": "waveform",
+            "dividers": null,
+            "label": "Waveform",
+            "steps": 33
+        },
+        {
+            "minimum": 0.0,
+            "maximum": 30.0,
+            "page": null,
+            "instance": "/graph/cs_chorus2",
+            "tempo": null,
+            "port": "delay",
+            "dividers": null,
+            "label": "Delay",
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/PlateX2",
+            "tempo": null,
+            "port": "damping",
+            "dividers": null,
+            "label": "Damping",
+            "steps": 33
+        },
+        {
+            "minimum": -20.0,
+            "maximum": 20.0,
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "tempo": null,
+            "port": "Gain",
+            "dividers": null,
+            "label": "Master Volume",
+            "steps": 65
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/PlateX2",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "PlateX2",
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "page": null,
+            "instance": "/graph/cs_chorus2",
+            "tempo": null,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "CS Chorus 2",
+            "steps": 33
+        }
+    ]
+}
