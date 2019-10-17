@@ -1,1 +1,132 @@
-{"/hmi/footswitch1": [{"port": ":bypass", "steps": 33, "label": "Tremolo", "minimum": 0.0, "instance": "/graph/tremolo", "maximum": 1.0}], "/hmi/footswitch2": [{"port": ":bypass", "steps": 33, "label": "Slapback", "minimum": 0.0, "instance": "/graph/xfade", "maximum": 1.0}], "/hmi/knob2": [{"port": "Gain", "steps": 33, "label": "Master Volume", "minimum": -40.0, "instance": "/graph/Gain2x2", "maximum": 12.0}, {"port": "blend", "steps": 17, "label": "Reverb Mix", "minimum": 0.0, "instance": "/graph/Plate", "maximum": 1.0}, {"port": "tail", "steps": 17, "label": "Reverb Decay", "minimum": 0.0, "instance": "/graph/Plate", "maximum": 1.0}, {"port": "damping", "steps": 17, "label": "Reverb Damping", "minimum": 0.0, "instance": "/graph/Plate", "maximum": 1.0}, {"port": "delay1", "steps": 65, "label": "Delay Time", "minimum": 0.040000000000000001, "instance": "/graph/mono", "maximum": 0.14999999999999999}], "/hmi/knob1": [{"port": "gain", "steps": 33, "label": "Tremolo Level", "minimum": -26.0, "instance": "/graph/tremolo", "maximum": 6.0}, {"port": "frequency", "steps": 65, "label": "Tremolo Rate", "minimum": 0.0, "instance": "/graph/tremolo", "maximum": 8.0}, {"port": "depth", "steps": 33, "label": "Tremolo Depth", "minimum": 0.0, "instance": "/graph/tremolo", "maximum": 100.0}]}
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Tremolo",
+            "page": null,
+            "instance": "/graph/tremolo",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Slapback",
+            "page": null,
+            "instance": "/graph/xfade",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 12.0,
+            "label": "Master Volume",
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "minimum": -40.0,
+            "dividers": null
+        },
+        {
+            "port": "blend",
+            "group": null,
+            "steps": 17,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Reverb Mix",
+            "page": null,
+            "instance": "/graph/Plate",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "tail",
+            "group": null,
+            "steps": 17,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Reverb Decay",
+            "page": null,
+            "instance": "/graph/Plate",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "damping",
+            "group": null,
+            "steps": 17,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Reverb Damping",
+            "page": null,
+            "instance": "/graph/Plate",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "delay1",
+            "group": null,
+            "steps": 65,
+            "tempo": null,
+            "maximum": 0.14999999999999999,
+            "label": "Delay Time",
+            "page": null,
+            "instance": "/graph/mono",
+            "minimum": 0.040000000000000001,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "gain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 6.0,
+            "label": "Tremolo Level",
+            "page": null,
+            "instance": "/graph/tremolo",
+            "minimum": -26.0,
+            "dividers": null
+        },
+        {
+            "port": "frequency",
+            "group": null,
+            "steps": 65,
+            "tempo": null,
+            "maximum": 8.0,
+            "label": "Tremolo Rate",
+            "page": null,
+            "instance": "/graph/tremolo",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "depth",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 100.0,
+            "label": "Tremolo Depth",
+            "page": null,
+            "instance": "/graph/tremolo",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
+}

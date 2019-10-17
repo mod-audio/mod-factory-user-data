@@ -8,32 +8,32 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <mono/out> ;
-    ingen:head <Gain2x2/In1> .
+    ingen:tail <mono_1/out> ;
+    ingen:head <mono/in> .
 
 _:b2
-    ingen:tail <FluidPlug_FluidBass/audio_out_r> ;
-    ingen:head <mono_1/in> .
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
 
 _:b3
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <playback_2> .
+    ingen:tail <mono/out> ;
+    ingen:head <Gain2x2/In2> .
 
 _:b4
     ingen:tail <serial_midi_in> ;
     ingen:head <FluidPlug_FluidBass/events> .
 
 _:b5
-    ingen:tail <mono_1/out> ;
-    ingen:head <mono/in> .
+    ingen:tail <mono/out> ;
+    ingen:head <Gain2x2/In1> .
 
 _:b6
-    ingen:tail <mono/out> ;
-    ingen:head <Gain2x2/In2> .
+    ingen:tail <FluidPlug_FluidBass/audio_out_r> ;
+    ingen:head <mono_1/in> .
 
 _:b7
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <playback_1> .
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
 
 _:b8
     ingen:tail <FluidPlug_FluidBass/audio_out_l> ;
@@ -42,6 +42,46 @@ _:b8
 _:b9
     ingen:tail <midi_merger_out> ;
     ingen:head <FluidPlug_FluidBass/events> .
+
+<FluidPlug_FluidBass>
+    ingen:canvasX 661.0 ;
+    ingen:canvasY 352.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 11 ;
+    lv2:port <FluidPlug_FluidBass/audio_out_l> ,
+             <FluidPlug_FluidBass/audio_out_r> ,
+             <FluidPlug_FluidBass/level> ,
+             <FluidPlug_FluidBass/program> ,
+             <FluidPlug_FluidBass/events> ,
+             <FluidPlug_FluidBass/:bypass> ;
+    lv2:prototype <http://kxstudio.linuxaudio.org/plugins/FluidPlug_FluidBass> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<FluidPlug_FluidBass/events>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<FluidPlug_FluidBass/level>
+    ingen:value 0.515625 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<FluidPlug_FluidBass/program>
+    ingen:value 6.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<FluidPlug_FluidBass/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
 
 <Gain2x2>
     ingen:canvasX 3387.3 ;
@@ -96,7 +136,7 @@ _:b9
     lv2:microVersion 1 ;
     lv2:minorVersion 2 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 6 ;
+    mod:releaseNumber 7 ;
     lv2:port <mono/in> ,
              <mono/out> ,
              <mono/bypass> ,
@@ -124,6 +164,16 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
+<mono/ratio>
+    ingen:value 14.677455 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/threshold>
+    ingen:value -10.406250 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <mono/bypass>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
@@ -139,28 +189,18 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/rms>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/threshold>
-    ingen:value -10.406250 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/noClip>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <mono/gain>
     ingen:value 2.812500 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/ratio>
-    ingen:value 14.677455 ;
+<mono/rms>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/noClip>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -243,12 +283,92 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
+<mono_1/gain1>
+    ingen:value -0.321429 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/freq2>
+    ingen:value 397.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/LSq>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/gain2>
+    ingen:value 2.250000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/q3>
+    ingen:value 0.600000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <mono_1/gain4>
     ingen:value 5.062500 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<mono_1/HighPass>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/LSsec>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/gain>
+    ingen:value -2.250000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/gain3>
+    ingen:value 0.361607 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/HSfreq>
+    ingen:value 4100.256836 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <mono_1/sec4>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/freq1>
+    ingen:value 160.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/HSsec>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/HSgain>
+    ingen:value 5.183036 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/q1>
+    ingen:value 0.600000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/peakreset>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/sec1>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -258,7 +378,52 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono_1/LSq>
+<mono_1/sec3>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/LPfreq>
+    ingen:value 20000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/HPQ>
+    ingen:value 0.700000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/freq4>
+    ingen:value 2500.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/LPQ>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/LSgain>
+    ingen:value 4.098214 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/HPfreq>
+    ingen:value 20.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/LSfreq>
+    ingen:value 105.401314 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/q2>
+    ingen:value 0.600000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1/enable>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -268,93 +433,8 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono_1/sec1>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/q2>
-    ingen:value 0.600000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/gain2>
-    ingen:value 2.250000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/gain1>
-    ingen:value -0.321429 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/freq1>
-    ingen:value 160.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/LPQ>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <mono_1/freq3>
     ingen:value 1250.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/HPfreq>
-    ingen:value 20.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/freq2>
-    ingen:value 397.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/gain3>
-    ingen:value 0.361607 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/HSgain>
-    ingen:value 5.183036 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/LSgain>
-    ingen:value 4.098214 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/q1>
-    ingen:value 0.600000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/gain>
-    ingen:value -2.250000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/LPfreq>
-    ingen:value 20000.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/LSsec>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/peakreset>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/enable>
-    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -363,48 +443,8 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono_1/HighPass>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/q3>
-    ingen:value 0.600000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <mono_1/HSq>
     ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/freq4>
-    ingen:value 2500.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/HSfreq>
-    ingen:value 4100.256836 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/HSsec>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/sec3>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/LSfreq>
-    ingen:value 105.401314 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono_1/HPQ>
-    ingen:value 0.700000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -413,46 +453,6 @@ _:b9
         lv2:OutputPort .
 
 <mono_1/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<FluidPlug_FluidBass>
-    ingen:canvasX 661.0 ;
-    ingen:canvasY 352.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 11 ;
-    lv2:port <FluidPlug_FluidBass/audio_out_l> ,
-             <FluidPlug_FluidBass/audio_out_r> ,
-             <FluidPlug_FluidBass/level> ,
-             <FluidPlug_FluidBass/program> ,
-             <FluidPlug_FluidBass/events> ,
-             <FluidPlug_FluidBass/:bypass> ;
-    lv2:prototype <http://kxstudio.linuxaudio.org/plugins/FluidPlug_FluidBass> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<FluidPlug_FluidBass/events>
-    atom:bufferType atom:Sequence ;
-    atom:supports midi:MidiEvent ;
-    a atom:AtomPort ,
-        lv2:InputPort .
-
-<FluidPlug_FluidBass/program>
-    ingen:value 6.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<FluidPlug_FluidBass/level>
-    ingen:value 0.515625 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<FluidPlug_FluidBass/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -549,7 +549,7 @@ _:b9
     a atom:AtomPort ,
         lv2:OutputPort .
 
-<midi_legacy_mode>
+<midi_separated_mode>
     ingen:value 0 ;
     lv2:index 11 ;
     a atom:AtomPort ,
@@ -564,6 +564,7 @@ _:b9
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
+    pedal:version 1 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -574,14 +575,14 @@ _:b9
               _:b7 ,
               _:b8 ,
               _:b9 ;
-    ingen:block <Gain2x2> ,
+    ingen:block <FluidPlug_FluidBass> ,
+                <Gain2x2> ,
                 <mono> ,
-                <mono_1> ,
-                <FluidPlug_FluidBass> ;
+                <mono_1> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
-             <midi_legacy_mode> ,
+             <midi_separated_mode> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

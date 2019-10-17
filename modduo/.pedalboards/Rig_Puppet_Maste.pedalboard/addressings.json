@@ -1,1 +1,72 @@
-{"/hmi/footswitch1": [{"label": "Dist-Clean", "steps": 1, "port": "Switch", "minimum": 0.0, "instance": "/graph/SwitchBox2", "maximum": 1.0}], "/hmi/footswitch2": [{"label": "Chorus", "steps": 33, "port": ":bypass", "minimum": 0.0, "instance": "/graph/cs_chorus2", "maximum": 1.0}], "/hmi/knob2": [{"label": "Output Level", "steps": 33, "port": "Gain", "minimum": -40.0, "instance": "/graph/Gain", "maximum": 12.0}], "/hmi/knob1": [{"label": "Distortion", "steps": 33, "port": "Dist", "minimum": 0.5, "instance": "/graph/DS1", "maximum": 1.0}, {"label": "Tone", "steps": 17, "port": "Tone", "minimum": 0.0099999997764825821, "instance": "/graph/DS1", "maximum": 0.99000000953674316}]}
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "port": "Switch",
+            "group": null,
+            "steps": 1,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Dist-Clean",
+            "page": null,
+            "instance": "/graph/SwitchBox2",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Chorus",
+            "page": null,
+            "instance": "/graph/cs_chorus2",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 12.0,
+            "label": "Output Level",
+            "page": null,
+            "instance": "/graph/Gain",
+            "minimum": -40.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "Dist",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Distortion",
+            "page": null,
+            "instance": "/graph/DS1",
+            "minimum": 0.5,
+            "dividers": null
+        },
+        {
+            "port": "Tone",
+            "group": null,
+            "steps": 17,
+            "tempo": null,
+            "maximum": 0.99000000953674316,
+            "label": "Tone",
+            "page": null,
+            "instance": "/graph/DS1",
+            "minimum": 0.0099999997764825821,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
+}

@@ -8,8 +8,8 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <midi_merger_out> ;
-    ingen:head <DX10/event_in> .
+    ingen:tail <shiroverb/lv2_audio_out_1> ;
+    ingen:head <Gain2x2/In1> .
 
 _:b2
     ingen:tail <Gain2x2_1/Out1> ;
@@ -20,169 +20,90 @@ _:b3
     ingen:head <playback_2> .
 
 _:b4
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <playback_1> .
+    ingen:tail <shiroverb/lv2_audio_out_2> ;
+    ingen:head <Gain2x2/In2> .
 
 _:b5
-    ingen:tail <booster/out> ;
-    ingen:head <roomy/in_right> .
+    ingen:tail <roomy/out_right> ;
+    ingen:head <shiroverb/lv2_audio_in_1> .
 
 _:b6
-    ingen:tail <serial_midi_in> ;
-    ingen:head <DX10/event_in> .
-
-_:b7
-    ingen:tail <Gain2x2_1/Out2> ;
-    ingen:head <booster/in> .
-
-_:b8
-    ingen:tail <DX10/right_out> ;
+    ingen:tail <DX10/left_out> ;
     ingen:head <Gain2x2_1/In1> .
 
+_:b7
+    ingen:tail <midi_merger_out> ;
+    ingen:head <DX10/event_in> .
+
+_:b8
+    ingen:tail <roomy/out_left> ;
+    ingen:head <shiroverb/lv2_audio_in_1> .
+
 _:b9
-    ingen:tail <shiroverb/lv2_audio_out_1> ;
-    ingen:head <Gain2x2/In1> .
+    ingen:tail <booster/out> ;
+    ingen:head <roomy/in_right> .
 
 _:b10
     ingen:tail <booster/out> ;
     ingen:head <roomy/in_left> .
 
 _:b11
-    ingen:tail <shiroverb/lv2_audio_out_2> ;
-    ingen:head <Gain2x2/In2> .
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
 
 _:b12
-    ingen:tail <roomy/out_left> ;
-    ingen:head <shiroverb/lv2_audio_in_1> .
-
-_:b13
-    ingen:tail <DX10/left_out> ;
+    ingen:tail <DX10/right_out> ;
     ingen:head <Gain2x2_1/In1> .
 
-_:b14
-    ingen:tail <roomy/out_right> ;
-    ingen:head <shiroverb/lv2_audio_in_1> .
+_:b13
+    ingen:tail <serial_midi_in> ;
+    ingen:head <DX10/event_in> .
 
-<DX10>
-    ingen:canvasX 342.0 ;
-    ingen:canvasY 462.0 ;
+_:b14
+    ingen:tail <Gain2x2_1/Out2> ;
+    ingen:head <booster/in> .
+
+<Gain2x2_1>
+    ingen:canvasX 1176.0 ;
+    ingen:canvasY 553.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
-    lv2:microVersion 2 ;
-    lv2:minorVersion 0 ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 7 ;
-    lv2:port <DX10/left_out> ,
-             <DX10/right_out> ,
-             <DX10/attack> ,
-             <DX10/decay> ,
-             <DX10/release> ,
-             <DX10/coarse> ,
-             <DX10/fine> ,
-             <DX10/mod_init> ,
-             <DX10/mod_dec> ,
-             <DX10/mod_sus> ,
-             <DX10/mod_rel> ,
-             <DX10/mod_vel> ,
-             <DX10/vibrato> ,
-             <DX10/octave> ,
-             <DX10/finetune> ,
-             <DX10/waveform> ,
-             <DX10/mod_thru> ,
-             <DX10/lfo_rate> ,
-             <DX10/event_in> ,
-             <DX10/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mda/DX10> ;
-    pedal:preset <file:///root/.lv2/mod-mda-DX10.lv2/default-preset> ;
+    mod:releaseNumber 12 ;
+    lv2:port <Gain2x2_1/In1> ,
+             <Gain2x2_1/In2> ,
+             <Gain2x2_1/Out1> ,
+             <Gain2x2_1/Out2> ,
+             <Gain2x2_1/Gain> ,
+             <Gain2x2_1/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:preset <> ;
     a ingen:Block .
 
-<DX10/event_in>
-    atom:bufferType atom:Sequence ;
-    atom:supports midi:MidiEvent ;
-    a atom:AtomPort ,
+<Gain2x2_1/In1>
+    a lv2:AudioPort ,
         lv2:InputPort .
 
-<DX10/mod_vel>
-    ingen:value 15.625000 ;
+<Gain2x2_1/In2>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2_1/In1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2_1/In2>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2_1/Gain>
+    ingen:value -14.107143 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<DX10/decay>
-    ingen:value 59.375000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/vibrato>
-    ingen:value 25.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/lfo_rate>
-    ingen:value 2.734375 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/attack>
-    ingen:value 40.625000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/release>
-    ingen:value 83.370537 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/mod_thru>
-    ingen:value 37.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/mod_dec>
-    ingen:value 25.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/mod_init>
-    ingen:value 29.687500 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/mod_rel>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/fine>
-    ingen:value 0.002063 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/mod_sus>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/waveform>
-    ingen:value 75.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/finetune>
-    ingen:value 3.125000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/octave>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/coarse>
-    ingen:value 0.010000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/:bypass>
+<Gain2x2_1/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -195,7 +116,7 @@ _:b14
     lv2:microVersion 3 ;
     lv2:minorVersion 28 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 20 ;
+    mod:releaseNumber 21 ;
     lv2:port <booster/in> ,
              <booster/out> ,
              <booster/fslider0_> ,
@@ -213,13 +134,13 @@ _:b14
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<booster/fslider1_>
-    ingen:value 8.726562 ;
+<booster/fslider0_>
+    ingen:value 20.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<booster/fslider0_>
-    ingen:value 20.000000 ;
+<booster/fslider1_>
+    ingen:value 8.726562 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -265,8 +186,8 @@ _:b14
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<roomy/time>
-    ingen:value 0.166295 ;
+<roomy/dry_wet>
+    ingen:value 0.156000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -275,8 +196,8 @@ _:b14
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<roomy/dry_wet>
-    ingen:value 0.156000 ;
+<roomy/time>
+    ingen:value 0.166295 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -293,7 +214,7 @@ _:b14
     lv2:microVersion 0 ;
     lv2:minorVersion 2 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 9 ;
+    mod:releaseNumber 11 ;
     lv2:port <shiroverb/lv2_audio_in_1> ,
              <shiroverb/lv2_audio_out_1> ,
              <shiroverb/lv2_audio_out_2> ,
@@ -318,13 +239,8 @@ _:b14
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<shiroverb/damping>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/decay>
-    ingen:value 5.861607 ;
+<shiroverb/ratio>
+    ingen:value 2.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -333,8 +249,13 @@ _:b14
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<shiroverb/roomsize>
-    ingen:value 69.743301 ;
+<shiroverb/decay>
+    ingen:value 5.861607 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/damping>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -343,8 +264,8 @@ _:b14
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<shiroverb/bandwidth>
-    ingen:value 59.486607 ;
+<shiroverb/roomsize>
+    ingen:value 69.743301 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -353,12 +274,136 @@ _:b14
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<shiroverb/ratio>
-    ingen:value 2.000000 ;
+<shiroverb/bandwidth>
+    ingen:value 59.486607 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <shiroverb/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10>
+    ingen:canvasX 342.0 ;
+    ingen:canvasY 462.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 9 ;
+    lv2:port <DX10/left_out> ,
+             <DX10/right_out> ,
+             <DX10/attack> ,
+             <DX10/decay> ,
+             <DX10/release> ,
+             <DX10/coarse> ,
+             <DX10/fine> ,
+             <DX10/mod_init> ,
+             <DX10/mod_dec> ,
+             <DX10/mod_sus> ,
+             <DX10/mod_rel> ,
+             <DX10/mod_vel> ,
+             <DX10/vibrato> ,
+             <DX10/octave> ,
+             <DX10/finetune> ,
+             <DX10/waveform> ,
+             <DX10/mod_thru> ,
+             <DX10/lfo_rate> ,
+             <DX10/event_in> ,
+             <DX10/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mda/DX10> ;
+    pedal:preset <file:///root/.lv2/mod-mda-DX10.lv2/default-preset> ;
+    a ingen:Block .
+
+<DX10/event_in>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<DX10/lfo_rate>
+    ingen:value 2.734375 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/waveform>
+    ingen:value 75.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/decay>
+    ingen:value 59.375000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/coarse>
+    ingen:value 0.010000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/fine>
+    ingen:value 0.002063 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_thru>
+    ingen:value 37.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/finetune>
+    ingen:value 3.125000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_rel>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_sus>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_dec>
+    ingen:value 25.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/release>
+    ingen:value 83.370537 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/attack>
+    ingen:value 40.625000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_init>
+    ingen:value 29.687500 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/octave>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_vel>
+    ingen:value 15.625000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/vibrato>
+    ingen:value 25.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -404,51 +449,6 @@ _:b14
         lv2:InputPort .
 
 <Gain2x2/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Gain2x2_1>
-    ingen:canvasX 1176.0 ;
-    ingen:canvasY 553.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 1 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 12 ;
-    lv2:port <Gain2x2_1/In1> ,
-             <Gain2x2_1/In2> ,
-             <Gain2x2_1/Out1> ,
-             <Gain2x2_1/Out2> ,
-             <Gain2x2_1/Gain> ,
-             <Gain2x2_1/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<Gain2x2_1/In1>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Gain2x2_1/In2>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Gain2x2_1/In1>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Gain2x2_1/In2>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Gain2x2_1/Gain>
-    ingen:value -14.107143 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Gain2x2_1/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -545,7 +545,7 @@ _:b14
     a atom:AtomPort ,
         lv2:OutputPort .
 
-<midi_legacy_mode>
+<midi_separated_mode>
     ingen:value 0 ;
     lv2:index 11 ;
     a atom:AtomPort ,
@@ -560,6 +560,7 @@ _:b14
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
+    pedal:version 1 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -575,16 +576,16 @@ _:b14
               _:b12 ,
               _:b13 ,
               _:b14 ;
-    ingen:block <DX10> ,
+    ingen:block <Gain2x2_1> ,
                 <booster> ,
                 <roomy> ,
                 <shiroverb> ,
-                <Gain2x2> ,
-                <Gain2x2_1> ;
+                <DX10> ,
+                <Gain2x2> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
-             <midi_legacy_mode> ,
+             <midi_separated_mode> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

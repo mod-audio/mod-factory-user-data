@@ -1,1 +1,108 @@
-{"/hmi/knob1": [{"instance": "/graph/_quack_", "maximum": 20.0, "minimum": -6.0, "steps": 33, "port": "PEAK", "label": "PEAK"}, {"instance": "/graph/_quack_", "maximum": 1.0, "minimum": 0.0, "steps": 33, "port": "DEPTH", "label": "DEPTH"}], "/hmi/footswitch1": [{"instance": "/graph/_quack_", "maximum": 1.0, "minimum": 0.0, "steps": 33, "port": ":bypass", "label": "Quack"}], "/hmi/footswitch2": [{"instance": "/graph/mono", "maximum": 1.0, "minimum": 0.0, "steps": 33, "port": ":bypass", "label": "Comp"}], "/hmi/knob2": [{"instance": "/graph/studiopre", "maximum": 1.0, "minimum": 0.0, "steps": 33, "port": "bass", "label": "Bass"}, {"instance": "/graph/studiopre", "maximum": 1.0, "minimum": 0.0, "steps": 33, "port": "middle", "label": "Mid"}, {"instance": "/graph/studiopre", "maximum": 1.0, "minimum": 0.0, "steps": 33, "port": "treble", "label": "Treble"}, {"instance": "/graph/Gain2x2", "maximum": 20.0, "minimum": -20.0, "steps": 65, "port": "Gain", "label": "Master Volume"}]}
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Quack",
+            "page": null,
+            "instance": "/graph/_quack_",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Comp",
+            "page": null,
+            "instance": "/graph/mono",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "bass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Bass",
+            "page": null,
+            "instance": "/graph/studiopre",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "middle",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Mid",
+            "page": null,
+            "instance": "/graph/studiopre",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "treble",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Treble",
+            "page": null,
+            "instance": "/graph/studiopre",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 65,
+            "tempo": null,
+            "maximum": 20.0,
+            "label": "Master Volume",
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "minimum": -20.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "PEAK",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 20.0,
+            "label": "PEAK",
+            "page": null,
+            "instance": "/graph/_quack_",
+            "minimum": -6.0,
+            "dividers": null
+        },
+        {
+            "port": "DEPTH",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "DEPTH",
+            "page": null,
+            "instance": "/graph/_quack_",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
+}

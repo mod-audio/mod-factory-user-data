@@ -1,1 +1,84 @@
-{"/hmi/footswitch1": [{"minimum": 0.0, "port": ":bypass", "maximum": 1.0, "instance": "/graph/BigMuffPi", "label": "Distortion", "steps": 33}], "/hmi/knob1": [{"minimum": -20.0, "port": "Gain", "maximum": 20.0, "instance": "/graph/Drop", "label": "Octave LEvel", "steps": 33}, {"minimum": 0.29999999999999999, "port": "Level", "maximum": 0.59999999999999998, "instance": "/graph/BigMuffPi", "label": "Distortion Level", "steps": 33}, {"minimum": 0.0, "port": "Tone", "maximum": 1.0, "instance": "/graph/BigMuffPi", "label": "Distortion Tone", "steps": 33}], "/hmi/knob2": [{"minimum": -40.0, "port": "Gain", "maximum": 12.0, "instance": "/graph/Gain2x2", "label": "Master Level", "steps": 33}], "/hmi/footswitch2": [{"minimum": 0.0, "port": ":bypass", "maximum": 1.0, "instance": "/graph/Drop", "label": "Octaver", "steps": 33}]}
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Distortion",
+            "page": null,
+            "instance": "/graph/BigMuffPi",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Octaver",
+            "page": null,
+            "instance": "/graph/Drop",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 12.0,
+            "label": "Master Level",
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "minimum": -40.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 20.0,
+            "label": "Octave LEvel",
+            "page": null,
+            "instance": "/graph/Drop",
+            "minimum": -20.0,
+            "dividers": null
+        },
+        {
+            "port": "Level",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 0.59999999999999998,
+            "label": "Distortion Level",
+            "page": null,
+            "instance": "/graph/BigMuffPi",
+            "minimum": 0.29999999999999999,
+            "dividers": null
+        },
+        {
+            "port": "Tone",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Distortion Tone",
+            "page": null,
+            "instance": "/graph/BigMuffPi",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
+}

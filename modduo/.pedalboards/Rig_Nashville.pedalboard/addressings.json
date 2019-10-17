@@ -1,1 +1,96 @@
-{"/hmi/knob2": [{"instance": "/graph/tremolo", "label": "Rate", "minimum": 0.0, "maximum": 20.0, "port": "frequency", "steps": 33}, {"instance": "/graph/tremolo", "label": "Depth", "minimum": 0.0, "maximum": 100.0, "port": "depth", "steps": 33}, {"instance": "/graph/Gain2x2", "label": "Output Level", "minimum": -40.0, "maximum": 3.0, "port": "Gain", "steps": 33}], "/hmi/knob1": [{"instance": "/graph/_digital_delay_", "label": "FEEDBACK", "minimum": 1.0, "maximum": 100.0, "port": "FEEDBACK", "steps": 33}, {"instance": "/graph/_digital_delay_", "label": "MODE", "minimum": 0.0, "maximum": 3.0, "port": "MODE", "steps": 3}], "/hmi/footswitch2": [{"instance": "/graph/tremolo", "label": "Tremolo", "minimum": 0.0, "maximum": 1.0, "port": ":bypass", "steps": 33}], "/hmi/footswitch1": [{"instance": "/graph/_digital_delay_", "label": "Delay", "minimum": 0.0, "maximum": 1.0, "port": ":bypass", "steps": 33}]}
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Delay",
+            "page": null,
+            "instance": "/graph/_digital_delay_",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Tremolo",
+            "page": null,
+            "instance": "/graph/tremolo",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "frequency",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 20.0,
+            "label": "Rate",
+            "page": null,
+            "instance": "/graph/tremolo",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "depth",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 100.0,
+            "label": "Depth",
+            "page": null,
+            "instance": "/graph/tremolo",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 3.0,
+            "label": "Output Level",
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "minimum": -40.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "FEEDBACK",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 100.0,
+            "label": "FEEDBACK",
+            "page": null,
+            "instance": "/graph/_digital_delay_",
+            "minimum": 1.0,
+            "dividers": null
+        },
+        {
+            "port": "MODE",
+            "group": null,
+            "steps": 3,
+            "tempo": null,
+            "maximum": 3.0,
+            "label": "MODE",
+            "page": null,
+            "instance": "/graph/_digital_delay_",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
+}

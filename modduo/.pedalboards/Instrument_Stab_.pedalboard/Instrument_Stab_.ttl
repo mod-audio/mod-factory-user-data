@@ -8,32 +8,32 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <amsynth/out_l> ;
-    ingen:head <cs_chorus1/in> .
-
-_:b2
-    ingen:tail <serial_midi_in> ;
+    ingen:tail <midi_merger_out> ;
     ingen:head <amsynth/midi> .
 
-_:b3
-    ingen:tail <amsynth/out_r> ;
-    ingen:head <cs_chorus1/in> .
-
-_:b4
-    ingen:tail <Plate/outl> ;
-    ingen:head <Gain2x2/In1> .
-
-_:b5
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <playback_1> .
-
-_:b6
+_:b2
     ingen:tail <Gain2x2/Out2> ;
     ingen:head <playback_2> .
 
-_:b7
-    ingen:tail <midi_merger_out> ;
+_:b3
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
+
+_:b4
+    ingen:tail <serial_midi_in> ;
     ingen:head <amsynth/midi> .
+
+_:b5
+    ingen:tail <amsynth/out_l> ;
+    ingen:head <cs_chorus1/in> .
+
+_:b6
+    ingen:tail <amsynth/out_r> ;
+    ingen:head <cs_chorus1/in> .
+
+_:b7
+    ingen:tail <Plate/outl> ;
+    ingen:head <Gain2x2/In1> .
 
 _:b8
     ingen:tail <Plate/outr> ;
@@ -72,16 +72,6 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<Plate/damping>
-    ingen:value 0.819196 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Plate/bandwidth>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <Plate/blend>
     ingen:value 0.250000 ;
     a lv2:ControlPort ,
@@ -89,6 +79,16 @@ _:b9
 
 <Plate/tail>
     ingen:value 0.289063 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Plate/damping>
+    ingen:value 0.819196 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Plate/bandwidth>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -161,12 +161,7 @@ _:b9
     a atom:AtomPort ,
         lv2:InputPort .
 
-<amsynth/filter_type>
-    ingen:value 2.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/reverb_roomsize>
+<amsynth/osc_mix>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -176,102 +171,12 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<amsynth/filter_release>
-    ingen:value 0.022321 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/master_vol>
-    ingen:value 0.244420 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/portamento_mode>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/amp_sustain>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/amp_decay>
-    ingen:value 0.469000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/freq_mod_amount>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/filter_cutoff>
-    ingen:value 0.921875 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/filter_attack>
-    ingen:value 0.016741 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/amp_vel_sens>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/osc1_waveform>
-    ingen:value 2.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <amsynth/osc_mix_mode>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<amsynth/filter_decay>
-    ingen:value 1.035156 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <amsynth/portamento_time>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/osc2_range>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/filter_vel_sens>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/amp_release>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/reverb_wet>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/osc2_sync>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/filter_slope>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/lfo_freq>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -281,17 +186,22 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<amsynth/reverb_damp>
+<amsynth/filter_env_amount>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<amsynth/lfo_waveform>
-    ingen:value 6.000000 ;
+<amsynth/osc2_waveform>
+    ingen:value 2.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<amsynth/osc2_detune>
+<amsynth/amp_mod_amount>
+    ingen:value -1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/amp_release>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -301,18 +211,23 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<amsynth/osc2_pulsewidth>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/filter_decay>
+    ingen:value 1.035156 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/freq_mod_amount>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <amsynth/filter_sustain>
     ingen:value 0.226562 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/osc2_waveform>
-    ingen:value 2.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/freq_mod_osc>
-    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -321,37 +236,12 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<amsynth/osc1_pulsewidth>
+<amsynth/filter_vel_sens>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<amsynth/keyboard_mode>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/filter_env_amount>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/osc_mix>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/osc2_pulsewidth>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/amp_mod_amount>
-    ingen:value -1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<amsynth/distortion_crunch>
+<amsynth/freq_mod_osc>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -361,8 +251,118 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<amsynth/portamento_mode>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/filter_cutoff>
+    ingen:value 0.921875 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <amsynth/amp_attack>
     ingen:value 0.022321 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/distortion_crunch>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/amp_vel_sens>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/osc2_detune>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/filter_attack>
+    ingen:value 0.016741 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/lfo_freq>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/reverb_damp>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/keyboard_mode>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/filter_type>
+    ingen:value 2.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/amp_decay>
+    ingen:value 0.469000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/osc1_pulsewidth>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/reverb_wet>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/master_vol>
+    ingen:value 0.244420 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/amp_sustain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/filter_slope>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/reverb_roomsize>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/osc2_sync>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/lfo_waveform>
+    ingen:value 6.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/osc2_range>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/filter_release>
+    ingen:value 0.022321 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<amsynth/osc1_waveform>
+    ingen:value 2.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -379,7 +379,7 @@ _:b9
     lv2:microVersion 0 ;
     lv2:minorVersion 0 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 8 ;
+    mod:releaseNumber 9 ;
     lv2:port <cs_chorus1/in> ,
              <cs_chorus1/out> ,
              <cs_chorus1/delay> ,
@@ -400,8 +400,13 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<cs_chorus1/mod_amp_1>
-    ingen:value 1.328125 ;
+<cs_chorus1/mod_freq_2>
+    ingen:value 0.383118 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<cs_chorus1/mod_freq_1>
+    ingen:value 0.027074 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -415,13 +420,8 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<cs_chorus1/mod_freq_1>
-    ingen:value 0.027074 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<cs_chorus1/mod_freq_2>
-    ingen:value 0.383118 ;
+<cs_chorus1/mod_amp_1>
+    ingen:value 1.328125 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -567,7 +567,7 @@ _:b9
     a atom:AtomPort ,
         lv2:OutputPort .
 
-<midi_legacy_mode>
+<midi_separated_mode>
     ingen:value 0 ;
     lv2:index 11 ;
     a atom:AtomPort ,
@@ -582,6 +582,7 @@ _:b9
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
+    pedal:version 1 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -599,7 +600,7 @@ _:b9
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
-             <midi_legacy_mode> ,
+             <midi_separated_mode> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

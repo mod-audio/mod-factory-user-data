@@ -8,40 +8,164 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <cs_chorus2/out1> ;
-    ingen:head <PlateX2/inr> .
-
-_:b2
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <playback_2> .
-
-_:b3
-    ingen:tail <serial_midi_in> ;
-    ingen:head <DX10/event_in> .
-
-_:b4
-    ingen:tail <DX10/left_out> ;
-    ingen:head <cs_chorus2/in> .
-
-_:b5
-    ingen:tail <PlateX2/outr> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b6
     ingen:tail <PlateX2/outl> ;
     ingen:head <Gain2x2/In1> .
 
-_:b7
+_:b2
+    ingen:tail <DX10/left_out> ;
+    ingen:head <cs_chorus2/in> .
+
+_:b3
     ingen:tail <cs_chorus2/out1> ;
     ingen:head <PlateX2/inl> .
 
-_:b8
+_:b4
+    ingen:tail <cs_chorus2/out1> ;
+    ingen:head <PlateX2/inr> .
+
+_:b5
     ingen:tail <Gain2x2/Out1> ;
     ingen:head <playback_1> .
+
+_:b6
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
+
+_:b7
+    ingen:tail <serial_midi_in> ;
+    ingen:head <DX10/event_in> .
+
+_:b8
+    ingen:tail <PlateX2/outr> ;
+    ingen:head <Gain2x2/In2> .
 
 _:b9
     ingen:tail <midi_merger_out> ;
     ingen:head <DX10/event_in> .
+
+<DX10>
+    ingen:canvasX 518.0 ;
+    ingen:canvasY 353.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 9 ;
+    lv2:port <DX10/left_out> ,
+             <DX10/right_out> ,
+             <DX10/attack> ,
+             <DX10/decay> ,
+             <DX10/release> ,
+             <DX10/coarse> ,
+             <DX10/fine> ,
+             <DX10/mod_init> ,
+             <DX10/mod_dec> ,
+             <DX10/mod_sus> ,
+             <DX10/mod_rel> ,
+             <DX10/mod_vel> ,
+             <DX10/vibrato> ,
+             <DX10/octave> ,
+             <DX10/finetune> ,
+             <DX10/waveform> ,
+             <DX10/mod_thru> ,
+             <DX10/lfo_rate> ,
+             <DX10/event_in> ,
+             <DX10/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mda/DX10> ;
+    pedal:preset <file:///root/.lv2/DX10-_80_s_Ballad_2_MDA_DX10.lv2/_80_s_Ballad_2_MDA_DX10.ttl> ;
+    a ingen:Block .
+
+<DX10/event_in>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<DX10/lfo_rate>
+    ingen:value 10.350000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/waveform>
+    ingen:value 25.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/decay>
+    ingen:value 65.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/coarse>
+    ingen:value 33.680000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/fine>
+    ingen:value 0.246750 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_thru>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/finetune>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_rel>
+    ingen:value 80.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_sus>
+    ingen:value 5.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_dec>
+    ingen:value 80.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/release>
+    ingen:value 46.153847 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/attack>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_init>
+    ingen:value 23.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/octave>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_vel>
+    ingen:value 90.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/vibrato>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
 
 <Gain2x2>
     ingen:canvasX 3157.0 ;
@@ -126,16 +250,6 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<PlateX2/damping>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<PlateX2/bandwidth>
-    ingen:value 0.999500 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <PlateX2/blend>
     ingen:value 0.405134 ;
     a lv2:ControlPort ,
@@ -143,6 +257,16 @@ _:b9
 
 <PlateX2/tail>
     ingen:value 0.600000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<PlateX2/damping>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<PlateX2/bandwidth>
+    ingen:value 0.999500 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -159,7 +283,7 @@ _:b9
     lv2:microVersion 0 ;
     lv2:minorVersion 0 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 8 ;
+    mod:releaseNumber 9 ;
     lv2:port <cs_chorus2/in> ,
              <cs_chorus2/out1> ,
              <cs_chorus2/delay> ,
@@ -180,8 +304,13 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<cs_chorus2/mod_amp_1>
-    ingen:value 1.250000 ;
+<cs_chorus2/mod_freq_2>
+    ingen:value 0.550000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<cs_chorus2/mod_freq_1>
+    ingen:value 0.200000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -195,141 +324,12 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<cs_chorus2/mod_freq_1>
-    ingen:value 0.200000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<cs_chorus2/mod_freq_2>
-    ingen:value 0.550000 ;
+<cs_chorus2/mod_amp_1>
+    ingen:value 1.250000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <cs_chorus2/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10>
-    ingen:canvasX 518.0 ;
-    ingen:canvasY 353.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 2 ;
-    lv2:minorVersion 0 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 7 ;
-    lv2:port <DX10/left_out> ,
-             <DX10/right_out> ,
-             <DX10/attack> ,
-             <DX10/decay> ,
-             <DX10/release> ,
-             <DX10/coarse> ,
-             <DX10/fine> ,
-             <DX10/mod_init> ,
-             <DX10/mod_dec> ,
-             <DX10/mod_sus> ,
-             <DX10/mod_rel> ,
-             <DX10/mod_vel> ,
-             <DX10/vibrato> ,
-             <DX10/octave> ,
-             <DX10/finetune> ,
-             <DX10/waveform> ,
-             <DX10/mod_thru> ,
-             <DX10/lfo_rate> ,
-             <DX10/event_in> ,
-             <DX10/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mda/DX10> ;
-    pedal:preset <file:///root/.lv2/DX10-_80_s_Ballad_2_MDA_DX10.lv2/_80_s_Ballad_2_MDA_DX10.ttl> ;
-    a ingen:Block .
-
-<DX10/event_in>
-    atom:bufferType atom:Sequence ;
-    atom:supports midi:MidiEvent ;
-    a atom:AtomPort ,
-        lv2:InputPort .
-
-<DX10/mod_vel>
-    ingen:value 90.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/decay>
-    ingen:value 65.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/vibrato>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/lfo_rate>
-    ingen:value 10.350000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/attack>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/release>
-    ingen:value 46.153847 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/mod_thru>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/mod_dec>
-    ingen:value 80.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/mod_init>
-    ingen:value 23.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/mod_rel>
-    ingen:value 80.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/fine>
-    ingen:value 0.246750 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/mod_sus>
-    ingen:value 5.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/waveform>
-    ingen:value 25.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/finetune>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/octave>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/coarse>
-    ingen:value 33.680000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -426,7 +426,7 @@ _:b9
     a atom:AtomPort ,
         lv2:OutputPort .
 
-<midi_legacy_mode>
+<midi_separated_mode>
     ingen:value 0 ;
     lv2:index 11 ;
     a atom:AtomPort ,
@@ -441,6 +441,7 @@ _:b9
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
+    pedal:version 1 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -451,14 +452,14 @@ _:b9
               _:b7 ,
               _:b8 ,
               _:b9 ;
-    ingen:block <Gain2x2> ,
+    ingen:block <DX10> ,
+                <Gain2x2> ,
                 <PlateX2> ,
-                <cs_chorus2> ,
-                <DX10> ;
+                <cs_chorus2> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
-             <midi_legacy_mode> ,
+             <midi_separated_mode> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

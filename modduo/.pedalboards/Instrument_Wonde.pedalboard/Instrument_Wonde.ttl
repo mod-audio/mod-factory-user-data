@@ -8,32 +8,32 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <FluidPlug_FluidPianos/audio_out_l> ;
-    ingen:head <_quack_/in> .
+    ingen:tail <Gain/Out> ;
+    ingen:head <playback_1> .
 
 _:b2
-    ingen:tail <modulay/lv2_audio_out_1> ;
-    ingen:head <Gain/In> .
+    ingen:tail <midi_merger_out> ;
+    ingen:head <FluidPlug_FluidPianos/events> .
 
 _:b3
-    ingen:tail <_quack_/out> ;
-    ingen:head <modulay/lv2_audio_in_1> .
+    ingen:tail <serial_midi_in> ;
+    ingen:head <FluidPlug_FluidPianos/events> .
 
 _:b4
     ingen:tail <Gain/Out> ;
     ingen:head <playback_2> .
 
 _:b5
-    ingen:tail <Gain/Out> ;
-    ingen:head <playback_1> .
+    ingen:tail <FluidPlug_FluidPianos/audio_out_l> ;
+    ingen:head <_quack_/in> .
 
 _:b6
-    ingen:tail <serial_midi_in> ;
-    ingen:head <FluidPlug_FluidPianos/events> .
+    ingen:tail <modulay/lv2_audio_out_1> ;
+    ingen:head <Gain/In> .
 
 _:b7
-    ingen:tail <midi_merger_out> ;
-    ingen:head <FluidPlug_FluidPianos/events> .
+    ingen:tail <_quack_/out> ;
+    ingen:head <modulay/lv2_audio_in_1> .
 
 <FluidPlug_FluidPianos>
     ingen:canvasX 641.0 ;
@@ -60,13 +60,13 @@ _:b7
     a atom:AtomPort ,
         lv2:InputPort .
 
-<FluidPlug_FluidPianos/program>
-    ingen:value 7.000000 ;
+<FluidPlug_FluidPianos/level>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<FluidPlug_FluidPianos/level>
-    ingen:value 0.500000 ;
+<FluidPlug_FluidPianos/program>
+    ingen:value 7.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -142,7 +142,12 @@ _:b7
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_quack_/BYPASS>
+<_quack_/TONE>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_quack_/RANGE>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -152,12 +157,17 @@ _:b7
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_quack_/RANGE>
+<_quack_/BYPASS>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_quack_/TONE>
+<_quack_/GAIN>
+    ingen:value -3.602679 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_quack_/DRIVE>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -169,16 +179,6 @@ _:b7
 
 <_quack_/MODE>
     ingen:value 2.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_quack_/GAIN>
-    ingen:value -3.602679 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_quack_/DRIVE>
-    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -195,7 +195,7 @@ _:b7
     lv2:microVersion 0 ;
     lv2:minorVersion 2 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 9 ;
+    mod:releaseNumber 11 ;
     lv2:port <modulay/lv2_audio_in_1> ,
              <modulay/lv2_audio_out_1> ,
              <modulay/repeats> ,
@@ -218,8 +218,8 @@ _:b7
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<modulay/rate>
-    ingen:value 2.000000 ;
+<modulay/tone>
+    ingen:value 3000.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -238,8 +238,8 @@ _:b7
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<modulay/tone>
-    ingen:value 3000.000000 ;
+<modulay/mix>
+    ingen:value 15.625000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -248,8 +248,8 @@ _:b7
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<modulay/mix>
-    ingen:value 15.625000 ;
+<modulay/rate>
+    ingen:value 2.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -350,7 +350,7 @@ _:b7
     a atom:AtomPort ,
         lv2:OutputPort .
 
-<midi_legacy_mode>
+<midi_separated_mode>
     ingen:value 0 ;
     lv2:index 11 ;
     a atom:AtomPort ,
@@ -365,6 +365,7 @@ _:b7
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
+    pedal:version 1 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -380,7 +381,7 @@ _:b7
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
-             <midi_legacy_mode> ,
+             <midi_separated_mode> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

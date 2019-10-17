@@ -1,91 +1,99 @@
 {
-    "/hmi/knob1": [
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
         {
-            "minimum": 20.0,
-            "maximum": 280.0,
+            "port": ":rolling",
+            "group": null,
+            "steps": 1,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Play",
             "page": null,
             "instance": "/pedalboard",
-            "tempo": null,
-            "port": ":bpm",
-            "dividers": null,
-            "label": "Beats Per Minute",
-            "steps": 260
-        },
-        {
             "minimum": 0.0,
-            "maximum": 127.0,
-            "page": null,
-            "instance": "/graph/s8n16",
-            "tempo": false,
-            "port": "note16",
-            "dividers": {
-                "value": null,
-                "options": []
-            },
-            "label": "Note",
-            "steps": 127
-        }
-    ],
-    "/bpm": [],
-    "/hmi/knob2": [
-        {
-            "minimum": 20.0,
-            "maximum": 20000.0,
-            "page": null,
-            "instance": "/graph/HighPassFilter",
-            "tempo": null,
-            "port": "Freq",
-            "dividers": null,
-            "label": "Freq",
-            "steps": 33
-        },
-        {
-            "minimum": 0.0,
-            "maximum": 10.0,
-            "page": null,
-            "instance": "/graph/Ambience",
-            "tempo": null,
-            "port": "size",
-            "dividers": null,
-            "label": "Roomsize",
-            "steps": 33
-        },
-        {
-            "minimum": -20.0,
-            "maximum": 20.0,
-            "page": null,
-            "instance": "/graph/Gain2x2",
-            "tempo": null,
-            "port": "Gain",
-            "dividers": null,
-            "label": "Master Volume",
-            "steps": 65
+            "dividers": null
         }
     ],
     "/hmi/footswitch2": [
         {
-            "minimum": 0.0,
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
             "maximum": 1.0,
+            "label": "Ambience",
             "page": null,
             "instance": "/graph/Ambience",
-            "tempo": null,
-            "port": ":bypass",
-            "dividers": null,
-            "label": "Ambience",
-            "steps": 33
+            "minimum": 0.0,
+            "dividers": null
         }
     ],
-    "/hmi/footswitch1": [
+    "/hmi/knob2": [
         {
+            "port": "Freq",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 20000.0,
+            "label": "Freq",
+            "page": null,
+            "instance": "/graph/HighPassFilter",
+            "minimum": 20.0,
+            "dividers": null
+        },
+        {
+            "port": "size",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 10.0,
+            "label": "Roomsize",
+            "page": null,
+            "instance": "/graph/Ambience",
             "minimum": 0.0,
-            "maximum": 1.0,
+            "dividers": null
+        },
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 65,
+            "tempo": null,
+            "maximum": 20.0,
+            "label": "Master Volume",
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "minimum": -20.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": ":bpm",
+            "group": null,
+            "steps": 260,
+            "tempo": null,
+            "maximum": 280.0,
+            "label": "Beats Per Minute",
             "page": null,
             "instance": "/pedalboard",
-            "tempo": null,
-            "port": ":rolling",
-            "dividers": null,
-            "label": "Play",
-            "steps": 1
+            "minimum": 20.0,
+            "dividers": null
+        },
+        {
+            "port": "note16",
+            "group": null,
+            "steps": 127,
+            "tempo": false,
+            "maximum": 127.0,
+            "label": "Note",
+            "page": null,
+            "instance": "/graph/s8n16",
+            "minimum": 0.0,
+            "dividers": {
+                "options": [],
+                "value": null
+            }
         }
-    ]
+    ],
+    "/bpm": []
 }

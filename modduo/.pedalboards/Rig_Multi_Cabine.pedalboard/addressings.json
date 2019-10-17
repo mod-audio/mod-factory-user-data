@@ -1,1 +1,132 @@
-{"/hmi/knob1": [{"instance": "/graph/cabsim_vintage", "port": "Model", "steps": 12, "minimum": 0.0, "label": "Model", "maximum": 12.0}, {"instance": "/graph/studiopre", "port": "bass", "steps": 17, "minimum": 0.0, "label": "Bass", "maximum": 1.0}, {"instance": "/graph/studiopre", "port": "middle", "steps": 17, "minimum": 0.0, "label": "Mid", "maximum": 1.0}, {"instance": "/graph/studiopre", "port": "treble", "steps": 17, "minimum": 0.0, "label": "Treble", "maximum": 1.0}], "/hmi/footswitch1": [{"instance": "/graph/studiopre", "port": "bright", "steps": 1, "minimum": 0.0, "label": "Bright", "maximum": 1.0}], "/hmi/footswitch2": [{"instance": "/graph/roomy", "port": ":bypass", "steps": 33, "minimum": 0.0, "label": "Reverb", "maximum": 1.0}], "/hmi/knob2": [{"instance": "/graph/Gain2x2", "port": "Gain", "steps": 33, "minimum": -40.0, "label": "Output Level", "maximum": 3.0}, {"instance": "/graph/roomy", "port": "dry_wet", "steps": 33, "minimum": 0.0, "label": "Reverb Mix", "maximum": 1.0}, {"instance": "/graph/roomy", "port": "damping", "steps": 33, "minimum": 0.0, "label": "Damping", "maximum": 1.0}, {"instance": "/graph/roomy", "port": "time", "steps": 33, "minimum": 0.0, "label": "Decay", "maximum": 1.0}]}
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "port": "bright",
+            "group": null,
+            "steps": 1,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Bright",
+            "page": null,
+            "instance": "/graph/studiopre",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Reverb",
+            "page": null,
+            "instance": "/graph/roomy",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 3.0,
+            "label": "Output Level",
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "minimum": -40.0,
+            "dividers": null
+        },
+        {
+            "port": "dry_wet",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Reverb Mix",
+            "page": null,
+            "instance": "/graph/roomy",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "damping",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Damping",
+            "page": null,
+            "instance": "/graph/roomy",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "time",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Decay",
+            "page": null,
+            "instance": "/graph/roomy",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "Model",
+            "group": null,
+            "steps": 12,
+            "tempo": null,
+            "maximum": 12.0,
+            "label": "Model",
+            "page": null,
+            "instance": "/graph/cabsim_vintage",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "bass",
+            "group": null,
+            "steps": 17,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Bass",
+            "page": null,
+            "instance": "/graph/studiopre",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "middle",
+            "group": null,
+            "steps": 17,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Mid",
+            "page": null,
+            "instance": "/graph/studiopre",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "treble",
+            "group": null,
+            "steps": 17,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Treble",
+            "page": null,
+            "instance": "/graph/studiopre",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
+}

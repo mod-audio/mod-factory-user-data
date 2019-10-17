@@ -1,1 +1,60 @@
-{"/hmi/knob1": [{"instance": "/graph/_sd2lead_", "maximum": 1.0, "minimum": 0.0, "steps": 33, "port": "DRIVE", "label": "DRIVE"}], "/hmi/footswitch1": [{"instance": "/graph/_sd2lead_", "maximum": 1.0, "minimum": 0.0, "steps": 33, "port": ":bypass", "label": "Drive"}], "/hmi/footswitch2": [{"instance": "/graph/modulay", "maximum": 1.0, "minimum": 0.0, "steps": 33, "port": ":bypass", "label": "Delay"}], "/hmi/knob2": [{"instance": "/graph/Gain2x2", "maximum": 3.0, "minimum": -40.0, "steps": 33, "port": "Gain", "label": "Output Volume"}]}
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Drive",
+            "page": null,
+            "instance": "/graph/_sd2lead_",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Delay",
+            "page": null,
+            "instance": "/graph/modulay",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 3.0,
+            "label": "Output Volume",
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "minimum": -40.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "DRIVE",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "DRIVE",
+            "page": null,
+            "instance": "/graph/_sd2lead_",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
+}

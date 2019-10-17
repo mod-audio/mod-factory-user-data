@@ -1,99 +1,108 @@
 {
-    "/hmi/knob1": [
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
         {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Leslie",
+            "page": null,
+            "instance": "/graph/mod",
             "minimum": 0.0,
-            "maximum": 2.0,
-            "page": null,
-            "instance": "/graph/mod",
-            "tempo": null,
-            "port": "rt_speed",
-            "dividers": null,
-            "label": "Motor",
-            "steps": 2
-        },
-        {
-            "minimum": 5.0,
-            "maximum": 200.0,
-            "page": null,
-            "instance": "/graph/mod",
-            "tempo": null,
-            "port": "hornrpmslow",
-            "dividers": null,
-            "label": "Horn Speed Slow",
-            "steps": 33
-        },
-        {
-            "minimum": 5.0,
-            "maximum": 100.0,
-            "page": null,
-            "instance": "/graph/mod",
-            "tempo": null,
-            "port": "drumrpmslow",
-            "dividers": null,
-            "label": "Drum Speed Slow",
-            "steps": 33
-        }
-    ],
-    "/bpm": [],
-    "/hmi/knob2": [
-        {
-            "minimum": 100.0,
-            "maximum": 1000.0,
-            "page": null,
-            "instance": "/graph/mod",
-            "tempo": null,
-            "port": "hornrpmfast",
-            "dividers": null,
-            "label": "Horn Speed Fast",
-            "steps": 33
-        },
-        {
-            "minimum": 60.0,
-            "maximum": 600.0,
-            "page": null,
-            "instance": "/graph/mod",
-            "tempo": null,
-            "port": "drumrpmfast",
-            "dividers": null,
-            "label": "Drum Speed Fast",
-            "steps": 33
-        },
-        {
-            "minimum": -20.0,
-            "maximum": 20.0,
-            "page": null,
-            "instance": "/graph/Gain2x2",
-            "tempo": null,
-            "port": "Gain",
-            "dividers": null,
-            "label": "Master Volume",
-            "steps": 33
+            "dividers": null
         }
     ],
     "/hmi/footswitch2": [
         {
-            "minimum": 0.0,
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
             "maximum": 1.0,
+            "label": "Overdrive",
             "page": null,
             "instance": "/graph/Overdrive",
-            "tempo": null,
-            "port": ":bypass",
-            "dividers": null,
-            "label": "Overdrive",
-            "steps": 33
+            "minimum": 0.0,
+            "dividers": null
         }
     ],
-    "/hmi/footswitch1": [
+    "/hmi/knob2": [
         {
-            "minimum": 0.0,
-            "maximum": 1.0,
+            "port": "hornrpmfast",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1000.0,
+            "label": "Horn Speed Fast",
             "page": null,
             "instance": "/graph/mod",
+            "minimum": 100.0,
+            "dividers": null
+        },
+        {
+            "port": "drumrpmfast",
+            "group": null,
+            "steps": 33,
             "tempo": null,
-            "port": ":bypass",
-            "dividers": null,
-            "label": "Leslie",
-            "steps": 33
+            "maximum": 600.0,
+            "label": "Drum Speed Fast",
+            "page": null,
+            "instance": "/graph/mod",
+            "minimum": 60.0,
+            "dividers": null
+        },
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 20.0,
+            "label": "Master Volume",
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "minimum": -20.0,
+            "dividers": null
         }
-    ]
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "rt_speed",
+            "group": null,
+            "steps": 2,
+            "tempo": null,
+            "maximum": 2.0,
+            "label": "Motor",
+            "page": null,
+            "instance": "/graph/mod",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "hornrpmslow",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 200.0,
+            "label": "Horn Speed Slow",
+            "page": null,
+            "instance": "/graph/mod",
+            "minimum": 5.0,
+            "dividers": null
+        },
+        {
+            "port": "drumrpmslow",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 100.0,
+            "label": "Drum Speed Slow",
+            "page": null,
+            "instance": "/graph/mod",
+            "minimum": 5.0,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
 }

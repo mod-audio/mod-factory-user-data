@@ -1,1 +1,108 @@
-{"/hmi/knob2": [{"instance": "/graph/Prefreak", "label": "Blur", "minimum": 0.0010000000474974513, "maximum": 15.0, "port": "Blur", "steps": 33}, {"instance": "/graph/Prefreak", "label": "Level", "minimum": 0.0, "maximum": 1.0, "port": "Level", "steps": 33}, {"instance": "/graph/Gain2x2", "label": "Master Volume", "minimum": -20.0, "maximum": 20.0, "port": "Gain", "steps": 65}], "/hmi/knob1": [{"instance": "/graph/stuckstacker", "label": "Drone Gain", "minimum": 0.0, "maximum": 2.0, "port": "DRONE_GAIN", "steps": 33}, {"instance": "/graph/shiroverb", "label": "ratio", "minimum": 0.5, "maximum": 2.0, "port": "ratio", "steps": 33}, {"instance": "/graph/shiroverb", "label": "shimmer", "minimum": 0.0, "maximum": 100.0, "port": "shimmer", "steps": 33}], "/hmi/footswitch2": [{"instance": "/graph/Prefreak", "label": "Prefreak", "minimum": 0.0, "maximum": 1.0, "port": ":bypass", "steps": 33}], "/hmi/footswitch1": [{"instance": "/graph/stuckstacker", "label": "Drone", "minimum": 0.0, "maximum": 1.0, "port": "STICK_IT", "steps": 1}]}
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "port": "STICK_IT",
+            "group": null,
+            "steps": 1,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Drone",
+            "page": null,
+            "instance": "/graph/stuckstacker",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Prefreak",
+            "page": null,
+            "instance": "/graph/Prefreak",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "Blur",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 15.0,
+            "label": "Blur",
+            "page": null,
+            "instance": "/graph/Prefreak",
+            "minimum": 0.0010000000474974513,
+            "dividers": null
+        },
+        {
+            "port": "Level",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Level",
+            "page": null,
+            "instance": "/graph/Prefreak",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 65,
+            "tempo": null,
+            "maximum": 20.0,
+            "label": "Master Volume",
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "minimum": -20.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "DRONE_GAIN",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 2.0,
+            "label": "Drone Gain",
+            "page": null,
+            "instance": "/graph/stuckstacker",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "ratio",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 2.0,
+            "label": "ratio",
+            "page": null,
+            "instance": "/graph/shiroverb",
+            "minimum": 0.5,
+            "dividers": null
+        },
+        {
+            "port": "shimmer",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 100.0,
+            "label": "shimmer",
+            "page": null,
+            "instance": "/graph/shiroverb",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
+}

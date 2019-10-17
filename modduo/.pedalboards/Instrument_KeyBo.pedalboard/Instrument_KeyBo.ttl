@@ -8,44 +8,44 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <playback_2> .
-
-_:b2
-    ingen:tail <FluidPlug_FluidEnsemble/audio_out_l> ;
-    ingen:head <Gain2x2/In1> .
-
-_:b3
-    ingen:tail <serial_midi_in> ;
-    ingen:head <FluidPlug_FluidEnsemble/events> .
-
-_:b4
     ingen:tail <midi_merger_out> ;
     ingen:head <FluidPlug_FluidEnsemble/events> .
 
-_:b5
+_:b2
     ingen:tail <FluidPlug_FluidPianos/audio_out_l> ;
     ingen:head <Gain2x2/In1> .
 
-_:b6
+_:b3
+    ingen:tail <midi_merger_out> ;
+    ingen:head <FluidPlug_FluidPianos/events> .
+
+_:b4
     ingen:tail <Gain2x2/Out1> ;
     ingen:head <playback_1> .
 
-_:b7
+_:b5
     ingen:tail <FluidPlug_FluidEnsemble/audio_out_r> ;
     ingen:head <Gain2x2/In2> .
 
-_:b8
+_:b6
     ingen:tail <FluidPlug_FluidPianos/audio_out_r> ;
     ingen:head <Gain2x2/In2> .
 
+_:b7
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
+
+_:b8
+    ingen:tail <FluidPlug_FluidEnsemble/audio_out_l> ;
+    ingen:head <Gain2x2/In1> .
+
 _:b9
-    ingen:tail <midi_merger_out> ;
+    ingen:tail <serial_midi_in> ;
     ingen:head <FluidPlug_FluidPianos/events> .
 
 _:b10
     ingen:tail <serial_midi_in> ;
-    ingen:head <FluidPlug_FluidPianos/events> .
+    ingen:head <FluidPlug_FluidEnsemble/events> .
 
 <FluidPlug_FluidEnsemble>
     ingen:canvasX 1288.0 ;
@@ -72,13 +72,13 @@ _:b10
     a atom:AtomPort ,
         lv2:InputPort .
 
-<FluidPlug_FluidEnsemble/program>
-    ingen:value 1.000000 ;
+<FluidPlug_FluidEnsemble/level>
+    ingen:value 0.250000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<FluidPlug_FluidEnsemble/level>
-    ingen:value 0.250000 ;
+<FluidPlug_FluidEnsemble/program>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -112,13 +112,13 @@ _:b10
     a atom:AtomPort ,
         lv2:InputPort .
 
-<FluidPlug_FluidPianos/program>
-    ingen:value 1.000000 ;
+<FluidPlug_FluidPianos/level>
+    ingen:value 0.750000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<FluidPlug_FluidPianos/level>
-    ingen:value 0.750000 ;
+<FluidPlug_FluidPianos/program>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -264,7 +264,7 @@ _:b10
     a atom:AtomPort ,
         lv2:OutputPort .
 
-<midi_legacy_mode>
+<midi_separated_mode>
     ingen:value 0 ;
     lv2:index 11 ;
     a atom:AtomPort ,
@@ -279,6 +279,7 @@ _:b10
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
+    pedal:version 1 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -296,7 +297,7 @@ _:b10
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
-             <midi_legacy_mode> ,
+             <midi_separated_mode> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

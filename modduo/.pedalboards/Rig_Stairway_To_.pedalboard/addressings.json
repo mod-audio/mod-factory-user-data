@@ -1,1 +1,60 @@
-{"/hmi/knob1": [{"instance": "/graph/DS1", "maximum": 0.99000000953674316, "minimum": 0.0099999997764825821, "steps": 33, "port": "Tone", "label": "Lead Tone"}], "/hmi/footswitch1": [{"instance": "/graph/DS1", "maximum": 1.0, "minimum": 0.0, "steps": 33, "port": ":bypass", "label": "Lead"}], "/hmi/footswitch2": [{"instance": "/graph/modulay", "maximum": 1.0, "minimum": 0.0, "steps": 33, "port": ":bypass", "label": "Delay"}], "/hmi/knob2": [{"instance": "/graph/Gain2x2", "maximum": 40.0, "minimum": -40.0, "steps": 33, "port": "Gain", "label": "Output Level"}]}
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Lead",
+            "page": null,
+            "instance": "/graph/DS1",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Delay",
+            "page": null,
+            "instance": "/graph/modulay",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 40.0,
+            "label": "Output Level",
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "minimum": -40.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "Tone",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 0.99000000953674316,
+            "label": "Lead Tone",
+            "page": null,
+            "instance": "/graph/DS1",
+            "minimum": 0.0099999997764825821,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
+}

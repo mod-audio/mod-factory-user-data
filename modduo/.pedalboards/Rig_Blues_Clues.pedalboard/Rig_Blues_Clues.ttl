@@ -8,36 +8,143 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <playback_2> .
-
-_:b2
-    ingen:tail <Plate/outr> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b3
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <playback_1> .
-
-_:b4
-    ingen:tail <cabsim_vintage/Out> ;
-    ingen:head <Plate/in> .
-
-_:b5
-    ingen:tail <Plate/outl> ;
-    ingen:head <Gain2x2/In1> .
-
-_:b6
-    ingen:tail <onyx/Out> ;
-    ingen:head <cabsim_vintage/In> .
-
-_:b7
     ingen:tail <_bajatubedriver_/out> ;
     ingen:head <onyx/In> .
 
-_:b8
+_:b2
+    ingen:tail <Plate/outl> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b3
+    ingen:tail <cabsim_vintage/Out> ;
+    ingen:head <Plate/in> .
+
+_:b4
     ingen:tail <capture_1> ;
     ingen:head <_bajatubedriver_/in> .
+
+_:b5
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
+
+_:b6
+    ingen:tail <Plate/outr> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b7
+    ingen:tail <onyx/Out> ;
+    ingen:head <cabsim_vintage/In> .
+
+_:b8
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
+
+<Plate>
+    ingen:canvasX 2491.0 ;
+    ingen:canvasY 900.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 24 ;
+    lv2:minorVersion 9 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 11 ;
+    lv2:port <Plate/in> ,
+             <Plate/outl> ,
+             <Plate/outr> ,
+             <Plate/bandwidth> ,
+             <Plate/tail> ,
+             <Plate/damping> ,
+             <Plate/blend> ,
+             <Plate/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/caps/Plate> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Plate/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Plate/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Plate/blend>
+    ingen:value 0.296875 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Plate/tail>
+    ingen:value 0.360491 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Plate/damping>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Plate/bandwidth>
+    ingen:value 0.587054 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Plate/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_>
+    ingen:canvasX 590.0 ;
+    ingen:canvasY 837.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 35 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 4 ;
+    lv2:port <_bajatubedriver_/in> ,
+             <_bajatubedriver_/out> ,
+             <_bajatubedriver_/BYPASS> ,
+             <_bajatubedriver_/DRIVE> ,
+             <_bajatubedriver_/TONE> ,
+             <_bajatubedriver_/VOLUME> ,
+             <_bajatubedriver_/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_bajatubedriver_#_bajatubedriver_> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<_bajatubedriver_/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<_bajatubedriver_/DRIVE>
+    ingen:value 0.340000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_/VOLUME>
+    ingen:value 0.340000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_/TONE>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
 
 <Gain2x2>
     ingen:canvasX 3199.0 ;
@@ -80,60 +187,6 @@ _:b8
         lv2:InputPort .
 
 <Gain2x2/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Plate>
-    ingen:canvasX 2491.0 ;
-    ingen:canvasY 900.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 24 ;
-    lv2:minorVersion 9 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 11 ;
-    lv2:port <Plate/in> ,
-             <Plate/outl> ,
-             <Plate/outr> ,
-             <Plate/bandwidth> ,
-             <Plate/tail> ,
-             <Plate/damping> ,
-             <Plate/blend> ,
-             <Plate/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/caps/Plate> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<Plate/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Plate/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Plate/tail>
-    ingen:value 0.360491 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Plate/blend>
-    ingen:value 0.296875 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Plate/bandwidth>
-    ingen:value 0.587054 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Plate/damping>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Plate/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -215,13 +268,13 @@ _:b8
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<onyx/clip>
-    ingen:value 100.000000 ;
+<onyx/Treble>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<onyx/Treble>
-    ingen:value 0.500000 ;
+<onyx/clip>
+    ingen:value 100.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -235,71 +288,18 @@ _:b8
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<onyx/Vol>
-    ingen:value 37.784679 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <onyx/Bass>
     ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<onyx/Vol>
+    ingen:value 37.784679 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <onyx/:bypass>
     ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_bajatubedriver_>
-    ingen:canvasX 590.6 ;
-    ingen:canvasY 837.3 ;
-    ingen:enabled false ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 35 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 4 ;
-    lv2:port <_bajatubedriver_/in> ,
-             <_bajatubedriver_/out> ,
-             <_bajatubedriver_/BYPASS> ,
-             <_bajatubedriver_/DRIVE> ,
-             <_bajatubedriver_/TONE> ,
-             <_bajatubedriver_/VOLUME> ,
-             <_bajatubedriver_/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_bajatubedriver_#_bajatubedriver_> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<_bajatubedriver_/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<_bajatubedriver_/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<_bajatubedriver_/DRIVE>
-    ingen:value 0.340000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_bajatubedriver_/TONE>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_bajatubedriver_/VOLUME>
-    ingen:value 0.340000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_bajatubedriver_/BYPASS>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_bajatubedriver_/:bypass>
-    ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -395,21 +395,10 @@ _:b8
     a atom:AtomPort ,
         lv2:InputPort .
 
-<midi_capture_5>
-    atom:bufferType atom:Sequence ;
-    atom:supports midi:MidiEvent ;
-    lv2:index 11 ;
-    lv2:name "nanoKEY MIDI 1" ;
-    lv2:portProperty lv2:connectionOptional ;
-    lv2:symbol "midi_capture_5" ;
-    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
-    a atom:AtomPort ,
-        lv2:InputPort .
-
 <midi_capture_4>
     atom:bufferType atom:Sequence ;
     atom:supports midi:MidiEvent ;
-    lv2:index 12 ;
+    lv2:index 11 ;
     lv2:name "SSCOM MIDI 2" ;
     lv2:portProperty lv2:connectionOptional ;
     lv2:symbol "midi_capture_4" ;
@@ -417,13 +406,13 @@ _:b8
     a atom:AtomPort ,
         lv2:InputPort .
 
-<midi_capture_3>
+<midi_capture_5>
     atom:bufferType atom:Sequence ;
     atom:supports midi:MidiEvent ;
-    lv2:index 13 ;
-    lv2:name "SSCOM MIDI 1" ;
+    lv2:index 12 ;
+    lv2:name "nanoKEY MIDI 1" ;
     lv2:portProperty lv2:connectionOptional ;
-    lv2:symbol "midi_capture_3" ;
+    lv2:symbol "midi_capture_5" ;
     <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
     a atom:AtomPort ,
         lv2:InputPort .
@@ -431,10 +420,21 @@ _:b8
 <midi_capture_2>
     atom:bufferType atom:Sequence ;
     atom:supports midi:MidiEvent ;
-    lv2:index 14 ;
+    lv2:index 13 ;
     lv2:name "UM 2 MIDI 2" ;
     lv2:portProperty lv2:connectionOptional ;
     lv2:symbol "midi_capture_2" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<midi_capture_3>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    lv2:index 14 ;
+    lv2:name "SSCOM MIDI 1" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "midi_capture_3" ;
     <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
     a atom:AtomPort ,
         lv2:InputPort .
@@ -472,21 +472,10 @@ _:b8
     a atom:AtomPort ,
         lv2:OutputPort .
 
-<midi_playback_7>
-    atom:bufferType atom:Sequence ;
-    atom:supports midi:MidiEvent ;
-    lv2:index 18 ;
-    lv2:name "nanoKEY MIDI 1" ;
-    lv2:portProperty lv2:connectionOptional ;
-    lv2:symbol "midi_playback_7" ;
-    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
-    a atom:AtomPort ,
-        lv2:OutputPort .
-
 <midi_playback_4>
     atom:bufferType atom:Sequence ;
     atom:supports midi:MidiEvent ;
-    lv2:index 19 ;
+    lv2:index 18 ;
     lv2:name "SSCOM MIDI 2" ;
     lv2:portProperty lv2:connectionOptional ;
     lv2:symbol "midi_playback_4" ;
@@ -494,13 +483,13 @@ _:b8
     a atom:AtomPort ,
         lv2:OutputPort .
 
-<midi_playback_3>
+<midi_playback_7>
     atom:bufferType atom:Sequence ;
     atom:supports midi:MidiEvent ;
-    lv2:index 20 ;
-    lv2:name "SSCOM MIDI 1" ;
+    lv2:index 19 ;
+    lv2:name "nanoKEY MIDI 1" ;
     lv2:portProperty lv2:connectionOptional ;
-    lv2:symbol "midi_playback_3" ;
+    lv2:symbol "midi_playback_7" ;
     <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
     a atom:AtomPort ,
         lv2:OutputPort .
@@ -508,10 +497,21 @@ _:b8
 <midi_playback_2>
     atom:bufferType atom:Sequence ;
     atom:supports midi:MidiEvent ;
-    lv2:index 21 ;
+    lv2:index 20 ;
     lv2:name "UM 2 MIDI 2" ;
     lv2:portProperty lv2:connectionOptional ;
     lv2:symbol "midi_playback_2" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:OutputPort .
+
+<midi_playback_3>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    lv2:index 21 ;
+    lv2:name "SSCOM MIDI 1" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "midi_playback_3" ;
     <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
     a atom:AtomPort ,
         lv2:OutputPort .
@@ -520,7 +520,7 @@ _:b8
     atom:bufferType atom:Sequence ;
     atom:supports midi:MidiEvent ;
     lv2:index 22 ;
-    lv2:name "Serial MIDI In" ;
+    lv2:name "DIN MIDI In" ;
     lv2:portProperty lv2:connectionOptional ;
     lv2:symbol "serial_midi_in" ;
     <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
@@ -531,20 +531,29 @@ _:b8
     atom:bufferType atom:Sequence ;
     atom:supports midi:MidiEvent ;
     lv2:index 23 ;
-    lv2:name "Serial MIDI In" ;
+    lv2:name "DIN MIDI In" ;
     lv2:portProperty lv2:connectionOptional ;
     lv2:symbol "serial_midi_out" ;
     <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
     a atom:AtomPort ,
         lv2:OutputPort .
 
+<midi_separated_mode>
+    ingen:value 1 ;
+    lv2:index 24 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
 <>
     doap:name "Rig: Blues Clues" ;
+    pedal:unitName "MOD Duo" ;
+    pedal:unitModel "duo:arm-a7" ;
     pedal:width 1960 ;
     pedal:height 1678 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
+    pedal:version 1 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -554,31 +563,32 @@ _:b8
               _:b6 ,
               _:b7 ,
               _:b8 ;
-    ingen:block <Gain2x2> ,
-                <Plate> ,
+    ingen:block <Plate> ,
+                <_bajatubedriver_> ,
+                <Gain2x2> ,
                 <cabsim_vintage> ,
-                <onyx> ,
-                <_bajatubedriver_> ;
+                <onyx> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
+             <midi_separated_mode> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,
              <serial_midi_out> ,
              <midi_capture_8> ,
              <midi_capture_12> ,
-             <midi_capture_5> ,
              <midi_capture_4> ,
-             <midi_capture_3> ,
+             <midi_capture_5> ,
              <midi_capture_2> ,
+             <midi_capture_3> ,
              <midi_capture_1> ,
              <midi_playback_1> ,
              <midi_playback_12> ,
-             <midi_playback_7> ,
              <midi_playback_4> ,
-             <midi_playback_3> ,
+             <midi_playback_7> ,
              <midi_playback_2> ,
+             <midi_playback_3> ,
              <capture_1> ,
              <capture_2> ,
              <playback_1> ,

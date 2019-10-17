@@ -8,85 +8,40 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <playback_2> .
+    ingen:tail <b_synth/outL> ;
+    ingen:head <mod/in> .
 
 _:b2
-    ingen:tail <mod/left> ;
-    ingen:head <Overdrive/left_in> .
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
 
 _:b3
     ingen:tail <midi_merger_out> ;
     ingen:head <b_synth/control> .
 
 _:b4
-    ingen:tail <b_synth/outL> ;
-    ingen:head <mod/in> .
+    ingen:tail <Overdrive/right_out> ;
+    ingen:head <Gain2x2/In2> .
 
 _:b5
     ingen:tail <serial_midi_in> ;
     ingen:head <b_synth/control> .
 
 _:b6
-    ingen:tail <Overdrive/right_out> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b7
-    ingen:tail <Overdrive/left_out> ;
-    ingen:head <Gain2x2/In1> .
-
-_:b8
     ingen:tail <mod/right> ;
     ingen:head <Overdrive/right_in> .
 
-_:b9
+_:b7
+    ingen:tail <mod/left> ;
+    ingen:head <Overdrive/left_in> .
+
+_:b8
     ingen:tail <Gain2x2/Out1> ;
     ingen:head <playback_1> .
 
-<Gain2x2>
-    ingen:canvasX 2168.0 ;
-    ingen:canvasY 250.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 1 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 12 ;
-    lv2:port <Gain2x2/In1> ,
-             <Gain2x2/In2> ,
-             <Gain2x2/Out1> ,
-             <Gain2x2/Out2> ,
-             <Gain2x2/Gain> ,
-             <Gain2x2/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<Gain2x2/In1>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Gain2x2/In2>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Gain2x2/In1>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Gain2x2/In2>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Gain2x2/Gain>
-    ingen:value -9.375000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Gain2x2/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
+_:b9
+    ingen:tail <Overdrive/left_out> ;
+    ingen:head <Gain2x2/In1> .
 
 <Overdrive>
     ingen:canvasX 1594.0 ;
@@ -96,7 +51,7 @@ _:b9
     lv2:microVersion 4 ;
     lv2:minorVersion 0 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 7 ;
+    mod:releaseNumber 9 ;
     lv2:port <Overdrive/left_in> ,
              <Overdrive/right_in> ,
              <Overdrive/left_out> ,
@@ -125,8 +80,8 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<Overdrive/output>
-    ingen:value 0.000000 ;
+<Overdrive/drive>
+    ingen:value 5.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -135,8 +90,8 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Overdrive/drive>
-    ingen:value 5.000000 ;
+<Overdrive/output>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -232,43 +187,8 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<mod/drumrpmfast>
-    ingen:value 357.299988 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/rt_speed>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <mod/hornrpmfast>
     ingen:value 407.366058 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/filtdfreq>
-    ingen:value 811.969482 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/hornbrakepos>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/drumdecel>
-    ingen:value 1.371000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/drumbrake>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/drumrpmslow>
-    ingen:value 42.639507 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -277,28 +197,23 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod/filtdq>
-    ingen:value 1.601600 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/filtbtype>
-    ingen:value 7.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/filtdgain>
-    ingen:value -38.929100 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/filtatype>
-    ingen:value 0.000000 ;
+<mod/filtdfreq>
+    ingen:value 811.969482 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <mod/horndecel>
     ingen:value 0.321000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/drumrpmslow>
+    ingen:value 42.639507 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/hornrpmslow>
+    ingen:value 47.438618 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -312,8 +227,18 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod/filtagain>
-    ingen:value -30.000000 ;
+<mod/drumaccel>
+    ingen:value 4.127000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/filtdq>
+    ingen:value 1.601600 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/drumdecel>
+    ingen:value 1.371000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -322,8 +247,8 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod/filtdtype>
-    ingen:value 8.000000 ;
+<mod/rt_speed>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -332,33 +257,18 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod/hornleak>
-    ingen:value -16.469999 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/filtbfreq>
-    ingen:value 300.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/filtbq>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/drumaccel>
-    ingen:value 4.127000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <mod/drumwidth>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod/hornrpmslow>
-    ingen:value 47.438618 ;
+<mod/hornbrakepos>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/drumbrake>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -367,7 +277,97 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<mod/filtbtype>
+    ingen:value 7.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/filtatype>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/filtdgain>
+    ingen:value -38.929100 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/drumrpmfast>
+    ingen:value 357.299988 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/filtbq>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/filtbfreq>
+    ingen:value 300.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/filtagain>
+    ingen:value -30.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/hornleak>
+    ingen:value -16.469999 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/filtdtype>
+    ingen:value 8.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <mod/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2>
+    ingen:canvasX 2168.0 ;
+    ingen:canvasY 250.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 12 ;
+    lv2:port <Gain2x2/In1> ,
+             <Gain2x2/In2> ,
+             <Gain2x2/Out1> ,
+             <Gain2x2/Out2> ,
+             <Gain2x2/Gain> ,
+             <Gain2x2/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/Gain>
+    ingen:value -9.375000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -464,7 +464,7 @@ _:b9
     a atom:AtomPort ,
         lv2:OutputPort .
 
-<midi_legacy_mode>
+<midi_separated_mode>
     ingen:value 0 ;
     lv2:index 11 ;
     a atom:AtomPort ,
@@ -479,6 +479,7 @@ _:b9
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
+    pedal:version 1 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -489,14 +490,14 @@ _:b9
               _:b7 ,
               _:b8 ,
               _:b9 ;
-    ingen:block <Gain2x2> ,
-                <Overdrive> ,
+    ingen:block <Overdrive> ,
                 <b_synth> ,
-                <mod> ;
+                <mod> ,
+                <Gain2x2> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
-             <midi_legacy_mode> ,
+             <midi_separated_mode> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

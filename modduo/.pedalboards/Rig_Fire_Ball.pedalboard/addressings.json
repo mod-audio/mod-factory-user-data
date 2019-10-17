@@ -1,1 +1,60 @@
-{"/hmi/knob2": [{"instance": "/graph/Gain", "label": "Output Level", "minimum": -40.0, "maximum": 12.0, "port": "Gain", "steps": 33}], "/hmi/knob1": [{"instance": "/graph/ts9sim", "label": "Tone", "minimum": 100.0, "maximum": 1000.0, "port": "fslider1_", "steps": 33}], "/hmi/footswitch2": [{"instance": "/graph/bolliedelay", "label": "Delay", "minimum": 0.0, "maximum": 1.0, "port": ":bypass", "steps": 33}], "/hmi/footswitch1": [{"instance": "/graph/sigmoid", "label": "Booster", "minimum": 0.0, "maximum": 1.0, "port": ":bypass", "steps": 33}]}
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Booster",
+            "page": null,
+            "instance": "/graph/sigmoid",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Delay",
+            "page": null,
+            "instance": "/graph/bolliedelay",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 12.0,
+            "label": "Output Level",
+            "page": null,
+            "instance": "/graph/Gain",
+            "minimum": -40.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "fslider1_",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1000.0,
+            "label": "Tone",
+            "page": null,
+            "instance": "/graph/ts9sim",
+            "minimum": 100.0,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
+}

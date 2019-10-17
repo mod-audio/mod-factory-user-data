@@ -8,56 +8,56 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <FluidPlug_FluidSynthLeads/audio_out_l> ;
-    ingen:head <hip2b/INPUT> .
+    ingen:tail <_reverb_stereo/out> ;
+    ingen:head <Gain2x2/In1> .
 
 _:b2
     ingen:tail <chorusflanger/OutputR> ;
     ingen:head <_reverb_stereo/in1> .
 
 _:b3
-    ingen:tail <hip2b/OUTPUT> ;
-    ingen:head <chorusflanger/InputL> .
-
-_:b4
-    ingen:tail <midi_merger_out> ;
-    ingen:head <velocityscale/midiin> .
-
-_:b5
-    ingen:tail <hip2b/OUTPUT> ;
-    ingen:head <chorusflanger/InputR> .
-
-_:b6
-    ingen:tail <serial_midi_in> ;
-    ingen:head <velocityscale/midiin> .
-
-_:b7
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <playback_2> .
-
-_:b8
-    ingen:tail <FluidPlug_FluidSynthLeads/audio_out_r> ;
-    ingen:head <hip2b/INPUT> .
-
-_:b9
     ingen:tail <velocityscale/midiout> ;
     ingen:head <FluidPlug_FluidSynthLeads/events> .
 
+_:b4
+    ingen:tail <_reverb_stereo/out1> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b5
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
+
+_:b6
+    ingen:tail <FluidPlug_FluidSynthLeads/audio_out_l> ;
+    ingen:head <hip2b/INPUT> .
+
+_:b7
+    ingen:tail <hip2b/OUTPUT> ;
+    ingen:head <chorusflanger/InputL> .
+
+_:b8
+    ingen:tail <hip2b/OUTPUT> ;
+    ingen:head <chorusflanger/InputR> .
+
+_:b9
+    ingen:tail <midi_merger_out> ;
+    ingen:head <velocityscale/midiin> .
+
 _:b10
-    ingen:tail <_reverb_stereo/out> ;
-    ingen:head <Gain2x2/In1> .
+    ingen:tail <serial_midi_in> ;
+    ingen:head <velocityscale/midiin> .
 
 _:b11
     ingen:tail <chorusflanger/OutputL> ;
     ingen:head <_reverb_stereo/in> .
 
 _:b12
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <playback_1> .
+    ingen:tail <FluidPlug_FluidSynthLeads/audio_out_r> ;
+    ingen:head <hip2b/INPUT> .
 
 _:b13
-    ingen:tail <_reverb_stereo/out1> ;
-    ingen:head <Gain2x2/In2> .
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
 
 <_reverb_stereo>
     ingen:canvasX 2740.0 ;
@@ -67,7 +67,7 @@ _:b13
     lv2:microVersion 3 ;
     lv2:minorVersion 28 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 20 ;
+    mod:releaseNumber 21 ;
     lv2:port <_reverb_stereo/in> ,
              <_reverb_stereo/in1> ,
              <_reverb_stereo/out> ,
@@ -98,13 +98,13 @@ _:b13
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_reverb_stereo/dry_wet>
-    ingen:value 50.000000 ;
+<_reverb_stereo/roomsize>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_reverb_stereo/mode>
-    ingen:value 0.000000 ;
+<_reverb_stereo/damp>
+    ingen:value 0.200000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -113,13 +113,13 @@ _:b13
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_reverb_stereo/roomsize>
-    ingen:value 0.500000 ;
+<_reverb_stereo/mode>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_reverb_stereo/damp>
-    ingen:value 0.200000 ;
+<_reverb_stereo/dry_wet>
+    ingen:value 50.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -136,7 +136,7 @@ _:b13
     lv2:microVersion 2 ;
     lv2:minorVersion 7 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 8 ;
+    mod:releaseNumber 10 ;
     lv2:port <chorusflanger/InputL> ,
              <chorusflanger/InputR> ,
              <chorusflanger/OutputL> ,
@@ -169,23 +169,18 @@ _:b13
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<chorusflanger/Depth>
-    ingen:value 96.875000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<chorusflanger/Contour>
-    ingen:value 100.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<chorusflanger/DryLevel>
-    ingen:value -3.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <chorusflanger/Frequency>
     ingen:value 3.688616 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/LRPhaseShift>
+    ingen:value 90.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/Depth>
+    ingen:value 96.875000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -199,82 +194,17 @@ _:b13
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<chorusflanger/LRPhaseShift>
-    ingen:value 90.000000 ;
+<chorusflanger/DryLevel>
+    ingen:value -3.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/Contour>
+    ingen:value 100.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <chorusflanger/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<hip2b>
-    ingen:canvasX 1532.0 ;
-    ingen:canvasY 322.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 1 ;
-    lv2:minorVersion 0 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
-    lv2:port <hip2b/INPUT> ,
-             <hip2b/OUTPUT> ,
-             <hip2b/UP> ,
-             <hip2b/DOWN> ,
-             <hip2b/OCTAVE> ,
-             <hip2b/IN_GAIN> ,
-             <hip2b/WETDRY> ,
-             <hip2b/OUT_GAIN> ,
-             <hip2b/LATENCY> ,
-             <hip2b/:bypass> ;
-    lv2:prototype <http://ssj71.github.io/infamousPlugins/plugs.html#hip2b> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<hip2b/INPUT>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<hip2b/INPUT>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<hip2b/UP>
-    ingen:value -0.001116 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<hip2b/WETDRY>
-    ingen:value 0.719000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<hip2b/IN_GAIN>
-    ingen:value 0.781250 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<hip2b/DOWN>
-    ingen:value 0.003348 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<hip2b/OCTAVE>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<hip2b/OUT_GAIN>
-    ingen:value 1.071429 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<hip2b/LATENCY>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<hip2b/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -315,23 +245,13 @@ _:b13
     a atom:AtomPort ,
         lv2:OutputPort .
 
-<velocityscale/channel>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<velocityscale/onoff>
-    ingen:value 52.142857 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<velocityscale/offmax>
+<velocityscale/onmax>
     ingen:value 127.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<velocityscale/offmin>
-    ingen:value 104.037949 ;
+<velocityscale/channel>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -345,8 +265,18 @@ _:b13
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<velocityscale/onmax>
+<velocityscale/offmin>
+    ingen:value 104.037949 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<velocityscale/offmax>
     ingen:value 127.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<velocityscale/onoff>
+    ingen:value 52.142857 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -355,6 +285,76 @@ _:b13
         lv2:OutputPort .
 
 <velocityscale/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<hip2b>
+    ingen:canvasX 1532.0 ;
+    ingen:canvasY 322.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 1 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 6 ;
+    lv2:port <hip2b/INPUT> ,
+             <hip2b/OUTPUT> ,
+             <hip2b/UP> ,
+             <hip2b/DOWN> ,
+             <hip2b/OCTAVE> ,
+             <hip2b/IN_GAIN> ,
+             <hip2b/WETDRY> ,
+             <hip2b/OUT_GAIN> ,
+             <hip2b/LATENCY> ,
+             <hip2b/:bypass> ;
+    lv2:prototype <http://ssj71.github.io/infamousPlugins/plugs.html#hip2b> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<hip2b/INPUT>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<hip2b/INPUT>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<hip2b/DOWN>
+    ingen:value 0.003348 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<hip2b/WETDRY>
+    ingen:value 0.719000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<hip2b/OUT_GAIN>
+    ingen:value 1.071429 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<hip2b/IN_GAIN>
+    ingen:value 0.781250 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<hip2b/OCTAVE>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<hip2b/UP>
+    ingen:value -0.001116 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<hip2b/LATENCY>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<hip2b/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -384,13 +384,13 @@ _:b13
     a atom:AtomPort ,
         lv2:InputPort .
 
-<FluidPlug_FluidSynthLeads/program>
-    ingen:value 1.000000 ;
+<FluidPlug_FluidSynthLeads/level>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<FluidPlug_FluidSynthLeads/level>
-    ingen:value 0.500000 ;
+<FluidPlug_FluidSynthLeads/program>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -536,7 +536,7 @@ _:b13
     a atom:AtomPort ,
         lv2:OutputPort .
 
-<midi_legacy_mode>
+<midi_separated_mode>
     ingen:value 0 ;
     lv2:index 11 ;
     a atom:AtomPort ,
@@ -551,6 +551,7 @@ _:b13
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
+    pedal:version 1 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -567,14 +568,14 @@ _:b13
               _:b13 ;
     ingen:block <_reverb_stereo> ,
                 <chorusflanger> ,
-                <hip2b> ,
                 <velocityscale> ,
+                <hip2b> ,
                 <FluidPlug_FluidSynthLeads> ,
                 <Gain2x2> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
-             <midi_legacy_mode> ,
+             <midi_separated_mode> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

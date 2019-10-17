@@ -1,110 +1,120 @@
 {
-    "/hmi/knob1": [
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
         {
-            "minimum": 0.0,
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
             "maximum": 1.0,
+            "label": "Hi Synth",
             "page": null,
             "instance": "/graph/amsynth_1",
-            "tempo": null,
-            "port": "amp_sustain",
-            "dividers": null,
-            "label": "Amp Sustain",
-            "steps": 33
-        },
-        {
-            "minimum": -0.5,
-            "maximum": 1.5,
-            "page": null,
-            "instance": "/graph/amsynth_1",
-            "tempo": null,
-            "port": "filter_cutoff",
-            "dividers": null,
-            "label": "Filter Cutoff",
-            "steps": 33
-        },
-        {
             "minimum": 0.0,
-            "maximum": 7.5,
-            "page": null,
-            "instance": "/graph/amsynth_1",
-            "tempo": null,
-            "port": "lfo_freq",
-            "dividers": null,
-            "label": "LFO Freq",
-            "steps": 33
-        }
-    ],
-    "/bpm": [],
-    "/hmi/knob2": [
-        {
-            "minimum": 0.0,
-            "maximum": 1.0,
-            "page": null,
-            "instance": "/graph/amsynth",
-            "tempo": null,
-            "port": "amp_sustain",
-            "dividers": null,
-            "label": "Amp Sustain",
-            "steps": 33
-        },
-        {
-            "minimum": -0.5,
-            "maximum": 1.5,
-            "page": null,
-            "instance": "/graph/amsynth",
-            "tempo": null,
-            "port": "filter_cutoff",
-            "dividers": null,
-            "label": "Filter Cutoff",
-            "steps": 33
-        },
-        {
-            "minimum": 0.0,
-            "maximum": 7.5,
-            "page": null,
-            "instance": "/graph/amsynth",
-            "tempo": null,
-            "port": "lfo_freq",
-            "dividers": null,
-            "label": "LFO Freq",
-            "steps": 33
-        },
-        {
-            "minimum": -20.0,
-            "maximum": 20.0,
-            "page": null,
-            "instance": "/graph/Gain2x2",
-            "tempo": null,
-            "port": "Gain",
-            "dividers": null,
-            "label": "Master Volume",
-            "steps": 65
+            "dividers": null
         }
     ],
     "/hmi/footswitch2": [
         {
-            "minimum": 0.0,
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
             "maximum": 1.0,
+            "label": "Lo Synth",
             "page": null,
             "instance": "/graph/amsynth",
-            "tempo": null,
-            "port": ":bypass",
-            "dividers": null,
-            "label": "Lo Synth",
-            "steps": 33
+            "minimum": 0.0,
+            "dividers": null
         }
     ],
-    "/hmi/footswitch1": [
+    "/hmi/knob2": [
         {
-            "minimum": 0.0,
+            "port": "amp_sustain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
             "maximum": 1.0,
+            "label": "Amp Sustain",
+            "page": null,
+            "instance": "/graph/amsynth",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "filter_cutoff",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.5,
+            "label": "Filter Cutoff",
+            "page": null,
+            "instance": "/graph/amsynth",
+            "minimum": -0.5,
+            "dividers": null
+        },
+        {
+            "port": "lfo_freq",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 7.5,
+            "label": "LFO Freq",
+            "page": null,
+            "instance": "/graph/amsynth",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 65,
+            "tempo": null,
+            "maximum": 20.0,
+            "label": "Master Volume",
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "minimum": -20.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "amp_sustain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Amp Sustain",
             "page": null,
             "instance": "/graph/amsynth_1",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "filter_cutoff",
+            "group": null,
+            "steps": 33,
             "tempo": null,
-            "port": ":bypass",
-            "dividers": null,
-            "label": "Hi Synth",
-            "steps": 33
+            "maximum": 1.5,
+            "label": "Filter Cutoff",
+            "page": null,
+            "instance": "/graph/amsynth_1",
+            "minimum": -0.5,
+            "dividers": null
+        },
+        {
+            "port": "lfo_freq",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 7.5,
+            "label": "LFO Freq",
+            "page": null,
+            "instance": "/graph/amsynth_1",
+            "minimum": 0.0,
+            "dividers": null
         }
-    ]
+    ],
+    "/bpm": []
 }

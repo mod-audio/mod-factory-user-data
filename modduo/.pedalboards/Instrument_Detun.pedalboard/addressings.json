@@ -1,77 +1,84 @@
 {
-    "/hmi/knob1": [
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
         {
-            "minimum": 0.0,
-            "maximum": 100.0,
-            "page": null,
-            "instance": "/graph/DX10",
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
             "tempo": null,
-            "port": "vibrato",
-            "dividers": null,
-            "label": "Vibrato",
-            "steps": 33
-        },
-        {
-            "minimum": 0.0,
-            "maximum": 100.0,
+            "maximum": 1.0,
+            "label": "Shiroverb",
             "page": null,
             "instance": "/graph/shiroverb",
-            "tempo": null,
-            "port": "shimmer",
-            "dividers": null,
-            "label": "shimmer",
-            "steps": 33
-        }
-    ],
-    "/bpm": [],
-    "/hmi/knob2": [
-        {
             "minimum": 0.0,
-            "maximum": 1.0,
-            "page": null,
-            "instance": "/graph/roomy",
-            "tempo": null,
-            "port": "dry_wet",
-            "dividers": null,
-            "label": "Mix",
-            "steps": 33
-        },
-        {
-            "minimum": -20.0,
-            "maximum": 20.0,
-            "page": null,
-            "instance": "/graph/Gain2x2",
-            "tempo": null,
-            "port": "Gain",
-            "dividers": null,
-            "label": "Master Volume",
-            "steps": 65
+            "dividers": null
         }
     ],
     "/hmi/footswitch2": [
         {
-            "minimum": 0.0,
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
             "maximum": 1.0,
+            "label": "Roomy",
             "page": null,
             "instance": "/graph/roomy",
-            "tempo": null,
-            "port": ":bypass",
-            "dividers": null,
-            "label": "Roomy",
-            "steps": 33
+            "minimum": 0.0,
+            "dividers": null
         }
     ],
-    "/hmi/footswitch1": [
+    "/hmi/knob2": [
         {
-            "minimum": 0.0,
+            "port": "dry_wet",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
             "maximum": 1.0,
+            "label": "Mix",
+            "page": null,
+            "instance": "/graph/roomy",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 65,
+            "tempo": null,
+            "maximum": 20.0,
+            "label": "Master Volume",
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "minimum": -20.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "vibrato",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 100.0,
+            "label": "Vibrato",
+            "page": null,
+            "instance": "/graph/DX10",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "shimmer",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 100.0,
+            "label": "shimmer",
             "page": null,
             "instance": "/graph/shiroverb",
-            "tempo": null,
-            "port": ":bypass",
-            "dividers": null,
-            "label": "Shiroverb",
-            "steps": 33
+            "minimum": 0.0,
+            "dividers": null
         }
-    ]
+    ],
+    "/bpm": []
 }

@@ -1,1 +1,96 @@
-{"/hmi/knob2": [{"instance": "/graph/_phaser", "label": "Rate", "minimum": 0.0, "maximum": 10.0, "port": "speed", "steps": 33}, {"instance": "/graph/_phaser", "label": "Mix", "minimum": 0.0, "maximum": 100.0, "port": "dry_wet", "steps": 33}, {"instance": "/graph/Gain2x2", "label": "Master Volume", "minimum": -20.0, "maximum": 20.0, "port": "Gain", "steps": 65}], "/hmi/knob1": [{"instance": "/graph/onyx", "label": "Character", "minimum": 0.0, "maximum": 100.0, "port": "Character", "steps": 33}, {"instance": "/graph/onyx", "label": "Mid", "minimum": 0.0, "maximum": 1.0, "port": "Mid", "steps": 33}], "/hmi/footswitch2": [{"instance": "/graph/_phaser", "label": "Phaser", "minimum": 0.0, "maximum": 1.0, "port": ":bypass", "steps": 33}], "/hmi/footswitch1": [{"instance": "/graph/SwitchBox2", "label": "Channel", "minimum": 0.0, "maximum": 1.0, "port": "Switch", "steps": 1}]}
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "port": "Switch",
+            "group": null,
+            "steps": 1,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Channel",
+            "page": null,
+            "instance": "/graph/SwitchBox2",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Phaser",
+            "page": null,
+            "instance": "/graph/_phaser",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "speed",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 10.0,
+            "label": "Rate",
+            "page": null,
+            "instance": "/graph/_phaser",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "dry_wet",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 100.0,
+            "label": "Mix",
+            "page": null,
+            "instance": "/graph/_phaser",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 65,
+            "tempo": null,
+            "maximum": 20.0,
+            "label": "Master Volume",
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "minimum": -20.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "Character",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 100.0,
+            "label": "Character",
+            "page": null,
+            "instance": "/graph/onyx",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "Mid",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Mid",
+            "page": null,
+            "instance": "/graph/onyx",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
+}

@@ -1,1 +1,60 @@
-{"/hmi/footswitch1": [{"port": ":bypass", "steps": 33, "label": "Shimmer", "minimum": 0.0, "instance": "/graph/shiroverb", "maximum": 1.0}], "/hmi/footswitch2": [{"port": ":bypass", "steps": 33, "label": "Delay", "minimum": 0.0, "instance": "/graph/DubDelay", "maximum": 1.0}], "/hmi/knob2": [{"port": "Gain", "steps": 33, "label": "Output Level", "minimum": -40.0, "instance": "/graph/Gain2x2", "maximum": 12.0}], "/hmi/knob1": [{"port": "shimmer", "steps": 33, "label": "shimmer", "minimum": 0.0, "instance": "/graph/shiroverb", "maximum": 100.0}]}
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Shimmer",
+            "page": null,
+            "instance": "/graph/shiroverb",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Delay",
+            "page": null,
+            "instance": "/graph/DubDelay",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 12.0,
+            "label": "Output Level",
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "minimum": -40.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "shimmer",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 100.0,
+            "label": "shimmer",
+            "page": null,
+            "instance": "/graph/shiroverb",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
+}

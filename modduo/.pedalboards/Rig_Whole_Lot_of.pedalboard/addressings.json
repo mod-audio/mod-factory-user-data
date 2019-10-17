@@ -1,1 +1,72 @@
-{"/hmi/knob2": [{"instance": "/graph/Gain", "label": "Output Level", "minimum": -40.0, "maximum": 3.0, "port": "Gain", "steps": 33}], "/hmi/knob1": [{"instance": "/graph/onyx", "label": "Gain", "minimum": 1.0, "maximum": 100.0, "port": "Gain", "steps": 33}, {"instance": "/graph/onyx", "label": "Character", "minimum": 0.0, "maximum": 100.0, "port": "Character", "steps": 33}], "/hmi/footswitch2": [{"instance": "/graph/MVerb", "label": "MVerb", "minimum": 0.0, "maximum": 1.0, "port": ":bypass", "steps": 33}], "/hmi/footswitch1": [{"instance": "/graph/onyx", "label": "Clipping", "minimum": 0.0, "maximum": 100000.0, "port": "clip", "steps": 33}]}
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "port": "clip",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 100000.0,
+            "label": "Clipping",
+            "page": null,
+            "instance": "/graph/onyx",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "MVerb",
+            "page": null,
+            "instance": "/graph/MVerb",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 3.0,
+            "label": "Output Level",
+            "page": null,
+            "instance": "/graph/Gain",
+            "minimum": -40.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 100.0,
+            "label": "Gain",
+            "page": null,
+            "instance": "/graph/onyx",
+            "minimum": 1.0,
+            "dividers": null
+        },
+        {
+            "port": "Character",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 100.0,
+            "label": "Character",
+            "page": null,
+            "instance": "/graph/onyx",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
+}

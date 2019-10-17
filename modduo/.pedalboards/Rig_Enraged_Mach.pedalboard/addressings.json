@@ -1,1 +1,84 @@
-{"/hmi/footswitch1": [{"label": "Octaver", "steps": 33, "port": ":bypass", "minimum": 0.0, "instance": "/graph/xfade", "maximum": 1.0}], "/hmi/footswitch2": [{"label": "Tremolo", "steps": 33, "port": ":bypass", "minimum": 0.0, "instance": "/graph/tremolo", "maximum": 1.0}], "/hmi/knob2": [{"label": "Rate", "steps": 65, "port": "frequency", "minimum": 0.0, "instance": "/graph/tremolo", "maximum": 20.0}, {"label": "Output Level", "steps": 33, "port": "Gain", "minimum": -40.0, "instance": "/graph/Gain", "maximum": 12.0}], "/hmi/knob1": [{"label": "Amp Gain", "steps": 33, "port": "Gain", "minimum": 1.0, "instance": "/graph/onyx", "maximum": 100.0}, {"label": "Amp Character", "steps": 33, "port": "Character", "minimum": 0.0, "instance": "/graph/onyx", "maximum": 100.0}]}
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Octaver",
+            "page": null,
+            "instance": "/graph/xfade",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Tremolo",
+            "page": null,
+            "instance": "/graph/tremolo",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "frequency",
+            "group": null,
+            "steps": 65,
+            "tempo": null,
+            "maximum": 20.0,
+            "label": "Rate",
+            "page": null,
+            "instance": "/graph/tremolo",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 12.0,
+            "label": "Output Level",
+            "page": null,
+            "instance": "/graph/Gain",
+            "minimum": -40.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 100.0,
+            "label": "Amp Gain",
+            "page": null,
+            "instance": "/graph/onyx",
+            "minimum": 1.0,
+            "dividers": null
+        },
+        {
+            "port": "Character",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 100.0,
+            "label": "Amp Character",
+            "page": null,
+            "instance": "/graph/onyx",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
+}

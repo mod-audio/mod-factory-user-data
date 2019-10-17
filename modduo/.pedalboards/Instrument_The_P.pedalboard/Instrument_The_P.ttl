@@ -16,32 +16,32 @@ _:b2
     ingen:head <shiroverb/lv2_audio_in_1> .
 
 _:b3
-    ingen:tail <shiroverb/lv2_audio_out_1> ;
-    ingen:head <Gain2x2/In1> .
-
-_:b4
     ingen:tail <Nekobi/lv2_audio_out_1> ;
     ingen:head <Scape/in> .
 
-_:b5
-    ingen:tail <shiroverb/lv2_audio_out_2> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b6
-    ingen:tail <midi_merger_out> ;
-    ingen:head <Nekobi/lv2_events_in> .
-
-_:b7
+_:b4
     ingen:tail <serial_midi_in> ;
     ingen:head <Nekobi/lv2_events_in> .
 
-_:b8
+_:b5
     ingen:tail <Scape/outl> ;
     ingen:head <Gain2x2/In1> .
 
-_:b9
+_:b6
     ingen:tail <Gain2x2/Out1> ;
     ingen:head <playback_1> .
+
+_:b7
+    ingen:tail <midi_merger_out> ;
+    ingen:head <Nekobi/lv2_events_in> .
+
+_:b8
+    ingen:tail <shiroverb/lv2_audio_out_2> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b9
+    ingen:tail <shiroverb/lv2_audio_out_1> ;
+    ingen:head <Gain2x2/In1> .
 
 _:b10
     ingen:tail <Gain2x2/Out2> ;
@@ -78,28 +78,18 @@ _:b10
     a atom:AtomPort ,
         lv2:InputPort .
 
-<Nekobi/tuning>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Nekobi/lv2_enabled>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <Nekobi/cutoff>
-    ingen:value 25.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Nekobi/resonance>
     ingen:value 25.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <Nekobi/decay>
     ingen:value 75.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi/lv2_enabled>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -115,6 +105,16 @@ _:b10
 
 <Nekobi/accent>
     ingen:value 25.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi/resonance>
+    ingen:value 25.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi/tuning>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -159,6 +159,16 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
+<Scape/dry>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Scape/tune>
+    ingen:value 440.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <Scape/bpm>
     ingen:value 120.000000 ;
     a lv2:ControlPort ,
@@ -179,16 +189,6 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Scape/tune>
-    ingen:value 440.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Scape/dry>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <Scape/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
@@ -202,7 +202,7 @@ _:b10
     lv2:microVersion 0 ;
     lv2:minorVersion 2 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 9 ;
+    mod:releaseNumber 11 ;
     lv2:port <shiroverb/lv2_audio_in_1> ,
              <shiroverb/lv2_audio_out_1> ,
              <shiroverb/lv2_audio_out_2> ,
@@ -227,7 +227,12 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<shiroverb/damping>
+<shiroverb/ratio>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/shimmer>
     ingen:value 50.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -237,13 +242,8 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<shiroverb/shimmer>
+<shiroverb/damping>
     ingen:value 50.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/roomsize>
-    ingen:value 150.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -252,8 +252,8 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<shiroverb/bandwidth>
-    ingen:value 75.000000 ;
+<shiroverb/roomsize>
+    ingen:value 150.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -262,8 +262,8 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<shiroverb/ratio>
-    ingen:value 0.500000 ;
+<shiroverb/bandwidth>
+    ingen:value 75.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -409,7 +409,7 @@ _:b10
     a atom:AtomPort ,
         lv2:OutputPort .
 
-<midi_legacy_mode>
+<midi_separated_mode>
     ingen:value 0 ;
     lv2:index 11 ;
     a atom:AtomPort ,
@@ -424,6 +424,7 @@ _:b10
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
+    pedal:version 1 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -442,7 +443,7 @@ _:b10
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
-             <midi_legacy_mode> ,
+             <midi_separated_mode> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

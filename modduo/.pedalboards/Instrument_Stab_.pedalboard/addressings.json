@@ -1,66 +1,72 @@
 {
-    "/hmi/knob1": [
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
         {
-            "minimum": 0.0,
-            "maximum": 2.5,
-            "page": null,
-            "instance": "/graph/amsynth",
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
             "tempo": null,
-            "port": "amp_decay",
-            "dividers": null,
-            "label": "Amp Decay",
-            "steps": 33
-        }
-    ],
-    "/bpm": [],
-    "/hmi/knob2": [
-        {
-            "minimum": 0.0,
             "maximum": 1.0,
+            "label": "CS Chorus 1",
             "page": null,
-            "instance": "/graph/amsynth",
-            "tempo": null,
-            "port": "amp_sustain",
-            "dividers": null,
-            "label": "Amp Sustain",
-            "steps": 33
-        },
-        {
-            "minimum": -20.0,
-            "maximum": 20.0,
-            "page": null,
-            "instance": "/graph/Gain2x2",
-            "tempo": null,
-            "port": "Gain",
-            "dividers": null,
-            "label": "Master Volume",
-            "steps": 65
+            "instance": "/graph/cs_chorus1",
+            "minimum": 0.0,
+            "dividers": null
         }
     ],
     "/hmi/footswitch2": [
         {
-            "minimum": 0.0,
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
             "maximum": 1.0,
+            "label": "Plate",
             "page": null,
             "instance": "/graph/Plate",
-            "tempo": null,
-            "port": ":bypass",
-            "dividers": null,
-            "label": "Plate",
-            "steps": 33
+            "minimum": 0.0,
+            "dividers": null
         }
     ],
-    "/hmi/footswitch1": [
+    "/hmi/knob2": [
         {
-            "minimum": 0.0,
-            "maximum": 1.0,
-            "page": null,
-            "instance": "/graph/cs_chorus1",
+            "port": "amp_sustain",
+            "group": null,
+            "steps": 33,
             "tempo": null,
-            "port": ":bypass",
-            "dividers": null,
-            "label": "CS Chorus 1",
-            "steps": 33
+            "maximum": 1.0,
+            "label": "Amp Sustain",
+            "page": null,
+            "instance": "/graph/amsynth",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 65,
+            "tempo": null,
+            "maximum": 20.0,
+            "label": "Master Volume",
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "minimum": -20.0,
+            "dividers": null
         }
-    ]
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "amp_decay",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 2.5,
+            "label": "Amp Decay",
+            "page": null,
+            "instance": "/graph/amsynth",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
 }

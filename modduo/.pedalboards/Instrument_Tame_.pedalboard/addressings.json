@@ -1,88 +1,96 @@
 {
-    "/hmi/knob1": [
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
         {
-            "minimum": 0.0,
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
             "maximum": 1.0,
+            "label": "Comp",
             "page": null,
-            "instance": "/graph/JX10",
-            "tempo": null,
-            "port": "vcf_freq",
-            "dividers": null,
-            "label": "VCF Freq",
-            "steps": 33
-        },
-        {
+            "instance": "/graph/ZamCompX2",
             "minimum": 0.0,
-            "maximum": 1.0,
-            "page": null,
-            "instance": "/graph/JX10",
-            "tempo": null,
-            "port": "vcf_vel",
-            "dividers": null,
-            "label": "VCF Vel",
-            "steps": 33
-        }
-    ],
-    "/bpm": [],
-    "/hmi/knob2": [
-        {
-            "minimum": 0.0,
-            "maximum": 100.0,
-            "page": null,
-            "instance": "/graph/_reverb_stereo",
-            "tempo": null,
-            "port": "dry_wet",
-            "dividers": null,
-            "label": "Mix",
-            "steps": 33
-        },
-        {
-            "minimum": 0.0,
-            "maximum": 1.0,
-            "page": null,
-            "instance": "/graph/_reverb_stereo",
-            "tempo": null,
-            "port": "damp",
-            "dividers": null,
-            "label": "Damp",
-            "steps": 33
-        },
-        {
-            "minimum": -20.0,
-            "maximum": 20.0,
-            "page": null,
-            "instance": "/graph/Gain2x2",
-            "tempo": null,
-            "port": "Gain",
-            "dividers": null,
-            "label": "Master Volume",
-            "steps": 65
+            "dividers": null
         }
     ],
     "/hmi/footswitch2": [
         {
-            "minimum": 0.0,
+            "port": ":bypass",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
             "maximum": 1.0,
+            "label": "Reverb",
             "page": null,
             "instance": "/graph/_reverb_stereo",
-            "tempo": null,
-            "port": ":bypass",
-            "dividers": null,
-            "label": "Reverb",
-            "steps": 33
+            "minimum": 0.0,
+            "dividers": null
         }
     ],
-    "/hmi/footswitch1": [
+    "/hmi/knob2": [
         {
-            "minimum": 0.0,
-            "maximum": 1.0,
-            "page": null,
-            "instance": "/graph/ZamCompX2",
+            "port": "dry_wet",
+            "group": null,
+            "steps": 33,
             "tempo": null,
-            "port": ":bypass",
-            "dividers": null,
-            "label": "Comp",
-            "steps": 33
+            "maximum": 100.0,
+            "label": "Mix",
+            "page": null,
+            "instance": "/graph/_reverb_stereo",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "damp",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "Damp",
+            "page": null,
+            "instance": "/graph/_reverb_stereo",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "Gain",
+            "group": null,
+            "steps": 65,
+            "tempo": null,
+            "maximum": 20.0,
+            "label": "Master Volume",
+            "page": null,
+            "instance": "/graph/Gain2x2",
+            "minimum": -20.0,
+            "dividers": null
         }
-    ]
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "vcf_freq",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "VCF Freq",
+            "page": null,
+            "instance": "/graph/JX10",
+            "minimum": 0.0,
+            "dividers": null
+        },
+        {
+            "port": "vcf_vel",
+            "group": null,
+            "steps": 33,
+            "tempo": null,
+            "maximum": 1.0,
+            "label": "VCF Vel",
+            "page": null,
+            "instance": "/graph/JX10",
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/bpm": []
 }

@@ -8,28 +8,28 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <playback_1> .
-
-_:b2
     ingen:tail <harmless/lv2_audio_out_1> ;
     ingen:head <Gain2x2/In1> .
 
-_:b3
+_:b2
     ingen:tail <roomy/out_right> ;
     ingen:head <harmless/lv2_audio_in_2> .
 
+_:b3
+    ingen:tail <EPiano/left_out> ;
+    ingen:head <roomy/in_left> .
+
 _:b4
-    ingen:tail <EPiano/right_out> ;
-    ingen:head <roomy/in_right> .
-
-_:b5
-    ingen:tail <harmless/lv2_audio_out_2> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b6
     ingen:tail <roomy/out_left> ;
     ingen:head <harmless/lv2_audio_in_1> .
+
+_:b5
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
+
+_:b6
+    ingen:tail <midi_merger_out> ;
+    ingen:head <EPiano/event_in> .
 
 _:b7
     ingen:tail <Gain2x2/Out2> ;
@@ -40,12 +40,12 @@ _:b8
     ingen:head <EPiano/event_in> .
 
 _:b9
-    ingen:tail <midi_merger_out> ;
-    ingen:head <EPiano/event_in> .
+    ingen:tail <harmless/lv2_audio_out_2> ;
+    ingen:head <Gain2x2/In2> .
 
 _:b10
-    ingen:tail <EPiano/left_out> ;
-    ingen:head <roomy/in_left> .
+    ingen:tail <EPiano/right_out> ;
+    ingen:head <roomy/in_right> .
 
 <EPiano>
     ingen:canvasX 758.0 ;
@@ -55,7 +55,7 @@ _:b10
     lv2:microVersion 3 ;
     lv2:minorVersion 0 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 7 ;
+    mod:releaseNumber 9 ;
     lv2:port <EPiano/left_out> ,
              <EPiano/right_out> ,
              <EPiano/env_decay> ,
@@ -82,32 +82,12 @@ _:b10
     a atom:AtomPort ,
         lv2:InputPort .
 
-<EPiano/fine_tuning>
+<EPiano/modulation>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<EPiano/lfo_rate>
-    ingen:value 24.055000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<EPiano/random_tuning>
-    ingen:value 12.300000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<EPiano/polyphonic>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<EPiano/overdrive>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<EPiano/treble_boost>
+<EPiano/hardness>
     ingen:value -50.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -117,18 +97,23 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<EPiano/treble_boost>
+    ingen:value -50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<EPiano/fine_tuning>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <EPiano/stereo_width>
     ingen:value 100.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<EPiano/hardness>
-    ingen:value -50.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<EPiano/vel_sense>
-    ingen:value 25.000000 ;
+<EPiano/polyphonic>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -137,12 +122,84 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<EPiano/modulation>
+<EPiano/random_tuning>
+    ingen:value 12.300000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<EPiano/lfo_rate>
+    ingen:value 24.055000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<EPiano/vel_sense>
+    ingen:value 25.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<EPiano/overdrive>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <EPiano/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<roomy>
+    ingen:canvasX 1550.0 ;
+    ingen:canvasY 308.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <roomy/in_left> ,
+             <roomy/in_right> ,
+             <roomy/out_left> ,
+             <roomy/out_right> ,
+             <roomy/time> ,
+             <roomy/damping> ,
+             <roomy/dry_wet> ,
+             <roomy/:bypass> ;
+    lv2:prototype <http://www.openavproductions.com/artyfx#roomy> ;
+    pedal:preset <file:///root/.lv2/roomy-Rhode_Island_Roomy.lv2/Rhode_Island_Roomy.ttl> ;
+    a ingen:Block .
+
+<roomy/in_left>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<roomy/in_right>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<roomy/in_left>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<roomy/in_right>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<roomy/dry_wet>
+    ingen:value 0.250000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<roomy/damping>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<roomy/time>
+    ingen:value 0.250000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<roomy/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -200,7 +257,7 @@ _:b10
     lv2:microVersion 0 ;
     lv2:minorVersion 2 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 6 ;
+    mod:releaseNumber 8 ;
     lv2:port <harmless/lv2_audio_in_1> ,
              <harmless/lv2_audio_in_2> ,
              <harmless/lv2_audio_out_1> ,
@@ -231,8 +288,13 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<harmless/rate>
-    ingen:value 4.000000 ;
+<harmless/shape>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<harmless/tone>
+    ingen:value 6000.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -246,74 +308,12 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<harmless/shape>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<harmless/tone>
-    ingen:value 6000.000000 ;
+<harmless/rate>
+    ingen:value 4.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <harmless/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<roomy>
-    ingen:canvasX 1550.0 ;
-    ingen:canvasY 308.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
-    lv2:port <roomy/in_left> ,
-             <roomy/in_right> ,
-             <roomy/out_left> ,
-             <roomy/out_right> ,
-             <roomy/time> ,
-             <roomy/damping> ,
-             <roomy/dry_wet> ,
-             <roomy/:bypass> ;
-    lv2:prototype <http://www.openavproductions.com/artyfx#roomy> ;
-    pedal:preset <file:///root/.lv2/roomy-Rhode_Island_Roomy.lv2/Rhode_Island_Roomy.ttl> ;
-    a ingen:Block .
-
-<roomy/in_left>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<roomy/in_right>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<roomy/in_left>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<roomy/in_right>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<roomy/time>
-    ingen:value 0.250000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<roomy/damping>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<roomy/dry_wet>
-    ingen:value 0.250000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<roomy/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -410,7 +410,7 @@ _:b10
     a atom:AtomPort ,
         lv2:OutputPort .
 
-<midi_legacy_mode>
+<midi_separated_mode>
     ingen:value 0 ;
     lv2:index 11 ;
     a atom:AtomPort ,
@@ -425,6 +425,7 @@ _:b10
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
+    pedal:version 1 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -437,13 +438,13 @@ _:b10
               _:b9 ,
               _:b10 ;
     ingen:block <EPiano> ,
+                <roomy> ,
                 <Gain2x2> ,
-                <harmless> ,
-                <roomy> ;
+                <harmless> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
-             <midi_legacy_mode> ,
+             <midi_separated_mode> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,
