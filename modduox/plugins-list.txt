@@ -11,6 +11,7 @@ gx_duck_delay_st.lv2
 gx_reverb.lv2
 midifilter.lv2
 mod-2voices.lv2
+mod-bypass.lv2
 mod-caps-AutoFilter.lv2
 mod-caps-CabinetIV.lv2
 mod-caps-PlateX2.lv2
