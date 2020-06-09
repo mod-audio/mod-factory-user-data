@@ -1,0 +1,481 @@
+{
+    "/hmi/knob1": [
+        {
+            "minimum": 0.0,
+            "steps": 12,
+            "instance": "/graph/faIR_cabsim",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Cab L",
+            "maximum": 12.0,
+            "page": 0,
+            "port": "Model"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 5,
+            "instance": "/graph/bolliedelay",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Div. L",
+            "maximum": 5.0,
+            "page": 2,
+            "port": "div_l"
+        }
+    ],
+    "/hmi/potentiometer6": [
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/studiopre",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Bass",
+            "maximum": 1.0,
+            "page": 0,
+            "port": "bass"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/harmless",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "depth",
+            "maximum": 100.0,
+            "page": 1,
+            "port": "depth"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/PlateX2",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Mix",
+            "maximum": 1.0,
+            "page": 2,
+            "port": "blend"
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.0,
+            "steps": 12,
+            "instance": "/graph/faIR_cabsim_1",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Cab R",
+            "maximum": 12.0,
+            "page": 0,
+            "port": "Model"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 5,
+            "instance": "/graph/bolliedelay",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Div. R",
+            "maximum": 5.0,
+            "page": 2,
+            "port": "div_r"
+        }
+    ],
+    "/hmi/group3": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/footswitch4": [
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/PlateX2",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Plate Verb",
+            "maximum": 1.0,
+            "page": 2,
+            "port": ":bypass"
+        }
+    ],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/potentiometer4": [
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/doubler",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Tight",
+            "maximum": 1.0,
+            "page": 0,
+            "port": "TimeTracking"
+        },
+        {
+            "minimum": 20.0,
+            "steps": 33,
+            "instance": "/graph/chorusflanger",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Contour",
+            "maximum": 20000.0,
+            "page": 1,
+            "port": "Contour"
+        },
+        {
+            "minimum": 200.0,
+            "steps": 33,
+            "instance": "/graph/bolliedelay",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Hi Freq",
+            "maximum": 22000.0,
+            "page": 2,
+            "port": "high_f"
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/mono_1",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Compressor",
+            "maximum": 1.0,
+            "page": 0,
+            "port": ":bypass"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/chorusflanger",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Chorus/Flanger",
+            "maximum": 1.0,
+            "page": 1,
+            "port": ":bypass"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/bolliedelay",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Bollie Delay",
+            "maximum": 1.0,
+            "page": 2,
+            "port": ":bypass"
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/studiopre",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Treble",
+            "maximum": 1.0,
+            "page": 0,
+            "port": "treble"
+        },
+        {
+            "minimum": 0.0099999997764825821,
+            "steps": 33,
+            "instance": "/graph/harmless",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "shape",
+            "maximum": 0.99000000953674316,
+            "page": 1,
+            "port": "shape"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/PlateX2",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Damping",
+            "maximum": 1.0,
+            "page": 2,
+            "port": "damping"
+        }
+    ],
+    "/hmi/footswitch3": [
+        {
+            "minimum": 0.0,
+            "steps": 1,
+            "instance": "/graph/studiopre",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Bright",
+            "maximum": 1.0,
+            "page": 0,
+            "port": "bright"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/harmless",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Harmless",
+            "maximum": 1.0,
+            "page": 1,
+            "port": ":bypass"
+        },
+        {
+            "minimum": 20.0,
+            "steps": 260,
+            "instance": "/pedalboard",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Tap",
+            "maximum": 280.0,
+            "page": 2,
+            "port": ":bpm"
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/doubler",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Doubletracker",
+            "maximum": 1.0,
+            "page": 0,
+            "port": ":bypass"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 1,
+            "instance": "/graph/bolliedelay",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Highcut",
+            "maximum": 1.0,
+            "page": 2,
+            "port": "high_on"
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "minimum": 1.0,
+            "steps": 33,
+            "instance": "/graph/mono_1",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "c Ratio",
+            "maximum": 20.0,
+            "page": 0,
+            "port": "ratio"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/chorusflanger",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Depth",
+            "maximum": 100.0,
+            "page": 1,
+            "port": "Depth"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/bolliedelay",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Blend",
+            "maximum": 100.0,
+            "page": 2,
+            "port": "mix"
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "minimum": -6.0,
+            "steps": 33,
+            "instance": "/graph/mono_1",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "c Gain",
+            "maximum": 36.0,
+            "page": 0,
+            "port": "gain"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/chorusflanger",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Delay",
+            "maximum": 100.0,
+            "page": 1,
+            "port": "Delay"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/bolliedelay",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Crossfeed",
+            "maximum": 100.0,
+            "page": 2,
+            "port": "crossf"
+        }
+    ],
+    "/hmi/potentiometer1": [
+        {
+            "minimum": -36.0,
+            "steps": 33,
+            "instance": "/graph/mono_1",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "C tresh",
+            "maximum": 0.0,
+            "page": 0,
+            "port": "threshold"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/chorusflanger",
+            "group": null,
+            "tempo": false,
+            "dividers": 0.33300000000000002,
+            "label": "Frequency",
+            "maximum": 5.0,
+            "page": 1,
+            "port": "Frequency"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/bolliedelay",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Feedback",
+            "maximum": 100.0,
+            "page": 2,
+            "port": "feedback"
+        }
+    ],
+    "/cv/graph/cv_capture_2": [],
+    "/hmi/group2": [],
+    "/hmi/group1": [],
+    "/hmi/potentiometer8": [
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/studiopre",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Mid",
+            "maximum": 1.0,
+            "page": 0,
+            "port": "middle"
+        },
+        {
+            "minimum": 500.0,
+            "steps": 33,
+            "instance": "/graph/harmless",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "tone",
+            "maximum": 6000.0,
+            "page": 1,
+            "port": "tone"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/PlateX2",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Lowpass",
+            "maximum": 1.0,
+            "page": 2,
+            "port": "bandwidth"
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/studiopre",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Level",
+            "maximum": 20.0,
+            "page": 0,
+            "port": "volume"
+        },
+        {
+            "minimum": 0.10000000149011612,
+            "steps": 33,
+            "instance": "/graph/harmless",
+            "group": null,
+            "tempo": false,
+            "dividers": 0.33300000000000002,
+            "label": "rate",
+            "maximum": 20.0,
+            "page": 1,
+            "port": "rate"
+        },
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/PlateX2",
+            "group": null,
+            "tempo": false,
+            "dividers": null,
+            "label": "Decay",
+            "maximum": 1.0,
+            "page": 2,
+            "port": "tail"
+        }
+    ]
+}

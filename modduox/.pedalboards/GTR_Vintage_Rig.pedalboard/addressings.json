@@ -1,0 +1,480 @@
+{
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/BigMuffPi",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "BM Tone",
+            "steps": 65,
+            "page": 0,
+            "port": "Tone",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 11.0,
+            "label": "Filter typ",
+            "steps": 11,
+            "page": 1,
+            "port": "mode",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "maximum": 110.0,
+            "label": "repeats",
+            "steps": 65,
+            "page": 2,
+            "port": "repeats",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "instance": "/graph/faIR_cabsim",
+            "tempo": false,
+            "maximum": 12.0,
+            "label": "Cabinet",
+            "steps": 12,
+            "page": 0,
+            "port": "Model",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/harmless",
+            "tempo": false,
+            "maximum": 6000.0,
+            "label": "Trem Tone",
+            "steps": 65,
+            "page": 1,
+            "port": "tone",
+            "dividers": null,
+            "group": null,
+            "minimum": 500.0
+        },
+        {
+            "instance": "/graph/Phaser",
+            "tempo": false,
+            "maximum": 12.0,
+            "label": "PH Stages",
+            "steps": 11,
+            "page": 2,
+            "port": "stages",
+            "dividers": null,
+            "group": null,
+            "minimum": 1.0
+        }
+    ],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/PlateX2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Mix",
+            "steps": 33,
+            "page": 2,
+            "port": "blend",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/_supersonic_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "VOLUME",
+            "steps": 33,
+            "page": 0,
+            "port": "VOLUME",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 20000.0,
+            "label": "Lower",
+            "steps": 33,
+            "page": 1,
+            "port": "lower",
+            "dividers": null,
+            "group": null,
+            "minimum": 10.0
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/PlateX2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Damping",
+            "steps": 33,
+            "page": 2,
+            "port": "damping",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/_supersonic_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "TREBLE",
+            "steps": 33,
+            "page": 0,
+            "port": "TREBLE",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/harmless",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "rate",
+            "steps": 33,
+            "page": 1,
+            "port": "rate",
+            "dividers": 0.33300000000000002,
+            "group": null,
+            "minimum": 0.10000000149011612
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/mono_1",
+            "tempo": false,
+            "maximum": 36.0,
+            "label": "c Gain",
+            "steps": 33,
+            "page": 0,
+            "port": "gain",
+            "dividers": null,
+            "group": null,
+            "minimum": -6.0
+        },
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Mix",
+            "steps": 33,
+            "page": 1,
+            "port": "mix",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/Phaser",
+            "tempo": false,
+            "maximum": 10800.0,
+            "label": "PH Depth",
+            "steps": 33,
+            "page": 2,
+            "port": "mod_depth",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/PlateX2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Decay",
+            "steps": 33,
+            "page": 2,
+            "port": "tail",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/_supersonic_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "GAIN",
+            "steps": 33,
+            "page": 0,
+            "port": "GAIN",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 20000.0,
+            "label": "Upper",
+            "steps": 33,
+            "page": 1,
+            "port": "upper",
+            "dividers": null,
+            "group": null,
+            "minimum": 10.0
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/BigMuffPi",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "BM LVL",
+            "steps": 33,
+            "page": 0,
+            "port": "Level",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 5000.0,
+            "label": "Release",
+            "steps": 33,
+            "page": 1,
+            "port": "release",
+            "dividers": null,
+            "group": null,
+            "minimum": 10.0
+        },
+        {
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "mix",
+            "steps": 33,
+            "page": 2,
+            "port": "mix",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/mono_1",
+            "tempo": false,
+            "maximum": 0.0,
+            "label": "C tresh",
+            "steps": 33,
+            "page": 0,
+            "port": "threshold",
+            "dividers": null,
+            "group": null,
+            "minimum": -36.0
+        },
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Response",
+            "steps": 33,
+            "page": 1,
+            "port": "response",
+            "dividers": null,
+            "group": null,
+            "minimum": -1.0
+        },
+        {
+            "instance": "/graph/Phaser",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "PH Rate",
+            "steps": 33,
+            "page": 2,
+            "port": "mod_rate",
+            "dividers": 0.33300000000000002,
+            "group": null,
+            "minimum": 0.0099999997764825821
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/BigMuffPi",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "BM Sust",
+            "steps": 33,
+            "page": 0,
+            "port": "Sustain",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 500.0,
+            "label": "Attack",
+            "steps": 33,
+            "page": 1,
+            "port": "attack",
+            "dividers": null,
+            "group": null,
+            "minimum": 1.0
+        },
+        {
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "maximum": 1000.0,
+            "label": "time",
+            "steps": 33,
+            "page": 2,
+            "port": "time",
+            "dividers": 1,
+            "group": null,
+            "minimum": 20.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/BigMuffPi",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "B-Muff",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Envelope filter",
+            "steps": 33,
+            "page": 1,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Modulay",
+            "steps": 33,
+            "page": 2,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/mono_1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Compressor",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/Phaser",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Phaser",
+            "steps": 33,
+            "page": 2,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "instance": "/graph/PlateX2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Plate Verb",
+            "steps": 33,
+            "page": 2,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/harmless",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Tremolo",
+            "steps": 33,
+            "page": 1,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/PlateX2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Lowpass",
+            "steps": 33,
+            "page": 2,
+            "port": "bandwidth",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/_supersonic_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "BASS",
+            "steps": 33,
+            "page": 0,
+            "port": "BASS",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/harmless",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "depth",
+            "steps": 33,
+            "page": 1,
+            "port": "depth",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group2": []
+}

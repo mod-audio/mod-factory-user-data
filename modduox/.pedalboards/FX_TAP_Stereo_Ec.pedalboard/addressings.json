@@ -1,0 +1,166 @@
+{
+    "/hmi/potentiometer1": [
+        {
+            "port": "lfeedback",
+            "maximum": 100.0,
+            "label": "L Fbck",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/echo",
+            "minimum": 0.0,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "port": ":bpm",
+            "maximum": 280.0,
+            "label": "Tap",
+            "group": null,
+            "tempo": false,
+            "steps": 260,
+            "dividers": null,
+            "instance": "/pedalboard",
+            "minimum": 20.0,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "port": "lecholevel",
+            "maximum": 10.0,
+            "label": "L Level",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/echo",
+            "minimum": -70.0,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "maximum": 1.0,
+            "label": "Stereo Input",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/xfade_1",
+            "minimum": 0.0,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch3": [
+        {
+            "port": "crossmode",
+            "maximum": 1.0,
+            "label": "Cross Mode",
+            "group": null,
+            "tempo": false,
+            "steps": 1,
+            "dividers": null,
+            "instance": "/graph/echo",
+            "minimum": 0.0,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer7": [],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "maximum": 1.0,
+            "label": "Stereo Echo",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/xfade",
+            "minimum": 0.0,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "port": "xfade",
+            "maximum": 1.0,
+            "label": "Mix",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/xfade",
+            "minimum": -1.0,
+            "page": 0
+        }
+    ],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/potentiometer6": [
+        {
+            "port": "recholevel",
+            "maximum": 10.0,
+            "label": "R Level",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/echo",
+            "minimum": -70.0,
+            "page": 0
+        }
+    ],
+    "/hmi/group2": [],
+    "/hmi/potentiometer3": [],
+    "/hmi/group1": [],
+    "/hmi/group3": [],
+    "/bpm": [],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/knob2": [
+        {
+            "port": "rhaasdelay",
+            "maximum": 48,
+            "label": "R Delay",
+            "group": null,
+            "tempo": true,
+            "steps": 33,
+            "dividers": 32,
+            "instance": "/graph/echo",
+            "minimum": 0.5,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "port": "rhaasfeedback",
+            "maximum": 100.0,
+            "label": "R Fbck",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/echo",
+            "minimum": 0.0,
+            "page": 0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "ldelay",
+            "maximum": 48,
+            "label": "L Delay",
+            "group": null,
+            "tempo": true,
+            "steps": 33,
+            "dividers": 48,
+            "instance": "/graph/echo",
+            "minimum": 0.5,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer4": []
+}

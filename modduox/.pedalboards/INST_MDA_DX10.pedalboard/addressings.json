@@ -1,0 +1,359 @@
+{
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/footswitch2": [
+        {
+            "maximum": 1.0,
+            "port": "reset",
+            "dividers": null,
+            "label": "Reset Phase",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 1,
+            "instance": "/graph/Phaser"
+        }
+    ],
+    "/hmi/potentiometer6": [
+        {
+            "maximum": 100.0,
+            "port": "mod_thru",
+            "dividers": null,
+            "label": "Mod Thru",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/DX10"
+        },
+        {
+            "maximum": 100.0,
+            "port": "release",
+            "dividers": null,
+            "label": "Release",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/DX10"
+        },
+        {
+            "maximum": 20000.0,
+            "port": "base_freq",
+            "dividers": null,
+            "label": "cnt frq",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 20.0,
+            "steps": 33,
+            "instance": "/graph/Phaser"
+        }
+    ],
+    "/bpm": [],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/knob1": [
+        {
+            "maximum": 33,
+            "port": ":presets",
+            "dividers": null,
+            "label": "Preset",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": -1.0,
+            "steps": 33,
+            "instance": "/graph/DX10"
+        },
+        {
+            "maximum": 12.0,
+            "port": "stages",
+            "dividers": null,
+            "label": "# Stages",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 1.0,
+            "steps": 11,
+            "instance": "/graph/Phaser"
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/knob2": [
+        {
+            "maximum": 3.0,
+            "port": "octave",
+            "dividers": null,
+            "label": "Octave",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": -3.0,
+            "steps": 6,
+            "instance": "/graph/DX10"
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer8": [
+        {
+            "maximum": 100.0,
+            "port": "vibrato",
+            "dividers": null,
+            "label": "Vibrato",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/DX10"
+        },
+        {
+            "maximum": 100.0,
+            "port": "mod_vel",
+            "dividers": null,
+            "label": "Mod Vel",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/DX10"
+        }
+    ],
+    "/hmi/group2": [],
+    "/cv/graph/cv_capture_2": [],
+    "/hmi/footswitch3": [],
+    "/hmi/footswitch4": [],
+    "/hmi/potentiometer2": [
+        {
+            "maximum": 100.0,
+            "port": "attack",
+            "dividers": null,
+            "label": "Attack",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/DX10"
+        },
+        {
+            "maximum": 100.0,
+            "port": "waveform",
+            "dividers": null,
+            "label": "Waveform",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/DX10"
+        },
+        {
+            "maximum": 4.0,
+            "port": "dry",
+            "dividers": null,
+            "label": "Dry Lvl",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/Phaser"
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "maximum": 0.75,
+            "port": "fine",
+            "dividers": null,
+            "label": "Fine",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0010000000474974513,
+            "steps": 33,
+            "instance": "/graph/DX10"
+        },
+        {
+            "maximum": 100.0,
+            "port": "mod_dec",
+            "dividers": null,
+            "label": "Mod Dec",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/DX10"
+        },
+        {
+            "maximum": 20.0,
+            "port": "mod_rate",
+            "dividers": 0.33300000000000002,
+            "label": "Mod rate",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0099999997764825821,
+            "steps": 33,
+            "instance": "/graph/Phaser"
+        }
+    ],
+    "/hmi/potentiometer1": [
+        {
+            "maximum": 40.0,
+            "port": "coarse",
+            "dividers": null,
+            "label": "Coarse",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0099999997764825821,
+            "steps": 33,
+            "instance": "/graph/DX10"
+        },
+        {
+            "maximum": 100.0,
+            "port": "mod_init",
+            "dividers": null,
+            "label": "Mod Init",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/DX10"
+        },
+        {
+            "maximum": 4.0,
+            "port": "amount",
+            "dividers": null,
+            "label": "Wet Lvl",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/Phaser"
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "maximum": 1.0,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "Phaser",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/Phaser"
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "maximum": 25.0,
+            "port": "lfo_rate",
+            "dividers": 4,
+            "label": "LFO Rate",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/DX10"
+        },
+        {
+            "maximum": 100.0,
+            "port": "mod_rel",
+            "dividers": null,
+            "label": "Mod Rel",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/DX10"
+        },
+        {
+            "maximum": 360.0,
+            "port": "stereo",
+            "dividers": null,
+            "label": "St Phase",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/Phaser"
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "maximum": 100.0,
+            "port": "decay",
+            "dividers": null,
+            "label": "Decay",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/DX10"
+        },
+        {
+            "maximum": 0.99000000953674316,
+            "port": "feedback",
+            "dividers": null,
+            "label": "feedbck",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": -0.99000000953674316,
+            "steps": 33,
+            "instance": "/graph/Phaser"
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "maximum": 100.0,
+            "port": "finetune",
+            "dividers": null,
+            "label": "FineTune",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": -100.0,
+            "steps": 33,
+            "instance": "/graph/DX10"
+        },
+        {
+            "maximum": 100.0,
+            "port": "mod_sus",
+            "dividers": null,
+            "label": "Mod Sus",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/DX10"
+        },
+        {
+            "maximum": 10800.0,
+            "port": "mod_depth",
+            "dividers": null,
+            "label": "Mod depth",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/Phaser"
+        }
+    ]
+}

@@ -1,0 +1,205 @@
+{
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/HighPassFilter",
+            "tempo": false,
+            "maximum": 20000.0,
+            "label": "SCHAIN HPF",
+            "steps": 65,
+            "page": 0,
+            "port": "Freq",
+            "dividers": null,
+            "group": null,
+            "minimum": 20.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "instance": "/graph/LowPassFilter",
+            "tempo": false,
+            "maximum": 20000.0,
+            "label": "SCHAIN LPF",
+            "steps": 65,
+            "page": 0,
+            "port": "Freq",
+            "dividers": null,
+            "group": null,
+            "minimum": 20.0
+        }
+    ],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/ZamCompX2",
+            "tempo": false,
+            "maximum": 30.0,
+            "label": "Makeup",
+            "steps": 33,
+            "page": 0,
+            "port": "mak",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/ZamCompX2",
+            "tempo": false,
+            "maximum": 150.0,
+            "label": "Slew",
+            "steps": 33,
+            "page": 0,
+            "port": "slew",
+            "dividers": null,
+            "group": null,
+            "minimum": 1.0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/ZamCompX2",
+            "tempo": false,
+            "maximum": 500.0,
+            "label": "Release",
+            "steps": 33,
+            "page": 0,
+            "port": "rel",
+            "dividers": null,
+            "group": null,
+            "minimum": 1.0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/ZamCompX2",
+            "tempo": false,
+            "maximum": 8.0,
+            "label": "Knee",
+            "steps": 33,
+            "page": 0,
+            "port": "kn",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/ZamCompX2",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "Attack",
+            "steps": 33,
+            "page": 0,
+            "port": "att",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.10000000149011612
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/ZamCompX2",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "Ratio",
+            "steps": 33,
+            "page": 0,
+            "port": "rat",
+            "dividers": null,
+            "group": null,
+            "minimum": 1.0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/ZamCompX2",
+            "tempo": false,
+            "maximum": 0.0,
+            "label": "Threshold",
+            "steps": 33,
+            "page": 0,
+            "port": "thr",
+            "dividers": null,
+            "group": null,
+            "minimum": -80.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "ZamComp",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [
+        {
+            "instance": "/graph/xfade_2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Stereo Inp",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/ZamCompX2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Schain 1 to 2",
+            "steps": 1,
+            "page": 0,
+            "port": "sidechain",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "instance": "/graph/xfade_1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "In 2 Dry Thru",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Mix",
+            "steps": 33,
+            "page": 0,
+            "port": "xfade",
+            "dividers": null,
+            "group": null,
+            "minimum": -1.0
+        }
+    ],
+    "/hmi/group2": []
+}

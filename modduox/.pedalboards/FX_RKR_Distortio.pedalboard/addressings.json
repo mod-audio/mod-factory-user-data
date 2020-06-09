@@ -1,0 +1,166 @@
+{
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Mix",
+            "steps": 33,
+            "page": 0,
+            "port": "xfade",
+            "dividers": null,
+            "group": null,
+            "minimum": -1.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "instance": "/graph/dist",
+            "tempo": false,
+            "maximum": 29.0,
+            "label": "Type",
+            "steps": 29,
+            "page": 0,
+            "port": "TYPE",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [],
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/dist",
+            "tempo": false,
+            "maximum": 20000.0,
+            "label": "HPF",
+            "steps": 19980,
+            "page": 0,
+            "port": "HPF",
+            "dividers": null,
+            "group": null,
+            "minimum": 20.0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/dist",
+            "tempo": false,
+            "maximum": 127.0,
+            "label": "L/R XVR",
+            "steps": 127,
+            "page": 0,
+            "port": "LRCr",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer5": [],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/dist",
+            "tempo": false,
+            "maximum": 127.0,
+            "label": "Drive",
+            "steps": 127,
+            "page": 0,
+            "port": "DRIVE",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/dist",
+            "tempo": false,
+            "maximum": 127.0,
+            "label": "SubOct",
+            "steps": 127,
+            "page": 0,
+            "port": "OCT",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/dist",
+            "tempo": false,
+            "maximum": 127.0,
+            "label": "Level",
+            "steps": 127,
+            "page": 0,
+            "port": "LEVEL",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "RKR Distortion",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/xfade_1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Stereo Input",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "instance": "/graph/dist",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Filters Pre",
+            "steps": 1,
+            "page": 0,
+            "port": "PREFILTER",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/dist",
+            "tempo": false,
+            "maximum": 26000.0,
+            "label": "LPF",
+            "steps": 25980,
+            "page": 0,
+            "port": "LPF",
+            "dividers": null,
+            "group": null,
+            "minimum": 20.0
+        }
+    ],
+    "/hmi/group2": []
+}

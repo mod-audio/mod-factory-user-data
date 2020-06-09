@@ -1,0 +1,203 @@
+{
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/_shimmizita_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "ModDepth",
+            "steps": 33,
+            "page": 0,
+            "port": "ModDepth",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "instance": "/graph/_shimmizita_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "MOD SOURCE - ENV <-> LFO",
+            "steps": 33,
+            "page": 0,
+            "port": "ModSource",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/_shimmizita_",
+            "tempo": false,
+            "maximum": 3.0,
+            "label": "EnvTime",
+            "steps": 33,
+            "page": 0,
+            "port": "EnvTime",
+            "dividers": 0.33300000000000002,
+            "group": null,
+            "minimum": 0.10000000149011612
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/_shimmizita_",
+            "tempo": false,
+            "maximum": 6.0,
+            "label": "PitchShift",
+            "steps": 33,
+            "page": 0,
+            "port": "PitchShift",
+            "dividers": null,
+            "group": null,
+            "minimum": -6.0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/_shimmizita_",
+            "tempo": false,
+            "maximum": 8.0,
+            "label": "DecayLow",
+            "steps": 33,
+            "page": 0,
+            "port": "DecayLow",
+            "dividers": null,
+            "group": null,
+            "minimum": 1.0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/_shimmizita_",
+            "tempo": false,
+            "maximum": 10.0,
+            "label": "LFOSpeed",
+            "steps": 33,
+            "page": 0,
+            "port": "LFOSpeed",
+            "dividers": 0.33300000000000002,
+            "group": null,
+            "minimum": 0.10000000149011612
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/_shimmizita_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Mix",
+            "steps": 33,
+            "page": 0,
+            "port": "Mix",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/_shimmizita_",
+            "tempo": false,
+            "maximum": 1000.0,
+            "label": "FreqLow",
+            "steps": 33,
+            "page": 1,
+            "port": "FreqLow",
+            "dividers": null,
+            "group": null,
+            "minimum": 50.0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/_shimmizita_",
+            "tempo": false,
+            "maximum": 8.0,
+            "label": "DecayHigh",
+            "steps": 33,
+            "page": 0,
+            "port": "DecayHigh",
+            "dividers": null,
+            "group": null,
+            "minimum": 1.0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/_shimmizita_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "PitchMix",
+            "steps": 33,
+            "page": 0,
+            "port": "PitchMix",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/_shimmizita_",
+            "tempo": false,
+            "maximum": 23520.0,
+            "label": "FreqHigh",
+            "steps": 33,
+            "page": 1,
+            "port": "FreqHigh",
+            "dividers": null,
+            "group": null,
+            "minimum": 1500.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Shimmizita",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [],
+    "/hmi/footswitch2": [],
+    "/hmi/footswitch4": [
+        {
+            "instance": "/graph/xfade_1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Stereo Input",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/_shimmizita_",
+            "tempo": false,
+            "maximum": 3.0,
+            "label": "Mode",
+            "steps": 33,
+            "page": 0,
+            "port": "Mode",
+            "dividers": null,
+            "group": null,
+            "minimum": -3.0
+        }
+    ],
+    "/hmi/group2": []
+}

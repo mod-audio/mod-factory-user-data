@@ -1,0 +1,166 @@
+{
+    "/hmi/group2": [],
+    "/hmi/group3": [],
+    "/bpm": [],
+    "/hmi/group1": [],
+    "/hmi/knob2": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/knob1": [
+        {
+            "maximum": 1.0,
+            "group": null,
+            "instance": "/graph/xfade",
+            "steps": 33,
+            "label": "Mix",
+            "port": "xfade",
+            "tempo": false,
+            "page": 0,
+            "minimum": -1.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "maximum": 64.0,
+            "group": null,
+            "instance": "/graph/Saturator",
+            "steps": 33,
+            "label": "In gain",
+            "port": "level_in",
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.015625,
+            "dividers": null
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "maximum": 3.0,
+            "group": null,
+            "instance": "/graph/Saturator",
+            "steps": 33,
+            "label": "Out Gain",
+            "port": "level_out",
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.015625,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "maximum": 1.0,
+            "group": null,
+            "instance": "/graph/xfade",
+            "steps": 33,
+            "label": "Calf Saturator",
+            "port": ":bypass",
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "maximum": 10.0,
+            "group": null,
+            "instance": "/graph/Saturator",
+            "steps": 33,
+            "label": "Saturation",
+            "port": "drive",
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.10000000149011612,
+            "dividers": null
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "maximum": 20000.0,
+            "group": null,
+            "instance": "/graph/Saturator",
+            "steps": 33,
+            "label": "LPF Pst",
+            "port": "lp_post_freq",
+            "tempo": false,
+            "page": 0,
+            "minimum": 10.0,
+            "dividers": null
+        }
+    ],
+    "/cv/graph/cv_capture_1": [],
+    "/cv/graph/cv_capture_2": [],
+    "/hmi/potentiometer1": [
+        {
+            "maximum": 20000.0,
+            "group": null,
+            "instance": "/graph/Saturator",
+            "steps": 33,
+            "label": "HPF Pre",
+            "port": "hp_pre_freq",
+            "tempo": false,
+            "page": 0,
+            "minimum": 10.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch4": [],
+    "/hmi/potentiometer2": [
+        {
+            "maximum": 20000.0,
+            "group": null,
+            "instance": "/graph/Saturator",
+            "steps": 33,
+            "label": "LPF Pre",
+            "port": "lp_pre_freq",
+            "tempo": false,
+            "page": 0,
+            "minimum": 10.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "maximum": 1.0,
+            "group": null,
+            "instance": "/graph/xfade_1",
+            "steps": 33,
+            "label": "Stereo Input",
+            "port": ":bypass",
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch3": [],
+    "/hmi/potentiometer7": [
+        {
+            "maximum": 20000.0,
+            "group": null,
+            "instance": "/graph/Saturator",
+            "steps": 33,
+            "label": "HPF Pst",
+            "port": "hp_post_freq",
+            "tempo": false,
+            "page": 0,
+            "minimum": 10.0,
+            "dividers": null
+        }
+    ],
+    "/hmi/potentiometer6": [
+        {
+            "maximum": 10.0,
+            "group": null,
+            "instance": "/graph/Saturator",
+            "steps": 33,
+            "label": "Blend",
+            "port": "blend",
+            "tempo": false,
+            "page": 0,
+            "minimum": -10.0,
+            "dividers": null
+        }
+    ]
+}

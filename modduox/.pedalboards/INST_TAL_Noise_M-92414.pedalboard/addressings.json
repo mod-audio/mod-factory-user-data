@@ -1,0 +1,469 @@
+{
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/footswitch2": [
+        {
+            "maximum": 4.0,
+            "port": "osc2waveform",
+            "dividers": null,
+            "label": "osc2",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 4,
+            "instance": "/graph/tal_noisemaker"
+        }
+    ],
+    "/hmi/potentiometer6": [
+        {
+            "maximum": 1.0,
+            "port": "osc2volume",
+            "dividers": null,
+            "label": "OSC2 V",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 1.0,
+            "port": "ampsustain",
+            "dividers": null,
+            "label": "Amp Sus",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 1.0,
+            "port": "lfo1amount",
+            "dividers": null,
+            "label": "LFO1 DP",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        }
+    ],
+    "/bpm": [],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/knob1": [
+        {
+            "maximum": 10.0,
+            "port": "filtertype",
+            "dividers": null,
+            "label": "Type",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 1.0,
+            "steps": 9,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 7.0,
+            "port": "lfo1destination",
+            "dividers": null,
+            "label": "LFO 1 dest",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 7,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 1.0,
+            "port": "portamento",
+            "dividers": null,
+            "label": "portamento",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/knob2": [
+        {
+            "maximum": 24,
+            "port": ":presets",
+            "dividers": null,
+            "label": "Preset",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": -1.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 7.0,
+            "port": "lfo2destination",
+            "dividers": null,
+            "label": "LFO 2 dest",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 7,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 1.0,
+            "port": "ringmodulation",
+            "dividers": null,
+            "label": "Ringmod",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 65,
+            "instance": "/graph/tal_noisemaker"
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer8": [
+        {
+            "maximum": 1.0,
+            "port": "volume",
+            "dividers": null,
+            "label": "Volume",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 65,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 1.0,
+            "port": "amprelease",
+            "dividers": null,
+            "label": "Amp Rel",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 1.0,
+            "port": "lfo2amount",
+            "dividers": null,
+            "label": "LFO2 DP",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        }
+    ],
+    "/hmi/group2": [],
+    "/cv/graph/cv_capture_2": [],
+    "/hmi/footswitch3": [
+        {
+            "maximum": 5.0,
+            "port": "lfo1waveform",
+            "dividers": null,
+            "label": "LFO 1",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 5,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 4.0,
+            "port": "voices",
+            "dividers": null,
+            "label": "Voices",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 1.0,
+            "steps": 3,
+            "instance": "/graph/tal_noisemaker"
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "maximum": 5.0,
+            "port": "lfo2waveform",
+            "dividers": null,
+            "label": "LFO 2",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 5,
+            "instance": "/graph/tal_noisemaker"
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "maximum": 1.0,
+            "port": "resonance",
+            "dividers": null,
+            "label": "resonance",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 1.0,
+            "port": "ampattack",
+            "dividers": null,
+            "label": "amp atk",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 1.0,
+            "port": "oscmastertune",
+            "dividers": null,
+            "label": "Mst tun",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": -1.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "maximum": 1.0,
+            "port": "keyfollow",
+            "dividers": null,
+            "label": "keyfollow",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 1.0,
+            "port": "filterdecay",
+            "dividers": null,
+            "label": "flt dec",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 24.0,
+            "port": "osc2tune",
+            "dividers": null,
+            "label": "Tune 2",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": -24.0,
+            "steps": 48,
+            "instance": "/graph/tal_noisemaker"
+        }
+    ],
+    "/hmi/potentiometer1": [
+        {
+            "maximum": 1.0,
+            "port": "cutoff",
+            "dividers": null,
+            "label": "cutoff",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 1.0,
+            "port": "filterattack",
+            "dividers": null,
+            "label": "flt atk",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 24.0,
+            "port": "osc1tune",
+            "dividers": null,
+            "label": "Tune 1",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": -24.0,
+            "steps": 48,
+            "instance": "/graph/tal_noisemaker"
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "maximum": 2.0,
+            "port": "osc1waveform",
+            "dividers": null,
+            "label": "Osc1",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 2,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 2.0,
+            "port": "portamentomode",
+            "dividers": null,
+            "label": "Portamento",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 2,
+            "instance": "/graph/tal_noisemaker"
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "maximum": 1.0,
+            "port": "osc3volume",
+            "dividers": null,
+            "label": "Sub V",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 1.0,
+            "port": "filterrelease",
+            "dividers": null,
+            "label": "flt rel",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 1.0,
+            "port": "lfo2rate",
+            "dividers": null,
+            "label": "LFO2 RT",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "maximum": 1.0,
+            "port": "filtercontour",
+            "dividers": null,
+            "label": "filtercontour",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 1.0,
+            "port": "ampdecay",
+            "dividers": null,
+            "label": "Amp Dec",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 1.0,
+            "port": "osc2fm",
+            "dividers": null,
+            "label": "OSC2 FM",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "maximum": 1.0,
+            "port": "osc1volume",
+            "dividers": null,
+            "label": "OSC1 v",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 1.0,
+            "port": "filtersustain",
+            "dividers": null,
+            "label": "flt sus",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        },
+        {
+            "maximum": 1.0,
+            "port": "lfo1rate",
+            "dividers": null,
+            "label": "LFO1 RT",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/tal_noisemaker"
+        }
+    ]
+}

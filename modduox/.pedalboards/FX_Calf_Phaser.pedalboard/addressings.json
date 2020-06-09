@@ -1,0 +1,179 @@
+{
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/Phaser",
+            "tempo": false,
+            "maximum": 12.0,
+            "label": "Phaser Stages",
+            "steps": 11,
+            "page": 0,
+            "port": "stages",
+            "dividers": null,
+            "group": null,
+            "minimum": 1.0
+        }
+    ],
+    "/hmi/knob2": [],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/Phaser",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "Mod rate",
+            "steps": 33,
+            "page": 0,
+            "port": "mod_rate",
+            "dividers": 0.33300000000000002,
+            "group": null,
+            "minimum": 0.0099999997764825821
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/Phaser",
+            "tempo": false,
+            "maximum": 20000.0,
+            "label": "C.Freq",
+            "steps": 33,
+            "page": 0,
+            "port": "base_freq",
+            "dividers": null,
+            "group": null,
+            "minimum": 20.0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/stereo_1",
+            "tempo": false,
+            "maximum": 0.0,
+            "label": "TresHld",
+            "steps": 33,
+            "page": 0,
+            "port": "threshold",
+            "dividers": null,
+            "group": null,
+            "minimum": -36.0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/Phaser",
+            "tempo": false,
+            "maximum": 0.99000000953674316,
+            "label": "Feedback",
+            "steps": 33,
+            "page": 0,
+            "port": "feedback",
+            "dividers": null,
+            "group": null,
+            "minimum": -0.99000000953674316
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/Phaser",
+            "tempo": false,
+            "maximum": 2.0,
+            "label": "Dry Lvl",
+            "steps": 33,
+            "page": 0,
+            "port": "dry",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/Phaser",
+            "tempo": false,
+            "maximum": 360.0,
+            "label": "Phase",
+            "steps": 33,
+            "page": 0,
+            "port": "stereo",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/Phaser",
+            "tempo": false,
+            "maximum": 2.0,
+            "label": "Wet Lvl",
+            "steps": 33,
+            "page": 0,
+            "port": "amount",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Phaser",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/Phaser",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Reset",
+            "steps": 1,
+            "page": 0,
+            "port": "reset",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "instance": "/graph/xfade_1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Stereo Input",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/Phaser",
+            "tempo": false,
+            "maximum": 10800.0,
+            "label": "Mod depth",
+            "steps": 33,
+            "page": 0,
+            "port": "mod_depth",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group2": []
+}

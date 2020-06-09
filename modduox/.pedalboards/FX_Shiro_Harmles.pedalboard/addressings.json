@@ -1,0 +1,140 @@
+{
+    "/hmi/potentiometer1": [
+        {
+            "port": "shape",
+            "maximum": 0.99000000953674316,
+            "label": "shape",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/harmless",
+            "minimum": 0.0099999997764825821,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "port": ":bpm",
+            "maximum": 280.0,
+            "label": "Tap",
+            "group": null,
+            "tempo": false,
+            "steps": 260,
+            "dividers": null,
+            "instance": "/pedalboard",
+            "minimum": 20.0,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "port": "tone",
+            "maximum": 6000.0,
+            "label": "tone",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/harmless",
+            "minimum": 500.0,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "maximum": 1.0,
+            "label": "Stereo Inp",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/xfade_2",
+            "minimum": 0.0,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch3": [],
+    "/hmi/potentiometer7": [],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "maximum": 1.0,
+            "label": "Harmless",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/xfade",
+            "minimum": 0.0,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer8": [],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/potentiometer6": [],
+    "/hmi/group2": [],
+    "/hmi/potentiometer3": [
+        {
+            "port": "phase",
+            "maximum": 180.0,
+            "label": "phase",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/harmless",
+            "minimum": -180.0,
+            "page": 0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/group3": [],
+    "/bpm": [],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/knob2": [
+        {
+            "port": "xfade",
+            "maximum": 1.0,
+            "label": "Mix",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/xfade",
+            "minimum": -1.0,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer5": [],
+    "/hmi/knob1": [
+        {
+            "port": "rate",
+            "maximum": 48,
+            "label": "rate",
+            "group": null,
+            "tempo": true,
+            "steps": 33,
+            "dividers": 8,
+            "instance": "/graph/harmless",
+            "minimum": 0.33300000000000002,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "port": "depth",
+            "maximum": 100.0,
+            "label": "depth",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/harmless",
+            "minimum": 0.0,
+            "page": 0
+        }
+    ]
+}

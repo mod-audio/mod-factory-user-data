@@ -1,0 +1,140 @@
+{
+    "/hmi/knob1": [],
+    "/hmi/knob2": [],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "maximum": 3.0,
+            "label": "depth",
+            "steps": 33,
+            "page": 0,
+            "port": "depth",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.10000000149011612
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "morph",
+            "steps": 33,
+            "page": 0,
+            "port": "morph",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "maximum": 6000.0,
+            "label": "tone",
+            "steps": 33,
+            "page": 0,
+            "port": "tone",
+            "dividers": null,
+            "group": null,
+            "minimum": 500.0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "maximum": 5.0,
+            "label": "rate",
+            "steps": 33,
+            "page": 0,
+            "port": "rate",
+            "dividers": 0.33300000000000002,
+            "group": null,
+            "minimum": 0.10000000149011612
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "mix",
+            "steps": 33,
+            "page": 0,
+            "port": "mix",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "maximum": 110.0,
+            "label": "repeats",
+            "steps": 33,
+            "page": 0,
+            "port": "repeats",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "maximum": 1000.0,
+            "label": "time",
+            "steps": 33,
+            "page": 0,
+            "port": "time",
+            "dividers": 1,
+            "group": null,
+            "minimum": 20.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Modulay",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Stereo Input",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [],
+    "/hmi/potentiometer8": [],
+    "/hmi/group2": []
+}

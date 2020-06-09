@@ -1,121 +1,349 @@
 [
     {
-        "title": "Duo X ",
+        "title": "Instruments",
         "pedalboards": [
             {
-                "title": "FX - BOLLIEDELAY",
-                "bundle": "/root/.pedalboards/FX_BOLLIEDELAY.pedalboard"
+                "title": "INST - Acid Synth",
+                "bundle": "/root/.pedalboards/INST_Acid_Synth-26913.pedalboard"
             },
             {
-                "title": "Chorus Flanger w Master EQ and Dynamics",
-                "bundle": "/root/.pedalboards/Chorus_Flanger_w.pedalboard"
+                "title": "INST - Voices",
+                "bundle": "/root/.pedalboards/INST_Voices.pedalboard"
             },
             {
-                "title": "Classic Flange  w Master EQ and Dynamics",
-                "bundle": "/root/.pedalboards/Classic_Flange_w.pedalboard"
+                "title": "INST - FM Synth",
+                "bundle": "/root/.pedalboards/INST_FM_Synth.pedalboard"
             },
             {
-                "title": "Chorus w Master EQ and Dynamics",
-                "bundle": "/root/.pedalboards/Chorus_w_Master_.pedalboard"
+                "title": "INST - Panned Karpluck",
+                "bundle": "/root/.pedalboards/INST_Panned_Karp-37095.pedalboard"
             },
             {
-                "title": "Floating Morph Delay w Master EQ and Dynamics",
-                "bundle": "/root/.pedalboards/Floating_Morph_D-99145.pedalboard"
+                "title": "INST - AMSynth",
+                "bundle": "/root/.pedalboards/INST_AMSynth.pedalboard"
             },
             {
-                "title": "Stereo Dynamics and EQ",
-                "bundle": "/root/.pedalboards/Stereo_Dynamics_.pedalboard"
+                "title": "INST - MDA DX10",
+                "bundle": "/root/.pedalboards/INST_MDA_DX10.pedalboard"
             },
             {
-                "title": "X-Fade MOD Delay w Filter and Pan",
-                "bundle": "/root/.pedalboards/X_Fade_MOD_Delay-2003.pedalboard"
+                "title": "INST - MDA JX10",
+                "bundle": "/root/.pedalboards/INST_MDA_JX10.pedalboard"
             },
             {
-                "title": "Shimmer Reverb w Master EQ and Dynamics",
-                "bundle": "/root/.pedalboards/Shimmer_Reverb_w.pedalboard"
+                "title": "INST - TAL Noise Maker",
+                "bundle": "/root/.pedalboards/INST_TAL_Noise_M-92414.pedalboard"
             },
             {
-                "title": "Switchable Filters w Master EQ and Dynamics",
-                "bundle": "/root/.pedalboards/Switchable_Filte-68653.pedalboard"
+                "title": "INST - Piano / EPiano",
+                "bundle": "/root/.pedalboards/INST_Piano_EPian.pedalboard"
             },
             {
-                "title": "Filter Delay",
-                "bundle": "/root/.pedalboards/Filter_Delay.pedalboard"
+                "title": "INST - MDA EPiano",
+                "bundle": "/root/.pedalboards/INST_MDA_EPiano.pedalboard"
             },
             {
-                "title": "Filtered Dual 4 Point Pitch Blend",
-                "bundle": "/root/.pedalboards/Filtered_Dual_4_.pedalboard"
-            },
-            {
-                "title": "Filter Verb w Dub Delay",
-                "bundle": "/root/.pedalboards/Filter_Verb_w_Du.pedalboard"
-            },
-            {
-                "title": "Envelope Filter with Reverb and Dynamics",
-                "bundle": "/root/.pedalboards/Envelope_Filter_-64479.pedalboard"
-            },
-            {
-                "title": "Envelope Filter w Master EQ and Dynamics",
-                "bundle": "/root/.pedalboards/Envelope_Filter_-16470.pedalboard"
-            },
-            {
-                "title": "Ducked Delay w Filter Master EQ and Dynamics",
-                "bundle": "/root/.pedalboards/Ducked_Delay_w_F-2659.pedalboard"
-            },
-            {
-                "title": "Dub Delay with Master EQ and  Dynamics",
-                "bundle": "/root/.pedalboards/Dub_Delay_with_M.pedalboard"
-            },
-            {
-                "title": "Dual Filtered Pitch Shifter w Master EQ and Dynamics",
-                "bundle": "/root/.pedalboards/Dual_Filtered_Pi-29709.pedalboard"
-            },
-            {
-                "title": "Dual Stereo Cabinet and Tube Emulation with Stereo Com                                                                                                                                                             pression/ Limiting",
-                "bundle": "/root/.pedalboards/Dual_Stereo_Cabi-70343.pedalboard"
-            },
-            {
-                "title": "Dual Shelved Distortion",
-                "bundle": "/root/.pedalboards/Dual_Shelved_Dis.pedalboard"
-            },
-            {
-                "title": "Classic Reverb (MVerb) w Master EQ and Dynamics",
-                "bundle": "/root/.pedalboards/Classic_Reverb_M.pedalboard"
-            },
-            {
-                "title": "X-Fade MOD Delay w Filter and Pan",
-                "bundle": "/root/.pedalboards/X_Fade_MOD_Delay-2003.pedalboard"
-            },
-            {
-                "title": "Flange Lab",
-                "bundle": "/root/.pedalboards/Flange_Lab.pedalboard"
+                "title": "INST - Kalimba / ChromPerc",
+                "bundle": "/root/.pedalboards/INST_Kalimba_Chr.pedalboard"
             }
         ]
     },
     {
-        "title": "Synth",
+        "title": "Control Voltage",
         "pedalboards": [
             {
-                "title": "Noise Maker",
-                "bundle": "/root/.pedalboards/Noise_Maker.pedalboard"
+                "title": "CV GEN - Drummachine",
+                "bundle": "/root/.pedalboards/CV_GEN_Drummachi.pedalboard"
             },
             {
-                "title": "Dual Acid Machine w Delay and Reverb",
-                "bundle": "/root/.pedalboards/Dual_Acid_Machin.pedalboard"
+                "title": "CV GEN - Kind Mistakes",
+                "bundle": "/root/.pedalboards/CV_GEN_Kind_Mist.pedalboard"
             },
             {
-                "title": "SYNTH - FM",
-                "bundle": "/root/.pedalboards/SYNTH_FM.pedalboard"
+                "title": "CV GEN - 8th Drone",
+                "bundle": "/root/.pedalboards/CV_GEN_8th_Drone.pedalboard"
             },
             {
-                "title": "SYNTH - PIANO EPIANO",
-                "bundle": "/root/.pedalboards/SYNTH_PIANO_EPIA.pedalboard"
+                "title": "CV GEN - Quatro Formally",
+                "bundle": "/root/.pedalboards/CV_GEN_Quatro_Fo.pedalboard"
             },
             {
-                "title": "SYNTH - ACID",
-                "bundle": "/root/.pedalboards/SYNTH_ACID.pedalboard"
+                "title": "CV INST - Classic Poly Synth",
+                "bundle": "/root/.pedalboards/CV_INST_Classic_.pedalboard"
+            },
+            {
+                "title": "CV TOOL - Filterbox",
+                "bundle": "/root/.pedalboards/CV_TOOL_Filterbo.pedalboard"
+            },
+            {
+                "title": "CV TOOL - Oscillator Utility",
+                "bundle": "/root/.pedalboards/CV_TOOL_Oscillat.pedalboard"
+            },
+            {
+                "title": "CV TOOL - VCA Much",
+                "bundle": "/root/.pedalboards/CV_TOOL_VCA_Much.pedalboard"
+            }
+        ]
+    },
+    {
+        "title": "FX: Delay/Verb",
+        "pedalboards": [
+            {
+                "title": "FX - Bollie Delay",
+                "bundle": "/root/.pedalboards/FX_Bollie_Delay.pedalboard"
+            },
+            {
+                "title": "FX - Floaty Delay",
+                "bundle": "/root/.pedalboards/FX_Floaty_Delay.pedalboard"
+            },
+            {
+                "title": "FX - Gx Duck Delay",
+                "bundle": "/root/.pedalboards/FX_Gx_Duck_Delay.pedalboard"
+            },
+            {
+                "title": "FX - Invada Delay Munge",
+                "bundle": "/root/.pedalboards/FX_Invada_Delay_.pedalboard"
+            },
+            {
+                "title": "FX - Shiro Modulay",
+                "bundle": "/root/.pedalboards/FX_Shiro_Modulay.pedalboard"
+            },
+            {
+                "title": "FX - TAP Stereo Echo",
+                "bundle": "/root/.pedalboards/FX_TAP_Stereo_Ec.pedalboard"
+            },
+            {
+                "title": "FX - Shiroverb",
+                "bundle": "/root/.pedalboards/FX_Shiroverb.pedalboard"
+            },
+            {
+                "title": "FX - RKR Reverb",
+                "bundle": "/root/.pedalboards/FX_RKR_Reverb.pedalboard"
+            },
+            {
+                "title": "FX - Gx Shimmizita",
+                "bundle": "/root/.pedalboards/FX_Gx_Shimmizita.pedalboard"
+            },
+            {
+                "title": "FX - MVerb",
+                "bundle": "/root/.pedalboards/FX_MVerb.pedalboard"
+            },
+            {
+                "title": "FX - FOMP Reverb",
+                "bundle": "/root/.pedalboards/FX_FOMP_Reverb.pedalboard"
+            }
+        ]
+    },
+    {
+        "title": "FX: Modulation",
+        "pedalboards": [
+            {
+                "title": "FX - Calf Phaser",
+                "bundle": "/root/.pedalboards/FX_Calf_Phaser.pedalboard"
+            },
+            {
+                "title": "FX - Calf Flanger",
+                "bundle": "/root/.pedalboards/FX_Calf_Flanger.pedalboard"
+            },
+            {
+                "title": "FX - TAP Chorus / Flanger",
+                "bundle": "/root/.pedalboards/FX_TAP_Chorus_Fl.pedalboard"
+            },
+            {
+                "title": "FX - Shiro Harmless",
+                "bundle": "/root/.pedalboards/FX_Shiro_Harmles.pedalboard"
+            },
+            {
+                "title": "FX - MDA ThruZero Flanger",
+                "bundle": "/root/.pedalboards/FX_MDA_ThruZero_.pedalboard"
+            },
+            {
+                "title": "FX - Dual MDA RingMod",
+                "bundle": "/root/.pedalboards/FX_Dual_MDA_Ring.pedalboard"
+            }
+        ]
+    },
+    {
+        "title": "FX: Distortion",
+        "pedalboards": [
+            {
+                "title": "FX - Muff, Screamer and DS1",
+                "bundle": "/root/.pedalboards/FX_Muff_Screamer.pedalboard"
+            },
+            {
+                "title": "FX - TubeDriver and TimRay",
+                "bundle": "/root/.pedalboards/FX_TubeDriver_an.pedalboard"
+            },
+            {
+                "title": "FX - Paranoia and Hip2B",
+                "bundle": "/root/.pedalboards/FX_Paranoia_and_.pedalboard"
+            },
+            {
+                "title": "FX - RKR Fuzz",
+                "bundle": "/root/.pedalboards/FX_RKR_Fuzz.pedalboard"
+            },
+            {
+                "title": "FX - RKR Distortion",
+                "bundle": "/root/.pedalboards/FX_RKR_Distortio.pedalboard"
+            },
+            {
+                "title": "FX - Calf Saturator",
+                "bundle": "/root/.pedalboards/FX_Calf_Saturato.pedalboard"
+            }
+        ]
+    },
+    {
+        "title": "FX: Others",
+        "pedalboards": [
+            {
+                "title": "FX - Mayank Granulator",
+                "bundle": "/root/.pedalboards/FX_Mayank_Granul.pedalboard"
+            },
+            {
+                "title": "FX - Sidechain Compressor",
+                "bundle": "/root/.pedalboards/FX_Sidechain_Com.pedalboard"
+            },
+            {
+                "title": "FX - Calf Envelope",
+                "bundle": "/root/.pedalboards/FX_Calf_Envelope.pedalboard"
+            },
+            {
+                "title": "FX - Sooper Looper",
+                "bundle": "/root/.pedalboards/FX_Sooper_Looper.pedalboard"
+            },
+            {
+                "title": "FX - MDA RePsycho",
+                "bundle": "/root/.pedalboards/FX_MDA_RePsycho.pedalboard"
+            },
+            {
+                "title": "FX - MDA SubSynth",
+                "bundle": "/root/.pedalboards/FX_MDA_SubSynth.pedalboard"
+            },
+            {
+                "title": "FX - MDA Vocoder",
+                "bundle": "/root/.pedalboards/FX_MDA_Vocoder.pedalboard"
+            },
+            {
+                "title": "FX - Parametric EQ",
+                "bundle": "/root/.pedalboards/FX_Parametric_EQ.pedalboard"
+            },
+            {
+                "title": "FX - TAP Fractal Doubler",
+                "bundle": "/root/.pedalboards/FX_TAP_Fractal_D.pedalboard"
+            },
+            {
+                "title": "FX - x42 Whirl Speaker",
+                "bundle": "/root/.pedalboards/FX_x42_Whirl_Spe.pedalboard"
+            },
+            {
+                "title": "FX - Invada Compressor",
+                "bundle": "/root/.pedalboards/FX_Invada_Compre.pedalboard"
+            },
+            {
+                "title": "FX - x42 Autotune",
+                "bundle": "/root/.pedalboards/FX_x42_Autotune.pedalboard"
+            }
+        ]
+    },
+    {
+        "title": "Chains: Synth",
+        "pedalboards": [
+            {
+                "title": "SYN - Shiro Delay/Verb/Trem",
+                "bundle": "/root/.pedalboards/SYN_Shiro_Delay_-70083.pedalboard"
+            },
+            {
+                "title": "SYN - Bollie/Mverb/Phaser",
+                "bundle": "/root/.pedalboards/SYN_Bollie_Mverb.pedalboard"
+            },
+            {
+                "title": "SYN - Chor/Plate/Flang/Phas",
+                "bundle": "/root/.pedalboards/SYN_Chor_Plate_F.pedalboard"
+            },
+            {
+                "title": "SYN - Drone Your Life",
+                "bundle": "/root/.pedalboards/SYN_Drone_Your_L.pedalboard"
+            }
+        ]
+    },
+    {
+        "title": "Chains: Drum Machine",
+        "pedalboards": [
+            {
+                "title": "DRM - Filter/Delay/Verb/Comp",
+                "bundle": "/root/.pedalboards/DRM_Filter_Delay.pedalboard"
+            },
+            {
+                "title": "DRM - Filt/Glitch/Floaty/Comp",
+                "bundle": "/root/.pedalboards/DRM_Filt_Glitch_.pedalboard"
+            },
+            {
+                "title": "DRM - Onyx/Cab/Modulay",
+                "bundle": "/root/.pedalboards/DRM_Onyx_Cab_Mod.pedalboard"
+            }
+        ]
+    },
+    {
+        "title": "Chains: Guitar",
+        "pedalboards": [
+            {
+                "title": "GTR - Huge Playable Synth",
+                "bundle": "/root/.pedalboards/GTR_Huge_Playabl.pedalboard"
+            },
+            {
+                "title": "GTR - Clean Rig",
+                "bundle": "/root/.pedalboards/GTR_Clean_Rig.pedalboard"
+            },
+            {
+                "title": "GTR - Vintage Rig",
+                "bundle": "/root/.pedalboards/GTR_Vintage_Rig.pedalboard"
+            },
+            {
+                "title": "GTR - Modern Rig 800",
+                "bundle": "/root/.pedalboards/GTR_Modern_Rig_8.pedalboard"
+            },
+            {
+                "title": "GTR - Modern Rig Onyx",
+                "bundle": "/root/.pedalboards/GTR_Modern_Rig_O.pedalboard"
+            },
+            {
+                "title": "GTR - Synesthesiac Rig",
+                "bundle": "/root/.pedalboards/GTR_Synesthesiac-95297.pedalboard"
+            },
+            {
+                "title": "GTR - Vocoder Amp Rig",
+                "bundle": "/root/.pedalboards/GTR_Vocoder_Amp_.pedalboard"
+            }
+        ]
+    },
+    {
+        "title": "Chains: Bass",
+        "pedalboards": [
+            {
+                "title": "BASS - Vintage Rig",
+                "bundle": "/root/.pedalboards/BASS_Vintage_Rig.pedalboard"
+            },
+            {
+                "title": "BASS - SVTube Rig",
+                "bundle": "/root/.pedalboards/BASS_SVTube_Rig.pedalboard"
+            }
+        ]
+    },
+    {
+        "title": "Chains: Vocal",
+        "pedalboards": [
+            {
+                "title": "VOC - Lo-Fi Shifted AutoTune",
+                "bundle": "/root/.pedalboards/VOC_Lo_Fi_Shifte.pedalboard"
+            },
+            {
+                "title": "VOC - Pristine Harmonizing",
+                "bundle": "/root/.pedalboards/VOC_Pristine_Har.pedalboard"
+            },
+            {
+                "title": "VOC - Ethereal Harmonizing",
+                "bundle": "/root/.pedalboards/VOC_Ethereal_Har.pedalboard"
             }
         ]
     }
 ]
-

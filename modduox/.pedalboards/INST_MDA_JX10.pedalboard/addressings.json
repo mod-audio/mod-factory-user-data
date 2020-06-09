@@ -1,0 +1,382 @@
+{
+    "/hmi/potentiometer5": [
+        {
+            "maximum": 1.0,
+            "port": "vcf_sus",
+            "dividers": null,
+            "label": "VCF Sus",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 1.0,
+            "port": "vcf_freq",
+            "dividers": null,
+            "label": "VCF Frq",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 1.0,
+            "port": "glide",
+            "dividers": null,
+            "label": "Glide",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        }
+    ],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/footswitch1": [],
+    "/bpm": [],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/knob1": [
+        {
+            "maximum": 53,
+            "port": ":presets",
+            "dividers": null,
+            "label": "Preset",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": -1.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 100.0,
+            "port": "decay",
+            "dividers": null,
+            "label": "Mverb Decay",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/MVerb"
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "maximum": 1.0,
+            "port": "env_rel",
+            "dividers": null,
+            "label": "amp rel",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 1.0,
+            "port": "vcf_lfo",
+            "dividers": null,
+            "label": "VCF LFO",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 100.0,
+            "port": "mix",
+            "dividers": null,
+            "label": "Mix",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/MVerb"
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "maximum": 1.0,
+            "port": "vcf_vel",
+            "dividers": null,
+            "label": "VCF Vel",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 65,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 6,
+            "port": ":presets",
+            "dividers": null,
+            "label": "MVerb Preset",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": -1.0,
+            "steps": 33,
+            "instance": "/graph/MVerb"
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/group3": [],
+    "/hmi/group2": [],
+    "/cv/graph/cv_capture_2": [],
+    "/hmi/potentiometer4": [
+        {
+            "maximum": 1.0,
+            "port": "env_dec",
+            "dividers": null,
+            "label": "amp dec",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 1.0,
+            "port": "vibrato",
+            "dividers": null,
+            "label": "Vibrato",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 1.0,
+            "port": "osc_fine",
+            "dividers": null,
+            "label": "OSC Fine",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "maximum": 1.0,
+            "port": "vcf_dec",
+            "dividers": null,
+            "label": "VCF Dec",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 1.0,
+            "port": "lfo_rate",
+            "dividers": null,
+            "label": "LFO Rate",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 1.0,
+            "port": "osc_tune",
+            "dividers": null,
+            "label": "OSC Tune",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "maximum": 1.0,
+            "port": "env_att",
+            "dividers": null,
+            "label": "amp atk",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 1.0,
+            "port": "tuning",
+            "dividers": null,
+            "label": "Tuning",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 1.0,
+            "port": "noise",
+            "dividers": null,
+            "label": "Noise",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "maximum": 1.0,
+            "port": ":bypass",
+            "dividers": null,
+            "label": "MVerb",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/MVerb"
+        }
+    ],
+    "/hmi/potentiometer1": [
+        {
+            "maximum": 1.0,
+            "port": "vcf_att",
+            "dividers": null,
+            "label": "VCF Atk",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 1.0,
+            "port": "octave",
+            "dividers": null,
+            "label": "Octave",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 1.0,
+            "port": "osc_mix",
+            "dividers": null,
+            "label": "OSC Mix",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        }
+    ],
+    "/hmi/potentiometer6": [
+        {
+            "maximum": 1.0,
+            "port": "env_sus",
+            "dividers": null,
+            "label": "amp sus",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 1.0,
+            "port": "vcf_reso",
+            "dividers": null,
+            "label": "VCF Reso",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 1.0,
+            "port": "gld_rate",
+            "dividers": null,
+            "label": "Gld Rate",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "maximum": 1.0,
+            "port": "vcf_rel",
+            "dividers": null,
+            "label": "VCF Rel",
+            "group": null,
+            "tempo": false,
+            "page": 1,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 1.0,
+            "port": "vcf_env",
+            "dividers": null,
+            "label": "VCF Env",
+            "group": null,
+            "tempo": false,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        },
+        {
+            "maximum": 1.0,
+            "port": "gld_bend",
+            "dividers": null,
+            "label": "Gld Bnd",
+            "group": null,
+            "tempo": false,
+            "page": 2,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/JX10"
+        }
+    ],
+    "/hmi/footswitch3": [],
+    "/hmi/footswitch2": []
+}

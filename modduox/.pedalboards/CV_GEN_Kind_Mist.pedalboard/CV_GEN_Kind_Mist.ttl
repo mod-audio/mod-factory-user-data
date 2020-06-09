@@ -1,0 +1,1257 @@
+@prefix atom:  <http://lv2plug.in/ns/ext/atom#> .
+@prefix doap:  <http://usefulinc.com/ns/doap#> .
+@prefix ingen: <http://drobilla.net/ns/ingen#> .
+@prefix lv2:   <http://lv2plug.in/ns/lv2core#> .
+@prefix midi:  <http://lv2plug.in/ns/ext/midi#> .
+@prefix mod:   <http://moddevices.com/ns/mod#> .
+@prefix pedal: <http://moddevices.com/ns/modpedal#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+_:b1
+    ingen:tail <vco3_1/out> ;
+    ingen:head <vcaexp_1/in1Data> .
+
+_:b2
+    ingen:tail <vco3/out> ;
+    ingen:head <vcf/in> .
+
+_:b3
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
+
+_:b4
+    ingen:tail <cv_capture_1> ;
+    ingen:head <vcf/freqPort> .
+
+_:b5
+    ingen:tail <cv_capture_2> ;
+    ingen:head <vcf_1/freqPort> .
+
+_:b6
+    ingen:tail <vcaexp_1/out> ;
+    ingen:head <vcaexp/in1Data> .
+
+_:b7
+    ingen:tail <lfo2_freq_3/output> ;
+    ingen:head <vco3_1/expFM> .
+
+_:b8
+    ingen:tail <lfo2_freq_2/output> ;
+    ingen:head <cv_playback_1> .
+
+_:b9
+    ingen:tail <lfo2_freq_1/output> ;
+    ingen:head <vco3/expFM> .
+
+_:b10
+    ingen:tail <capture_1> ;
+    ingen:head <vcf/in> .
+
+_:b11
+    ingen:tail <vcaexp/out> ;
+    ingen:head <DubDelay/left_in> .
+
+_:b12
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
+
+_:b13
+    ingen:tail <lfo2_freq_2/output> ;
+    ingen:head <vcaexp_1/gain1Data> .
+
+_:b14
+    ingen:tail <lfo2_freq/output> ;
+    ingen:head <cv_playback_2> .
+
+_:b15
+    ingen:tail <cv_exp_pedal> ;
+    ingen:head <vcaexp_1/gain2Data> .
+
+_:b16
+    ingen:tail <capture_2> ;
+    ingen:head <vcf_1/in> .
+
+_:b17
+    ingen:tail <lfo2_freq_1/output> ;
+    ingen:head <vco3_1/linFM> .
+
+_:b18
+    ingen:tail <vcf_1/out> ;
+    ingen:head <vcaexp/in2Data> .
+
+_:b19
+    ingen:tail <lfo2_freq/output> ;
+    ingen:head <vcf/linFM> .
+
+_:b20
+    ingen:tail <vcaexp/out> ;
+    ingen:head <DubDelay/right_in> .
+
+_:b21
+    ingen:tail <vcf/out> ;
+    ingen:head <vcf_1/in> .
+
+_:b22
+    ingen:tail <DubDelay/right_out> ;
+    ingen:head <shiroverb/lv2_audio_in_1> .
+
+_:b23
+    ingen:tail <DubDelay/left_out> ;
+    ingen:head <shiroverb/lv2_audio_in_1> .
+
+_:b24
+    ingen:tail <shiroverb/lv2_audio_out_1> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b25
+    ingen:tail <shiroverb/lv2_audio_out_2> ;
+    ingen:head <Gain2x2/In2> .
+
+<vco3_1>
+    ingen:canvasX 2619.0 ;
+    ingen:canvasY 261.4 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <vco3_1/out> ,
+             <vco3_1/waveForm> ,
+             <vco3_1/octave> ,
+             <vco3_1/tune> ,
+             <vco3_1/semitone> ,
+             <vco3_1/pw0> ,
+             <vco3_1/pwGain> ,
+             <vco3_1/edge> ,
+             <vco3_1/phi0> ,
+             <vco3_1/expFMGain> ,
+             <vco3_1/linFMGain> ,
+             <vco3_1/freq> ,
+             <vco3_1/expFM> ,
+             <vco3_1/linFM> ,
+             <vco3_1/pwPort> ,
+             <vco3_1/sync> ,
+             <vco3_1/:bypass> ;
+    lv2:prototype <http://github.com/blablack/ams-lv2/vco3> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<vco3_1/freq>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vco3_1/expFM>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vco3_1/linFM>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vco3_1/pwPort>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vco3_1/sync>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vco3_1/pwGain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3_1/waveForm>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3_1/semitone>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3_1/linFMGain>
+    ingen:value 0.020000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3_1/pw0>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3_1/octave>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3_1/expFMGain>
+    ingen:value 0.724638 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3_1/tune>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3_1/phi0>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3_1/edge>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3_1/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2>
+    ingen:canvasX 4486.0 ;
+    ingen:canvasY 337.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 12 ;
+    lv2:port <Gain2x2/In1> ,
+             <Gain2x2/In2> ,
+             <Gain2x2/Out1> ,
+             <Gain2x2/Out2> ,
+             <Gain2x2/Gain> ,
+             <Gain2x2/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/Gain>
+    ingen:value -2.857143 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DubDelay>
+    ingen:canvasX 3973.0 ;
+    ingen:canvasY 331.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 6 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 9 ;
+    lv2:port <DubDelay/left_in> ,
+             <DubDelay/right_in> ,
+             <DubDelay/left_out> ,
+             <DubDelay/right_out> ,
+             <DubDelay/delay> ,
+             <DubDelay/feedback> ,
+             <DubDelay/fb_tone> ,
+             <DubDelay/lfo_depth> ,
+             <DubDelay/lfo_rate> ,
+             <DubDelay/fx_mix> ,
+             <DubDelay/output> ,
+             <DubDelay/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mda/DubDelay> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<DubDelay/left_in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<DubDelay/right_in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<DubDelay/left_in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<DubDelay/right_in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<DubDelay/feedback>
+    ingen:value 50.390999 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DubDelay/delay>
+    ingen:value 2255.837891 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DubDelay/lfo_depth>
+    ingen:value 59.151787 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DubDelay/fx_mix>
+    ingen:value 49.441963 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DubDelay/lfo_rate>
+    ingen:value 22.845089 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DubDelay/fb_tone>
+    ingen:value 52.008930 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DubDelay/output>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DubDelay/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<lfo2_freq>
+    ingen:canvasX 2726.0 ;
+    ingen:canvasY 837.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <lfo2_freq/waveForm> ,
+             <lfo2_freq/freq> ,
+             <lfo2_freq/phi0> ,
+             <lfo2_freq/reset> ,
+             <lfo2_freq/output> ,
+             <lfo2_freq/:bypass> ;
+    lv2:prototype <http://github.com/blablack/ams-lv2/lfo2_freq> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<lfo2_freq/reset>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<lfo2_freq/output>
+    a lv2:CVPort ,
+        lv2:OutputPort .
+
+<lfo2_freq/waveForm>
+    ingen:value 5.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<lfo2_freq/freq>
+    ingen:value 9.006302 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<lfo2_freq/phi0>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<lfo2_freq/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<lfo2_freq_1>
+    ingen:canvasX 2036.0 ;
+    ingen:canvasY 273.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <lfo2_freq_1/waveForm> ,
+             <lfo2_freq_1/freq> ,
+             <lfo2_freq_1/phi0> ,
+             <lfo2_freq_1/reset> ,
+             <lfo2_freq_1/output> ,
+             <lfo2_freq_1/:bypass> ;
+    lv2:prototype <http://github.com/blablack/ams-lv2/lfo2_freq> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<lfo2_freq_1/reset>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<lfo2_freq_1/output>
+    a lv2:CVPort ,
+        lv2:OutputPort .
+
+<lfo2_freq_1/waveForm>
+    ingen:value 5.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<lfo2_freq_1/freq>
+    ingen:value 73.028458 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<lfo2_freq_1/phi0>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<lfo2_freq_1/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<lfo2_freq_2>
+    ingen:canvasX 2442.0 ;
+    ingen:canvasY 832.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <lfo2_freq_2/waveForm> ,
+             <lfo2_freq_2/freq> ,
+             <lfo2_freq_2/phi0> ,
+             <lfo2_freq_2/reset> ,
+             <lfo2_freq_2/output> ,
+             <lfo2_freq_2/:bypass> ;
+    lv2:prototype <http://github.com/blablack/ams-lv2/lfo2_freq> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<lfo2_freq_2/reset>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<lfo2_freq_2/output>
+    a lv2:CVPort ,
+        lv2:OutputPort .
+
+<lfo2_freq_2/waveForm>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<lfo2_freq_2/freq>
+    ingen:value 66.563179 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<lfo2_freq_2/phi0>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<lfo2_freq_2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<lfo2_freq_3>
+    ingen:canvasX 2297.0 ;
+    ingen:canvasY 263.3 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <lfo2_freq_3/waveForm> ,
+             <lfo2_freq_3/freq> ,
+             <lfo2_freq_3/phi0> ,
+             <lfo2_freq_3/reset> ,
+             <lfo2_freq_3/output> ,
+             <lfo2_freq_3/:bypass> ;
+    lv2:prototype <http://github.com/blablack/ams-lv2/lfo2_freq> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<lfo2_freq_3/reset>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<lfo2_freq_3/output>
+    a lv2:CVPort ,
+        lv2:OutputPort .
+
+<lfo2_freq_3/waveForm>
+    ingen:value 5.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<lfo2_freq_3/freq>
+    ingen:value 10.432722 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<lfo2_freq_3/phi0>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<lfo2_freq_3/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcaexp>
+    ingen:canvasX 3541.3 ;
+    ingen:canvasY 279.4 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <vcaexp/in1Data> ,
+             <vcaexp/in2Data> ,
+             <vcaexp/out> ,
+             <vcaexp/gain1> ,
+             <vcaexp/gain2> ,
+             <vcaexp/in1> ,
+             <vcaexp/in2> ,
+             <vcaexp/outputLevel> ,
+             <vcaexp/gain1Data> ,
+             <vcaexp/gain2Data> ,
+             <vcaexp/:bypass> ;
+    lv2:prototype <http://github.com/blablack/ams-lv2/vcaexp> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<vcaexp/in1Data>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<vcaexp/in2Data>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<vcaexp/in1Data>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<vcaexp/in2Data>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<vcaexp/gain1Data>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vcaexp/gain2Data>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vcaexp/in2>
+    ingen:value 1.039337 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcaexp/in1>
+    ingen:value 1.374741 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcaexp/gain1>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcaexp/gain2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcaexp/outputLevel>
+    ingen:value 0.087474 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcaexp/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcaexp_1>
+    ingen:canvasX 3110.0 ;
+    ingen:canvasY 268.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <vcaexp_1/in1Data> ,
+             <vcaexp_1/in2Data> ,
+             <vcaexp_1/out> ,
+             <vcaexp_1/gain1> ,
+             <vcaexp_1/gain2> ,
+             <vcaexp_1/in1> ,
+             <vcaexp_1/in2> ,
+             <vcaexp_1/outputLevel> ,
+             <vcaexp_1/gain1Data> ,
+             <vcaexp_1/gain2Data> ,
+             <vcaexp_1/:bypass> ;
+    lv2:prototype <http://github.com/blablack/ams-lv2/vcaexp> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<vcaexp_1/in1Data>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<vcaexp_1/in2Data>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<vcaexp_1/in1Data>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<vcaexp_1/in2Data>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<vcaexp_1/gain1Data>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vcaexp_1/gain2Data>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vcaexp_1/in2>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcaexp_1/in1>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcaexp_1/gain1>
+    ingen:value 0.530021 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcaexp_1/gain2>
+    ingen:value 0.137681 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcaexp_1/outputLevel>
+    ingen:value 0.164079 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcaexp_1/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcf>
+    ingen:canvasX 3046.0 ;
+    ingen:canvasY 835.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <vcf/in> ,
+             <vcf/out> ,
+             <vcf/vcfType> ,
+             <vcf/inputGain> ,
+             <vcf/freq> ,
+             <vcf/expFMGain> ,
+             <vcf/linFMGain> ,
+             <vcf/resonance> ,
+             <vcf/resonanceGain> ,
+             <vcf/freqPort> ,
+             <vcf/expFM> ,
+             <vcf/linFM> ,
+             <vcf/resonancePort> ,
+             <vcf/:bypass> ;
+    lv2:prototype <http://github.com/blablack/ams-lv2/vcf> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<vcf/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<vcf/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<vcf/freqPort>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vcf/expFM>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vcf/linFM>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vcf/resonancePort>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vcf/expFMGain>
+    ingen:value 9.534161 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcf/linFMGain>
+    ingen:value 1.304348 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcf/resonance>
+    ingen:value 0.076615 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcf/freq>
+    ingen:value 3.840580 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcf/vcfType>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcf/resonanceGain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcf/inputGain>
+    ingen:value 2.815735 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcf/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3>
+    ingen:canvasX 2042.0 ;
+    ingen:canvasY 831.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <vco3/out> ,
+             <vco3/waveForm> ,
+             <vco3/octave> ,
+             <vco3/tune> ,
+             <vco3/semitone> ,
+             <vco3/pw0> ,
+             <vco3/pwGain> ,
+             <vco3/edge> ,
+             <vco3/phi0> ,
+             <vco3/expFMGain> ,
+             <vco3/linFMGain> ,
+             <vco3/freq> ,
+             <vco3/expFM> ,
+             <vco3/linFM> ,
+             <vco3/pwPort> ,
+             <vco3/sync> ,
+             <vco3/:bypass> ;
+    lv2:prototype <http://github.com/blablack/ams-lv2/vco3> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<vco3/freq>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vco3/expFM>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vco3/linFM>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vco3/pwPort>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vco3/sync>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vco3/pwGain>
+    ingen:value 0.540373 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/waveForm>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/semitone>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/linFMGain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/pw0>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/octave>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/expFMGain>
+    ingen:value 9.399586 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/tune>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/phi0>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/edge>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb>
+    ingen:canvasX 4208.0 ;
+    ingen:canvasY 915.4 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 11 ;
+    lv2:port <shiroverb/lv2_audio_in_1> ,
+             <shiroverb/lv2_audio_out_1> ,
+             <shiroverb/lv2_audio_out_2> ,
+             <shiroverb/shimmer> ,
+             <shiroverb/decay> ,
+             <shiroverb/damping> ,
+             <shiroverb/mix> ,
+             <shiroverb/ratio> ,
+             <shiroverb/roomsize> ,
+             <shiroverb/bandwidth> ,
+             <shiroverb/tone> ,
+             <shiroverb/:bypass> ;
+    lv2:prototype <https://github.com/ninodewit/SHIRO-Plugins/plugins/shiroverb> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<shiroverb/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<shiroverb/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<shiroverb/tone>
+    ingen:value 2198.582445 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/shimmer>
+    ingen:value 58.593750 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/decay>
+    ingen:value 25.197545 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/ratio>
+    ingen:value 0.950000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/mix>
+    ingen:value 38.281250 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/roomsize>
+    ingen:value 150.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/bandwidth>
+    ingen:value 75.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/damping>
+    ingen:value 50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcf_1>
+    ingen:canvasX 3494.0 ;
+    ingen:canvasY 840.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <vcf_1/in> ,
+             <vcf_1/out> ,
+             <vcf_1/vcfType> ,
+             <vcf_1/inputGain> ,
+             <vcf_1/freq> ,
+             <vcf_1/expFMGain> ,
+             <vcf_1/linFMGain> ,
+             <vcf_1/resonance> ,
+             <vcf_1/resonanceGain> ,
+             <vcf_1/freqPort> ,
+             <vcf_1/expFM> ,
+             <vcf_1/linFM> ,
+             <vcf_1/resonancePort> ,
+             <vcf_1/:bypass> ;
+    lv2:prototype <http://github.com/blablack/ams-lv2/vcf> ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<vcf_1/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<vcf_1/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<vcf_1/freqPort>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vcf_1/expFM>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vcf_1/linFM>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vcf_1/resonancePort>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vcf_1/expFMGain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcf_1/linFMGain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcf_1/resonance>
+    ingen:value 0.010000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcf_1/freq>
+    ingen:value 5.590062 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcf_1/vcfType>
+    ingen:value 2.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcf_1/resonanceGain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcf_1/inputGain>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vcf_1/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpb>
+    ingen:value 4.000000 ;
+    lv2:index 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpm>
+    ingen:value 120.000000 ;
+    lv2:index 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:rolling>
+    ingen:value 0 ;
+    lv2:index 2 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<control_in>
+    atom:bufferType atom:Sequence ;
+    lv2:index 3 ;
+    lv2:name "Control In" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "control_in" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<control_out>
+    atom:bufferType atom:Sequence ;
+    lv2:index 4 ;
+    lv2:name "Control Out" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "control_out" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:OutputPort .
+
+<capture_1>
+    lv2:index 5 ;
+    lv2:name "Capture 1" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "capture_1" ;
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<capture_2>
+    lv2:index 6 ;
+    lv2:name "Capture 2" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "capture_2" ;
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<cv_capture_1>
+    lv2:index 7 ;
+    lv2:name "Cv Capture 1" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "cv_capture_1" ;
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<cv_capture_2>
+    lv2:index 8 ;
+    lv2:name "Cv Capture 2" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "cv_capture_2" ;
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<cv_exp_pedal>
+    lv2:index 9 ;
+    lv2:name "Cv Exp Pedal" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "cv_exp_pedal" ;
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<playback_1>
+    lv2:index 10 ;
+    lv2:name "Playback 1" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "playback_1" ;
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<playback_2>
+    lv2:index 11 ;
+    lv2:name "Playback 2" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "playback_2" ;
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<cv_playback_1>
+    lv2:index 12 ;
+    lv2:name "Cv Playback 1" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "cv_playback_1" ;
+    a lv2:CVPort ,
+        lv2:OutputPort .
+
+<cv_playback_2>
+    lv2:index 13 ;
+    lv2:name "Cv Playback 2" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "cv_playback_2" ;
+    a lv2:CVPort ,
+        lv2:OutputPort .
+
+<serial_midi_in>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    lv2:index 14 ;
+    lv2:name "DIN MIDI In" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "serial_midi_in" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<serial_midi_out>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    lv2:index 15 ;
+    lv2:name "DIN MIDI In" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "serial_midi_out" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:OutputPort .
+
+<midi_separated_mode>
+    ingen:value 0 ;
+    lv2:index 16 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<>
+    doap:name "CV GEN - Kind Mistakes" ;
+    pedal:unitName "MOD Duo X" ;
+    pedal:unitModel "Unknown" ;
+    pedal:width 3858 ;
+    pedal:height 1758 ;
+    pedal:addressings <addressings.json> ;
+    pedal:screenshot <screenshot.png> ;
+    pedal:thumbnail <thumbnail.png> ;
+    pedal:version 16 ;
+    ingen:polyphony 1 ;
+    ingen:arc _:b1 ,
+              _:b2 ,
+              _:b3 ,
+              _:b4 ,
+              _:b5 ,
+              _:b6 ,
+              _:b7 ,
+              _:b8 ,
+              _:b9 ,
+              _:b10 ,
+              _:b11 ,
+              _:b12 ,
+              _:b13 ,
+              _:b14 ,
+              _:b15 ,
+              _:b16 ,
+              _:b17 ,
+              _:b18 ,
+              _:b19 ,
+              _:b20 ,
+              _:b21 ,
+              _:b22 ,
+              _:b23 ,
+              _:b24 ,
+              _:b25 ;
+    ingen:block <vco3_1> ,
+                <Gain2x2> ,
+                <DubDelay> ,
+                <lfo2_freq> ,
+                <lfo2_freq_1> ,
+                <lfo2_freq_2> ,
+                <lfo2_freq_3> ,
+                <vcaexp> ,
+                <vcaexp_1> ,
+                <vcf> ,
+                <vco3> ,
+                <shiroverb> ,
+                <vcf_1> ;
+    lv2:port <:bpb> ,
+             <:bpm> ,
+             <:rolling> ,
+             <midi_separated_mode> ,
+             <control_in> ,
+             <control_out> ,
+             <serial_midi_in> ,
+             <serial_midi_out> ,
+             <capture_1> ,
+             <capture_2> ,
+             <cv_capture_1> ,
+             <cv_capture_2> ,
+             <cv_exp_pedal> ,
+             <playback_1> ,
+             <playback_2> ,
+             <cv_playback_1> ,
+             <cv_playback_2> ;
+    lv2:extensionData <http://lv2plug.in/ns/ext/state#interface> ;
+    a lv2:Plugin ,
+        ingen:Graph ,
+        pedal:Pedalboard .

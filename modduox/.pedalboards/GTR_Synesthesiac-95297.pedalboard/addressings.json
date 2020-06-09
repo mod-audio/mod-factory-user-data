@@ -1,0 +1,420 @@
+{
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/_hotbox_",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "TREBLE",
+            "steps": 33,
+            "port": "TREBLE",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/Plate",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Damping",
+            "steps": 33,
+            "port": "damping",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        },
+        {
+            "instance": "/graph/env",
+            "dividers": null,
+            "maximum": 10.0,
+            "tempo": false,
+            "label": "AMP Sus",
+            "steps": 33,
+            "port": "sustain",
+            "minimum": 0.0,
+            "page": 2,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/_hotbox_",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "VOLUME",
+            "steps": 33,
+            "port": "VOLUME",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/Plate",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Mix",
+            "steps": 33,
+            "port": "blend",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/_hotbox_",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "GAIN",
+            "steps": 33,
+            "port": "GAIN",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/Plate",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Decay",
+            "steps": 33,
+            "port": "tail",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        },
+        {
+            "instance": "/graph/env",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "AMP DEC",
+            "steps": 33,
+            "port": "decay",
+            "minimum": 0.0,
+            "page": 2,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/vcf",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "VCF Res",
+            "steps": 33,
+            "port": "resonance",
+            "minimum": 0.0099999997764825821,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/env",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "AMP HLD",
+            "steps": 33,
+            "port": "hold",
+            "minimum": 0.0,
+            "page": 2,
+            "group": null
+        },
+        {
+            "instance": "/graph/vco3",
+            "dividers": null,
+            "maximum": 10.0,
+            "tempo": false,
+            "label": "LIN FM",
+            "steps": 33,
+            "port": "linFMGain",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/vcf",
+            "dividers": null,
+            "maximum": 10.0,
+            "tempo": false,
+            "label": "VCF FRQ",
+            "steps": 33,
+            "port": "freq",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/env",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "AMP ATK",
+            "steps": 33,
+            "port": "attack",
+            "minimum": 0.0,
+            "page": 2,
+            "group": null
+        },
+        {
+            "instance": "/graph/vco3",
+            "dividers": null,
+            "maximum": 10.0,
+            "tempo": false,
+            "label": "Exp FM",
+            "steps": 33,
+            "port": "expFMGain",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/mono_1",
+            "dividers": null,
+            "maximum": 36.0,
+            "tempo": false,
+            "label": "C Gain",
+            "steps": 33,
+            "port": "gain",
+            "minimum": -6.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/xfade",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "GTR/VCO",
+            "steps": 33,
+            "port": "xfade",
+            "minimum": -1.0,
+            "page": 1,
+            "group": null
+        },
+        {
+            "instance": "/graph/mod_cv_slew",
+            "dividers": 1,
+            "maximum": 1000.0,
+            "tempo": false,
+            "label": "Slew Dn",
+            "steps": 33,
+            "port": "FallTime",
+            "minimum": 0.10000000149011612,
+            "page": 2,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/mono_1",
+            "dividers": null,
+            "maximum": 0.0,
+            "tempo": false,
+            "label": "C tresh",
+            "steps": 33,
+            "port": "threshold",
+            "minimum": -36.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/mod_cv_slew",
+            "dividers": 1,
+            "maximum": 1000.0,
+            "tempo": false,
+            "label": "Slew Up",
+            "steps": 33,
+            "port": "RiseTime",
+            "minimum": 0.10000000149011612,
+            "page": 2,
+            "group": null
+        },
+        {
+            "instance": "/graph/vco3",
+            "dividers": null,
+            "maximum": 12.0,
+            "tempo": false,
+            "label": "SEMITONE",
+            "steps": 12,
+            "port": "semitone",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/mono_1",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Input Comp",
+            "steps": 33,
+            "port": ":bypass",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/xfade",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "vco",
+            "steps": 33,
+            "port": ":bypass",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/vcf",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "VCF",
+            "steps": 33,
+            "port": ":bypass",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        }
+    ],
+    "/hmi/footswitch3": [
+        {
+            "instance": "/graph/Plate",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Plate",
+            "steps": 33,
+            "port": ":bypass",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/footswitch4": [],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/_hotbox_",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "BASS",
+            "steps": 33,
+            "port": "BASS",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/Plate",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Lowpass",
+            "steps": 33,
+            "port": "bandwidth",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        },
+        {
+            "instance": "/graph/env",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "AMP REL",
+            "steps": 33,
+            "port": "release",
+            "minimum": 0.0,
+            "page": 2,
+            "group": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/vcf",
+            "dividers": null,
+            "maximum": 7.0,
+            "tempo": false,
+            "label": "VCF Type",
+            "steps": 33,
+            "port": "vcfType",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/vco3",
+            "dividers": null,
+            "maximum": 6.0,
+            "tempo": false,
+            "label": "VCO",
+            "steps": 33,
+            "port": "waveForm",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "instance": "/graph/faIR_cabsim",
+            "dividers": null,
+            "maximum": 12.0,
+            "tempo": false,
+            "label": "Cab Model",
+            "steps": 12,
+            "port": "Model",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/env",
+            "dividers": null,
+            "maximum": 10.0,
+            "tempo": false,
+            "label": "AMP Time Scale",
+            "steps": 65,
+            "port": "timeScale",
+            "minimum": 1.0,
+            "page": 2,
+            "group": null
+        },
+        {
+            "instance": "/graph/vco3",
+            "dividers": null,
+            "maximum": 6.0,
+            "tempo": false,
+            "label": "VCO Octave",
+            "steps": 6,
+            "port": "octave",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/cv/graph/cv_exp_pedal": [],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/group2": [],
+    "/bpm": [],
+    "/cv/graph/cv_capture_2": [],
+    "/hmi/group3": []
+}
