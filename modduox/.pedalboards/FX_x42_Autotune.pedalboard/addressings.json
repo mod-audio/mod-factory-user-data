@@ -1,0 +1,140 @@
+{
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/fat1",
+            "tempo": false,
+            "maximum": 16.0,
+            "label": "MIDI Chan",
+            "steps": 16,
+            "page": 0,
+            "port": "channelf",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "instance": "/graph/fat1",
+            "tempo": false,
+            "maximum": 480.0,
+            "label": "Tuning",
+            "steps": 400,
+            "page": 0,
+            "port": "tuning",
+            "dividers": null,
+            "group": null,
+            "minimum": 400.0
+        }
+    ],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [],
+    "/hmi/potentiometer7": [],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/fat1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Bias",
+            "steps": 270,
+            "page": 0,
+            "port": "bias",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer5": [],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/fat1",
+            "tempo": false,
+            "maximum": 0.5,
+            "label": "Flt spd",
+            "steps": 200,
+            "page": 0,
+            "port": "filter",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.019999999552965164
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/fat1",
+            "tempo": false,
+            "maximum": 2.0,
+            "label": "Offset",
+            "steps": 400,
+            "page": 0,
+            "port": "offset",
+            "dividers": null,
+            "group": null,
+            "minimum": -2.0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/fat1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Correction",
+            "steps": 270,
+            "page": 0,
+            "port": "corr",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/fat1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Autotune",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/fat1",
+            "tempo": false,
+            "maximum": 2.0,
+            "label": "Mode",
+            "steps": 2,
+            "page": 0,
+            "port": "mode",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/stereo",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "Gain",
+            "steps": 33,
+            "page": 0,
+            "port": "gain",
+            "dividers": null,
+            "group": null,
+            "minimum": -20.0
+        }
+    ],
+    "/hmi/group2": []
+}

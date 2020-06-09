@@ -1,0 +1,192 @@
+{
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/reve",
+            "tempo": false,
+            "maximum": 14,
+            "label": "Preset",
+            "steps": 33,
+            "page": 0,
+            "port": ":presets",
+            "dividers": null,
+            "group": null,
+            "minimum": -1.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "instance": "/graph/stereo",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "Gain",
+            "steps": 33,
+            "page": 0,
+            "port": "gain",
+            "dividers": null,
+            "group": null,
+            "minimum": -20.0
+        }
+    ],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/reve",
+            "tempo": false,
+            "maximum": 26000.0,
+            "label": "Lowpass",
+            "steps": 25980,
+            "page": 0,
+            "port": "LPF",
+            "dividers": null,
+            "group": null,
+            "minimum": 20.0
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/reve",
+            "tempo": false,
+            "maximum": 127.0,
+            "label": "ER / LR",
+            "steps": 127,
+            "page": 0,
+            "port": "IDELFB",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/reve",
+            "tempo": false,
+            "maximum": 127.0,
+            "label": "Damping",
+            "steps": 63,
+            "page": 0,
+            "port": "DAMP",
+            "dividers": null,
+            "group": null,
+            "minimum": 64.0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/reve",
+            "tempo": false,
+            "maximum": 20000.0,
+            "label": "Hipass",
+            "steps": 19980,
+            "page": 0,
+            "port": "HPF",
+            "dividers": null,
+            "group": null,
+            "minimum": 20.0
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/reve",
+            "tempo": false,
+            "maximum": 127.0,
+            "label": "Mix",
+            "steps": 127,
+            "page": 0,
+            "port": "WETDRY",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/reve",
+            "tempo": false,
+            "maximum": 127.0,
+            "label": "Pre-dly",
+            "steps": 127,
+            "page": 0,
+            "port": "IDEL",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/reve",
+            "tempo": false,
+            "maximum": 127.0,
+            "label": "Decay",
+            "steps": 127,
+            "page": 0,
+            "port": "TIME",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/reve",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Reverb",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [
+        {
+            "instance": "/graph/reve",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Type",
+            "steps": 1,
+            "page": 0,
+            "port": "TYPE",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Stereo Input",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/reve",
+            "tempo": false,
+            "maximum": 127.0,
+            "label": "Room sz",
+            "steps": 126,
+            "page": 0,
+            "port": "RS",
+            "dividers": null,
+            "group": null,
+            "minimum": 1.0
+        }
+    ],
+    "/hmi/group2": []
+}

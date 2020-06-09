@@ -1,0 +1,125 @@
+{
+    "/hmi/knob1": [],
+    "/hmi/knob2": [],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [],
+    "/hmi/potentiometer7": [],
+    "/hmi/potentiometer4": [],
+    "/hmi/potentiometer5": [],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/sooperlooper_2x2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Dry Lvl",
+            "steps": 33,
+            "page": 0,
+            "port": "dryLevel",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer3": [],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/sooperlooper_2x2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Play/Pause",
+            "steps": 1,
+            "page": 0,
+            "port": "play_pause",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/sooperlooper_2x2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Reset",
+            "steps": 1,
+            "page": 1,
+            "port": "reset",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [
+        {
+            "instance": "/graph/sooperlooper_2x2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Undo",
+            "steps": 1,
+            "page": 0,
+            "port": "undo",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/sooperlooper_2x2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Record",
+            "steps": 1,
+            "page": 0,
+            "port": "record",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Stereo Input",
+            "steps": 33,
+            "page": 1,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "instance": "/graph/sooperlooper_2x2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Redo",
+            "steps": 1,
+            "page": 0,
+            "port": "redo",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/stereo",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "Gain",
+            "steps": 33,
+            "page": 0,
+            "port": "gain",
+            "dividers": null,
+            "group": null,
+            "minimum": -20.0
+        }
+    ],
+    "/hmi/group2": []
+}

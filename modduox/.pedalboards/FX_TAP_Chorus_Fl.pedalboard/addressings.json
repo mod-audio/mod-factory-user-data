@@ -1,0 +1,140 @@
+{
+    "/hmi/potentiometer1": [
+        {
+            "port": "Frequency",
+            "maximum": 5.0,
+            "label": "Frequency",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": 0.33300000000000002,
+            "instance": "/graph/chorusflanger",
+            "minimum": 0.0,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch4": [],
+    "/hmi/potentiometer2": [
+        {
+            "port": "LRPhaseShift",
+            "maximum": 180.0,
+            "label": "L/R Phase Shift",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/chorusflanger",
+            "minimum": 0.0,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "maximum": 1.0,
+            "label": "Stereo Inp",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/xfade_2",
+            "minimum": 0.0,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch3": [],
+    "/hmi/potentiometer7": [
+        {
+            "port": "WetLevel",
+            "maximum": 20.0,
+            "label": "Wet Level",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/chorusflanger",
+            "minimum": -10.0,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "maximum": 1.0,
+            "label": "Chorus/Flanger",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/xfade",
+            "minimum": 0.0,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer8": [],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/potentiometer6": [],
+    "/hmi/group2": [],
+    "/hmi/potentiometer3": [
+        {
+            "port": "Depth",
+            "maximum": 100.0,
+            "label": "Depth",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/chorusflanger",
+            "minimum": 0.0,
+            "page": 0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/knob1": [],
+    "/cv/graph/cv_capture_2": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/knob2": [
+        {
+            "port": "xfade",
+            "maximum": 1.0,
+            "label": "Mix",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/xfade",
+            "minimum": -1.0,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "port": "Contour",
+            "maximum": 20000.0,
+            "label": "Contour",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/chorusflanger",
+            "minimum": 20.0,
+            "page": 0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/potentiometer4": [
+        {
+            "port": "Delay",
+            "maximum": 100.0,
+            "label": "Delay",
+            "group": null,
+            "tempo": false,
+            "steps": 33,
+            "dividers": null,
+            "instance": "/graph/chorusflanger",
+            "minimum": 0.0,
+            "page": 0
+        }
+    ]
+}

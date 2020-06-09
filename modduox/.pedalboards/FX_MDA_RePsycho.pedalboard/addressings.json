@@ -1,0 +1,127 @@
+{
+    "/hmi/knob1": [],
+    "/hmi/knob2": [],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [],
+    "/hmi/potentiometer7": [],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/RePsycho",
+            "tempo": false,
+            "maximum": 50.0,
+            "label": "Decay",
+            "steps": 33,
+            "page": 0,
+            "port": "decay",
+            "dividers": null,
+            "group": null,
+            "minimum": -50.0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/RePsycho",
+            "tempo": false,
+            "maximum": 0.0,
+            "label": "Thresh",
+            "steps": 33,
+            "page": 0,
+            "port": "thresh",
+            "dividers": null,
+            "group": null,
+            "minimum": -30.0
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/RePsycho",
+            "tempo": false,
+            "maximum": 0.0,
+            "label": "Fine",
+            "steps": 33,
+            "page": 0,
+            "port": "fine",
+            "dividers": null,
+            "group": null,
+            "minimum": -99.0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/RePsycho",
+            "tempo": false,
+            "maximum": 260.0,
+            "label": "Hold",
+            "steps": 33,
+            "page": 0,
+            "port": "hold",
+            "dividers": null,
+            "group": null,
+            "minimum": 10.0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/RePsycho",
+            "tempo": false,
+            "maximum": 0.0,
+            "label": "Tune",
+            "steps": 33,
+            "page": 0,
+            "port": "tune",
+            "dividers": null,
+            "group": null,
+            "minimum": -24.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "RePsycho",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/xfade_1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Stereo Input",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Mix",
+            "steps": 33,
+            "page": 0,
+            "port": "xfade",
+            "dividers": null,
+            "group": null,
+            "minimum": -1.0
+        }
+    ],
+    "/hmi/group2": []
+}

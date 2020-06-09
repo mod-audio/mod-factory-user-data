@@ -1,0 +1,505 @@
+{
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/Vocoder",
+            "tempo": false,
+            "maximum": 6,
+            "label": "Preset",
+            "steps": 33,
+            "page": 0,
+            "port": ":presets",
+            "dividers": null,
+            "group": null,
+            "minimum": -1.0
+        },
+        {
+            "instance": "/graph/vco3",
+            "tempo": false,
+            "maximum": 6.0,
+            "label": "VCO 1",
+            "steps": 33,
+            "page": 1,
+            "port": "waveForm",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "AMP / VOCODER MIX",
+            "steps": 65,
+            "page": 0,
+            "port": "xfade",
+            "dividers": null,
+            "group": null,
+            "minimum": -1.0
+        },
+        {
+            "instance": "/graph/lfo2_freq",
+            "tempo": false,
+            "maximum": 5.0,
+            "label": "LFO",
+            "steps": 33,
+            "page": 2,
+            "port": "waveForm",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/vco3_2",
+            "tempo": false,
+            "maximum": 6.0,
+            "label": "VCO 2",
+            "steps": 33,
+            "page": 1,
+            "port": "waveForm",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/_supersonic_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "AMP VOL",
+            "steps": 33,
+            "page": 0,
+            "port": "VOLUME",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/vco3_2",
+            "tempo": false,
+            "maximum": 6.0,
+            "label": "Octave",
+            "steps": 6,
+            "page": 1,
+            "port": "octave",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/lfo2_freq",
+            "tempo": false,
+            "maximum": 6.2800002098083496,
+            "label": "LFO PHS",
+            "steps": 33,
+            "page": 2,
+            "port": "phi0",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/_supersonic_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "AMP TRBL",
+            "steps": 33,
+            "page": 0,
+            "port": "TREBLE",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/vco3_2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Tune",
+            "steps": 33,
+            "page": 1,
+            "port": "tune",
+            "dividers": null,
+            "group": null,
+            "minimum": -1.0
+        },
+        {
+            "instance": "/graph/mod_cv_parameter_modulation",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "M OFFST",
+            "steps": 33,
+            "page": 2,
+            "port": "ParameterValue",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/Vocoder",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "Output",
+            "steps": 33,
+            "page": 0,
+            "port": "output",
+            "dividers": null,
+            "group": null,
+            "minimum": -20.0
+        },
+        {
+            "instance": "/graph/mono",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "Gain",
+            "steps": 33,
+            "page": 1,
+            "port": "gain",
+            "dividers": null,
+            "group": null,
+            "minimum": -20.0
+        },
+        {
+            "instance": "/graph/mod_cv_slew",
+            "tempo": false,
+            "maximum": 1000.0,
+            "label": "Fall Time",
+            "steps": 33,
+            "page": 2,
+            "port": "FallTime",
+            "dividers": 1,
+            "group": null,
+            "minimum": 0.10000000149011612
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/_supersonic_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "AMP GAIN",
+            "steps": 33,
+            "page": 0,
+            "port": "GAIN",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/vco3_2",
+            "tempo": false,
+            "maximum": 12.0,
+            "label": "Semitone",
+            "steps": 12,
+            "page": 1,
+            "port": "semitone",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/lfo2_freq",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "LFO FRQ",
+            "steps": 33,
+            "page": 2,
+            "port": "freq",
+            "dividers": 0.33300000000000002,
+            "group": null,
+            "minimum": 9.9999997473787516e-05
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/Vocoder",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "Fltr Q",
+            "steps": 33,
+            "page": 0,
+            "port": "filter_q",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/vco3",
+            "tempo": false,
+            "maximum": 6.0,
+            "label": "Octave",
+            "steps": 6,
+            "page": 1,
+            "port": "octave",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/mod_audio_to_cv",
+            "tempo": false,
+            "maximum": 10.0,
+            "label": "Level",
+            "steps": 33,
+            "page": 2,
+            "port": "Level",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/Vocoder",
+            "tempo": false,
+            "maximum": 1600.0,
+            "label": "Mid Frq",
+            "steps": 33,
+            "page": 0,
+            "port": "mid_freq",
+            "dividers": null,
+            "group": null,
+            "minimum": 200.0
+        },
+        {
+            "instance": "/graph/vco3",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Tune",
+            "steps": 33,
+            "page": 1,
+            "port": "tune",
+            "dividers": null,
+            "group": null,
+            "minimum": -1.0
+        },
+        {
+            "instance": "/graph/mod_cv_slew",
+            "tempo": false,
+            "maximum": 1000.0,
+            "label": "Rise Time",
+            "steps": 33,
+            "page": 2,
+            "port": "RiseTime",
+            "dividers": 1,
+            "group": null,
+            "minimum": 0.10000000149011612
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/Vocoder",
+            "tempo": false,
+            "maximum": 10000.0,
+            "label": "Envelope",
+            "steps": 33,
+            "page": 0,
+            "port": "envelope",
+            "dividers": null,
+            "group": null,
+            "minimum": 14.0
+        },
+        {
+            "instance": "/graph/vco3",
+            "tempo": false,
+            "maximum": 12.0,
+            "label": "Semitone",
+            "steps": 12,
+            "page": 1,
+            "port": "semitone",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/mod_audio_to_cv",
+            "tempo": false,
+            "maximum": 10.0,
+            "label": "Offset",
+            "steps": 33,
+            "page": 2,
+            "port": "Offset",
+            "dividers": null,
+            "group": null,
+            "minimum": -10.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/Vocoder",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Qlty",
+            "steps": 33,
+            "page": 0,
+            "port": "quality",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/mod_audio_to_cv",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Audio MOD",
+            "steps": 33,
+            "page": 2,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/vco3",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "VCO 1",
+            "steps": 33,
+            "page": 1,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [
+        {
+            "instance": "/graph/faIR_cabsim",
+            "tempo": false,
+            "maximum": 12.0,
+            "label": "Cab",
+            "steps": 12,
+            "page": 0,
+            "port": "Model",
+            "dividers": null,
+            "group": "/hmi/group3",
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/lfo2_freq",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "LFO MOD",
+            "steps": 33,
+            "page": 2,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/vco3_2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "VCO 2",
+            "steps": 33,
+            "page": 1,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/Vocoder",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Carrier In",
+            "steps": 33,
+            "page": 0,
+            "port": "mod_in",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/mod_cv_slew",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Audio Env",
+            "steps": 33,
+            "page": 2,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "instance": "/graph/faIR_cabsim",
+            "tempo": false,
+            "maximum": 12.0,
+            "label": "Cab",
+            "steps": 12,
+            "page": 0,
+            "port": "Model",
+            "dividers": null,
+            "group": "/hmi/group3",
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/mod_cv_parameter_modulation",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "MOD -> OSC",
+            "steps": 33,
+            "page": 2,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/_supersonic_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "AMP BASS",
+            "steps": 33,
+            "page": 0,
+            "port": "BASS",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/mono_1",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "Gain",
+            "steps": 33,
+            "page": 1,
+            "port": "gain",
+            "dividers": null,
+            "group": null,
+            "minimum": -20.0
+        },
+        {
+            "instance": "/graph/mod_cv_parameter_modulation",
+            "tempo": false,
+            "maximum": 200.0,
+            "label": "MOD DPTH",
+            "steps": 33,
+            "page": 2,
+            "port": "ModulationDepth",
+            "dividers": null,
+            "group": null,
+            "minimum": -200.0
+        }
+    ],
+    "/hmi/group2": []
+}

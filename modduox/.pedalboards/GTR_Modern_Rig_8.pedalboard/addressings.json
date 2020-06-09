@@ -1,0 +1,493 @@
+{
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/DS1",
+            "tempo": false,
+            "maximum": 0.99000000953674316,
+            "label": "DS1 Tone",
+            "steps": 65,
+            "page": 0,
+            "port": "Tone",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0099999997764825821
+        },
+        {
+            "instance": "/graph/_2Voices",
+            "tempo": false,
+            "maximum": 24.0,
+            "label": "2Voices Step 1",
+            "steps": 36,
+            "page": 1,
+            "port": "Step1",
+            "dividers": null,
+            "group": null,
+            "minimum": -12.0
+        },
+        {
+            "instance": "/graph/bolliedelay",
+            "tempo": false,
+            "maximum": 5.0,
+            "label": "Bollie L.",
+            "steps": 5,
+            "page": 2,
+            "port": "div_l",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "instance": "/graph/faIR_cabsim",
+            "tempo": false,
+            "maximum": 12.0,
+            "label": "Cabinet",
+            "steps": 12,
+            "page": 0,
+            "port": "Model",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/_2Voices",
+            "tempo": false,
+            "maximum": 24.0,
+            "label": "2Voices Step 2",
+            "steps": 36,
+            "page": 1,
+            "port": "Step2",
+            "dividers": null,
+            "group": null,
+            "minimum": -12.0
+        },
+        {
+            "instance": "/graph/bolliedelay",
+            "tempo": false,
+            "maximum": 5.0,
+            "label": "Bollie R.",
+            "steps": 5,
+            "page": 2,
+            "port": "div_r",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "2V Mix",
+            "steps": 33,
+            "page": 1,
+            "port": "xfade",
+            "dividers": null,
+            "group": null,
+            "minimum": -1.0
+        },
+        {
+            "instance": "/graph/bolliedelay",
+            "tempo": false,
+            "maximum": 22000.0,
+            "label": "BOL LPF",
+            "steps": 33,
+            "page": 2,
+            "port": "high_f",
+            "dividers": null,
+            "group": null,
+            "minimum": 200.0
+        },
+        {
+            "instance": "/graph/_jcm800pre_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Bass",
+            "steps": 33,
+            "page": 0,
+            "port": "Bass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/_2Voices",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "Gain 2",
+            "steps": 33,
+            "page": 1,
+            "port": "Gain_2",
+            "dividers": null,
+            "group": null,
+            "minimum": -20.0
+        },
+        {
+            "instance": "/graph/PlateX2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Plt Dec",
+            "steps": 33,
+            "page": 2,
+            "port": "tail",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/_jcm800pre_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Treble",
+            "steps": 33,
+            "page": 0,
+            "port": "Treble",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/bolliedelay",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "Bol Mix",
+            "steps": 33,
+            "page": 2,
+            "port": "mix",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/_jcm800pre_",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "Amp Vol",
+            "steps": 33,
+            "page": 0,
+            "port": "GAIN",
+            "dividers": null,
+            "group": null,
+            "minimum": -20.0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/_2Voices",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "Gain 1",
+            "steps": 33,
+            "page": 1,
+            "port": "Gain_1",
+            "dividers": null,
+            "group": null,
+            "minimum": -20.0
+        },
+        {
+            "instance": "/graph/bolliedelay",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "Bol XFD",
+            "steps": 33,
+            "page": 2,
+            "port": "crossf",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/_jcm800pre_",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "Presence",
+            "steps": 33,
+            "page": 0,
+            "port": "WET_DRY",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/DS1",
+            "tempo": false,
+            "maximum": 0.99000000953674316,
+            "label": "DS1 Lvl",
+            "steps": 33,
+            "page": 0,
+            "port": "Level",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0099999997764825821
+        },
+        {
+            "instance": "/graph/_slowgear_",
+            "tempo": false,
+            "maximum": 1000.0,
+            "label": "DOWNTIME",
+            "steps": 33,
+            "page": 1,
+            "port": "DOWNTIME",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/Phaser",
+            "tempo": false,
+            "maximum": 10800.0,
+            "label": "Ph Dept",
+            "steps": 33,
+            "page": 2,
+            "port": "mod_depth",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/_slowgear_",
+            "tempo": false,
+            "maximum": 10.0,
+            "label": "TRESHOLD",
+            "steps": 33,
+            "page": 1,
+            "port": "TRESHOLD",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/bolliedelay",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "Bol Fbk",
+            "steps": 33,
+            "page": 2,
+            "port": "feedback",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/_jcm800pre_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Pre Amp",
+            "steps": 33,
+            "page": 0,
+            "port": "P6v",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/DS1",
+            "tempo": false,
+            "maximum": 0.99000000953674316,
+            "label": "DS1 DST",
+            "steps": 33,
+            "page": 0,
+            "port": "Dist",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0099999997764825821
+        },
+        {
+            "instance": "/graph/_slowgear_",
+            "tempo": false,
+            "maximum": 1000.0,
+            "label": "UPTIME",
+            "steps": 33,
+            "page": 1,
+            "port": "UPTIME",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/Phaser",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "Ph rate",
+            "steps": 33,
+            "page": 2,
+            "port": "mod_rate",
+            "dividers": 0.33300000000000002,
+            "group": null,
+            "minimum": 0.0099999997764825821
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/DS1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "DS1",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/_slowgear_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "SlowGear",
+            "steps": 33,
+            "page": 1,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/Phaser",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Phaser",
+            "steps": 33,
+            "page": 2,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [
+        {
+            "instance": "/pedalboard",
+            "tempo": false,
+            "maximum": 280.0,
+            "label": "Tap",
+            "steps": 260,
+            "page": 2,
+            "port": ":bpm",
+            "dividers": null,
+            "group": null,
+            "minimum": 20.0
+        },
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "2Voices",
+            "steps": 33,
+            "page": 1,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/mono",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "+5 dB Boost",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/bolliedelay",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Bollie Delay",
+            "steps": 33,
+            "page": 2,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "instance": "/graph/PlateX2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Plate Verb",
+            "steps": 33,
+            "page": 2,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/_2Voices",
+            "tempo": false,
+            "maximum": 3.0,
+            "label": "2Voices",
+            "steps": 3,
+            "page": 1,
+            "port": "Fidelity",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/mono_1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "+10 dB Boost",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/PlateX2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Plt Mix",
+            "steps": 33,
+            "page": 2,
+            "port": "blend",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/_jcm800pre_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Middle",
+            "steps": 33,
+            "page": 0,
+            "port": "Middle",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group2": []
+}

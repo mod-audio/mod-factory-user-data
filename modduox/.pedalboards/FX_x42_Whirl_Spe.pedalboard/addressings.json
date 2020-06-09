@@ -1,0 +1,396 @@
+{
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": -3.0,
+            "label": "Horn Signal Leak",
+            "steps": 65,
+            "page": 0,
+            "port": "hornleak",
+            "dividers": null,
+            "group": null,
+            "minimum": -80.0
+        },
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 8.0,
+            "label": "Horn Flt-1",
+            "steps": 8,
+            "page": 2,
+            "port": "filtatype",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 2.0,
+            "label": "Drum Stereo Width",
+            "steps": 65,
+            "page": 1,
+            "port": "drumwidth",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 8.0,
+            "label": "Drum Fltr",
+            "steps": 8,
+            "page": 1,
+            "port": "filtdtype",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 8.0,
+            "label": "Horn Flt-2",
+            "steps": 8,
+            "page": 2,
+            "port": "filtbtype",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/xfade_1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Mix",
+            "steps": 65,
+            "page": 0,
+            "port": "xfade",
+            "dividers": null,
+            "group": null,
+            "minimum": -1.0
+        }
+    ],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 600.0,
+            "label": "drm fst",
+            "steps": 33,
+            "page": 0,
+            "port": "drumrpmfast",
+            "dividers": null,
+            "group": null,
+            "minimum": 60.0
+        },
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 6.0,
+            "label": "Flt Q.",
+            "steps": 33,
+            "page": 1,
+            "port": "filtdq",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0099999997764825821
+        },
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 6.0,
+            "label": "f2 Q.",
+            "steps": 33,
+            "page": 2,
+            "port": "filtbq",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0099999997764825821
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "hrn brk",
+            "steps": 33,
+            "page": 0,
+            "port": "hornbrakepos",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 48.0,
+            "label": "Flt Gain",
+            "steps": 33,
+            "page": 1,
+            "port": "filtdgain",
+            "dividers": null,
+            "group": null,
+            "minimum": -48.0
+        },
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 48.0,
+            "label": "f2 gain",
+            "steps": 33,
+            "page": 2,
+            "port": "filtbgain",
+            "dividers": null,
+            "group": null,
+            "minimum": -48.0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "drm slo",
+            "steps": 33,
+            "page": 0,
+            "port": "drumrpmslow",
+            "dividers": null,
+            "group": null,
+            "minimum": 5.0
+        },
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "drm dec",
+            "steps": 33,
+            "page": 1,
+            "port": "drumdecel",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0099999997764825821
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 1000.0,
+            "label": "Hrn fst",
+            "steps": 33,
+            "page": 0,
+            "port": "hornrpmfast",
+            "dividers": null,
+            "group": null,
+            "minimum": 100.0
+        },
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 8000.0,
+            "label": "flt frq",
+            "steps": 33,
+            "page": 1,
+            "port": "filtdfreq",
+            "dividers": null,
+            "group": null,
+            "minimum": 50.0
+        },
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 8000.0,
+            "label": "f2 Frq",
+            "steps": 33,
+            "page": 2,
+            "port": "filtbfreq",
+            "dividers": null,
+            "group": null,
+            "minimum": 250.0
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "drm lvl",
+            "steps": 33,
+            "page": 0,
+            "port": "drumlvl",
+            "dividers": null,
+            "group": null,
+            "minimum": -20.0
+        },
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "drm acc",
+            "steps": 33,
+            "page": 1,
+            "port": "drumaccel",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0099999997764825821
+        },
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 6.0,
+            "label": "f1 Q.",
+            "steps": 33,
+            "page": 2,
+            "port": "filtaq",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0099999997764825821
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 200.0,
+            "label": "Hrn Slo",
+            "steps": 33,
+            "page": 0,
+            "port": "hornrpmslow",
+            "dividers": null,
+            "group": null,
+            "minimum": 5.0
+        },
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 10.0,
+            "label": "hrn dec",
+            "steps": 33,
+            "page": 1,
+            "port": "horndecel",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0010000000474974513
+        },
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 48.0,
+            "label": "f1 gain",
+            "steps": 33,
+            "page": 2,
+            "port": "filtagain",
+            "dividers": null,
+            "group": null,
+            "minimum": -48.0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 20.0,
+            "label": "hrn lvl",
+            "steps": 33,
+            "page": 0,
+            "port": "hornlvl",
+            "dividers": null,
+            "group": null,
+            "minimum": -20.0
+        },
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 10.0,
+            "label": "hrn acc",
+            "steps": 33,
+            "page": 1,
+            "port": "hornaccel",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0010000000474974513
+        },
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 8000.0,
+            "label": "f1 frq",
+            "steps": 33,
+            "page": 2,
+            "port": "filtafreq",
+            "dividers": null,
+            "group": null,
+            "minimum": 250.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/xfade_1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Whirl Speaker",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 2.0,
+            "label": "Motor",
+            "steps": 2,
+            "page": 0,
+            "port": "rt_speed",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Stereo Input",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/mod",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "drm brk",
+            "steps": 33,
+            "page": 0,
+            "port": "drumbrake",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group2": []
+}

@@ -1,0 +1,325 @@
+{
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/_supersonic_",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "TREBLE",
+            "steps": 33,
+            "port": "TREBLE",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/mono_1",
+            "dividers": null,
+            "maximum": 10000.0,
+            "tempo": false,
+            "label": "EQ2 FRQ",
+            "steps": 33,
+            "port": "freq3",
+            "minimum": 100.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/_supersonic_",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "VOLUME",
+            "steps": 33,
+            "port": "VOLUME",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/mono_1",
+            "dividers": null,
+            "maximum": 18.0,
+            "tempo": false,
+            "label": "EQ1 Gain",
+            "steps": 33,
+            "port": "gain1",
+            "minimum": -18.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/_supersonic_",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "GAIN",
+            "steps": 33,
+            "port": "GAIN",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/mono_1",
+            "dividers": null,
+            "maximum": 2000.0,
+            "tempo": false,
+            "label": "EQ1 FRQ",
+            "steps": 33,
+            "port": "freq1",
+            "minimum": 20.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/mono",
+            "dividers": null,
+            "maximum": 20.0,
+            "tempo": false,
+            "label": "Ratio",
+            "steps": 33,
+            "port": "ratio",
+            "minimum": 1.0,
+            "page": 0,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/mono",
+            "dividers": null,
+            "maximum": 0.0,
+            "tempo": false,
+            "label": "Thrshld",
+            "steps": 33,
+            "port": "threshold",
+            "minimum": -36.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/BigMuffPi",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Tone",
+            "steps": 33,
+            "port": "Tone",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Response",
+            "steps": 33,
+            "port": "response",
+            "minimum": -1.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/BigMuffPi",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Level",
+            "steps": 33,
+            "port": "Level",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "dividers": null,
+            "maximum": 64.0,
+            "tempo": false,
+            "label": "Activation",
+            "steps": 33,
+            "port": "gain",
+            "minimum": 0.015625,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/BigMuffPi",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Sustain",
+            "steps": 33,
+            "port": "Sustain",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Envelope filter",
+            "steps": 33,
+            "port": ":bypass",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/BigMuffPi",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "B-Muff",
+            "steps": 33,
+            "port": ":bypass",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/mono",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Compressor",
+            "steps": 33,
+            "port": ":bypass",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        }
+    ],
+    "/hmi/footswitch3": [
+        {
+            "instance": "/graph/cabsim_bass",
+            "dividers": null,
+            "maximum": 3.0,
+            "tempo": false,
+            "label": "Mic place",
+            "steps": 3,
+            "port": "MicPos",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/mono_1",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "EQ 1",
+            "steps": 1,
+            "port": "sec1",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "instance": "/graph/mono_1",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "EQ 2",
+            "steps": 1,
+            "port": "sec3",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/_supersonic_",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "BASS",
+            "steps": 33,
+            "port": "BASS",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/mono_1",
+            "dividers": null,
+            "maximum": 18.0,
+            "tempo": false,
+            "label": "EQ2 Gain",
+            "steps": 33,
+            "port": "gain3",
+            "minimum": -18.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "dividers": null,
+            "maximum": 11.0,
+            "tempo": false,
+            "label": "Filt Type",
+            "steps": 11,
+            "port": "mode",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "instance": "/graph/cabsim_bass",
+            "dividers": null,
+            "maximum": 5.0,
+            "tempo": false,
+            "label": "Cab Model",
+            "steps": 5,
+            "port": "Model",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/stereo",
+            "dividers": null,
+            "maximum": 5.0,
+            "tempo": false,
+            "label": "Master Volume",
+            "steps": 65,
+            "port": "gain",
+            "minimum": -10.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/cv/graph/cv_exp_pedal": [],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/group2": [],
+    "/bpm": [],
+    "/cv/graph/cv_capture_2": [],
+    "/hmi/group3": []
+}

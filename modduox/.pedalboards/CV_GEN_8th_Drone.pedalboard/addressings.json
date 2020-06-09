@@ -1,0 +1,623 @@
+{
+    "/hmi/potentiometer8": [
+        {
+            "dividers": null,
+            "label": "Oct 4",
+            "group": null,
+            "port": "octave",
+            "page": 0,
+            "steps": 6,
+            "instance": "/graph/vco3_3",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 6.0
+        },
+        {
+            "dividers": null,
+            "label": "Oct 4",
+            "group": null,
+            "port": "octave",
+            "page": 1,
+            "steps": 6,
+            "instance": "/graph/vco3_7",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 6.0
+        },
+        {
+            "dividers": null,
+            "label": "Frequency 2",
+            "group": null,
+            "port": "f2_freq",
+            "page": 2,
+            "steps": 33,
+            "instance": "/graph/reverb",
+            "minimum": 40.0,
+            "tempo": false,
+            "maximum": 10000.0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "dividers": null,
+            "label": "Oct 2",
+            "group": null,
+            "port": "octave",
+            "page": 0,
+            "steps": 6,
+            "instance": "/graph/vco3_1",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 6.0
+        },
+        {
+            "dividers": null,
+            "label": "Oct 2",
+            "group": null,
+            "port": "octave",
+            "page": 1,
+            "steps": 6,
+            "instance": "/graph/vco3_5",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 6.0
+        },
+        {
+            "dividers": null,
+            "label": "Lowpass Filter",
+            "group": null,
+            "port": "LPF",
+            "page": 2,
+            "steps": 25980,
+            "instance": "/graph/dist",
+            "minimum": 20.0,
+            "tempo": false,
+            "maximum": 8000.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "dividers": null,
+            "label": "Output Volume",
+            "group": null,
+            "port": "Gain",
+            "page": 0,
+            "steps": 33,
+            "instance": "/graph/Gain2x2",
+            "minimum": -40.0,
+            "tempo": false,
+            "maximum": 12.0
+        },
+        {
+            "dividers": null,
+            "label": "X-FADE",
+            "group": null,
+            "port": "xfade",
+            "page": 1,
+            "steps": 65,
+            "instance": "/graph/xfade",
+            "minimum": -1.0,
+            "tempo": false,
+            "maximum": 1.0
+        },
+        {
+            "dividers": null,
+            "label": "Mix",
+            "group": null,
+            "port": "out_mix",
+            "page": 2,
+            "steps": 65,
+            "instance": "/graph/reverb",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 1.0
+        }
+    ],
+    "/bpm": [],
+    "/hmi/potentiometer7": [
+        {
+            "dividers": null,
+            "label": "Tune 4",
+            "group": null,
+            "port": "tune",
+            "page": 0,
+            "steps": 33,
+            "instance": "/graph/vco3_3",
+            "minimum": -1.0,
+            "tempo": false,
+            "maximum": 1.0
+        },
+        {
+            "dividers": null,
+            "label": "Tune 4",
+            "group": null,
+            "port": "tune",
+            "page": 1,
+            "steps": 33,
+            "instance": "/graph/vco3_7",
+            "minimum": -1.0,
+            "tempo": false,
+            "maximum": 1.0
+        },
+        {
+            "dividers": null,
+            "label": "F2-gain",
+            "group": null,
+            "port": "f2_gain",
+            "page": 2,
+            "steps": 33,
+            "instance": "/graph/reverb",
+            "minimum": -20.0,
+            "tempo": false,
+            "maximum": 20.0
+        }
+    ],
+    "/hmi/potentiometer1": [
+        {
+            "dividers": null,
+            "label": "Tune 1",
+            "group": null,
+            "port": "tune",
+            "page": 0,
+            "steps": 33,
+            "instance": "/graph/vco3",
+            "minimum": -1.0,
+            "tempo": false,
+            "maximum": 1.0
+        },
+        {
+            "dividers": null,
+            "label": "Tune 1",
+            "group": null,
+            "port": "tune",
+            "page": 1,
+            "steps": 33,
+            "instance": "/graph/vco3_4",
+            "minimum": -1.0,
+            "tempo": false,
+            "maximum": 1.0
+        },
+        {
+            "dividers": null,
+            "label": "Mix",
+            "group": null,
+            "port": "WETDRY",
+            "page": 2,
+            "steps": 127,
+            "instance": "/graph/dist",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 127.0
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "dividers": null,
+            "label": "Oct 1",
+            "group": null,
+            "port": "octave",
+            "page": 0,
+            "steps": 6,
+            "instance": "/graph/vco3",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 6.0
+        },
+        {
+            "dividers": null,
+            "label": "Oct 1",
+            "group": null,
+            "port": "octave",
+            "page": 1,
+            "steps": 6,
+            "instance": "/graph/vco3_4",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 6.0
+        },
+        {
+            "dividers": null,
+            "label": "Drive",
+            "group": null,
+            "port": "DRIVE",
+            "page": 2,
+            "steps": 127,
+            "instance": "/graph/dist",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 127.0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "dividers": null,
+            "label": "Tune 2",
+            "group": null,
+            "port": "tune",
+            "page": 0,
+            "steps": 33,
+            "instance": "/graph/vco3_1",
+            "minimum": -1.0,
+            "tempo": false,
+            "maximum": 1.0
+        },
+        {
+            "dividers": null,
+            "label": "Tune 2",
+            "group": null,
+            "port": "tune",
+            "page": 1,
+            "steps": 33,
+            "instance": "/graph/vco3_5",
+            "minimum": -1.0,
+            "tempo": false,
+            "maximum": 1.0
+        },
+        {
+            "dividers": null,
+            "label": "Level",
+            "group": null,
+            "port": "LEVEL",
+            "page": 2,
+            "steps": 127,
+            "instance": "/graph/dist",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 127.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/group2": [],
+    "/hmi/group1": [],
+    "/cv/graph/mod_cv_control/Cvoutput": {
+        "name": "C-FM",
+        "addrs": [
+            {
+                "operational_mode": "+",
+                "label": "Exp FM Gain",
+                "port": "expFMGain",
+                "steps": 33,
+                "instance": "/graph/vco3",
+                "minimum": 0.0,
+                "maximum": 10.0
+            },
+            {
+                "operational_mode": "+",
+                "label": "Exp FM Gain",
+                "port": "expFMGain",
+                "steps": 33,
+                "instance": "/graph/vco3_1",
+                "minimum": 0.0,
+                "maximum": 10.0
+            },
+            {
+                "operational_mode": "+",
+                "label": "Exp FM Gain",
+                "port": "expFMGain",
+                "steps": 33,
+                "instance": "/graph/vco3_2",
+                "minimum": 0.0,
+                "maximum": 10.0
+            },
+            {
+                "operational_mode": "+",
+                "label": "Exp FM Gain",
+                "port": "expFMGain",
+                "steps": 33,
+                "instance": "/graph/vco3_3",
+                "minimum": 0.0,
+                "maximum": 10.0
+            }
+        ]
+    },
+    "/cv/graph/cv_capture_1": [],
+    "/cv/graph/cv_capture_2": [],
+    "/hmi/footswitch3": [
+        {
+            "dividers": null,
+            "label": "Wave 3",
+            "group": null,
+            "port": "waveForm",
+            "page": 0,
+            "steps": 33,
+            "instance": "/graph/vco3_2",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 6.0
+        },
+        {
+            "dividers": null,
+            "label": "Wave 3",
+            "group": null,
+            "port": "waveForm",
+            "page": 1,
+            "steps": 33,
+            "instance": "/graph/vco3_6",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 6.0
+        },
+        {
+            "dividers": null,
+            "label": "Pedalboard",
+            "group": "/hmi/group2",
+            "port": ":presets",
+            "page": 2,
+            "steps": 33,
+            "instance": "/pedalboard",
+            "minimum": -1.0,
+            "tempo": false,
+            "maximum": 6
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "dividers": null,
+            "label": "Wave 2",
+            "group": null,
+            "port": "waveForm",
+            "page": 0,
+            "steps": 33,
+            "instance": "/graph/vco3_1",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 6.0
+        },
+        {
+            "dividers": null,
+            "label": "Wave 2",
+            "group": null,
+            "port": "waveForm",
+            "page": 1,
+            "steps": 33,
+            "instance": "/graph/vco3_5",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 6.0
+        },
+        {
+            "dividers": null,
+            "label": "Pedalboard",
+            "group": "/hmi/group2",
+            "port": ":presets",
+            "page": 2,
+            "steps": 33,
+            "instance": "/pedalboard",
+            "minimum": -1.0,
+            "tempo": false,
+            "maximum": 6
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "dividers": null,
+            "label": "Wave 1",
+            "group": null,
+            "port": "waveForm",
+            "page": 0,
+            "steps": 33,
+            "instance": "/graph/vco3",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 6.0
+        },
+        {
+            "dividers": null,
+            "label": "Wave 1",
+            "group": null,
+            "port": "waveForm",
+            "page": 1,
+            "steps": 33,
+            "instance": "/graph/vco3_4",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 6.0
+        },
+        {
+            "dividers": null,
+            "label": "Distortion",
+            "group": null,
+            "port": ":bypass",
+            "page": 2,
+            "steps": 33,
+            "instance": "/graph/dist",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 1.0
+        }
+    ],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/footswitch4": [
+        {
+            "dividers": null,
+            "label": "Wave 4",
+            "group": null,
+            "port": "waveForm",
+            "page": 0,
+            "steps": 33,
+            "instance": "/graph/vco3_3",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 6.0
+        },
+        {
+            "dividers": null,
+            "label": "Wave 4",
+            "group": null,
+            "port": "waveForm",
+            "page": 1,
+            "steps": 33,
+            "instance": "/graph/vco3_7",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 6.0
+        },
+        {
+            "dividers": null,
+            "label": "Reverb",
+            "group": null,
+            "port": ":bypass",
+            "page": 2,
+            "steps": 33,
+            "instance": "/graph/reverb",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "dividers": null,
+            "label": "Tune 3",
+            "group": null,
+            "port": "tune",
+            "page": 0,
+            "steps": 33,
+            "instance": "/graph/vco3_2",
+            "minimum": -1.0,
+            "tempo": false,
+            "maximum": 1.0
+        },
+        {
+            "dividers": null,
+            "label": "Tune 3",
+            "group": null,
+            "port": "tune",
+            "page": 1,
+            "steps": 33,
+            "instance": "/graph/vco3_6",
+            "minimum": -1.0,
+            "tempo": false,
+            "maximum": 1.0
+        },
+        {
+            "dividers": null,
+            "label": "F1-gain",
+            "group": null,
+            "port": "f1_gain",
+            "page": 2,
+            "steps": 33,
+            "instance": "/graph/reverb",
+            "minimum": -20.0,
+            "tempo": false,
+            "maximum": 20.0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "dividers": null,
+            "label": "Carrier FM",
+            "group": null,
+            "port": "Control",
+            "page": 0,
+            "steps": 65,
+            "instance": "/graph/mod_cv_control",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 4.0
+        },
+        {
+            "dividers": null,
+            "label": "Modulator FM",
+            "group": null,
+            "port": "Control",
+            "page": 1,
+            "steps": 65,
+            "instance": "/graph/mod_cv_control_1",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 4.0
+        },
+        {
+            "dividers": null,
+            "label": "Type",
+            "group": null,
+            "port": "TYPE",
+            "page": 2,
+            "steps": 29,
+            "instance": "/graph/dist",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 29.0
+        }
+    ],
+    "/hmi/potentiometer6": [
+        {
+            "dividers": null,
+            "label": "Oct 3",
+            "group": null,
+            "port": "octave",
+            "page": 0,
+            "steps": 6,
+            "instance": "/graph/vco3_2",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 6.0
+        },
+        {
+            "dividers": null,
+            "label": "Oct 3",
+            "group": null,
+            "port": "octave",
+            "page": 1,
+            "steps": 6,
+            "instance": "/graph/vco3_6",
+            "minimum": 0.0,
+            "tempo": false,
+            "maximum": 6.0
+        },
+        {
+            "dividers": null,
+            "label": "Frequency 1",
+            "group": null,
+            "port": "f1_freq",
+            "page": 2,
+            "steps": 33,
+            "instance": "/graph/reverb",
+            "minimum": 40.0,
+            "tempo": false,
+            "maximum": 10000.0
+        }
+    ],
+    "/cv/graph/mod_cv_control_1/Cvoutput": {
+        "name": "M-FM",
+        "addrs": [
+            {
+                "operational_mode": "+",
+                "label": "Exp FM Gain",
+                "port": "expFMGain",
+                "steps": 33,
+                "instance": "/graph/vco3_4",
+                "minimum": 0.0,
+                "maximum": 10.0
+            },
+            {
+                "operational_mode": "+",
+                "label": "Exp FM Gain",
+                "port": "expFMGain",
+                "steps": 33,
+                "instance": "/graph/vco3_5",
+                "minimum": 0.0,
+                "maximum": 10.0
+            },
+            {
+                "operational_mode": "+",
+                "label": "Exp FM Gain",
+                "port": "expFMGain",
+                "steps": 33,
+                "instance": "/graph/vco3_6",
+                "minimum": 0.0,
+                "maximum": 10.0
+            },
+            {
+                "operational_mode": "+",
+                "label": "Exp FM Gain",
+                "port": "expFMGain",
+                "steps": 33,
+                "instance": "/graph/vco3_7",
+                "minimum": 0.0,
+                "maximum": 10.0
+            }
+        ]
+    }
+}

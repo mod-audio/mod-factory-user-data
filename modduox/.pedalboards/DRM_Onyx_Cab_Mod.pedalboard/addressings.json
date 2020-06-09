@@ -1,0 +1,349 @@
+{
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/onyx",
+            "tempo": false,
+            "maximum": 100000.0,
+            "label": "Onyx Chan",
+            "steps": 33,
+            "page": 0,
+            "port": "clip",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/modulay",
+            "tempo": true,
+            "maximum": 48,
+            "label": "DLY Div",
+            "steps": 33,
+            "page": 1,
+            "port": "time",
+            "dividers": 8,
+            "group": null,
+            "minimum": 1
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "instance": "/graph/faIR_cabsim",
+            "tempo": false,
+            "maximum": 12.0,
+            "label": "Cab Model",
+            "steps": 12,
+            "page": 0,
+            "port": "Model",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/modulay",
+            "tempo": true,
+            "maximum": 48,
+            "label": "DLY MRate",
+            "steps": 33,
+            "page": 1,
+            "port": "rate",
+            "dividers": 2.6659999999999999,
+            "group": null,
+            "minimum": 0.33300000000000002
+        }
+    ],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/onyx",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "ON BASS",
+            "steps": 33,
+            "page": 0,
+            "port": "Bass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/stereo_8",
+            "tempo": false,
+            "maximum": 0.0,
+            "label": "Threshold",
+            "steps": 33,
+            "page": 1,
+            "port": "threshold",
+            "dividers": null,
+            "group": null,
+            "minimum": -36.0
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/onyx",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "ON TRBL",
+            "steps": 33,
+            "page": 0,
+            "port": "Treble",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/stereo_1",
+            "tempo": false,
+            "maximum": 0.0,
+            "label": "Threshold",
+            "steps": 33,
+            "page": 0,
+            "port": "threshold",
+            "dividers": null,
+            "group": null,
+            "minimum": -36.0
+        },
+        {
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "maximum": 6000.0,
+            "label": "DLY TON",
+            "steps": 33,
+            "page": 1,
+            "port": "tone",
+            "dividers": null,
+            "group": null,
+            "minimum": 500.0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/onyx",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "ON CHAR",
+            "steps": 33,
+            "page": 0,
+            "port": "Character",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "maximum": 3.0,
+            "label": "DLY MDPT",
+            "steps": 33,
+            "page": 1,
+            "port": "depth",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.10000000149011612
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/filta",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "LPF/HPF",
+            "steps": 33,
+            "page": 0,
+            "port": "frequency_control",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/mod_volume",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "DLY SND",
+            "steps": 33,
+            "page": 1,
+            "port": "Volume",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/onyx",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "ON VOL",
+            "steps": 33,
+            "page": 0,
+            "port": "Vol",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "DLY MRF",
+            "steps": 33,
+            "page": 1,
+            "port": "morph",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/onyx",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "ON GAIN",
+            "steps": 33,
+            "page": 0,
+            "port": "Gain",
+            "dividers": null,
+            "group": null,
+            "minimum": 1.0
+        },
+        {
+            "instance": "/graph/modulay",
+            "tempo": false,
+            "maximum": 110.0,
+            "label": "DLY FBK",
+            "steps": 33,
+            "page": 1,
+            "port": "repeats",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/filta",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Filta",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/mono",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Kill Delay Send",
+            "steps": 1,
+            "page": 1,
+            "port": "mute",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [
+        {
+            "instance": "/graph/onyx",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Onyx",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/stereo_8",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Output Comp",
+            "steps": 33,
+            "page": 1,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/stereo_1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Input Comp",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/pedalboard",
+            "tempo": false,
+            "maximum": 280.0,
+            "label": "Tap",
+            "steps": 260,
+            "page": 1,
+            "port": ":bpm",
+            "dividers": null,
+            "group": null,
+            "minimum": 20.0
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Stereo Input",
+            "steps": 33,
+            "page": 1,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/faIR_cabsim",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "CabSim",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/onyx",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "ON MID",
+            "steps": 33,
+            "page": 0,
+            "port": "Mid",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group2": []
+}

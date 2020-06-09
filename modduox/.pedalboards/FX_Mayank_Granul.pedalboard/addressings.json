@@ -1,0 +1,101 @@
+{
+    "/hmi/knob1": [],
+    "/hmi/knob2": [],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [],
+    "/hmi/potentiometer7": [],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/Granulator",
+            "tempo": false,
+            "maximum": 0.5,
+            "label": "Length",
+            "steps": 33,
+            "page": 0,
+            "port": "grain_length",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0099999997764825821
+        }
+    ],
+    "/hmi/potentiometer5": [],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/Granulator",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "mix",
+            "steps": 33,
+            "page": 0,
+            "port": "mix",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/Granulator",
+            "tempo": false,
+            "maximum": 16.0,
+            "label": "Density",
+            "steps": 33,
+            "page": 0,
+            "port": "grain_density",
+            "dividers": null,
+            "group": null,
+            "minimum": 2.0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/Granulator",
+            "tempo": false,
+            "maximum": 10.0,
+            "label": "dly lng",
+            "steps": 33,
+            "page": 0,
+            "port": "delay_length",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.5
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/Granulator",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Granulator",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Stereo Input",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [],
+    "/hmi/potentiometer8": [],
+    "/hmi/group2": []
+}

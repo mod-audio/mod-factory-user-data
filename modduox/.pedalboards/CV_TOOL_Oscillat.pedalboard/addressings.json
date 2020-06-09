@@ -1,0 +1,373 @@
+{
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/vcaexp",
+            "tempo": false,
+            "maximum": 2.0,
+            "label": "OSC 1 LVL",
+            "steps": 65,
+            "page": 0,
+            "port": "in1",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/vcaexp",
+            "tempo": false,
+            "maximum": 2.0,
+            "label": "EXT 1 LVL",
+            "steps": 65,
+            "page": 1,
+            "port": "in2",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "instance": "/graph/vcaexp_1",
+            "tempo": false,
+            "maximum": 2.0,
+            "label": "OSC 2 LVL",
+            "steps": 65,
+            "page": 0,
+            "port": "in1",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/vcaexp_1",
+            "tempo": false,
+            "maximum": 2.0,
+            "label": "EXT 2 LVL",
+            "steps": 65,
+            "page": 1,
+            "port": "in2",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/vco3_1",
+            "tempo": false,
+            "maximum": 10.0,
+            "label": "LFO AMT",
+            "steps": 33,
+            "page": 0,
+            "port": "linFMGain",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/lfo2_freq_1",
+            "tempo": false,
+            "maximum": 6.2800002098083496,
+            "label": "Phi0",
+            "steps": 33,
+            "page": 1,
+            "port": "phi0",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/vco3_1",
+            "tempo": false,
+            "maximum": 6.0,
+            "label": "Octave",
+            "steps": 6,
+            "page": 0,
+            "port": "octave",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/vcaexp_1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "VCA LFO",
+            "steps": 33,
+            "page": 1,
+            "port": "gain2",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/vco3",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Tune",
+            "steps": 33,
+            "page": 0,
+            "port": "tune",
+            "dividers": null,
+            "group": null,
+            "minimum": -1.0
+        },
+        {
+            "instance": "/graph/vcaexp",
+            "tempo": false,
+            "maximum": 0.5,
+            "label": "VCA AMP",
+            "steps": 33,
+            "page": 1,
+            "port": "outputLevel",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/vco3_1",
+            "tempo": false,
+            "maximum": 10.0,
+            "label": "CV AMT",
+            "steps": 33,
+            "page": 0,
+            "port": "expFMGain",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/lfo2_freq_1",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "Freq",
+            "steps": 33,
+            "page": 1,
+            "port": "freq",
+            "dividers": 0.33300000000000002,
+            "group": null,
+            "minimum": 9.9999997473787516e-05
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/vco3",
+            "tempo": false,
+            "maximum": 10.0,
+            "label": "LFO AMT",
+            "steps": 33,
+            "page": 0,
+            "port": "linFMGain",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/lfo2_freq",
+            "tempo": false,
+            "maximum": 6.2800002098083496,
+            "label": "Phi0",
+            "steps": 33,
+            "page": 1,
+            "port": "phi0",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/vco3",
+            "tempo": false,
+            "maximum": 6.0,
+            "label": "Octave",
+            "steps": 6,
+            "page": 0,
+            "port": "octave",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/vcaexp",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "VCA LFO",
+            "steps": 33,
+            "page": 1,
+            "port": "gain2",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/vco3",
+            "tempo": false,
+            "maximum": 10.0,
+            "label": "CV AMT",
+            "steps": 33,
+            "page": 0,
+            "port": "expFMGain",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/lfo2_freq",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "Freq",
+            "steps": 33,
+            "page": 1,
+            "port": "freq",
+            "dividers": 0.33300000000000002,
+            "group": null,
+            "minimum": 9.9999997473787516e-05
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/vco3",
+            "tempo": false,
+            "maximum": 6.0,
+            "label": "Wave Form",
+            "steps": 33,
+            "page": 0,
+            "port": "waveForm",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/lfo2_freq",
+            "tempo": false,
+            "maximum": 5.0,
+            "label": "Wave Form",
+            "steps": 33,
+            "page": 1,
+            "port": "waveForm",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [
+        {
+            "instance": "/graph/vco3_1",
+            "tempo": false,
+            "maximum": 6.0,
+            "label": "Wave Form",
+            "steps": 33,
+            "page": 0,
+            "port": "waveForm",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/lfo2_freq_1",
+            "tempo": false,
+            "maximum": 5.0,
+            "label": "Wave Form",
+            "steps": 33,
+            "page": 1,
+            "port": "waveForm",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/vco3",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "AMS VCO3",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/lfo2_freq",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "AMS LFO2 - Freq",
+            "steps": 33,
+            "page": 1,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "instance": "/graph/vco3_1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "AMS VCO3",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        },
+        {
+            "instance": "/graph/lfo2_freq_1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "AMS LFO2 - Freq",
+            "steps": 33,
+            "page": 1,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/vco3_1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Tune",
+            "steps": 33,
+            "page": 0,
+            "port": "tune",
+            "dividers": null,
+            "group": null,
+            "minimum": -1.0
+        },
+        {
+            "instance": "/graph/vcaexp_1",
+            "tempo": false,
+            "maximum": 0.5,
+            "label": "VCA AMP",
+            "steps": 33,
+            "page": 1,
+            "port": "outputLevel",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group2": []
+}

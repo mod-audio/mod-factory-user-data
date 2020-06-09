@@ -1,0 +1,153 @@
+{
+    "/hmi/knob1": [],
+    "/hmi/knob2": [],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/shiroverb",
+            "tempo": false,
+            "maximum": 300.0,
+            "label": "roomsize",
+            "steps": 33,
+            "page": 0,
+            "port": "roomsize",
+            "dividers": null,
+            "group": null,
+            "minimum": 1.0
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/shiroverb",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "bandwidth",
+            "steps": 33,
+            "page": 0,
+            "port": "bandwidth",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/shiroverb",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "shimmer",
+            "steps": 33,
+            "page": 0,
+            "port": "shimmer",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/shiroverb",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "damping",
+            "steps": 33,
+            "page": 0,
+            "port": "damping",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/shiroverb",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "mix",
+            "steps": 33,
+            "page": 0,
+            "port": "mix",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/shiroverb",
+            "tempo": false,
+            "maximum": 2.0,
+            "label": "ratio",
+            "steps": 33,
+            "page": 0,
+            "port": "ratio",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.5
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/shiroverb",
+            "tempo": false,
+            "maximum": 100.0,
+            "label": "decay",
+            "steps": 33,
+            "page": 0,
+            "port": "decay",
+            "dividers": null,
+            "group": null,
+            "minimum": 1.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/shiroverb",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Shiroverb",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Stereo Input",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/shiroverb",
+            "tempo": false,
+            "maximum": 6000.0,
+            "label": "tone",
+            "steps": 33,
+            "page": 0,
+            "port": "tone",
+            "dividers": null,
+            "group": null,
+            "minimum": 500.0
+        }
+    ],
+    "/hmi/group2": []
+}

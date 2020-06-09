@@ -1,0 +1,205 @@
+{
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 11.0,
+            "label": "Mode",
+            "steps": 11,
+            "page": 0,
+            "port": "mode",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Mix",
+            "steps": 33,
+            "page": 0,
+            "port": "xfade",
+            "dividers": null,
+            "group": null,
+            "minimum": -1.0
+        }
+    ],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 20000.0,
+            "label": "Lower",
+            "steps": 33,
+            "page": 0,
+            "port": "lower",
+            "dividers": null,
+            "group": null,
+            "minimum": 10.0
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 2.0,
+            "label": "Output",
+            "steps": 33,
+            "page": 0,
+            "port": "level_out",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.015625
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 5000.0,
+            "label": "Release",
+            "steps": 33,
+            "page": 0,
+            "port": "release",
+            "dividers": null,
+            "group": null,
+            "minimum": 10.0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Response",
+            "steps": 33,
+            "page": 0,
+            "port": "response",
+            "dividers": null,
+            "group": null,
+            "minimum": -1.0
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 500.0,
+            "label": "Attack",
+            "steps": 33,
+            "page": 0,
+            "port": "attack",
+            "dividers": null,
+            "group": null,
+            "minimum": 1.0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 64.0,
+            "label": "Activation",
+            "steps": 33,
+            "page": 0,
+            "port": "gain",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.015625
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 32.0,
+            "label": "Resonance",
+            "steps": 33,
+            "page": 0,
+            "port": "res",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.7070000171661377
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Calf Envelope",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [
+        {
+            "instance": "/graph/xfade_2",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Stereo Inp",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Sidechn 1 to 2",
+            "steps": 1,
+            "page": 0,
+            "port": "sidechain",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "instance": "/graph/xfade_1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "In 2 Dry Thru",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/EnvelopeFilter",
+            "tempo": false,
+            "maximum": 20000.0,
+            "label": "Upper",
+            "steps": 33,
+            "page": 0,
+            "port": "upper",
+            "dividers": null,
+            "group": null,
+            "minimum": 10.0
+        }
+    ],
+    "/hmi/group2": []
+}

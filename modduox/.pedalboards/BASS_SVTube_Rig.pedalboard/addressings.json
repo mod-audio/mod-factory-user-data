@@ -1,0 +1,301 @@
+{
+    "/hmi/potentiometer7": [
+        {
+            "instance": "/graph/_ampegsvt_",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "TREBLE",
+            "steps": 33,
+            "port": "TREBLE",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        },
+        {
+            "instance": "/graph/Saturator",
+            "dividers": null,
+            "maximum": 4.0,
+            "tempo": false,
+            "label": "Out Gain",
+            "steps": 33,
+            "port": "level_out",
+            "minimum": 0.015625,
+            "page": 0,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/_ampegsvt_",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "BASS",
+            "steps": 33,
+            "port": "BASS",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        },
+        {
+            "instance": "/graph/Saturator",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Mix",
+            "steps": 33,
+            "port": "mix",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/_ampegsvt_",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "VOLUME",
+            "steps": 33,
+            "port": "VOLUME",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        },
+        {
+            "instance": "/graph/Saturator",
+            "dividers": null,
+            "maximum": 64.0,
+            "tempo": false,
+            "label": "In gain",
+            "steps": 33,
+            "port": "level_in",
+            "minimum": 0.015625,
+            "page": 0,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/Drop",
+            "dividers": null,
+            "maximum": 20.0,
+            "tempo": false,
+            "label": "Sub Gain",
+            "steps": 33,
+            "port": "Gain",
+            "minimum": -20.0,
+            "page": 0,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/mono",
+            "dividers": null,
+            "maximum": 20.0,
+            "tempo": false,
+            "label": "C Ratio",
+            "steps": 33,
+            "port": "ratio",
+            "minimum": 1.0,
+            "page": 0,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/mono",
+            "dividers": null,
+            "maximum": 36.0,
+            "tempo": false,
+            "label": "C Gain",
+            "steps": 33,
+            "port": "gain",
+            "minimum": -6.0,
+            "page": 0,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/mono",
+            "dividers": null,
+            "maximum": 0.0,
+            "tempo": false,
+            "label": "C THRSHLD",
+            "steps": 33,
+            "port": "threshold",
+            "minimum": -36.0,
+            "page": 0,
+            "group": null
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/mono",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Compressor",
+            "steps": 33,
+            "port": ":bypass",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/xfade_1",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Sub Oct",
+            "steps": 33,
+            "port": ":bypass",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/_ampegsvt_",
+            "dividers": null,
+            "maximum": 2.0,
+            "tempo": false,
+            "label": "AMP Low",
+            "steps": 2,
+            "port": "LOWSWITCH",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/footswitch3": [
+        {
+            "instance": "/graph/_ampegsvt_",
+            "dividers": null,
+            "maximum": 2.0,
+            "tempo": false,
+            "label": "AMP Mid",
+            "steps": 2,
+            "port": "MIDSWITCH",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        },
+        {
+            "instance": "/graph/Saturator",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Saturator",
+            "steps": 33,
+            "port": ":bypass",
+            "minimum": 0.0,
+            "page": 0,
+            "group": null
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "instance": "/graph/_ampegsvt_",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "AMP High",
+            "steps": 1,
+            "port": "HIGHSWITCH",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/_ampegsvt_",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "MIDDLE",
+            "steps": 33,
+            "port": "MIDDLE",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        },
+        {
+            "instance": "/graph/Saturator",
+            "dividers": null,
+            "maximum": 10.0,
+            "tempo": false,
+            "label": "Saturation",
+            "steps": 33,
+            "port": "drive",
+            "minimum": 0.10000000149011612,
+            "page": 0,
+            "group": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/xfade",
+            "dividers": null,
+            "maximum": 1.0,
+            "tempo": false,
+            "label": "Dry / Comp Mix",
+            "steps": 65,
+            "port": "xfade",
+            "minimum": -1.0,
+            "page": 0,
+            "group": null
+        },
+        {
+            "instance": "/graph/cabsim_bass",
+            "dividers": null,
+            "maximum": 3.0,
+            "tempo": false,
+            "label": "Cab Mic",
+            "steps": 3,
+            "port": "MicPos",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "instance": "/graph/cabsim_bass",
+            "dividers": null,
+            "maximum": 5.0,
+            "tempo": false,
+            "label": "Cab Model",
+            "steps": 5,
+            "port": "Model",
+            "minimum": 0.0,
+            "page": 1,
+            "group": null
+        },
+        {
+            "instance": "/graph/Saturator",
+            "dividers": null,
+            "maximum": 10.0,
+            "tempo": false,
+            "label": "Sat. Blend",
+            "steps": 65,
+            "port": "blend",
+            "minimum": -10.0,
+            "page": 0,
+            "group": null
+        }
+    ],
+    "/cv/graph/cv_exp_pedal": [],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/group2": [],
+    "/bpm": [],
+    "/cv/graph/cv_capture_2": [],
+    "/hmi/group3": []
+}

@@ -1,0 +1,166 @@
+{
+    "/hmi/knob1": [
+        {
+            "instance": "/graph/_duck_delay_st_",
+            "tempo": true,
+            "maximum": 48,
+            "label": "TIME",
+            "steps": 33,
+            "page": 0,
+            "port": "TIME",
+            "dividers": 3,
+            "group": null,
+            "minimum": 0.5
+        }
+    ],
+    "/hmi/knob2": [],
+    "/cv/graph/cv_capture_2": [],
+    "/cv/graph/cv_capture_1": [],
+    "/bpm": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/hmi/potentiometer6": [
+        {
+            "instance": "/graph/_duck_delay_st_",
+            "tempo": false,
+            "maximum": 0.5,
+            "label": "ATTACK",
+            "steps": 33,
+            "page": 0,
+            "port": "ATTACK",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.05000000074505806
+        }
+    ],
+    "/hmi/potentiometer7": [],
+    "/hmi/potentiometer4": [
+        {
+            "instance": "/graph/_duck_delay_st_",
+            "tempo": false,
+            "maximum": 4.0,
+            "label": "FX Lvl",
+            "steps": 33,
+            "page": 0,
+            "port": "EFFECT",
+            "dividers": null,
+            "group": null,
+            "minimum": -16.0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "instance": "/graph/_duck_delay_st_",
+            "tempo": false,
+            "maximum": 56.0,
+            "label": "Duck",
+            "steps": 33,
+            "page": 0,
+            "port": "AMOUNT",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "instance": "/graph/_duck_delay_st_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "PINGPONG",
+            "steps": 33,
+            "page": 0,
+            "port": "PINGPONG",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "instance": "/graph/_duck_delay_st_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "COLORATION",
+            "steps": 33,
+            "page": 0,
+            "port": "COLORATION",
+            "dividers": null,
+            "group": null,
+            "minimum": -1.0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/potentiometer1": [
+        {
+            "instance": "/graph/_duck_delay_st_",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "FEEDBACK",
+            "steps": 33,
+            "page": 0,
+            "port": "FEEDBACK",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "instance": "/graph/xfade",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "DuckDelay",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group3": [],
+    "/hmi/footswitch3": [],
+    "/hmi/footswitch2": [
+        {
+            "instance": "/graph/xfade_1",
+            "tempo": false,
+            "maximum": 1.0,
+            "label": "Stereo Input",
+            "steps": 33,
+            "page": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch4": [
+        {
+            "instance": "/pedalboard",
+            "tempo": false,
+            "maximum": 280.0,
+            "label": "Tap",
+            "steps": 260,
+            "page": 0,
+            "port": ":bpm",
+            "dividers": null,
+            "group": null,
+            "minimum": 20.0
+        }
+    ],
+    "/hmi/potentiometer8": [
+        {
+            "instance": "/graph/_duck_delay_st_",
+            "tempo": false,
+            "maximum": 2.0,
+            "label": "RELEASE",
+            "steps": 33,
+            "page": 0,
+            "port": "RELEASE",
+            "dividers": null,
+            "group": null,
+            "minimum": 0.05000000074505806
+        }
+    ],
+    "/hmi/group2": []
+}
