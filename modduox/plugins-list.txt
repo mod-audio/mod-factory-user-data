@@ -40,9 +40,7 @@ Harmless.lv2
 hip2b.lv2
 invada.lv2
 Kars.lv2
-mclk.lv2
 midifilter.lv2
-midigen.lv2
 mindi.lv2
 mod-2voices.lv2
 mod-ams.lv2
@@ -93,7 +91,6 @@ mod-toggleswitch4.lv2
 Modulay.lv2
 mod-volume-2x2.lv2
 mod-volume.lv2
-mtc.lv2
 mud.lv2
 MVerb.lv2
 Nekobi.lv2

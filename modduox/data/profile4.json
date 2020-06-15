@@ -1,0 +1,21 @@
+{
+    "outputMode": 0,
+    "midiChannelForSnapshotsNavigation": 0,
+    "transportBPM": 120,
+    "output1volume": 0.0,
+    "transportBPB": 4,
+    "transportSource": 0,
+    "midiClockSend": false,
+    "headphoneVolume": -6.0,
+    "inputMode": 0,
+    "headphoneBypass": false,
+    "midiChannelForPedalboardsNavigation": 0,
+    "input2volume": 0.0,
+    "masterVolumeChannelMode": 0,
+    "output2volume": 0.0,
+    "inputStereoLink": false,
+    "index": 4,
+    "outputStereoLink": true,
+    "expPedalMode": 1,
+    "input1volume": 16.0
+}
