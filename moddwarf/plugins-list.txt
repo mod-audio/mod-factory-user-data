@@ -1,0 +1,8 @@
+amsynth.lv2
+eg-metro.lv2
+fat1.lv2
+fil4.lv2
+mod-volume-2x2.lv2
+mod-volume.lv2
+stepseq_s8n4.lv2
+tinygain.lv2
