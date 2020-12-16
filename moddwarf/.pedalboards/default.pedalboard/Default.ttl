@@ -8,62 +8,80 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <playback_1> .
+    ingen:tail <stereo/outR> ;
+    ingen:head <playback_2> .
 
 _:b2
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <playback_2> .
+    ingen:tail <stereo/outL> ;
+    ingen:head <playback_1> .
 
 _:b3
     ingen:tail <capture_1> ;
-    ingen:head <Gain2x2/In1> .
+    ingen:head <stereo/inL> .
 
 _:b4
     ingen:tail <capture_2> ;
-    ingen:head <Gain2x2/In2> .
+    ingen:head <stereo/inR> .
 
-<Gain2x2>
-    ingen:canvasX 2318.0 ;
-    ingen:canvasY 277.0 ;
+<stereo>
+    ingen:canvasX 2767.0 ;
+    ingen:canvasY 361.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
-    lv2:minorVersion 1 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 11 ;
-    lv2:port <Gain2x2/In1> ,
-             <Gain2x2/In2> ,
-             <Gain2x2/Out1> ,
-             <Gain2x2/Out2> ,
-             <Gain2x2/Gain> ,
-             <Gain2x2/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    lv2:minorVersion 770 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 6 ;
+    lv2:port <stereo/inL> ,
+             <stereo/inR> ,
+             <stereo/outL> ,
+             <stereo/outR> ,
+             <stereo/gain> ,
+             <stereo/enable> ,
+             <stereo/mute> ,
+             <stereo/level> ,
+             <stereo/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/tinygain#stereo> ;
+    pedal:instanceNumber 1 ;
     pedal:preset <> ;
     a ingen:Block .
 
-<Gain2x2/In1>
+<stereo/inL>
     a lv2:AudioPort ,
         lv2:InputPort .
 
-<Gain2x2/In2>
+<stereo/inR>
     a lv2:AudioPort ,
         lv2:InputPort .
 
-<Gain2x2/In1>
+<stereo/inL>
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<Gain2x2/In2>
+<stereo/inR>
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<Gain2x2/Gain>
+<stereo/enable>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo/mute>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Gain2x2/:bypass>
+<stereo/gain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo/level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<stereo/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -160,7 +178,7 @@ _:b4
     a atom:AtomPort ,
         lv2:OutputPort .
 
-<midi_legacy_mode>
+<midi_separated_mode>
     ingen:value 0 ;
     lv2:index 11 ;
     a atom:AtomPort ,
@@ -168,8 +186,8 @@ _:b4
 
 <>
     doap:name "Default" ;
-    pedal:unitName "MOD Duo X" ;
-    pedal:unitModel "duox:aarch64-a53" ;
+    pedal:unitName "MOD Dwarf" ;
+    pedal:unitModel "dwarf:aarch64-a35" ;
     pedal:width 3840 ;
     pedal:height 1738 ;
     pedal:addressings <addressings.json> ;
@@ -180,11 +198,11 @@ _:b4
               _:b2 ,
               _:b3 ,
               _:b4 ;
-    ingen:block <Gain2x2> ;
+    ingen:block <stereo> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
-             <midi_legacy_mode> ,
+             <midi_separated_mode> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

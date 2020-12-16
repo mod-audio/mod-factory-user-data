@@ -1,1 +1,25 @@
-{"/bpm": [], "/hmi/knob2": [{"dividers": null, "port": "Gain", "page": 0, "instance": "/graph/Gain2x2", "tempo": null, "maximum": 12.0, "label": "Output Volume", "steps": 33, "minimum": -20.0}], "/hmi/potentiometer8": [], "/hmi/knob1": [], "/hmi/potentiometer7": [], "/hmi/potentiometer4": [], "/hmi/potentiometer5": [], "/hmi/potentiometer2": [], "/hmi/potentiometer3": [], "/hmi/potentiometer1": [], "/hmi/footswitch1": [], "/hmi/potentiometer6": [], "/hmi/footswitch3": [], "/hmi/footswitch2": [], "/hmi/footswitch4": []}
+{
+    "/bpm": [],
+    "/hmi/footswitch1": [],
+    "/hmi/footswitch2": [],
+    "/hmi/group1": [],
+    "/hmi/knob1": [],
+    "/hmi/knob3": [
+        {
+            "label": "Gain",
+            "subpage": 0,
+            "instance": "/graph/stereo",
+            "maximum": 20.0,
+            "minimum": -20.0,
+            "steps": 33,
+            "page": 0,
+            "group": null,
+            "dividers": null,
+            "momentary": 0,
+            "port": "gain",
+            "coloured": false,
+            "tempo": false
+        }
+    ],
+    "/hmi/knob2": []
+}
