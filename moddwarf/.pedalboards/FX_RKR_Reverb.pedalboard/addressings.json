@@ -1,0 +1,163 @@
+{
+    "/hmi/knob1": [
+        {
+            "label": "St Input",
+            "steps": 33,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 0,
+            "tempo": false,
+            "port": ":bypass",
+            "momentary": 0,
+            "instance": "/graph/xfade",
+            "group": null,
+            "maximum": 1.0,
+            "minimum": 0.0
+        },
+        {
+            "label": "Decay",
+            "steps": 127,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 1,
+            "tempo": false,
+            "port": "TIME",
+            "momentary": 0,
+            "instance": "/graph/reve",
+            "group": null,
+            "maximum": 127.0,
+            "minimum": 0.0
+        },
+        {
+            "label": "Predelay",
+            "steps": 127,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 2,
+            "tempo": false,
+            "port": "IDEL",
+            "momentary": 0,
+            "instance": "/graph/reve",
+            "group": null,
+            "maximum": 127.0,
+            "minimum": 0.0
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob3": [
+        {
+            "label": "Damping",
+            "steps": 63,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 1,
+            "tempo": false,
+            "port": "DAMP",
+            "momentary": 0,
+            "instance": "/graph/reve",
+            "group": null,
+            "maximum": 127.0,
+            "minimum": 64.0
+        },
+        {
+            "label": "Mix",
+            "steps": 127,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 2,
+            "tempo": false,
+            "port": "WETDRY",
+            "momentary": 0,
+            "instance": "/graph/reve",
+            "group": null,
+            "maximum": 127.0,
+            "minimum": 0.0
+        },
+        {
+            "label": "Type",
+            "steps": 1,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 0,
+            "tempo": false,
+            "port": "TYPE",
+            "momentary": 0,
+            "instance": "/graph/reve",
+            "group": null,
+            "maximum": 1.0,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "label": "Preset",
+            "steps": 33,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 0,
+            "tempo": false,
+            "port": ":presets",
+            "momentary": 0,
+            "instance": "/graph/reve",
+            "group": null,
+            "maximum": 14,
+            "minimum": -1.0
+        },
+        {
+            "label": "Room Size",
+            "steps": 126,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 1,
+            "tempo": false,
+            "port": "RS",
+            "momentary": 0,
+            "instance": "/graph/reve",
+            "group": null,
+            "maximum": 127.0,
+            "minimum": 1.0
+        },
+        {
+            "label": "PDLY FBK",
+            "steps": 127,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 2,
+            "tempo": false,
+            "port": "IDELFB",
+            "momentary": 0,
+            "instance": "/graph/reve",
+            "group": null,
+            "maximum": 127.0,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "label": "Reverb",
+            "steps": 33,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 0,
+            "tempo": false,
+            "port": ":bypass",
+            "momentary": 0,
+            "instance": "/graph/reve",
+            "group": null,
+            "maximum": 1.0,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch2": []
+}

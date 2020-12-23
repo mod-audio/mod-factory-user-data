@@ -1,0 +1,84 @@
+[
+    {
+        "title": "CHAINS: Guitar",
+        "pedalboards": [
+            {
+                "title": "GTR:Super Clean Rig",
+                "bundle": "/root/.pedalboards/GTR_Super_Clean_.pedalboard"
+            },
+            {
+                "title": "GTR:Sub Vintage Rig",
+                "bundle": "/root/.pedalboards/GTR_Sub_Vintage_.pedalboard"
+            },
+            {
+                "title": "GTR:Destroyer Rig",
+                "bundle": "/root/.pedalboards/GTR_Destroyer_Ri.pedalboard"
+            }
+        ]
+    },
+    {
+        "title": "CHAINS: Bass",
+        "pedalboards": [
+            {
+                "title": "BASS:SVTube Rig",
+                "bundle": "/root/.pedalboards/BASS_SVTube_Rig.pedalboard"
+            }
+        ]
+    },
+    {
+        "title": "CHAINS: Synths",
+        "pedalboards": [
+            {
+                "title": "SYN:Quick FX",
+                "bundle": "/root/.pedalboards/SYN_Quick_FX.pedalboard"
+            }
+        ]
+    },
+    {
+        "title": "CHAINS: Drum Machines",
+        "pedalboards": [
+            {
+                "title": "DRM:Quick FX",
+                "bundle": "/root/.pedalboards/DRM_Quick_FX-74622.pedalboard"
+            }
+        ]
+    },
+    {
+        "title": "EFFECTS",
+        "pedalboards": [
+            {
+                "title": "FX:Muff & DS1",
+                "bundle": "/root/.pedalboards/FX_Muff_DS1.pedalboard"
+            },
+            {
+                "title": "FX:Bollie Delay",
+                "bundle": "/root/.pedalboards/FX_Bollie_Delay-60587.pedalboard"
+            },
+            {
+                "title": "FX:RKR Reverb",
+                "bundle": "/root/.pedalboards/FX_RKR_Reverb.pedalboard"
+            },
+            {
+                "title": "FX:Calf Phaser",
+                "bundle": "/root/.pedalboards/FX_Calf_Phaser.pedalboard"
+            },
+            {
+                "title": "FX:Double Pitch",
+                "bundle": "/root/.pedalboards/FX_Double_Pitch.pedalboard"
+            },
+            {
+                "title": "FX:Auto Tune",
+                "bundle": "/root/.pedalboards/FX_Auto_Tune.pedalboard"
+            }
+        ]
+    },
+    {
+        "title": "INSTRUMENTS",
+        "pedalboards": [
+            {
+                "title": "INST:Acid Synth",
+                "bundle": "/root/.pedalboards/INST_Acid_Synth.pedalboard"
+            }
+        ]
+    }
+]

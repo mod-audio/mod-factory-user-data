@@ -1,0 +1,179 @@
+{
+    "/hmi/knob3": [
+        {
+            "momentary": 0,
+            "label": "Mod depth",
+            "subpage": 0,
+            "maximum": 10800.0,
+            "group": null,
+            "instance": "/graph/Phaser",
+            "coloured": false,
+            "minimum": 0.0,
+            "dividers": null,
+            "port": "mod_depth",
+            "page": 0,
+            "steps": 33,
+            "tempo": false
+        },
+        {
+            "momentary": 0,
+            "label": "# Stages",
+            "subpage": 1,
+            "maximum": 12.0,
+            "group": null,
+            "instance": "/graph/Phaser",
+            "coloured": false,
+            "minimum": 1.0,
+            "dividers": null,
+            "port": "stages",
+            "page": 0,
+            "steps": 11,
+            "tempo": false
+        },
+        {
+            "momentary": 0,
+            "label": "Stereo phase",
+            "subpage": 2,
+            "maximum": 360.0,
+            "group": null,
+            "instance": "/graph/Phaser",
+            "coloured": false,
+            "minimum": 0.0,
+            "dividers": null,
+            "port": "stereo",
+            "page": 0,
+            "steps": 33,
+            "tempo": false
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "momentary": 0,
+            "label": "Mod rate",
+            "subpage": 0,
+            "maximum": 20.0,
+            "group": null,
+            "instance": "/graph/Phaser",
+            "coloured": false,
+            "minimum": 0.0099999997764825821,
+            "dividers": 0.33300000000000002,
+            "port": "mod_rate",
+            "page": 0,
+            "steps": 33,
+            "tempo": false
+        },
+        {
+            "momentary": 0,
+            "label": "Center Freq",
+            "subpage": 1,
+            "maximum": 20000.0,
+            "group": null,
+            "instance": "/graph/Phaser",
+            "coloured": false,
+            "minimum": 20.0,
+            "dividers": null,
+            "port": "base_freq",
+            "page": 0,
+            "steps": 33,
+            "tempo": false
+        },
+        {
+            "momentary": 0,
+            "label": "Dry Amount",
+            "subpage": 2,
+            "maximum": 4.0,
+            "group": null,
+            "instance": "/graph/Phaser",
+            "coloured": false,
+            "minimum": 0.0,
+            "dividers": null,
+            "port": "dry",
+            "page": 0,
+            "steps": 33,
+            "tempo": false
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "momentary": 0,
+            "label": "Phaser",
+            "subpage": 0,
+            "maximum": 1.0,
+            "group": null,
+            "instance": "/graph/Phaser",
+            "coloured": false,
+            "minimum": 0.0,
+            "dividers": null,
+            "port": ":bypass",
+            "page": 0,
+            "steps": 33,
+            "tempo": false
+        }
+    ],
+    "/hmi/group1": [],
+    "/bpm": [],
+    "/hmi/knob1": [
+        {
+            "momentary": 0,
+            "label": "St Input",
+            "subpage": 0,
+            "maximum": 1.0,
+            "group": null,
+            "instance": "/graph/xfade",
+            "coloured": false,
+            "minimum": 0.0,
+            "dividers": null,
+            "port": ":bypass",
+            "page": 0,
+            "steps": 33,
+            "tempo": false
+        },
+        {
+            "momentary": 0,
+            "label": "Feedback",
+            "subpage": 1,
+            "maximum": 0.99000000953674316,
+            "group": null,
+            "instance": "/graph/Phaser",
+            "coloured": false,
+            "minimum": -0.99000000953674316,
+            "dividers": null,
+            "port": "feedback",
+            "page": 0,
+            "steps": 33,
+            "tempo": false
+        },
+        {
+            "momentary": 0,
+            "label": "Amount",
+            "subpage": 2,
+            "maximum": 4.0,
+            "group": null,
+            "instance": "/graph/Phaser",
+            "coloured": false,
+            "minimum": 0.0,
+            "dividers": null,
+            "port": "amount",
+            "page": 0,
+            "steps": 33,
+            "tempo": false
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "momentary": 0,
+            "label": "Reset",
+            "subpage": 0,
+            "maximum": 1.0,
+            "group": null,
+            "instance": "/graph/Phaser",
+            "coloured": false,
+            "minimum": 0.0,
+            "dividers": null,
+            "port": "reset",
+            "page": 0,
+            "steps": 1,
+            "tempo": false
+        }
+    ]
+}

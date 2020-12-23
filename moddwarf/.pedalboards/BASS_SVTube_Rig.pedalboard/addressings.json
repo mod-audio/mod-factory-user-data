@@ -1,0 +1,179 @@
+{
+    "/hmi/group1": [],
+    "/hmi/knob1": [
+        {
+            "label": "Dry/Comp",
+            "subpage": 0,
+            "port": "xfade",
+            "tempo": false,
+            "instance": "/graph/xfade",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "minimum": -1.0,
+            "steps": 33,
+            "page": 0
+        },
+        {
+            "label": "BASS",
+            "subpage": 1,
+            "port": "BASS",
+            "tempo": false,
+            "instance": "/graph/_ampegsvt_",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "steps": 33,
+            "page": 0
+        },
+        {
+            "label": "VOLUME",
+            "subpage": 2,
+            "port": "VOLUME",
+            "tempo": false,
+            "instance": "/graph/_ampegsvt_",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "label": "Compressor",
+            "subpage": 0,
+            "port": ":bypass",
+            "tempo": false,
+            "instance": "/graph/xfade",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "label": "Threshold",
+            "subpage": 0,
+            "port": "threshold",
+            "tempo": false,
+            "instance": "/graph/mono",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 0.0,
+            "minimum": -36.0,
+            "steps": 33,
+            "page": 0
+        },
+        {
+            "label": "Cabinet",
+            "subpage": 2,
+            "port": "Model",
+            "tempo": false,
+            "instance": "/graph/cabsim_bass",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 5.0,
+            "minimum": 0.0,
+            "steps": 5,
+            "page": 0
+        },
+        {
+            "label": "MIDDLE",
+            "subpage": 1,
+            "port": "MIDDLE",
+            "tempo": false,
+            "instance": "/graph/_ampegsvt_",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "label": "Ratio",
+            "subpage": 0,
+            "port": "ratio",
+            "tempo": false,
+            "instance": "/graph/mono",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 20.0,
+            "minimum": 1.0,
+            "steps": 33,
+            "page": 0
+        },
+        {
+            "label": "Mic Position",
+            "subpage": 2,
+            "port": "MicPos",
+            "tempo": false,
+            "instance": "/graph/cabsim_bass",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 3.0,
+            "minimum": 0.0,
+            "steps": 3,
+            "page": 0
+        },
+        {
+            "label": "TREBLE",
+            "subpage": 1,
+            "port": "TREBLE",
+            "tempo": false,
+            "instance": "/graph/_ampegsvt_",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/bpm": [],
+    "/hmi/footswitch2": [
+        {
+            "label": "-Octave",
+            "subpage": 0,
+            "port": ":bypass",
+            "tempo": false,
+            "instance": "/graph/xfade_1",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "steps": 33,
+            "page": 0
+        }
+    ]
+}

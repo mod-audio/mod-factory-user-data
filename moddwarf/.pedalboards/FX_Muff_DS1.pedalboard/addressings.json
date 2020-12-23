@@ -1,0 +1,179 @@
+{
+    "/hmi/knob2": [
+        {
+            "coloured": false,
+            "group": null,
+            "port": "xfade",
+            "maximum": 1.0,
+            "subpage": 0,
+            "momentary": 0,
+            "label": "Dry/Wet",
+            "steps": 33,
+            "tempo": false,
+            "dividers": null,
+            "page": 0,
+            "instance": "/graph/xfade_1",
+            "minimum": -1.0
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "port": "Level",
+            "maximum": 1.0,
+            "subpage": 1,
+            "momentary": 0,
+            "label": "BM Level",
+            "steps": 33,
+            "tempo": false,
+            "dividers": null,
+            "page": 0,
+            "instance": "/graph/BigMuffPi",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "port": "Level",
+            "maximum": 0.99000000953674316,
+            "subpage": 2,
+            "momentary": 0,
+            "label": "DS1 lvl",
+            "steps": 33,
+            "tempo": false,
+            "dividers": null,
+            "page": 0,
+            "instance": "/graph/DS1",
+            "minimum": 0.0099999997764825821
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "coloured": false,
+            "group": null,
+            "port": ":bypass",
+            "maximum": 1.0,
+            "subpage": 0,
+            "momentary": 0,
+            "label": "St Input",
+            "steps": 33,
+            "tempo": false,
+            "dividers": null,
+            "page": 0,
+            "instance": "/graph/xfade",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "port": "Tone",
+            "maximum": 1.0,
+            "subpage": 1,
+            "momentary": 0,
+            "label": "BM Tone",
+            "steps": 33,
+            "tempo": false,
+            "dividers": null,
+            "page": 0,
+            "instance": "/graph/BigMuffPi",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "port": "Tone",
+            "maximum": 0.99000000953674316,
+            "subpage": 2,
+            "momentary": 0,
+            "label": "DS1 Tone",
+            "steps": 33,
+            "tempo": false,
+            "dividers": null,
+            "page": 0,
+            "instance": "/graph/DS1",
+            "minimum": 0.0099999997764825821
+        }
+    ],
+    "/hmi/group1": [],
+    "/bpm": [],
+    "/hmi/footswitch2": [
+        {
+            "coloured": false,
+            "group": null,
+            "port": ":bypass",
+            "maximum": 1.0,
+            "subpage": 0,
+            "momentary": 0,
+            "label": "DS1",
+            "steps": 33,
+            "tempo": false,
+            "dividers": null,
+            "page": 0,
+            "instance": "/graph/DS1",
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "coloured": false,
+            "group": null,
+            "port": "Sustain",
+            "maximum": 1.0,
+            "subpage": 1,
+            "momentary": 0,
+            "label": "BM Sustain",
+            "steps": 33,
+            "tempo": false,
+            "dividers": null,
+            "page": 0,
+            "instance": "/graph/BigMuffPi",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "port": "Dist",
+            "maximum": 0.99000000953674316,
+            "subpage": 2,
+            "momentary": 0,
+            "label": "DS1 Dist",
+            "steps": 33,
+            "tempo": false,
+            "dividers": null,
+            "page": 0,
+            "instance": "/graph/DS1",
+            "minimum": 0.0099999997764825821
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "port": "gain",
+            "maximum": 20.0,
+            "subpage": 0,
+            "momentary": 0,
+            "label": "Wet Lvl",
+            "steps": 33,
+            "tempo": false,
+            "dividers": null,
+            "page": 0,
+            "instance": "/graph/mono",
+            "minimum": -20.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "coloured": false,
+            "group": null,
+            "port": ":bypass",
+            "maximum": 1.0,
+            "subpage": 0,
+            "momentary": 0,
+            "label": "Big Muff",
+            "steps": 33,
+            "tempo": false,
+            "dividers": null,
+            "page": 0,
+            "instance": "/graph/BigMuffPi",
+            "minimum": 0.0
+        }
+    ]
+}

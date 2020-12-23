@@ -1,0 +1,179 @@
+{
+    "/hmi/knob1": [
+        {
+            "label": "St Input",
+            "steps": 33,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 0,
+            "tempo": false,
+            "port": ":bypass",
+            "momentary": 0,
+            "instance": "/graph/xfade",
+            "group": null,
+            "maximum": 1.0,
+            "minimum": 0.0
+        },
+        {
+            "label": "Dry/Wet",
+            "steps": 33,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 1,
+            "tempo": false,
+            "port": "xfade",
+            "momentary": 0,
+            "instance": "/graph/xfade_1",
+            "group": null,
+            "maximum": 1.0,
+            "minimum": -1.0
+        },
+        {
+            "label": "Fidelity",
+            "steps": 3,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 2,
+            "tempo": false,
+            "port": "Fidelity",
+            "momentary": 0,
+            "instance": "/graph/_2Voices",
+            "group": null,
+            "maximum": 3.0,
+            "minimum": 0.0
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob3": [
+        {
+            "label": "Step 2",
+            "steps": 36,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 0,
+            "tempo": false,
+            "port": "Step2",
+            "momentary": 0,
+            "instance": "/graph/_2Voices",
+            "group": null,
+            "maximum": 24.0,
+            "minimum": -12.0
+        },
+        {
+            "label": "PAN Width",
+            "steps": 33,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 2,
+            "tempo": false,
+            "port": "width",
+            "momentary": 0,
+            "instance": "/graph/PingPongPan",
+            "group": null,
+            "maximum": 100.0,
+            "minimum": 0.0
+        },
+        {
+            "label": "Gain 2",
+            "steps": 33,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 1,
+            "tempo": false,
+            "port": "Gain_2",
+            "momentary": 0,
+            "instance": "/graph/_2Voices",
+            "group": null,
+            "maximum": 20.0,
+            "minimum": -20.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "label": "Step 1",
+            "steps": 36,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 0,
+            "tempo": false,
+            "port": "Step1",
+            "momentary": 0,
+            "instance": "/graph/_2Voices",
+            "group": null,
+            "maximum": 24.0,
+            "minimum": -12.0
+        },
+        {
+            "label": "Pan frq",
+            "steps": 33,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 2,
+            "tempo": false,
+            "port": "freq",
+            "momentary": 0,
+            "instance": "/graph/PingPongPan",
+            "group": null,
+            "maximum": 100.0,
+            "minimum": 0.0
+        },
+        {
+            "label": "Gain 1",
+            "steps": 33,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 1,
+            "tempo": false,
+            "port": "Gain_1",
+            "momentary": 0,
+            "instance": "/graph/_2Voices",
+            "group": null,
+            "maximum": 20.0,
+            "minimum": -20.0
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "label": "Pitch Shift",
+            "steps": 33,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 0,
+            "tempo": false,
+            "port": ":bypass",
+            "momentary": 0,
+            "instance": "/graph/xfade_1",
+            "group": null,
+            "maximum": 1.0,
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "label": "AutoPan",
+            "steps": 33,
+            "coloured": false,
+            "dividers": null,
+            "page": 0,
+            "subpage": 0,
+            "tempo": false,
+            "port": ":bypass",
+            "momentary": 0,
+            "instance": "/graph/PingPongPan",
+            "group": null,
+            "maximum": 1.0,
+            "minimum": 0.0
+        }
+    ]
+}

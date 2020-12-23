@@ -1,0 +1,179 @@
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "label": "Baja TubeDriver",
+            "subpage": 0,
+            "port": ":bypass",
+            "tempo": false,
+            "instance": "/graph/_bajatubedriver_",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "label": "DRIVE",
+            "subpage": 0,
+            "port": "DRIVE",
+            "tempo": false,
+            "instance": "/graph/_bajatubedriver_",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "steps": 33,
+            "page": 0
+        },
+        {
+            "label": "Gain",
+            "subpage": 1,
+            "port": "Gain",
+            "tempo": false,
+            "instance": "/graph/onyx",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 100.0,
+            "minimum": 1.0,
+            "steps": 33,
+            "page": 0
+        },
+        {
+            "label": "Bass",
+            "subpage": 2,
+            "port": "Bass",
+            "tempo": false,
+            "instance": "/graph/onyx",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "label": "TONE",
+            "subpage": 0,
+            "port": "TONE",
+            "tempo": false,
+            "instance": "/graph/_bajatubedriver_",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "steps": 33,
+            "page": 0
+        },
+        {
+            "label": "Character",
+            "subpage": 1,
+            "port": "Character",
+            "tempo": false,
+            "instance": "/graph/onyx",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 100.0,
+            "minimum": 0.0,
+            "steps": 33,
+            "page": 0
+        },
+        {
+            "label": "Mid",
+            "subpage": 2,
+            "port": "Mid",
+            "tempo": false,
+            "instance": "/graph/onyx",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "label": "VOLUME",
+            "subpage": 0,
+            "port": "VOLUME",
+            "tempo": false,
+            "instance": "/graph/_bajatubedriver_",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "steps": 33,
+            "page": 0
+        },
+        {
+            "label": "Cab",
+            "subpage": 1,
+            "port": "Model",
+            "tempo": false,
+            "instance": "/graph/faIR_cabsim",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 12.0,
+            "minimum": 0.0,
+            "steps": 12,
+            "page": 0
+        },
+        {
+            "label": "Treble",
+            "subpage": 2,
+            "port": "Treble",
+            "tempo": false,
+            "instance": "/graph/onyx",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/bpm": [],
+    "/hmi/footswitch2": [
+        {
+            "label": "Amp",
+            "subpage": 0,
+            "port": "clip",
+            "tempo": false,
+            "instance": "/graph/onyx",
+            "group": null,
+            "momentary": 0,
+            "dividers": null,
+            "coloured": false,
+            "maximum": 100000.0,
+            "minimum": 0.0,
+            "steps": 33,
+            "page": 0
+        }
+    ]
+}

@@ -1,0 +1,163 @@
+{
+    "/bpm": [],
+    "/hmi/knob3": [
+        {
+            "minimum": 0.0,
+            "port": "corr",
+            "label": "Correction",
+            "tempo": false,
+            "group": null,
+            "maximum": 1.0,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 270,
+            "page": 0,
+            "instance": "/graph/fat1",
+            "subpage": 1,
+            "coloured": false
+        },
+        {
+            "minimum": 400.0,
+            "port": "tuning",
+            "label": "Tuning",
+            "tempo": false,
+            "group": null,
+            "maximum": 480.0,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 400,
+            "page": 0,
+            "instance": "/graph/fat1",
+            "subpage": 2,
+            "coloured": false
+        },
+        {
+            "minimum": 0.0,
+            "port": "channelf",
+            "label": "MIDI CHANNEL",
+            "tempo": false,
+            "group": null,
+            "maximum": 16.0,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 16,
+            "page": 0,
+            "instance": "/graph/fat1",
+            "subpage": 0,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.0,
+            "port": "mode",
+            "label": "Mode",
+            "tempo": false,
+            "group": null,
+            "maximum": 2.0,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 2,
+            "page": 0,
+            "instance": "/graph/fat1",
+            "subpage": 0,
+            "coloured": false
+        },
+        {
+            "minimum": 0.019999999552965164,
+            "port": "filter",
+            "label": "Speed",
+            "tempo": false,
+            "group": null,
+            "maximum": 0.5,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 200,
+            "page": 0,
+            "instance": "/graph/fat1",
+            "subpage": 1,
+            "coloured": false
+        },
+        {
+            "minimum": 0.0,
+            "port": "bias",
+            "label": "Bias",
+            "tempo": false,
+            "group": null,
+            "maximum": 1.0,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 270,
+            "page": 0,
+            "instance": "/graph/fat1",
+            "subpage": 2,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "St Input",
+            "tempo": false,
+            "group": null,
+            "maximum": 1.0,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "page": 0,
+            "instance": "/graph/xfade",
+            "subpage": 0,
+            "coloured": false
+        },
+        {
+            "minimum": -1.0,
+            "port": "xfade",
+            "label": "Dry/Wet",
+            "tempo": false,
+            "group": null,
+            "maximum": 1.0,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "page": 0,
+            "instance": "/graph/xfade_1",
+            "subpage": 1,
+            "coloured": false
+        },
+        {
+            "minimum": -2.0,
+            "port": "offset",
+            "label": "Offset",
+            "tempo": false,
+            "group": null,
+            "maximum": 2.0,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 400,
+            "page": 0,
+            "instance": "/graph/fat1",
+            "subpage": 2,
+            "coloured": false
+        }
+    ],
+    "/hmi/footswitch2": [],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "AutoTune",
+            "tempo": false,
+            "group": null,
+            "maximum": 1.0,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "page": 0,
+            "instance": "/graph/xfade_1",
+            "subpage": 0,
+            "coloured": false
+        }
+    ],
+    "/hmi/group1": []
+}

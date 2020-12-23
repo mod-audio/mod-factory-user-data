@@ -18,10 +18,12 @@ artyfx.lv2
 b_synth
 b_whirl_mod
 bolliedelay.lv2
+cabsim-bass.lv2
 cabsim-modern.lv2
 cabsim-vintage.lv2
 calf.lv2
 eg-metro.lv2
+fair-cabsim.lv2
 fat1.lv2
 fil4.lv2
 mod-volume-2x2.lv2
@@ -33,6 +35,7 @@ gx_bajatubedriver.lv2
 gx_cabinet.lv2
 gx_cstb.lv2
 gx_digital_delay.lv2
+gx_duck_delay_st.lv2
 gx_flanger.lv2
 gx_fumaster.lv2
 gx_fuzzface.lv2
@@ -51,6 +54,7 @@ gx_sd2lead.lv2
 gx_sfp.lv2
 gx_slowgear.lv2
 gx_studiopre.lv2
+gx_supersonic.lv2
 gx_timray.lv2
 gx_tonemachine.lv2
 gx_vfm.lv2
@@ -99,6 +103,8 @@ mod-supercapo.lv2
 mod-superwhammy.lv2
 mod-switchbox2.lv2
 mod-toggleswitch4.lv2
+mod-volume-2x2.lv2
+mod-volume.lv2
 mtc.lv2
 onyx.lv2
 rkr.lv2
