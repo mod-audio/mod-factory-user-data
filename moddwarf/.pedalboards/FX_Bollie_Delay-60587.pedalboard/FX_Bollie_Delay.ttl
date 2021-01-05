@@ -8,44 +8,44 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inB_left> .
-
-_:b2
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_right> .
-
-_:b3
-    ingen:tail <xfade/out_right> ;
-    ingen:head <bolliedelay/in_r> .
-
-_:b4
-    ingen:tail <stereo/outR> ;
-    ingen:head <playback_2> .
-
-_:b5
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_left> .
-
-_:b6
-    ingen:tail <capture_2> ;
-    ingen:head <xfade/inB_right> .
-
-_:b7
     ingen:tail <stereo/outL> ;
     ingen:head <playback_1> .
 
-_:b8
+_:b2
+    ingen:tail <capture_2> ;
+    ingen:head <xfade/inB_right> .
+
+_:b3
     ingen:tail <xfade/out_left> ;
     ingen:head <bolliedelay/in_l> .
 
-_:b9
-    ingen:tail <bolliedelay/out_r> ;
-    ingen:head <stereo/inR> .
+_:b4
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_left> .
 
-_:b10
+_:b5
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_right> .
+
+_:b6
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inB_left> .
+
+_:b7
+    ingen:tail <xfade/out_right> ;
+    ingen:head <bolliedelay/in_r> .
+
+_:b8
+    ingen:tail <stereo/outR> ;
+    ingen:head <playback_2> .
+
+_:b9
     ingen:tail <bolliedelay/out_l> ;
     ingen:head <stereo/inL> .
+
+_:b10
+    ingen:tail <bolliedelay/out_r> ;
+    ingen:head <stereo/inR> .
 
 <xfade>
     ingen:canvasX 739.0 ;
@@ -103,8 +103,8 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade/xfade>
-    ingen:value 1.000000 ;
+<xfade/mode>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -113,8 +113,8 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade/mode>
-    ingen:value 0.000000 ;
+<xfade/xfade>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -162,11 +162,6 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<stereo/enable>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <stereo/mute>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
@@ -174,6 +169,11 @@ _:b10
 
 <stereo/gain>
     ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo/enable>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -237,38 +237,8 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<bolliedelay/mix>
-    ingen:value 37.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/high_q>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/div_l>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/tap>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/tempo_mode>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/high_f>
-    ingen:value 22000.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/feedback>
-    ingen:value 43.750000 ;
+<bolliedelay/crossf>
+    ingen:value 50.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -277,7 +247,17 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<bolliedelay/low_q>
+<bolliedelay/low_f>
+    ingen:value 20.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/tempo_host>
+    ingen:value 120.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/div_l>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -287,18 +267,28 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<bolliedelay/tempo_host>
-    ingen:value 120.000000 ;
+<bolliedelay/high_f>
+    ingen:value 3774.856000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/tempo_mode>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/mix>
+    ingen:value 43.750000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/low_q>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <bolliedelay/div_r>
-    ingen:value 3.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/crossf>
-    ingen:value 50.000000 ;
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -307,8 +297,18 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<bolliedelay/low_f>
-    ingen:value 20.000000 ;
+<bolliedelay/high_q>
+    ingen:value 1.915000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/tap>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/feedback>
+    ingen:value 81.250000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -428,7 +428,7 @@ _:b10
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 15 ;
+    pedal:version 16 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,

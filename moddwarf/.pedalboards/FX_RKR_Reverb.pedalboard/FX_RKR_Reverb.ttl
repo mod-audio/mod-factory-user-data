@@ -8,44 +8,44 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <stereo/outR> ;
-    ingen:head <playback_2> .
-
-_:b2
     ingen:tail <reve/OUTPUT_L> ;
     ingen:head <stereo/inL> .
 
+_:b2
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_right> .
+
 _:b3
-    ingen:tail <xfade/out_left> ;
-    ingen:head <reve/INPUT_L> .
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inB_left> .
 
 _:b4
-    ingen:tail <stereo/outL> ;
-    ingen:head <playback_1> .
+    ingen:tail <stereo/outR> ;
+    ingen:head <playback_2> .
 
 _:b5
-    ingen:tail <reve/OUTPUT_R> ;
-    ingen:head <stereo/inR> .
+    ingen:tail <capture_2> ;
+    ingen:head <xfade/inB_right> .
 
 _:b6
     ingen:tail <xfade/out_right> ;
     ingen:head <reve/INPUT_R> .
 
 _:b7
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_right> .
+    ingen:tail <reve/OUTPUT_R> ;
+    ingen:head <stereo/inR> .
 
 _:b8
-    ingen:tail <capture_2> ;
-    ingen:head <xfade/inB_right> .
+    ingen:tail <xfade/out_left> ;
+    ingen:head <reve/INPUT_L> .
 
 _:b9
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_left> .
+    ingen:tail <stereo/outL> ;
+    ingen:head <playback_1> .
 
 _:b10
     ingen:tail <capture_1> ;
-    ingen:head <xfade/inB_left> .
+    ingen:head <xfade/inA_left> .
 
 <xfade>
     ingen:canvasX 767.0 ;
@@ -103,11 +103,6 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade/xfade>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <xfade/mode>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
@@ -115,6 +110,11 @@ _:b10
 
 <xfade/shape>
     ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade/xfade>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -162,11 +162,6 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<stereo/enable>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <stereo/mute>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
@@ -174,6 +169,11 @@ _:b10
 
 <stereo/gain>
     ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo/enable>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -189,7 +189,7 @@ _:b10
 <reve>
     ingen:canvasX 1711.0 ;
     ingen:canvasY 363.0 ;
-    ingen:enabled true ;
+    ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 0 ;
@@ -232,6 +232,11 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
+<reve/TYPE>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <reve/BYPASS>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
@@ -242,7 +247,17 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<reve/IDEL>
+<reve/RS>
+    ingen:value 30.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<reve/WETDRY>
+    ingen:value 94.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<reve/PAN>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -252,12 +267,7 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<reve/PAN>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<reve/TYPE>
+<reve/IDEL>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -267,28 +277,18 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<reve/LPF>
-    ingen:value 25040.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <reve/DAMP>
     ingen:value 106.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<reve/RS>
-    ingen:value 30.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<reve/WETDRY>
-    ingen:value 100.000000 ;
+<reve/LPF>
+    ingen:value 25040.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <reve/:bypass>
-    ingen:value 0 ;
+    ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -395,11 +395,11 @@ _:b10
     pedal:unitName "MOD Dwarf" ;
     pedal:unitModel "dwarf:aarch64-a35" ;
     pedal:width 3840 ;
-    pedal:height 1838 ;
+    pedal:height 1758 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 17 ;
+    pedal:version 18 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,

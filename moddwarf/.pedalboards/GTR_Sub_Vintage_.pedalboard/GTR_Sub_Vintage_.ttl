@@ -8,48 +8,48 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <Drop/Out> ;
-    ingen:head <_bajatubedriver_/in> .
-
-_:b2
-    ingen:tail <stereo/outR> ;
-    ingen:head <playback_2> .
-
-_:b3
-    ingen:tail <_supersonic_/out> ;
-    ingen:head <cabsim_vintage/In> .
-
-_:b4
-    ingen:tail <capture_1> ;
-    ingen:head <Drop/In> .
-
-_:b5
-    ingen:tail <PlateX2/outr> ;
-    ingen:head <stereo/inR> .
-
-_:b6
-    ingen:tail <PlateX2/outl> ;
-    ingen:head <stereo/inL> .
-
-_:b7
-    ingen:tail <cabsim_vintage_1/Out> ;
-    ingen:head <PlateX2/inr> .
-
-_:b8
     ingen:tail <_supersonic_/out> ;
     ingen:head <cabsim_vintage_1/In> .
 
+_:b2
+    ingen:tail <PlateX2/outl> ;
+    ingen:head <stereo/inL> .
+
+_:b3
+    ingen:tail <cabsim_vintage/Out> ;
+    ingen:head <PlateX2/inl> .
+
+_:b4
+    ingen:tail <PlateX2/outr> ;
+    ingen:head <stereo/inR> .
+
+_:b5
+    ingen:tail <capture_1> ;
+    ingen:head <Drop/In> .
+
+_:b6
+    ingen:tail <Drop/Out> ;
+    ingen:head <_bajatubedriver_/in> .
+
+_:b7
+    ingen:tail <_supersonic_/out> ;
+    ingen:head <cabsim_vintage/In> .
+
+_:b8
+    ingen:tail <cabsim_vintage_1/Out> ;
+    ingen:head <PlateX2/inr> .
+
 _:b9
-    ingen:tail <stereo/outL> ;
-    ingen:head <playback_1> .
+    ingen:tail <stereo/outR> ;
+    ingen:head <playback_2> .
 
 _:b10
     ingen:tail <_bajatubedriver_/out> ;
     ingen:head <_supersonic_/in> .
 
 _:b11
-    ingen:tail <cabsim_vintage/Out> ;
-    ingen:head <PlateX2/inl> .
+    ingen:tail <stereo/outL> ;
+    ingen:head <playback_1> .
 
 <cabsim_vintage>
     ingen:canvasX 2259.0 ;
@@ -122,8 +122,8 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_bajatubedriver_/BYPASS>
-    ingen:value 0.000000 ;
+<_bajatubedriver_/TONE>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -132,78 +132,18 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<_bajatubedriver_/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <_bajatubedriver_/VOLUME>
     ingen:value 0.344000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_bajatubedriver_/TONE>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <_bajatubedriver_/:bypass>
     ingen:value 1 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_supersonic_>
-    ingen:canvasX 1393.0 ;
-    ingen:canvasY 566.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 35 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 2 ;
-    lv2:port <_supersonic_/in> ,
-             <_supersonic_/out> ,
-             <_supersonic_/BYPASS> ,
-             <_supersonic_/GAIN> ,
-             <_supersonic_/BASS> ,
-             <_supersonic_/TREBLE> ,
-             <_supersonic_/VOLUME> ,
-             <_supersonic_/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_supersonic_#_supersonic_> ;
-    pedal:instanceNumber 5 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<_supersonic_/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<_supersonic_/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<_supersonic_/BYPASS>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_supersonic_/BASS>
-    ingen:value 0.250000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_supersonic_/VOLUME>
-    ingen:value 0.250000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_supersonic_/GAIN>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_supersonic_/TREBLE>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_supersonic_/:bypass>
-    ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -251,12 +191,12 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo/mute>
+<stereo/gain>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo/gain>
+<stereo/mute>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -267,6 +207,114 @@ _:b11
 
 <stereo/:bypass>
     ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_supersonic_>
+    ingen:canvasX 1393.0 ;
+    ingen:canvasY 566.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 35 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 2 ;
+    lv2:port <_supersonic_/in> ,
+             <_supersonic_/out> ,
+             <_supersonic_/BYPASS> ,
+             <_supersonic_/GAIN> ,
+             <_supersonic_/BASS> ,
+             <_supersonic_/TREBLE> ,
+             <_supersonic_/VOLUME> ,
+             <_supersonic_/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_supersonic_#_supersonic_> ;
+    pedal:instanceNumber 5 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<_supersonic_/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<_supersonic_/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<_supersonic_/GAIN>
+    ingen:value 0.101449 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_supersonic_/TREBLE>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_supersonic_/BYPASS>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_supersonic_/BASS>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_supersonic_/VOLUME>
+    ingen:value 0.250000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_supersonic_/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Drop>
+    ingen:canvasX 349.0 ;
+    ingen:canvasY 689.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 11 ;
+    lv2:port <Drop/In> ,
+             <Drop/Out> ,
+             <Drop/Step> ,
+             <Drop/Gain> ,
+             <Drop/Fidelity> ,
+             <Drop/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Drop> ;
+    pedal:instanceNumber 7 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Drop/In>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Drop/In>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Drop/Gain>
+    ingen:value 3.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Drop/Step>
+    ingen:value -12.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Drop/Fidelity>
+    ingen:value 2.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Drop/:bypass>
+    ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -351,11 +399,6 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<PlateX2/blend>
-    ingen:value 0.375000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <PlateX2/bandwidth>
     ingen:value 0.999500 ;
     a lv2:ControlPort ,
@@ -371,56 +414,13 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<PlateX2/blend>
+    ingen:value 0.250000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <PlateX2/:bypass>
     ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Drop>
-    ingen:canvasX 349.0 ;
-    ingen:canvasY 689.0 ;
-    ingen:enabled false ;
-    ingen:polyphonic false ;
-    lv2:microVersion 2 ;
-    lv2:minorVersion 0 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 11 ;
-    lv2:port <Drop/In> ,
-             <Drop/Out> ,
-             <Drop/Step> ,
-             <Drop/Gain> ,
-             <Drop/Fidelity> ,
-             <Drop/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mod-devel/Drop> ;
-    pedal:instanceNumber 7 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<Drop/In>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Drop/In>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Drop/Step>
-    ingen:value -12.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Drop/Gain>
-    ingen:value 3.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Drop/Fidelity>
-    ingen:value 2.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Drop/:bypass>
-    ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -526,12 +526,12 @@ _:b11
     doap:name "GTR:Sub Vintage Rig" ;
     pedal:unitName "MOD Dwarf" ;
     pedal:unitModel "dwarf:aarch64-a35" ;
-    pedal:width 2526 ;
-    pedal:height 1738 ;
+    pedal:width 3840 ;
+    pedal:height 1758 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 9 ;
+    pedal:version 11 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -546,11 +546,11 @@ _:b11
               _:b11 ;
     ingen:block <cabsim_vintage> ,
                 <_bajatubedriver_> ,
-                <_supersonic_> ,
                 <stereo> ,
+                <_supersonic_> ,
+                <Drop> ,
                 <cabsim_vintage_1> ,
-                <PlateX2> ,
-                <Drop> ;
+                <PlateX2> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,

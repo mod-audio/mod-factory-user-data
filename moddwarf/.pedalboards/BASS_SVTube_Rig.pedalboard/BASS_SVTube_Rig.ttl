@@ -8,52 +8,52 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <_ampegsvt_/out> ;
-    ingen:head <cabsim_bass/In> .
-
-_:b2
-    ingen:tail <mono/out> ;
-    ingen:head <xfade/inB_left> .
-
-_:b3
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_left> .
-
-_:b4
     ingen:tail <Drop/Out> ;
     ingen:head <xfade_1/inB_left> .
 
-_:b5
-    ingen:tail <cabsim_bass/Out> ;
-    ingen:head <stereo/inR> .
-
-_:b6
-    ingen:tail <stereo/outR> ;
-    ingen:head <playback_2> .
-
-_:b7
-    ingen:tail <stereo/outL> ;
-    ingen:head <playback_1> .
-
-_:b8
+_:b2
     ingen:tail <capture_1> ;
     ingen:head <mono/in> .
 
-_:b9
-    ingen:tail <Saturator/out_l> ;
-    ingen:head <_ampegsvt_/in> .
+_:b3
+    ingen:tail <cabsim_bass/Out> ;
+    ingen:head <stereo/inR> .
 
-_:b10
+_:b4
+    ingen:tail <stereo/outL> ;
+    ingen:head <playback_1> .
+
+_:b5
+    ingen:tail <stereo/outR> ;
+    ingen:head <playback_2> .
+
+_:b6
     ingen:tail <xfade_1/out_left> ;
     ingen:head <Saturator/in_l> .
 
-_:b11
+_:b7
+    ingen:tail <_ampegsvt_/out> ;
+    ingen:head <cabsim_bass/In> .
+
+_:b8
     ingen:tail <xfade/out_left> ;
     ingen:head <Saturator/in_l> .
 
-_:b12
+_:b9
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_left> .
+
+_:b10
+    ingen:tail <Saturator/out_l> ;
+    ingen:head <_ampegsvt_/in> .
+
+_:b11
     ingen:tail <xfade/out_left> ;
     ingen:head <Drop/In> .
+
+_:b12
+    ingen:tail <mono/out> ;
+    ingen:head <xfade/inB_left> .
 
 _:b13
     ingen:tail <cabsim_bass/Out> ;
@@ -98,18 +98,18 @@ _:b13
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<stereo/enable>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <stereo/mute>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<stereo/enable>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <stereo/gain>
-    ingen:value -10.000000 ;
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -164,8 +164,8 @@ _:b13
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/threshold>
-    ingen:value -31.500000 ;
+<mono/attack>
+    ingen:value 0.000351 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -174,18 +174,13 @@ _:b13
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<mono/threshold>
+    ingen:value -31.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <mono/noClip>
     ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/attack>
-    ingen:value 0.000351 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/rms>
-    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -194,8 +189,13 @@ _:b13
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<mono/rms>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <mono/gain>
-    ingen:value 0.000000 ;
+    ingen:value 6.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -223,7 +223,7 @@ _:b13
 <xfade>
     ingen:canvasX 651.0 ;
     ingen:canvasY 370.0 ;
-    ingen:enabled true ;
+    ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 516 ;
@@ -277,7 +277,7 @@ _:b13
         lv2:OutputPort .
 
 <xfade/xfade>
-    ingen:value 0.000000 ;
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -292,7 +292,7 @@ _:b13
         lv2:InputPort .
 
 <xfade/:bypass>
-    ingen:value 0 ;
+    ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -352,33 +352,8 @@ _:b13
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<Saturator/hp_post_freq>
-    ingen:value 10.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/p_freq>
-    ingen:value 2000.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/lp_post_freq>
-    ingen:value 20000.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/level_in>
-    ingen:value 7.513794 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/drive>
-    ingen:value 5.933929 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/blend>
-    ingen:value 10.000000 ;
+<Saturator/bypass>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -387,22 +362,7 @@ _:b13
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Saturator/bypass>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <Saturator/p_level>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/hp_pre_freq>
-    ingen:value 10.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/p_q>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -412,7 +372,47 @@ _:b13
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<Saturator/hp_pre_freq>
+    ingen:value 10.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <Saturator/level_out>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Saturator/hp_post_freq>
+    ingen:value 10.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Saturator/lp_post_freq>
+    ingen:value 20000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Saturator/p_freq>
+    ingen:value 2000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Saturator/level_in>
+    ingen:value 7.513794 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Saturator/blend>
+    ingen:value 10.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Saturator/drive>
+    ingen:value 5.933929 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Saturator/p_q>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -563,13 +563,13 @@ _:b13
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Drop/Gain>
-    ingen:value 3.000000 ;
+<Drop/Fidelity>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Drop/Fidelity>
-    ingen:value 1.000000 ;
+<Drop/Gain>
+    ingen:value 3.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -612,38 +612,13 @@ _:b13
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_ampegsvt_/MIDSWITCH>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <_ampegsvt_/BYPASS>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_ampegsvt_/LOWSWITCH>
+<_ampegsvt_/MIDSWITCH>
     ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_ampegsvt_/MIDDLE>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_ampegsvt_/VOLUME>
-    ingen:value 0.250000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_ampegsvt_/HIGHSWITCH>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_ampegsvt_/BASS>
-    ingen:value 0.406000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -652,8 +627,33 @@ _:b13
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<_ampegsvt_/VOLUME>
+    ingen:value 0.250000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_ampegsvt_/MIDDLE>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_ampegsvt_/LOWSWITCH>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_ampegsvt_/BASS>
+    ingen:value 0.563000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <_ampegsvt_/TREBLE>
-    ingen:value 0.569196 ;
+    ingen:value 0.481027 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_ampegsvt_/HIGHSWITCH>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -690,18 +690,18 @@ _:b13
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<cabsim_bass/MicPos>
-    ingen:value 1.000000 ;
+<cabsim_bass/Model>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <cabsim_bass/Attenuation>
-    ingen:value 0.000000 ;
+    ingen:value -22.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<cabsim_bass/Model>
-    ingen:value 0.000000 ;
+<cabsim_bass/MicPos>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -817,7 +817,7 @@ _:b13
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 3 ;
+    pedal:version 4 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,

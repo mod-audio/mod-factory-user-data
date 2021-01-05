@@ -8,44 +8,44 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inB_left> .
+    ingen:tail <Phaser/out_r> ;
+    ingen:head <stereo/inR> .
 
 _:b2
     ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_right> .
+    ingen:head <xfade/inB_left> .
 
 _:b3
-    ingen:tail <stereo/outR> ;
-    ingen:head <playback_2> .
-
-_:b4
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_left> .
-
-_:b5
-    ingen:tail <capture_2> ;
-    ingen:head <xfade/inB_right> .
-
-_:b6
-    ingen:tail <stereo/outL> ;
-    ingen:head <playback_1> .
-
-_:b7
-    ingen:tail <xfade/out_left> ;
-    ingen:head <Phaser/in_l> .
-
-_:b8
-    ingen:tail <xfade/out_right> ;
-    ingen:head <Phaser/in_r> .
-
-_:b9
     ingen:tail <Phaser/out_l> ;
     ingen:head <stereo/inL> .
 
+_:b4
+    ingen:tail <xfade/out_left> ;
+    ingen:head <Phaser/in_l> .
+
+_:b5
+    ingen:tail <stereo/outR> ;
+    ingen:head <playback_2> .
+
+_:b6
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_right> .
+
+_:b7
+    ingen:tail <xfade/out_right> ;
+    ingen:head <Phaser/in_r> .
+
+_:b8
+    ingen:tail <stereo/outL> ;
+    ingen:head <playback_1> .
+
+_:b9
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_left> .
+
 _:b10
-    ingen:tail <Phaser/out_r> ;
-    ingen:head <stereo/inR> .
+    ingen:tail <capture_2> ;
+    ingen:head <xfade/inB_right> .
 
 <xfade>
     ingen:canvasX 739.0 ;
@@ -167,13 +167,13 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo/enable>
-    ingen:value 1.000000 ;
+<stereo/gain>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo/gain>
-    ingen:value 0.000000 ;
+<stereo/enable>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -189,7 +189,7 @@ _:b10
 <Phaser>
     ingen:canvasX 1658.0 ;
     ingen:canvasY 343.1 ;
-    ingen:enabled true ;
+    ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 60 ;
@@ -230,8 +230,38 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
+<Phaser/mod_rate>
+    ingen:value 0.136000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <Phaser/mod_depth>
     ingen:value 5400.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Phaser/stages>
+    ingen:value 6.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Phaser/feedback>
+    ingen:value 0.681000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Phaser/base_freq>
+    ingen:value 1000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Phaser/dry>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Phaser/amount>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -245,38 +275,8 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Phaser/base_freq>
-    ingen:value 1000.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Phaser/feedback>
-    ingen:value 0.681000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Phaser/dry>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Phaser/stages>
-    ingen:value 6.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Phaser/mod_rate>
-    ingen:value 0.136000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Phaser/amount>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <Phaser/:bypass>
-    ingen:value 0 ;
+    ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -387,7 +387,7 @@ _:b10
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 16 ;
+    pedal:version 17 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,

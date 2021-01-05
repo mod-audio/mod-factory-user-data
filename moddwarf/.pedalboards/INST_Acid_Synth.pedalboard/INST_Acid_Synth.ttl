@@ -8,36 +8,36 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <midi_merger_out> ;
-    ingen:head <Nekobi/lv2_events_in> .
+    ingen:tail <Nekobi/lv2_audio_out_1> ;
+    ingen:head <_bajatubedriver_/in> .
 
 _:b2
-    ingen:tail <_duck_delay_st_/out> ;
-    ingen:head <stereo/inL> .
+    ingen:tail <_duck_delay_st_/out1> ;
+    ingen:head <stereo/inR> .
 
 _:b3
-    ingen:tail <stereo/outR> ;
-    ingen:head <playback_2> .
+    ingen:tail <_duck_delay_st_/out> ;
+    ingen:head <stereo/inL> .
 
 _:b4
     ingen:tail <stereo/outL> ;
     ingen:head <playback_1> .
 
 _:b5
-    ingen:tail <_bajatubedriver_/out> ;
-    ingen:head <_duck_delay_st_/in1> .
+    ingen:tail <stereo/outR> ;
+    ingen:head <playback_2> .
 
 _:b6
     ingen:tail <_bajatubedriver_/out> ;
-    ingen:head <_duck_delay_st_/in> .
+    ingen:head <_duck_delay_st_/in1> .
 
 _:b7
-    ingen:tail <Nekobi/lv2_audio_out_1> ;
-    ingen:head <_bajatubedriver_/in> .
+    ingen:tail <midi_merger_out> ;
+    ingen:head <Nekobi/lv2_events_in> .
 
 _:b8
-    ingen:tail <_duck_delay_st_/out1> ;
-    ingen:head <stereo/inR> .
+    ingen:tail <_bajatubedriver_/out> ;
+    ingen:head <_duck_delay_st_/in> .
 
 <Nekobi>
     ingen:canvasX 486.0 ;
@@ -72,7 +72,7 @@ _:b8
         lv2:InputPort .
 
 <Nekobi/resonance>
-    ingen:value 83.125000 ;
+    ingen:value 29.688000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -81,8 +81,8 @@ _:b8
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Nekobi/tuning>
-    ingen:value -4.000000 ;
+<Nekobi/volume>
+    ingen:value 100.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -91,18 +91,18 @@ _:b8
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Nekobi/waveform>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <Nekobi/decay>
     ingen:value 88.281250 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Nekobi/volume>
-    ingen:value 100.000000 ;
+<Nekobi/waveform>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Nekobi/cutoff>
+    ingen:value 6.250000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -111,8 +111,8 @@ _:b8
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Nekobi/cutoff>
-    ingen:value 6.250000 ;
+<Nekobi/tuning>
+    ingen:value -4.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -160,13 +160,13 @@ _:b8
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<stereo/enable>
-    ingen:value 1.000000 ;
+<stereo/mute>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo/mute>
-    ingen:value 0.000000 ;
+<stereo/enable>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -241,7 +241,7 @@ _:b8
 <_duck_delay_st_>
     ingen:canvasX 2295.3 ;
     ingen:canvasY 711.0 ;
-    ingen:enabled true ;
+    ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 3 ;
     lv2:minorVersion 28 ;
@@ -286,6 +286,11 @@ _:b8
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<_duck_delay_st_/ATTACK>
+    ingen:value 0.050000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <_duck_delay_st_/PINGPONG>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
@@ -293,11 +298,6 @@ _:b8
 
 <_duck_delay_st_/FEEDBACK>
     ingen:value 0.438000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_duck_delay_st_/ATTACK>
-    ingen:value 0.050000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -322,7 +322,7 @@ _:b8
         lv2:InputPort .
 
 <_duck_delay_st_/:bypass>
-    ingen:value 0 ;
+    ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -433,7 +433,7 @@ _:b8
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 2 ;
+    pedal:version 3 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
