@@ -8,40 +8,40 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <faIR_cabsim/Out> ;
-    ingen:head <shiroverb/lv2_audio_in_1> .
+    ingen:tail <stereo/outL> ;
+    ingen:head <playback_1> .
 
 _:b2
     ingen:tail <mono/out> ;
     ingen:head <studiopre/in> .
 
 _:b3
-    ingen:tail <capture_1> ;
-    ingen:head <_quack_/in> .
-
-_:b4
     ingen:tail <shiroverb/lv2_audio_out_2> ;
     ingen:head <stereo/inR> .
 
+_:b4
+    ingen:tail <capture_1> ;
+    ingen:head <_quack_/in> .
+
 _:b5
-    ingen:tail <_quack_/out> ;
-    ingen:head <mono/in> .
+    ingen:tail <faIR_cabsim/Out> ;
+    ingen:head <shiroverb/lv2_audio_in_1> .
 
 _:b6
-    ingen:tail <stereo/outR> ;
-    ingen:head <playback_2> .
-
-_:b7
     ingen:tail <studiopre/out> ;
     ingen:head <faIR_cabsim/In> .
 
-_:b8
+_:b7
     ingen:tail <shiroverb/lv2_audio_out_1> ;
     ingen:head <stereo/inL> .
 
+_:b8
+    ingen:tail <stereo/outR> ;
+    ingen:head <playback_2> .
+
 _:b9
-    ingen:tail <stereo/outL> ;
-    ingen:head <playback_1> .
+    ingen:tail <_quack_/out> ;
+    ingen:head <mono/in> .
 
 <shiroverb>
     ingen:canvasX 2883.0 ;
@@ -77,21 +77,6 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<shiroverb/shimmer>
-    ingen:value 50.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/ratio>
-    ingen:value 2.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/roomsize>
-    ingen:value 75.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <shiroverb/tone>
     ingen:value 2000.000000 ;
     a lv2:ControlPort ,
@@ -107,8 +92,23 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<shiroverb/ratio>
+    ingen:value 2.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <shiroverb/mix>
     ingen:value 25.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/roomsize>
+    ingen:value 75.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/shimmer>
+    ingen:value 50.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -161,8 +161,8 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<stereo/mute>
-    ingen:value 0.000000 ;
+<stereo/gain>
+    ingen:value -5.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -171,7 +171,7 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo/gain>
+<stereo/mute>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -212,13 +212,13 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<faIR_cabsim/Model>
-    ingen:value 9.000000 ;
+<faIR_cabsim/Attenuation>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<faIR_cabsim/Attenuation>
-    ingen:value 0.000000 ;
+<faIR_cabsim/Model>
+    ingen:value 9.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -258,17 +258,7 @@ _:b9
         lv2:OutputPort .
 
 <studiopre/bass>
-    ingen:value 0.375000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/bright>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/treble>
-    ingen:value 0.531000 ;
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -277,7 +267,17 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<studiopre/bright>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <studiopre/middle>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/treble>
     ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -320,7 +320,7 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_quack_/BYPASS>
+<_quack_/GAIN>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -330,22 +330,7 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_quack_/MODE>
-    ingen:value 2.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_quack_/PEAK>
-    ingen:value 10.250000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_quack_/TONE>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_quack_/DRIVE>
+<_quack_/BYPASS>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -355,8 +340,23 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_quack_/GAIN>
+<_quack_/TONE>
     ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_quack_/PEAK>
+    ingen:value 10.250000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_quack_/DRIVE>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_quack_/MODE>
+    ingen:value 2.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -402,33 +402,13 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<mono/bypass>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/attack>
-    ingen:value 0.000213 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/ratio>
-    ingen:value 6.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <mono/threshold>
     ingen:value -18.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/noClip>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/release>
-    ingen:value 0.050000 ;
+<mono/gain>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -437,8 +417,28 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/gain>
+<mono/bypass>
     ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/ratio>
+    ingen:value 6.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/release>
+    ingen:value 0.050000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/attack>
+    ingen:value 0.000213 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/noClip>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -570,7 +570,7 @@ _:b9
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 13 ;
+    pedal:version 15 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,

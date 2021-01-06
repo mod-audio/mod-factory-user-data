@@ -8,8 +8,8 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <capture_1> ;
-    ingen:head <gate/input> .
+    ingen:tail <Plate/outl> ;
+    ingen:head <stereo/inL> .
 
 _:b2
     ingen:tail <Plate/outr> ;
@@ -20,28 +20,28 @@ _:b3
     ingen:head <onyx/In> .
 
 _:b4
-    ingen:tail <faIR_cabsim/Out> ;
-    ingen:head <Plate/in> .
+    ingen:tail <capture_1> ;
+    ingen:head <gate/input> .
 
 _:b5
     ingen:tail <onyx/Out> ;
     ingen:head <faIR_cabsim/In> .
 
 _:b6
-    ingen:tail <stereo/outL> ;
-    ingen:head <playback_1> .
+    ingen:tail <faIR_cabsim/Out> ;
+    ingen:head <Plate/in> .
 
 _:b7
+    ingen:tail <gate/output> ;
+    ingen:head <_bajatubedriver_/in> .
+
+_:b8
     ingen:tail <stereo/outR> ;
     ingen:head <playback_2> .
 
-_:b8
-    ingen:tail <Plate/outl> ;
-    ingen:head <stereo/inL> .
-
 _:b9
-    ingen:tail <gate/output> ;
-    ingen:head <_bajatubedriver_/in> .
+    ingen:tail <stereo/outL> ;
+    ingen:head <playback_1> .
 
 <Plate>
     ingen:canvasX 2805.0 ;
@@ -78,8 +78,8 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Plate/tail>
-    ingen:value 0.338170 ;
+<Plate/blend>
+    ingen:value 0.140625 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -88,8 +88,8 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Plate/blend>
-    ingen:value 0.140625 ;
+<Plate/tail>
+    ingen:value 0.338170 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -129,13 +129,8 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<gate/switch>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<gate/gaterange>
-    ingen:value -90.000000 ;
+<gate/threshold>
+    ingen:value -50.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -144,18 +139,23 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<gate/attack>
+    ingen:value 30.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<gate/gaterange>
+    ingen:value -90.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <gate/hold>
     ingen:value 500.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<gate/threshold>
-    ingen:value -50.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<gate/attack>
-    ingen:value 30.000000 ;
+<gate/switch>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -206,8 +206,8 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<onyx/Vol>
-    ingen:value 15.000000 ;
+<onyx/Treble>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -216,18 +216,18 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<onyx/Bass>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <onyx/clip>
     ingen:value 600.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<onyx/Treble>
-    ingen:value 0.563000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<onyx/Bass>
-    ingen:value 0.406000 ;
+<onyx/Vol>
+    ingen:value 15.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -266,17 +266,17 @@ _:b9
         lv2:OutputPort .
 
 <_bajatubedriver_/TONE>
-    ingen:value 0.767081 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_bajatubedriver_/DRIVE>
-    ingen:value 0.942029 ;
+    ingen:value 0.531056 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <_bajatubedriver_/BYPASS>
     ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_/DRIVE>
+    ingen:value 0.942029 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -329,13 +329,13 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<stereo/enable>
-    ingen:value 1.000000 ;
+<stereo/gain>
+    ingen:value -6.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo/gain>
-    ingen:value -6.000000 ;
+<stereo/enable>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -502,7 +502,7 @@ _:b9
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 16 ;
+    pedal:version 17 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
