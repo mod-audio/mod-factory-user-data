@@ -3,7 +3,7 @@
     "/hmi/knob1": [
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/xfade",
             "tempo": false,
             "group": null,
@@ -18,7 +18,7 @@
         },
         {
             "minimum": 20.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/bolliedelay",
             "tempo": false,
             "group": null,
@@ -50,7 +50,7 @@
     "/hmi/knob3": [
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/bolliedelay",
             "tempo": false,
             "group": null,
@@ -65,7 +65,7 @@
         },
         {
             "minimum": 200.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/bolliedelay",
             "tempo": false,
             "group": null,
@@ -97,7 +97,7 @@
     "/hmi/knob2": [
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/bolliedelay",
             "tempo": false,
             "group": null,
@@ -112,7 +112,7 @@
         },
         {
             "minimum": 0.125,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/bolliedelay",
             "tempo": false,
             "group": null,
@@ -127,7 +127,7 @@
         },
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/bolliedelay",
             "tempo": false,
             "group": null,
@@ -144,7 +144,7 @@
     "/hmi/footswitch1": [
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/bolliedelay",
             "tempo": false,
             "group": null,

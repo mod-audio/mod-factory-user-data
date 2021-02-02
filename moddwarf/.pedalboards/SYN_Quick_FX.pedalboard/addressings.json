@@ -3,7 +3,7 @@
     "/hmi/knob1": [
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/xfade",
             "tempo": false,
             "group": null,
@@ -33,7 +33,7 @@
         },
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/mod_volume_2x2",
             "tempo": false,
             "group": null,
@@ -50,7 +50,7 @@
     "/hmi/knob3": [
         {
             "minimum": -20.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/stereo_1",
             "tempo": false,
             "group": null,
@@ -65,7 +65,7 @@
         },
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/mod_volume_2x2_2",
             "tempo": false,
             "group": null,
@@ -97,7 +97,7 @@
     "/hmi/knob2": [
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/filta",
             "tempo": false,
             "group": null,
@@ -127,7 +127,7 @@
         },
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/mod_volume_2x2_1",
             "tempo": false,
             "group": null,
@@ -144,7 +144,7 @@
     "/hmi/footswitch1": [
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/filta",
             "tempo": false,
             "group": null,

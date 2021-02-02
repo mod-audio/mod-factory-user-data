@@ -3,7 +3,7 @@
     "/hmi/knob1": [
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/xfade",
             "tempo": false,
             "group": null,
@@ -18,7 +18,7 @@
         },
         {
             "minimum": -1.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/xfade_1",
             "tempo": false,
             "group": null,
@@ -65,7 +65,7 @@
         },
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/PingPongPan",
             "tempo": false,
             "group": null,
@@ -80,7 +80,7 @@
         },
         {
             "minimum": -20.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/_2Voices",
             "tempo": false,
             "group": null,
@@ -112,7 +112,7 @@
         },
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/PingPongPan",
             "tempo": false,
             "group": null,
@@ -127,7 +127,7 @@
         },
         {
             "minimum": -20.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/_2Voices",
             "tempo": false,
             "group": null,
@@ -144,7 +144,7 @@
     "/hmi/footswitch1": [
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/xfade_1",
             "tempo": false,
             "group": null,
@@ -162,7 +162,7 @@
     "/hmi/footswitch2": [
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/PingPongPan",
             "tempo": false,
             "group": null,

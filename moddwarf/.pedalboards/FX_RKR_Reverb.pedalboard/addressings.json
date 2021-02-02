@@ -3,7 +3,7 @@
     "/hmi/knob1": [
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/xfade",
             "tempo": false,
             "group": null,
@@ -97,7 +97,7 @@
     "/hmi/knob2": [
         {
             "minimum": -1.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/reve",
             "tempo": false,
             "group": null,
@@ -144,7 +144,7 @@
     "/hmi/footswitch1": [
         {
             "minimum": 0.0,
-            "steps": 33,
+            "steps": 201,
             "instance": "/graph/reve",
             "tempo": false,
             "group": null,

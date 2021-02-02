@@ -11,7 +11,7 @@
             "instance": "/graph/stereo",
             "maximum": 20.0,
             "minimum": -20.0,
-            "steps": 33,
+            "steps": 201,
             "page": 0,
             "group": null,
             "dividers": null,
