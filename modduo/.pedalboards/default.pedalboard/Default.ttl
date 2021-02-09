@@ -168,8 +168,8 @@ _:b4
 
 <>
     doap:name "Default" ;
-    pedal:unitName "MOD Duo X" ;
-    pedal:unitModel "duox:aarch64-a53" ;
+    pedal:unitName "MOD Duo" ;
+    pedal:unitModel "duo:arm-a7" ;
     pedal:width 3840 ;
     pedal:height 1738 ;
     pedal:addressings <addressings.json> ;
