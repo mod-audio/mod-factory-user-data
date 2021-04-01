@@ -68,7 +68,6 @@ invada.lv2
 midifilter.lv2
 mod-2voices.lv2
 mod-bigmuff.lv2
-mod-bypass.lv2
 mod-capo.lv2
 mod-caps-AmpVTS.lv2
 mod-caps-AutoFilter.lv2
