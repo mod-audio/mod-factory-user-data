@@ -1,0 +1,404 @@
+[
+    {
+        "data": {
+            "ph1_lv2": {
+                "preset": "",
+                "ports": {
+                    "speed": 0.10000000149011612
+                },
+                "bypassed": true,
+                "parameters": {}
+            },
+            "wah1_lv2": {
+                "preset": "",
+                "ports": {
+                    "sensitivity": 1.0
+                },
+                "bypassed": true,
+                "parameters": {}
+            },
+            "xfade": {
+                "preset": "",
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "dt1_lv2": {
+                "preset": "",
+                "ports": {
+                    "drive": 2.0,
+                    "level": 10.0
+                },
+                "bypassed": true,
+                "parameters": {}
+            },
+            "cr1_lv2": {
+                "preset": "",
+                "ports": {
+                    "speed": 3.75,
+                    "depth": 5.0
+                },
+                "bypassed": true,
+                "parameters": {}
+            },
+            "stereo": {
+                "preset": "",
+                "ports": {
+                    "gain": -2.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "Gain": {
+                "preset": "",
+                "ports": {
+                    "Gain": -6.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            }
+        },
+        "name": "Default"
+    },
+    {
+        "data": {
+            "ph1_lv2": {
+                "preset": "",
+                "ports": {
+                    "speed": 0.10000000149011612
+                },
+                "bypassed": true,
+                "parameters": {}
+            },
+            "wah1_lv2": {
+                "preset": "",
+                "ports": {
+                    "sensitivity": 1.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "xfade": {
+                "preset": "",
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "dt1_lv2": {
+                "preset": "",
+                "ports": {
+                    "drive": 2.0,
+                    "level": 10.0
+                },
+                "bypassed": true,
+                "parameters": {}
+            },
+            "cr1_lv2": {
+                "preset": "",
+                "ports": {
+                    "speed": 3.75,
+                    "depth": 5.0
+                },
+                "bypassed": true,
+                "parameters": {}
+            },
+            "stereo": {
+                "preset": "",
+                "ports": {
+                    "gain": -2.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "Gain": {
+                "preset": "",
+                "ports": {
+                    "Gain": -6.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            }
+        },
+        "name": "Wah"
+    },
+    {
+        "data": {
+            "ph1_lv2": {
+                "preset": "",
+                "ports": {
+                    "speed": 0.10000000149011612
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "wah1_lv2": {
+                "preset": "",
+                "ports": {
+                    "sensitivity": 1.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "xfade": {
+                "preset": "",
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "dt1_lv2": {
+                "preset": "",
+                "ports": {
+                    "drive": 2.0,
+                    "level": 10.0
+                },
+                "bypassed": true,
+                "parameters": {}
+            },
+            "cr1_lv2": {
+                "preset": "",
+                "ports": {
+                    "speed": 3.75,
+                    "depth": 5.0
+                },
+                "bypassed": true,
+                "parameters": {}
+            },
+            "stereo": {
+                "preset": "",
+                "ports": {
+                    "gain": -2.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "Gain": {
+                "preset": "",
+                "ports": {
+                    "Gain": -6.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            }
+        },
+        "name": "Phase Wah"
+    },
+    {
+        "data": {
+            "ph1_lv2": {
+                "preset": "",
+                "ports": {
+                    "speed": 0.10000000149011612
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "wah1_lv2": {
+                "preset": "",
+                "ports": {
+                    "sensitivity": 1.0
+                },
+                "bypassed": true,
+                "parameters": {}
+            },
+            "xfade": {
+                "preset": "",
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "dt1_lv2": {
+                "preset": "",
+                "ports": {
+                    "drive": 2.0,
+                    "level": 10.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "cr1_lv2": {
+                "preset": "",
+                "ports": {
+                    "speed": 3.75,
+                    "depth": 5.0
+                },
+                "bypassed": true,
+                "parameters": {}
+            },
+            "stereo": {
+                "preset": "",
+                "ports": {
+                    "gain": -2.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "Gain": {
+                "preset": "",
+                "ports": {
+                    "Gain": -6.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            }
+        },
+        "name": "Driven Phaser"
+    },
+    {
+        "data": {
+            "ph1_lv2": {
+                "preset": "",
+                "ports": {
+                    "speed": 0.10000000149011612
+                },
+                "bypassed": true,
+                "parameters": {}
+            },
+            "wah1_lv2": {
+                "preset": "",
+                "ports": {
+                    "sensitivity": 1.0
+                },
+                "bypassed": true,
+                "parameters": {}
+            },
+            "xfade": {
+                "preset": "",
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "dt1_lv2": {
+                "preset": "",
+                "ports": {
+                    "drive": 2.0,
+                    "level": 10.0
+                },
+                "bypassed": true,
+                "parameters": {}
+            },
+            "cr1_lv2": {
+                "preset": "",
+                "ports": {
+                    "speed": 3.75,
+                    "depth": 5.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "stereo": {
+                "preset": "",
+                "ports": {
+                    "gain": -2.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "Gain": {
+                "preset": "",
+                "ports": {
+                    "Gain": -6.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            }
+        },
+        "name": "Chorus"
+    },
+    {
+        "data": {
+            "ph1_lv2": {
+                "preset": "",
+                "ports": {
+                    "speed": 0.10000000149011612
+                },
+                "bypassed": true,
+                "parameters": {}
+            },
+            "wah1_lv2": {
+                "preset": "",
+                "ports": {
+                    "sensitivity": 1.0
+                },
+                "bypassed": true,
+                "parameters": {}
+            },
+            "xfade": {
+                "preset": "",
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "dt1_lv2": {
+                "preset": "",
+                "ports": {
+                    "drive": 2.0,
+                    "level": 10.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "cr1_lv2": {
+                "preset": "",
+                "ports": {
+                    "speed": 3.75,
+                    "depth": 5.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "stereo": {
+                "preset": "",
+                "ports": {
+                    "gain": -2.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "Gain": {
+                "preset": "",
+                "ports": {
+                    "Gain": -6.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            }
+        },
+        "name": "Driven Chorus"
+    }
+]

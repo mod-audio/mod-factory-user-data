@@ -1,0 +1,142 @@
+[
+    {
+        "data": {
+            "_slowgear_": {
+                "preset": "",
+                "ports": {
+                    "TRESHOLD": 0.80000000000000004,
+                    "UPTIME": 160.0,
+                    "DOWNTIME": 5.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "stereo": {
+                "preset": "",
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "xfade": {
+                "preset": "",
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            }
+        },
+        "name": "Default"
+    },
+    {
+        "data": {
+            "_slowgear_": {
+                "preset": "",
+                "ports": {
+                    "TRESHOLD": 0.80000000000000004,
+                    "UPTIME": 360.0,
+                    "DOWNTIME": 5.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "stereo": {
+                "preset": "",
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "xfade": {
+                "preset": "",
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            }
+        },
+        "name": "Slow Swell"
+    },
+    {
+        "data": {
+            "_slowgear_": {
+                "preset": "",
+                "ports": {
+                    "TRESHOLD": 0.80000000000000004,
+                    "UPTIME": 360.0,
+                    "DOWNTIME": 355.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "stereo": {
+                "preset": "",
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "xfade": {
+                "preset": "",
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            }
+        },
+        "name": "Slow Up n Dn"
+    },
+    {
+        "data": {
+            "_slowgear_": {
+                "preset": "",
+                "ports": {
+                    "TRESHOLD": 0.80000000000000004,
+                    "UPTIME": 60.0,
+                    "DOWNTIME": 145.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "stereo": {
+                "preset": "",
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            },
+            "xfade": {
+                "preset": "",
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "bypassed": false,
+                "parameters": {}
+            }
+        },
+        "name": "Medium"
+    }
+]

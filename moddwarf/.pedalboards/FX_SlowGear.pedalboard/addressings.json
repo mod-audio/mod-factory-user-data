@@ -1,0 +1,103 @@
+{
+    "/bpm": [],
+    "/hmi/footswitch2": [],
+    "/hmi/footswitch1": [
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/_slowgear_",
+            "steps": 33,
+            "maximum": 1.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "SlowGear",
+            "subpage": 0,
+            "port": ":bypass"
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/xfade",
+            "steps": 33,
+            "maximum": 1.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "St Input",
+            "subpage": 1,
+            "port": ":bypass"
+        },
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/_slowgear_",
+            "steps": 201,
+            "maximum": 1000.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "UPTIME",
+            "subpage": 0,
+            "port": "UPTIME"
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/stereo",
+            "steps": 201,
+            "maximum": 20.0,
+            "dividers": null,
+            "minimum": -20.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "Gain",
+            "subpage": 1,
+            "port": "gain"
+        },
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/_slowgear_",
+            "steps": 201,
+            "maximum": 10.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "TRESHOLD",
+            "subpage": 0,
+            "port": "TRESHOLD"
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/_slowgear_",
+            "steps": 201,
+            "maximum": 1000.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "DOWNTIME",
+            "subpage": 0,
+            "port": "DOWNTIME"
+        }
+    ],
+    "/hmi/group1": []
+}

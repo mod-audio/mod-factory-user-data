@@ -1,0 +1,519 @@
+{
+    "/cv/graph/mod_cv_control/Cvoutput": {
+        "addrs": [
+            {
+                "operational_mode": "+",
+                "instance": "/graph/_bajatubedriver_",
+                "steps": 33,
+                "maximum": 1.0,
+                "port": "VOLUME",
+                "label": "VOLUME",
+                "minimum": 0.0
+            },
+            {
+                "operational_mode": "+",
+                "instance": "/graph/_bajatubedriver__1",
+                "steps": 33,
+                "maximum": 1.0,
+                "port": "VOLUME",
+                "label": "VOLUME",
+                "minimum": 0.0
+            }
+        ],
+        "name": "TD Level"
+    },
+    "/cv/graph/mod_cv_control_4/Cvoutput": {
+        "addrs": [
+            {
+                "operational_mode": "+",
+                "instance": "/graph/_bajatubedriver_",
+                "steps": 33,
+                "maximum": 1.0,
+                "port": "TONE",
+                "label": "TONE",
+                "minimum": 0.0
+            },
+            {
+                "operational_mode": "+",
+                "instance": "/graph/_bajatubedriver__1",
+                "steps": 33,
+                "maximum": 1.0,
+                "port": "TONE",
+                "label": "TONE",
+                "minimum": 0.0
+            }
+        ],
+        "name": "TD Tone"
+    },
+    "/hmi/group1": [],
+    "/bpm": [],
+    "/hmi/footswitch2": [
+        {
+            "coloured": false,
+            "instance": "/graph/stereo_3",
+            "steps": 1,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "label": "MUTESND",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": "mute",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/mod_cv_control_1",
+            "steps": 33,
+            "subpage": 0,
+            "page": 1,
+            "momentary": 0,
+            "label": "TubeDRV",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": ":bypass",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/pedalboard",
+            "steps": 260,
+            "subpage": 0,
+            "page": 2,
+            "momentary": 0,
+            "label": "Tap",
+            "tempo": false,
+            "maximum": 280.0,
+            "dividers": null,
+            "group": null,
+            "port": ":bpm",
+            "minimum": 20.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "coloured": false,
+            "instance": "/graph/filta",
+            "steps": 33,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "label": "Filta",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": ":bypass",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/RePsycho",
+            "steps": 33,
+            "subpage": 0,
+            "page": 1,
+            "momentary": 0,
+            "label": "RePsycho",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": ":bypass",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/mod_cv_control_2",
+            "steps": 33,
+            "subpage": 0,
+            "page": 2,
+            "momentary": 0,
+            "label": "TapeStop",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": ":bypass",
+            "minimum": 0.0
+        }
+    ],
+    "/cv/graph/mod_cv_control_5/Cvoutput": {
+        "addrs": [
+            {
+                "operational_mode": "+",
+                "instance": "/graph/_bajatubedriver_",
+                "steps": 33,
+                "maximum": 1.0,
+                "port": "DRIVE",
+                "label": "DRIVE",
+                "minimum": 0.0
+            },
+            {
+                "operational_mode": "+",
+                "instance": "/graph/_bajatubedriver__1",
+                "steps": 33,
+                "maximum": 1.0,
+                "port": "DRIVE",
+                "label": "DRIVE",
+                "minimum": 0.0
+            }
+        ],
+        "name": "TD Gain"
+    },
+    "/cv/graph/mod_cv_control_1/Cvoutput": {
+        "addrs": [
+            {
+                "operational_mode": "+",
+                "instance": "/graph/_bajatubedriver_",
+                "steps": 33,
+                "maximum": 1.0,
+                "port": ":bypass",
+                "label": "GxBaJaTubeDriver",
+                "minimum": 0.0
+            },
+            {
+                "operational_mode": "+",
+                "instance": "/graph/_bajatubedriver__1",
+                "steps": 33,
+                "maximum": 1.0,
+                "port": ":bypass",
+                "label": "GxBaJaTubeDriver",
+                "minimum": 0.0
+            }
+        ],
+        "name": "TD Bypass"
+    },
+    "/hmi/knob3": [
+        {
+            "coloured": false,
+            "instance": "/graph/mod_volume_2x2_1",
+            "steps": 201,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "label": "VERB SND",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": "Volume",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/bolliedelay",
+            "steps": 201,
+            "subpage": 1,
+            "page": 0,
+            "momentary": 0,
+            "label": "Feedback",
+            "tempo": false,
+            "maximum": 100.0,
+            "dividers": null,
+            "group": null,
+            "port": "feedback",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/PlateX2",
+            "steps": 201,
+            "subpage": 2,
+            "page": 0,
+            "momentary": 0,
+            "label": "Damping",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": "damping",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/RePsycho",
+            "steps": 201,
+            "subpage": 0,
+            "page": 1,
+            "momentary": 0,
+            "label": "Decay",
+            "tempo": false,
+            "maximum": 50.0,
+            "dividers": null,
+            "group": null,
+            "port": "decay",
+            "minimum": -50.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/mod_cv_control",
+            "steps": 201,
+            "subpage": 2,
+            "page": 1,
+            "momentary": 0,
+            "label": "TD Level",
+            "tempo": false,
+            "maximum": 10.0,
+            "dividers": null,
+            "group": null,
+            "port": "Control",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/stereo_7",
+            "steps": 201,
+            "subpage": 0,
+            "page": 2,
+            "momentary": 0,
+            "label": "Out LPF",
+            "tempo": false,
+            "maximum": 20000.0,
+            "dividers": null,
+            "group": null,
+            "port": "LPfreq",
+            "minimum": 500.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "coloured": false,
+            "instance": "/graph/bolliedelay",
+            "steps": 5,
+            "subpage": 1,
+            "page": 0,
+            "momentary": 0,
+            "label": "DLY Right",
+            "tempo": false,
+            "maximum": 5.0,
+            "dividers": null,
+            "group": null,
+            "port": "div_r",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/mod_volume_2x2",
+            "steps": 201,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "label": "DLY SND",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": "Volume",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/PlateX2",
+            "steps": 201,
+            "subpage": 2,
+            "page": 0,
+            "momentary": 0,
+            "label": "Lowpass",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": "bandwidth",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/RePsycho",
+            "steps": 24,
+            "subpage": 1,
+            "page": 1,
+            "momentary": 0,
+            "label": "Tune",
+            "tempo": false,
+            "maximum": 0.0,
+            "dividers": null,
+            "group": null,
+            "port": "tune",
+            "minimum": -24.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/RePsycho",
+            "steps": 201,
+            "subpage": 0,
+            "page": 1,
+            "momentary": 0,
+            "label": "Hold",
+            "tempo": false,
+            "maximum": 260.0,
+            "dividers": null,
+            "group": null,
+            "port": "hold",
+            "minimum": 10.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/mod_cv_control_4",
+            "steps": 201,
+            "subpage": 2,
+            "page": 1,
+            "momentary": 0,
+            "label": "TD Tone",
+            "tempo": false,
+            "maximum": 10.0,
+            "dividers": null,
+            "group": null,
+            "port": "Control",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/stereo_7",
+            "steps": 201,
+            "subpage": 0,
+            "page": 2,
+            "momentary": 0,
+            "label": "Out HPF",
+            "tempo": false,
+            "maximum": 1250.0,
+            "dividers": null,
+            "group": null,
+            "port": "HPfreq",
+            "minimum": 5.0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "coloured": false,
+            "instance": "/graph/bolliedelay",
+            "steps": 5,
+            "subpage": 1,
+            "page": 0,
+            "momentary": 0,
+            "label": "DLY Left",
+            "tempo": false,
+            "maximum": 5.0,
+            "dividers": null,
+            "group": null,
+            "port": "div_l",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/filta",
+            "steps": 201,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "label": "Filta",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": "frequency_control",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/PlateX2",
+            "steps": 201,
+            "subpage": 2,
+            "page": 0,
+            "momentary": 0,
+            "label": "Decay",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": "tail",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/RePsycho",
+            "steps": 201,
+            "subpage": 1,
+            "page": 1,
+            "momentary": 0,
+            "label": "Mix",
+            "tempo": false,
+            "maximum": 100.0,
+            "dividers": null,
+            "group": null,
+            "port": "mix",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/RePsycho",
+            "steps": 201,
+            "subpage": 0,
+            "page": 1,
+            "momentary": 0,
+            "label": "Thresh",
+            "tempo": false,
+            "maximum": 0.0,
+            "dividers": null,
+            "group": null,
+            "port": "thresh",
+            "minimum": -30.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/mod_cv_control_5",
+            "steps": 201,
+            "subpage": 2,
+            "page": 1,
+            "momentary": 0,
+            "label": "TD Drive",
+            "tempo": false,
+            "maximum": 10.0,
+            "dividers": null,
+            "group": null,
+            "port": "Control",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/Gain2x2_3",
+            "steps": 201,
+            "subpage": 0,
+            "page": 2,
+            "momentary": 0,
+            "label": "In Gain",
+            "tempo": false,
+            "maximum": 20.0,
+            "dividers": null,
+            "group": null,
+            "port": "Gain",
+            "minimum": -10.0
+        }
+    ],
+    "/cv/graph/mod_cv_control_2/Cvoutput": {
+        "addrs": [
+            {
+                "operational_mode": "+",
+                "instance": "/graph/powercut",
+                "steps": 33,
+                "maximum": 1.0,
+                "port": ":bypass",
+                "label": "powercut",
+                "minimum": 0.0
+            },
+            {
+                "operational_mode": "+",
+                "instance": "/graph/powercut_1",
+                "steps": 33,
+                "maximum": 1.0,
+                "port": ":bypass",
+                "label": "powercut",
+                "minimum": 0.0
+            }
+        ],
+        "name": "TapeStop"
+    }
+}

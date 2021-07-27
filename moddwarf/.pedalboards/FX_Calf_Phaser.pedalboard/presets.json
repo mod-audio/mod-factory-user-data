@@ -1,1 +1,188 @@
-[{"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "Phaser": {"preset": "", "ports": {"mod_depth": 5400.0, "stages": 6.0, "stereo": 180.0, "mod_rate": 0.13600000739097595, "dry": 1.0, "feedback": 0.6809999942779541, "base_freq": 1000.0, "reset": 0.0, "amount": 1.0}, "parameters": {}, "bypassed": true}}, "name": "Dry"}, {"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "Phaser": {"preset": "", "ports": {"mod_depth": 5400.0, "stages": 6.0, "stereo": 180.0, "mod_rate": 0.13600000739097595, "dry": 1.0, "feedback": 0.6809999942779541, "base_freq": 1000.0, "reset": 0.0, "amount": 1.0}, "parameters": {}, "bypassed": false}}, "name": "Slow Phaser"}, {"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "Phaser": {"preset": "", "ports": {"mod_depth": 5400.0, "stages": 6.0, "stereo": 180.0, "mod_rate": 0.91200000000000003, "dry": 1.0, "feedback": 0.6809999942779541, "base_freq": 1000.0, "reset": 0.0, "amount": 1.0}, "parameters": {}, "bypassed": false}}, "name": "Med Phaser"}, {"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "Phaser": {"preset": "", "ports": {"mod_depth": 5400.0, "stages": 6.0, "stereo": 180.0, "mod_rate": 6.0990000000000002, "dry": 1.0, "feedback": 0.6809999942779541, "base_freq": 1000.0, "reset": 0.0, "amount": 1.0}, "parameters": {}, "bypassed": false}}, "name": "Fast Phaser"}, {"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "Phaser": {"preset": "", "ports": {"mod_depth": 10800.0, "stages": 12.0, "stereo": 180.0, "mod_rate": 0.219, "dry": 1.0, "feedback": 0.6809999942779541, "base_freq": 20000.0, "reset": 0.0, "amount": 1.0}, "parameters": {}, "bypassed": false}}, "name": "12 Stage"}, {"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "Phaser": {"preset": "", "ports": {"mod_depth": 6750.0, "stages": 8.0, "stereo": 180.0, "mod_rate": 0.219, "dry": 1.0, "feedback": 0.6809999942779541, "base_freq": 973.93499999999995, "reset": 0.0, "amount": 1.0}, "parameters": {}, "bypassed": false}}, "name": "8 Stage"}]
+[
+    {
+        "name": "Dry",
+        "data": {
+            "Phaser": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "amount": 1.0,
+                    "reset": 0.0,
+                    "dry": 1.0,
+                    "stages": 6.0,
+                    "mod_rate": 0.13600000739097595,
+                    "base_freq": 1000.0,
+                    "mod_depth": 5400.0,
+                    "feedback": 0.6809999942779541,
+                    "stereo": 180.0
+                },
+                "bypassed": true
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Slow Phaser",
+        "data": {
+            "Phaser": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "amount": 1.0,
+                    "reset": 0.0,
+                    "dry": 1.0,
+                    "stages": 6.0,
+                    "mod_rate": 0.13600000739097595,
+                    "base_freq": 1000.0,
+                    "mod_depth": 5400.0,
+                    "feedback": 0.6809999942779541,
+                    "stereo": 180.0
+                },
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Med Phaser",
+        "data": {
+            "Phaser": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "amount": 1.0,
+                    "reset": 0.0,
+                    "dry": 1.0,
+                    "stages": 6.0,
+                    "mod_rate": 0.91200000000000003,
+                    "base_freq": 1000.0,
+                    "mod_depth": 5400.0,
+                    "feedback": 0.6809999942779541,
+                    "stereo": 180.0
+                },
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Fast Phaser",
+        "data": {
+            "Phaser": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "amount": 1.0,
+                    "reset": 0.0,
+                    "dry": 1.0,
+                    "stages": 6.0,
+                    "mod_rate": 6.0990000000000002,
+                    "base_freq": 1000.0,
+                    "mod_depth": 5400.0,
+                    "feedback": 0.6809999942779541,
+                    "stereo": 180.0
+                },
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "12 Stage",
+        "data": {
+            "Phaser": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "amount": 1.0,
+                    "reset": 0.0,
+                    "dry": 1.0,
+                    "stages": 12.0,
+                    "mod_rate": 0.219,
+                    "base_freq": 20000.0,
+                    "mod_depth": 10800.0,
+                    "feedback": 0.6809999942779541,
+                    "stereo": 180.0
+                },
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "8 Stage",
+        "data": {
+            "Phaser": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "amount": 1.0,
+                    "reset": 0.0,
+                    "dry": 1.0,
+                    "stages": 8.0,
+                    "mod_rate": 0.219,
+                    "base_freq": 973.93499999999995,
+                    "mod_depth": 6750.0,
+                    "feedback": 0.6809999942779541,
+                    "stereo": 180.0
+                },
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            }
+        }
+    }
+]

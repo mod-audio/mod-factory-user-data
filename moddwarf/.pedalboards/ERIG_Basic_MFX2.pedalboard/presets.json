@@ -1,0 +1,912 @@
+[
+    {
+        "data": {
+            "mod_volume_2x2_1": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.84399998188018799,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "mod_volume_2x2": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.0,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "mod_volume_2x2_2": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.063000001013278961,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "bolliedelay": {
+                "parameters": {},
+                "ports": {
+                    "low_q": 1.0,
+                    "mix": 100.0,
+                    "high_on": 0.0,
+                    "high_q": 1.0,
+                    "high_f": 7500.0,
+                    "div_r": 2.0,
+                    "tap": 0.0,
+                    "tempo_mode": 0.0,
+                    "crossf": 35.0,
+                    "feedback": 70.0,
+                    "div_l": 0.0,
+                    "low_f": 20.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "tempo_host": 120.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo_1": {
+                "parameters": {},
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade": {
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "Phaser": {
+                "parameters": {},
+                "ports": {
+                    "feedback": 0.53698700666427612,
+                    "stereo": 180.0,
+                    "dry": 0.0,
+                    "mod_rate": 0.25,
+                    "base_freq": 1000.0,
+                    "stages": 6.0,
+                    "amount": 1.0,
+                    "mod_depth": 4000.0,
+                    "reset": 0.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "reve": {
+                "parameters": {},
+                "ports": {
+                    "BYPASS": 0.0,
+                    "RS": 64.0,
+                    "PAN": 0.0,
+                    "IDELFB": 0.0,
+                    "DAMP": 78.0,
+                    "HPF": 81.0,
+                    "IDEL": 10.0,
+                    "TIME": 52.0,
+                    "TYPE": 1.0,
+                    "LPF": 6515.0,
+                    "WETDRY": 0.0
+                },
+                "preset": "http://rakarrack.sourceforge.net/effects.html#reve:preset:hall_1",
+                "bypassed": false
+            },
+            "stereo": {
+                "parameters": {},
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 1.0,
+                    "enable": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "filta": {
+                "parameters": {},
+                "ports": {
+                    "active": 1.0,
+                    "frequency_control": 0.5
+                },
+                "preset": "",
+                "bypassed": true
+            }
+        },
+        "name": "Dry"
+    },
+    {
+        "data": {
+            "mod_volume_2x2_1": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.84399998188018799,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "mod_volume_2x2": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.0,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "mod_volume_2x2_2": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.063000001013278961,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "bolliedelay": {
+                "parameters": {},
+                "ports": {
+                    "low_q": 1.0,
+                    "mix": 100.0,
+                    "high_on": 0.0,
+                    "high_q": 1.0,
+                    "high_f": 7500.0,
+                    "div_r": 2.0,
+                    "tap": 0.0,
+                    "tempo_mode": 0.0,
+                    "crossf": 35.0,
+                    "feedback": 70.0,
+                    "div_l": 0.0,
+                    "low_f": 20.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "tempo_host": 120.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo_1": {
+                "parameters": {},
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade": {
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "Phaser": {
+                "parameters": {},
+                "ports": {
+                    "feedback": 0.53698700666427612,
+                    "stereo": 180.0,
+                    "dry": 0.0,
+                    "mod_rate": 0.25,
+                    "base_freq": 1000.0,
+                    "stages": 6.0,
+                    "amount": 1.0,
+                    "mod_depth": 4000.0,
+                    "reset": 0.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "reve": {
+                "parameters": {},
+                "ports": {
+                    "BYPASS": 0.0,
+                    "RS": 64.0,
+                    "PAN": 0.0,
+                    "IDELFB": 0.0,
+                    "DAMP": 78.0,
+                    "HPF": 81.0,
+                    "IDEL": 10.0,
+                    "TIME": 52.0,
+                    "TYPE": 1.0,
+                    "LPF": 6515.0,
+                    "WETDRY": 0.0
+                },
+                "preset": "http://rakarrack.sourceforge.net/effects.html#reve:preset:hall_1",
+                "bypassed": false
+            },
+            "stereo": {
+                "parameters": {},
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "filta": {
+                "parameters": {},
+                "ports": {
+                    "active": 1.0,
+                    "frequency_control": 0.5
+                },
+                "preset": "",
+                "bypassed": true
+            }
+        },
+        "name": "Phaser"
+    },
+    {
+        "data": {
+            "mod_volume_2x2_1": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.56299999999999994,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "mod_volume_2x2": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.0,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "mod_volume_2x2_2": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.75,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "bolliedelay": {
+                "parameters": {},
+                "ports": {
+                    "low_q": 1.0,
+                    "mix": 100.0,
+                    "high_on": 0.0,
+                    "high_q": 1.0,
+                    "high_f": 7500.0,
+                    "div_r": 2.0,
+                    "tap": 0.0,
+                    "tempo_mode": 0.0,
+                    "crossf": 35.0,
+                    "feedback": 70.0,
+                    "div_l": 0.0,
+                    "low_f": 20.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "tempo_host": 120.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo_1": {
+                "parameters": {},
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade": {
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "Phaser": {
+                "parameters": {},
+                "ports": {
+                    "feedback": 0.53698700666427612,
+                    "stereo": 180.0,
+                    "dry": 0.0,
+                    "mod_rate": 0.25,
+                    "base_freq": 1000.0,
+                    "stages": 6.0,
+                    "amount": 1.0,
+                    "mod_depth": 4000.0,
+                    "reset": 0.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "reve": {
+                "parameters": {},
+                "ports": {
+                    "BYPASS": 0.0,
+                    "RS": 64.0,
+                    "PAN": 0.0,
+                    "IDELFB": 0.0,
+                    "DAMP": 78.0,
+                    "HPF": 81.0,
+                    "IDEL": 10.0,
+                    "TIME": 52.0,
+                    "TYPE": 1.0,
+                    "LPF": 6515.0,
+                    "WETDRY": 0.0
+                },
+                "preset": "http://rakarrack.sourceforge.net/effects.html#reve:preset:hall_1",
+                "bypassed": false
+            },
+            "stereo": {
+                "parameters": {},
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "filta": {
+                "parameters": {},
+                "ports": {
+                    "active": 1.0,
+                    "frequency_control": 0.5
+                },
+                "preset": "",
+                "bypassed": true
+            }
+        },
+        "name": "Phaser Delay"
+    },
+    {
+        "data": {
+            "mod_volume_2x2_1": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.0,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "mod_volume_2x2": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 1.0,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "mod_volume_2x2_2": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.0,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "bolliedelay": {
+                "parameters": {},
+                "ports": {
+                    "low_q": 1.0,
+                    "mix": 100.0,
+                    "high_on": 0.0,
+                    "high_q": 1.0,
+                    "high_f": 7500.0,
+                    "div_r": 2.0,
+                    "tap": 0.0,
+                    "tempo_mode": 0.0,
+                    "crossf": 35.0,
+                    "feedback": 70.0,
+                    "div_l": 0.0,
+                    "low_f": 20.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "tempo_host": 120.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo_1": {
+                "parameters": {},
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade": {
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "Phaser": {
+                "parameters": {},
+                "ports": {
+                    "feedback": 0.53698700666427612,
+                    "stereo": 180.0,
+                    "dry": 0.0,
+                    "mod_rate": 0.25,
+                    "base_freq": 1000.0,
+                    "stages": 6.0,
+                    "amount": 1.0,
+                    "mod_depth": 4000.0,
+                    "reset": 0.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "reve": {
+                "parameters": {},
+                "ports": {
+                    "BYPASS": 0.0,
+                    "RS": 64.0,
+                    "PAN": 0.0,
+                    "IDELFB": 0.0,
+                    "DAMP": 78.0,
+                    "HPF": 81.0,
+                    "IDEL": 10.0,
+                    "TIME": 52.0,
+                    "TYPE": 1.0,
+                    "LPF": 6515.0,
+                    "WETDRY": 0.0
+                },
+                "preset": "http://rakarrack.sourceforge.net/effects.html#reve:preset:hall_1",
+                "bypassed": false
+            },
+            "stereo": {
+                "parameters": {},
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "filta": {
+                "parameters": {},
+                "ports": {
+                    "active": 1.0,
+                    "frequency_control": 0.5
+                },
+                "preset": "",
+                "bypassed": true
+            }
+        },
+        "name": "Hall Verb"
+    },
+    {
+        "data": {
+            "mod_volume_2x2_1": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.0,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "mod_volume_2x2": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 1.0,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "mod_volume_2x2_2": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.0,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "bolliedelay": {
+                "parameters": {},
+                "ports": {
+                    "low_q": 1.0,
+                    "mix": 100.0,
+                    "high_on": 0.0,
+                    "high_q": 1.0,
+                    "high_f": 7500.0,
+                    "div_r": 2.0,
+                    "tap": 0.0,
+                    "tempo_mode": 0.0,
+                    "crossf": 35.0,
+                    "feedback": 70.0,
+                    "div_l": 0.0,
+                    "low_f": 20.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "tempo_host": 120.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo_1": {
+                "parameters": {},
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade": {
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "Phaser": {
+                "parameters": {},
+                "ports": {
+                    "feedback": 0.53698700666427612,
+                    "stereo": 180.0,
+                    "dry": 0.0,
+                    "mod_rate": 0.25,
+                    "base_freq": 1000.0,
+                    "stages": 6.0,
+                    "amount": 1.0,
+                    "mod_depth": 4000.0,
+                    "reset": 0.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "reve": {
+                "parameters": {},
+                "ports": {
+                    "BYPASS": 0.0,
+                    "RS": 64.0,
+                    "PAN": 0.0,
+                    "IDELFB": 0.0,
+                    "DAMP": 78.0,
+                    "HPF": 81.0,
+                    "IDEL": 10.0,
+                    "TIME": 52.0,
+                    "TYPE": 1.0,
+                    "LPF": 6515.0,
+                    "WETDRY": 0.0
+                },
+                "preset": "http://rakarrack.sourceforge.net/effects.html#reve:preset:hall_1",
+                "bypassed": false
+            },
+            "stereo": {
+                "parameters": {},
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "filta": {
+                "parameters": {},
+                "ports": {
+                    "active": 1.0,
+                    "frequency_control": 0.75
+                },
+                "preset": "",
+                "bypassed": false
+            }
+        },
+        "name": "HPF Hall Verb"
+    },
+    {
+        "data": {
+            "mod_volume_2x2_1": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.0,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "mod_volume_2x2": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.5,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "mod_volume_2x2_2": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.625,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "bolliedelay": {
+                "parameters": {},
+                "ports": {
+                    "low_q": 1.0,
+                    "mix": 100.0,
+                    "high_on": 0.0,
+                    "high_q": 1.0,
+                    "high_f": 7500.0,
+                    "div_r": 2.0,
+                    "tap": 0.0,
+                    "tempo_mode": 0.0,
+                    "crossf": 35.0,
+                    "feedback": 70.0,
+                    "div_l": 0.0,
+                    "low_f": 20.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "tempo_host": 120.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo_1": {
+                "parameters": {},
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade": {
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "Phaser": {
+                "parameters": {},
+                "ports": {
+                    "feedback": 0.53698700666427612,
+                    "stereo": 180.0,
+                    "dry": 0.0,
+                    "mod_rate": 0.25,
+                    "base_freq": 1000.0,
+                    "stages": 6.0,
+                    "amount": 1.0,
+                    "mod_depth": 4000.0,
+                    "reset": 0.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "reve": {
+                "parameters": {},
+                "ports": {
+                    "BYPASS": 0.0,
+                    "RS": 64.0,
+                    "PAN": 0.0,
+                    "IDELFB": 0.0,
+                    "DAMP": 78.0,
+                    "HPF": 81.0,
+                    "IDEL": 10.0,
+                    "TIME": 52.0,
+                    "TYPE": 1.0,
+                    "LPF": 6515.0,
+                    "WETDRY": 0.0
+                },
+                "preset": "http://rakarrack.sourceforge.net/effects.html#reve:preset:hall_1",
+                "bypassed": false
+            },
+            "stereo": {
+                "parameters": {},
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "filta": {
+                "parameters": {},
+                "ports": {
+                    "active": 1.0,
+                    "frequency_control": 0.75
+                },
+                "preset": "",
+                "bypassed": true
+            }
+        },
+        "name": "Hall Delay"
+    },
+    {
+        "data": {
+            "mod_volume_2x2_1": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.0,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "mod_volume_2x2": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.5,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "mod_volume_2x2_2": {
+                "parameters": {},
+                "ports": {
+                    "Volume": 0.625,
+                    "PluginEnabled": 1.0,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "bolliedelay": {
+                "parameters": {},
+                "ports": {
+                    "low_q": 1.0,
+                    "mix": 100.0,
+                    "high_on": 0.0,
+                    "high_q": 1.0,
+                    "high_f": 7500.0,
+                    "div_r": 1.0,
+                    "tap": 0.0,
+                    "tempo_mode": 0.0,
+                    "crossf": 35.0,
+                    "feedback": 70.0,
+                    "div_l": 1.0,
+                    "low_f": 20.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "tempo_host": 120.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo_1": {
+                "parameters": {},
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade": {
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "Phaser": {
+                "parameters": {},
+                "ports": {
+                    "feedback": 0.53698700666427612,
+                    "stereo": 180.0,
+                    "dry": 0.0,
+                    "mod_rate": 0.25,
+                    "base_freq": 1000.0,
+                    "stages": 6.0,
+                    "amount": 1.0,
+                    "mod_depth": 4000.0,
+                    "reset": 0.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "reve": {
+                "parameters": {},
+                "ports": {
+                    "BYPASS": 0.0,
+                    "RS": 64.0,
+                    "PAN": 0.0,
+                    "IDELFB": 0.0,
+                    "DAMP": 78.0,
+                    "HPF": 81.0,
+                    "IDEL": 10.0,
+                    "TIME": 52.0,
+                    "TYPE": 1.0,
+                    "LPF": 6515.0,
+                    "WETDRY": 0.0
+                },
+                "preset": "http://rakarrack.sourceforge.net/effects.html#reve:preset:hall_1",
+                "bypassed": false
+            },
+            "stereo": {
+                "parameters": {},
+                "ports": {
+                    "gain": 0.0,
+                    "mute": 0.0,
+                    "enable": 1.0
+                },
+                "preset": "",
+                "bypassed": false
+            },
+            "filta": {
+                "parameters": {},
+                "ports": {
+                    "active": 1.0,
+                    "frequency_control": 0.75
+                },
+                "preset": "",
+                "bypassed": true
+            }
+        },
+        "name": "Hall Triplet Delay"
+    }
+]

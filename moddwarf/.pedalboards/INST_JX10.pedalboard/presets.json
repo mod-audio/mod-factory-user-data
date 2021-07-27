@@ -1,0 +1,821 @@
+[
+    {
+        "name": "Brass",
+        "data": {
+            "stereo_3": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": -3.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": -5.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "PlateX2": {
+                "bypassed": false,
+                "ports": {
+                    "tail": 0.41999998688697815,
+                    "damping": 0.17499999701976776,
+                    "blend": 1.0,
+                    "bandwidth": 0.89999997615814209
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.34999999403953552,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "JX10": {
+                "bypassed": false,
+                "ports": {
+                    "vcf_sus": 0.81999999284744263,
+                    "noise": 0.23000000417232513,
+                    "vcf_att": 0.38999998569488525,
+                    "vcf_vel": 0.5,
+                    "vcf_env": 0.75,
+                    "tuning": 0.5,
+                    "osc_tune": 0.50999999046325684,
+                    "osc_fine": 0.25,
+                    "env_dec": 0.74000000953674316,
+                    "env_att": 0.33000001311302185,
+                    "env_sus": 0.75999999046325684,
+                    "gld_bend": 0.2800000011920929,
+                    "lfo_rate": 0.81000000238418579,
+                    "gld_rate": 0.30000001192092896,
+                    "env_rel": 0.40999999642372131,
+                    "octave": 0.5,
+                    "vcf_reso": 0.15000000596046448,
+                    "vcf_freq": 0.38999998569488525,
+                    "vcf_lfo": 0.0,
+                    "osc_mix": 0.40000000596046448,
+                    "vcf_rel": 0.25,
+                    "vibrato": 0.4699999988079071,
+                    "glide": 0.0,
+                    "vcf_dec": 0.30000001192092896
+                },
+                "preset": "http://moddevices.com/plugins/mda/presets#JX10-synth-brass",
+                "parameters": {}
+            },
+            "mod_volume_2x2": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.17000000178813934,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "bolliedelay": {
+                "bypassed": false,
+                "ports": {
+                    "low_q": 1.0,
+                    "feedback": 84.375,
+                    "tempo_mode": 0.0,
+                    "div_r": 3.0,
+                    "tempo_host": 120.0,
+                    "high_q": 2.1608619689941406,
+                    "mix": 100.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "div_l": 2.0,
+                    "tap": 0.0,
+                    "high_f": 22000.0,
+                    "crossf": 20.0,
+                    "high_on": 1.0,
+                    "low_f": 20.0
+                },
+                "preset": "",
+                "parameters": {}
+            }
+        }
+    },
+    {
+        "name": "Horn",
+        "data": {
+            "stereo_3": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": -3.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": -5.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "PlateX2": {
+                "bypassed": false,
+                "ports": {
+                    "tail": 0.41999998688697815,
+                    "damping": 0.17499999701976776,
+                    "blend": 1.0,
+                    "bandwidth": 0.89999997615814209
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.34999999403953552,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "JX10": {
+                "bypassed": false,
+                "ports": {
+                    "vcf_sus": 0.36000001430511475,
+                    "noise": 0.10000000149011612,
+                    "vcf_att": 0.0,
+                    "vcf_vel": 0.60000002384185791,
+                    "vcf_env": 0.28999999165534973,
+                    "tuning": 0.5,
+                    "osc_tune": 0.89999997615814209,
+                    "osc_fine": 0.67000001668930054,
+                    "env_dec": 0.5,
+                    "env_att": 0.079999998211860657,
+                    "env_sus": 1.0,
+                    "gld_bend": 0.5,
+                    "lfo_rate": 0.82999998331069946,
+                    "gld_rate": 0.34999999403953552,
+                    "env_rel": 0.27000001072883606,
+                    "octave": 0.25,
+                    "vcf_reso": 0.20999999344348907,
+                    "vcf_freq": 0.5,
+                    "vcf_lfo": 0.11999999731779099,
+                    "osc_mix": 0.11999999731779099,
+                    "vcf_rel": 0.25,
+                    "vibrato": 0.50999999046325684,
+                    "glide": 0.0,
+                    "vcf_dec": 0.34999999403953552
+                },
+                "preset": "http://moddevices.com/plugins/mda/presets#JX10-soft-horn",
+                "parameters": {}
+            },
+            "mod_volume_2x2": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.17000000178813934,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "bolliedelay": {
+                "bypassed": false,
+                "ports": {
+                    "low_q": 1.0,
+                    "feedback": 84.375,
+                    "tempo_mode": 0.0,
+                    "div_r": 3.0,
+                    "tempo_host": 120.0,
+                    "high_q": 2.1608619689941406,
+                    "mix": 100.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "div_l": 2.0,
+                    "tap": 0.0,
+                    "high_f": 22000.0,
+                    "crossf": 20.0,
+                    "high_on": 1.0,
+                    "low_f": 20.0
+                },
+                "preset": "",
+                "parameters": {}
+            }
+        }
+    },
+    {
+        "name": "Rubber",
+        "data": {
+            "stereo_3": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": -3.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": -5.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "PlateX2": {
+                "bypassed": false,
+                "ports": {
+                    "tail": 0.41999998688697815,
+                    "damping": 0.17499999701976776,
+                    "blend": 1.0,
+                    "bandwidth": 0.89999997615814209
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.34999999403953552,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "JX10": {
+                "bypassed": false,
+                "ports": {
+                    "vcf_sus": 0.12999999523162842,
+                    "noise": 0.2199999988079071,
+                    "vcf_att": 0.0,
+                    "vcf_vel": 0.54000002145767212,
+                    "vcf_env": 0.76999998092651367,
+                    "tuning": 0.5,
+                    "osc_tune": 0.75999999046325684,
+                    "osc_fine": 0.25999999046325684,
+                    "env_dec": 0.56000000238418579,
+                    "env_att": 0.0,
+                    "env_sus": 0.0,
+                    "gld_bend": 0.75999999046325684,
+                    "lfo_rate": 0.20000000298023224,
+                    "gld_rate": 0.18000000715255737,
+                    "env_rel": 0.31999999284744263,
+                    "octave": 0.52999997138977051,
+                    "vcf_reso": 0.15000000596046448,
+                    "vcf_freq": 0.34999999403953552,
+                    "vcf_lfo": 0.14000000059604645,
+                    "osc_mix": 0.28999999165534973,
+                    "vcf_rel": 0.20999999344348907,
+                    "vibrato": 0.57999998331069946,
+                    "glide": 0.0,
+                    "vcf_dec": 0.41999998688697815
+                },
+                "preset": "http://moddevices.com/plugins/mda/presets#JX10-rubber-backing-zf-",
+                "parameters": {}
+            },
+            "mod_volume_2x2": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.17000000178813934,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "bolliedelay": {
+                "bypassed": false,
+                "ports": {
+                    "low_q": 1.0,
+                    "feedback": 84.375,
+                    "tempo_mode": 0.0,
+                    "div_r": 3.0,
+                    "tempo_host": 120.0,
+                    "high_q": 2.1608619689941406,
+                    "mix": 100.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "div_l": 2.0,
+                    "tap": 0.0,
+                    "high_f": 22000.0,
+                    "crossf": 20.0,
+                    "high_on": 1.0,
+                    "low_f": 20.0
+                },
+                "preset": "",
+                "parameters": {}
+            }
+        }
+    },
+    {
+        "name": "Mono Glide",
+        "data": {
+            "stereo_3": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": -3.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": -5.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "PlateX2": {
+                "bypassed": false,
+                "ports": {
+                    "tail": 0.41999998688697815,
+                    "damping": 0.17499999701976776,
+                    "blend": 1.0,
+                    "bandwidth": 0.89999997615814209
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.34999999403953552,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "JX10": {
+                "bypassed": false,
+                "ports": {
+                    "vcf_sus": 0.0,
+                    "noise": 0.0,
+                    "vcf_att": 0.0,
+                    "vcf_vel": 0.0,
+                    "vcf_env": 0.5,
+                    "tuning": 0.5,
+                    "osc_tune": 0.25,
+                    "osc_fine": 0.5,
+                    "env_dec": 0.5,
+                    "env_att": 0.37000000476837158,
+                    "env_sus": 1.0,
+                    "gld_bend": 0.5,
+                    "lfo_rate": 0.81000000238418579,
+                    "gld_rate": 0.46000000834465027,
+                    "env_rel": 0.37999999523162842,
+                    "octave": 0.5,
+                    "vcf_reso": 0.0,
+                    "vcf_freq": 0.50999999046325684,
+                    "vcf_lfo": 0.0,
+                    "osc_mix": 0.0,
+                    "vcf_rel": 0.25,
+                    "vibrato": 0.62000000476837158,
+                    "glide": 1.0,
+                    "vcf_dec": 0.30000001192092896
+                },
+                "preset": "http://moddevices.com/plugins/mda/presets#JX10-mono-glide",
+                "parameters": {}
+            },
+            "mod_volume_2x2": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.17000000178813934,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "bolliedelay": {
+                "bypassed": false,
+                "ports": {
+                    "low_q": 1.0,
+                    "feedback": 84.375,
+                    "tempo_mode": 0.0,
+                    "div_r": 3.0,
+                    "tempo_host": 120.0,
+                    "high_q": 2.1608619689941406,
+                    "mix": 100.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "div_l": 2.0,
+                    "tap": 0.0,
+                    "high_f": 22000.0,
+                    "crossf": 20.0,
+                    "high_on": 1.0,
+                    "low_f": 20.0
+                },
+                "preset": "",
+                "parameters": {}
+            }
+        }
+    },
+    {
+        "name": "Organ",
+        "data": {
+            "stereo_3": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": -3.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": -5.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "PlateX2": {
+                "bypassed": false,
+                "ports": {
+                    "tail": 0.41999998688697815,
+                    "damping": 0.17499999701976776,
+                    "blend": 1.0,
+                    "bandwidth": 0.89999997615814209
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.34999999403953552,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "JX10": {
+                "bypassed": false,
+                "ports": {
+                    "vcf_sus": 0.51999998092651367,
+                    "noise": 0.0,
+                    "vcf_att": 0.0,
+                    "vcf_vel": 0.0,
+                    "vcf_env": 0.54000002145767212,
+                    "tuning": 0.5,
+                    "osc_tune": 0.5,
+                    "osc_fine": 0.52999997138977051,
+                    "env_dec": 0.17000000178813934,
+                    "env_att": 0.0,
+                    "env_sus": 0.73000001907348633,
+                    "gld_bend": 0.38999998569488525,
+                    "lfo_rate": 0.87000000476837158,
+                    "gld_rate": 0.12999999523162842,
+                    "env_rel": 0.2800000011920929,
+                    "octave": 0.28999999165534973,
+                    "vcf_reso": 0.74000000953674316,
+                    "vcf_freq": 0.37999999523162842,
+                    "vcf_lfo": 0.20000000298023224,
+                    "osc_mix": 0.0,
+                    "vcf_rel": 0.31000000238418579,
+                    "vibrato": 0.23999999463558197,
+                    "glide": 0.0,
+                    "vcf_dec": 0.55000001192092896
+                },
+                "preset": "http://moddevices.com/plugins/mda/presets#JX10-leslie-organ",
+                "parameters": {}
+            },
+            "mod_volume_2x2": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.17000000178813934,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "bolliedelay": {
+                "bypassed": false,
+                "ports": {
+                    "low_q": 1.0,
+                    "feedback": 84.375,
+                    "tempo_mode": 0.0,
+                    "div_r": 3.0,
+                    "tempo_host": 120.0,
+                    "high_q": 2.1608619689941406,
+                    "mix": 100.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "div_l": 2.0,
+                    "tap": 0.0,
+                    "high_f": 22000.0,
+                    "crossf": 20.0,
+                    "high_on": 1.0,
+                    "low_f": 20.0
+                },
+                "preset": "",
+                "parameters": {}
+            }
+        }
+    },
+    {
+        "name": "Hard Organ",
+        "data": {
+            "stereo_3": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": -3.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": -5.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "PlateX2": {
+                "bypassed": false,
+                "ports": {
+                    "tail": 0.41999998688697815,
+                    "damping": 0.17499999701976776,
+                    "blend": 1.0,
+                    "bandwidth": 0.89999997615814209
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.34999999403953552,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "JX10": {
+                "bypassed": false,
+                "ports": {
+                    "vcf_sus": 0.0,
+                    "noise": 0.0,
+                    "vcf_att": 0.0,
+                    "vcf_vel": 0.0,
+                    "vcf_env": 0.54000002145767212,
+                    "tuning": 0.5,
+                    "osc_tune": 0.9100000262260437,
+                    "osc_fine": 0.37000000476837158,
+                    "env_dec": 0.079999998211860657,
+                    "env_att": 0.039999999105930328,
+                    "env_sus": 0.72000002861022949,
+                    "gld_bend": 0.5,
+                    "lfo_rate": 0.76999998092651367,
+                    "gld_rate": 0.34999999403953552,
+                    "env_rel": 0.039999999105930328,
+                    "octave": 0.57999998331069946,
+                    "vcf_reso": 0.62000000476837158,
+                    "vcf_freq": 0.50999999046325684,
+                    "vcf_lfo": 0.0,
+                    "osc_mix": 0.88999998569488525,
+                    "vcf_rel": 1.0,
+                    "vibrato": 0.49000000953674316,
+                    "glide": 0.0,
+                    "vcf_dec": 0.37000000476837158
+                },
+                "preset": "http://moddevices.com/plugins/mda/presets#JX10-hard-organ",
+                "parameters": {}
+            },
+            "mod_volume_2x2": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.17000000178813934,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "bolliedelay": {
+                "bypassed": false,
+                "ports": {
+                    "low_q": 1.0,
+                    "feedback": 84.375,
+                    "tempo_mode": 0.0,
+                    "div_r": 3.0,
+                    "tempo_host": 120.0,
+                    "high_q": 2.1608619689941406,
+                    "mix": 100.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "div_l": 2.0,
+                    "tap": 0.0,
+                    "high_f": 22000.0,
+                    "crossf": 20.0,
+                    "high_on": 1.0,
+                    "low_f": 20.0
+                },
+                "preset": "",
+                "parameters": {}
+            }
+        }
+    },
+    {
+        "name": "Juicy",
+        "data": {
+            "stereo_3": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": -3.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": -5.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "PlateX2": {
+                "bypassed": false,
+                "ports": {
+                    "tail": 0.41999998688697815,
+                    "damping": 0.17499999701976776,
+                    "blend": 1.0,
+                    "bandwidth": 0.89999997615814209
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.34999999403953552,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "JX10": {
+                "bypassed": false,
+                "ports": {
+                    "vcf_sus": 0.72000002861022949,
+                    "noise": 0.0,
+                    "vcf_att": 0.94999998807907104,
+                    "vcf_vel": 0.090000003576278687,
+                    "vcf_env": 1.0,
+                    "tuning": 0.5,
+                    "osc_tune": 0.50999999046325684,
+                    "osc_fine": 0.34999999403953552,
+                    "env_dec": 0.75999999046325684,
+                    "env_att": 0.039999999105930328,
+                    "env_sus": 0.10999999940395355,
+                    "gld_bend": 0.5,
+                    "lfo_rate": 0.87999999523162842,
+                    "gld_rate": 0.49000000953674316,
+                    "env_rel": 0.46000000834465027,
+                    "octave": 0.37999999523162842,
+                    "vcf_reso": 0.67000001668930054,
+                    "vcf_freq": 0.87000000476837158,
+                    "vcf_lfo": 0.31999999284744263,
+                    "osc_mix": 0.75999999046325684,
+                    "vcf_rel": 1.0,
+                    "vibrato": 0.72000002861022949,
+                    "glide": 0.0,
+                    "vcf_dec": 0.56000000238418579
+                },
+                "preset": "http://moddevices.com/plugins/mda/presets#JX10-water-velocity-sa-",
+                "parameters": {}
+            },
+            "mod_volume_2x2": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.17000000178813934,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "bolliedelay": {
+                "bypassed": false,
+                "ports": {
+                    "low_q": 1.0,
+                    "feedback": 84.375,
+                    "tempo_mode": 0.0,
+                    "div_r": 3.0,
+                    "tempo_host": 120.0,
+                    "high_q": 2.1608619689941406,
+                    "mix": 100.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "div_l": 2.0,
+                    "tap": 0.0,
+                    "high_f": 22000.0,
+                    "crossf": 20.0,
+                    "high_on": 1.0,
+                    "low_f": 20.0
+                },
+                "preset": "",
+                "parameters": {}
+            }
+        }
+    }
+]

@@ -8,54 +8,46 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <Phaser/out_r> ;
-    ingen:head <stereo/inR> .
-
-_:b2
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inB_left> .
-
-_:b3
-    ingen:tail <Phaser/out_l> ;
-    ingen:head <stereo/inL> .
-
-_:b4
-    ingen:tail <xfade/out_left> ;
-    ingen:head <Phaser/in_l> .
-
-_:b5
-    ingen:tail <stereo/outR> ;
-    ingen:head <playback_2> .
-
-_:b6
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_right> .
-
-_:b7
-    ingen:tail <xfade/out_right> ;
-    ingen:head <Phaser/in_r> .
-
-_:b8
-    ingen:tail <stereo/outL> ;
-    ingen:head <playback_1> .
-
-_:b9
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_left> .
-
-_:b10
     ingen:tail <capture_2> ;
     ingen:head <xfade/inB_right> .
 
+_:b2
+    ingen:tail <xfade/out_right> ;
+    ingen:head <Phaser/in_r> .
+
+_:b3
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inB_left> .
+
+_:b4
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_right> .
+
+_:b5
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_left> .
+
+_:b6
+    ingen:tail <xfade/out_left> ;
+    ingen:head <Phaser/in_l> .
+
+_:b7
+    ingen:tail <Phaser/out_l> ;
+    ingen:head <playback_1> .
+
+_:b8
+    ingen:tail <Phaser/out_r> ;
+    ingen:head <playback_2> .
+
 <xfade>
-    ingen:canvasX 739.0 ;
-    ingen:canvasY 292.0 ;
+    ingen:canvasX 725.0 ;
+    ingen:canvasY 310.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 516 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 5 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 6 ;
     lv2:port <xfade/inA_left> ,
              <xfade/inA_right> ,
              <xfade/inB_left> ,
@@ -103,11 +95,6 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade/mode>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <xfade/shape>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
@@ -118,83 +105,25 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<xfade/mode>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <xfade/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo>
-    ingen:canvasX 3073.0 ;
-    ingen:canvasY 377.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 770 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 6 ;
-    lv2:port <stereo/inL> ,
-             <stereo/inR> ,
-             <stereo/outL> ,
-             <stereo/outR> ,
-             <stereo/gain> ,
-             <stereo/enable> ,
-             <stereo/mute> ,
-             <stereo/level> ,
-             <stereo/:bypass> ;
-    lv2:prototype <http://gareus.org/oss/lv2/tinygain#stereo> ;
-    pedal:instanceNumber 1 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<stereo/inL>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<stereo/inR>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<stereo/inL>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<stereo/inR>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<stereo/mute>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/gain>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/enable>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/level>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<stereo/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <Phaser>
-    ingen:canvasX 1658.0 ;
-    ingen:canvasY 343.1 ;
+    ingen:canvasX 2294.0 ;
+    ingen:canvasY 319.1 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 60 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 9 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 10 ;
     lv2:port <Phaser/in_l> ,
              <Phaser/in_r> ,
              <Phaser/out_l> ,
@@ -230,28 +159,13 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<Phaser/mod_rate>
-    ingen:value 0.136000 ;
+<Phaser/amount>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Phaser/mod_depth>
-    ingen:value 5400.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Phaser/stages>
-    ingen:value 6.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Phaser/feedback>
-    ingen:value 0.681000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Phaser/base_freq>
-    ingen:value 1000.000000 ;
+<Phaser/reset>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -260,8 +174,18 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Phaser/amount>
-    ingen:value 1.000000 ;
+<Phaser/stages>
+    ingen:value 6.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Phaser/mod_rate>
+    ingen:value 0.136000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Phaser/base_freq>
+    ingen:value 1000.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -270,8 +194,13 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Phaser/reset>
-    ingen:value 0.000000 ;
+<Phaser/feedback>
+    ingen:value 0.681000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Phaser/mod_depth>
+    ingen:value 5400.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -378,6 +307,12 @@ _:b10
     a atom:AtomPort ,
         lv2:InputPort .
 
+<midi_loopback>
+    ingen:value 0 ;
+    lv2:index 12 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
 <>
     doap:name "FX:Calf Phaser" ;
     pedal:unitName "MOD Dwarf" ;
@@ -387,7 +322,7 @@ _:b10
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 17 ;
+    pedal:version 18 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -396,16 +331,14 @@ _:b10
               _:b5 ,
               _:b6 ,
               _:b7 ,
-              _:b8 ,
-              _:b9 ,
-              _:b10 ;
+              _:b8 ;
     ingen:block <xfade> ,
-                <stereo> ,
                 <Phaser> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
              <midi_separated_mode> ,
+             <midi_loopback> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

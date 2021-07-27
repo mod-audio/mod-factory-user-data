@@ -1,0 +1,179 @@
+{
+    "/bpm": [],
+    "/hmi/group1": [],
+    "/hmi/footswitch2": [
+        {
+            "coloured": false,
+            "instance": "/graph/shiroverb",
+            "steps": 33,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "label": "Shiroverb",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": ":bypass",
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "coloured": false,
+            "instance": "/graph/mono",
+            "steps": 201,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "label": "Ratio",
+            "tempo": false,
+            "maximum": 20.0,
+            "dividers": null,
+            "group": null,
+            "port": "ratio",
+            "minimum": 1.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/studiopre",
+            "steps": 201,
+            "subpage": 2,
+            "page": 0,
+            "momentary": 0,
+            "label": "Treble",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": "treble",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/shiroverb",
+            "steps": 201,
+            "subpage": 1,
+            "page": 0,
+            "momentary": 0,
+            "label": "ratio",
+            "tempo": false,
+            "maximum": 2.0,
+            "dividers": null,
+            "group": null,
+            "port": "ratio",
+            "minimum": 0.5
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "coloured": false,
+            "instance": "/graph/mono",
+            "steps": 201,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "label": "Threshold",
+            "tempo": false,
+            "maximum": 0.0,
+            "dividers": null,
+            "group": null,
+            "port": "threshold",
+            "minimum": -36.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/studiopre",
+            "steps": 201,
+            "subpage": 2,
+            "page": 0,
+            "momentary": 0,
+            "label": "Mid",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": "middle",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/shiroverb",
+            "steps": 201,
+            "subpage": 1,
+            "page": 0,
+            "momentary": 0,
+            "label": "decay",
+            "tempo": false,
+            "maximum": 100.0,
+            "dividers": null,
+            "group": null,
+            "port": "decay",
+            "minimum": 1.0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "coloured": false,
+            "instance": "/graph/xfade",
+            "steps": 201,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "label": "Dry/Comp",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": "xfade",
+            "minimum": -1.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/studiopre",
+            "steps": 201,
+            "subpage": 2,
+            "page": 0,
+            "momentary": 0,
+            "label": "Bass",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": "bass",
+            "minimum": 0.0
+        },
+        {
+            "coloured": false,
+            "instance": "/graph/shiroverb",
+            "steps": 201,
+            "subpage": 1,
+            "page": 0,
+            "momentary": 0,
+            "label": "mix",
+            "tempo": false,
+            "maximum": 100.0,
+            "dividers": null,
+            "group": null,
+            "port": "mix",
+            "minimum": 0.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "coloured": false,
+            "instance": "/graph/xfade",
+            "steps": 201,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "label": "Compressor",
+            "tempo": false,
+            "maximum": 1.0,
+            "dividers": null,
+            "group": null,
+            "port": ":bypass",
+            "minimum": 0.0
+        }
+    ]
+}

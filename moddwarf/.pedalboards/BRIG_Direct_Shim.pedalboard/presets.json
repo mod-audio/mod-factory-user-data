@@ -1,0 +1,230 @@
+[
+    {
+        "name": "Default",
+        "data": {
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": true
+            },
+            "studiopre": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "treble": 0.5,
+                    "middle": 0.5,
+                    "bright": 0.0,
+                    "volume": 3.75,
+                    "bass": 0.5
+                },
+                "bypassed": false
+            },
+            "shiroverb": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "bandwidth": 75.0,
+                    "tone": 1500.0,
+                    "roomsize": 50.0,
+                    "mix": 20.0,
+                    "decay": 38.619998931884766,
+                    "ratio": 2.0,
+                    "damping": 50.0,
+                    "shimmer": 100.0
+                },
+                "bypassed": false
+            },
+            "mono": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "gain": 4.0,
+                    "ratio": 2.9000000953674316,
+                    "rms": 0.5,
+                    "release": 0.05000000074505806,
+                    "bypass": 0.0,
+                    "threshold": -31.5,
+                    "attack": 0.00035099999513477087,
+                    "noClip": 1.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Compressed",
+        "data": {
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            },
+            "studiopre": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "treble": 0.5,
+                    "middle": 0.5,
+                    "bright": 0.0,
+                    "volume": 3.75,
+                    "bass": 0.5
+                },
+                "bypassed": false
+            },
+            "shiroverb": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "bandwidth": 75.0,
+                    "tone": 1500.0,
+                    "roomsize": 50.0,
+                    "mix": 20.0,
+                    "decay": 38.619998931884766,
+                    "ratio": 2.0,
+                    "damping": 50.0,
+                    "shimmer": 100.0
+                },
+                "bypassed": false
+            },
+            "mono": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "gain": 4.0,
+                    "ratio": 2.9000000953674316,
+                    "rms": 0.5,
+                    "release": 0.05000000074505806,
+                    "bypass": 0.0,
+                    "threshold": -31.5,
+                    "attack": 0.00035099999513477087,
+                    "noClip": 1.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Dry Comp",
+        "data": {
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            },
+            "studiopre": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "treble": 0.5,
+                    "middle": 0.5,
+                    "bright": 0.0,
+                    "volume": 3.75,
+                    "bass": 0.5
+                },
+                "bypassed": false
+            },
+            "shiroverb": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "bandwidth": 75.0,
+                    "tone": 1500.0,
+                    "roomsize": 50.0,
+                    "mix": 25.0,
+                    "decay": 38.619998931884766,
+                    "ratio": 2.0,
+                    "damping": 50.0,
+                    "shimmer": 100.0
+                },
+                "bypassed": true
+            },
+            "mono": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "gain": 4.0,
+                    "ratio": 2.9000000953674316,
+                    "rms": 0.5,
+                    "release": 0.05000000074505806,
+                    "bypass": 0.0,
+                    "threshold": -31.5,
+                    "attack": 0.00035099999513477087,
+                    "noClip": 1.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Dry",
+        "data": {
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": true
+            },
+            "studiopre": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "treble": 0.5,
+                    "middle": 0.5,
+                    "bright": 0.0,
+                    "volume": 3.75,
+                    "bass": 0.5
+                },
+                "bypassed": false
+            },
+            "shiroverb": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "bandwidth": 75.0,
+                    "tone": 1500.0,
+                    "roomsize": 50.0,
+                    "mix": 25.0,
+                    "decay": 38.619998931884766,
+                    "ratio": 2.0,
+                    "damping": 50.0,
+                    "shimmer": 100.0
+                },
+                "bypassed": true
+            },
+            "mono": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "gain": 4.0,
+                    "ratio": 2.9000000953674316,
+                    "rms": 0.5,
+                    "release": 0.05000000074505806,
+                    "bypass": 0.0,
+                    "threshold": -31.5,
+                    "attack": 0.00035099999513477087,
+                    "noClip": 1.0
+                },
+                "bypassed": false
+            }
+        }
+    }
+]

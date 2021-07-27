@@ -1,0 +1,179 @@
+{
+    "/bpm": [],
+    "/hmi/footswitch2": [
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/shiroverb",
+            "steps": 33,
+            "maximum": 1.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "Shiroverb",
+            "subpage": 0,
+            "port": ":bypass"
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/tremolo",
+            "steps": 33,
+            "maximum": 1.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "Tremolo",
+            "subpage": 0,
+            "port": ":bypass"
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/tremolo",
+            "steps": 201,
+            "maximum": 20.0,
+            "dividers": null,
+            "minimum": -70.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "Level",
+            "subpage": 1,
+            "port": "gain"
+        },
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/shiroverb",
+            "steps": 201,
+            "maximum": 100.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "shimmer",
+            "subpage": 2,
+            "port": "shimmer"
+        },
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/reverb",
+            "steps": 201,
+            "maximum": 10.0,
+            "dividers": null,
+            "minimum": -70.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "Verb LVL",
+            "subpage": 0,
+            "port": "wetlevel"
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/tremolo",
+            "steps": 201,
+            "maximum": 100.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "Depth",
+            "subpage": 1,
+            "port": "depth"
+        },
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/shiroverb",
+            "steps": 201,
+            "maximum": 100.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "mix",
+            "subpage": 2,
+            "port": "mix"
+        },
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/_supersonic_",
+            "steps": 201,
+            "maximum": 1.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "AMP TREBLE",
+            "subpage": 0,
+            "port": "TREBLE"
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/tremolo",
+            "steps": 201,
+            "maximum": 20.0,
+            "dividers": 0.33300000000000002,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "Rate",
+            "subpage": 1,
+            "port": "frequency"
+        },
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/shiroverb",
+            "steps": 201,
+            "maximum": 100.0,
+            "dividers": null,
+            "minimum": 1.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "decay",
+            "subpage": 2,
+            "port": "decay"
+        },
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/_supersonic_",
+            "steps": 201,
+            "maximum": 1.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "AMP BASS",
+            "subpage": 0,
+            "port": "BASS"
+        }
+    ],
+    "/hmi/group1": []
+}

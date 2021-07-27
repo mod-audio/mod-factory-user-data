@@ -8,44 +8,44 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <reve/OUTPUT_L> ;
-    ingen:head <stereo/inL> .
+    ingen:tail <capture_2> ;
+    ingen:head <xfade/inB_right> .
 
 _:b2
     ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_right> .
+    ingen:head <xfade/inA_left> .
 
 _:b3
     ingen:tail <capture_1> ;
     ingen:head <xfade/inB_left> .
 
 _:b4
+    ingen:tail <reve/OUTPUT_L> ;
+    ingen:head <stereo/inL> .
+
+_:b5
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_right> .
+
+_:b6
     ingen:tail <stereo/outR> ;
     ingen:head <playback_2> .
 
-_:b5
-    ingen:tail <capture_2> ;
-    ingen:head <xfade/inB_right> .
-
-_:b6
+_:b7
     ingen:tail <xfade/out_right> ;
     ingen:head <reve/INPUT_R> .
-
-_:b7
-    ingen:tail <reve/OUTPUT_R> ;
-    ingen:head <stereo/inR> .
 
 _:b8
     ingen:tail <xfade/out_left> ;
     ingen:head <reve/INPUT_L> .
 
 _:b9
-    ingen:tail <stereo/outL> ;
-    ingen:head <playback_1> .
+    ingen:tail <reve/OUTPUT_R> ;
+    ingen:head <stereo/inR> .
 
 _:b10
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_left> .
+    ingen:tail <stereo/outL> ;
+    ingen:head <playback_1> .
 
 <xfade>
     ingen:canvasX 767.0 ;
@@ -54,8 +54,8 @@ _:b10
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 516 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 5 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 6 ;
     lv2:port <xfade/inA_left> ,
              <xfade/inA_right> ,
              <xfade/inB_left> ,
@@ -103,11 +103,6 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade/mode>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <xfade/shape>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
@@ -115,6 +110,11 @@ _:b10
 
 <xfade/xfade>
     ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade/mode>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -130,8 +130,8 @@ _:b10
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 770 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 6 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 7 ;
     lv2:port <stereo/inL> ,
              <stereo/inR> ,
              <stereo/outL> ,
@@ -162,8 +162,8 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<stereo/mute>
-    ingen:value 0.000000 ;
+<stereo/enable>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -172,8 +172,8 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo/enable>
-    ingen:value 1.000000 ;
+<stereo/mute>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -193,8 +193,8 @@ _:b10
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 0 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 6 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 7 ;
     lv2:port <reve/INPUT_L> ,
              <reve/INPUT_R> ,
              <reve/OUTPUT_L> ,
@@ -232,28 +232,13 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<reve/TYPE>
-    ingen:value 0.000000 ;
+<reve/DAMP>
+    ingen:value 106.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<reve/BYPASS>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<reve/TIME>
-    ingen:value 33.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<reve/RS>
-    ingen:value 30.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<reve/WETDRY>
-    ingen:value 94.000000 ;
+<reve/LPF>
+    ingen:value 25040.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -267,7 +252,12 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<reve/IDEL>
+<reve/RS>
+    ingen:value 30.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<reve/TYPE>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -277,13 +267,23 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<reve/DAMP>
-    ingen:value 106.000000 ;
+<reve/WETDRY>
+    ingen:value 94.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<reve/LPF>
-    ingen:value 25040.000000 ;
+<reve/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<reve/TIME>
+    ingen:value 33.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<reve/IDEL>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -399,7 +399,7 @@ _:b10
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 18 ;
+    pedal:version 19 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,

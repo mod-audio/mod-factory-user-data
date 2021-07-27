@@ -1,0 +1,179 @@
+{
+    "/hmi/knob1": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": 0,
+            "maximum": 1.0,
+            "label": "Voco Mix",
+            "minimum": -1.0,
+            "instance": "/graph/xfade",
+            "steps": 201,
+            "port": "xfade",
+            "page": 0,
+            "dividers": null,
+            "momentary": 0,
+            "tempo": false
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": 1,
+            "maximum": 1000.0,
+            "label": "EchoTime",
+            "minimum": 20.0,
+            "instance": "/graph/modulay",
+            "steps": 201,
+            "port": "time",
+            "page": 0,
+            "dividers": 1,
+            "momentary": 0,
+            "tempo": false
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": 2,
+            "maximum": 1.0,
+            "label": "HALLTIME",
+            "minimum": 0.0,
+            "instance": "/graph/PlateX2",
+            "steps": 201,
+            "port": "tail",
+            "page": 0,
+            "dividers": null,
+            "momentary": 0,
+            "tempo": false
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": 0,
+            "maximum": 100.0,
+            "label": "Echo Vol",
+            "minimum": 0.0,
+            "instance": "/graph/modulay",
+            "steps": 201,
+            "port": "mix",
+            "page": 0,
+            "dividers": null,
+            "momentary": 0,
+            "tempo": false
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": 1,
+            "maximum": 99.0,
+            "label": "ECHO FBK",
+            "minimum": 0.0,
+            "instance": "/graph/modulay",
+            "steps": 201,
+            "port": "repeats",
+            "page": 0,
+            "dividers": null,
+            "momentary": 0,
+            "tempo": false
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": 2,
+            "maximum": 1.0,
+            "label": "HALLDAMP",
+            "minimum": 0.0,
+            "instance": "/graph/PlateX2",
+            "steps": 201,
+            "port": "damping",
+            "page": 0,
+            "dividers": null,
+            "momentary": 0,
+            "tempo": false
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/footswitch1": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": 0,
+            "maximum": 1.0,
+            "label": "Vocoder",
+            "minimum": 0.0,
+            "instance": "/graph/xfade",
+            "steps": 33,
+            "port": ":bypass",
+            "page": 0,
+            "dividers": null,
+            "momentary": 0,
+            "tempo": false
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": 0,
+            "maximum": 1.0,
+            "label": "Hall Mix",
+            "minimum": 0.0,
+            "instance": "/graph/PlateX2",
+            "steps": 201,
+            "port": "blend",
+            "page": 0,
+            "dividers": null,
+            "momentary": 0,
+            "tempo": false
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": 1,
+            "maximum": 6000.0,
+            "label": "ECHOTONE",
+            "minimum": 500.0,
+            "instance": "/graph/modulay",
+            "steps": 201,
+            "port": "tone",
+            "page": 0,
+            "dividers": null,
+            "momentary": 0,
+            "tempo": false
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": 2,
+            "maximum": 1.0,
+            "label": "HALLTONE",
+            "minimum": 0.0,
+            "instance": "/graph/PlateX2",
+            "steps": 201,
+            "port": "bandwidth",
+            "page": 0,
+            "dividers": null,
+            "momentary": 0,
+            "tempo": false
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": 0,
+            "maximum": 1.0,
+            "label": "Echo",
+            "minimum": 0.0,
+            "instance": "/graph/modulay",
+            "steps": 33,
+            "port": ":bypass",
+            "page": 0,
+            "dividers": null,
+            "momentary": 0,
+            "tempo": false
+        }
+    ],
+    "/bpm": []
+}

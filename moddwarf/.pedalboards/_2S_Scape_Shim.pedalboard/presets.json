@@ -1,0 +1,264 @@
+[
+    {
+        "data": {
+            "Scape": {
+                "ports": {
+                    "blend": 1.0,
+                    "dry": 0.0,
+                    "divider": 2.0,
+                    "bpm": 120.0,
+                    "feedback": 0.75,
+                    "tune": 440.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "mono_1": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "shiroverb": {
+                "ports": {
+                    "decay": 50.0,
+                    "mix": 100.0,
+                    "roomsize": 150.0,
+                    "ratio": 2.0,
+                    "tone": 1500.0,
+                    "bandwidth": 75.0,
+                    "shimmer": 50.0,
+                    "damping": 50.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo_1": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade_1": {
+                "ports": {
+                    "mode": 0.0,
+                    "xfade": 1.0,
+                    "shape": 0.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo_2": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "mono": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": -6.5178571428571423,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "reve": {
+                "ports": {
+                    "DAMP": 83.0,
+                    "TIME": 10.0,
+                    "IDELFB": 75.0,
+                    "WETDRY": 82.0,
+                    "IDEL": 25.0,
+                    "RS": 64.0,
+                    "TYPE": 1.0,
+                    "HPF": 20.0,
+                    "BYPASS": 0.0,
+                    "LPF": 26000.0,
+                    "PAN": 0.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade": {
+                "ports": {
+                    "mode": 0.0,
+                    "xfade": 0.0,
+                    "shape": 0.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade_2": {
+                "ports": {
+                    "mode": 0.0,
+                    "xfade": 0.0,
+                    "shape": 0.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            }
+        },
+        "name": "2M IN ST OUT"
+    },
+    {
+        "data": {
+            "Scape": {
+                "ports": {
+                    "blend": 1.0,
+                    "dry": 0.0,
+                    "divider": 2.0,
+                    "bpm": 120.0,
+                    "feedback": 0.75,
+                    "tune": 440.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "mono_1": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "shiroverb": {
+                "ports": {
+                    "decay": 50.0,
+                    "mix": 100.0,
+                    "roomsize": 150.0,
+                    "ratio": 2.0,
+                    "tone": 1500.0,
+                    "bandwidth": 75.0,
+                    "shimmer": 50.0,
+                    "damping": 50.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo_1": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade_1": {
+                "ports": {
+                    "mode": 0.0,
+                    "xfade": 1.0,
+                    "shape": 0.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo_2": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "mono": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": -6.5178571428571423,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "reve": {
+                "ports": {
+                    "DAMP": 83.0,
+                    "TIME": 10.0,
+                    "IDELFB": 75.0,
+                    "WETDRY": 82.0,
+                    "IDEL": 25.0,
+                    "RS": 64.0,
+                    "TYPE": 1.0,
+                    "HPF": 20.0,
+                    "BYPASS": 0.0,
+                    "LPF": 26000.0,
+                    "PAN": 0.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade": {
+                "ports": {
+                    "mode": 0.0,
+                    "xfade": 1.0,
+                    "shape": 0.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade_2": {
+                "ports": {
+                    "mode": 0.0,
+                    "xfade": -1.0,
+                    "shape": 0.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            }
+        },
+        "name": "2M IN 2M OUT"
+    }
+]

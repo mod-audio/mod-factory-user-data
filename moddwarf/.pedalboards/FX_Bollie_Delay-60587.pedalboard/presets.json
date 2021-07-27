@@ -1,1 +1,261 @@
-[{"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "bolliedelay": {"preset": "", "ports": {"crossf": 50.0, "tempo_user": 120.0, "low_f": 20.0, "tempo_host": 120.0, "div_l": 0.0, "low_on": 1.0, "high_f": 22000.0, "tempo_mode": 0.0, "mix": 37.5, "low_q": 1.0, "high_on": 1.0, "div_r": 3.0, "high_q": 1.0, "tap": 0.0, "feedback": 43.75}, "parameters": {}, "bypassed": true}}, "name": "Dry"}, {"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "bolliedelay": {"preset": "", "ports": {"crossf": 50.0, "tempo_user": 120.0, "low_f": 20.0, "tempo_host": 120.0, "div_l": 0.0, "low_on": 1.0, "high_f": 22000.0, "tempo_mode": 0.0, "mix": 37.5, "low_q": 1.0, "high_on": 1.0, "div_r": 3.0, "high_q": 1.0, "tap": 0.0, "feedback": 43.75}, "parameters": {}, "bypassed": false}}, "name": "Syncopated Delay"}, {"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "bolliedelay": {"preset": "", "ports": {"crossf": 50.0, "tempo_user": 120.0, "low_f": 20.0, "tempo_host": 120.0, "div_l": 0.0, "low_on": 1.0, "high_f": 22000.0, "tempo_mode": 0.0, "mix": 37.5, "low_q": 1.0, "high_on": 1.0, "div_r": 2.0, "high_q": 1.0, "tap": 0.0, "feedback": 43.75}, "parameters": {}, "bypassed": false}}, "name": "Straight Delay"}, {"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "bolliedelay": {"preset": "", "ports": {"crossf": 50.0, "tempo_user": 120.0, "low_f": 20.0, "tempo_host": 120.0, "div_l": 0.0, "low_on": 1.0, "high_f": 2813.931, "tempo_mode": 0.0, "mix": 37.5, "low_q": 1.0, "high_on": 1.0, "div_r": 3.0, "high_q": 8.0, "tap": 0.0, "feedback": 43.75}, "parameters": {}, "bypassed": false}}, "name": "Resonant Delay"}, {"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "bolliedelay": {"preset": "", "ports": {"crossf": 50.0, "tempo_user": 120.0, "low_f": 410.70499999999998, "tempo_host": 120.0, "div_l": 0.0, "low_on": 1.0, "high_f": 22000.0, "tempo_mode": 0.0, "mix": 37.5, "low_q": 1.0, "high_on": 1.0, "div_r": 2.0, "high_q": 8.0, "tap": 0.0, "feedback": 43.75}, "parameters": {}, "bypassed": false}}, "name": "HPF Delay"}, {"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "bolliedelay": {"preset": "", "ports": {"crossf": 50.0, "tempo_user": 120.0, "low_f": 20.0, "tempo_host": 120.0, "div_l": 1.0, "low_on": 1.0, "high_f": 3774.8560000000002, "tempo_mode": 0.0, "mix": 43.75, "low_q": 1.0, "high_on": 1.0, "div_r": 1.0, "high_q": 1.915, "tap": 0.0, "feedback": 81.25}, "parameters": {}, "bypassed": false}}, "name": "Dub Delay"}, {"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "bolliedelay": {"preset": "", "ports": {"crossf": 50.0, "tempo_user": 120.0, "low_f": 20.0, "tempo_host": 120.0, "div_l": 1.0, "low_on": 1.0, "high_f": 3774.8560000000002, "tempo_mode": 0.0, "mix": 43.75, "low_q": 1.0, "high_on": 1.0, "div_r": 0.0, "high_q": 1.915, "tap": 0.0, "feedback": 81.25}, "parameters": {}, "bypassed": false}}, "name": "PingPong Dub"}]
+[
+    {
+        "name": "Dry",
+        "data": {
+            "bolliedelay": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "feedback": 43.75,
+                    "tempo_host": 120.0,
+                    "high_q": 1.0,
+                    "mix": 37.5,
+                    "tempo_mode": 0.0,
+                    "div_l": 0.0,
+                    "low_f": 20.0,
+                    "tempo_user": 120.0,
+                    "tap": 0.0,
+                    "high_f": 22000.0,
+                    "div_r": 3.0,
+                    "low_on": 1.0,
+                    "low_q": 1.0,
+                    "crossf": 50.0,
+                    "high_on": 1.0
+                },
+                "bypassed": true
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Syncopated Delay",
+        "data": {
+            "bolliedelay": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "feedback": 43.75,
+                    "tempo_host": 120.0,
+                    "high_q": 1.0,
+                    "mix": 37.5,
+                    "tempo_mode": 0.0,
+                    "div_l": 0.0,
+                    "low_f": 20.0,
+                    "tempo_user": 120.0,
+                    "tap": 0.0,
+                    "high_f": 22000.0,
+                    "div_r": 3.0,
+                    "low_on": 1.0,
+                    "low_q": 1.0,
+                    "crossf": 50.0,
+                    "high_on": 1.0
+                },
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Straight Delay",
+        "data": {
+            "bolliedelay": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "feedback": 43.75,
+                    "tempo_host": 120.0,
+                    "high_q": 1.0,
+                    "mix": 37.5,
+                    "tempo_mode": 0.0,
+                    "div_l": 0.0,
+                    "low_f": 20.0,
+                    "tempo_user": 120.0,
+                    "tap": 0.0,
+                    "high_f": 22000.0,
+                    "div_r": 2.0,
+                    "low_on": 1.0,
+                    "low_q": 1.0,
+                    "crossf": 50.0,
+                    "high_on": 1.0
+                },
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Resonant Delay",
+        "data": {
+            "bolliedelay": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "feedback": 43.75,
+                    "tempo_host": 120.0,
+                    "high_q": 8.0,
+                    "mix": 37.5,
+                    "tempo_mode": 0.0,
+                    "div_l": 0.0,
+                    "low_f": 20.0,
+                    "tempo_user": 120.0,
+                    "tap": 0.0,
+                    "high_f": 2813.931,
+                    "div_r": 3.0,
+                    "low_on": 1.0,
+                    "low_q": 1.0,
+                    "crossf": 50.0,
+                    "high_on": 1.0
+                },
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "HPF Delay",
+        "data": {
+            "bolliedelay": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "feedback": 43.75,
+                    "tempo_host": 120.0,
+                    "high_q": 8.0,
+                    "mix": 37.5,
+                    "tempo_mode": 0.0,
+                    "div_l": 0.0,
+                    "low_f": 410.70499999999998,
+                    "tempo_user": 120.0,
+                    "tap": 0.0,
+                    "high_f": 22000.0,
+                    "div_r": 2.0,
+                    "low_on": 1.0,
+                    "low_q": 1.0,
+                    "crossf": 50.0,
+                    "high_on": 1.0
+                },
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Dub Delay",
+        "data": {
+            "bolliedelay": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "feedback": 81.25,
+                    "tempo_host": 120.0,
+                    "high_q": 1.915,
+                    "mix": 43.75,
+                    "tempo_mode": 0.0,
+                    "div_l": 1.0,
+                    "low_f": 20.0,
+                    "tempo_user": 120.0,
+                    "tap": 0.0,
+                    "high_f": 3774.8560000000002,
+                    "div_r": 1.0,
+                    "low_on": 1.0,
+                    "low_q": 1.0,
+                    "crossf": 50.0,
+                    "high_on": 1.0
+                },
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "PingPong Dub",
+        "data": {
+            "bolliedelay": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "feedback": 81.25,
+                    "tempo_host": 120.0,
+                    "high_q": 1.915,
+                    "mix": 43.75,
+                    "tempo_mode": 0.0,
+                    "div_l": 1.0,
+                    "low_f": 20.0,
+                    "tempo_user": 120.0,
+                    "tap": 0.0,
+                    "high_f": 3774.8560000000002,
+                    "div_r": 0.0,
+                    "low_on": 1.0,
+                    "low_q": 1.0,
+                    "crossf": 50.0,
+                    "high_on": 1.0
+                },
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            }
+        }
+    }
+]

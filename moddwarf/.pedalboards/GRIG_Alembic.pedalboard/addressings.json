@@ -1,0 +1,179 @@
+{
+    "/hmi/group1": [],
+    "/bpm": [],
+    "/hmi/footswitch2": [
+        {
+            "tempo": false,
+            "page": 0,
+            "dividers": null,
+            "maximum": 1.0,
+            "port": ":bypass",
+            "minimum": 0.0,
+            "coloured": false,
+            "group": null,
+            "momentary": 0,
+            "steps": 201,
+            "label": "Shiroverb",
+            "subpage": 0,
+            "instance": "/graph/shiroverb"
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "tempo": false,
+            "page": 0,
+            "dividers": null,
+            "maximum": 1.0,
+            "port": ":bypass",
+            "minimum": 0.0,
+            "coloured": false,
+            "group": null,
+            "momentary": 0,
+            "steps": 201,
+            "label": "GxQuack",
+            "subpage": 0,
+            "instance": "/graph/_quack_"
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "tempo": false,
+            "page": 0,
+            "dividers": null,
+            "maximum": 6.0,
+            "port": "GAIN",
+            "minimum": -12.0,
+            "coloured": false,
+            "group": null,
+            "momentary": 0,
+            "steps": 201,
+            "label": "GAIN",
+            "subpage": 0,
+            "instance": "/graph/_quack_"
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "dividers": null,
+            "maximum": 100.0,
+            "port": "decay",
+            "minimum": 1.0,
+            "coloured": false,
+            "group": null,
+            "momentary": 0,
+            "steps": 201,
+            "label": "decay",
+            "subpage": 2,
+            "instance": "/graph/shiroverb"
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "dividers": null,
+            "maximum": 1.0,
+            "port": "treble",
+            "minimum": 0.0,
+            "coloured": false,
+            "group": null,
+            "momentary": 0,
+            "steps": 201,
+            "label": "Treble",
+            "subpage": 1,
+            "instance": "/graph/studiopre"
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "tempo": false,
+            "page": 0,
+            "dividers": null,
+            "maximum": 20.0,
+            "port": "PEAK",
+            "minimum": -6.0,
+            "coloured": false,
+            "group": null,
+            "momentary": 0,
+            "steps": 201,
+            "label": "PEAK",
+            "subpage": 0,
+            "instance": "/graph/_quack_"
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "dividers": null,
+            "maximum": 100.0,
+            "port": "mix",
+            "minimum": 0.0,
+            "coloured": false,
+            "group": null,
+            "momentary": 0,
+            "steps": 201,
+            "label": "mix",
+            "subpage": 2,
+            "instance": "/graph/shiroverb"
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "dividers": null,
+            "maximum": 1.0,
+            "port": "middle",
+            "minimum": 0.0,
+            "coloured": false,
+            "group": null,
+            "momentary": 0,
+            "steps": 201,
+            "label": "Mid",
+            "subpage": 1,
+            "instance": "/graph/studiopre"
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "tempo": false,
+            "page": 0,
+            "dividers": null,
+            "maximum": 1.0,
+            "port": "DEPTH",
+            "minimum": 0.0,
+            "coloured": false,
+            "group": null,
+            "momentary": 0,
+            "steps": 201,
+            "label": "DEPTH",
+            "subpage": 0,
+            "instance": "/graph/_quack_"
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "dividers": null,
+            "maximum": 2.0,
+            "port": "ratio",
+            "minimum": 0.5,
+            "coloured": false,
+            "group": null,
+            "momentary": 0,
+            "steps": 201,
+            "label": "ratio",
+            "subpage": 2,
+            "instance": "/graph/shiroverb"
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "dividers": null,
+            "maximum": 1.0,
+            "port": "bass",
+            "minimum": 0.0,
+            "coloured": false,
+            "group": null,
+            "momentary": 0,
+            "steps": 201,
+            "label": "Bass",
+            "subpage": 1,
+            "instance": "/graph/studiopre"
+        }
+    ]
+}

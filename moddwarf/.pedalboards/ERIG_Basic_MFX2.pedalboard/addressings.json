@@ -1,0 +1,179 @@
+{
+    "/hmi/group1": [],
+    "/hmi/knob1": [
+        {
+            "port": ":bypass",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 201,
+            "instance": "/graph/xfade",
+            "label": "St input",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "div_l",
+            "dividers": null,
+            "maximum": 5.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 5,
+            "instance": "/graph/bolliedelay",
+            "label": "Div. L",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "Volume",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 201,
+            "instance": "/graph/mod_volume_2x2",
+            "label": "Hall SND",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "port": "gain",
+            "dividers": null,
+            "maximum": 20.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": -20.0,
+            "steps": 201,
+            "instance": "/graph/stereo_1",
+            "label": "PB Gain",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "Volume",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 201,
+            "instance": "/graph/mod_volume_2x2_2",
+            "label": "DLY SND",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "div_r",
+            "dividers": null,
+            "maximum": 5.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 5,
+            "instance": "/graph/bolliedelay",
+            "label": "Div. R",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "frequency_control",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 201,
+            "instance": "/graph/filta",
+            "label": "Filta",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": ":bpm",
+            "dividers": null,
+            "maximum": 280.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": 20.0,
+            "steps": 260,
+            "instance": "/pedalboard",
+            "label": "Tempo",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "Volume",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 201,
+            "instance": "/graph/mod_volume_2x2_1",
+            "label": "PHSR SND",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 201,
+            "instance": "/graph/filta",
+            "label": "Filta",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/bpm": [],
+    "/hmi/footswitch2": [
+        {
+            "port": "mute",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 1,
+            "instance": "/graph/stereo",
+            "label": "KIL SND",
+            "tempo": false,
+            "coloured": false
+        }
+    ]
+}

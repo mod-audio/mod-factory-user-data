@@ -1,1 +1,386 @@
-[{"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "Wider": {"preset": "", "ports": {"width": 1.0, "pan": -0.19642899930477142}, "parameters": {}, "bypassed": false}, "Wider_1": {"preset": "", "ports": {"width": 1.0, "pan": 0.234375}, "parameters": {}, "bypassed": false}, "PingPongPan": {"preset": "", "ports": {"freq": 31.25, "width": 34.375}, "parameters": {}, "bypassed": true}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "_2Voices": {"preset": "", "ports": {"Step1": 7.0, "Fidelity": 3.0, "Step2": 12.0, "Gain_2": 5.0, "Gain_1": 5.0}, "parameters": {}, "bypassed": false}, "xfade_1": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 0.0}, "parameters": {}, "bypassed": true}}, "name": "Dry"}, {"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "Wider": {"preset": "", "ports": {"width": 1.0, "pan": -0.19642899930477142}, "parameters": {}, "bypassed": false}, "Wider_1": {"preset": "", "ports": {"width": 1.0, "pan": 0.234375}, "parameters": {}, "bypassed": false}, "PingPongPan": {"preset": "", "ports": {"freq": 31.25, "width": 34.375}, "parameters": {}, "bypassed": true}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "_2Voices": {"preset": "", "ports": {"Step1": 7.0, "Fidelity": 3.0, "Step2": 12.0, "Gain_2": 7.5, "Gain_1": 7.5}, "parameters": {}, "bypassed": false}, "xfade_1": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}}, "name": "+Oct and +5th"}, {"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "Wider": {"preset": "", "ports": {"width": 1.0, "pan": -0.19642899930477142}, "parameters": {}, "bypassed": false}, "Wider_1": {"preset": "", "ports": {"width": 1.0, "pan": 0.234375}, "parameters": {}, "bypassed": false}, "PingPongPan": {"preset": "", "ports": {"freq": 31.25, "width": 34.375}, "parameters": {}, "bypassed": true}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "_2Voices": {"preset": "", "ports": {"Step1": -12.0, "Fidelity": 3.0, "Step2": 12.0, "Gain_2": 7.5, "Gain_1": 7.5}, "parameters": {}, "bypassed": false}, "xfade_1": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}}, "name": "+Oct and -Oct"}, {"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "Wider": {"preset": "", "ports": {"width": 1.0, "pan": -0.19642899930477142}, "parameters": {}, "bypassed": false}, "Wider_1": {"preset": "", "ports": {"width": 1.0, "pan": 0.234375}, "parameters": {}, "bypassed": false}, "PingPongPan": {"preset": "", "ports": {"freq": 31.25, "width": 34.375}, "parameters": {}, "bypassed": true}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "_2Voices": {"preset": "", "ports": {"Step1": -12.0, "Fidelity": 3.0, "Step2": 12.0, "Gain_2": 7.5, "Gain_1": 7.5}, "parameters": {}, "bypassed": false}, "xfade_1": {"preset": "", "ports": {"mode": 0.0, "shape": 1.0, "xfade": 0.0}, "parameters": {}, "bypassed": false}}, "name": "Dry +Oct -Oct"}, {"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "Wider": {"preset": "", "ports": {"width": 1.0, "pan": -0.19642899930477142}, "parameters": {}, "bypassed": false}, "Wider_1": {"preset": "", "ports": {"width": 1.0, "pan": 0.234375}, "parameters": {}, "bypassed": false}, "PingPongPan": {"preset": "", "ports": {"freq": 31.25, "width": 34.375}, "parameters": {}, "bypassed": false}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "_2Voices": {"preset": "", "ports": {"Step1": 7.0, "Fidelity": 3.0, "Step2": 12.0, "Gain_2": 7.5, "Gain_1": 7.5}, "parameters": {}, "bypassed": false}, "xfade_1": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}}, "name": "+Oct +5th AutoPan"}, {"data": {"stereo": {"preset": "", "ports": {"mute": 0.0, "gain": 0.0, "enable": 1.0}, "parameters": {}, "bypassed": false}, "Wider": {"preset": "", "ports": {"width": 1.0, "pan": -0.19642899930477142}, "parameters": {}, "bypassed": false}, "Wider_1": {"preset": "", "ports": {"width": 1.0, "pan": 0.234375}, "parameters": {}, "bypassed": false}, "PingPongPan": {"preset": "", "ports": {"freq": 31.25, "width": 34.375}, "parameters": {}, "bypassed": false}, "xfade": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}, "_2Voices": {"preset": "", "ports": {"Step1": -12.0, "Fidelity": 3.0, "Step2": 12.0, "Gain_2": 7.5, "Gain_1": 7.5}, "parameters": {}, "bypassed": false}, "xfade_1": {"preset": "", "ports": {"mode": 0.0, "shape": 0.0, "xfade": 1.0}, "parameters": {}, "bypassed": false}}, "name": "+Oct -Oct AutoPan"}]
+[
+    {
+        "name": "Dry",
+        "data": {
+            "Wider": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "pan": -0.19642899930477142,
+                    "width": 1.0
+                },
+                "bypassed": false
+            },
+            "_2Voices": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "Gain_1": 5.0,
+                    "Gain_2": 5.0,
+                    "Fidelity": 3.0,
+                    "Step2": 12.0,
+                    "Step1": 7.0
+                },
+                "bypassed": false
+            },
+            "PingPongPan": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "freq": 31.25,
+                    "width": 34.375
+                },
+                "bypassed": true
+            },
+            "xfade_1": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 0.0,
+                    "mode": 0.0
+                },
+                "bypassed": true
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            },
+            "Wider_1": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "pan": 0.234375,
+                    "width": 1.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "+Oct and +5th",
+        "data": {
+            "Wider": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "pan": -0.19642899930477142,
+                    "width": 1.0
+                },
+                "bypassed": false
+            },
+            "_2Voices": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "Gain_1": 7.5,
+                    "Gain_2": 7.5,
+                    "Fidelity": 3.0,
+                    "Step2": 12.0,
+                    "Step1": 7.0
+                },
+                "bypassed": false
+            },
+            "PingPongPan": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "freq": 31.25,
+                    "width": 34.375
+                },
+                "bypassed": true
+            },
+            "xfade_1": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            },
+            "Wider_1": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "pan": 0.234375,
+                    "width": 1.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "+Oct and -Oct",
+        "data": {
+            "Wider": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "pan": -0.19642899930477142,
+                    "width": 1.0
+                },
+                "bypassed": false
+            },
+            "_2Voices": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "Gain_1": 7.5,
+                    "Gain_2": 7.5,
+                    "Fidelity": 3.0,
+                    "Step2": 12.0,
+                    "Step1": -12.0
+                },
+                "bypassed": false
+            },
+            "PingPongPan": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "freq": 31.25,
+                    "width": 34.375
+                },
+                "bypassed": true
+            },
+            "xfade_1": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            },
+            "Wider_1": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "pan": 0.234375,
+                    "width": 1.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Dry +Oct -Oct",
+        "data": {
+            "Wider": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "pan": -0.19642899930477142,
+                    "width": 1.0
+                },
+                "bypassed": false
+            },
+            "_2Voices": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "Gain_1": 7.5,
+                    "Gain_2": 7.5,
+                    "Fidelity": 3.0,
+                    "Step2": 12.0,
+                    "Step1": -12.0
+                },
+                "bypassed": false
+            },
+            "PingPongPan": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "freq": 31.25,
+                    "width": 34.375
+                },
+                "bypassed": true
+            },
+            "xfade_1": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 1.0,
+                    "xfade": 0.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            },
+            "Wider_1": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "pan": 0.234375,
+                    "width": 1.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "+Oct +5th AutoPan",
+        "data": {
+            "Wider": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "pan": -0.19642899930477142,
+                    "width": 1.0
+                },
+                "bypassed": false
+            },
+            "_2Voices": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "Gain_1": 7.5,
+                    "Gain_2": 7.5,
+                    "Fidelity": 3.0,
+                    "Step2": 12.0,
+                    "Step1": 7.0
+                },
+                "bypassed": false
+            },
+            "PingPongPan": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "freq": 31.25,
+                    "width": 34.375
+                },
+                "bypassed": false
+            },
+            "xfade_1": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            },
+            "Wider_1": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "pan": 0.234375,
+                    "width": 1.0
+                },
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "+Oct -Oct AutoPan",
+        "data": {
+            "Wider": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "pan": -0.19642899930477142,
+                    "width": 1.0
+                },
+                "bypassed": false
+            },
+            "_2Voices": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "Gain_1": 7.5,
+                    "Gain_2": 7.5,
+                    "Fidelity": 3.0,
+                    "Step2": 12.0,
+                    "Step1": -12.0
+                },
+                "bypassed": false
+            },
+            "PingPongPan": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "freq": 31.25,
+                    "width": 34.375
+                },
+                "bypassed": false
+            },
+            "xfade_1": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                },
+                "bypassed": false
+            },
+            "Wider_1": {
+                "preset": "",
+                "parameters": {},
+                "ports": {
+                    "pan": 0.234375,
+                    "width": 1.0
+                },
+                "bypassed": false
+            }
+        }
+    }
+]

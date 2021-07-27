@@ -1,0 +1,179 @@
+{
+    "/bpm": [],
+    "/hmi/footswitch2": [
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/mud",
+            "steps": 33,
+            "maximum": 1.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "MudVibe",
+            "subpage": 0,
+            "port": ":bypass"
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/xfade",
+            "steps": 201,
+            "maximum": 1.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "Compressor",
+            "subpage": 0,
+            "port": ":bypass"
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/mono",
+            "steps": 201,
+            "maximum": 20.0,
+            "dividers": null,
+            "minimum": 1.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "Ratio",
+            "subpage": 0,
+            "port": "ratio"
+        },
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/cabsim_bass",
+            "steps": 3,
+            "maximum": 3.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "Mic Position",
+            "subpage": 2,
+            "port": "MicPos"
+        },
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/_CreamMachine_",
+            "steps": 201,
+            "maximum": 1.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "AMP TREB",
+            "subpage": 1,
+            "port": "TREBLE"
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/mono",
+            "steps": 201,
+            "maximum": 0.0,
+            "dividers": null,
+            "minimum": -36.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "Threshold",
+            "subpage": 0,
+            "port": "threshold"
+        },
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/cabsim_bass",
+            "steps": 5,
+            "maximum": 5.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "Cabinet",
+            "subpage": 2,
+            "port": "Model"
+        },
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/_CreamMachine_",
+            "steps": 201,
+            "maximum": 1.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "AMP BASS",
+            "subpage": 1,
+            "port": "BASS"
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/xfade",
+            "steps": 201,
+            "maximum": 1.0,
+            "dividers": null,
+            "minimum": -1.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "Dry/Comp",
+            "subpage": 0,
+            "port": "xfade"
+        },
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/cabsim_bass",
+            "steps": 201,
+            "maximum": 0.0,
+            "dividers": null,
+            "minimum": -90.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "Attenuation",
+            "subpage": 2,
+            "port": "Attenuation"
+        },
+        {
+            "coloured": false,
+            "momentary": 0,
+            "instance": "/graph/_CreamMachine_",
+            "steps": 201,
+            "maximum": 1.0,
+            "dividers": null,
+            "minimum": 0.0,
+            "tempo": false,
+            "page": 0,
+            "group": null,
+            "label": "Amp Gain",
+            "subpage": 1,
+            "port": "LEVEL"
+        }
+    ],
+    "/hmi/group1": []
+}

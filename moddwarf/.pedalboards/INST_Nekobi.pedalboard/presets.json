@@ -1,0 +1,627 @@
+[
+    {
+        "name": "Low Reso",
+        "data": {
+            "Nekobi": {
+                "bypassed": false,
+                "ports": {
+                    "waveform": 0.0,
+                    "volume": 100.0,
+                    "decay": 55.5,
+                    "accent": 0.0,
+                    "cutoff": 72.5,
+                    "tuning": -4.0,
+                    "lv2_enabled": 1.0,
+                    "env_mod": 50.0,
+                    "resonance": 45.600000000000001
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo_3": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": 0.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": 0.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "PlateX2": {
+                "bypassed": false,
+                "ports": {
+                    "tail": 0.75,
+                    "damping": 0.15000000596046448,
+                    "blend": 1.0,
+                    "bandwidth": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.25,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "_timray_": {
+                "bypassed": true,
+                "ports": {
+                    "TRIM": 0.5,
+                    "GAIN": 0.55000000000000004,
+                    "TREBLE": 0.5,
+                    "VOLUME": 0.5,
+                    "BASS": 0.5,
+                    "BYPASS": 0.0
+                },
+                "preset": ""
+            },
+            "mod_volume_2x2": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.25,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "bolliedelay": {
+                "bypassed": false,
+                "ports": {
+                    "low_q": 1.0,
+                    "feedback": 84.375,
+                    "tempo_mode": 0.0,
+                    "div_r": 3.0,
+                    "tempo_host": 120.0,
+                    "high_q": 2.1608619689941406,
+                    "mix": 100.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "div_l": 2.0,
+                    "tap": 0.0,
+                    "high_f": 22000.0,
+                    "crossf": 20.0,
+                    "high_on": 1.0,
+                    "low_f": 20.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "_bajatubedriver_": {
+                "bypassed": true,
+                "ports": {
+                    "VOLUME": 0.20000000298023224,
+                    "DRIVE": 0.5,
+                    "TONE": 0.25,
+                    "BYPASS": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            }
+        }
+    },
+    {
+        "name": "Lil Squelch",
+        "data": {
+            "Nekobi": {
+                "bypassed": false,
+                "ports": {
+                    "waveform": 1.0,
+                    "volume": 100.0,
+                    "decay": 55.5,
+                    "accent": 0.0,
+                    "cutoff": 20.0,
+                    "tuning": -4.0,
+                    "lv2_enabled": 1.0,
+                    "env_mod": 50.0,
+                    "resonance": 90.724999999999994
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo_3": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": 0.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": 0.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "PlateX2": {
+                "bypassed": false,
+                "ports": {
+                    "tail": 0.75,
+                    "damping": 0.15000000596046448,
+                    "blend": 1.0,
+                    "bandwidth": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.25,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "_timray_": {
+                "bypassed": true,
+                "ports": {
+                    "TRIM": 0.5,
+                    "GAIN": 0.55000000000000004,
+                    "TREBLE": 0.5,
+                    "VOLUME": 0.5,
+                    "BASS": 0.5,
+                    "BYPASS": 0.0
+                },
+                "preset": ""
+            },
+            "mod_volume_2x2": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.25,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "bolliedelay": {
+                "bypassed": false,
+                "ports": {
+                    "low_q": 1.0,
+                    "feedback": 84.375,
+                    "tempo_mode": 0.0,
+                    "div_r": 3.0,
+                    "tempo_host": 120.0,
+                    "high_q": 2.1608619689941406,
+                    "mix": 100.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "div_l": 2.0,
+                    "tap": 0.0,
+                    "high_f": 22000.0,
+                    "crossf": 20.0,
+                    "high_on": 1.0,
+                    "low_f": 20.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "_bajatubedriver_": {
+                "bypassed": true,
+                "ports": {
+                    "VOLUME": 0.20000000298023224,
+                    "DRIVE": 0.5,
+                    "TONE": 0.25,
+                    "BYPASS": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            }
+        }
+    },
+    {
+        "name": "Fat Squelch",
+        "data": {
+            "Nekobi": {
+                "bypassed": false,
+                "ports": {
+                    "waveform": 1.0,
+                    "volume": 100.0,
+                    "decay": 55.5,
+                    "accent": 0.0,
+                    "cutoff": 20.0,
+                    "tuning": -4.0,
+                    "lv2_enabled": 1.0,
+                    "env_mod": 50.0,
+                    "resonance": 90.724999999999994
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo_3": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": 0.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": 0.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "PlateX2": {
+                "bypassed": false,
+                "ports": {
+                    "tail": 0.75,
+                    "damping": 0.15000000596046448,
+                    "blend": 1.0,
+                    "bandwidth": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.25,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "_timray_": {
+                "bypassed": true,
+                "ports": {
+                    "TRIM": 0.5,
+                    "GAIN": 0.55000000000000004,
+                    "TREBLE": 0.5,
+                    "VOLUME": 0.5,
+                    "BASS": 0.5,
+                    "BYPASS": 0.0
+                },
+                "preset": ""
+            },
+            "mod_volume_2x2": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.25,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "bolliedelay": {
+                "bypassed": false,
+                "ports": {
+                    "low_q": 1.0,
+                    "feedback": 84.375,
+                    "tempo_mode": 0.0,
+                    "div_r": 3.0,
+                    "tempo_host": 120.0,
+                    "high_q": 2.1608619689941406,
+                    "mix": 100.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "div_l": 2.0,
+                    "tap": 0.0,
+                    "high_f": 22000.0,
+                    "crossf": 20.0,
+                    "high_on": 1.0,
+                    "low_f": 20.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "_bajatubedriver_": {
+                "bypassed": false,
+                "ports": {
+                    "VOLUME": 0.20000000298023224,
+                    "DRIVE": 0.5,
+                    "TONE": 0.25,
+                    "BYPASS": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            }
+        }
+    },
+    {
+        "name": "Mean Squelch",
+        "data": {
+            "Nekobi": {
+                "bypassed": false,
+                "ports": {
+                    "waveform": 1.0,
+                    "volume": 100.0,
+                    "decay": 55.5,
+                    "accent": 0.0,
+                    "cutoff": 20.0,
+                    "tuning": -4.0,
+                    "lv2_enabled": 1.0,
+                    "env_mod": 50.0,
+                    "resonance": 90.724999999999994
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo_3": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": 0.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": 0.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "PlateX2": {
+                "bypassed": false,
+                "ports": {
+                    "tail": 0.75,
+                    "damping": 0.15000000596046448,
+                    "blend": 1.0,
+                    "bandwidth": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.25,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "_timray_": {
+                "bypassed": true,
+                "ports": {
+                    "TRIM": 0.5,
+                    "GAIN": 0.55000000000000004,
+                    "TREBLE": 0.5,
+                    "VOLUME": 0.5,
+                    "BASS": 0.5,
+                    "BYPASS": 0.0
+                },
+                "preset": ""
+            },
+            "mod_volume_2x2": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.25,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "bolliedelay": {
+                "bypassed": false,
+                "ports": {
+                    "low_q": 1.0,
+                    "feedback": 84.375,
+                    "tempo_mode": 0.0,
+                    "div_r": 3.0,
+                    "tempo_host": 120.0,
+                    "high_q": 2.1608619689941406,
+                    "mix": 100.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "div_l": 2.0,
+                    "tap": 0.0,
+                    "high_f": 22000.0,
+                    "crossf": 20.0,
+                    "high_on": 1.0,
+                    "low_f": 20.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "_bajatubedriver_": {
+                "bypassed": true,
+                "ports": {
+                    "VOLUME": 0.20000000298023224,
+                    "DRIVE": 0.5,
+                    "TONE": 0.25,
+                    "BYPASS": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            }
+        }
+    },
+    {
+        "name": "Gnarly Squelch",
+        "data": {
+            "Nekobi": {
+                "bypassed": false,
+                "ports": {
+                    "waveform": 1.0,
+                    "volume": 100.0,
+                    "decay": 55.5,
+                    "accent": 0.0,
+                    "cutoff": 20.0,
+                    "tuning": -4.0,
+                    "lv2_enabled": 1.0,
+                    "env_mod": 50.0,
+                    "resonance": 90.724999999999994
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo_3": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": 0.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "stereo": {
+                "bypassed": false,
+                "ports": {
+                    "enable": 1.0,
+                    "gain": 0.0,
+                    "mute": 0.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "PlateX2": {
+                "bypassed": false,
+                "ports": {
+                    "tail": 0.75,
+                    "damping": 0.15000000596046448,
+                    "blend": 1.0,
+                    "bandwidth": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.25,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "_timray_": {
+                "bypassed": true,
+                "ports": {
+                    "TRIM": 0.5,
+                    "GAIN": 0.55000000000000004,
+                    "TREBLE": 0.5,
+                    "VOLUME": 0.5,
+                    "BASS": 0.5,
+                    "BYPASS": 0.0
+                },
+                "preset": ""
+            },
+            "mod_volume_2x2": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.25,
+                    "Mode": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "bolliedelay": {
+                "bypassed": false,
+                "ports": {
+                    "low_q": 1.0,
+                    "feedback": 84.375,
+                    "tempo_mode": 0.0,
+                    "div_r": 3.0,
+                    "tempo_host": 120.0,
+                    "high_q": 2.1608619689941406,
+                    "mix": 100.0,
+                    "low_on": 0.0,
+                    "tempo_user": 120.0,
+                    "div_l": 2.0,
+                    "tap": 0.0,
+                    "high_f": 22000.0,
+                    "crossf": 20.0,
+                    "high_on": 1.0,
+                    "low_f": 20.0
+                },
+                "preset": "",
+                "parameters": {}
+            },
+            "_bajatubedriver_": {
+                "bypassed": false,
+                "ports": {
+                    "VOLUME": 0.20000000298023224,
+                    "DRIVE": 0.5,
+                    "TONE": 0.25,
+                    "BYPASS": 1.0
+                },
+                "preset": "",
+                "parameters": {}
+            }
+        }
+    }
+]

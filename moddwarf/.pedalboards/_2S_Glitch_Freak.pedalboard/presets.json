@@ -1,0 +1,292 @@
+[
+    {
+        "data": {
+            "mono_1": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo_2": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "avocado_1": {
+                "ports": {
+                    "bufsiz": 62.5
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "Wider": {
+                "ports": {
+                    "width": 0.5,
+                    "pan": 0.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "Phaser": {
+                "ports": {
+                    "stereo": 180.0,
+                    "base_freq": 1000.0,
+                    "mod_rate": 0.17999999999999999,
+                    "stages": 6.0,
+                    "dry": 0.29999999999999999,
+                    "amount": 0.5,
+                    "mod_depth": 4000.0,
+                    "feedback": 0.25,
+                    "reset": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo_1": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade_1": {
+                "ports": {
+                    "mode": 0.0,
+                    "xfade": 1.0,
+                    "shape": 0.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "HighPassFilter": {
+                "ports": {
+                    "Order": 1.0,
+                    "Freq": 500.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "mono": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "Prefreak": {
+                "ports": {
+                    "Level": 0.67500000000000004,
+                    "Blur": 2.9249999999999998
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "CrossOver2": {
+                "ports": {
+                    "Order": 0.0,
+                    "Freq": 590.0,
+                    "Gain_2": 3.2000000000000002,
+                    "Gain_1": 3.2000000000000002
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade": {
+                "ports": {
+                    "mode": 0.0,
+                    "xfade": 0.0,
+                    "shape": 0.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "avocado": {
+                "ports": {
+                    "bufsiz": 125.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            }
+        },
+        "name": "2M In ST Out"
+    },
+    {
+        "data": {
+            "mono_1": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo_2": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "avocado_1": {
+                "ports": {
+                    "bufsiz": 62.5
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "Wider": {
+                "ports": {
+                    "width": 0.5,
+                    "pan": -1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "Phaser": {
+                "ports": {
+                    "stereo": 180.0,
+                    "base_freq": 1000.0,
+                    "mod_rate": 0.17999999999999999,
+                    "stages": 6.0,
+                    "dry": 0.29999999999999999,
+                    "amount": 0.5,
+                    "mod_depth": 4000.0,
+                    "feedback": 0.25,
+                    "reset": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "stereo_1": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade_1": {
+                "ports": {
+                    "mode": 0.0,
+                    "xfade": 1.0,
+                    "shape": 0.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "HighPassFilter": {
+                "ports": {
+                    "Order": 1.0,
+                    "Freq": 500.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "mono": {
+                "ports": {
+                    "mute": 0.0,
+                    "gain": 0.0,
+                    "enable": 1.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "Prefreak": {
+                "ports": {
+                    "Level": 0.67500000000000004,
+                    "Blur": 2.9249999999999998
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "CrossOver2": {
+                "ports": {
+                    "Order": 0.0,
+                    "Freq": 590.0,
+                    "Gain_2": 3.2000000000000002,
+                    "Gain_1": 3.2000000000000002
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "xfade": {
+                "ports": {
+                    "mode": 0.0,
+                    "xfade": 1.0,
+                    "shape": 0.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            },
+            "avocado": {
+                "ports": {
+                    "bufsiz": 125.0
+                },
+                "parameters": {},
+                "preset": "",
+                "bypassed": false
+            }
+        },
+        "name": "2M In 2M Out"
+    }
+]

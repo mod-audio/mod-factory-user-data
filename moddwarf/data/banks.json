@@ -1,84 +1,218 @@
 [
     {
-        "title": "CHAINS: Guitar",
         "pedalboards": [
             {
-                "title": "GTR:Super Clean Rig",
-                "bundle": "/root/.pedalboards/GTR_Super_Clean_.pedalboard"
+                "bundle": "/root/.pedalboards/GRIG_Gnarly.pedalboard",
+                "title": "GRIG:Gnarly"
             },
             {
-                "title": "GTR:Sub Vintage Rig",
-                "bundle": "/root/.pedalboards/GTR_Sub_Vintage_.pedalboard"
+                "bundle": "/root/.pedalboards/GRIG_Mean_Mud.pedalboard",
+                "title": "GRIG:Mean.Mud"
             },
             {
-                "title": "GTR:Destroyer Rig",
-                "bundle": "/root/.pedalboards/GTR_Destroyer_Ri.pedalboard"
+                "bundle": "/root/.pedalboards/GRIG_Fuzzy_60s.pedalboard",
+                "title": "GRIG:Fuzzy.60s"
+            },
+            {
+                "bundle": "/root/.pedalboards/GRIG_Swirly_70s.pedalboard",
+                "title": "GRIG:Swirly.70s"
+            },
+            {
+                "bundle": "/root/.pedalboards/GRIG_Lush_80s.pedalboard",
+                "title": "GRIG:Lush.80s"
+            },
+            {
+                "bundle": "/root/.pedalboards/GRIG_Loris_Jazz.pedalboard",
+                "title": "GRIG:Loris.Jazz"
+            },
+            {
+                "bundle": "/root/.pedalboards/GRIG_Birdssen_WD.pedalboard",
+                "title": "GRIG:Birdssen.WDW"
+            },
+            {
+                "bundle": "/root/.pedalboards/GRIG_Alembic.pedalboard",
+                "title": "GRIG:Alembic"
+            },
+            {
+                "bundle": "/root/.pedalboards/GRIG_Supersonic.pedalboard",
+                "title": "GRIG:Supersonic"
+            },
+            {
+                "bundle": "/root/.pedalboards/GRIG_Onyx.pedalboard",
+                "title": "GRIG:Onyx"
             }
-        ]
+        ],
+        "title": "CHAINS:Guitar Rigs"
     },
     {
-        "title": "CHAINS: Bass",
         "pedalboards": [
             {
-                "title": "BASS:SVTube Rig",
-                "bundle": "/root/.pedalboards/BASS_SVTube_Rig.pedalboard"
+                "bundle": "/root/.pedalboards/GTFX_Fuzzy_60s.pedalboard",
+                "title": "GTFX:Fuzzy.60s"
+            },
+            {
+                "bundle": "/root/.pedalboards/GTFX_Swirly_70s.pedalboard",
+                "title": "GTFX:Swirly.70s"
+            },
+            {
+                "bundle": "/root/.pedalboards/GTFX_Lush_80s.pedalboard",
+                "title": "GTFX:Lush.80s"
+            },
+            {
+                "bundle": "/root/.pedalboards/GTFX_OverToneDSP.pedalboard",
+                "title": "GTFX:OverToneDSP"
             }
-        ]
+        ],
+        "title": "CHAINS:Guitar FX"
     },
     {
-        "title": "CHAINS: Synths",
         "pedalboards": [
             {
-                "title": "SYN:Quick FX",
-                "bundle": "/root/.pedalboards/SYN_Quick_FX.pedalboard"
+                "bundle": "/root/.pedalboards/BRIG_SVTube.pedalboard",
+                "title": "BRIG:SVTube"
+            },
+            {
+                "bundle": "/root/.pedalboards/BRIG_Direct_Shim.pedalboard",
+                "title": "BRIG:Direct.Shim"
+            },
+            {
+                "bundle": "/root/.pedalboards/BRIG_Mean_Mud-67762.pedalboard",
+                "title": "BRIG:Mean.Mud"
             }
-        ]
+        ],
+        "title": "CHAINS:Bass Rigs"
     },
     {
-        "title": "CHAINS: Drum Machines",
         "pedalboards": [
             {
-                "title": "DRM:Quick FX",
-                "bundle": "/root/.pedalboards/DRM_Quick_FX-74622.pedalboard"
+                "bundle": "/root/.pedalboards/ERIG_Basic_MFX1.pedalboard",
+                "title": "ERIG:Basic.MFX1"
+            },
+            {
+                "bundle": "/root/.pedalboards/ERIG_Basic_MFX2.pedalboard",
+                "title": "ERIG:Basic.MFX2"
+            },
+            {
+                "bundle": "/root/.pedalboards/ERIG_Birdssen.pedalboard",
+                "title": "ERIG:Birdssen"
             }
-        ]
+        ],
+        "title": "CHAINS:Electronic Rigs"
     },
     {
-        "title": "EFFECTS",
         "pedalboards": [
             {
-                "title": "FX:Muff & DS1",
-                "bundle": "/root/.pedalboards/FX_Muff_DS1.pedalboard"
-            },
-            {
-                "title": "FX:Bollie Delay",
-                "bundle": "/root/.pedalboards/FX_Bollie_Delay-60587.pedalboard"
-            },
-            {
-                "title": "FX:RKR Reverb",
-                "bundle": "/root/.pedalboards/FX_RKR_Reverb.pedalboard"
-            },
-            {
-                "title": "FX:Calf Phaser",
-                "bundle": "/root/.pedalboards/FX_Calf_Phaser.pedalboard"
-            },
-            {
-                "title": "FX:Double Pitch",
-                "bundle": "/root/.pedalboards/FX_Double_Pitch.pedalboard"
-            },
-            {
-                "title": "FX:Auto Tune",
-                "bundle": "/root/.pedalboards/FX_Auto_Tune.pedalboard"
+                "bundle": "/root/.pedalboards/VRIG_Voco_Dly_Pl.pedalboard",
+                "title": "VRIG:Voco.Dly.Plate"
             }
-        ]
+        ],
+        "title": "CHAINS:Vocal Rigs"
     },
     {
-        "title": "INSTRUMENTS",
         "pedalboards": [
             {
-                "title": "INST:Acid Synth",
-                "bundle": "/root/.pedalboards/INST_Acid_Synth.pedalboard"
+                "bundle": "/root/.pedalboards/FX_Shiroverb.pedalboard",
+                "title": "FX:Shiroverb"
+            },
+            {
+                "bundle": "/root/.pedalboards/FX_SlowGear.pedalboard",
+                "title": "FX:SlowGear"
+            },
+            {
+                "bundle": "/root/.pedalboards/FX_Muff_DS1.pedalboard",
+                "title": "FX:Muff & DS1"
+            },
+            {
+                "bundle": "/root/.pedalboards/FX_Remaincalm.pedalboard",
+                "title": "FX:Remaincalm"
+            },
+            {
+                "bundle": "/root/.pedalboards/FX_Granulator.pedalboard",
+                "title": "FX:Granulator"
+            },
+            {
+                "bundle": "/root/.pedalboards/FX_Bollie_Delay-60587.pedalboard",
+                "title": "FX:Bollie Delay"
+            },
+            {
+                "bundle": "/root/.pedalboards/FX_Modulay_X3.pedalboard",
+                "title": "FX:Modulay.X3"
+            },
+            {
+                "bundle": "/root/.pedalboards/FX_RKR_Reverb.pedalboard",
+                "title": "FX:RKR Reverb"
+            },
+            {
+                "bundle": "/root/.pedalboards/FX_Calf_Phaser.pedalboard",
+                "title": "FX:Calf Phaser"
+            },
+            {
+                "bundle": "/root/.pedalboards/FX_Double_Pitch.pedalboard",
+                "title": "FX:Double Pitch"
+            },
+            {
+                "bundle": "/root/.pedalboards/FX_Auto_Tune.pedalboard",
+                "title": "FX:Auto Tune"
+            },
+            {
+                "bundle": "/root/.pedalboards/FX_SooperLooper.pedalboard",
+                "title": "FX:SooperLooper"
             }
-        ]
+        ],
+        "title": "EFFECTS:General"
+    },
+    {
+        "pedalboards": [
+            {
+                "bundle": "/root/.pedalboards/_2S_Scape_Shim.pedalboard",
+                "title": "2S:Scape.Shim"
+            },
+            {
+                "bundle": "/root/.pedalboards/_2S_DigiDly_Verb.pedalboard",
+                "title": "2S:DigiDly.Verb"
+            },
+            {
+                "bundle": "/root/.pedalboards/_2S_Analog_Plate.pedalboard",
+                "title": "2S:Analog.Plate"
+            },
+            {
+                "bundle": "/root/.pedalboards/_2S_Glitch_Freak.pedalboard",
+                "title": "2S:Glitch.Freak"
+            },
+            {
+                "bundle": "/root/.pedalboards/_2S_Floaty_ShZit.pedalboard",
+                "title": "2S:Floaty.ShZita"
+            }
+        ],
+        "title": "EFFECTS:2-Sends"
+    },
+    {
+        "pedalboards": [
+            {
+                "bundle": "/root/.pedalboards/INST_AMSynth.pedalboard",
+                "title": "INST:AMSynth"
+            },
+            {
+                "bundle": "/root/.pedalboards/INST_DX10.pedalboard",
+                "title": "INST:DX10"
+            },
+            {
+                "bundle": "/root/.pedalboards/INST_EPiano.pedalboard",
+                "title": "INST:EPiano"
+            },
+            {
+                "bundle": "/root/.pedalboards/INST_JX10.pedalboard",
+                "title": "INST:JX10"
+            },
+            {
+                "bundle": "/root/.pedalboards/INST_Karplus.pedalboard",
+                "title": "INST:Karplus"
+            },
+            {
+                "bundle": "/root/.pedalboards/INST_Nekobi.pedalboard",
+                "title": "INST:Nekobi"
+            }
+        ],
+        "title": "INSTRUMENTS:MIDI"
     }
 ]

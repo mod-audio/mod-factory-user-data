@@ -1,0 +1,498 @@
+[
+    {
+        "name": "Echo Hall",
+        "data": {
+            "modulay": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "tone": 6000.0,
+                    "repeats": 24.75,
+                    "mix": 26.0,
+                    "time": 500.19999999999999,
+                    "depth": 1.0,
+                    "morph": 50.0,
+                    "rate": 2.0
+                }
+            },
+            "JX10": {
+                "parameters": {},
+                "preset": "http://moddevices.com/plugins/mda/presets#JX10-synth-strings-2",
+                "bypassed": false,
+                "ports": {
+                    "vcf_reso": 0.15999999642372131,
+                    "gld_rate": 0.49000000953674316,
+                    "tuning": 0.5,
+                    "osc_mix": 0.75,
+                    "glide": 0.0,
+                    "osc_fine": 0.28999999165534973,
+                    "env_att": 0.0,
+                    "lfo_rate": 0.79000002145767212,
+                    "vcf_sus": 0.75999999046325684,
+                    "vcf_vel": 0.20000000298023224,
+                    "vcf_env": 0.68999999761581421,
+                    "vcf_freq": 0.55000001192092896,
+                    "gld_bend": 0.5,
+                    "noise": 0.0,
+                    "vibrato": 0.27000001072883606,
+                    "env_rel": 0.38999998569488525,
+                    "vcf_rel": 1.0,
+                    "env_sus": 1.0,
+                    "octave": 0.68000000715255737,
+                    "osc_tune": 0.50999999046325684,
+                    "env_dec": 0.80000001192092896,
+                    "vcf_dec": 0.28999999165534973,
+                    "vcf_lfo": 0.079999998211860657,
+                    "vcf_att": 0.75999999046325684
+                }
+            },
+            "mono_1": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "gain": 0.0,
+                    "threshold": -27.0,
+                    "release": 0.05000000074505806,
+                    "attack": 0.014999999664723873,
+                    "ratio": 4.265625,
+                    "rms": 0.5,
+                    "noClip": 1.0,
+                    "bypass": 0.0
+                }
+            },
+            "xfade": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": true,
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                }
+            },
+            "PlateX2": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "tail": 0.505,
+                    "bandwidth": 0.80000001192092896,
+                    "blend": 0.20499999999999999,
+                    "damping": 0.02500000037252903
+                }
+            },
+            "Vocoder": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "envelope": 1602.239990234375,
+                    "output": 0.0,
+                    "hi_band": 40.0,
+                    "mid_freq": 1000.0,
+                    "filter_q": 55.0,
+                    "mod_in": 0.0,
+                    "quality": 1.0,
+                    "hi_thru": 40.0
+                }
+            },
+            "Gain2x2": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                }
+            },
+            "mono": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "gain": 2.0,
+                    "threshold": -27.0,
+                    "release": 0.05000000074505806,
+                    "attack": 9.9999997473787516e-06,
+                    "ratio": 3.0,
+                    "rms": 0.5,
+                    "noClip": 0.0,
+                    "bypass": 0.0
+                }
+            }
+        }
+    },
+    {
+        "name": "Big Hall",
+        "data": {
+            "modulay": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "tone": 6000.0,
+                    "repeats": 24.75,
+                    "mix": 0.0,
+                    "time": 500.19999999999999,
+                    "depth": 1.0,
+                    "morph": 50.0,
+                    "rate": 2.0
+                }
+            },
+            "JX10": {
+                "parameters": {},
+                "preset": "http://moddevices.com/plugins/mda/presets#JX10-synth-strings-2",
+                "bypassed": false,
+                "ports": {
+                    "vcf_reso": 0.15999999642372131,
+                    "gld_rate": 0.49000000953674316,
+                    "tuning": 0.5,
+                    "osc_mix": 0.75,
+                    "glide": 0.0,
+                    "osc_fine": 0.28999999165534973,
+                    "env_att": 0.0,
+                    "lfo_rate": 0.79000002145767212,
+                    "vcf_sus": 0.75999999046325684,
+                    "vcf_vel": 0.20000000298023224,
+                    "vcf_env": 0.68999999761581421,
+                    "vcf_freq": 0.55000001192092896,
+                    "gld_bend": 0.5,
+                    "noise": 0.0,
+                    "vibrato": 0.27000001072883606,
+                    "env_rel": 0.38999998569488525,
+                    "vcf_rel": 1.0,
+                    "env_sus": 1.0,
+                    "octave": 0.68000000715255737,
+                    "osc_tune": 0.50999999046325684,
+                    "env_dec": 0.80000001192092896,
+                    "vcf_dec": 0.28999999165534973,
+                    "vcf_lfo": 0.079999998211860657,
+                    "vcf_att": 0.75999999046325684
+                }
+            },
+            "mono_1": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "gain": 0.0,
+                    "threshold": -27.0,
+                    "release": 0.05000000074505806,
+                    "attack": 0.014999999664723873,
+                    "ratio": 4.265625,
+                    "rms": 0.5,
+                    "noClip": 1.0,
+                    "bypass": 0.0
+                }
+            },
+            "xfade": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": true,
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                }
+            },
+            "PlateX2": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "tail": 1.0,
+                    "bandwidth": 0.80000001192092896,
+                    "blend": 0.5,
+                    "damping": 0.02500000037252903
+                }
+            },
+            "Vocoder": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "envelope": 1602.239990234375,
+                    "output": 0.0,
+                    "hi_band": 40.0,
+                    "mid_freq": 1000.0,
+                    "filter_q": 55.0,
+                    "mod_in": 0.0,
+                    "quality": 1.0,
+                    "hi_thru": 40.0
+                }
+            },
+            "Gain2x2": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                }
+            },
+            "mono": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "gain": 2.0,
+                    "threshold": -27.0,
+                    "release": 0.05000000074505806,
+                    "attack": 9.9999997473787516e-06,
+                    "ratio": 3.0,
+                    "rms": 0.5,
+                    "noClip": 0.0,
+                    "bypass": 0.0
+                }
+            }
+        }
+    },
+    {
+        "name": "Vocoder Hall",
+        "data": {
+            "modulay": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "tone": 6000.0,
+                    "repeats": 24.75,
+                    "mix": 0.0,
+                    "time": 500.19999999999999,
+                    "depth": 1.0,
+                    "morph": 50.0,
+                    "rate": 2.0
+                }
+            },
+            "JX10": {
+                "parameters": {},
+                "preset": "http://moddevices.com/plugins/mda/presets#JX10-synth-strings-2",
+                "bypassed": false,
+                "ports": {
+                    "vcf_reso": 0.15999999642372131,
+                    "gld_rate": 0.49000000953674316,
+                    "tuning": 0.5,
+                    "osc_mix": 0.75,
+                    "glide": 0.0,
+                    "osc_fine": 0.28999999165534973,
+                    "env_att": 0.0,
+                    "lfo_rate": 0.79000002145767212,
+                    "vcf_sus": 0.75999999046325684,
+                    "vcf_vel": 0.20000000298023224,
+                    "vcf_env": 0.68999999761581421,
+                    "vcf_freq": 0.55000001192092896,
+                    "gld_bend": 0.5,
+                    "noise": 0.0,
+                    "vibrato": 0.27000001072883606,
+                    "env_rel": 0.38999998569488525,
+                    "vcf_rel": 1.0,
+                    "env_sus": 1.0,
+                    "octave": 0.68000000715255737,
+                    "osc_tune": 0.50999999046325684,
+                    "env_dec": 0.80000001192092896,
+                    "vcf_dec": 0.28999999165534973,
+                    "vcf_lfo": 0.079999998211860657,
+                    "vcf_att": 0.75999999046325684
+                }
+            },
+            "mono_1": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "gain": 0.0,
+                    "threshold": -27.0,
+                    "release": 0.05000000074505806,
+                    "attack": 0.014999999664723873,
+                    "ratio": 4.265625,
+                    "rms": 0.5,
+                    "noClip": 1.0,
+                    "bypass": 0.0
+                }
+            },
+            "xfade": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 0.14000000000000001,
+                    "mode": 0.0
+                }
+            },
+            "PlateX2": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "tail": 1.0,
+                    "bandwidth": 0.80000001192092896,
+                    "blend": 0.5,
+                    "damping": 0.02500000037252903
+                }
+            },
+            "Vocoder": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "envelope": 1602.239990234375,
+                    "output": 0.0,
+                    "hi_band": 40.0,
+                    "mid_freq": 1000.0,
+                    "filter_q": 55.0,
+                    "mod_in": 0.0,
+                    "quality": 1.0,
+                    "hi_thru": 40.0
+                }
+            },
+            "Gain2x2": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                }
+            },
+            "mono": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "gain": 2.0,
+                    "threshold": -27.0,
+                    "release": 0.05000000074505806,
+                    "attack": 9.9999997473787516e-06,
+                    "ratio": 3.0,
+                    "rms": 0.5,
+                    "noClip": 0.0,
+                    "bypass": 0.0
+                }
+            }
+        }
+    },
+    {
+        "name": "Echo",
+        "data": {
+            "modulay": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "tone": 6000.0,
+                    "repeats": 24.75,
+                    "mix": 75.0,
+                    "time": 500.19999999999999,
+                    "depth": 1.0,
+                    "morph": 50.0,
+                    "rate": 2.0
+                }
+            },
+            "JX10": {
+                "parameters": {},
+                "preset": "http://moddevices.com/plugins/mda/presets#JX10-synth-strings-2",
+                "bypassed": false,
+                "ports": {
+                    "vcf_reso": 0.15999999642372131,
+                    "gld_rate": 0.49000000953674316,
+                    "tuning": 0.5,
+                    "osc_mix": 0.75,
+                    "glide": 0.0,
+                    "osc_fine": 0.28999999165534973,
+                    "env_att": 0.0,
+                    "lfo_rate": 0.79000002145767212,
+                    "vcf_sus": 0.75999999046325684,
+                    "vcf_vel": 0.20000000298023224,
+                    "vcf_env": 0.68999999761581421,
+                    "vcf_freq": 0.55000001192092896,
+                    "gld_bend": 0.5,
+                    "noise": 0.0,
+                    "vibrato": 0.27000001072883606,
+                    "env_rel": 0.38999998569488525,
+                    "vcf_rel": 1.0,
+                    "env_sus": 1.0,
+                    "octave": 0.68000000715255737,
+                    "osc_tune": 0.50999999046325684,
+                    "env_dec": 0.80000001192092896,
+                    "vcf_dec": 0.28999999165534973,
+                    "vcf_lfo": 0.079999998211860657,
+                    "vcf_att": 0.75999999046325684
+                }
+            },
+            "mono_1": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "gain": 0.0,
+                    "threshold": -27.0,
+                    "release": 0.05000000074505806,
+                    "attack": 0.014999999664723873,
+                    "ratio": 4.265625,
+                    "rms": 0.5,
+                    "noClip": 1.0,
+                    "bypass": 0.0
+                }
+            },
+            "xfade": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": true,
+                "ports": {
+                    "shape": 0.0,
+                    "xfade": 1.0,
+                    "mode": 0.0
+                }
+            },
+            "PlateX2": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "tail": 0.35499999999999998,
+                    "bandwidth": 0.80000001192092896,
+                    "blend": 0.10000000000000001,
+                    "damping": 0.02500000037252903
+                }
+            },
+            "Vocoder": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "envelope": 1602.239990234375,
+                    "output": 0.0,
+                    "hi_band": 40.0,
+                    "mid_freq": 1000.0,
+                    "filter_q": 55.0,
+                    "mod_in": 0.0,
+                    "quality": 1.0,
+                    "hi_thru": 40.0
+                }
+            },
+            "Gain2x2": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                }
+            },
+            "mono": {
+                "parameters": {},
+                "preset": "",
+                "bypassed": false,
+                "ports": {
+                    "gain": 2.0,
+                    "threshold": -27.0,
+                    "release": 0.05000000074505806,
+                    "attack": 9.9999997473787516e-06,
+                    "ratio": 3.0,
+                    "rms": 0.5,
+                    "noClip": 0.0,
+                    "bypass": 0.0
+                }
+            }
+        }
+    }
+]
