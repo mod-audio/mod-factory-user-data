@@ -17,6 +17,6 @@
 3. Adress the parameter you would like to modulate to the CV source you just created
 
 Tip: use the MOD CV Parameter Modulation plugin to have full control over the target parameter value and modulation depth.""" ;
-		<http://open-music-kontrollers.ch/lv2/notes#fontHeight> "20"^^xsd:int
+		<http://open-music-kontrollers.ch/lv2/notes#fontHeight> "21"^^xsd:int
 	] .
 
