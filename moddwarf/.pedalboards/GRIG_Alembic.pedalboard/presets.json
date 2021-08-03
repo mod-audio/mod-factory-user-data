@@ -1,488 +1,476 @@
 [
     {
+        "name": "Clean",
         "data": {
             "_quack_": {
                 "ports": {
-                    "DRIVE": 0.0,
-                    "TONE": 0.0,
                     "PEAK": 10.25,
-                    "RANGE": 1.0,
-                    "MODE": 2.0,
-                    "BYPASS": 0.0,
                     "DEPTH": 1.0,
-                    "GAIN": 0.0
+                    "DRIVE": 0.0,
+                    "BYPASS": 0.0,
+                    "MODE": 2.0,
+                    "TONE": 0.0,
+                    "GAIN": 0.0,
+                    "RANGE": 1.0
                 },
                 "bypassed": true,
-                "preset": "",
-                "parameters": {}
-            },
-            "faIR_cabsim": {
-                "ports": {
-                    "Model": 9.0,
-                    "Attenuation": 0.0
-                },
-                "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mono": {
                 "ports": {
-                    "noClip": 1.0,
-                    "release": 0.05000000074505806,
                     "attack": 0.00021300000662449747,
-                    "ratio": 6.0,
-                    "gain": 0.0,
-                    "bypass": 0.0,
+                    "noClip": 1.0,
                     "rms": 0.5,
-                    "threshold": -18.0
+                    "bypass": 0.0,
+                    "gain": 0.0,
+                    "threshold": -18.0,
+                    "ratio": 6.0,
+                    "release": 0.05000000074505806
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "faIR_cabsim": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 9.0
+                },
+                "bypassed": false,
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -5.0
+                },
+                "parameters": {},
+                "preset": ""
             },
             "shiroverb": {
                 "ports": {
-                    "roomsize": 75.0,
-                    "shimmer": 50.0,
                     "bandwidth": 75.0,
-                    "ratio": 2.0,
-                    "decay": 38.125,
+                    "mix": 25.0,
+                    "shimmer": 50.0,
                     "damping": 50.0,
                     "tone": 2000.0,
-                    "mix": 25.0
+                    "ratio": 2.0,
+                    "decay": 38.125,
+                    "roomsize": 75.0
                 },
                 "bypassed": true,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "studiopre": {
                 "ports": {
-                    "treble": 0.5,
-                    "middle": 0.5,
                     "bright": 0.0,
+                    "bass": 0.5,
                     "volume": 5.0,
-                    "bass": 0.5
+                    "middle": 0.5,
+                    "treble": 0.5
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
-            },
-            "stereo": {
-                "ports": {
-                    "enable": 1.0,
-                    "mute": 0.0,
-                    "gain": -5.0
-                },
-                "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             }
-        },
-        "name": "Clean"
+        }
     },
     {
+        "name": "Quack",
         "data": {
             "_quack_": {
                 "ports": {
-                    "DRIVE": 0.0,
-                    "TONE": 0.0,
                     "PEAK": 10.25,
-                    "RANGE": 1.0,
-                    "MODE": 2.0,
+                    "DEPTH": 1.0,
+                    "DRIVE": 0.0,
                     "BYPASS": 1.0,
-                    "DEPTH": 1.0,
-                    "GAIN": 0.0
+                    "MODE": 2.0,
+                    "TONE": 0.0,
+                    "GAIN": 0.0,
+                    "RANGE": 1.0
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
-            },
-            "faIR_cabsim": {
-                "ports": {
-                    "Model": 9.0,
-                    "Attenuation": 0.0
-                },
-                "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mono": {
                 "ports": {
-                    "noClip": 1.0,
-                    "release": 0.05000000074505806,
                     "attack": 0.00021300000662449747,
-                    "ratio": 6.0,
-                    "gain": 0.0,
-                    "bypass": 0.0,
+                    "noClip": 1.0,
                     "rms": 0.5,
-                    "threshold": -18.0
+                    "bypass": 0.0,
+                    "gain": 0.0,
+                    "threshold": -18.0,
+                    "ratio": 6.0,
+                    "release": 0.05000000074505806
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "faIR_cabsim": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 9.0
+                },
+                "bypassed": false,
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -5.0
+                },
+                "parameters": {},
+                "preset": ""
             },
             "shiroverb": {
                 "ports": {
-                    "roomsize": 75.0,
-                    "shimmer": 50.0,
                     "bandwidth": 75.0,
-                    "ratio": 2.0,
-                    "decay": 38.125,
+                    "mix": 25.0,
+                    "shimmer": 50.0,
                     "damping": 50.0,
                     "tone": 2000.0,
-                    "mix": 25.0
+                    "ratio": 2.0,
+                    "decay": 38.125,
+                    "roomsize": 75.0
                 },
                 "bypassed": true,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "studiopre": {
                 "ports": {
-                    "treble": 0.5,
-                    "middle": 0.5,
                     "bright": 0.0,
+                    "bass": 0.5,
                     "volume": 5.0,
-                    "bass": 0.5
+                    "middle": 0.5,
+                    "treble": 0.5
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
-            },
-            "stereo": {
-                "ports": {
-                    "enable": 1.0,
-                    "mute": 0.0,
-                    "gain": -5.0
-                },
-                "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             }
-        },
-        "name": "Quack"
+        }
     },
     {
+        "name": "ShiroVerb",
         "data": {
             "_quack_": {
                 "ports": {
-                    "DRIVE": 0.0,
-                    "TONE": 0.0,
                     "PEAK": 10.25,
-                    "RANGE": 1.0,
-                    "MODE": 2.0,
+                    "DEPTH": 1.0,
+                    "DRIVE": 0.0,
                     "BYPASS": 0.0,
-                    "DEPTH": 1.0,
-                    "GAIN": 0.0
+                    "MODE": 2.0,
+                    "TONE": 0.0,
+                    "GAIN": 0.0,
+                    "RANGE": 1.0
                 },
                 "bypassed": true,
-                "preset": "",
-                "parameters": {}
-            },
-            "faIR_cabsim": {
-                "ports": {
-                    "Model": 9.0,
-                    "Attenuation": 0.0
-                },
-                "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mono": {
                 "ports": {
-                    "noClip": 1.0,
-                    "release": 0.05000000074505806,
                     "attack": 0.00021300000662449747,
-                    "ratio": 6.0,
-                    "gain": 0.0,
-                    "bypass": 0.0,
+                    "noClip": 1.0,
                     "rms": 0.5,
-                    "threshold": -18.0
+                    "bypass": 0.0,
+                    "gain": 0.0,
+                    "threshold": -18.0,
+                    "ratio": 6.0,
+                    "release": 0.05000000074505806
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "faIR_cabsim": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 9.0
+                },
+                "bypassed": false,
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -5.0
+                },
+                "parameters": {},
+                "preset": ""
             },
             "shiroverb": {
                 "ports": {
-                    "roomsize": 75.0,
-                    "shimmer": 50.0,
                     "bandwidth": 75.0,
-                    "ratio": 2.0,
-                    "decay": 38.125,
+                    "mix": 25.0,
+                    "shimmer": 50.0,
                     "damping": 50.0,
                     "tone": 2000.0,
-                    "mix": 25.0
+                    "ratio": 2.0,
+                    "decay": 38.125,
+                    "roomsize": 75.0
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "studiopre": {
                 "ports": {
-                    "treble": 0.5,
-                    "middle": 0.5,
                     "bright": 0.0,
+                    "bass": 0.5,
                     "volume": 5.0,
-                    "bass": 0.5
+                    "middle": 0.5,
+                    "treble": 0.5
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
-            },
-            "stereo": {
-                "ports": {
-                    "enable": 1.0,
-                    "mute": 0.0,
-                    "gain": -5.0
-                },
-                "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             }
-        },
-        "name": "ShiroVerb"
+        }
     },
     {
+        "name": "Quack + Shiro",
         "data": {
             "_quack_": {
                 "ports": {
-                    "DRIVE": 0.0,
-                    "TONE": 0.0,
                     "PEAK": 10.25,
-                    "RANGE": 1.0,
-                    "MODE": 2.0,
+                    "DEPTH": 1.0,
+                    "DRIVE": 0.0,
                     "BYPASS": 1.0,
-                    "DEPTH": 1.0,
-                    "GAIN": 0.0
+                    "MODE": 2.0,
+                    "TONE": 0.0,
+                    "GAIN": 0.0,
+                    "RANGE": 1.0
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
-            },
-            "faIR_cabsim": {
-                "ports": {
-                    "Model": 9.0,
-                    "Attenuation": 0.0
-                },
-                "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mono": {
                 "ports": {
-                    "noClip": 1.0,
-                    "release": 0.05000000074505806,
                     "attack": 0.00021300000662449747,
-                    "ratio": 6.0,
-                    "gain": 0.0,
-                    "bypass": 0.0,
+                    "noClip": 1.0,
                     "rms": 0.5,
-                    "threshold": -18.0
+                    "bypass": 0.0,
+                    "gain": 0.0,
+                    "threshold": -18.0,
+                    "ratio": 6.0,
+                    "release": 0.05000000074505806
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "faIR_cabsim": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 9.0
+                },
+                "bypassed": false,
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -5.0
+                },
+                "parameters": {},
+                "preset": ""
             },
             "shiroverb": {
                 "ports": {
-                    "roomsize": 75.0,
-                    "shimmer": 50.0,
                     "bandwidth": 75.0,
-                    "ratio": 2.0,
-                    "decay": 38.125,
+                    "mix": 25.0,
+                    "shimmer": 50.0,
                     "damping": 50.0,
                     "tone": 2000.0,
-                    "mix": 25.0
+                    "ratio": 2.0,
+                    "decay": 38.125,
+                    "roomsize": 75.0
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "studiopre": {
                 "ports": {
-                    "treble": 0.5,
-                    "middle": 0.5,
                     "bright": 0.0,
+                    "bass": 0.5,
                     "volume": 5.0,
-                    "bass": 0.5
+                    "middle": 0.5,
+                    "treble": 0.5
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
-            },
-            "stereo": {
-                "ports": {
-                    "enable": 1.0,
-                    "mute": 0.0,
-                    "gain": -5.0
-                },
-                "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             }
-        },
-        "name": "Quack + Shiro"
+        }
     },
     {
+        "name": "Short Shiro",
         "data": {
             "_quack_": {
                 "ports": {
-                    "DRIVE": 0.0,
-                    "TONE": 0.0,
                     "PEAK": 10.25,
-                    "RANGE": 1.0,
-                    "MODE": 2.0,
-                    "BYPASS": 0.0,
                     "DEPTH": 1.0,
-                    "GAIN": 0.0
+                    "DRIVE": 0.0,
+                    "BYPASS": 0.0,
+                    "MODE": 2.0,
+                    "TONE": 0.0,
+                    "GAIN": 0.0,
+                    "RANGE": 1.0
                 },
                 "bypassed": true,
-                "preset": "",
-                "parameters": {}
-            },
-            "faIR_cabsim": {
-                "ports": {
-                    "Model": 9.0,
-                    "Attenuation": 0.0
-                },
-                "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mono": {
                 "ports": {
-                    "noClip": 1.0,
-                    "release": 0.05000000074505806,
                     "attack": 0.00021300000662449747,
-                    "ratio": 6.0,
-                    "gain": 0.0,
-                    "bypass": 0.0,
+                    "noClip": 1.0,
                     "rms": 0.5,
-                    "threshold": -18.0
+                    "bypass": 0.0,
+                    "gain": 0.0,
+                    "threshold": -18.0,
+                    "ratio": 6.0,
+                    "release": 0.05000000074505806
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "faIR_cabsim": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 9.0
+                },
+                "bypassed": false,
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -5.0
+                },
+                "parameters": {},
+                "preset": ""
             },
             "shiroverb": {
                 "ports": {
-                    "roomsize": 75.0,
-                    "shimmer": 50.0,
                     "bandwidth": 75.0,
+                    "mix": 25.0,
+                    "shimmer": 50.0,
+                    "damping": 50.0,
+                    "tone": 2000.0,
                     "ratio": 2.0,
                     "decay": 1.0,
-                    "damping": 50.0,
-                    "tone": 2000.0,
-                    "mix": 25.0
+                    "roomsize": 75.0
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "studiopre": {
                 "ports": {
-                    "treble": 0.5,
-                    "middle": 0.5,
                     "bright": 0.0,
+                    "bass": 0.5,
                     "volume": 5.0,
-                    "bass": 0.5
+                    "middle": 0.5,
+                    "treble": 0.5
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
-            },
-            "stereo": {
-                "ports": {
-                    "enable": 1.0,
-                    "mute": 0.0,
-                    "gain": -5.0
-                },
-                "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             }
-        },
-        "name": "Short Shiro"
+        }
     },
     {
+        "name": "Long Shiro",
         "data": {
             "_quack_": {
                 "ports": {
-                    "DRIVE": 0.0,
-                    "TONE": 0.0,
                     "PEAK": 10.25,
-                    "RANGE": 1.0,
-                    "MODE": 2.0,
-                    "BYPASS": 0.0,
                     "DEPTH": 1.0,
-                    "GAIN": 0.0
+                    "DRIVE": 0.0,
+                    "BYPASS": 0.0,
+                    "MODE": 2.0,
+                    "TONE": 0.0,
+                    "GAIN": 0.0,
+                    "RANGE": 1.0
                 },
                 "bypassed": true,
-                "preset": "",
-                "parameters": {}
-            },
-            "faIR_cabsim": {
-                "ports": {
-                    "Model": 9.0,
-                    "Attenuation": 0.0
-                },
-                "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mono": {
                 "ports": {
-                    "noClip": 1.0,
-                    "release": 0.05000000074505806,
                     "attack": 0.00021300000662449747,
-                    "ratio": 6.0,
-                    "gain": 0.0,
-                    "bypass": 0.0,
+                    "noClip": 1.0,
                     "rms": 0.5,
-                    "threshold": -18.0
+                    "bypass": 0.0,
+                    "gain": 0.0,
+                    "threshold": -18.0,
+                    "ratio": 6.0,
+                    "release": 0.05000000074505806
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "faIR_cabsim": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 9.0
+                },
+                "bypassed": false,
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -5.0
+                },
+                "parameters": {},
+                "preset": ""
             },
             "shiroverb": {
                 "ports": {
-                    "roomsize": 75.0,
-                    "shimmer": 50.0,
                     "bandwidth": 75.0,
-                    "ratio": 2.0,
-                    "decay": 75.25,
+                    "mix": 25.0,
+                    "shimmer": 50.0,
                     "damping": 50.0,
                     "tone": 2000.0,
-                    "mix": 25.0
+                    "ratio": 2.0,
+                    "decay": 75.25,
+                    "roomsize": 75.0
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "studiopre": {
                 "ports": {
-                    "treble": 0.5,
-                    "middle": 0.5,
                     "bright": 0.0,
+                    "bass": 0.5,
                     "volume": 5.0,
-                    "bass": 0.5
+                    "middle": 0.5,
+                    "treble": 0.5
                 },
                 "bypassed": false,
-                "preset": "",
-                "parameters": {}
-            },
-            "stereo": {
-                "ports": {
-                    "enable": 1.0,
-                    "mute": 0.0,
-                    "gain": -5.0
-                },
-                "bypassed": false,
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             }
-        },
-        "name": "Long Shiro"
+        }
     }
 ]

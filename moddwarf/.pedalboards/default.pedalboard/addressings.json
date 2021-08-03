@@ -1,1 +1,25 @@
-{"/bpm": [], "/hmi/knob3": [{"dividers": null, "port": "Gain", "page": 0, "instance": "/graph/Gain2x2", "tempo": null, "maximum": 12.0, "label": "Out Vol", "steps": 201, "minimum": -20.0}], "/hmi/potentiometer8": [], "/hmi/knob1": [], "/hmi/potentiometer7": [], "/hmi/potentiometer4": [], "/hmi/potentiometer5": [], "/hmi/potentiometer2": [], "/hmi/potentiometer3": [], "/hmi/potentiometer1": [], "/hmi/footswitch1": [], "/hmi/potentiometer6": [], "/hmi/footswitch3": [], "/hmi/footswitch2": [], "/hmi/footswitch4": []}
+{
+    "/hmi/group1": [],
+    "/hmi/knob2": [],
+    "/hmi/knob3": [
+        {
+            "momentary": 0,
+            "port": "Gain",
+            "group": null,
+            "instance": "/graph/Gain2x2",
+            "page": 0,
+            "dividers": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": 0,
+            "maximum": 20.0,
+            "steps": 201,
+            "label": "PB Gain",
+            "minimum": -20.0
+        }
+    ],
+    "/hmi/knob1": [],
+    "/hmi/footswitch2": [],
+    "/bpm": [],
+    "/hmi/footswitch1": []
+}

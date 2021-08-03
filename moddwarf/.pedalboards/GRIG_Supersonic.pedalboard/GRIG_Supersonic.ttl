@@ -8,90 +8,40 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <_bajatubedriver_/out> ;
-    ingen:head <_supersonic_/in> .
-
-_:b2
-    ingen:tail <PlateX2/outr> ;
-    ingen:head <stereo/inR> .
-
-_:b3
-    ingen:tail <capture_1> ;
-    ingen:head <Drop/In> .
-
-_:b4
-    ingen:tail <_supersonic_/out> ;
-    ingen:head <cabsim_vintage_1/In> .
-
-_:b5
-    ingen:tail <PlateX2/outl> ;
-    ingen:head <stereo/inL> .
-
-_:b6
-    ingen:tail <stereo/outR> ;
-    ingen:head <playback_2> .
-
-_:b7
-    ingen:tail <_supersonic_/out> ;
-    ingen:head <cabsim_vintage/In> .
-
-_:b8
     ingen:tail <cabsim_vintage_1/Out> ;
     ingen:head <PlateX2/inr> .
 
-_:b9
+_:b2
+    ingen:tail <_supersonic_/out> ;
+    ingen:head <cabsim_vintage/In> .
+
+_:b3
+    ingen:tail <_bajatubedriver_/out> ;
+    ingen:head <_supersonic_/in> .
+
+_:b4
     ingen:tail <Drop/Out> ;
     ingen:head <_bajatubedriver_/in> .
 
-_:b10
-    ingen:tail <stereo/outL> ;
-    ingen:head <playback_1> .
+_:b5
+    ingen:tail <_supersonic_/out> ;
+    ingen:head <cabsim_vintage_1/In> .
 
-_:b11
+_:b6
+    ingen:tail <capture_1> ;
+    ingen:head <Drop/In> .
+
+_:b7
     ingen:tail <cabsim_vintage/Out> ;
     ingen:head <PlateX2/inl> .
 
-<cabsim_vintage>
-    ingen:canvasX 2259.0 ;
-    ingen:canvasY 386.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 1 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 9 ;
-    lv2:port <cabsim_vintage/In> ,
-             <cabsim_vintage/Out> ,
-             <cabsim_vintage/Attenuation> ,
-             <cabsim_vintage/Model> ,
-             <cabsim_vintage/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mod-devel/cabsim-vintage> ;
-    pedal:instanceNumber 8 ;
-    pedal:preset <> ;
-    a ingen:Block .
+_:b8
+    ingen:tail <PlateX2/outl> ;
+    ingen:head <playback_1> .
 
-<cabsim_vintage/In>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<cabsim_vintage/In>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<cabsim_vintage/Model>
-    ingen:value 7.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<cabsim_vintage/Attenuation>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<cabsim_vintage/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
+_:b9
+    ingen:tail <PlateX2/outr> ;
+    ingen:head <playback_2> .
 
 <_bajatubedriver_>
     ingen:canvasX 777.0 ;
@@ -122,11 +72,6 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_bajatubedriver_/DRIVE>
-    ingen:value 0.344000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <_bajatubedriver_/BYPASS>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
@@ -137,6 +82,11 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<_bajatubedriver_/DRIVE>
+    ingen:value 0.344000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <_bajatubedriver_/VOLUME>
     ingen:value 0.344000 ;
     a lv2:ControlPort ,
@@ -144,69 +94,6 @@ _:b11
 
 <_bajatubedriver_/:bypass>
     ingen:value 1 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo>
-    ingen:canvasX 3533.0 ;
-    ingen:canvasY 543.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 770 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 7 ;
-    lv2:port <stereo/inL> ,
-             <stereo/inR> ,
-             <stereo/outL> ,
-             <stereo/outR> ,
-             <stereo/gain> ,
-             <stereo/enable> ,
-             <stereo/mute> ,
-             <stereo/level> ,
-             <stereo/:bypass> ;
-    lv2:prototype <http://gareus.org/oss/lv2/tinygain#stereo> ;
-    pedal:instanceNumber 1 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<stereo/inL>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<stereo/inR>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<stereo/inL>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<stereo/inR>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<stereo/enable>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/gain>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/mute>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/level>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<stereo/:bypass>
-    ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -240,11 +127,6 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_supersonic_/BASS>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <_supersonic_/BYPASS>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
@@ -255,13 +137,18 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_supersonic_/TREBLE>
+<_supersonic_/VOLUME>
+    ingen:value 0.478261 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_supersonic_/BASS>
     ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_supersonic_/VOLUME>
-    ingen:value 0.478261 ;
+<_supersonic_/TREBLE>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -298,8 +185,8 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<Drop/Fidelity>
-    ingen:value 2.000000 ;
+<Drop/Gain>
+    ingen:value 3.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -308,13 +195,55 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Drop/Gain>
-    ingen:value 3.000000 ;
+<Drop/Fidelity>
+    ingen:value 2.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <Drop/:bypass>
     ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<cabsim_vintage>
+    ingen:canvasX 2259.0 ;
+    ingen:canvasY 386.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 9 ;
+    lv2:port <cabsim_vintage/In> ,
+             <cabsim_vintage/Out> ,
+             <cabsim_vintage/Attenuation> ,
+             <cabsim_vintage/Model> ,
+             <cabsim_vintage/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/cabsim-vintage> ;
+    pedal:instanceNumber 8 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<cabsim_vintage/In>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<cabsim_vintage/In>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<cabsim_vintage/Attenuation>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<cabsim_vintage/Model>
+    ingen:value 7.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<cabsim_vintage/:bypass>
+    ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -345,13 +274,13 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<cabsim_vintage_1/Model>
-    ingen:value 7.000000 ;
+<cabsim_vintage_1/Attenuation>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<cabsim_vintage_1/Attenuation>
-    ingen:value 0.000000 ;
+<cabsim_vintage_1/Model>
+    ingen:value 7.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -399,8 +328,8 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<PlateX2/blend>
-    ingen:value 0.250000 ;
+<PlateX2/bandwidth>
+    ingen:value 0.999500 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -409,13 +338,13 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<PlateX2/bandwidth>
-    ingen:value 0.999500 ;
+<PlateX2/tail>
+    ingen:value 0.109375 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<PlateX2/tail>
-    ingen:value 0.109375 ;
+<PlateX2/blend>
+    ingen:value 0.250000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -531,7 +460,7 @@ _:b11
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 14 ;
+    pedal:version 15 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -541,14 +470,11 @@ _:b11
               _:b6 ,
               _:b7 ,
               _:b8 ,
-              _:b9 ,
-              _:b10 ,
-              _:b11 ;
-    ingen:block <cabsim_vintage> ,
-                <_bajatubedriver_> ,
-                <stereo> ,
+              _:b9 ;
+    ingen:block <_bajatubedriver_> ,
                 <_supersonic_> ,
                 <Drop> ,
+                <cabsim_vintage> ,
                 <cabsim_vintage_1> ,
                 <PlateX2> ;
     lv2:port <:bpb> ,

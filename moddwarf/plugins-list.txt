@@ -138,6 +138,5 @@ tap-reverb.lv2
 tap-sigmoid.lv2
 tap-tremolo.lv2
 tap-tubewarmth.lv2
-tinygain.lv2
 wah1.lv2
 xfade.lv2

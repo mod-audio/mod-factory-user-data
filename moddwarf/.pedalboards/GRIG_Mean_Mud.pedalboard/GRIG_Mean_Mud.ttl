@@ -8,52 +8,152 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <cabsim_bass/Out> ;
-    ingen:head <stereo/inR> .
-
-_:b2
-    ingen:tail <studiopre/out> ;
-    ingen:head <_CreamMachine_/in> .
-
-_:b3
-    ingen:tail <mud/lv2_audio_out_1> ;
-    ingen:head <studiopre/in> .
-
-_:b4
-    ingen:tail <xfade/out_left> ;
-    ingen:head <mud/lv2_audio_in_1> .
-
-_:b5
-    ingen:tail <stereo/outL> ;
-    ingen:head <playback_1> .
-
-_:b6
-    ingen:tail <capture_1> ;
-    ingen:head <mono/in> .
-
-_:b7
-    ingen:tail <cabsim_bass/Out> ;
-    ingen:head <stereo/inL> .
-
-_:b8
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_left> .
-
-_:b9
-    ingen:tail <stereo/outR> ;
-    ingen:head <playback_2> .
-
-_:b10
     ingen:tail <_CreamMachine_/out> ;
     ingen:head <cabsim_bass/In> .
 
-_:b11
+_:b2
     ingen:tail <mono/out> ;
     ingen:head <xfade/inB_left> .
 
+_:b3
+    ingen:tail <studiopre/out> ;
+    ingen:head <_CreamMachine_/in> .
+
+_:b4
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_left> .
+
+_:b5
+    ingen:tail <xfade/out_left> ;
+    ingen:head <mud/lv2_audio_in_1> .
+
+_:b6
+    ingen:tail <mud/lv2_audio_out_1> ;
+    ingen:head <studiopre/in> .
+
+_:b7
+    ingen:tail <capture_1> ;
+    ingen:head <mono/in> .
+
+_:b8
+    ingen:tail <cabsim_bass/Out> ;
+    ingen:head <playback_1> .
+
+_:b9
+    ingen:tail <cabsim_bass/Out> ;
+    ingen:head <playback_2> .
+
+<studiopre>
+    ingen:canvasX 1748.1 ;
+    ingen:canvasY 167.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 28 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 24 ;
+    lv2:port <studiopre/in> ,
+             <studiopre/out> ,
+             <studiopre/bright> ,
+             <studiopre/volume> ,
+             <studiopre/bass> ,
+             <studiopre/middle> ,
+             <studiopre/treble> ,
+             <studiopre/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_studiopre#studiopre> ;
+    pedal:instanceNumber 11 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<studiopre/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<studiopre/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<studiopre/bright>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/bass>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/volume>
+    ingen:value 10.044643 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/middle>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/treble>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mud>
+    ingen:canvasX 1252.0 ;
+    ingen:canvasY 697.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 9 ;
+    lv2:port <mud/lv2_audio_in_1> ,
+             <mud/lv2_audio_out_1> ,
+             <mud/mix> ,
+             <mud/filter> ,
+             <mud/lfo> ,
+             <mud/:bypass> ;
+    lv2:prototype <http://remaincalm.org/plugins/mud> ;
+    pedal:instanceNumber 17 ;
+    pedal:preset <http://remaincalm.org/plugins/mud#preset004> ;
+    a ingen:Block .
+
+<mud/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mud/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mud/mix>
+    ingen:value 40.625000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mud/filter>
+    ingen:value 80.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mud/lfo>
+    ingen:value 100.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mud/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <mono>
-    ingen:canvasX 222.0 ;
-    ingen:canvasY 579.0 ;
+    ingen:canvasX 264.0 ;
+    ingen:canvasY 575.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 1 ;
@@ -88,13 +188,8 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<mono/attack>
-    ingen:value 0.000351 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/ratio>
-    ingen:value 2.900000 ;
+<mono/gain>
+    ingen:value 4.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -103,18 +198,13 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<mono/ratio>
+    ingen:value 2.900000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <mono/rms>
     ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/threshold>
-    ingen:value -31.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/release>
-    ingen:value 0.050000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -123,8 +213,18 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/gain>
-    ingen:value 4.000000 ;
+<mono/threshold>
+    ingen:value -31.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/attack>
+    ingen:value 0.000351 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/release>
+    ingen:value 0.050000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -149,72 +249,9 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo>
-    ingen:canvasX 2856.0 ;
-    ingen:canvasY 655.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 770 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 7 ;
-    lv2:port <stereo/inL> ,
-             <stereo/inR> ,
-             <stereo/outL> ,
-             <stereo/outR> ,
-             <stereo/gain> ,
-             <stereo/enable> ,
-             <stereo/mute> ,
-             <stereo/level> ,
-             <stereo/:bypass> ;
-    lv2:prototype <http://gareus.org/oss/lv2/tinygain#stereo> ;
-    pedal:instanceNumber 1 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<stereo/inL>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<stereo/inR>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<stereo/inL>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<stereo/inR>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<stereo/mute>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/enable>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/gain>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/level>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<stereo/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <xfade>
-    ingen:canvasX 651.0 ;
-    ingen:canvasY 370.0 ;
+    ingen:canvasX 753.0 ;
+    ingen:canvasY 358.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -268,8 +305,8 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade/mode>
-    ingen:value 0.000000 ;
+<xfade/xfade>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -278,8 +315,8 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade/xfade>
-    ingen:value 1.000000 ;
+<xfade/mode>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -288,57 +325,9 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mud>
-    ingen:canvasX 1166.0 ;
-    ingen:canvasY 179.0 ;
-    ingen:enabled false ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 9 ;
-    lv2:port <mud/lv2_audio_in_1> ,
-             <mud/lv2_audio_out_1> ,
-             <mud/mix> ,
-             <mud/filter> ,
-             <mud/lfo> ,
-             <mud/:bypass> ;
-    lv2:prototype <http://remaincalm.org/plugins/mud> ;
-    pedal:instanceNumber 17 ;
-    pedal:preset <http://remaincalm.org/plugins/mud#preset004> ;
-    a ingen:Block .
-
-<mud/lv2_audio_in_1>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<mud/lv2_audio_in_1>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<mud/lfo>
-    ingen:value 100.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mud/mix>
-    ingen:value 40.625000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mud/filter>
-    ingen:value 80.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mud/:bypass>
-    ingen:value 1 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <cabsim_bass>
-    ingen:canvasX 2131.0 ;
-    ingen:canvasY 824.0 ;
+    ingen:canvasX 2089.0 ;
+    ingen:canvasY 672.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -364,8 +353,8 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<cabsim_bass/Model>
-    ingen:value 0.000000 ;
+<cabsim_bass/MicPos>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -374,8 +363,8 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<cabsim_bass/MicPos>
-    ingen:value 1.000000 ;
+<cabsim_bass/Model>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -384,69 +373,9 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<studiopre>
-    ingen:canvasX 1694.1 ;
-    ingen:canvasY 203.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 3 ;
-    lv2:minorVersion 28 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 24 ;
-    lv2:port <studiopre/in> ,
-             <studiopre/out> ,
-             <studiopre/bright> ,
-             <studiopre/volume> ,
-             <studiopre/bass> ,
-             <studiopre/middle> ,
-             <studiopre/treble> ,
-             <studiopre/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_studiopre#studiopre> ;
-    pedal:instanceNumber 11 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<studiopre/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<studiopre/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<studiopre/treble>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/middle>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/bright>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/volume>
-    ingen:value 10.044643 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/bass>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <_CreamMachine_>
-    ingen:canvasX 1571.0 ;
-    ingen:canvasY 510.0 ;
+    ingen:canvasX 1875.0 ;
+    ingen:canvasY 414.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 1 ;
@@ -474,18 +403,13 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_CreamMachine_/TREBLE>
-    ingen:value 0.300000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_CreamMachine_/LEVEL>
-    ingen:value 0.350000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <_CreamMachine_/BYPASS>
     ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_CreamMachine_/BASS>
+    ingen:value 0.250000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -494,8 +418,13 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_CreamMachine_/BASS>
-    ingen:value 0.250000 ;
+<_CreamMachine_/LEVEL>
+    ingen:value 0.350000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_CreamMachine_/TREBLE>
+    ingen:value 0.300000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -602,12 +531,6 @@ _:b11
     a atom:AtomPort ,
         lv2:InputPort .
 
-<midi_loopback>
-    ingen:value 0 ;
-    lv2:index 12 ;
-    a atom:AtomPort ,
-        lv2:InputPort .
-
 <>
     doap:name "GRIG:Mean.Mud" ;
     pedal:unitName "MOD Dwarf" ;
@@ -617,7 +540,7 @@ _:b11
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 12 ;
+    pedal:version 13 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -627,21 +550,17 @@ _:b11
               _:b6 ,
               _:b7 ,
               _:b8 ,
-              _:b9 ,
-              _:b10 ,
-              _:b11 ;
-    ingen:block <mono> ,
-                <stereo> ,
-                <xfade> ,
+              _:b9 ;
+    ingen:block <studiopre> ,
                 <mud> ,
+                <mono> ,
+                <xfade> ,
                 <cabsim_bass> ,
-                <studiopre> ,
                 <_CreamMachine_> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
              <midi_separated_mode> ,
-             <midi_loopback> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

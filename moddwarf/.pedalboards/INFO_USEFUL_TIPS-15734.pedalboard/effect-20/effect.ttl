@@ -17,6 +17,6 @@
 -This also means that all MIDI messages sent to the output port will be sent to all MIDI devices
 
 Press the MIDI PORTS button to select which ports to expose separately""" ;
-		<http://open-music-kontrollers.ch/lv2/notes#fontHeight> "25"^^xsd:int
+		<http://open-music-kontrollers.ch/lv2/notes#fontHeight> "20"^^xsd:int
 	] .
 

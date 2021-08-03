@@ -2,102 +2,16 @@
     {
         "name": "Lazy Lead",
         "data": {
-            "stereo_3": {
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": 0.0,
-                    "mute": 0.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
-            "stereo": {
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": -3.0,
-                    "mute": 0.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
-            "Gain2x2": {
-                "bypassed": false,
-                "ports": {
-                    "Gain": -6.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
             "PlateX2": {
                 "bypassed": false,
                 "ports": {
-                    "tail": 0.41999998688697815,
                     "damping": 0.17499999701976776,
                     "blend": 1.0,
-                    "bandwidth": 0.89999997615814209
+                    "bandwidth": 0.89999997615814209,
+                    "tail": 0.41999998688697815
                 },
-                "preset": "",
-                "parameters": {}
-            },
-            "amsynth": {
-                "bypassed": false,
-                "ports": {
-                    "amp_release": 0.57999998331069946,
-                    "osc2_range": 0.0,
-                    "osc_mix_mode": 0.0,
-                    "reverb_wet": 0.0,
-                    "reverb_width": 0.0,
-                    "filter_resonance": 0.61918002367019653,
-                    "amp_attack": 0.0,
-                    "filter_kbd_track": 1.0,
-                    "amp_mod_amount": -1.0,
-                    "osc2_pitch": 0.0,
-                    "portamento_time": 0.0,
-                    "filter_cutoff": 0.38627699017524719,
-                    "osc2_detune": 0.0,
-                    "master_vol": 0.4219290018081665,
-                    "filter_env_amount": 11.610300064086914,
-                    "osc2_sync": 0.0,
-                    "filter_release": 0.4932979941368103,
-                    "freq_mod_amount": 0.0,
-                    "osc_mix": 0.07845500111579895,
-                    "filter_sustain": 0.0,
-                    "amp_decay": 0.63999998569488525,
-                    "keyboard_mode": 0.0,
-                    "freq_mod_osc": 0.0,
-                    "filter_vel_sens": 1.0,
-                    "distortion_crunch": 0.0,
-                    "reverb_damp": 0.0,
-                    "reverb_roomsize": 0.5119209885597229,
-                    "lfo_freq": 0.0,
-                    "portamento_mode": 0.0,
-                    "filter_decay": 0.72167801856994629,
-                    "osc1_pulsewidth": 0.94999998807907104,
-                    "lfo_waveform": 2.0,
-                    "filter_slope": 1.0,
-                    "osc2_pulsewidth": 0.91386598348617554,
-                    "osc2_waveform": 2.0,
-                    "osc1_waveform": 2.0,
-                    "amp_sustain": 0.94454497098922729,
-                    "filter_type": 0.0,
-                    "amp_vel_sens": 1.0,
-                    "filter_mod_amount": -1.0,
-                    "filter_attack": 0.18999999761581421
-                },
-                "preset": "http://code.google.com/p/amsynth/amsynth#amsynth_factory_013_Lazy_Moon_Lead",
-                "parameters": {}
-            },
-            "mod_volume_2x2_1": {
-                "bypassed": false,
-                "ports": {
-                    "PluginEnabled": 1.0,
-                    "Volume": 0.34999999403953552,
-                    "Mode": 1.0
-                },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mod_volume_2x2": {
                 "bypassed": false,
@@ -106,132 +20,138 @@
                     "Volume": 0.34999999403953552,
                     "Mode": 1.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "amsynth": {
+                "bypassed": false,
+                "ports": {
+                    "reverb_damp": 0.0,
+                    "lfo_freq": 0.0,
+                    "osc_mix_mode": 0.0,
+                    "filter_resonance": 0.61918002367019653,
+                    "filter_attack": 0.18999999761581421,
+                    "filter_env_amount": 11.610300064086914,
+                    "lfo_waveform": 2.0,
+                    "amp_attack": 0.0,
+                    "filter_mod_amount": -1.0,
+                    "osc2_detune": 0.0,
+                    "filter_slope": 1.0,
+                    "filter_cutoff": 0.38627699017524719,
+                    "osc2_pulsewidth": 0.91386598348617554,
+                    "keyboard_mode": 0.0,
+                    "freq_mod_amount": 0.0,
+                    "filter_type": 0.0,
+                    "portamento_mode": 0.0,
+                    "osc2_sync": 0.0,
+                    "osc2_pitch": 0.0,
+                    "distortion_crunch": 0.0,
+                    "filter_sustain": 0.0,
+                    "osc1_pulsewidth": 0.94999998807907104,
+                    "amp_decay": 0.63999998569488525,
+                    "amp_vel_sens": 1.0,
+                    "amp_mod_amount": -1.0,
+                    "osc2_waveform": 2.0,
+                    "reverb_roomsize": 0.5119209885597229,
+                    "master_vol": 0.4219290018081665,
+                    "osc2_range": 0.0,
+                    "amp_sustain": 0.94454497098922729,
+                    "amp_release": 0.57999998331069946,
+                    "filter_decay": 0.72167801856994629,
+                    "filter_release": 0.4932979941368103,
+                    "filter_kbd_track": 1.0,
+                    "portamento_time": 0.0,
+                    "filter_vel_sens": 1.0,
+                    "freq_mod_osc": 0.0,
+                    "reverb_width": 0.0,
+                    "osc1_waveform": 2.0,
+                    "osc_mix": 0.07845500111579895,
+                    "reverb_wet": 0.0
+                },
+                "parameters": {},
+                "preset": "http://code.google.com/p/amsynth/amsynth#amsynth_factory_013_Lazy_Moon_Lead"
             },
             "bolliedelay": {
                 "bypassed": false,
                 "ports": {
-                    "low_q": 1.0,
-                    "feedback": 81.25,
-                    "tempo_mode": 0.0,
-                    "div_r": 3.0,
-                    "tempo_host": 120.0,
-                    "high_q": 2.1608619689941406,
                     "mix": 100.0,
-                    "low_on": 0.0,
-                    "tempo_user": 120.0,
                     "div_l": 2.0,
-                    "tap": 0.0,
+                    "low_on": 0.0,
+                    "high_q": 2.1608619689941406,
+                    "tempo_mode": 0.0,
+                    "low_q": 1.0,
+                    "tempo_host": 120.0,
+                    "div_r": 3.0,
                     "high_f": 22000.0,
+                    "tap": 0.0,
+                    "feedback": 81.25,
                     "crossf": 20.0,
+                    "tempo_user": 120.0,
                     "high_on": 1.0,
                     "low_f": 20.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2_2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -3.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.34999999403953552,
+                    "Mode": 1.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "xfade": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
             }
         }
     },
     {
         "name": "Strings",
         "data": {
-            "stereo_3": {
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": 0.0,
-                    "mute": 0.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
-            "stereo": {
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": -3.0,
-                    "mute": 0.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
-            "Gain2x2": {
-                "bypassed": false,
-                "ports": {
-                    "Gain": -6.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
             "PlateX2": {
                 "bypassed": false,
                 "ports": {
-                    "tail": 0.41999998688697815,
                     "damping": 0.17499999701976776,
                     "blend": 1.0,
-                    "bandwidth": 0.89999997615814209
+                    "bandwidth": 0.89999997615814209,
+                    "tail": 0.41999998688697815
                 },
-                "preset": "",
-                "parameters": {}
-            },
-            "amsynth": {
-                "bypassed": false,
-                "ports": {
-                    "amp_release": 1.0,
-                    "osc2_range": 0.0,
-                    "osc_mix_mode": 0.0,
-                    "reverb_wet": 0.08242499828338623,
-                    "reverb_width": 0.4776340126991272,
-                    "filter_resonance": 0.59433597326278687,
-                    "amp_attack": 0.96041101217269897,
-                    "filter_kbd_track": 1.0,
-                    "amp_mod_amount": -0.99357497692108154,
-                    "osc2_pitch": 0.0,
-                    "portamento_time": 0.0,
-                    "filter_cutoff": 0.85112398862838745,
-                    "osc2_detune": 0.011899000033736229,
-                    "master_vol": 0.95526802539825439,
-                    "filter_env_amount": 0.0,
-                    "osc2_sync": 0.0,
-                    "filter_release": 1.0509500503540039,
-                    "freq_mod_amount": 0.0,
-                    "osc_mix": 0.012728000059723854,
-                    "filter_sustain": 1.0,
-                    "amp_decay": 0.019999999552965164,
-                    "keyboard_mode": 0.0,
-                    "freq_mod_osc": 0.0,
-                    "filter_vel_sens": 1.0,
-                    "distortion_crunch": 0.0,
-                    "reverb_damp": 0.0019310000352561474,
-                    "reverb_roomsize": 0.67550200223922729,
-                    "lfo_freq": 2.3865299224853516,
-                    "portamento_mode": 0.0,
-                    "filter_decay": 0.019999999552965164,
-                    "osc1_pulsewidth": 0.78877800703048706,
-                    "lfo_waveform": 0.0,
-                    "filter_slope": 1.0,
-                    "osc2_pulsewidth": 0.82999998331069946,
-                    "osc2_waveform": 2.0,
-                    "osc1_waveform": 2.0,
-                    "amp_sustain": 1.0,
-                    "filter_type": 0.0,
-                    "amp_vel_sens": 1.0,
-                    "filter_mod_amount": -0.86315000057220459,
-                    "filter_attack": 0.019556999206542969
-                },
-                "preset": "http://code.google.com/p/amsynth/amsynth#amsynth_factory_001_Synth_Strings_1",
-                "parameters": {}
-            },
-            "mod_volume_2x2_1": {
-                "bypassed": false,
-                "ports": {
-                    "PluginEnabled": 1.0,
-                    "Volume": 0.34999999403953552,
-                    "Mode": 1.0
-                },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mod_volume_2x2": {
                 "bypassed": false,
@@ -240,132 +160,138 @@
                     "Volume": 0.34999999403953552,
                     "Mode": 1.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "amsynth": {
+                "bypassed": false,
+                "ports": {
+                    "reverb_damp": 0.0019310000352561474,
+                    "lfo_freq": 2.3865299224853516,
+                    "osc_mix_mode": 0.0,
+                    "filter_resonance": 0.59433597326278687,
+                    "filter_attack": 0.019556999206542969,
+                    "filter_env_amount": 0.0,
+                    "lfo_waveform": 0.0,
+                    "amp_attack": 0.96041101217269897,
+                    "filter_mod_amount": -0.86315000057220459,
+                    "osc2_detune": 0.011899000033736229,
+                    "filter_slope": 1.0,
+                    "filter_cutoff": 0.85112398862838745,
+                    "osc2_pulsewidth": 0.82999998331069946,
+                    "keyboard_mode": 0.0,
+                    "freq_mod_amount": 0.0,
+                    "filter_type": 0.0,
+                    "portamento_mode": 0.0,
+                    "osc2_sync": 0.0,
+                    "osc2_pitch": 0.0,
+                    "distortion_crunch": 0.0,
+                    "filter_sustain": 1.0,
+                    "osc1_pulsewidth": 0.78877800703048706,
+                    "amp_decay": 0.019999999552965164,
+                    "amp_vel_sens": 1.0,
+                    "amp_mod_amount": -0.99357497692108154,
+                    "osc2_waveform": 2.0,
+                    "reverb_roomsize": 0.67550200223922729,
+                    "master_vol": 0.95526802539825439,
+                    "osc2_range": 0.0,
+                    "amp_sustain": 1.0,
+                    "amp_release": 1.0,
+                    "filter_decay": 0.019999999552965164,
+                    "filter_release": 1.0509500503540039,
+                    "filter_kbd_track": 1.0,
+                    "portamento_time": 0.0,
+                    "filter_vel_sens": 1.0,
+                    "freq_mod_osc": 0.0,
+                    "reverb_width": 0.4776340126991272,
+                    "osc1_waveform": 2.0,
+                    "osc_mix": 0.012728000059723854,
+                    "reverb_wet": 0.08242499828338623
+                },
+                "parameters": {},
+                "preset": "http://code.google.com/p/amsynth/amsynth#amsynth_factory_001_Synth_Strings_1"
             },
             "bolliedelay": {
                 "bypassed": false,
                 "ports": {
-                    "low_q": 1.0,
-                    "feedback": 81.25,
-                    "tempo_mode": 0.0,
-                    "div_r": 3.0,
-                    "tempo_host": 120.0,
-                    "high_q": 2.1608619689941406,
                     "mix": 100.0,
-                    "low_on": 0.0,
-                    "tempo_user": 120.0,
                     "div_l": 2.0,
-                    "tap": 0.0,
+                    "low_on": 0.0,
+                    "high_q": 2.1608619689941406,
+                    "tempo_mode": 0.0,
+                    "low_q": 1.0,
+                    "tempo_host": 120.0,
+                    "div_r": 3.0,
                     "high_f": 22000.0,
+                    "tap": 0.0,
+                    "feedback": 81.25,
                     "crossf": 20.0,
+                    "tempo_user": 120.0,
                     "high_on": 1.0,
                     "low_f": 20.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2_2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -3.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.34999999403953552,
+                    "Mode": 1.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "xfade": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
             }
         }
     },
     {
         "name": "Violin",
         "data": {
-            "stereo_3": {
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": 0.0,
-                    "mute": 0.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
-            "stereo": {
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": -3.0,
-                    "mute": 0.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
-            "Gain2x2": {
-                "bypassed": false,
-                "ports": {
-                    "Gain": -6.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
             "PlateX2": {
                 "bypassed": false,
                 "ports": {
-                    "tail": 0.41999998688697815,
                     "damping": 0.17499999701976776,
                     "blend": 1.0,
-                    "bandwidth": 0.89999997615814209
+                    "bandwidth": 0.89999997615814209,
+                    "tail": 0.41999998688697815
                 },
-                "preset": "",
-                "parameters": {}
-            },
-            "amsynth": {
-                "bypassed": false,
-                "ports": {
-                    "amp_release": 0.15000000596046448,
-                    "osc2_range": 1.0,
-                    "osc_mix_mode": 0.0,
-                    "reverb_wet": 0.0,
-                    "reverb_width": 0.0,
-                    "filter_resonance": 0.53030097484588623,
-                    "amp_attack": 0.39171099662780762,
-                    "filter_kbd_track": 1.0,
-                    "amp_mod_amount": -1.0,
-                    "osc2_pitch": 0.0,
-                    "portamento_time": 0.0,
-                    "filter_cutoff": 0.73676198720932007,
-                    "osc2_detune": 9.9999999747524271e-07,
-                    "master_vol": 1.0,
-                    "filter_env_amount": 8.6340599060058594,
-                    "osc2_sync": 0.0,
-                    "filter_release": 0.30000001192092896,
-                    "freq_mod_amount": 0.20763100683689117,
-                    "osc_mix": -0.27755698561668396,
-                    "filter_sustain": 0.707846999168396,
-                    "amp_decay": 0.10999999940395355,
-                    "keyboard_mode": 0.0,
-                    "freq_mod_osc": 0.0,
-                    "filter_vel_sens": 1.0,
-                    "distortion_crunch": 0.0,
-                    "reverb_damp": 0.0,
-                    "reverb_roomsize": 0.0,
-                    "lfo_freq": 2.2577900886535645,
-                    "portamento_mode": 0.0,
-                    "filter_decay": 0.019999999552965164,
-                    "osc1_pulsewidth": 0.95406299829483032,
-                    "lfo_waveform": 0.0,
-                    "filter_slope": 1.0,
-                    "osc2_pulsewidth": 0.68229597806930542,
-                    "osc2_waveform": 2.0,
-                    "osc1_waveform": 2.0,
-                    "amp_sustain": 0.85000002384185791,
-                    "filter_type": 0.0,
-                    "amp_vel_sens": 1.0,
-                    "filter_mod_amount": -1.0,
-                    "filter_attack": 0.51136600971221924
-                },
-                "preset": "http://code.google.com/p/amsynth/amsynth#amsynth_factory_002_Violin_1",
-                "parameters": {}
-            },
-            "mod_volume_2x2_1": {
-                "bypassed": false,
-                "ports": {
-                    "PluginEnabled": 1.0,
-                    "Volume": 0.34999999403953552,
-                    "Mode": 1.0
-                },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mod_volume_2x2": {
                 "bypassed": false,
@@ -374,132 +300,138 @@
                     "Volume": 0.34999999403953552,
                     "Mode": 1.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "amsynth": {
+                "bypassed": false,
+                "ports": {
+                    "reverb_damp": 0.0,
+                    "lfo_freq": 2.2577900886535645,
+                    "osc_mix_mode": 0.0,
+                    "filter_resonance": 0.53030097484588623,
+                    "filter_attack": 0.51136600971221924,
+                    "filter_env_amount": 8.6340599060058594,
+                    "lfo_waveform": 0.0,
+                    "amp_attack": 0.39171099662780762,
+                    "filter_mod_amount": -1.0,
+                    "osc2_detune": 9.9999999747524271e-07,
+                    "filter_slope": 1.0,
+                    "filter_cutoff": 0.73676198720932007,
+                    "osc2_pulsewidth": 0.68229597806930542,
+                    "keyboard_mode": 0.0,
+                    "freq_mod_amount": 0.20763100683689117,
+                    "filter_type": 0.0,
+                    "portamento_mode": 0.0,
+                    "osc2_sync": 0.0,
+                    "osc2_pitch": 0.0,
+                    "distortion_crunch": 0.0,
+                    "filter_sustain": 0.707846999168396,
+                    "osc1_pulsewidth": 0.95406299829483032,
+                    "amp_decay": 0.10999999940395355,
+                    "amp_vel_sens": 1.0,
+                    "amp_mod_amount": -1.0,
+                    "osc2_waveform": 2.0,
+                    "reverb_roomsize": 0.0,
+                    "master_vol": 1.0,
+                    "osc2_range": 1.0,
+                    "amp_sustain": 0.85000002384185791,
+                    "amp_release": 0.15000000596046448,
+                    "filter_decay": 0.019999999552965164,
+                    "filter_release": 0.30000001192092896,
+                    "filter_kbd_track": 1.0,
+                    "portamento_time": 0.0,
+                    "filter_vel_sens": 1.0,
+                    "freq_mod_osc": 0.0,
+                    "reverb_width": 0.0,
+                    "osc1_waveform": 2.0,
+                    "osc_mix": -0.27755698561668396,
+                    "reverb_wet": 0.0
+                },
+                "parameters": {},
+                "preset": "http://code.google.com/p/amsynth/amsynth#amsynth_factory_002_Violin_1"
             },
             "bolliedelay": {
                 "bypassed": false,
                 "ports": {
-                    "low_q": 1.0,
-                    "feedback": 81.25,
-                    "tempo_mode": 0.0,
-                    "div_r": 3.0,
-                    "tempo_host": 120.0,
-                    "high_q": 2.1608619689941406,
                     "mix": 100.0,
-                    "low_on": 0.0,
-                    "tempo_user": 120.0,
                     "div_l": 2.0,
-                    "tap": 0.0,
+                    "low_on": 0.0,
+                    "high_q": 2.1608619689941406,
+                    "tempo_mode": 0.0,
+                    "low_q": 1.0,
+                    "tempo_host": 120.0,
+                    "div_r": 3.0,
                     "high_f": 22000.0,
+                    "tap": 0.0,
+                    "feedback": 81.25,
                     "crossf": 20.0,
+                    "tempo_user": 120.0,
                     "high_on": 1.0,
                     "low_f": 20.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2_2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -3.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.34999999403953552,
+                    "Mode": 1.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "xfade": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
             }
         }
     },
     {
         "name": "Organ",
         "data": {
-            "stereo_3": {
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": 0.0,
-                    "mute": 0.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
-            "stereo": {
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": -3.0,
-                    "mute": 0.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
-            "Gain2x2": {
-                "bypassed": false,
-                "ports": {
-                    "Gain": -6.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
             "PlateX2": {
                 "bypassed": false,
                 "ports": {
-                    "tail": 0.41999998688697815,
                     "damping": 0.17499999701976776,
                     "blend": 1.0,
-                    "bandwidth": 0.89999997615814209
+                    "bandwidth": 0.89999997615814209,
+                    "tail": 0.41999998688697815
                 },
-                "preset": "",
-                "parameters": {}
-            },
-            "amsynth": {
-                "bypassed": false,
-                "ports": {
-                    "amp_release": 0.17000000178813934,
-                    "osc2_range": -1.0,
-                    "osc_mix_mode": 0.0,
-                    "reverb_wet": 0.1151219978928566,
-                    "reverb_width": 0.97210800647735596,
-                    "filter_resonance": 0.42732900381088257,
-                    "amp_attack": 0.17000000178813934,
-                    "filter_kbd_track": 1.0,
-                    "amp_mod_amount": -0.7641569972038269,
-                    "osc2_pitch": 0.0,
-                    "portamento_time": 0.0,
-                    "filter_cutoff": 0.60327798128128052,
-                    "osc2_detune": 0.039999999105930328,
-                    "master_vol": 0.54640400409698486,
-                    "filter_env_amount": 0.0,
-                    "osc2_sync": 0.0,
-                    "filter_release": 0.0,
-                    "freq_mod_amount": 0.0099999997764825821,
-                    "osc_mix": 0.024608999490737915,
-                    "filter_sustain": 1.0,
-                    "amp_decay": 0.0,
-                    "keyboard_mode": 0.0,
-                    "freq_mod_osc": 0.0,
-                    "filter_vel_sens": 1.0,
-                    "distortion_crunch": 0.0,
-                    "reverb_damp": 1.0,
-                    "reverb_roomsize": 0.78587901592254639,
-                    "lfo_freq": 1.0425399541854858,
-                    "portamento_mode": 0.0,
-                    "filter_decay": 0.0,
-                    "osc1_pulsewidth": 0.78587901592254639,
-                    "lfo_waveform": 2.0,
-                    "filter_slope": 1.0,
-                    "osc2_pulsewidth": 0.0,
-                    "osc2_waveform": 0.0,
-                    "osc1_waveform": 1.0,
-                    "amp_sustain": 1.0,
-                    "filter_type": 0.0,
-                    "amp_vel_sens": 1.0,
-                    "filter_mod_amount": -1.0,
-                    "filter_attack": 0.0
-                },
-                "preset": "http://code.google.com/p/amsynth/amsynth#amsynth_factory_008_Church_Organ",
-                "parameters": {}
-            },
-            "mod_volume_2x2_1": {
-                "bypassed": false,
-                "ports": {
-                    "PluginEnabled": 1.0,
-                    "Volume": 0.34999999403953552,
-                    "Mode": 1.0
-                },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mod_volume_2x2": {
                 "bypassed": false,
@@ -508,132 +440,138 @@
                     "Volume": 0.34999999403953552,
                     "Mode": 1.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "amsynth": {
+                "bypassed": false,
+                "ports": {
+                    "reverb_damp": 1.0,
+                    "lfo_freq": 1.0425399541854858,
+                    "osc_mix_mode": 0.0,
+                    "filter_resonance": 0.42732900381088257,
+                    "filter_attack": 0.0,
+                    "filter_env_amount": 0.0,
+                    "lfo_waveform": 2.0,
+                    "amp_attack": 0.17000000178813934,
+                    "filter_mod_amount": -1.0,
+                    "osc2_detune": 0.039999999105930328,
+                    "filter_slope": 1.0,
+                    "filter_cutoff": 0.60327798128128052,
+                    "osc2_pulsewidth": 0.0,
+                    "keyboard_mode": 0.0,
+                    "freq_mod_amount": 0.0099999997764825821,
+                    "filter_type": 0.0,
+                    "portamento_mode": 0.0,
+                    "osc2_sync": 0.0,
+                    "osc2_pitch": 0.0,
+                    "distortion_crunch": 0.0,
+                    "filter_sustain": 1.0,
+                    "osc1_pulsewidth": 0.78587901592254639,
+                    "amp_decay": 0.0,
+                    "amp_vel_sens": 1.0,
+                    "amp_mod_amount": -0.7641569972038269,
+                    "osc2_waveform": 0.0,
+                    "reverb_roomsize": 0.78587901592254639,
+                    "master_vol": 0.54640400409698486,
+                    "osc2_range": -1.0,
+                    "amp_sustain": 1.0,
+                    "amp_release": 0.17000000178813934,
+                    "filter_decay": 0.0,
+                    "filter_release": 0.0,
+                    "filter_kbd_track": 1.0,
+                    "portamento_time": 0.0,
+                    "filter_vel_sens": 1.0,
+                    "freq_mod_osc": 0.0,
+                    "reverb_width": 0.97210800647735596,
+                    "osc1_waveform": 1.0,
+                    "osc_mix": 0.024608999490737915,
+                    "reverb_wet": 0.1151219978928566
+                },
+                "parameters": {},
+                "preset": "http://code.google.com/p/amsynth/amsynth#amsynth_factory_008_Church_Organ"
             },
             "bolliedelay": {
                 "bypassed": false,
                 "ports": {
-                    "low_q": 1.0,
-                    "feedback": 81.25,
-                    "tempo_mode": 0.0,
-                    "div_r": 3.0,
-                    "tempo_host": 120.0,
-                    "high_q": 2.1608619689941406,
                     "mix": 100.0,
-                    "low_on": 0.0,
-                    "tempo_user": 120.0,
                     "div_l": 2.0,
-                    "tap": 0.0,
+                    "low_on": 0.0,
+                    "high_q": 2.1608619689941406,
+                    "tempo_mode": 0.0,
+                    "low_q": 1.0,
+                    "tempo_host": 120.0,
+                    "div_r": 3.0,
                     "high_f": 22000.0,
+                    "tap": 0.0,
+                    "feedback": 81.25,
                     "crossf": 20.0,
+                    "tempo_user": 120.0,
                     "high_on": 1.0,
                     "low_f": 20.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2_2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -3.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.34999999403953552,
+                    "Mode": 1.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "xfade": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
             }
         }
     },
     {
         "name": "Flange Bass",
         "data": {
-            "stereo_3": {
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": 0.0,
-                    "mute": 0.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
-            "stereo": {
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": -3.0,
-                    "mute": 0.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
-            "Gain2x2": {
-                "bypassed": false,
-                "ports": {
-                    "Gain": -6.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
             "PlateX2": {
                 "bypassed": false,
                 "ports": {
-                    "tail": 0.41999998688697815,
                     "damping": 0.17499999701976776,
                     "blend": 1.0,
-                    "bandwidth": 0.89999997615814209
+                    "bandwidth": 0.89999997615814209,
+                    "tail": 0.41999998688697815
                 },
-                "preset": "",
-                "parameters": {}
-            },
-            "amsynth": {
-                "bypassed": false,
-                "ports": {
-                    "amp_release": 0.3138279914855957,
-                    "osc2_range": 0.0,
-                    "osc_mix_mode": 0.0,
-                    "reverb_wet": 0.11452999711036682,
-                    "reverb_width": 0.98054099082946777,
-                    "filter_resonance": 0.81466197967529297,
-                    "amp_attack": 0.14885300397872925,
-                    "filter_kbd_track": 1.0,
-                    "amp_mod_amount": -1.0,
-                    "osc2_pitch": 0.0,
-                    "portamento_time": 0.0,
-                    "filter_cutoff": 0.42079898715019226,
-                    "osc2_detune": 0.050000999122858047,
-                    "master_vol": 1.0,
-                    "filter_env_amount": 16.0,
-                    "osc2_sync": 0.0,
-                    "filter_release": 0.50999999046325684,
-                    "freq_mod_amount": 0.0,
-                    "osc_mix": 0.10926400125026703,
-                    "filter_sustain": 0.0,
-                    "amp_decay": 0.91828697919845581,
-                    "keyboard_mode": 0.0,
-                    "freq_mod_osc": 0.0,
-                    "filter_vel_sens": 1.0,
-                    "distortion_crunch": 0.0,
-                    "reverb_damp": 0.91969901323318481,
-                    "reverb_roomsize": 0.85700899362564087,
-                    "lfo_freq": 0.0,
-                    "portamento_mode": 0.0,
-                    "filter_decay": 0.81171101331710815,
-                    "osc1_pulsewidth": 0.0,
-                    "lfo_waveform": 0.0,
-                    "filter_slope": 1.0,
-                    "osc2_pulsewidth": 0.0,
-                    "osc2_waveform": 1.0,
-                    "osc1_waveform": 1.0,
-                    "amp_sustain": 0.61037099361419678,
-                    "filter_type": 0.0,
-                    "amp_vel_sens": 1.0,
-                    "filter_mod_amount": -1.0,
-                    "filter_attack": 0.53665602207183838
-                },
-                "preset": "http://code.google.com/p/amsynth/amsynth#amsynth_factory_011_Flangey_Bass_1",
-                "parameters": {}
-            },
-            "mod_volume_2x2_1": {
-                "bypassed": false,
-                "ports": {
-                    "PluginEnabled": 1.0,
-                    "Volume": 0.34999999403953552,
-                    "Mode": 1.0
-                },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mod_volume_2x2": {
                 "bypassed": false,
@@ -642,132 +580,138 @@
                     "Volume": 0.34999999403953552,
                     "Mode": 1.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "amsynth": {
+                "bypassed": false,
+                "ports": {
+                    "reverb_damp": 0.91969901323318481,
+                    "lfo_freq": 0.0,
+                    "osc_mix_mode": 0.0,
+                    "filter_resonance": 0.81466197967529297,
+                    "filter_attack": 0.53665602207183838,
+                    "filter_env_amount": 16.0,
+                    "lfo_waveform": 0.0,
+                    "amp_attack": 0.14885300397872925,
+                    "filter_mod_amount": -1.0,
+                    "osc2_detune": 0.050000999122858047,
+                    "filter_slope": 1.0,
+                    "filter_cutoff": 0.42079898715019226,
+                    "osc2_pulsewidth": 0.0,
+                    "keyboard_mode": 0.0,
+                    "freq_mod_amount": 0.0,
+                    "filter_type": 0.0,
+                    "portamento_mode": 0.0,
+                    "osc2_sync": 0.0,
+                    "osc2_pitch": 0.0,
+                    "distortion_crunch": 0.0,
+                    "filter_sustain": 0.0,
+                    "osc1_pulsewidth": 0.0,
+                    "amp_decay": 0.91828697919845581,
+                    "amp_vel_sens": 1.0,
+                    "amp_mod_amount": -1.0,
+                    "osc2_waveform": 1.0,
+                    "reverb_roomsize": 0.85700899362564087,
+                    "master_vol": 1.0,
+                    "osc2_range": 0.0,
+                    "amp_sustain": 0.61037099361419678,
+                    "amp_release": 0.3138279914855957,
+                    "filter_decay": 0.81171101331710815,
+                    "filter_release": 0.50999999046325684,
+                    "filter_kbd_track": 1.0,
+                    "portamento_time": 0.0,
+                    "filter_vel_sens": 1.0,
+                    "freq_mod_osc": 0.0,
+                    "reverb_width": 0.98054099082946777,
+                    "osc1_waveform": 1.0,
+                    "osc_mix": 0.10926400125026703,
+                    "reverb_wet": 0.11452999711036682
+                },
+                "parameters": {},
+                "preset": "http://code.google.com/p/amsynth/amsynth#amsynth_factory_011_Flangey_Bass_1"
             },
             "bolliedelay": {
                 "bypassed": false,
                 "ports": {
-                    "low_q": 1.0,
-                    "feedback": 81.25,
-                    "tempo_mode": 0.0,
-                    "div_r": 3.0,
-                    "tempo_host": 120.0,
-                    "high_q": 2.1608619689941406,
                     "mix": 100.0,
-                    "low_on": 0.0,
-                    "tempo_user": 120.0,
                     "div_l": 2.0,
-                    "tap": 0.0,
+                    "low_on": 0.0,
+                    "high_q": 2.1608619689941406,
+                    "tempo_mode": 0.0,
+                    "low_q": 1.0,
+                    "tempo_host": 120.0,
+                    "div_r": 3.0,
                     "high_f": 22000.0,
+                    "tap": 0.0,
+                    "feedback": 81.25,
                     "crossf": 20.0,
+                    "tempo_user": 120.0,
                     "high_on": 1.0,
                     "low_f": 20.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2_2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -3.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.34999999403953552,
+                    "Mode": 1.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "xfade": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
             }
         }
     },
     {
         "name": "Soft Pad",
         "data": {
-            "stereo_3": {
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": 0.0,
-                    "mute": 0.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
-            "stereo": {
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": -3.0,
-                    "mute": 0.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
-            "Gain2x2": {
-                "bypassed": false,
-                "ports": {
-                    "Gain": -6.0
-                },
-                "preset": "",
-                "parameters": {}
-            },
             "PlateX2": {
                 "bypassed": false,
                 "ports": {
-                    "tail": 0.41999998688697815,
                     "damping": 0.17499999701976776,
                     "blend": 1.0,
-                    "bandwidth": 0.89999997615814209
+                    "bandwidth": 0.89999997615814209,
+                    "tail": 0.41999998688697815
                 },
-                "preset": "",
-                "parameters": {}
-            },
-            "amsynth": {
-                "bypassed": false,
-                "ports": {
-                    "amp_release": 1.5883400440216064,
-                    "osc2_range": 0.0,
-                    "osc_mix_mode": 1.0,
-                    "reverb_wet": 0.47084599733352661,
-                    "reverb_width": 0.49236500263214111,
-                    "filter_resonance": 0.14085100591182709,
-                    "amp_attack": 1.1592899560928345,
-                    "filter_kbd_track": 1.0,
-                    "amp_mod_amount": 0.0,
-                    "osc2_pitch": 0.0,
-                    "portamento_time": 0.0,
-                    "filter_cutoff": 0.26101300120353699,
-                    "osc2_detune": 0.068699002265930176,
-                    "master_vol": 1.0,
-                    "filter_env_amount": 9.0559396743774414,
-                    "osc2_sync": 0.0,
-                    "filter_release": 1.309380054473877,
-                    "freq_mod_amount": 0.12068500369787216,
-                    "osc_mix": 0.0,
-                    "filter_sustain": 0.4429909884929657,
-                    "amp_decay": 1.3803499937057495,
-                    "keyboard_mode": 0.0,
-                    "freq_mod_osc": 0.0,
-                    "filter_vel_sens": 1.0,
-                    "distortion_crunch": 0.12987500429153442,
-                    "reverb_damp": 0.53030097484588623,
-                    "reverb_roomsize": 0.50707000494003296,
-                    "lfo_freq": 3.8294999599456787,
-                    "portamento_mode": 0.0,
-                    "filter_decay": 1.1477899551391602,
-                    "osc1_pulsewidth": 0.5196869969367981,
-                    "lfo_waveform": 2.0,
-                    "filter_slope": 1.0,
-                    "osc2_pulsewidth": 0.40815699100494385,
-                    "osc2_waveform": 1.0,
-                    "osc1_waveform": 1.0,
-                    "amp_sustain": 0.56364500522613525,
-                    "filter_type": 0.0,
-                    "amp_vel_sens": 1.0,
-                    "filter_mod_amount": -0.65618002414703369,
-                    "filter_attack": 1.208590030670166
-                },
-                "preset": "http://code.google.com/p/amsynth/amsynth#amsynth_factory_021_Soft_Simple",
-                "parameters": {}
-            },
-            "mod_volume_2x2_1": {
-                "bypassed": false,
-                "ports": {
-                    "PluginEnabled": 1.0,
-                    "Volume": 0.34999999403953552,
-                    "Mode": 1.0
-                },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mod_volume_2x2": {
                 "bypassed": false,
@@ -776,30 +720,122 @@
                     "Volume": 0.34999999403953552,
                     "Mode": 1.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "amsynth": {
+                "bypassed": false,
+                "ports": {
+                    "reverb_damp": 0.53030097484588623,
+                    "lfo_freq": 3.8294999599456787,
+                    "osc_mix_mode": 1.0,
+                    "filter_resonance": 0.14085100591182709,
+                    "filter_attack": 1.208590030670166,
+                    "filter_env_amount": 9.0559396743774414,
+                    "lfo_waveform": 2.0,
+                    "amp_attack": 1.1592899560928345,
+                    "filter_mod_amount": -0.65618002414703369,
+                    "osc2_detune": 0.068699002265930176,
+                    "filter_slope": 1.0,
+                    "filter_cutoff": 0.26101300120353699,
+                    "osc2_pulsewidth": 0.40815699100494385,
+                    "keyboard_mode": 0.0,
+                    "freq_mod_amount": 0.12068500369787216,
+                    "filter_type": 0.0,
+                    "portamento_mode": 0.0,
+                    "osc2_sync": 0.0,
+                    "osc2_pitch": 0.0,
+                    "distortion_crunch": 0.12987500429153442,
+                    "filter_sustain": 0.4429909884929657,
+                    "osc1_pulsewidth": 0.5196869969367981,
+                    "amp_decay": 1.3803499937057495,
+                    "amp_vel_sens": 1.0,
+                    "amp_mod_amount": 0.0,
+                    "osc2_waveform": 1.0,
+                    "reverb_roomsize": 0.50707000494003296,
+                    "master_vol": 1.0,
+                    "osc2_range": 0.0,
+                    "amp_sustain": 0.56364500522613525,
+                    "amp_release": 1.5883400440216064,
+                    "filter_decay": 1.1477899551391602,
+                    "filter_release": 1.309380054473877,
+                    "filter_kbd_track": 1.0,
+                    "portamento_time": 0.0,
+                    "filter_vel_sens": 1.0,
+                    "freq_mod_osc": 0.0,
+                    "reverb_width": 0.49236500263214111,
+                    "osc1_waveform": 1.0,
+                    "osc_mix": 0.0,
+                    "reverb_wet": 0.47084599733352661
+                },
+                "parameters": {},
+                "preset": "http://code.google.com/p/amsynth/amsynth#amsynth_factory_021_Soft_Simple"
             },
             "bolliedelay": {
                 "bypassed": false,
                 "ports": {
-                    "low_q": 1.0,
-                    "feedback": 81.25,
-                    "tempo_mode": 0.0,
-                    "div_r": 3.0,
-                    "tempo_host": 120.0,
-                    "high_q": 2.1608619689941406,
                     "mix": 100.0,
-                    "low_on": 0.0,
-                    "tempo_user": 120.0,
                     "div_l": 2.0,
-                    "tap": 0.0,
+                    "low_on": 0.0,
+                    "high_q": 2.1608619689941406,
+                    "tempo_mode": 0.0,
+                    "low_q": 1.0,
+                    "tempo_host": 120.0,
+                    "div_r": 3.0,
                     "high_f": 22000.0,
+                    "tap": 0.0,
+                    "feedback": 81.25,
                     "crossf": 20.0,
+                    "tempo_user": 120.0,
                     "high_on": 1.0,
                     "low_f": 20.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2_2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -3.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.34999999403953552,
+                    "Mode": 1.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "xfade": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
             }
         }
     }

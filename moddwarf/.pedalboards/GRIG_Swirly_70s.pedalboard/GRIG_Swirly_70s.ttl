@@ -8,115 +8,44 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <BigMuffPi/Out1> ;
-    ingen:head <_bajatubedriver_/in> .
-
-_:b2
-    ingen:tail <shiroverb/lv2_audio_out_2> ;
-    ingen:head <PhaserII/in> .
-
-_:b3
-    ingen:tail <_bajatubedriver_/out> ;
-    ingen:head <_supersonic_/in> .
-
-_:b4
-    ingen:tail <shiroverb/lv2_audio_out_1> ;
-    ingen:head <PhaserII/in> .
-
-_:b5
-    ingen:tail <stereo/outL> ;
-    ingen:head <playback_1> .
-
-_:b6
     ingen:tail <PhaserII/out> ;
     ingen:head <BigMuffPi/In> .
 
-_:b7
-    ingen:tail <faIR_cabsim/Out> ;
-    ingen:head <stereo/inL> .
+_:b2
+    ingen:tail <BigMuffPi/Out1> ;
+    ingen:head <_bajatubedriver_/in> .
 
-_:b8
-    ingen:tail <faIR_cabsim/Out> ;
-    ingen:head <stereo/inR> .
-
-_:b9
-    ingen:tail <capture_1> ;
-    ingen:head <shiroverb/lv2_audio_in_1> .
-
-_:b10
+_:b3
     ingen:tail <_supersonic_/out> ;
     ingen:head <faIR_cabsim/In> .
 
-_:b11
-    ingen:tail <stereo/outR> ;
+_:b4
+    ingen:tail <capture_1> ;
+    ingen:head <shiroverb/lv2_audio_in_1> .
+
+_:b5
+    ingen:tail <shiroverb/lv2_audio_out_2> ;
+    ingen:head <PhaserII/in> .
+
+_:b6
+    ingen:tail <shiroverb/lv2_audio_out_1> ;
+    ingen:head <PhaserII/in> .
+
+_:b7
+    ingen:tail <_bajatubedriver_/out> ;
+    ingen:head <_supersonic_/in> .
+
+_:b8
+    ingen:tail <faIR_cabsim/Out> ;
+    ingen:head <playback_1> .
+
+_:b9
+    ingen:tail <faIR_cabsim/Out> ;
     ingen:head <playback_2> .
 
-<stereo>
-    ingen:canvasX 3269.0 ;
-    ingen:canvasY 566.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 770 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 7 ;
-    lv2:port <stereo/inL> ,
-             <stereo/inR> ,
-             <stereo/outL> ,
-             <stereo/outR> ,
-             <stereo/gain> ,
-             <stereo/enable> ,
-             <stereo/mute> ,
-             <stereo/level> ,
-             <stereo/:bypass> ;
-    lv2:prototype <http://gareus.org/oss/lv2/tinygain#stereo> ;
-    pedal:instanceNumber 1 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<stereo/inL>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<stereo/inR>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<stereo/inL>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<stereo/inR>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<stereo/mute>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/enable>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/gain>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/level>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<stereo/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <_supersonic_>
-    ingen:canvasX 2211.0 ;
-    ingen:canvasY 366.0 ;
+    ingen:canvasX 2209.0 ;
+    ingen:canvasY 210.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -144,18 +73,13 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_supersonic_/TREBLE>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_supersonic_/BASS>
-    ingen:value 0.440000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <_supersonic_/BYPASS>
     ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_supersonic_/GAIN>
+    ingen:value 0.101449 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -164,8 +88,13 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_supersonic_/GAIN>
-    ingen:value 0.101449 ;
+<_supersonic_/BASS>
+    ingen:value 0.440000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_supersonic_/TREBLE>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -175,8 +104,8 @@ _:b11
         lv2:InputPort .
 
 <faIR_cabsim>
-    ingen:canvasX 2293.0 ;
-    ingen:canvasY 840.0 ;
+    ingen:canvasX 2321.0 ;
+    ingen:canvasY 660.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 1 ;
@@ -201,12 +130,12 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<faIR_cabsim/Model>
+<faIR_cabsim/Attenuation>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<faIR_cabsim/Attenuation>
+<faIR_cabsim/Model>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -250,18 +179,13 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<shiroverb/roomsize>
-    ingen:value 10.000000 ;
+<shiroverb/mix>
+    ingen:value 30.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<shiroverb/damping>
-    ingen:value 29.687500 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/ratio>
-    ingen:value 1.000000 ;
+<shiroverb/bandwidth>
+    ingen:value 68.750000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -270,13 +194,8 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<shiroverb/decay>
-    ingen:value 18.150000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/mix>
-    ingen:value 30.000000 ;
+<shiroverb/damping>
+    ingen:value 29.687500 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -285,8 +204,18 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<shiroverb/bandwidth>
-    ingen:value 68.750000 ;
+<shiroverb/ratio>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/decay>
+    ingen:value 18.150000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/roomsize>
+    ingen:value 10.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -324,23 +253,23 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_bajatubedriver_/DRIVE>
-    ingen:value 0.295000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <_bajatubedriver_/BYPASS>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_bajatubedriver_/VOLUME>
-    ingen:value 0.340000 ;
+<_bajatubedriver_/TONE>
+    ingen:value 0.600000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_bajatubedriver_/TONE>
-    ingen:value 0.600000 ;
+<_bajatubedriver_/DRIVE>
+    ingen:value 0.295000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_/VOLUME>
+    ingen:value 0.340000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -377,6 +306,11 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
+<BigMuffPi/Tone>
+    ingen:value 0.656250 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <BigMuffPi/Sustain>
     ingen:value 0.109375 ;
     a lv2:ControlPort ,
@@ -384,11 +318,6 @@ _:b11
 
 <BigMuffPi/Level>
     ingen:value 0.495000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<BigMuffPi/Tone>
-    ingen:value 0.656250 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -427,8 +356,8 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<PhaserII/rate>
-    ingen:value 0.171875 ;
+<PhaserII/spread>
+    ingen:value 0.375000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -437,18 +366,18 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<PhaserII/lfo>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<PhaserII/spread>
-    ingen:value 0.375000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <PhaserII/depth>
     ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<PhaserII/rate>
+    ingen:value 0.171875 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<PhaserII/lfo>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -555,12 +484,6 @@ _:b11
     a atom:AtomPort ,
         lv2:InputPort .
 
-<midi_loopback>
-    ingen:value 0 ;
-    lv2:index 12 ;
-    a atom:AtomPort ,
-        lv2:InputPort .
-
 <>
     doap:name "GRIG:Swirly.70s" ;
     pedal:unitName "MOD Dwarf" ;
@@ -570,7 +493,7 @@ _:b11
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 11 ;
+    pedal:version 12 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -580,11 +503,8 @@ _:b11
               _:b6 ,
               _:b7 ,
               _:b8 ,
-              _:b9 ,
-              _:b10 ,
-              _:b11 ;
-    ingen:block <stereo> ,
-                <_supersonic_> ,
+              _:b9 ;
+    ingen:block <_supersonic_> ,
                 <faIR_cabsim> ,
                 <shiroverb> ,
                 <_bajatubedriver_> ,
@@ -594,7 +514,6 @@ _:b11
              <:bpm> ,
              <:rolling> ,
              <midi_separated_mode> ,
-             <midi_loopback> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

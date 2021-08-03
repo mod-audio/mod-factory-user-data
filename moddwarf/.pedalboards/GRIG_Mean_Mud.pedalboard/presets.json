@@ -1,121 +1,18 @@
 [
     {
+        "name": "Default",
         "data": {
-            "cabsim_bass": {
-                "preset": "",
-                "ports": {
-                    "Model": 0.0,
-                    "Attenuation": -4.5,
-                    "MicPos": 1.0
-                },
-                "bypassed": false,
-                "parameters": {}
-            },
-            "studiopre": {
-                "preset": "",
-                "ports": {
-                    "treble": 0.5,
-                    "middle": 0.5,
-                    "bright": 0.0,
-                    "volume": 10.044643402099609,
-                    "bass": 0.5
-                },
-                "bypassed": false,
-                "parameters": {}
-            },
-            "mud": {
-                "preset": "http://remaincalm.org/plugins/mud#preset004",
-                "ports": {
-                    "lfo": 100.0,
-                    "mix": 40.625,
-                    "filter": 80.0
-                },
-                "bypassed": true,
-                "parameters": {}
-            },
-            "xfade": {
-                "preset": "",
-                "ports": {
-                    "mode": 0.0,
-                    "shape": 0.0,
-                    "xfade": 1.0
-                },
-                "bypassed": true,
-                "parameters": {}
-            },
-            "mono": {
-                "preset": "",
-                "ports": {
-                    "attack": 0.00035099999513477087,
-                    "release": 0.05000000074505806,
-                    "noClip": 1.0,
-                    "rms": 0.5,
-                    "threshold": -31.5,
-                    "ratio": 2.9000000953674316,
-                    "bypass": 0.0,
-                    "gain": 4.0
-                },
-                "bypassed": false,
-                "parameters": {}
-            },
-            "stereo": {
-                "preset": "",
-                "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
-                },
-                "bypassed": false,
-                "parameters": {}
-            },
             "_CreamMachine_": {
                 "preset": "",
                 "ports": {
-                    "TREBLE": 0.30000001192092896,
+                    "BYPASS": 1.0,
+                    "BASS": 0.25,
+                    "VOLUME": 0.054864998906850815,
                     "LEVEL": 0.34999999403953552,
-                    "BYPASS": 1.0,
-                    "VOLUME": 0.054864998906850815,
-                    "BASS": 0.25
+                    "TREBLE": 0.30000001192092896
                 },
-                "bypassed": false,
-                "parameters": {}
-            }
-        },
-        "name": "Default"
-    },
-    {
-        "data": {
-            "cabsim_bass": {
-                "preset": "",
-                "ports": {
-                    "Model": 0.0,
-                    "Attenuation": -4.5,
-                    "MicPos": 1.0
-                },
-                "bypassed": false,
-                "parameters": {}
-            },
-            "studiopre": {
-                "preset": "",
-                "ports": {
-                    "treble": 0.5,
-                    "middle": 0.5,
-                    "bright": 0.0,
-                    "volume": 10.044643402099609,
-                    "bass": 0.5
-                },
-                "bypassed": false,
-                "parameters": {}
-            },
-            "mud": {
-                "preset": "http://remaincalm.org/plugins/mud#preset004",
-                "ports": {
-                    "lfo": 100.0,
-                    "mix": 40.625,
-                    "filter": 80.0
-                },
-                "bypassed": false,
-                "parameters": {}
+                "parameters": {},
+                "bypassed": false
             },
             "xfade": {
                 "preset": "",
@@ -124,82 +21,72 @@
                     "shape": 0.0,
                     "xfade": 1.0
                 },
-                "bypassed": true,
-                "parameters": {}
+                "parameters": {},
+                "bypassed": true
+            },
+            "mud": {
+                "preset": "http://remaincalm.org/plugins/mud#preset004",
+                "ports": {
+                    "mix": 40.625,
+                    "filter": 80.0,
+                    "lfo": 100.0
+                },
+                "parameters": {},
+                "bypassed": true
+            },
+            "cabsim_bass": {
+                "preset": "",
+                "ports": {
+                    "MicPos": 1.0,
+                    "Attenuation": -4.5,
+                    "Model": 0.0
+                },
+                "parameters": {},
+                "bypassed": false
             },
             "mono": {
                 "preset": "",
                 "ports": {
-                    "attack": 0.00035099999513477087,
-                    "release": 0.05000000074505806,
+                    "gain": 4.0,
                     "noClip": 1.0,
-                    "rms": 0.5,
-                    "threshold": -31.5,
-                    "ratio": 2.9000000953674316,
                     "bypass": 0.0,
-                    "gain": 4.0
+                    "rms": 0.5,
+                    "ratio": 2.9000000953674316,
+                    "threshold": -31.5,
+                    "attack": 0.00035099999513477087,
+                    "release": 0.05000000074505806
                 },
-                "bypassed": false,
-                "parameters": {}
+                "parameters": {},
+                "bypassed": false
             },
-            "stereo": {
+            "studiopre": {
                 "preset": "",
                 "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
+                    "bright": 0.0,
+                    "bass": 0.5,
+                    "volume": 10.044643402099609,
+                    "middle": 0.5,
+                    "treble": 0.5
                 },
-                "bypassed": false,
-                "parameters": {}
-            },
+                "parameters": {},
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Mud",
+        "data": {
             "_CreamMachine_": {
                 "preset": "",
                 "ports": {
-                    "TREBLE": 0.30000001192092896,
+                    "BYPASS": 1.0,
+                    "BASS": 0.25,
+                    "VOLUME": 0.054864998906850815,
                     "LEVEL": 0.34999999403953552,
-                    "BYPASS": 1.0,
-                    "VOLUME": 0.054864998906850815,
-                    "BASS": 0.25
+                    "TREBLE": 0.30000001192092896
                 },
-                "bypassed": false,
-                "parameters": {}
-            }
-        },
-        "name": "Mud"
-    },
-    {
-        "data": {
-            "cabsim_bass": {
-                "preset": "",
-                "ports": {
-                    "Model": 0.0,
-                    "Attenuation": -4.5,
-                    "MicPos": 1.0
-                },
-                "bypassed": false,
-                "parameters": {}
-            },
-            "studiopre": {
-                "preset": "",
-                "ports": {
-                    "treble": 0.5,
-                    "middle": 0.5,
-                    "bright": 0.0,
-                    "volume": 10.044643402099609,
-                    "bass": 0.5
-                },
-                "bypassed": false,
-                "parameters": {}
-            },
-            "mud": {
-                "preset": "http://remaincalm.org/plugins/mud#preset004",
-                "ports": {
-                    "lfo": 100.0,
-                    "mix": 40.625,
-                    "filter": 80.0
-                },
-                "bypassed": true,
-                "parameters": {}
+                "parameters": {},
+                "bypassed": false
             },
             "xfade": {
                 "preset": "",
@@ -208,82 +95,72 @@
                     "shape": 0.0,
                     "xfade": 1.0
                 },
-                "bypassed": true,
-                "parameters": {}
-            },
-            "mono": {
-                "preset": "",
-                "ports": {
-                    "attack": 0.00035099999513477087,
-                    "release": 0.05000000074505806,
-                    "noClip": 1.0,
-                    "rms": 0.5,
-                    "threshold": -31.5,
-                    "ratio": 2.9000000953674316,
-                    "bypass": 0.0,
-                    "gain": 4.0
-                },
-                "bypassed": false,
-                "parameters": {}
-            },
-            "stereo": {
-                "preset": "",
-                "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
-                },
-                "bypassed": false,
-                "parameters": {}
-            },
-            "_CreamMachine_": {
-                "preset": "",
-                "ports": {
-                    "TREBLE": 0.30000001192092896,
-                    "LEVEL": 0.92753623188405798,
-                    "BYPASS": 1.0,
-                    "VOLUME": 0.054864998906850815,
-                    "BASS": 0.25
-                },
-                "bypassed": false,
-                "parameters": {}
-            }
-        },
-        "name": "Extra Mean"
-    },
-    {
-        "data": {
-            "cabsim_bass": {
-                "preset": "",
-                "ports": {
-                    "Model": 0.0,
-                    "Attenuation": -4.5,
-                    "MicPos": 1.0
-                },
-                "bypassed": false,
-                "parameters": {}
-            },
-            "studiopre": {
-                "preset": "",
-                "ports": {
-                    "treble": 0.5,
-                    "middle": 0.5,
-                    "bright": 0.0,
-                    "volume": 10.044643402099609,
-                    "bass": 0.5
-                },
-                "bypassed": false,
-                "parameters": {}
+                "parameters": {},
+                "bypassed": true
             },
             "mud": {
                 "preset": "http://remaincalm.org/plugins/mud#preset004",
                 "ports": {
-                    "lfo": 100.0,
                     "mix": 40.625,
-                    "filter": 80.0
+                    "filter": 80.0,
+                    "lfo": 100.0
                 },
-                "bypassed": false,
-                "parameters": {}
+                "parameters": {},
+                "bypassed": false
+            },
+            "cabsim_bass": {
+                "preset": "",
+                "ports": {
+                    "MicPos": 1.0,
+                    "Attenuation": -4.5,
+                    "Model": 0.0
+                },
+                "parameters": {},
+                "bypassed": false
+            },
+            "mono": {
+                "preset": "",
+                "ports": {
+                    "gain": 4.0,
+                    "noClip": 1.0,
+                    "bypass": 0.0,
+                    "rms": 0.5,
+                    "ratio": 2.9000000953674316,
+                    "threshold": -31.5,
+                    "attack": 0.00035099999513477087,
+                    "release": 0.05000000074505806
+                },
+                "parameters": {},
+                "bypassed": false
+            },
+            "studiopre": {
+                "preset": "",
+                "ports": {
+                    "bright": 0.0,
+                    "bass": 0.5,
+                    "volume": 10.044643402099609,
+                    "middle": 0.5,
+                    "treble": 0.5
+                },
+                "parameters": {},
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Extra Mean",
+        "data": {
+            "_CreamMachine_": {
+                "preset": "",
+                "ports": {
+                    "BYPASS": 1.0,
+                    "BASS": 0.25,
+                    "VOLUME": 0.054864998906850815,
+                    "LEVEL": 0.92753623188405798,
+                    "TREBLE": 0.30000001192092896
+                },
+                "parameters": {},
+                "bypassed": false
             },
             "xfade": {
                 "preset": "",
@@ -292,82 +169,72 @@
                     "shape": 0.0,
                     "xfade": 1.0
                 },
-                "bypassed": true,
-                "parameters": {}
-            },
-            "mono": {
-                "preset": "",
-                "ports": {
-                    "attack": 0.00035099999513477087,
-                    "release": 0.05000000074505806,
-                    "noClip": 1.0,
-                    "rms": 0.5,
-                    "threshold": -31.5,
-                    "ratio": 2.9000000953674316,
-                    "bypass": 0.0,
-                    "gain": 4.0
-                },
-                "bypassed": false,
-                "parameters": {}
-            },
-            "stereo": {
-                "preset": "",
-                "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
-                },
-                "bypassed": false,
-                "parameters": {}
-            },
-            "_CreamMachine_": {
-                "preset": "",
-                "ports": {
-                    "TREBLE": 0.30000001192092896,
-                    "LEVEL": 0.92753623188405798,
-                    "BYPASS": 1.0,
-                    "VOLUME": 0.054864998906850815,
-                    "BASS": 0.25
-                },
-                "bypassed": false,
-                "parameters": {}
-            }
-        },
-        "name": "Mean and Muddy"
-    },
-    {
-        "data": {
-            "cabsim_bass": {
-                "preset": "",
-                "ports": {
-                    "Model": 0.0,
-                    "Attenuation": -4.5,
-                    "MicPos": 1.0
-                },
-                "bypassed": false,
-                "parameters": {}
-            },
-            "studiopre": {
-                "preset": "",
-                "ports": {
-                    "treble": 0.5,
-                    "middle": 0.5,
-                    "bright": 0.0,
-                    "volume": 10.044643402099609,
-                    "bass": 0.5
-                },
-                "bypassed": false,
-                "parameters": {}
+                "parameters": {},
+                "bypassed": true
             },
             "mud": {
                 "preset": "http://remaincalm.org/plugins/mud#preset004",
                 "ports": {
-                    "lfo": 100.0,
                     "mix": 40.625,
-                    "filter": 80.0
+                    "filter": 80.0,
+                    "lfo": 100.0
                 },
-                "bypassed": false,
-                "parameters": {}
+                "parameters": {},
+                "bypassed": true
+            },
+            "cabsim_bass": {
+                "preset": "",
+                "ports": {
+                    "MicPos": 1.0,
+                    "Attenuation": -4.5,
+                    "Model": 0.0
+                },
+                "parameters": {},
+                "bypassed": false
+            },
+            "mono": {
+                "preset": "",
+                "ports": {
+                    "gain": 4.0,
+                    "noClip": 1.0,
+                    "bypass": 0.0,
+                    "rms": 0.5,
+                    "ratio": 2.9000000953674316,
+                    "threshold": -31.5,
+                    "attack": 0.00035099999513477087,
+                    "release": 0.05000000074505806
+                },
+                "parameters": {},
+                "bypassed": false
+            },
+            "studiopre": {
+                "preset": "",
+                "ports": {
+                    "bright": 0.0,
+                    "bass": 0.5,
+                    "volume": 10.044643402099609,
+                    "middle": 0.5,
+                    "treble": 0.5
+                },
+                "parameters": {},
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Mean and Muddy",
+        "data": {
+            "_CreamMachine_": {
+                "preset": "",
+                "ports": {
+                    "BYPASS": 1.0,
+                    "BASS": 0.25,
+                    "VOLUME": 0.054864998906850815,
+                    "LEVEL": 0.92753623188405798,
+                    "TREBLE": 0.30000001192092896
+                },
+                "parameters": {},
+                "bypassed": false
             },
             "xfade": {
                 "preset": "",
@@ -376,47 +243,130 @@
                     "shape": 0.0,
                     "xfade": 1.0
                 },
-                "bypassed": true,
-                "parameters": {}
+                "parameters": {},
+                "bypassed": true
+            },
+            "mud": {
+                "preset": "http://remaincalm.org/plugins/mud#preset004",
+                "ports": {
+                    "mix": 40.625,
+                    "filter": 80.0,
+                    "lfo": 100.0
+                },
+                "parameters": {},
+                "bypassed": false
+            },
+            "cabsim_bass": {
+                "preset": "",
+                "ports": {
+                    "MicPos": 1.0,
+                    "Attenuation": -4.5,
+                    "Model": 0.0
+                },
+                "parameters": {},
+                "bypassed": false
             },
             "mono": {
                 "preset": "",
                 "ports": {
-                    "attack": 0.00035099999513477087,
-                    "release": 0.05000000074505806,
+                    "gain": 4.0,
                     "noClip": 1.0,
-                    "rms": 0.5,
-                    "threshold": -31.5,
-                    "ratio": 2.9000000953674316,
                     "bypass": 0.0,
-                    "gain": 4.0
+                    "rms": 0.5,
+                    "ratio": 2.9000000953674316,
+                    "threshold": -31.5,
+                    "attack": 0.00035099999513477087,
+                    "release": 0.05000000074505806
                 },
-                "bypassed": false,
-                "parameters": {}
+                "parameters": {},
+                "bypassed": false
             },
-            "stereo": {
+            "studiopre": {
                 "preset": "",
                 "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
+                    "bright": 0.0,
+                    "bass": 0.5,
+                    "volume": 10.044643402099609,
+                    "middle": 0.5,
+                    "treble": 0.5
                 },
-                "bypassed": false,
-                "parameters": {}
-            },
+                "parameters": {},
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Bright Mean Mud",
+        "data": {
             "_CreamMachine_": {
                 "preset": "",
                 "ports": {
-                    "TREBLE": 1.0,
-                    "LEVEL": 0.92753623188405798,
                     "BYPASS": 1.0,
+                    "BASS": 0.30434782608695654,
                     "VOLUME": 0.054864998906850815,
-                    "BASS": 0.30434782608695654
+                    "LEVEL": 0.92753623188405798,
+                    "TREBLE": 1.0
                 },
-                "bypassed": false,
-                "parameters": {}
+                "parameters": {},
+                "bypassed": false
+            },
+            "xfade": {
+                "preset": "",
+                "ports": {
+                    "mode": 0.0,
+                    "shape": 0.0,
+                    "xfade": 1.0
+                },
+                "parameters": {},
+                "bypassed": true
+            },
+            "mud": {
+                "preset": "http://remaincalm.org/plugins/mud#preset004",
+                "ports": {
+                    "mix": 40.625,
+                    "filter": 80.0,
+                    "lfo": 100.0
+                },
+                "parameters": {},
+                "bypassed": false
+            },
+            "cabsim_bass": {
+                "preset": "",
+                "ports": {
+                    "MicPos": 1.0,
+                    "Attenuation": -4.5,
+                    "Model": 0.0
+                },
+                "parameters": {},
+                "bypassed": false
+            },
+            "mono": {
+                "preset": "",
+                "ports": {
+                    "gain": 4.0,
+                    "noClip": 1.0,
+                    "bypass": 0.0,
+                    "rms": 0.5,
+                    "ratio": 2.9000000953674316,
+                    "threshold": -31.5,
+                    "attack": 0.00035099999513477087,
+                    "release": 0.05000000074505806
+                },
+                "parameters": {},
+                "bypassed": false
+            },
+            "studiopre": {
+                "preset": "",
+                "ports": {
+                    "bright": 0.0,
+                    "bass": 0.5,
+                    "volume": 10.044643402099609,
+                    "middle": 0.5,
+                    "treble": 0.5
+                },
+                "parameters": {},
+                "bypassed": false
             }
-        },
-        "name": "Bright Mean Mud"
+        }
     }
 ]

@@ -17,6 +17,6 @@
 -Hover over an output, and click+drag to route. You can split the signal as many times as you like.
 -Hover over a plug connected to an input and click+drag to change the routing. 
 -When multiple cables are connected to an input, click on the plugs to separate them""" ;
-		<http://open-music-kontrollers.ch/lv2/notes#fontHeight> "25"^^xsd:int
+		<http://open-music-kontrollers.ch/lv2/notes#fontHeight> "20"^^xsd:int
 	] .
 

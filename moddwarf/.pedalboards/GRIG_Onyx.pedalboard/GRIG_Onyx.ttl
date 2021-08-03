@@ -8,163 +8,103 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <_bajatubedriver_/out> ;
-    ingen:head <onyx/In> .
-
-_:b2
-    ingen:tail <stereo/outL> ;
-    ingen:head <playback_1> .
-
-_:b3
-    ingen:tail <stereo/outR> ;
-    ingen:head <playback_2> .
-
-_:b4
-    ingen:tail <Plate/outl> ;
-    ingen:head <stereo/inL> .
-
-_:b5
-    ingen:tail <capture_1> ;
-    ingen:head <gate/input> .
-
-_:b6
-    ingen:tail <Plate/outr> ;
-    ingen:head <stereo/inR> .
-
-_:b7
-    ingen:tail <gate/output> ;
-    ingen:head <_bajatubedriver_/in> .
-
-_:b8
-    ingen:tail <faIR_cabsim/Out> ;
-    ingen:head <mono/in> .
-
-_:b9
-    ingen:tail <mono/out> ;
-    ingen:head <Plate/in> .
-
-_:b10
     ingen:tail <onyx/Out> ;
     ingen:head <modulay/lv2_audio_in_1> .
 
-_:b11
+_:b2
     ingen:tail <modulay/lv2_audio_out_1> ;
     ingen:head <faIR_cabsim/In> .
 
-<Plate>
-    ingen:canvasX 3827.0 ;
-    ingen:canvasY 513.0 ;
+_:b3
+    ingen:tail <capture_1> ;
+    ingen:head <gate/input> .
+
+_:b4
+    ingen:tail <gate/output> ;
+    ingen:head <_bajatubedriver_/in> .
+
+_:b5
+    ingen:tail <faIR_cabsim/Out> ;
+    ingen:head <mono/in> .
+
+_:b6
+    ingen:tail <mono/out> ;
+    ingen:head <Plate/in> .
+
+_:b7
+    ingen:tail <_bajatubedriver_/out> ;
+    ingen:head <onyx/In> .
+
+_:b8
+    ingen:tail <Plate/outl> ;
+    ingen:head <playback_1> .
+
+_:b9
+    ingen:tail <Plate/outr> ;
+    ingen:head <playback_2> .
+
+<gate>
+    ingen:canvasX 507.4 ;
+    ingen:canvasY 618.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
-    lv2:microVersion 24 ;
-    lv2:minorVersion 9 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 13 ;
-    lv2:port <Plate/in> ,
-             <Plate/outl> ,
-             <Plate/outr> ,
-             <Plate/bandwidth> ,
-             <Plate/tail> ,
-             <Plate/damping> ,
-             <Plate/blend> ,
-             <Plate/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/caps/Plate> ;
-    pedal:instanceNumber 16 ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <gate/input> ,
+             <gate/output> ,
+             <gate/switch> ,
+             <gate/threshold> ,
+             <gate/attack> ,
+             <gate/hold> ,
+             <gate/decay> ,
+             <gate/gaterange> ,
+             <gate/:bypass> ;
+    lv2:prototype <http://hippie.lt/lv2/gate> ;
+    pedal:instanceNumber 19 ;
     pedal:preset <> ;
     a ingen:Block .
 
-<Plate/in>
+<gate/input>
     a lv2:AudioPort ,
         lv2:InputPort .
 
-<Plate/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Plate/blend>
-    ingen:value 0.145000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Plate/damping>
-    ingen:value 0.000500 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Plate/bandwidth>
-    ingen:value 0.999500 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Plate/tail>
-    ingen:value 0.340000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Plate/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo>
-    ingen:canvasX 4451.0 ;
-    ingen:canvasY 607.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 770 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 7 ;
-    lv2:port <stereo/inL> ,
-             <stereo/inR> ,
-             <stereo/outL> ,
-             <stereo/outR> ,
-             <stereo/gain> ,
-             <stereo/enable> ,
-             <stereo/mute> ,
-             <stereo/level> ,
-             <stereo/:bypass> ;
-    lv2:prototype <http://gareus.org/oss/lv2/tinygain#stereo> ;
-    pedal:instanceNumber 1 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<stereo/inL>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<stereo/inR>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<stereo/inL>
+<gate/input>
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<stereo/inR>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<stereo/enable>
-    ingen:value 1.000000 ;
+<gate/hold>
+    ingen:value 50.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo/gain>
-    ingen:value 0.000000 ;
+<gate/gaterange>
+    ingen:value -90.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo/mute>
-    ingen:value 0.000000 ;
+<gate/switch>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo/level>
+<gate/threshold>
+    ingen:value -50.000000 ;
     a lv2:ControlPort ,
-        lv2:OutputPort .
+        lv2:InputPort .
 
-<stereo/:bypass>
+<gate/attack>
+    ingen:value 5.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<gate/decay>
+    ingen:value 50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<gate/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -201,6 +141,11 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
+<onyx/clip>
+    ingen:value 250.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <onyx/Bass>
     ingen:value 0.500000 ;
     a lv2:ControlPort ,
@@ -211,18 +156,13 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<onyx/Character>
+    ingen:value 50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <onyx/Gain>
     ingen:value 50.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<onyx/Treble>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<onyx/clip>
-    ingen:value 250.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -231,8 +171,8 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<onyx/Character>
-    ingen:value 50.000000 ;
+<onyx/Treble>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -241,75 +181,63 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<gate>
-    ingen:canvasX 507.4 ;
-    ingen:canvasY 618.0 ;
-    ingen:enabled true ;
+<_bajatubedriver_>
+    ingen:canvasX 1071.0 ;
+    ingen:canvasY 616.0 ;
+    ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
-    lv2:minorVersion 0 ;
+    lv2:minorVersion 35 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 12 ;
-    lv2:port <gate/input> ,
-             <gate/output> ,
-             <gate/switch> ,
-             <gate/threshold> ,
-             <gate/attack> ,
-             <gate/hold> ,
-             <gate/decay> ,
-             <gate/gaterange> ,
-             <gate/:bypass> ;
-    lv2:prototype <http://hippie.lt/lv2/gate> ;
-    pedal:instanceNumber 19 ;
+    mod:releaseNumber 5 ;
+    lv2:port <_bajatubedriver_/in> ,
+             <_bajatubedriver_/out> ,
+             <_bajatubedriver_/BYPASS> ,
+             <_bajatubedriver_/DRIVE> ,
+             <_bajatubedriver_/TONE> ,
+             <_bajatubedriver_/VOLUME> ,
+             <_bajatubedriver_/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_bajatubedriver_#_bajatubedriver_> ;
+    pedal:instanceNumber 3 ;
     pedal:preset <> ;
     a ingen:Block .
 
-<gate/input>
+<_bajatubedriver_/in>
     a lv2:AudioPort ,
         lv2:InputPort .
 
-<gate/input>
+<_bajatubedriver_/in>
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<gate/decay>
-    ingen:value 50.000000 ;
+<_bajatubedriver_/BYPASS>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<gate/gaterange>
-    ingen:value -90.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<gate/threshold>
-    ingen:value -50.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<gate/hold>
-    ingen:value 50.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<gate/attack>
-    ingen:value 5.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<gate/switch>
+<_bajatubedriver_/TONE>
     ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<gate/:bypass>
-    ingen:value 0 ;
+<_bajatubedriver_/DRIVE>
+    ingen:value 0.600000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_/VOLUME>
+    ingen:value 0.060000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_/:bypass>
+    ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <mono>
-    ingen:canvasX 3331.6 ;
-    ingen:canvasY 464.3 ;
+    ingen:canvasX 3234.4 ;
+    ingen:canvasY 444.7 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 1 ;
@@ -344,21 +272,6 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<mono/rms>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/release>
-    ingen:value 0.050000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/attack>
-    ingen:value 0.000117 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <mono/gain>
     ingen:value -1.000000 ;
     a lv2:ControlPort ,
@@ -369,18 +282,33 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/threshold>
-    ingen:value -12.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <mono/ratio>
     ingen:value 4.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<mono/rms>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <mono/bypass>
     ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/threshold>
+    ingen:value -12.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/attack>
+    ingen:value 0.000117 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/release>
+    ingen:value 0.050000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -407,7 +335,7 @@ _:b11
 
 <modulay>
     ingen:canvasX 1818.0 ;
-    ingen:canvasY 1047.5 ;
+    ingen:canvasY 1047.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -442,8 +370,8 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<modulay/time>
-    ingen:value 500.000000 ;
+<modulay/tone>
+    ingen:value 3000.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -452,18 +380,8 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<modulay/morph>
-    ingen:value 50.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<modulay/depth>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<modulay/tone>
-    ingen:value 3000.000000 ;
+<modulay/time>
+    ingen:value 500.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -472,62 +390,73 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<modulay/depth>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<modulay/morph>
+    ingen:value 50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <modulay/:bypass>
     ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_bajatubedriver_>
-    ingen:canvasX 1071.0 ;
-    ingen:canvasY 616.0 ;
-    ingen:enabled false ;
+<Plate>
+    ingen:canvasX 3776.3 ;
+    ingen:canvasY 510.6 ;
+    ingen:enabled true ;
     ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 35 ;
+    lv2:microVersion 24 ;
+    lv2:minorVersion 9 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
-    lv2:port <_bajatubedriver_/in> ,
-             <_bajatubedriver_/out> ,
-             <_bajatubedriver_/BYPASS> ,
-             <_bajatubedriver_/DRIVE> ,
-             <_bajatubedriver_/TONE> ,
-             <_bajatubedriver_/VOLUME> ,
-             <_bajatubedriver_/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_bajatubedriver_#_bajatubedriver_> ;
-    pedal:instanceNumber 3 ;
+    mod:releaseNumber 13 ;
+    lv2:port <Plate/in> ,
+             <Plate/outl> ,
+             <Plate/outr> ,
+             <Plate/bandwidth> ,
+             <Plate/tail> ,
+             <Plate/damping> ,
+             <Plate/blend> ,
+             <Plate/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/caps/Plate> ;
+    pedal:instanceNumber 16 ;
     pedal:preset <> ;
     a ingen:Block .
 
-<_bajatubedriver_/in>
+<Plate/in>
     a lv2:AudioPort ,
         lv2:InputPort .
 
-<_bajatubedriver_/in>
+<Plate/in>
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_bajatubedriver_/DRIVE>
-    ingen:value 0.600000 ;
+<Plate/bandwidth>
+    ingen:value 0.999500 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_bajatubedriver_/BYPASS>
-    ingen:value 0.000000 ;
+<Plate/damping>
+    ingen:value 0.000500 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_bajatubedriver_/TONE>
-    ingen:value 0.500000 ;
+<Plate/tail>
+    ingen:value 0.340000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_bajatubedriver_/VOLUME>
-    ingen:value 0.060000 ;
+<Plate/blend>
+    ingen:value 0.145000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_bajatubedriver_/:bypass>
-    ingen:value 1 ;
+<Plate/:bypass>
+    ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -558,13 +487,13 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<faIR_cabsim/Model>
-    ingen:value 0.000000 ;
+<faIR_cabsim/Attenuation>
+    ingen:value -5.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<faIR_cabsim/Attenuation>
-    ingen:value -5.000000 ;
+<faIR_cabsim/Model>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -680,7 +609,7 @@ _:b11
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 20 ;
+    pedal:version 21 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -690,16 +619,13 @@ _:b11
               _:b6 ,
               _:b7 ,
               _:b8 ,
-              _:b9 ,
-              _:b10 ,
-              _:b11 ;
-    ingen:block <Plate> ,
-                <stereo> ,
+              _:b9 ;
+    ingen:block <gate> ,
                 <onyx> ,
-                <gate> ,
+                <_bajatubedriver_> ,
                 <mono> ,
                 <modulay> ,
-                <_bajatubedriver_> ,
+                <Plate> ,
                 <faIR_cabsim> ;
     lv2:port <:bpb> ,
              <:bpm> ,

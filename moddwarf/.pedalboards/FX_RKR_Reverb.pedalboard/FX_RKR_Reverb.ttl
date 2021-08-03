@@ -8,44 +8,36 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <capture_2> ;
-    ingen:head <xfade/inB_right> .
-
-_:b2
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_left> .
-
-_:b3
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inB_left> .
-
-_:b4
-    ingen:tail <reve/OUTPUT_L> ;
-    ingen:head <stereo/inL> .
-
-_:b5
     ingen:tail <capture_1> ;
     ingen:head <xfade/inA_right> .
 
-_:b6
-    ingen:tail <stereo/outR> ;
-    ingen:head <playback_2> .
+_:b2
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inB_left> .
 
-_:b7
-    ingen:tail <xfade/out_right> ;
-    ingen:head <reve/INPUT_R> .
+_:b3
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_left> .
 
-_:b8
+_:b4
+    ingen:tail <capture_2> ;
+    ingen:head <xfade/inB_right> .
+
+_:b5
     ingen:tail <xfade/out_left> ;
     ingen:head <reve/INPUT_L> .
 
-_:b9
-    ingen:tail <reve/OUTPUT_R> ;
-    ingen:head <stereo/inR> .
+_:b6
+    ingen:tail <xfade/out_right> ;
+    ingen:head <reve/INPUT_R> .
 
-_:b10
-    ingen:tail <stereo/outL> ;
+_:b7
+    ingen:tail <reve/OUTPUT_L> ;
     ingen:head <playback_1> .
+
+_:b8
+    ingen:tail <reve/OUTPUT_R> ;
+    ingen:head <playback_2> .
 
 <xfade>
     ingen:canvasX 767.0 ;
@@ -103,13 +95,13 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade/shape>
-    ingen:value 0.000000 ;
+<xfade/xfade>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade/xfade>
-    ingen:value 1.000000 ;
+<xfade/shape>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -123,72 +115,9 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo>
-    ingen:canvasX 3073.0 ;
-    ingen:canvasY 377.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 770 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 7 ;
-    lv2:port <stereo/inL> ,
-             <stereo/inR> ,
-             <stereo/outL> ,
-             <stereo/outR> ,
-             <stereo/gain> ,
-             <stereo/enable> ,
-             <stereo/mute> ,
-             <stereo/level> ,
-             <stereo/:bypass> ;
-    lv2:prototype <http://gareus.org/oss/lv2/tinygain#stereo> ;
-    pedal:instanceNumber 1 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<stereo/inL>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<stereo/inR>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<stereo/inL>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<stereo/inR>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<stereo/enable>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/gain>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/mute>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/level>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<stereo/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <reve>
-    ingen:canvasX 1711.0 ;
-    ingen:canvasY 363.0 ;
+    ingen:canvasX 1871.0 ;
+    ingen:canvasY 349.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -232,28 +161,13 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<reve/DAMP>
-    ingen:value 106.000000 ;
+<reve/RS>
+    ingen:value 30.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <reve/LPF>
     ingen:value 25040.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<reve/PAN>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<reve/HPF>
-    ingen:value 21.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<reve/RS>
-    ingen:value 30.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -272,17 +186,32 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<reve/BYPASS>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <reve/TIME>
     ingen:value 33.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<reve/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <reve/IDEL>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<reve/HPF>
+    ingen:value 21.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<reve/DAMP>
+    ingen:value 106.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<reve/PAN>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -399,7 +328,7 @@ _:b10
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 19 ;
+    pedal:version 20 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -408,11 +337,8 @@ _:b10
               _:b5 ,
               _:b6 ,
               _:b7 ,
-              _:b8 ,
-              _:b9 ,
-              _:b10 ;
+              _:b8 ;
     ingen:block <xfade> ,
-                <stereo> ,
                 <reve> ;
     lv2:port <:bpb> ,
              <:bpm> ,

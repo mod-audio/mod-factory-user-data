@@ -18,6 +18,6 @@ While hovering over a control in the web interface, you can:
 OR
 -click + drag up to increase the value
 -click + drag down to decrease the value""" ;
-		<http://open-music-kontrollers.ch/lv2/notes#fontHeight> "22"^^xsd:int
+		<http://open-music-kontrollers.ch/lv2/notes#fontHeight> "20"^^xsd:int
 	] .
 

@@ -2,25 +2,36 @@
     {
         "name": "Default",
         "data": {
-            "stereo": {
+            "floaty": {
+                "bypassed": true,
+                "ports": {
+                    "mix": 42.0,
+                    "feedback": 20.0,
+                    "filter": 50.0,
+                    "rate": 1.5,
+                    "warp": 60.0,
+                    "delay": 501.94200000000001
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
                 "bypassed": false,
                 "ports": {
-                    "enable": 1.0,
-                    "gain": -6.0,
-                    "mute": 0.0
+                    "Gain": -6.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "xfade": {
                 "bypassed": false,
                 "ports": {
-                    "shape": 0.0,
                     "mode": 0.0,
+                    "shape": 0.0,
                     "xfade": 1.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mud": {
                 "bypassed": true,
@@ -29,73 +40,71 @@
                     "filter": 59.821428571428548,
                     "lfo": 100.0
                 },
-                "preset": "http://remaincalm.org/plugins/mud#preset004",
-                "parameters": {}
+                "parameters": {},
+                "preset": "http://remaincalm.org/plugins/mud#preset004"
             },
             "Gain": {
                 "bypassed": false,
                 "ports": {
                     "Gain": -6.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "paranoia": {
                 "bypassed": true,
                 "ports": {
                     "nuclear": 0.5,
                     "crush": 65.0,
-                    "wet": -3.0,
-                    "filter": 12.5
+                    "filter": 12.5,
+                    "wet": -3.0
                 },
-                "preset": "http://remaincalm.org/plugins/paranoia#preset002",
-                "parameters": {}
-            },
-            "floaty": {
-                "bypassed": true,
-                "ports": {
-                    "delay": 501.94200000000001,
-                    "rate": 1.5,
-                    "feedback": 20.0,
-                    "filter": 50.0,
-                    "mix": 42.0,
-                    "warp": 60.0
-                },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": "http://remaincalm.org/plugins/paranoia#preset002"
             },
             "avocado": {
                 "bypassed": true,
                 "ports": {
                     "bufsiz": 70.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             }
         }
     },
     {
         "name": "Avocado",
         "data": {
-            "stereo": {
+            "floaty": {
+                "bypassed": true,
+                "ports": {
+                    "mix": 42.0,
+                    "feedback": 20.0,
+                    "filter": 50.0,
+                    "rate": 1.5,
+                    "warp": 60.0,
+                    "delay": 501.94200000000001
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
                 "bypassed": false,
                 "ports": {
-                    "enable": 1.0,
-                    "gain": -6.0,
-                    "mute": 0.0
+                    "Gain": -6.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "xfade": {
                 "bypassed": false,
                 "ports": {
-                    "shape": 0.0,
                     "mode": 0.0,
+                    "shape": 0.0,
                     "xfade": 1.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mud": {
                 "bypassed": true,
@@ -104,73 +113,71 @@
                     "filter": 59.821428571428548,
                     "lfo": 100.0
                 },
-                "preset": "http://remaincalm.org/plugins/mud#preset004",
-                "parameters": {}
+                "parameters": {},
+                "preset": "http://remaincalm.org/plugins/mud#preset004"
             },
             "Gain": {
                 "bypassed": false,
                 "ports": {
                     "Gain": -6.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "paranoia": {
                 "bypassed": true,
                 "ports": {
                     "nuclear": 0.5,
                     "crush": 65.0,
-                    "wet": -3.0,
-                    "filter": 12.5
+                    "filter": 12.5,
+                    "wet": -3.0
                 },
-                "preset": "http://remaincalm.org/plugins/paranoia#preset002",
-                "parameters": {}
-            },
-            "floaty": {
-                "bypassed": true,
-                "ports": {
-                    "delay": 501.94200000000001,
-                    "rate": 1.5,
-                    "feedback": 20.0,
-                    "filter": 50.0,
-                    "mix": 42.0,
-                    "warp": 60.0
-                },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": "http://remaincalm.org/plugins/paranoia#preset002"
             },
             "avocado": {
                 "bypassed": false,
                 "ports": {
                     "bufsiz": 70.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             }
         }
     },
     {
         "name": "Mud-Vocado",
         "data": {
-            "stereo": {
+            "floaty": {
+                "bypassed": true,
+                "ports": {
+                    "mix": 42.0,
+                    "feedback": 20.0,
+                    "filter": 50.0,
+                    "rate": 1.5,
+                    "warp": 60.0,
+                    "delay": 501.94200000000001
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
                 "bypassed": false,
                 "ports": {
-                    "enable": 1.0,
-                    "gain": -6.0,
-                    "mute": 0.0
+                    "Gain": -6.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "xfade": {
                 "bypassed": false,
                 "ports": {
-                    "shape": 0.0,
                     "mode": 0.0,
+                    "shape": 0.0,
                     "xfade": 1.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mud": {
                 "bypassed": false,
@@ -179,73 +186,71 @@
                     "filter": 59.821428571428548,
                     "lfo": 100.0
                 },
-                "preset": "http://remaincalm.org/plugins/mud#preset004",
-                "parameters": {}
+                "parameters": {},
+                "preset": "http://remaincalm.org/plugins/mud#preset004"
             },
             "Gain": {
                 "bypassed": false,
                 "ports": {
                     "Gain": -6.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "paranoia": {
                 "bypassed": true,
                 "ports": {
                     "nuclear": 0.5,
                     "crush": 65.0,
-                    "wet": -3.0,
-                    "filter": 12.5
+                    "filter": 12.5,
+                    "wet": -3.0
                 },
-                "preset": "http://remaincalm.org/plugins/paranoia#preset002",
-                "parameters": {}
-            },
-            "floaty": {
-                "bypassed": true,
-                "ports": {
-                    "delay": 501.94200000000001,
-                    "rate": 1.5,
-                    "feedback": 20.0,
-                    "filter": 50.0,
-                    "mix": 42.0,
-                    "warp": 60.0
-                },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": "http://remaincalm.org/plugins/paranoia#preset002"
             },
             "avocado": {
                 "bypassed": false,
                 "ports": {
                     "bufsiz": 70.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             }
         }
     },
     {
         "name": "Floaty",
         "data": {
-            "stereo": {
+            "floaty": {
                 "bypassed": false,
                 "ports": {
-                    "enable": 1.0,
-                    "gain": -6.0,
-                    "mute": 0.0
+                    "mix": 42.0,
+                    "feedback": 20.0,
+                    "filter": 50.0,
+                    "rate": 1.5,
+                    "warp": 60.0,
+                    "delay": 501.94200000000001
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "parameters": {},
+                "preset": ""
             },
             "xfade": {
                 "bypassed": false,
                 "ports": {
-                    "shape": 0.0,
                     "mode": 0.0,
+                    "shape": 0.0,
                     "xfade": 1.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mud": {
                 "bypassed": true,
@@ -254,73 +259,71 @@
                     "filter": 59.821428571428548,
                     "lfo": 100.0
                 },
-                "preset": "http://remaincalm.org/plugins/mud#preset004",
-                "parameters": {}
+                "parameters": {},
+                "preset": "http://remaincalm.org/plugins/mud#preset004"
             },
             "Gain": {
                 "bypassed": false,
                 "ports": {
                     "Gain": -6.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "paranoia": {
                 "bypassed": true,
                 "ports": {
                     "nuclear": 0.5,
                     "crush": 65.0,
-                    "wet": -3.0,
-                    "filter": 12.5
+                    "filter": 12.5,
+                    "wet": -3.0
                 },
-                "preset": "http://remaincalm.org/plugins/paranoia#preset002",
-                "parameters": {}
-            },
-            "floaty": {
-                "bypassed": false,
-                "ports": {
-                    "delay": 501.94200000000001,
-                    "rate": 1.5,
-                    "feedback": 20.0,
-                    "filter": 50.0,
-                    "mix": 42.0,
-                    "warp": 60.0
-                },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": "http://remaincalm.org/plugins/paranoia#preset002"
             },
             "avocado": {
                 "bypassed": true,
                 "ports": {
                     "bufsiz": 70.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             }
         }
     },
     {
         "name": "Slow-Fi",
         "data": {
-            "stereo": {
+            "floaty": {
                 "bypassed": false,
                 "ports": {
-                    "enable": 1.0,
-                    "gain": -6.0,
-                    "mute": 0.0
+                    "mix": 42.0,
+                    "feedback": 20.0,
+                    "filter": 50.0,
+                    "rate": 1.5,
+                    "warp": 60.0,
+                    "delay": 501.94200000000001
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "parameters": {},
+                "preset": ""
             },
             "xfade": {
                 "bypassed": false,
                 "ports": {
-                    "shape": 0.0,
                     "mode": 0.0,
+                    "shape": 0.0,
                     "xfade": 1.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mud": {
                 "bypassed": false,
@@ -329,73 +332,71 @@
                     "filter": 59.821428571428548,
                     "lfo": 100.0
                 },
-                "preset": "http://remaincalm.org/plugins/mud#preset004",
-                "parameters": {}
+                "parameters": {},
+                "preset": "http://remaincalm.org/plugins/mud#preset004"
             },
             "Gain": {
                 "bypassed": false,
                 "ports": {
                     "Gain": -6.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "paranoia": {
                 "bypassed": true,
                 "ports": {
                     "nuclear": 0.5,
                     "crush": 65.0,
-                    "wet": -3.0,
-                    "filter": 12.5
+                    "filter": 12.5,
+                    "wet": -3.0
                 },
-                "preset": "http://remaincalm.org/plugins/paranoia#preset002",
-                "parameters": {}
-            },
-            "floaty": {
-                "bypassed": false,
-                "ports": {
-                    "delay": 501.94200000000001,
-                    "rate": 1.5,
-                    "feedback": 20.0,
-                    "filter": 50.0,
-                    "mix": 42.0,
-                    "warp": 60.0
-                },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": "http://remaincalm.org/plugins/paranoia#preset002"
             },
             "avocado": {
                 "bypassed": false,
                 "ports": {
                     "bufsiz": 70.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             }
         }
     },
     {
         "name": "EVERYTHING",
         "data": {
-            "stereo": {
+            "floaty": {
                 "bypassed": false,
                 "ports": {
-                    "enable": 1.0,
-                    "gain": -6.0,
-                    "mute": 0.0
+                    "mix": 42.0,
+                    "feedback": 20.0,
+                    "filter": 50.0,
+                    "rate": 1.5,
+                    "warp": 60.0,
+                    "delay": 501.94200000000001
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": -6.0
+                },
+                "parameters": {},
+                "preset": ""
             },
             "xfade": {
                 "bypassed": false,
                 "ports": {
-                    "shape": 0.0,
                     "mode": 0.0,
+                    "shape": 0.0,
                     "xfade": 1.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "mud": {
                 "bypassed": false,
@@ -404,48 +405,35 @@
                     "filter": 59.821428571428548,
                     "lfo": 100.0
                 },
-                "preset": "http://remaincalm.org/plugins/mud#preset004",
-                "parameters": {}
+                "parameters": {},
+                "preset": "http://remaincalm.org/plugins/mud#preset004"
             },
             "Gain": {
                 "bypassed": false,
                 "ports": {
                     "Gain": -6.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             },
             "paranoia": {
                 "bypassed": false,
                 "ports": {
                     "nuclear": 0.5,
                     "crush": 65.0,
-                    "wet": -3.0,
-                    "filter": 12.5
+                    "filter": 12.5,
+                    "wet": -3.0
                 },
-                "preset": "http://remaincalm.org/plugins/paranoia#preset002",
-                "parameters": {}
-            },
-            "floaty": {
-                "bypassed": false,
-                "ports": {
-                    "delay": 501.94200000000001,
-                    "rate": 1.5,
-                    "feedback": 20.0,
-                    "filter": 50.0,
-                    "mix": 42.0,
-                    "warp": 60.0
-                },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": "http://remaincalm.org/plugins/paranoia#preset002"
             },
             "avocado": {
                 "bypassed": false,
                 "ports": {
                     "bufsiz": 70.0
                 },
-                "preset": "",
-                "parameters": {}
+                "parameters": {},
+                "preset": ""
             }
         }
     }

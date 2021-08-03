@@ -1,254 +1,214 @@
 [
     {
+        "name": "Driven Ph-Verb",
         "data": {
-            "_bajatubedriver_": {
-                "parameters": {},
+            "PhaserII": {
                 "ports": {
-                    "DRIVE": 0.34000000357627869,
-                    "BYPASS": 1.0,
-                    "VOLUME": 0.34000000357627869,
-                    "TONE": 0.5
+                    "spread": 0.375,
+                    "depth": 1.0,
+                    "lfo": 0.0,
+                    "rate": 0.171875,
+                    "resonance": 0.75
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "BigMuffPi": {
-                "parameters": {},
                 "ports": {
+                    "Tone": 0.375,
                     "Sustain": 0.109375,
-                    "Level": 0.1875,
-                    "Tone": 0.375
+                    "Level": 0.1875
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": true
             },
-            "stereo": {
-                "parameters": {},
-                "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
             "shiroverb": {
-                "parameters": {},
                 "ports": {
-                    "roomsize": 10.0,
-                    "damping": 29.6875,
-                    "ratio": 1.0,
-                    "shimmer": 25.0,
-                    "decay": 20.600000000000001,
                     "mix": 32.5,
+                    "bandwidth": 68.75,
+                    "shimmer": 25.0,
+                    "damping": 29.6875,
                     "tone": 6000.0,
-                    "bandwidth": 68.75
+                    "roomsize": 10.0,
+                    "decay": 20.600000000000001,
+                    "ratio": 1.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
-            "PhaserII": {
-                "parameters": {},
-                "ports": {
-                    "rate": 0.171875,
-                    "resonance": 0.75,
-                    "lfo": 0.0,
-                    "spread": 0.375,
-                    "depth": 1.0
-                },
-                "preset": "",
-                "bypassed": false
-            }
-        },
-        "name": "Driven Ph-Verb"
-    },
-    {
-        "data": {
             "_bajatubedriver_": {
-                "parameters": {},
                 "ports": {
-                    "DRIVE": 0.34000000357627869,
                     "BYPASS": 1.0,
                     "VOLUME": 0.34000000357627869,
+                    "DRIVE": 0.34000000357627869,
                     "TONE": 0.5
                 },
                 "preset": "",
+                "parameters": {},
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Disgusting Phaser",
+        "data": {
+            "PhaserII": {
+                "ports": {
+                    "spread": 0.375,
+                    "depth": 1.0,
+                    "lfo": 0.0,
+                    "rate": 0.171875,
+                    "resonance": 0.75
+                },
+                "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "BigMuffPi": {
-                "parameters": {},
                 "ports": {
+                    "Tone": 0.375,
                     "Sustain": 0.109375,
-                    "Level": 0.1875,
-                    "Tone": 0.375
+                    "Level": 0.1875
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "stereo": {
                 "parameters": {},
-                "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
-                },
-                "preset": "",
                 "bypassed": false
             },
             "shiroverb": {
-                "parameters": {},
                 "ports": {
-                    "roomsize": 10.0,
-                    "damping": 29.6875,
-                    "ratio": 1.0,
-                    "shimmer": 25.0,
-                    "decay": 20.600000000000001,
                     "mix": 32.5,
+                    "bandwidth": 68.75,
+                    "shimmer": 25.0,
+                    "damping": 29.6875,
                     "tone": 6000.0,
-                    "bandwidth": 68.75
+                    "roomsize": 10.0,
+                    "decay": 20.600000000000001,
+                    "ratio": 1.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": true
             },
-            "PhaserII": {
-                "parameters": {},
-                "ports": {
-                    "rate": 0.171875,
-                    "resonance": 0.75,
-                    "lfo": 0.0,
-                    "spread": 0.375,
-                    "depth": 1.0
-                },
-                "preset": "",
-                "bypassed": false
-            }
-        },
-        "name": "Disgusting Phaser"
-    },
-    {
-        "data": {
             "_bajatubedriver_": {
-                "parameters": {},
                 "ports": {
-                    "DRIVE": 0.34000000357627869,
                     "BYPASS": 1.0,
                     "VOLUME": 0.34000000357627869,
+                    "DRIVE": 0.34000000357627869,
                     "TONE": 0.5
                 },
                 "preset": "",
+                "parameters": {},
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "All Out",
+        "data": {
+            "PhaserII": {
+                "ports": {
+                    "spread": 0.375,
+                    "depth": 1.0,
+                    "lfo": 0.0,
+                    "rate": 0.171875,
+                    "resonance": 0.75
+                },
+                "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "BigMuffPi": {
-                "parameters": {},
                 "ports": {
+                    "Tone": 0.375,
                     "Sustain": 0.109375,
-                    "Level": 0.1875,
-                    "Tone": 0.375
+                    "Level": 0.1875
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "stereo": {
                 "parameters": {},
-                "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
-                },
-                "preset": "",
                 "bypassed": false
             },
             "shiroverb": {
-                "parameters": {},
                 "ports": {
-                    "roomsize": 10.0,
-                    "damping": 29.6875,
-                    "ratio": 1.0,
-                    "shimmer": 25.0,
-                    "decay": 20.600000000000001,
                     "mix": 32.5,
+                    "bandwidth": 68.75,
+                    "shimmer": 25.0,
+                    "damping": 29.6875,
                     "tone": 6000.0,
-                    "bandwidth": 68.75
+                    "roomsize": 10.0,
+                    "decay": 20.600000000000001,
+                    "ratio": 1.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
-            "PhaserII": {
-                "parameters": {},
+            "_bajatubedriver_": {
                 "ports": {
-                    "rate": 0.171875,
-                    "resonance": 0.75,
-                    "lfo": 0.0,
-                    "spread": 0.375,
-                    "depth": 1.0
+                    "BYPASS": 1.0,
+                    "VOLUME": 0.34000000357627869,
+                    "DRIVE": 0.34000000357627869,
+                    "TONE": 0.5
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             }
-        },
-        "name": "All Out"
+        }
     },
     {
+        "name": "Phase-Verb",
         "data": {
-            "_bajatubedriver_": {
-                "parameters": {},
+            "PhaserII": {
                 "ports": {
-                    "DRIVE": 0.34000000357627869,
+                    "spread": 0.375,
+                    "depth": 1.0,
+                    "lfo": 0.0,
+                    "rate": 0.171875,
+                    "resonance": 0.75
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "BigMuffPi": {
+                "ports": {
+                    "Tone": 0.375,
+                    "Sustain": 0.109375,
+                    "Level": 0.1875
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "shiroverb": {
+                "ports": {
+                    "mix": 32.5,
+                    "bandwidth": 68.75,
+                    "shimmer": 25.0,
+                    "damping": 29.6875,
+                    "tone": 6000.0,
+                    "roomsize": 10.0,
+                    "decay": 20.600000000000001,
+                    "ratio": 1.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "_bajatubedriver_": {
+                "ports": {
                     "BYPASS": 0.0,
                     "VOLUME": 0.34000000357627869,
+                    "DRIVE": 0.34000000357627869,
                     "TONE": 0.5
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": true
-            },
-            "BigMuffPi": {
-                "parameters": {},
-                "ports": {
-                    "Sustain": 0.109375,
-                    "Level": 0.1875,
-                    "Tone": 0.375
-                },
-                "preset": "",
-                "bypassed": true
-            },
-            "stereo": {
-                "parameters": {},
-                "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "shiroverb": {
-                "parameters": {},
-                "ports": {
-                    "roomsize": 10.0,
-                    "damping": 29.6875,
-                    "ratio": 1.0,
-                    "shimmer": 25.0,
-                    "decay": 20.600000000000001,
-                    "mix": 32.5,
-                    "tone": 6000.0,
-                    "bandwidth": 68.75
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "PhaserII": {
-                "parameters": {},
-                "ports": {
-                    "rate": 0.171875,
-                    "resonance": 0.75,
-                    "lfo": 0.0,
-                    "spread": 0.375,
-                    "depth": 1.0
-                },
-                "preset": "",
-                "bypassed": false
             }
-        },
-        "name": "Phase-Verb"
+        }
     }
 ]

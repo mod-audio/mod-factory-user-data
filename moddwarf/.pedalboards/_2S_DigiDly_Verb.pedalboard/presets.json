@@ -2,141 +2,127 @@
     {
         "name": "2M In ST Out",
         "data": {
+            "xfade_5": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "xfade_4": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
             "bolliedelay": {
                 "preset": "",
-                "parameters": {},
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "tempo_host": 120.0,
                     "div_l": 0.0,
-                    "tempo_user": 120.0,
-                    "low_f": 20.0,
-                    "low_q": 1.0,
-                    "low_on": 1.0,
-                    "high_q": 1.0,
-                    "high_on": 1.0,
-                    "feedback": 85.0,
-                    "crossf": 25.0,
-                    "tempo_mode": 0.0,
                     "mix": 100.0,
+                    "low_on": 1.0,
+                    "low_f": 20.0,
+                    "tempo_mode": 0.0,
                     "high_f": 22000.0,
+                    "tempo_user": 120.0,
+                    "tempo_host": 120.0,
+                    "div_r": 2.0,
+                    "feedback": 85.0,
+                    "low_q": 1.0,
                     "tap": 0.0,
-                    "div_r": 2.0
+                    "crossf": 25.0,
+                    "high_on": 1.0,
+                    "high_q": 1.0
                 }
             },
-            "mono_1": {
-                "preset": "",
-                "parameters": {},
+            "reverb": {
+                "preset": "file:///root/.lv2/fomp.lv2/default-preset_4",
                 "bypassed": false,
-                "ports": {
-                    "gain": 0.0,
-                    "enable": 1.0,
-                    "mute": 0.0
-                }
-            },
-            "Gain2x2": {
-                "preset": "",
                 "parameters": {},
-                "bypassed": false,
                 "ports": {
-                    "Gain": -3.0
-                }
-            },
-            "stereo_1": {
-                "preset": "",
-                "parameters": {},
-                "bypassed": false,
-                "ports": {
-                    "gain": 0.0,
-                    "enable": 1.0,
-                    "mute": 0.0
-                }
-            },
-            "stereo_2": {
-                "preset": "",
-                "parameters": {},
-                "bypassed": false,
-                "ports": {
-                    "gain": 0.0,
-                    "enable": 1.0,
-                    "mute": 0.0
-                }
-            },
-            "mono": {
-                "preset": "",
-                "parameters": {},
-                "bypassed": false,
-                "ports": {
-                    "gain": 0.0,
-                    "enable": 1.0,
-                    "mute": 0.0
-                }
-            },
-            "stereo": {
-                "preset": "",
-                "parameters": {},
-                "bypassed": false,
-                "ports": {
-                    "gain": 0.0,
-                    "enable": 1.0,
-                    "mute": 0.0
+                    "rt_low": 3.4500000476837158,
+                    "f2_freq": 1882.479248046875,
+                    "f2_gain": 0.0,
+                    "f1_gain": 0.0,
+                    "xover": 480.00698852539062,
+                    "rt_mid": 2.0499999523162842,
+                    "delay": 0.029999999329447746,
+                    "f1_freq": 2016.4959716796875,
+                    "damping": 6000.0,
+                    "out_mix": 1.0
                 }
             },
             "xfade_3": {
                 "preset": "",
-                "parameters": {},
                 "bypassed": true,
+                "parameters": {},
                 "ports": {
-                    "shape": 0.0,
                     "xfade": 1.0,
+                    "shape": 0.0,
                     "mode": 0.0
                 }
             },
             "xfade_2": {
                 "preset": "",
-                "parameters": {},
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "shape": 0.0,
                     "xfade": 0.0,
+                    "shape": 0.0,
                     "mode": 0.0
                 }
             },
             "xfade": {
                 "preset": "",
-                "parameters": {},
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "shape": 0.0,
                     "xfade": 0.0,
+                    "shape": 0.0,
                     "mode": 0.0
                 }
+            },
+            "Gain2x2": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "Gain": -3.0
+                }
+            },
+            "Gain2x2_2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
             },
             "xfade_1": {
                 "preset": "",
-                "parameters": {},
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "shape": 0.0,
                     "xfade": 1.0,
+                    "shape": 0.0,
                     "mode": 0.0
-                }
-            },
-            "reverb": {
-                "preset": "file:///root/.lv2/fomp.lv2/default-preset_4",
-                "parameters": {},
-                "bypassed": false,
-                "ports": {
-                    "delay": 0.029999999329447746,
-                    "rt_mid": 2.0499999523162842,
-                    "xover": 480.00698852539062,
-                    "f2_gain": 0.0,
-                    "rt_low": 3.4500000476837158,
-                    "f2_freq": 1882.479248046875,
-                    "f1_gain": 0.0,
-                    "damping": 6000.0,
-                    "f1_freq": 2016.4959716796875,
-                    "out_mix": 1.0
                 }
             }
         }
@@ -144,141 +130,127 @@
     {
         "name": "2M In 2M Out",
         "data": {
+            "xfade_5": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "xfade_4": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
             "bolliedelay": {
                 "preset": "",
-                "parameters": {},
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "tempo_host": 120.0,
                     "div_l": 0.0,
-                    "tempo_user": 120.0,
-                    "low_f": 20.0,
-                    "low_q": 1.0,
-                    "low_on": 1.0,
-                    "high_q": 1.0,
-                    "high_on": 1.0,
-                    "feedback": 85.0,
-                    "crossf": 25.0,
-                    "tempo_mode": 0.0,
                     "mix": 100.0,
+                    "low_on": 1.0,
+                    "low_f": 20.0,
+                    "tempo_mode": 0.0,
                     "high_f": 22000.0,
+                    "tempo_user": 120.0,
+                    "tempo_host": 120.0,
+                    "div_r": 2.0,
+                    "feedback": 85.0,
+                    "low_q": 1.0,
                     "tap": 0.0,
-                    "div_r": 2.0
+                    "crossf": 25.0,
+                    "high_on": 1.0,
+                    "high_q": 1.0
                 }
             },
-            "mono_1": {
-                "preset": "",
-                "parameters": {},
+            "reverb": {
+                "preset": "file:///root/.lv2/fomp.lv2/default-preset_4",
                 "bypassed": false,
-                "ports": {
-                    "gain": 0.0,
-                    "enable": 1.0,
-                    "mute": 0.0
-                }
-            },
-            "Gain2x2": {
-                "preset": "",
                 "parameters": {},
-                "bypassed": false,
                 "ports": {
-                    "Gain": -3.0
-                }
-            },
-            "stereo_1": {
-                "preset": "",
-                "parameters": {},
-                "bypassed": false,
-                "ports": {
-                    "gain": 0.0,
-                    "enable": 1.0,
-                    "mute": 0.0
-                }
-            },
-            "stereo_2": {
-                "preset": "",
-                "parameters": {},
-                "bypassed": false,
-                "ports": {
-                    "gain": 0.0,
-                    "enable": 1.0,
-                    "mute": 0.0
-                }
-            },
-            "mono": {
-                "preset": "",
-                "parameters": {},
-                "bypassed": false,
-                "ports": {
-                    "gain": 0.0,
-                    "enable": 1.0,
-                    "mute": 0.0
-                }
-            },
-            "stereo": {
-                "preset": "",
-                "parameters": {},
-                "bypassed": false,
-                "ports": {
-                    "gain": 0.0,
-                    "enable": 1.0,
-                    "mute": 0.0
+                    "rt_low": 3.4500000476837158,
+                    "f2_freq": 1882.479248046875,
+                    "f2_gain": 0.0,
+                    "f1_gain": 0.0,
+                    "xover": 480.00698852539062,
+                    "rt_mid": 2.0499999523162842,
+                    "delay": 0.029999999329447746,
+                    "f1_freq": 2016.4959716796875,
+                    "damping": 6000.0,
+                    "out_mix": 1.0
                 }
             },
             "xfade_3": {
                 "preset": "",
-                "parameters": {},
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "shape": 0.0,
                     "xfade": 1.0,
+                    "shape": 0.0,
                     "mode": 0.0
                 }
             },
             "xfade_2": {
                 "preset": "",
-                "parameters": {},
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "shape": 0.0,
                     "xfade": -1.0,
+                    "shape": 0.0,
                     "mode": 0.0
                 }
             },
             "xfade": {
                 "preset": "",
-                "parameters": {},
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "shape": 0.0,
                     "xfade": 1.0,
+                    "shape": 0.0,
                     "mode": 0.0
                 }
+            },
+            "Gain2x2": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "Gain": -3.0
+                }
+            },
+            "Gain2x2_2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
             },
             "xfade_1": {
                 "preset": "",
-                "parameters": {},
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "shape": 0.0,
                     "xfade": 1.0,
+                    "shape": 0.0,
                     "mode": 0.0
-                }
-            },
-            "reverb": {
-                "preset": "file:///root/.lv2/fomp.lv2/default-preset_4",
-                "parameters": {},
-                "bypassed": false,
-                "ports": {
-                    "delay": 0.029999999329447746,
-                    "rt_mid": 2.0499999523162842,
-                    "xover": 480.00698852539062,
-                    "f2_gain": 0.0,
-                    "rt_low": 3.4500000476837158,
-                    "f2_freq": 1882.479248046875,
-                    "f1_gain": 0.0,
-                    "damping": 6000.0,
-                    "f1_freq": 2016.4959716796875,
-                    "out_mix": 1.0
                 }
             }
         }

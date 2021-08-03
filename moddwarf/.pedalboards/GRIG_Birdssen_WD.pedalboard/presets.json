@@ -1,1523 +1,1433 @@
 [
     {
+        "name": "Clean",
         "data": {
-            "cabsim_vintage": {
-                "parameters": {},
+            "faIR_cabsim": {
                 "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
+                    "Attenuation": 0.0,
+                    "Model": 0.0
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "studiopre": {
                 "parameters": {},
-                "ports": {
-                    "treble": 0.55580401420593262,
-                    "middle": 0.609375,
-                    "bright": 0.0,
-                    "volume": 2.8125,
-                    "bass": 0.37999999523162842
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "stereo_1": {
-                "parameters": {},
-                "ports": {
-                    "attack": 9.999999747378755e-06,
-                    "release": 0.02785544946822793,
-                    "noClip": 0.0,
-                    "rms": 0.5,
-                    "threshold": -12.0,
-                    "ratio": 5.0,
-                    "bypass": 0.0,
-                    "gain": -5.0
-                },
-                "preset": "",
                 "bypassed": false
             },
             "harmless": {
-                "parameters": {},
                 "ports": {
-                    "phase": 0.0,
-                    "rate": 4.0,
-                    "tone": 6000.0,
+                    "depth": 100.0,
                     "shape": 0.17734399437904358,
-                    "depth": 100.0
+                    "tone": 6000.0,
+                    "phase": 0.0,
+                    "rate": 4.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": true
             },
-            "stereo": {
-                "parameters": {},
+            "cabsim_vintage_1": {
                 "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
+                    "Attenuation": 0.0,
+                    "Model": 7.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
-            "faIR_cabsim": {
-                "parameters": {},
+            "_CreamMachine_": {
                 "ports": {
-                    "Model": 0.0,
-                    "Attenuation": 0.0
+                    "BYPASS": 1.0,
+                    "BASS": 0.57499998807907104,
+                    "VOLUME": 0.34782600402832031,
+                    "LEVEL": 0.20499999821186066,
+                    "TREBLE": 0.39130434782608697
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "PlateX2": {
                 "parameters": {},
-                "ports": {
-                    "tail": 0.34999999999999998,
-                    "blend": 0.22,
-                    "bandwidth": 0.84375,
-                    "damping": 0.078125
-                },
-                "preset": "",
                 "bypassed": false
             },
             "_bajatubedriver_": {
-                "parameters": {},
                 "ports": {
-                    "DRIVE": 0.245,
                     "BYPASS": 0.0,
                     "VOLUME": 0.40000000000000002,
+                    "DRIVE": 0.245,
                     "TONE": 0.64999997615814209
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": true
-            },
-            "modulay": {
-                "parameters": {},
-                "ports": {
-                    "time": 500.0,
-                    "morph": 50.0,
-                    "rate": 2.0,
-                    "depth": 1.0,
-                    "mix": 75.0,
-                    "tone": 3000.0,
-                    "repeats": 41.25
-                },
-                "preset": "",
-                "bypassed": true
-            },
-            "cabsim_vintage_1": {
-                "parameters": {},
-                "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "_CreamMachine_": {
-                "parameters": {},
-                "ports": {
-                    "TREBLE": 0.39130434782608697,
-                    "LEVEL": 0.20499999821186066,
-                    "BYPASS": 1.0,
-                    "VOLUME": 0.34782600402832031,
-                    "BASS": 0.57499998807907104
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "chorusflanger": {
-                "parameters": {},
-                "ports": {
-                    "WetLevel": 0.0,
-                    "Frequency": 1.71875,
-                    "DryLevel": -2.0,
-                    "LRPhaseShift": 90.0,
-                    "Delay": 25.0,
-                    "Contour": 125.28670501708984,
-                    "Depth": 76.5625
-                },
-                "preset": "",
-                "bypassed": true
-            },
-            "BigMuffPi": {
-                "parameters": {},
-                "ports": {
-                    "Sustain": 0.10999999940395355,
-                    "Level": 0.45000000000000001,
-                    "Tone": 0.5
-                },
-                "preset": "",
-                "bypassed": true
-            },
-            "Phaser": {
-                "parameters": {},
-                "ports": {
-                    "dry": 0.0,
-                    "amount": 1.3125,
-                    "stages": 6.0,
-                    "stereo": 180.0,
-                    "mod_depth": 4000.0,
-                    "mod_rate": 0.25,
-                    "reset": 0.0,
-                    "base_freq": 1000.0,
-                    "feedback": 0.24750000238418579
-                },
-                "preset": "",
-                "bypassed": true
-            }
-        },
-        "name": "Clean"
-    },
-    {
-        "data": {
-            "cabsim_vintage": {
-                "parameters": {},
-                "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
-                },
-                "preset": "",
-                "bypassed": false
             },
             "studiopre": {
-                "parameters": {},
                 "ports": {
-                    "treble": 0.55580401420593262,
-                    "middle": 0.609375,
                     "bright": 0.0,
+                    "bass": 0.37999999523162842,
                     "volume": 2.8125,
-                    "bass": 0.37999999523162842
+                    "middle": 0.609375,
+                    "treble": 0.55580401420593262
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "stereo_1": {
                 "parameters": {},
-                "ports": {
-                    "attack": 9.999999747378755e-06,
-                    "release": 0.02785544946822793,
-                    "noClip": 0.0,
-                    "rms": 0.5,
-                    "threshold": -12.0,
-                    "ratio": 5.0,
-                    "bypass": 0.0,
-                    "gain": -5.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "harmless": {
-                "parameters": {},
-                "ports": {
-                    "phase": 0.0,
-                    "rate": 4.0,
-                    "tone": 6000.0,
-                    "shape": 0.17734399437904358,
-                    "depth": 100.0
-                },
-                "preset": "",
-                "bypassed": true
-            },
-            "stereo": {
-                "parameters": {},
-                "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "faIR_cabsim": {
-                "parameters": {},
-                "ports": {
-                    "Model": 0.0,
-                    "Attenuation": 0.0
-                },
-                "preset": "",
                 "bypassed": false
             },
             "PlateX2": {
-                "parameters": {},
                 "ports": {
-                    "tail": 0.34999999999999998,
-                    "blend": 0.22,
                     "bandwidth": 0.84375,
+                    "blend": 0.22,
+                    "tail": 0.34999999999999998,
                     "damping": 0.078125
                 },
                 "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "BigMuffPi": {
+                "ports": {
+                    "Tone": 0.5,
+                    "Sustain": 0.10999999940395355,
+                    "Level": 0.45000000000000001
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "chorusflanger": {
+                "ports": {
+                    "WetLevel": 0.0,
+                    "LRPhaseShift": 90.0,
+                    "Contour": 125.28670501708984,
+                    "Delay": 25.0,
+                    "Depth": 76.5625,
+                    "DryLevel": -2.0,
+                    "Frequency": 1.71875
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "stereo_1": {
+                "ports": {
+                    "gain": -5.0,
+                    "noClip": 0.0,
+                    "bypass": 0.0,
+                    "rms": 0.5,
+                    "ratio": 5.0,
+                    "threshold": -12.0,
+                    "attack": 9.999999747378755e-06,
+                    "release": 0.02785544946822793
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "cabsim_vintage": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 7.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "Phaser": {
+                "ports": {
+                    "mod_depth": 4000.0,
+                    "mod_rate": 0.25,
+                    "base_freq": 1000.0,
+                    "dry": 0.0,
+                    "stereo": 180.0,
+                    "stages": 6.0,
+                    "amount": 1.3125,
+                    "reset": 0.0,
+                    "feedback": 0.24750000238418579
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "modulay": {
+                "ports": {
+                    "mix": 75.0,
+                    "tone": 3000.0,
+                    "rate": 2.0,
+                    "time": 500.0,
+                    "morph": 50.0,
+                    "depth": 1.0,
+                    "repeats": 41.25
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            }
+        }
+    },
+    {
+        "name": "Modulated Clean",
+        "data": {
+            "faIR_cabsim": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 0.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "harmless": {
+                "ports": {
+                    "depth": 100.0,
+                    "shape": 0.17734399437904358,
+                    "tone": 6000.0,
+                    "phase": 0.0,
+                    "rate": 4.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "cabsim_vintage_1": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 7.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "_CreamMachine_": {
+                "ports": {
+                    "BYPASS": 1.0,
+                    "BASS": 0.57499998807907104,
+                    "VOLUME": 0.34782600402832031,
+                    "LEVEL": 0.20499999821186066,
+                    "TREBLE": 0.39130434782608697
+                },
+                "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "_bajatubedriver_": {
-                "parameters": {},
                 "ports": {
-                    "DRIVE": 0.245,
                     "BYPASS": 0.0,
                     "VOLUME": 0.40000000000000002,
+                    "DRIVE": 0.245,
                     "TONE": 0.64999997615814209
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": true
-            },
-            "modulay": {
-                "parameters": {},
-                "ports": {
-                    "time": 500.0,
-                    "morph": 50.0,
-                    "rate": 2.0,
-                    "depth": 1.0,
-                    "mix": 75.0,
-                    "tone": 3000.0,
-                    "repeats": 41.25
-                },
-                "preset": "",
-                "bypassed": true
-            },
-            "cabsim_vintage_1": {
-                "parameters": {},
-                "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "_CreamMachine_": {
-                "parameters": {},
-                "ports": {
-                    "TREBLE": 0.39130434782608697,
-                    "LEVEL": 0.20499999821186066,
-                    "BYPASS": 1.0,
-                    "VOLUME": 0.34782600402832031,
-                    "BASS": 0.57499998807907104
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "chorusflanger": {
-                "parameters": {},
-                "ports": {
-                    "WetLevel": 0.0,
-                    "Frequency": 1.71875,
-                    "DryLevel": -2.0,
-                    "LRPhaseShift": 90.0,
-                    "Delay": 25.0,
-                    "Contour": 125.28670501708984,
-                    "Depth": 76.5625
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "BigMuffPi": {
-                "parameters": {},
-                "ports": {
-                    "Sustain": 0.10999999940395355,
-                    "Level": 0.45000000000000001,
-                    "Tone": 0.5
-                },
-                "preset": "",
-                "bypassed": true
-            },
-            "Phaser": {
-                "parameters": {},
-                "ports": {
-                    "dry": 0.0,
-                    "amount": 1.3125,
-                    "stages": 6.0,
-                    "stereo": 180.0,
-                    "mod_depth": 4000.0,
-                    "mod_rate": 0.25,
-                    "reset": 0.0,
-                    "base_freq": 1000.0,
-                    "feedback": 0.24750000238418579
-                },
-                "preset": "",
-                "bypassed": false
-            }
-        },
-        "name": "Modulated Clean"
-    },
-    {
-        "data": {
-            "cabsim_vintage": {
-                "parameters": {},
-                "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
-                },
-                "preset": "",
-                "bypassed": false
             },
             "studiopre": {
-                "parameters": {},
                 "ports": {
-                    "treble": 0.55580401420593262,
-                    "middle": 0.609375,
                     "bright": 0.0,
+                    "bass": 0.37999999523162842,
                     "volume": 2.8125,
-                    "bass": 0.37999999523162842
+                    "middle": 0.609375,
+                    "treble": 0.55580401420593262
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "stereo_1": {
                 "parameters": {},
-                "ports": {
-                    "attack": 9.999999747378755e-06,
-                    "release": 0.02785544946822793,
-                    "noClip": 0.0,
-                    "rms": 0.5,
-                    "threshold": -12.0,
-                    "ratio": 5.0,
-                    "bypass": 0.0,
-                    "gain": -5.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "harmless": {
-                "parameters": {},
-                "ports": {
-                    "phase": 0.0,
-                    "rate": 4.0,
-                    "tone": 6000.0,
-                    "shape": 0.17734399437904358,
-                    "depth": 100.0
-                },
-                "preset": "",
-                "bypassed": true
-            },
-            "stereo": {
-                "parameters": {},
-                "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "faIR_cabsim": {
-                "parameters": {},
-                "ports": {
-                    "Model": 0.0,
-                    "Attenuation": 0.0
-                },
-                "preset": "",
                 "bypassed": false
             },
             "PlateX2": {
-                "parameters": {},
                 "ports": {
-                    "tail": 0.34999999999999998,
-                    "blend": 0.22,
                     "bandwidth": 0.84375,
+                    "blend": 0.22,
+                    "tail": 0.34999999999999998,
                     "damping": 0.078125
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "_bajatubedriver_": {
                 "parameters": {},
-                "ports": {
-                    "DRIVE": 0.245,
-                    "BYPASS": 1.0,
-                    "VOLUME": 0.40000000000000002,
-                    "TONE": 0.64999997615814209
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "modulay": {
-                "parameters": {},
-                "ports": {
-                    "time": 500.0,
-                    "morph": 50.0,
-                    "rate": 2.0,
-                    "depth": 1.0,
-                    "mix": 75.0,
-                    "tone": 3000.0,
-                    "repeats": 41.25
-                },
-                "preset": "",
-                "bypassed": true
-            },
-            "cabsim_vintage_1": {
-                "parameters": {},
-                "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "_CreamMachine_": {
-                "parameters": {},
-                "ports": {
-                    "TREBLE": 0.39130434782608697,
-                    "LEVEL": 0.20499999821186066,
-                    "BYPASS": 1.0,
-                    "VOLUME": 0.34782600402832031,
-                    "BASS": 0.57499998807907104
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "chorusflanger": {
-                "parameters": {},
-                "ports": {
-                    "WetLevel": 0.0,
-                    "Frequency": 1.71875,
-                    "DryLevel": -2.0,
-                    "LRPhaseShift": 90.0,
-                    "Delay": 25.0,
-                    "Contour": 125.28670501708984,
-                    "Depth": 76.5625
-                },
-                "preset": "",
                 "bypassed": false
             },
             "BigMuffPi": {
-                "parameters": {},
                 "ports": {
+                    "Tone": 0.5,
                     "Sustain": 0.10999999940395355,
-                    "Level": 0.45000000000000001,
-                    "Tone": 0.5
+                    "Level": 0.45000000000000001
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": true
             },
-            "Phaser": {
-                "parameters": {},
+            "chorusflanger": {
                 "ports": {
-                    "dry": 0.0,
-                    "amount": 1.3125,
-                    "stages": 6.0,
-                    "stereo": 180.0,
-                    "mod_depth": 4000.0,
-                    "mod_rate": 0.25,
-                    "reset": 0.0,
-                    "base_freq": 1000.0,
-                    "feedback": 0.24750000238418579
+                    "WetLevel": 0.0,
+                    "LRPhaseShift": 90.0,
+                    "Contour": 125.28670501708984,
+                    "Delay": 25.0,
+                    "Depth": 76.5625,
+                    "DryLevel": -2.0,
+                    "Frequency": 1.71875
                 },
                 "preset": "",
-                "bypassed": true
-            }
-        },
-        "name": "Driven Chorus"
-    },
-    {
-        "data": {
-            "cabsim_vintage": {
                 "parameters": {},
-                "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "studiopre": {
-                "parameters": {},
-                "ports": {
-                    "treble": 0.55580401420593262,
-                    "middle": 0.609375,
-                    "bright": 0.0,
-                    "volume": 2.8125,
-                    "bass": 0.37999999523162842
-                },
-                "preset": "",
                 "bypassed": false
             },
             "stereo_1": {
-                "parameters": {},
                 "ports": {
-                    "attack": 9.999999747378755e-06,
-                    "release": 0.02785544946822793,
+                    "gain": -5.0,
                     "noClip": 0.0,
-                    "rms": 0.5,
-                    "threshold": -12.0,
-                    "ratio": 5.0,
                     "bypass": 0.0,
-                    "gain": -5.0
+                    "rms": 0.5,
+                    "ratio": 5.0,
+                    "threshold": -12.0,
+                    "attack": 9.999999747378755e-06,
+                    "release": 0.02785544946822793
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
-            "harmless": {
-                "parameters": {},
+            "cabsim_vintage": {
                 "ports": {
-                    "phase": 0.0,
-                    "rate": 4.0,
-                    "tone": 6000.0,
-                    "shape": 0.17734399437904358,
-                    "depth": 100.0
+                    "Attenuation": 0.0,
+                    "Model": 7.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
-            "stereo": {
-                "parameters": {},
+            "Phaser": {
                 "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
+                    "mod_depth": 4000.0,
+                    "mod_rate": 0.25,
+                    "base_freq": 1000.0,
+                    "dry": 0.0,
+                    "stereo": 180.0,
+                    "stages": 6.0,
+                    "amount": 1.3125,
+                    "reset": 0.0,
+                    "feedback": 0.24750000238418579
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "faIR_cabsim": {
                 "parameters": {},
-                "ports": {
-                    "Model": 0.0,
-                    "Attenuation": 0.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "PlateX2": {
-                "parameters": {},
-                "ports": {
-                    "tail": 0.34999999999999998,
-                    "blend": 0.22,
-                    "bandwidth": 0.84375,
-                    "damping": 0.078125
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "_bajatubedriver_": {
-                "parameters": {},
-                "ports": {
-                    "DRIVE": 0.245,
-                    "BYPASS": 1.0,
-                    "VOLUME": 0.40000000000000002,
-                    "TONE": 0.64999997615814209
-                },
-                "preset": "",
                 "bypassed": false
             },
             "modulay": {
-                "parameters": {},
                 "ports": {
-                    "time": 500.0,
-                    "morph": 50.0,
-                    "rate": 2.0,
-                    "depth": 1.0,
                     "mix": 75.0,
                     "tone": 3000.0,
+                    "rate": 2.0,
+                    "time": 500.0,
+                    "morph": 50.0,
+                    "depth": 1.0,
                     "repeats": 41.25
                 },
                 "preset": "",
-                "bypassed": true
-            },
-            "cabsim_vintage_1": {
                 "parameters": {},
-                "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "_CreamMachine_": {
-                "parameters": {},
-                "ports": {
-                    "TREBLE": 0.39130434782608697,
-                    "LEVEL": 0.20499999821186066,
-                    "BYPASS": 1.0,
-                    "VOLUME": 0.34782600402832031,
-                    "BASS": 0.57499998807907104
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "chorusflanger": {
-                "parameters": {},
-                "ports": {
-                    "WetLevel": 0.0,
-                    "Frequency": 1.71875,
-                    "DryLevel": -2.0,
-                    "LRPhaseShift": 90.0,
-                    "Delay": 25.0,
-                    "Contour": 125.28670501708984,
-                    "Depth": 76.5625
-                },
-                "preset": "",
-                "bypassed": true
-            },
-            "BigMuffPi": {
-                "parameters": {},
-                "ports": {
-                    "Sustain": 0.10999999940395355,
-                    "Level": 0.45000000000000001,
-                    "Tone": 0.5
-                },
-                "preset": "",
-                "bypassed": true
-            },
-            "Phaser": {
-                "parameters": {},
-                "ports": {
-                    "dry": 0.0,
-                    "amount": 1.3125,
-                    "stages": 6.0,
-                    "stereo": 180.0,
-                    "mod_depth": 4000.0,
-                    "mod_rate": 0.25,
-                    "reset": 0.0,
-                    "base_freq": 1000.0,
-                    "feedback": 0.24750000238418579
-                },
-                "preset": "",
                 "bypassed": true
             }
-        },
-        "name": "Tremo-drive"
+        }
     },
     {
+        "name": "Driven Chorus",
         "data": {
-            "cabsim_vintage": {
-                "parameters": {},
+            "faIR_cabsim": {
                 "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
+                    "Attenuation": 0.0,
+                    "Model": 0.0
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "studiopre": {
                 "parameters": {},
-                "ports": {
-                    "treble": 0.55580401420593262,
-                    "middle": 0.609375,
-                    "bright": 0.0,
-                    "volume": 2.8125,
-                    "bass": 0.37999999523162842
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "stereo_1": {
-                "parameters": {},
-                "ports": {
-                    "attack": 9.999999747378755e-06,
-                    "release": 0.02785544946822793,
-                    "noClip": 0.0,
-                    "rms": 0.5,
-                    "threshold": -12.0,
-                    "ratio": 5.0,
-                    "bypass": 0.0,
-                    "gain": -5.0
-                },
-                "preset": "",
                 "bypassed": false
             },
             "harmless": {
-                "parameters": {},
                 "ports": {
-                    "phase": 0.0,
-                    "rate": 4.0,
-                    "tone": 6000.0,
+                    "depth": 100.0,
                     "shape": 0.17734399437904358,
-                    "depth": 100.0
+                    "tone": 6000.0,
+                    "phase": 0.0,
+                    "rate": 4.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": true
             },
-            "stereo": {
-                "parameters": {},
+            "cabsim_vintage_1": {
                 "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
+                    "Attenuation": 0.0,
+                    "Model": 7.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
-            "faIR_cabsim": {
-                "parameters": {},
+            "_CreamMachine_": {
                 "ports": {
-                    "Model": 0.0,
-                    "Attenuation": 0.0
+                    "BYPASS": 1.0,
+                    "BASS": 0.57499998807907104,
+                    "VOLUME": 0.34782600402832031,
+                    "LEVEL": 0.20499999821186066,
+                    "TREBLE": 0.39130434782608697
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "PlateX2": {
                 "parameters": {},
-                "ports": {
-                    "tail": 0.34999999999999998,
-                    "blend": 0.22,
-                    "bandwidth": 0.84375,
-                    "damping": 0.078125
-                },
-                "preset": "",
                 "bypassed": false
             },
             "_bajatubedriver_": {
-                "parameters": {},
                 "ports": {
-                    "DRIVE": 0.245,
                     "BYPASS": 1.0,
                     "VOLUME": 0.40000000000000002,
+                    "DRIVE": 0.245,
                     "TONE": 0.64999997615814209
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
-            "modulay": {
-                "parameters": {},
+            "studiopre": {
                 "ports": {
-                    "time": 500.0,
-                    "morph": 50.0,
-                    "rate": 2.0,
-                    "depth": 1.0,
+                    "bright": 0.0,
+                    "bass": 0.37999999523162842,
+                    "volume": 2.8125,
+                    "middle": 0.609375,
+                    "treble": 0.55580401420593262
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "PlateX2": {
+                "ports": {
+                    "bandwidth": 0.84375,
+                    "blend": 0.22,
+                    "tail": 0.34999999999999998,
+                    "damping": 0.078125
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "BigMuffPi": {
+                "ports": {
+                    "Tone": 0.5,
+                    "Sustain": 0.10999999940395355,
+                    "Level": 0.45000000000000001
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "chorusflanger": {
+                "ports": {
+                    "WetLevel": 0.0,
+                    "LRPhaseShift": 90.0,
+                    "Contour": 125.28670501708984,
+                    "Delay": 25.0,
+                    "Depth": 76.5625,
+                    "DryLevel": -2.0,
+                    "Frequency": 1.71875
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "stereo_1": {
+                "ports": {
+                    "gain": -5.0,
+                    "noClip": 0.0,
+                    "bypass": 0.0,
+                    "rms": 0.5,
+                    "ratio": 5.0,
+                    "threshold": -12.0,
+                    "attack": 9.999999747378755e-06,
+                    "release": 0.02785544946822793
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "cabsim_vintage": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 7.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "Phaser": {
+                "ports": {
+                    "mod_depth": 4000.0,
+                    "mod_rate": 0.25,
+                    "base_freq": 1000.0,
+                    "dry": 0.0,
+                    "stereo": 180.0,
+                    "stages": 6.0,
+                    "amount": 1.3125,
+                    "reset": 0.0,
+                    "feedback": 0.24750000238418579
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "modulay": {
+                "ports": {
                     "mix": 75.0,
                     "tone": 3000.0,
+                    "rate": 2.0,
+                    "time": 500.0,
+                    "morph": 50.0,
+                    "depth": 1.0,
                     "repeats": 41.25
                 },
                 "preset": "",
-                "bypassed": true
-            },
-            "cabsim_vintage_1": {
                 "parameters": {},
-                "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "_CreamMachine_": {
-                "parameters": {},
-                "ports": {
-                    "TREBLE": 0.39130434782608697,
-                    "LEVEL": 0.20499999821186066,
-                    "BYPASS": 1.0,
-                    "VOLUME": 0.34782600402832031,
-                    "BASS": 0.57499998807907104
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "chorusflanger": {
-                "parameters": {},
-                "ports": {
-                    "WetLevel": 0.0,
-                    "Frequency": 1.71875,
-                    "DryLevel": -2.0,
-                    "LRPhaseShift": 90.0,
-                    "Delay": 25.0,
-                    "Contour": 125.28670501708984,
-                    "Depth": 76.5625
-                },
-                "preset": "",
-                "bypassed": true
-            },
-            "BigMuffPi": {
-                "parameters": {},
-                "ports": {
-                    "Sustain": 0.10999999940395355,
-                    "Level": 0.45000000000000001,
-                    "Tone": 0.5
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "Phaser": {
-                "parameters": {},
-                "ports": {
-                    "dry": 0.0,
-                    "amount": 1.3125,
-                    "stages": 6.0,
-                    "stereo": 180.0,
-                    "mod_depth": 4000.0,
-                    "mod_rate": 0.25,
-                    "reset": 0.0,
-                    "base_freq": 1000.0,
-                    "feedback": 0.24750000238418579
-                },
-                "preset": "",
                 "bypassed": true
             }
-        },
-        "name": "Lead Fuzz"
+        }
     },
     {
+        "name": "Tremo-drive",
         "data": {
-            "cabsim_vintage": {
-                "parameters": {},
+            "faIR_cabsim": {
                 "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
+                    "Attenuation": 0.0,
+                    "Model": 0.0
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "studiopre": {
                 "parameters": {},
-                "ports": {
-                    "treble": 0.55580401420593262,
-                    "middle": 0.609375,
-                    "bright": 0.0,
-                    "volume": 2.8125,
-                    "bass": 0.37999999523162842
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "stereo_1": {
-                "parameters": {},
-                "ports": {
-                    "attack": 9.999999747378755e-06,
-                    "release": 0.02785544946822793,
-                    "noClip": 0.0,
-                    "rms": 0.5,
-                    "threshold": -12.0,
-                    "ratio": 5.0,
-                    "bypass": 0.0,
-                    "gain": -5.0
-                },
-                "preset": "",
                 "bypassed": false
             },
             "harmless": {
-                "parameters": {},
                 "ports": {
-                    "phase": 0.0,
-                    "rate": 4.0,
-                    "tone": 6000.0,
+                    "depth": 100.0,
                     "shape": 0.17734399437904358,
-                    "depth": 100.0
+                    "tone": 6000.0,
+                    "phase": 0.0,
+                    "rate": 4.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
-            "stereo": {
-                "parameters": {},
+            "cabsim_vintage_1": {
                 "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
+                    "Attenuation": 0.0,
+                    "Model": 7.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
-            "faIR_cabsim": {
-                "parameters": {},
+            "_CreamMachine_": {
                 "ports": {
-                    "Model": 0.0,
-                    "Attenuation": 0.0
+                    "BYPASS": 1.0,
+                    "BASS": 0.57499998807907104,
+                    "VOLUME": 0.34782600402832031,
+                    "LEVEL": 0.20499999821186066,
+                    "TREBLE": 0.39130434782608697
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "PlateX2": {
                 "parameters": {},
-                "ports": {
-                    "tail": 0.34999999999999998,
-                    "blend": 0.22,
-                    "bandwidth": 0.84375,
-                    "damping": 0.078125
-                },
-                "preset": "",
                 "bypassed": false
             },
             "_bajatubedriver_": {
-                "parameters": {},
                 "ports": {
-                    "DRIVE": 0.245,
                     "BYPASS": 1.0,
                     "VOLUME": 0.40000000000000002,
+                    "DRIVE": 0.245,
                     "TONE": 0.64999997615814209
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
-            "modulay": {
-                "parameters": {},
+            "studiopre": {
                 "ports": {
-                    "time": 500.0,
-                    "morph": 50.0,
-                    "rate": 2.0,
-                    "depth": 1.0,
+                    "bright": 0.0,
+                    "bass": 0.37999999523162842,
+                    "volume": 2.8125,
+                    "middle": 0.609375,
+                    "treble": 0.55580401420593262
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "PlateX2": {
+                "ports": {
+                    "bandwidth": 0.84375,
+                    "blend": 0.22,
+                    "tail": 0.34999999999999998,
+                    "damping": 0.078125
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "BigMuffPi": {
+                "ports": {
+                    "Tone": 0.5,
+                    "Sustain": 0.10999999940395355,
+                    "Level": 0.45000000000000001
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "chorusflanger": {
+                "ports": {
+                    "WetLevel": 0.0,
+                    "LRPhaseShift": 90.0,
+                    "Contour": 125.28670501708984,
+                    "Delay": 25.0,
+                    "Depth": 76.5625,
+                    "DryLevel": -2.0,
+                    "Frequency": 1.71875
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "stereo_1": {
+                "ports": {
+                    "gain": -5.0,
+                    "noClip": 0.0,
+                    "bypass": 0.0,
+                    "rms": 0.5,
+                    "ratio": 5.0,
+                    "threshold": -12.0,
+                    "attack": 9.999999747378755e-06,
+                    "release": 0.02785544946822793
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "cabsim_vintage": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 7.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "Phaser": {
+                "ports": {
+                    "mod_depth": 4000.0,
+                    "mod_rate": 0.25,
+                    "base_freq": 1000.0,
+                    "dry": 0.0,
+                    "stereo": 180.0,
+                    "stages": 6.0,
+                    "amount": 1.3125,
+                    "reset": 0.0,
+                    "feedback": 0.24750000238418579
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "modulay": {
+                "ports": {
                     "mix": 75.0,
                     "tone": 3000.0,
+                    "rate": 2.0,
+                    "time": 500.0,
+                    "morph": 50.0,
+                    "depth": 1.0,
                     "repeats": 41.25
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "cabsim_vintage_1": {
                 "parameters": {},
-                "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "_CreamMachine_": {
-                "parameters": {},
-                "ports": {
-                    "TREBLE": 0.39130434782608697,
-                    "LEVEL": 0.20499999821186066,
-                    "BYPASS": 1.0,
-                    "VOLUME": 0.34782600402832031,
-                    "BASS": 0.57499998807907104
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "chorusflanger": {
-                "parameters": {},
-                "ports": {
-                    "WetLevel": 0.0,
-                    "Frequency": 1.71875,
-                    "DryLevel": -2.0,
-                    "LRPhaseShift": 90.0,
-                    "Delay": 25.0,
-                    "Contour": 125.28670501708984,
-                    "Depth": 76.5625
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "BigMuffPi": {
-                "parameters": {},
-                "ports": {
-                    "Sustain": 0.10999999940395355,
-                    "Level": 0.45000000000000001,
-                    "Tone": 0.5
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "Phaser": {
-                "parameters": {},
-                "ports": {
-                    "dry": 0.0,
-                    "amount": 1.3125,
-                    "stages": 6.0,
-                    "stereo": 180.0,
-                    "mod_depth": 4000.0,
-                    "mod_rate": 0.25,
-                    "reset": 0.0,
-                    "base_freq": 1000.0,
-                    "feedback": 0.24750000238418579
-                },
-                "preset": "",
-                "bypassed": false
+                "bypassed": true
             }
-        },
-        "name": "Tremolo Wall"
+        }
     },
     {
+        "name": "Lead Fuzz",
         "data": {
-            "cabsim_vintage": {
-                "parameters": {},
+            "faIR_cabsim": {
                 "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
+                    "Attenuation": 0.0,
+                    "Model": 0.0
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "studiopre": {
                 "parameters": {},
-                "ports": {
-                    "treble": 0.55580401420593262,
-                    "middle": 0.609375,
-                    "bright": 0.0,
-                    "volume": 2.8125,
-                    "bass": 0.37999999523162842
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "stereo_1": {
-                "parameters": {},
-                "ports": {
-                    "attack": 9.999999747378755e-06,
-                    "release": 0.02785544946822793,
-                    "noClip": 0.0,
-                    "rms": 0.5,
-                    "threshold": -12.0,
-                    "ratio": 5.0,
-                    "bypass": 0.0,
-                    "gain": -5.0
-                },
-                "preset": "",
                 "bypassed": false
             },
             "harmless": {
-                "parameters": {},
                 "ports": {
-                    "phase": 0.0,
-                    "rate": 4.0,
-                    "tone": 6000.0,
+                    "depth": 100.0,
                     "shape": 0.17734399437904358,
-                    "depth": 100.0
+                    "tone": 6000.0,
+                    "phase": 0.0,
+                    "rate": 4.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": true
             },
-            "stereo": {
-                "parameters": {},
+            "cabsim_vintage_1": {
                 "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
+                    "Attenuation": 0.0,
+                    "Model": 7.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
-            "faIR_cabsim": {
-                "parameters": {},
+            "_CreamMachine_": {
                 "ports": {
-                    "Model": 0.0,
-                    "Attenuation": 0.0
+                    "BYPASS": 1.0,
+                    "BASS": 0.57499998807907104,
+                    "VOLUME": 0.34782600402832031,
+                    "LEVEL": 0.20499999821186066,
+                    "TREBLE": 0.39130434782608697
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "PlateX2": {
                 "parameters": {},
-                "ports": {
-                    "tail": 0.34999999999999998,
-                    "blend": 0.22,
-                    "bandwidth": 0.84375,
-                    "damping": 0.078125
-                },
-                "preset": "",
                 "bypassed": false
             },
             "_bajatubedriver_": {
-                "parameters": {},
                 "ports": {
-                    "DRIVE": 0.245,
                     "BYPASS": 1.0,
                     "VOLUME": 0.40000000000000002,
+                    "DRIVE": 0.245,
                     "TONE": 0.64999997615814209
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
-            "modulay": {
-                "parameters": {},
+            "studiopre": {
                 "ports": {
-                    "time": 500.0,
-                    "morph": 50.0,
-                    "rate": 2.0,
-                    "depth": 1.0,
+                    "bright": 0.0,
+                    "bass": 0.37999999523162842,
+                    "volume": 2.8125,
+                    "middle": 0.609375,
+                    "treble": 0.55580401420593262
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "PlateX2": {
+                "ports": {
+                    "bandwidth": 0.84375,
+                    "blend": 0.22,
+                    "tail": 0.34999999999999998,
+                    "damping": 0.078125
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "BigMuffPi": {
+                "ports": {
+                    "Tone": 0.5,
+                    "Sustain": 0.10999999940395355,
+                    "Level": 0.45000000000000001
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "chorusflanger": {
+                "ports": {
+                    "WetLevel": 0.0,
+                    "LRPhaseShift": 90.0,
+                    "Contour": 125.28670501708984,
+                    "Delay": 25.0,
+                    "Depth": 76.5625,
+                    "DryLevel": -2.0,
+                    "Frequency": 1.71875
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "stereo_1": {
+                "ports": {
+                    "gain": -5.0,
+                    "noClip": 0.0,
+                    "bypass": 0.0,
+                    "rms": 0.5,
+                    "ratio": 5.0,
+                    "threshold": -12.0,
+                    "attack": 9.999999747378755e-06,
+                    "release": 0.02785544946822793
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "cabsim_vintage": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 7.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "Phaser": {
+                "ports": {
+                    "mod_depth": 4000.0,
+                    "mod_rate": 0.25,
+                    "base_freq": 1000.0,
+                    "dry": 0.0,
+                    "stereo": 180.0,
+                    "stages": 6.0,
+                    "amount": 1.3125,
+                    "reset": 0.0,
+                    "feedback": 0.24750000238418579
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "modulay": {
+                "ports": {
                     "mix": 75.0,
                     "tone": 3000.0,
+                    "rate": 2.0,
+                    "time": 500.0,
+                    "morph": 50.0,
+                    "depth": 1.0,
                     "repeats": 41.25
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "cabsim_vintage_1": {
                 "parameters": {},
-                "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "_CreamMachine_": {
-                "parameters": {},
-                "ports": {
-                    "TREBLE": 0.39130434782608697,
-                    "LEVEL": 0.20499999821186066,
-                    "BYPASS": 1.0,
-                    "VOLUME": 0.34782600402832031,
-                    "BASS": 0.57499998807907104
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "chorusflanger": {
-                "parameters": {},
-                "ports": {
-                    "WetLevel": 0.0,
-                    "Frequency": 1.71875,
-                    "DryLevel": -2.0,
-                    "LRPhaseShift": 90.0,
-                    "Delay": 25.0,
-                    "Contour": 125.28670501708984,
-                    "Depth": 76.5625
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "BigMuffPi": {
-                "parameters": {},
-                "ports": {
-                    "Sustain": 0.10999999940395355,
-                    "Level": 0.45000000000000001,
-                    "Tone": 0.5
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "Phaser": {
-                "parameters": {},
-                "ports": {
-                    "dry": 0.0,
-                    "amount": 1.3125,
-                    "stages": 6.0,
-                    "stereo": 180.0,
-                    "mod_depth": 4000.0,
-                    "mod_rate": 0.25,
-                    "reset": 0.0,
-                    "base_freq": 1000.0,
-                    "feedback": 0.24750000238418579
-                },
-                "preset": "",
-                "bypassed": false
+                "bypassed": true
             }
-        },
-        "name": "Wall of Sound"
+        }
     },
     {
+        "name": "Tremolo Wall",
         "data": {
-            "cabsim_vintage": {
-                "parameters": {},
+            "faIR_cabsim": {
                 "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
+                    "Attenuation": 0.0,
+                    "Model": 0.0
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "studiopre": {
                 "parameters": {},
-                "ports": {
-                    "treble": 0.55580401420593262,
-                    "middle": 0.609375,
-                    "bright": 0.0,
-                    "volume": 2.8125,
-                    "bass": 0.37999999523162842
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "stereo_1": {
-                "parameters": {},
-                "ports": {
-                    "attack": 9.999999747378755e-06,
-                    "release": 0.02785544946822793,
-                    "noClip": 0.0,
-                    "rms": 0.5,
-                    "threshold": -12.0,
-                    "ratio": 5.0,
-                    "bypass": 0.0,
-                    "gain": -5.0
-                },
-                "preset": "",
                 "bypassed": false
             },
             "harmless": {
-                "parameters": {},
                 "ports": {
-                    "phase": 0.0,
-                    "rate": 4.0,
-                    "tone": 6000.0,
+                    "depth": 100.0,
                     "shape": 0.17734399437904358,
-                    "depth": 100.0
+                    "tone": 6000.0,
+                    "phase": 0.0,
+                    "rate": 4.0
                 },
                 "preset": "",
-                "bypassed": true
-            },
-            "stereo": {
                 "parameters": {},
-                "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
-                },
-                "preset": "",
                 "bypassed": false
             },
-            "faIR_cabsim": {
-                "parameters": {},
+            "cabsim_vintage_1": {
                 "ports": {
-                    "Model": 0.0,
-                    "Attenuation": 0.0
+                    "Attenuation": 0.0,
+                    "Model": 7.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
-            "PlateX2": {
-                "parameters": {},
+            "_CreamMachine_": {
                 "ports": {
-                    "tail": 0.34999999999999998,
-                    "blend": 0.22,
-                    "bandwidth": 0.84375,
-                    "damping": 0.078125
+                    "BYPASS": 1.0,
+                    "BASS": 0.57499998807907104,
+                    "VOLUME": 0.34782600402832031,
+                    "LEVEL": 0.20499999821186066,
+                    "TREBLE": 0.39130434782608697
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "_bajatubedriver_": {
-                "parameters": {},
                 "ports": {
-                    "DRIVE": 0.245,
                     "BYPASS": 1.0,
                     "VOLUME": 0.40000000000000002,
+                    "DRIVE": 0.245,
                     "TONE": 0.64999997615814209
                 },
                 "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "studiopre": {
+                "ports": {
+                    "bright": 0.0,
+                    "bass": 0.37999999523162842,
+                    "volume": 2.8125,
+                    "middle": 0.609375,
+                    "treble": 0.55580401420593262
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "PlateX2": {
+                "ports": {
+                    "bandwidth": 0.84375,
+                    "blend": 0.22,
+                    "tail": 0.34999999999999998,
+                    "damping": 0.078125
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "BigMuffPi": {
+                "ports": {
+                    "Tone": 0.5,
+                    "Sustain": 0.10999999940395355,
+                    "Level": 0.45000000000000001
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "chorusflanger": {
+                "ports": {
+                    "WetLevel": 0.0,
+                    "LRPhaseShift": 90.0,
+                    "Contour": 125.28670501708984,
+                    "Delay": 25.0,
+                    "Depth": 76.5625,
+                    "DryLevel": -2.0,
+                    "Frequency": 1.71875
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "stereo_1": {
+                "ports": {
+                    "gain": -5.0,
+                    "noClip": 0.0,
+                    "bypass": 0.0,
+                    "rms": 0.5,
+                    "ratio": 5.0,
+                    "threshold": -12.0,
+                    "attack": 9.999999747378755e-06,
+                    "release": 0.02785544946822793
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "cabsim_vintage": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 7.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "Phaser": {
+                "ports": {
+                    "mod_depth": 4000.0,
+                    "mod_rate": 0.25,
+                    "base_freq": 1000.0,
+                    "dry": 0.0,
+                    "stereo": 180.0,
+                    "stages": 6.0,
+                    "amount": 1.3125,
+                    "reset": 0.0,
+                    "feedback": 0.24750000238418579
+                },
+                "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "modulay": {
-                "parameters": {},
                 "ports": {
+                    "mix": 75.0,
+                    "tone": 3000.0,
+                    "rate": 2.0,
+                    "time": 500.0,
+                    "morph": 50.0,
+                    "depth": 1.0,
+                    "repeats": 41.25
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Wall of Sound",
+        "data": {
+            "faIR_cabsim": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 0.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "harmless": {
+                "ports": {
+                    "depth": 100.0,
+                    "shape": 0.17734399437904358,
+                    "tone": 6000.0,
+                    "phase": 0.0,
+                    "rate": 4.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "cabsim_vintage_1": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 7.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "_CreamMachine_": {
+                "ports": {
+                    "BYPASS": 1.0,
+                    "BASS": 0.57499998807907104,
+                    "VOLUME": 0.34782600402832031,
+                    "LEVEL": 0.20499999821186066,
+                    "TREBLE": 0.39130434782608697
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "_bajatubedriver_": {
+                "ports": {
+                    "BYPASS": 1.0,
+                    "VOLUME": 0.40000000000000002,
+                    "DRIVE": 0.245,
+                    "TONE": 0.64999997615814209
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "studiopre": {
+                "ports": {
+                    "bright": 0.0,
+                    "bass": 0.37999999523162842,
+                    "volume": 2.8125,
+                    "middle": 0.609375,
+                    "treble": 0.55580401420593262
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "PlateX2": {
+                "ports": {
+                    "bandwidth": 0.84375,
+                    "blend": 0.22,
+                    "tail": 0.34999999999999998,
+                    "damping": 0.078125
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "BigMuffPi": {
+                "ports": {
+                    "Tone": 0.5,
+                    "Sustain": 0.10999999940395355,
+                    "Level": 0.45000000000000001
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "chorusflanger": {
+                "ports": {
+                    "WetLevel": 0.0,
+                    "LRPhaseShift": 90.0,
+                    "Contour": 125.28670501708984,
+                    "Delay": 25.0,
+                    "Depth": 76.5625,
+                    "DryLevel": -2.0,
+                    "Frequency": 1.71875
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "stereo_1": {
+                "ports": {
+                    "gain": -5.0,
+                    "noClip": 0.0,
+                    "bypass": 0.0,
+                    "rms": 0.5,
+                    "ratio": 5.0,
+                    "threshold": -12.0,
+                    "attack": 9.999999747378755e-06,
+                    "release": 0.02785544946822793
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "cabsim_vintage": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 7.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "Phaser": {
+                "ports": {
+                    "mod_depth": 4000.0,
+                    "mod_rate": 0.25,
+                    "base_freq": 1000.0,
+                    "dry": 0.0,
+                    "stereo": 180.0,
+                    "stages": 6.0,
+                    "amount": 1.3125,
+                    "reset": 0.0,
+                    "feedback": 0.24750000238418579
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "modulay": {
+                "ports": {
+                    "mix": 75.0,
+                    "tone": 3000.0,
+                    "rate": 2.0,
+                    "time": 500.0,
+                    "morph": 50.0,
+                    "depth": 1.0,
+                    "repeats": 41.25
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            }
+        }
+    },
+    {
+        "name": "Drive-Slap",
+        "data": {
+            "faIR_cabsim": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 0.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "harmless": {
+                "ports": {
+                    "depth": 100.0,
+                    "shape": 0.17734399437904358,
+                    "tone": 6000.0,
+                    "phase": 0.0,
+                    "rate": 4.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "cabsim_vintage_1": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 7.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "_CreamMachine_": {
+                "ports": {
+                    "BYPASS": 1.0,
+                    "BASS": 0.57499998807907104,
+                    "VOLUME": 0.34782600402832031,
+                    "LEVEL": 0.20499999821186066,
+                    "TREBLE": 0.39130434782608697
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "_bajatubedriver_": {
+                "ports": {
+                    "BYPASS": 1.0,
+                    "VOLUME": 0.40000000000000002,
+                    "DRIVE": 0.245,
+                    "TONE": 0.64999997615814209
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "studiopre": {
+                "ports": {
+                    "bright": 0.0,
+                    "bass": 0.37999999523162842,
+                    "volume": 2.8125,
+                    "middle": 0.609375,
+                    "treble": 0.55580401420593262
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "PlateX2": {
+                "ports": {
+                    "bandwidth": 0.84375,
+                    "blend": 0.22,
+                    "tail": 0.34999999999999998,
+                    "damping": 0.078125
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "BigMuffPi": {
+                "ports": {
+                    "Tone": 0.5,
+                    "Sustain": 0.10999999940395355,
+                    "Level": 0.45000000000000001
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "chorusflanger": {
+                "ports": {
+                    "WetLevel": 0.0,
+                    "LRPhaseShift": 90.0,
+                    "Contour": 125.28670501708984,
+                    "Delay": 25.0,
+                    "Depth": 76.5625,
+                    "DryLevel": -2.0,
+                    "Frequency": 1.71875
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "stereo_1": {
+                "ports": {
+                    "gain": -5.0,
+                    "noClip": 0.0,
+                    "bypass": 0.0,
+                    "rms": 0.5,
+                    "ratio": 5.0,
+                    "threshold": -12.0,
+                    "attack": 9.999999747378755e-06,
+                    "release": 0.02785544946822793
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "cabsim_vintage": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 7.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "Phaser": {
+                "ports": {
+                    "mod_depth": 4000.0,
+                    "mod_rate": 0.25,
+                    "base_freq": 1000.0,
+                    "dry": 0.0,
+                    "stereo": 180.0,
+                    "stages": 6.0,
+                    "amount": 1.3125,
+                    "reset": 0.0,
+                    "feedback": 0.24750000238418579
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "modulay": {
+                "ports": {
+                    "mix": 75.0,
+                    "tone": 3000.0,
+                    "rate": 2.0,
                     "time": 93.5,
                     "morph": 50.0,
-                    "rate": 2.0,
                     "depth": 1.0,
-                    "mix": 75.0,
-                    "tone": 3000.0,
                     "repeats": 63.25
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
-            },
-            "cabsim_vintage_1": {
-                "parameters": {},
-                "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "_CreamMachine_": {
-                "parameters": {},
-                "ports": {
-                    "TREBLE": 0.39130434782608697,
-                    "LEVEL": 0.20499999821186066,
-                    "BYPASS": 1.0,
-                    "VOLUME": 0.34782600402832031,
-                    "BASS": 0.57499998807907104
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "chorusflanger": {
-                "parameters": {},
-                "ports": {
-                    "WetLevel": 0.0,
-                    "Frequency": 1.71875,
-                    "DryLevel": -2.0,
-                    "LRPhaseShift": 90.0,
-                    "Delay": 25.0,
-                    "Contour": 125.28670501708984,
-                    "Depth": 76.5625
-                },
-                "preset": "",
-                "bypassed": true
-            },
-            "BigMuffPi": {
-                "parameters": {},
-                "ports": {
-                    "Sustain": 0.10999999940395355,
-                    "Level": 0.45000000000000001,
-                    "Tone": 0.5
-                },
-                "preset": "",
-                "bypassed": true
-            },
-            "Phaser": {
-                "parameters": {},
-                "ports": {
-                    "dry": 0.0,
-                    "amount": 1.3125,
-                    "stages": 6.0,
-                    "stereo": 180.0,
-                    "mod_depth": 4000.0,
-                    "mod_rate": 0.25,
-                    "reset": 0.0,
-                    "base_freq": 1000.0,
-                    "feedback": 0.24750000238418579
-                },
-                "preset": "",
-                "bypassed": true
             }
-        },
-        "name": "Drive-Slap"
+        }
     },
     {
+        "name": "Clean Slap",
         "data": {
-            "cabsim_vintage": {
-                "parameters": {},
+            "faIR_cabsim": {
                 "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
+                    "Attenuation": 0.0,
+                    "Model": 0.0
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "studiopre": {
                 "parameters": {},
-                "ports": {
-                    "treble": 0.55580401420593262,
-                    "middle": 0.609375,
-                    "bright": 0.0,
-                    "volume": 2.8125,
-                    "bass": 0.37999999523162842
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "stereo_1": {
-                "parameters": {},
-                "ports": {
-                    "attack": 9.999999747378755e-06,
-                    "release": 0.02785544946822793,
-                    "noClip": 0.0,
-                    "rms": 0.5,
-                    "threshold": -12.0,
-                    "ratio": 5.0,
-                    "bypass": 0.0,
-                    "gain": -5.0
-                },
-                "preset": "",
                 "bypassed": false
             },
             "harmless": {
-                "parameters": {},
                 "ports": {
-                    "phase": 0.0,
-                    "rate": 4.0,
-                    "tone": 6000.0,
+                    "depth": 100.0,
                     "shape": 0.17734399437904358,
-                    "depth": 100.0
+                    "tone": 6000.0,
+                    "phase": 0.0,
+                    "rate": 4.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": true
-            },
-            "stereo": {
-                "parameters": {},
-                "ports": {
-                    "mute": 0.0,
-                    "enable": 1.0,
-                    "gain": 0.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "faIR_cabsim": {
-                "parameters": {},
-                "ports": {
-                    "Model": 0.0,
-                    "Attenuation": 0.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "PlateX2": {
-                "parameters": {},
-                "ports": {
-                    "tail": 0.34999999999999998,
-                    "blend": 0.22,
-                    "bandwidth": 0.84375,
-                    "damping": 0.078125
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "_bajatubedriver_": {
-                "parameters": {},
-                "ports": {
-                    "DRIVE": 0.245,
-                    "BYPASS": 0.0,
-                    "VOLUME": 0.40000000000000002,
-                    "TONE": 0.64999997615814209
-                },
-                "preset": "",
-                "bypassed": true
-            },
-            "modulay": {
-                "parameters": {},
-                "ports": {
-                    "time": 93.5,
-                    "morph": 50.0,
-                    "rate": 2.0,
-                    "depth": 1.0,
-                    "mix": 75.0,
-                    "tone": 3000.0,
-                    "repeats": 63.25
-                },
-                "preset": "",
-                "bypassed": false
             },
             "cabsim_vintage_1": {
-                "parameters": {},
                 "ports": {
-                    "Model": 7.0,
-                    "Attenuation": 0.0
+                    "Attenuation": 0.0,
+                    "Model": 7.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "_CreamMachine_": {
-                "parameters": {},
                 "ports": {
-                    "TREBLE": 0.39130434782608697,
-                    "LEVEL": 0.20499999821186066,
                     "BYPASS": 1.0,
+                    "BASS": 0.57499998807907104,
                     "VOLUME": 0.34782600402832031,
-                    "BASS": 0.57499998807907104
+                    "LEVEL": 0.20499999821186066,
+                    "TREBLE": 0.39130434782608697
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
-            "chorusflanger": {
-                "parameters": {},
+            "_bajatubedriver_": {
                 "ports": {
-                    "WetLevel": 0.0,
-                    "Frequency": 1.71875,
-                    "DryLevel": -2.0,
-                    "LRPhaseShift": 90.0,
-                    "Delay": 25.0,
-                    "Contour": 125.28670501708984,
-                    "Depth": 76.5625
+                    "BYPASS": 0.0,
+                    "VOLUME": 0.40000000000000002,
+                    "DRIVE": 0.245,
+                    "TONE": 0.64999997615814209
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": true
+            },
+            "studiopre": {
+                "ports": {
+                    "bright": 0.0,
+                    "bass": 0.37999999523162842,
+                    "volume": 2.8125,
+                    "middle": 0.609375,
+                    "treble": 0.55580401420593262
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "PlateX2": {
+                "ports": {
+                    "bandwidth": 0.84375,
+                    "blend": 0.22,
+                    "tail": 0.34999999999999998,
+                    "damping": 0.078125
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
             },
             "BigMuffPi": {
-                "parameters": {},
                 "ports": {
+                    "Tone": 0.5,
                     "Sustain": 0.10999999940395355,
-                    "Level": 0.45000000000000001,
-                    "Tone": 0.5
+                    "Level": 0.45000000000000001
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": true
             },
-            "Phaser": {
-                "parameters": {},
+            "chorusflanger": {
                 "ports": {
-                    "dry": 0.0,
-                    "amount": 1.3125,
-                    "stages": 6.0,
-                    "stereo": 180.0,
+                    "WetLevel": 0.0,
+                    "LRPhaseShift": 90.0,
+                    "Contour": 125.28670501708984,
+                    "Delay": 25.0,
+                    "Depth": 76.5625,
+                    "DryLevel": -2.0,
+                    "Frequency": 1.71875
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": true
+            },
+            "stereo_1": {
+                "ports": {
+                    "gain": -5.0,
+                    "noClip": 0.0,
+                    "bypass": 0.0,
+                    "rms": 0.5,
+                    "ratio": 5.0,
+                    "threshold": -12.0,
+                    "attack": 9.999999747378755e-06,
+                    "release": 0.02785544946822793
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "cabsim_vintage": {
+                "ports": {
+                    "Attenuation": 0.0,
+                    "Model": 7.0
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "Phaser": {
+                "ports": {
                     "mod_depth": 4000.0,
                     "mod_rate": 0.25,
-                    "reset": 0.0,
                     "base_freq": 1000.0,
+                    "dry": 0.0,
+                    "stereo": 180.0,
+                    "stages": 6.0,
+                    "amount": 1.3125,
+                    "reset": 0.0,
                     "feedback": 0.24750000238418579
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": true
+            },
+            "modulay": {
+                "ports": {
+                    "mix": 75.0,
+                    "tone": 3000.0,
+                    "rate": 2.0,
+                    "time": 93.5,
+                    "morph": 50.0,
+                    "depth": 1.0,
+                    "repeats": 63.25
+                },
+                "preset": "",
+                "parameters": {},
+                "bypassed": false
             }
-        },
-        "name": "Clean Slap"
+        }
     }
 ]

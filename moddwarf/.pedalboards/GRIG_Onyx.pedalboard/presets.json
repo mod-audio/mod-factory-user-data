@@ -2,816 +2,736 @@
     {
         "name": "Default",
         "data": {
-            "_bajatubedriver_": {
+            "Plate": {
                 "preset": "",
-                "bypassed": true,
+                "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "DRIVE": 0.59999999999999998,
-                    "BYPASS": 0.0,
-                    "TONE": 0.5,
-                    "VOLUME": 0.059999999999999998
-                },
-                "parameters": {}
-            },
-            "modulay": {
-                "preset": "",
-                "bypassed": true,
-                "ports": {
-                    "mix": 25.0,
-                    "time": 500.0,
-                    "rate": 2.0,
-                    "repeats": 55.0,
-                    "depth": 1.0,
-                    "tone": 3000.0,
-                    "morph": 50.0
-                },
-                "parameters": {}
+                    "damping": 0.00050000002374872565,
+                    "blend": 0.14499999999999999,
+                    "bandwidth": 0.99949997663497925,
+                    "tail": 0.34000000000000002
+                }
             },
             "mono": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "bypass": 0.0,
-                    "noClip": 0.0,
-                    "ratio": 4.5,
-                    "attack": 0.00011652514252328476,
-                    "rms": 0.5,
-                    "release": 0.05000000074505806,
                     "gain": -1.0,
-                    "threshold": -12.0
-                },
-                "parameters": {}
-            },
-            "stereo": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": 0.0,
-                    "mute": 0.0
-                },
-                "parameters": {}
-            },
-            "Plate": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "blend": 0.14499999999999999,
-                    "damping": 0.00050000002374872565,
-                    "bandwidth": 0.99949997663497925,
-                    "tail": 0.34000000000000002
-                },
-                "parameters": {}
-            },
-            "gate": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "decay": 50.0,
-                    "gaterange": -90.0,
-                    "threshold": -50.0,
-                    "hold": 50.0,
-                    "attack": 5.0,
-                    "switch": 0.5
-                },
-                "parameters": {}
+                    "noClip": 0.0,
+                    "rms": 0.5,
+                    "bypass": 0.0,
+                    "release": 0.05000000074505806,
+                    "threshold": -12.0,
+                    "ratio": 4.5,
+                    "attack": 0.00011652514252328476
+                }
             },
             "onyx": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
+                    "clip": 250.0,
                     "Bass": 0.5,
                     "Vol": 40.0,
-                    "Gain": 50.5,
-                    "Treble": 0.5,
                     "Character": 50.0,
+                    "Gain": 50.5,
                     "Mid": 0.5,
-                    "clip": 250.0
-                },
-                "parameters": {}
+                    "Treble": 0.5
+                }
+            },
+            "gate": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "hold": 50.0,
+                    "gaterange": -90.0,
+                    "switch": 0.5,
+                    "threshold": -50.0,
+                    "attack": 5.0,
+                    "decay": 50.0
+                }
             },
             "faIR_cabsim": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
                     "Attenuation": -5.0,
                     "Model": 0.0
-                },
-                "parameters": {}
+                }
+            },
+            "_bajatubedriver_": {
+                "preset": "",
+                "bypassed": true,
+                "parameters": {},
+                "ports": {
+                    "BYPASS": 0.0,
+                    "TONE": 0.5,
+                    "DRIVE": 0.59999999999999998,
+                    "VOLUME": 0.059999999999999998
+                }
+            },
+            "modulay": {
+                "preset": "",
+                "bypassed": true,
+                "parameters": {},
+                "ports": {
+                    "mix": 25.0,
+                    "tone": 3000.0,
+                    "rate": 2.0,
+                    "time": 500.0,
+                    "repeats": 55.0,
+                    "depth": 1.0,
+                    "morph": 50.0
+                }
             }
         }
     },
     {
         "name": "Louder",
         "data": {
-            "_bajatubedriver_": {
+            "Plate": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "DRIVE": 0.59999999999999998,
-                    "BYPASS": 1.0,
-                    "TONE": 0.5,
-                    "VOLUME": 0.059999999999999998
-                },
-                "parameters": {}
-            },
-            "modulay": {
-                "preset": "",
-                "bypassed": true,
-                "ports": {
-                    "mix": 25.0,
-                    "time": 500.0,
-                    "rate": 2.0,
-                    "repeats": 55.0,
-                    "depth": 1.0,
-                    "tone": 3000.0,
-                    "morph": 50.0
-                },
-                "parameters": {}
+                    "damping": 0.00050000002374872565,
+                    "blend": 0.14499999999999999,
+                    "bandwidth": 0.99949997663497925,
+                    "tail": 0.34000000000000002
+                }
             },
             "mono": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "bypass": 0.0,
-                    "noClip": 0.0,
-                    "ratio": 4.5,
-                    "attack": 0.00011652514252328476,
-                    "rms": 0.5,
-                    "release": 0.05000000074505806,
                     "gain": -1.0,
-                    "threshold": -12.0
-                },
-                "parameters": {}
-            },
-            "stereo": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": 0.0,
-                    "mute": 0.0
-                },
-                "parameters": {}
-            },
-            "Plate": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "blend": 0.14499999999999999,
-                    "damping": 0.00050000002374872565,
-                    "bandwidth": 0.99949997663497925,
-                    "tail": 0.34000000000000002
-                },
-                "parameters": {}
-            },
-            "gate": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "decay": 50.0,
-                    "gaterange": -90.0,
-                    "threshold": -50.0,
-                    "hold": 50.0,
-                    "attack": 5.0,
-                    "switch": 0.5
-                },
-                "parameters": {}
+                    "noClip": 0.0,
+                    "rms": 0.5,
+                    "bypass": 0.0,
+                    "release": 0.05000000074505806,
+                    "threshold": -12.0,
+                    "ratio": 4.5,
+                    "attack": 0.00011652514252328476
+                }
             },
             "onyx": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
+                    "clip": 250.0,
                     "Bass": 0.5,
                     "Vol": 40.0,
-                    "Gain": 50.5,
-                    "Treble": 0.5,
                     "Character": 50.0,
+                    "Gain": 50.5,
                     "Mid": 0.5,
-                    "clip": 250.0
-                },
-                "parameters": {}
+                    "Treble": 0.5
+                }
+            },
+            "gate": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "hold": 50.0,
+                    "gaterange": -90.0,
+                    "switch": 0.5,
+                    "threshold": -50.0,
+                    "attack": 5.0,
+                    "decay": 50.0
+                }
             },
             "faIR_cabsim": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
                     "Attenuation": -5.0,
                     "Model": 0.0
-                },
-                "parameters": {}
+                }
+            },
+            "_bajatubedriver_": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "BYPASS": 1.0,
+                    "TONE": 0.5,
+                    "DRIVE": 0.59999999999999998,
+                    "VOLUME": 0.059999999999999998
+                }
+            },
+            "modulay": {
+                "preset": "",
+                "bypassed": true,
+                "parameters": {},
+                "ports": {
+                    "mix": 25.0,
+                    "tone": 3000.0,
+                    "rate": 2.0,
+                    "time": 500.0,
+                    "repeats": 55.0,
+                    "depth": 1.0,
+                    "morph": 50.0
+                }
             }
         }
     },
     {
         "name": "Mean",
         "data": {
-            "_bajatubedriver_": {
+            "Plate": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "DRIVE": 0.59999999999999998,
-                    "BYPASS": 1.0,
-                    "TONE": 0.5,
-                    "VOLUME": 0.059999999999999998
-                },
-                "parameters": {}
-            },
-            "modulay": {
-                "preset": "",
-                "bypassed": true,
-                "ports": {
-                    "mix": 25.0,
-                    "time": 500.0,
-                    "rate": 2.0,
-                    "repeats": 55.0,
-                    "depth": 1.0,
-                    "tone": 3000.0,
-                    "morph": 50.0
-                },
-                "parameters": {}
+                    "damping": 0.00050000002374872565,
+                    "blend": 0.14499999999999999,
+                    "bandwidth": 0.99949997663497925,
+                    "tail": 0.34000000000000002
+                }
             },
             "mono": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "bypass": 0.0,
-                    "noClip": 0.0,
-                    "ratio": 4.5,
-                    "attack": 0.00011652514252328476,
-                    "rms": 0.5,
-                    "release": 0.05000000074505806,
                     "gain": -1.0,
-                    "threshold": -12.0
-                },
-                "parameters": {}
-            },
-            "stereo": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": 0.0,
-                    "mute": 0.0
-                },
-                "parameters": {}
-            },
-            "Plate": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "blend": 0.14499999999999999,
-                    "damping": 0.00050000002374872565,
-                    "bandwidth": 0.99949997663497925,
-                    "tail": 0.34000000000000002
-                },
-                "parameters": {}
-            },
-            "gate": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "decay": 50.0,
-                    "gaterange": -90.0,
-                    "threshold": -50.0,
-                    "hold": 50.0,
-                    "attack": 5.0,
-                    "switch": 0.5
-                },
-                "parameters": {}
+                    "noClip": 0.0,
+                    "rms": 0.5,
+                    "bypass": 0.0,
+                    "release": 0.05000000074505806,
+                    "threshold": -12.0,
+                    "ratio": 4.5,
+                    "attack": 0.00011652514252328476
+                }
             },
             "onyx": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
+                    "clip": 600.0,
                     "Bass": 0.5,
                     "Vol": 40.0,
-                    "Gain": 50.5,
-                    "Treble": 0.5,
                     "Character": 50.0,
+                    "Gain": 50.5,
                     "Mid": 0.5,
-                    "clip": 600.0
-                },
-                "parameters": {}
+                    "Treble": 0.5
+                }
+            },
+            "gate": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "hold": 50.0,
+                    "gaterange": -90.0,
+                    "switch": 0.5,
+                    "threshold": -50.0,
+                    "attack": 5.0,
+                    "decay": 50.0
+                }
             },
             "faIR_cabsim": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
                     "Attenuation": -5.0,
                     "Model": 0.0
-                },
-                "parameters": {}
+                }
+            },
+            "_bajatubedriver_": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "BYPASS": 1.0,
+                    "TONE": 0.5,
+                    "DRIVE": 0.59999999999999998,
+                    "VOLUME": 0.059999999999999998
+                }
+            },
+            "modulay": {
+                "preset": "",
+                "bypassed": true,
+                "parameters": {},
+                "ports": {
+                    "mix": 25.0,
+                    "tone": 3000.0,
+                    "rate": 2.0,
+                    "time": 500.0,
+                    "repeats": 55.0,
+                    "depth": 1.0,
+                    "morph": 50.0
+                }
             }
         }
     },
     {
         "name": "Chill",
         "data": {
-            "_bajatubedriver_": {
+            "Plate": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "DRIVE": 0.59999999999999998,
-                    "BYPASS": 1.0,
-                    "TONE": 0.5,
-                    "VOLUME": 0.059999999999999998
-                },
-                "parameters": {}
-            },
-            "modulay": {
-                "preset": "",
-                "bypassed": true,
-                "ports": {
-                    "mix": 25.0,
-                    "time": 500.0,
-                    "rate": 2.0,
-                    "repeats": 55.0,
-                    "depth": 1.0,
-                    "tone": 3000.0,
-                    "morph": 50.0
-                },
-                "parameters": {}
+                    "damping": 0.00050000002374872565,
+                    "blend": 0.14499999999999999,
+                    "bandwidth": 0.99949997663497925,
+                    "tail": 0.34000000000000002
+                }
             },
             "mono": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "bypass": 0.0,
-                    "noClip": 0.0,
-                    "ratio": 4.5,
-                    "attack": 0.00011652514252328476,
-                    "rms": 0.5,
-                    "release": 0.05000000074505806,
                     "gain": -1.0,
-                    "threshold": -12.0
-                },
-                "parameters": {}
-            },
-            "stereo": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": 0.0,
-                    "mute": 0.0
-                },
-                "parameters": {}
-            },
-            "Plate": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "blend": 0.14499999999999999,
-                    "damping": 0.00050000002374872565,
-                    "bandwidth": 0.99949997663497925,
-                    "tail": 0.34000000000000002
-                },
-                "parameters": {}
-            },
-            "gate": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "decay": 50.0,
-                    "gaterange": -90.0,
-                    "threshold": -50.0,
-                    "hold": 50.0,
-                    "attack": 5.0,
-                    "switch": 0.5
-                },
-                "parameters": {}
+                    "noClip": 0.0,
+                    "rms": 0.5,
+                    "bypass": 0.0,
+                    "release": 0.05000000074505806,
+                    "threshold": -12.0,
+                    "ratio": 4.5,
+                    "attack": 0.00011652514252328476
+                }
             },
             "onyx": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
+                    "clip": 100.0,
                     "Bass": 0.5,
                     "Vol": 40.0,
-                    "Gain": 50.5,
-                    "Treble": 0.5,
                     "Character": 50.0,
+                    "Gain": 50.5,
                     "Mid": 0.5,
-                    "clip": 100.0
-                },
-                "parameters": {}
+                    "Treble": 0.5
+                }
+            },
+            "gate": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "hold": 50.0,
+                    "gaterange": -90.0,
+                    "switch": 0.5,
+                    "threshold": -50.0,
+                    "attack": 5.0,
+                    "decay": 50.0
+                }
             },
             "faIR_cabsim": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
                     "Attenuation": -5.0,
                     "Model": 0.0
-                },
-                "parameters": {}
+                }
+            },
+            "_bajatubedriver_": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "BYPASS": 1.0,
+                    "TONE": 0.5,
+                    "DRIVE": 0.59999999999999998,
+                    "VOLUME": 0.059999999999999998
+                }
+            },
+            "modulay": {
+                "preset": "",
+                "bypassed": true,
+                "parameters": {},
+                "ports": {
+                    "mix": 25.0,
+                    "tone": 3000.0,
+                    "rate": 2.0,
+                    "time": 500.0,
+                    "repeats": 55.0,
+                    "depth": 1.0,
+                    "morph": 50.0
+                }
             }
         }
     },
     {
         "name": "Clean",
         "data": {
-            "_bajatubedriver_": {
+            "Plate": {
                 "preset": "",
-                "bypassed": true,
+                "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "DRIVE": 0.59999999999999998,
-                    "BYPASS": 0.0,
-                    "TONE": 0.5,
-                    "VOLUME": 0.059999999999999998
-                },
-                "parameters": {}
-            },
-            "modulay": {
-                "preset": "",
-                "bypassed": true,
-                "ports": {
-                    "mix": 25.0,
-                    "time": 500.0,
-                    "rate": 2.0,
-                    "repeats": 55.0,
-                    "depth": 1.0,
-                    "tone": 3000.0,
-                    "morph": 50.0
-                },
-                "parameters": {}
+                    "damping": 0.00050000002374872565,
+                    "blend": 0.14499999999999999,
+                    "bandwidth": 0.99949997663497925,
+                    "tail": 0.34000000000000002
+                }
             },
             "mono": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "bypass": 0.0,
-                    "noClip": 0.0,
-                    "ratio": 4.5,
-                    "attack": 0.00011652514252328476,
-                    "rms": 0.5,
-                    "release": 0.05000000074505806,
                     "gain": -1.0,
-                    "threshold": -12.0
-                },
-                "parameters": {}
-            },
-            "stereo": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": 0.0,
-                    "mute": 0.0
-                },
-                "parameters": {}
-            },
-            "Plate": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "blend": 0.14499999999999999,
-                    "damping": 0.00050000002374872565,
-                    "bandwidth": 0.99949997663497925,
-                    "tail": 0.34000000000000002
-                },
-                "parameters": {}
-            },
-            "gate": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "decay": 50.0,
-                    "gaterange": -90.0,
-                    "threshold": -50.0,
-                    "hold": 50.0,
-                    "attack": 5.0,
-                    "switch": 0.5
-                },
-                "parameters": {}
+                    "noClip": 0.0,
+                    "rms": 0.5,
+                    "bypass": 0.0,
+                    "release": 0.05000000074505806,
+                    "threshold": -12.0,
+                    "ratio": 4.5,
+                    "attack": 0.00011652514252328476
+                }
             },
             "onyx": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
+                    "clip": 100.0,
                     "Bass": 0.5,
                     "Vol": 40.0,
-                    "Gain": 50.5,
-                    "Treble": 0.5,
                     "Character": 50.0,
+                    "Gain": 50.5,
                     "Mid": 0.5,
-                    "clip": 100.0
-                },
-                "parameters": {}
+                    "Treble": 0.5
+                }
+            },
+            "gate": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "hold": 50.0,
+                    "gaterange": -90.0,
+                    "switch": 0.5,
+                    "threshold": -50.0,
+                    "attack": 5.0,
+                    "decay": 50.0
+                }
             },
             "faIR_cabsim": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
                     "Attenuation": -5.0,
                     "Model": 0.0
-                },
-                "parameters": {}
+                }
+            },
+            "_bajatubedriver_": {
+                "preset": "",
+                "bypassed": true,
+                "parameters": {},
+                "ports": {
+                    "BYPASS": 0.0,
+                    "TONE": 0.5,
+                    "DRIVE": 0.59999999999999998,
+                    "VOLUME": 0.059999999999999998
+                }
+            },
+            "modulay": {
+                "preset": "",
+                "bypassed": true,
+                "parameters": {},
+                "ports": {
+                    "mix": 25.0,
+                    "tone": 3000.0,
+                    "rate": 2.0,
+                    "time": 500.0,
+                    "repeats": 55.0,
+                    "depth": 1.0,
+                    "morph": 50.0
+                }
             }
         }
     },
     {
         "name": "Mean Lead",
         "data": {
-            "_bajatubedriver_": {
+            "Plate": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "DRIVE": 0.59999999999999998,
-                    "BYPASS": 1.0,
-                    "TONE": 0.5,
-                    "VOLUME": 0.059999999999999998
-                },
-                "parameters": {}
-            },
-            "modulay": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "mix": 25.0,
-                    "time": 500.0,
-                    "rate": 2.0,
-                    "repeats": 55.0,
-                    "depth": 1.0,
-                    "tone": 3000.0,
-                    "morph": 50.0
-                },
-                "parameters": {}
+                    "damping": 0.00050000002374872565,
+                    "blend": 0.14499999999999999,
+                    "bandwidth": 0.99949997663497925,
+                    "tail": 0.34000000000000002
+                }
             },
             "mono": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "bypass": 0.0,
-                    "noClip": 0.0,
-                    "ratio": 4.5,
-                    "attack": 0.00011652514252328476,
-                    "rms": 0.5,
-                    "release": 0.05000000074505806,
                     "gain": -1.0,
-                    "threshold": -12.0
-                },
-                "parameters": {}
-            },
-            "stereo": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": 0.0,
-                    "mute": 0.0
-                },
-                "parameters": {}
-            },
-            "Plate": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "blend": 0.14499999999999999,
-                    "damping": 0.00050000002374872565,
-                    "bandwidth": 0.99949997663497925,
-                    "tail": 0.34000000000000002
-                },
-                "parameters": {}
-            },
-            "gate": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "decay": 50.0,
-                    "gaterange": -90.0,
-                    "threshold": -50.0,
-                    "hold": 50.0,
-                    "attack": 5.0,
-                    "switch": 0.5
-                },
-                "parameters": {}
+                    "noClip": 0.0,
+                    "rms": 0.5,
+                    "bypass": 0.0,
+                    "release": 0.05000000074505806,
+                    "threshold": -12.0,
+                    "ratio": 4.5,
+                    "attack": 0.00011652514252328476
+                }
             },
             "onyx": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
+                    "clip": 600.0,
                     "Bass": 0.5,
                     "Vol": 40.0,
-                    "Gain": 50.5,
-                    "Treble": 0.5,
                     "Character": 50.0,
+                    "Gain": 50.5,
                     "Mid": 0.5,
-                    "clip": 600.0
-                },
-                "parameters": {}
+                    "Treble": 0.5
+                }
+            },
+            "gate": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "hold": 50.0,
+                    "gaterange": -90.0,
+                    "switch": 0.5,
+                    "threshold": -50.0,
+                    "attack": 5.0,
+                    "decay": 50.0
+                }
             },
             "faIR_cabsim": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
                     "Attenuation": -5.0,
                     "Model": 0.0
-                },
-                "parameters": {}
+                }
+            },
+            "_bajatubedriver_": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "BYPASS": 1.0,
+                    "TONE": 0.5,
+                    "DRIVE": 0.59999999999999998,
+                    "VOLUME": 0.059999999999999998
+                }
+            },
+            "modulay": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "mix": 25.0,
+                    "tone": 3000.0,
+                    "rate": 2.0,
+                    "time": 500.0,
+                    "repeats": 55.0,
+                    "depth": 1.0,
+                    "morph": 50.0
+                }
             }
         }
     },
     {
         "name": "Louder Lead",
         "data": {
-            "_bajatubedriver_": {
-                "preset": "",
-                "bypassed": true,
-                "ports": {
-                    "DRIVE": 0.59999999999999998,
-                    "BYPASS": 0.0,
-                    "TONE": 0.5,
-                    "VOLUME": 0.059999999999999998
-                },
-                "parameters": {}
-            },
-            "modulay": {
+            "Plate": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "mix": 25.0,
-                    "time": 500.0,
-                    "rate": 2.0,
-                    "repeats": 55.0,
-                    "depth": 1.0,
-                    "tone": 3000.0,
-                    "morph": 50.0
-                },
-                "parameters": {}
+                    "damping": 0.00050000002374872565,
+                    "blend": 0.14499999999999999,
+                    "bandwidth": 0.99949997663497925,
+                    "tail": 0.34000000000000002
+                }
             },
             "mono": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "bypass": 0.0,
-                    "noClip": 0.0,
-                    "ratio": 4.5,
-                    "attack": 0.00011652514252328476,
-                    "rms": 0.5,
-                    "release": 0.05000000074505806,
                     "gain": -1.0,
-                    "threshold": -12.0
-                },
-                "parameters": {}
-            },
-            "stereo": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": 0.0,
-                    "mute": 0.0
-                },
-                "parameters": {}
-            },
-            "Plate": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "blend": 0.14499999999999999,
-                    "damping": 0.00050000002374872565,
-                    "bandwidth": 0.99949997663497925,
-                    "tail": 0.34000000000000002
-                },
-                "parameters": {}
-            },
-            "gate": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "decay": 50.0,
-                    "gaterange": -90.0,
-                    "threshold": -50.0,
-                    "hold": 50.0,
-                    "attack": 5.0,
-                    "switch": 0.5
-                },
-                "parameters": {}
+                    "noClip": 0.0,
+                    "rms": 0.5,
+                    "bypass": 0.0,
+                    "release": 0.05000000074505806,
+                    "threshold": -12.0,
+                    "ratio": 4.5,
+                    "attack": 0.00011652514252328476
+                }
             },
             "onyx": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
+                    "clip": 600.0,
                     "Bass": 0.5,
                     "Vol": 40.0,
-                    "Gain": 50.5,
-                    "Treble": 0.5,
                     "Character": 50.0,
+                    "Gain": 50.5,
                     "Mid": 0.5,
-                    "clip": 600.0
-                },
-                "parameters": {}
+                    "Treble": 0.5
+                }
+            },
+            "gate": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "hold": 50.0,
+                    "gaterange": -90.0,
+                    "switch": 0.5,
+                    "threshold": -50.0,
+                    "attack": 5.0,
+                    "decay": 50.0
+                }
             },
             "faIR_cabsim": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
                     "Attenuation": -5.0,
                     "Model": 0.0
-                },
-                "parameters": {}
+                }
+            },
+            "_bajatubedriver_": {
+                "preset": "",
+                "bypassed": true,
+                "parameters": {},
+                "ports": {
+                    "BYPASS": 0.0,
+                    "TONE": 0.5,
+                    "DRIVE": 0.59999999999999998,
+                    "VOLUME": 0.059999999999999998
+                }
+            },
+            "modulay": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "mix": 25.0,
+                    "tone": 3000.0,
+                    "rate": 2.0,
+                    "time": 500.0,
+                    "repeats": 55.0,
+                    "depth": 1.0,
+                    "morph": 50.0
+                }
             }
         }
     },
     {
         "name": "Chill Lead",
         "data": {
-            "_bajatubedriver_": {
-                "preset": "",
-                "bypassed": true,
-                "ports": {
-                    "DRIVE": 0.59999999999999998,
-                    "BYPASS": 0.0,
-                    "TONE": 0.5,
-                    "VOLUME": 0.059999999999999998
-                },
-                "parameters": {}
-            },
-            "modulay": {
+            "Plate": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "mix": 25.0,
-                    "time": 500.0,
-                    "rate": 2.0,
-                    "repeats": 55.0,
-                    "depth": 1.0,
-                    "tone": 3000.0,
-                    "morph": 50.0
-                },
-                "parameters": {}
+                    "damping": 0.00050000002374872565,
+                    "blend": 0.14499999999999999,
+                    "bandwidth": 0.99949997663497925,
+                    "tail": 0.34000000000000002
+                }
             },
             "mono": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
-                    "bypass": 0.0,
-                    "noClip": 0.0,
-                    "ratio": 4.5,
-                    "attack": 0.00011652514252328476,
-                    "rms": 0.5,
-                    "release": 0.05000000074505806,
                     "gain": -1.0,
-                    "threshold": -12.0
-                },
-                "parameters": {}
-            },
-            "stereo": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "enable": 1.0,
-                    "gain": 0.0,
-                    "mute": 0.0
-                },
-                "parameters": {}
-            },
-            "Plate": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "blend": 0.14499999999999999,
-                    "damping": 0.00050000002374872565,
-                    "bandwidth": 0.99949997663497925,
-                    "tail": 0.34000000000000002
-                },
-                "parameters": {}
-            },
-            "gate": {
-                "preset": "",
-                "bypassed": false,
-                "ports": {
-                    "decay": 50.0,
-                    "gaterange": -90.0,
-                    "threshold": -50.0,
-                    "hold": 50.0,
-                    "attack": 5.0,
-                    "switch": 0.5
-                },
-                "parameters": {}
+                    "noClip": 0.0,
+                    "rms": 0.5,
+                    "bypass": 0.0,
+                    "release": 0.05000000074505806,
+                    "threshold": -12.0,
+                    "ratio": 4.5,
+                    "attack": 0.00011652514252328476
+                }
             },
             "onyx": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
+                    "clip": 250.0,
                     "Bass": 0.5,
                     "Vol": 40.0,
-                    "Gain": 50.5,
-                    "Treble": 0.5,
                     "Character": 50.0,
+                    "Gain": 50.5,
                     "Mid": 0.5,
-                    "clip": 250.0
-                },
-                "parameters": {}
+                    "Treble": 0.5
+                }
+            },
+            "gate": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "hold": 50.0,
+                    "gaterange": -90.0,
+                    "switch": 0.5,
+                    "threshold": -50.0,
+                    "attack": 5.0,
+                    "decay": 50.0
+                }
             },
             "faIR_cabsim": {
                 "preset": "",
                 "bypassed": false,
+                "parameters": {},
                 "ports": {
                     "Attenuation": -5.0,
                     "Model": 0.0
-                },
-                "parameters": {}
+                }
+            },
+            "_bajatubedriver_": {
+                "preset": "",
+                "bypassed": true,
+                "parameters": {},
+                "ports": {
+                    "BYPASS": 0.0,
+                    "TONE": 0.5,
+                    "DRIVE": 0.59999999999999998,
+                    "VOLUME": 0.059999999999999998
+                }
+            },
+            "modulay": {
+                "preset": "",
+                "bypassed": false,
+                "parameters": {},
+                "ports": {
+                    "mix": 25.0,
+                    "tone": 3000.0,
+                    "rate": 2.0,
+                    "time": 500.0,
+                    "repeats": 55.0,
+                    "depth": 1.0,
+                    "morph": 50.0
+                }
             }
         }
     }

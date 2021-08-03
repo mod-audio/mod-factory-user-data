@@ -2,232 +2,236 @@
     {
         "name": "2M In ST Out",
         "data": {
-            "mono_1": {
-                "parameters": {},
+            "xfade": {
                 "preset": "",
                 "ports": {
-                    "mute": 0.0,
-                    "gain": 5.0,
-                    "enable": 1.0
+                    "xfade": 0.0,
+                    "shape": 0.0,
+                    "mode": 0.0
                 },
+                "parameters": {},
+                "bypassed": false
+            },
+            "xfade_1": {
+                "preset": "",
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "bypassed": false
+            },
+            "xfade_3": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Wider": {
+                "preset": "",
+                "ports": {
+                    "width": 0.80000001192092896,
+                    "pan": 0.0
+                },
+                "parameters": {},
+                "bypassed": false
+            },
+            "xfade_2": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "_shimmizita_": {
+                "preset": "",
+                "ports": {
+                    "EnvTime": 0.10000000149011612,
+                    "Mix": 1.0,
+                    "FreqHigh": 6000.0,
+                    "Mode": 3.0,
+                    "LFOSpeed": 0.24799999594688416,
+                    "DecayLow": 2.5072460174560547,
+                    "DecayHigh": 3.1304349899291992,
+                    "PitchMix": 1.0,
+                    "ModDepth": 1.0,
+                    "PitchShift": 6.0,
+                    "ModSource": 1.0,
+                    "FreqLow": 200.0
+                },
+                "parameters": {},
                 "bypassed": false
             },
             "floaty": {
-                "parameters": {},
                 "preset": "",
                 "ports": {
-                    "warp": 50.0,
                     "mix": 100.0,
                     "feedback": 4.6875,
                     "filter": 25.0,
                     "rate": 1.0,
-                    "delay": 375.02343896493528
+                    "delay": 375.02343896493528,
+                    "warp": 50.0
                 },
+                "parameters": {},
                 "bypassed": false
             },
-            "mono": {
-                "parameters": {},
-                "preset": "",
+            "Gain_1": {
+                "bypassed": false,
                 "ports": {
-                    "mute": 0.0,
-                    "gain": -12.0,
-                    "enable": 1.0
+                    "Gain": -12.0
                 },
-                "bypassed": false
+                "parameters": {},
+                "preset": ""
             },
-            "_shimmizita_": {
-                "parameters": {},
-                "preset": "",
+            "Gain2x2_1": {
+                "bypassed": false,
                 "ports": {
-                    "EnvTime": 0.10000000149011612,
-                    "DecayLow": 2.5072460174560547,
-                    "Mix": 1.0,
-                    "PitchShift": 6.0,
-                    "ModSource": 1.0,
-                    "LFOSpeed": 0.24799999594688416,
-                    "FreqLow": 200.0,
-                    "Mode": 3.0,
-                    "FreqHigh": 6000.0,
-                    "DecayHigh": 3.1304349899291992,
-                    "ModDepth": 1.0,
-                    "PitchMix": 1.0
+                    "Gain": 0.0
                 },
-                "bypassed": false
+                "parameters": {},
+                "preset": ""
             },
-            "xfade": {
-                "parameters": {},
-                "preset": "",
+            "Gain": {
+                "bypassed": false,
                 "ports": {
-                    "xfade": 0.0,
-                    "mode": 0.0,
-                    "shape": 0.0
+                    "Gain": 5.0
                 },
-                "bypassed": false
-            },
-            "xfade_1": {
                 "parameters": {},
-                "preset": "",
-                "ports": {
-                    "xfade": 1.0,
-                    "mode": 0.0,
-                    "shape": 0.0
-                },
-                "bypassed": false
-            },
-            "Wider": {
-                "parameters": {},
-                "preset": "",
-                "ports": {
-                    "pan": 0.0,
-                    "width": 0.80000001192092896
-                },
-                "bypassed": false
-            },
-            "stereo_2": {
-                "parameters": {},
-                "preset": "",
-                "ports": {
-                    "mute": 0.0,
-                    "gain": 0.0,
-                    "enable": 1.0
-                },
-                "bypassed": false
-            },
-            "stereo": {
-                "parameters": {},
-                "preset": "",
-                "ports": {
-                    "mute": 0.0,
-                    "gain": 0.0,
-                    "enable": 1.0
-                },
-                "bypassed": false
-            },
-            "stereo_1": {
-                "parameters": {},
-                "preset": "",
-                "ports": {
-                    "mute": 0.0,
-                    "gain": 0.0,
-                    "enable": 1.0
-                },
-                "bypassed": false
+                "preset": ""
             }
         }
     },
     {
         "name": "2M In 2M Out",
         "data": {
-            "mono_1": {
-                "parameters": {},
+            "xfade": {
                 "preset": "",
                 "ports": {
-                    "mute": 0.0,
-                    "gain": 5.0,
-                    "enable": 1.0
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
                 },
+                "parameters": {},
+                "bypassed": false
+            },
+            "xfade_1": {
+                "preset": "",
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "bypassed": false
+            },
+            "xfade_3": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Wider": {
+                "preset": "",
+                "ports": {
+                    "width": 0.80000001192092896,
+                    "pan": -1.0
+                },
+                "parameters": {},
+                "bypassed": false
+            },
+            "xfade_2": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "_shimmizita_": {
+                "preset": "",
+                "ports": {
+                    "EnvTime": 0.10000000149011612,
+                    "Mix": 1.0,
+                    "FreqHigh": 6000.0,
+                    "Mode": 3.0,
+                    "LFOSpeed": 0.24799999594688416,
+                    "DecayLow": 2.5072460174560547,
+                    "DecayHigh": 3.1304349899291992,
+                    "PitchMix": 1.0,
+                    "ModDepth": 1.0,
+                    "PitchShift": 6.0,
+                    "ModSource": 1.0,
+                    "FreqLow": 200.0
+                },
+                "parameters": {},
                 "bypassed": false
             },
             "floaty": {
-                "parameters": {},
                 "preset": "",
                 "ports": {
-                    "warp": 50.0,
                     "mix": 100.0,
                     "feedback": 4.6875,
                     "filter": 25.0,
                     "rate": 1.0,
-                    "delay": 375.02343896493528
+                    "delay": 375.02343896493528,
+                    "warp": 50.0
                 },
+                "parameters": {},
                 "bypassed": false
             },
-            "mono": {
-                "parameters": {},
-                "preset": "",
+            "Gain_1": {
+                "bypassed": false,
                 "ports": {
-                    "mute": 0.0,
-                    "gain": -12.0,
-                    "enable": 1.0
+                    "Gain": -12.0
                 },
-                "bypassed": false
+                "parameters": {},
+                "preset": ""
             },
-            "_shimmizita_": {
-                "parameters": {},
-                "preset": "",
+            "Gain2x2_1": {
+                "bypassed": false,
                 "ports": {
-                    "EnvTime": 0.10000000149011612,
-                    "DecayLow": 2.5072460174560547,
-                    "Mix": 1.0,
-                    "PitchShift": 6.0,
-                    "ModSource": 1.0,
-                    "LFOSpeed": 0.24799999594688416,
-                    "FreqLow": 200.0,
-                    "Mode": 3.0,
-                    "FreqHigh": 6000.0,
-                    "DecayHigh": 3.1304349899291992,
-                    "ModDepth": 1.0,
-                    "PitchMix": 1.0
+                    "Gain": 0.0
                 },
-                "bypassed": false
+                "parameters": {},
+                "preset": ""
             },
-            "xfade": {
-                "parameters": {},
-                "preset": "",
+            "Gain": {
+                "bypassed": false,
                 "ports": {
-                    "xfade": 1.0,
-                    "mode": 0.0,
-                    "shape": 0.0
+                    "Gain": 5.0
                 },
-                "bypassed": false
-            },
-            "xfade_1": {
                 "parameters": {},
-                "preset": "",
-                "ports": {
-                    "xfade": 1.0,
-                    "mode": 0.0,
-                    "shape": 0.0
-                },
-                "bypassed": false
-            },
-            "Wider": {
-                "parameters": {},
-                "preset": "",
-                "ports": {
-                    "pan": -1.0,
-                    "width": 0.80000001192092896
-                },
-                "bypassed": false
-            },
-            "stereo_2": {
-                "parameters": {},
-                "preset": "",
-                "ports": {
-                    "mute": 0.0,
-                    "gain": 0.0,
-                    "enable": 1.0
-                },
-                "bypassed": false
-            },
-            "stereo": {
-                "parameters": {},
-                "preset": "",
-                "ports": {
-                    "mute": 0.0,
-                    "gain": 0.0,
-                    "enable": 1.0
-                },
-                "bypassed": false
-            },
-            "stereo_1": {
-                "parameters": {},
-                "preset": "",
-                "ports": {
-                    "mute": 0.0,
-                    "gain": 0.0,
-                    "enable": 1.0
-                },
-                "bypassed": false
+                "preset": ""
             }
         }
     }

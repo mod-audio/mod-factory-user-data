@@ -15,6 +15,6 @@
 1. Press "MANAGE CV PORTS"
 2. Click the checkbox next to the CV port you want to make available as a macro
 3. Adress all parameters in your macro to the CV source you just created.""" ;
-		<http://open-music-kontrollers.ch/lv2/notes#fontHeight> "23"^^xsd:int
+		<http://open-music-kontrollers.ch/lv2/notes#fontHeight> "20"^^xsd:int
 	] .
 

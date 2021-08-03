@@ -16,6 +16,6 @@
 1.Patch the dry signal into the top input(s), and the wet signal into the bottom input(s)
 2. Use the SIGNAL A/B parameter to control the DRY/WET ratio
 3. Bypass to hear only the dry signal.""" ;
-		<http://open-music-kontrollers.ch/lv2/notes#fontHeight> "25"^^xsd:int
+		<http://open-music-kontrollers.ch/lv2/notes#fontHeight> "20"^^xsd:int
 	] .
 

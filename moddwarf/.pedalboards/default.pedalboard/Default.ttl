@@ -8,30 +8,30 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <playback_1> .
-
-_:b2
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <playback_2> .
-
-_:b3
-    ingen:tail <capture_1> ;
-    ingen:head <Gain2x2/In1> .
-
-_:b4
     ingen:tail <capture_2> ;
     ingen:head <Gain2x2/In2> .
 
+_:b2
+    ingen:tail <capture_1> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b3
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
+
+_:b4
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
+
 <Gain2x2>
-    ingen:canvasX 2318.0 ;
-    ingen:canvasY 277.0 ;
+    ingen:canvasX 3280.0 ;
+    ingen:canvasY 271.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 11 ;
+    mod:releaseNumber 16 ;
     lv2:port <Gain2x2/In1> ,
              <Gain2x2/In2> ,
              <Gain2x2/Out1> ,
@@ -39,6 +39,7 @@ _:b4
              <Gain2x2/Gain> ,
              <Gain2x2/:bypass> ;
     lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:instanceNumber 0 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -160,7 +161,7 @@ _:b4
     a atom:AtomPort ,
         lv2:OutputPort .
 
-<midi_legacy_mode>
+<midi_separated_mode>
     ingen:value 0 ;
     lv2:index 11 ;
     a atom:AtomPort ,
@@ -175,6 +176,7 @@ _:b4
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
+    pedal:version 1 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -184,7 +186,7 @@ _:b4
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
-             <midi_legacy_mode> ,
+             <midi_separated_mode> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

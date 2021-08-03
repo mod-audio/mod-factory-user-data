@@ -8,40 +8,40 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <shiroverb/lv2_audio_out_1> ;
-    ingen:head <stereo/inL> .
-
-_:b2
     ingen:tail <capture_1> ;
     ingen:head <_quack_/in> .
 
-_:b3
-    ingen:tail <shiroverb/lv2_audio_out_2> ;
-    ingen:head <stereo/inR> .
-
-_:b4
-    ingen:tail <stereo/outL> ;
-    ingen:head <playback_1> .
-
-_:b5
-    ingen:tail <stereo/outR> ;
-    ingen:head <playback_2> .
-
-_:b6
+_:b2
     ingen:tail <studiopre/out> ;
     ingen:head <faIR_cabsim/In> .
 
-_:b7
+_:b3
     ingen:tail <_quack_/out> ;
     ingen:head <mono/in> .
 
-_:b8
+_:b4
+    ingen:tail <mono/out> ;
+    ingen:head <studiopre/in> .
+
+_:b5
     ingen:tail <faIR_cabsim/Out> ;
     ingen:head <shiroverb/lv2_audio_in_1> .
 
+_:b6
+    ingen:tail <shiroverb/lv2_audio_out_1> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b7
+    ingen:tail <shiroverb/lv2_audio_out_2> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b8
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
+
 _:b9
-    ingen:tail <mono/out> ;
-    ingen:head <studiopre/in> .
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
 
 <shiroverb>
     ingen:canvasX 2883.0 ;
@@ -77,28 +77,18 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<shiroverb/roomsize>
+<shiroverb/mix>
+    ingen:value 25.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/bandwidth>
     ingen:value 75.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <shiroverb/shimmer>
     ingen:value 50.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/mix>
-    ingen:value 25.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/ratio>
-    ingen:value 2.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/decay>
-    ingen:value 38.125000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -112,7 +102,17 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<shiroverb/bandwidth>
+<shiroverb/ratio>
+    ingen:value 2.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/decay>
+    ingen:value 38.125000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/roomsize>
     ingen:value 75.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -122,65 +122,48 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo>
-    ingen:canvasX 3533.0 ;
-    ingen:canvasY 543.0 ;
+<Gain2x2>
+    ingen:canvasX 3378.9 ;
+    ingen:canvasY 513.6 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
-    lv2:minorVersion 770 ;
+    lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 7 ;
-    lv2:port <stereo/inL> ,
-             <stereo/inR> ,
-             <stereo/outL> ,
-             <stereo/outR> ,
-             <stereo/gain> ,
-             <stereo/enable> ,
-             <stereo/mute> ,
-             <stereo/level> ,
-             <stereo/:bypass> ;
-    lv2:prototype <http://gareus.org/oss/lv2/tinygain#stereo> ;
-    pedal:instanceNumber 1 ;
+    mod:releaseNumber 16 ;
+    lv2:port <Gain2x2/In1> ,
+             <Gain2x2/In2> ,
+             <Gain2x2/Out1> ,
+             <Gain2x2/Out2> ,
+             <Gain2x2/Gain> ,
+             <Gain2x2/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:instanceNumber 18 ;
     pedal:preset <> ;
     a ingen:Block .
 
-<stereo/inL>
+<Gain2x2/In1>
     a lv2:AudioPort ,
         lv2:InputPort .
 
-<stereo/inR>
+<Gain2x2/In2>
     a lv2:AudioPort ,
         lv2:InputPort .
 
-<stereo/inL>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<stereo/inR>
+<Gain2x2/In1>
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<stereo/enable>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
 
-<stereo/mute>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/gain>
+<Gain2x2/Gain>
     ingen:value -5.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo/level>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<stereo/:bypass>
+<Gain2x2/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -212,13 +195,13 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<faIR_cabsim/Model>
-    ingen:value 9.000000 ;
+<faIR_cabsim/Attenuation>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<faIR_cabsim/Attenuation>
-    ingen:value 0.000000 ;
+<faIR_cabsim/Model>
+    ingen:value 9.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -257,18 +240,13 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<studiopre/treble>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/middle>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <studiopre/bright>
     ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/bass>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -277,7 +255,12 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<studiopre/bass>
+<studiopre/middle>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/treble>
     ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -320,8 +303,8 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_quack_/DRIVE>
-    ingen:value 0.000000 ;
+<_quack_/PEAK>
+    ingen:value 10.250000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -330,22 +313,17 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_quack_/PEAK>
-    ingen:value 10.250000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_quack_/RANGE>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_quack_/GAIN>
+<_quack_/DRIVE>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <_quack_/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_quack_/GAIN>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -357,6 +335,11 @@ _:b9
 
 <_quack_/MODE>
     ingen:value 2.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_quack_/RANGE>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -402,8 +385,8 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<mono/release>
-    ingen:value 0.050000 ;
+<mono/gain>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -417,13 +400,8 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/attack>
-    ingen:value 0.000213 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/gain>
-    ingen:value 0.000000 ;
+<mono/rms>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -432,13 +410,18 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/rms>
-    ingen:value 0.500000 ;
+<mono/threshold>
+    ingen:value -18.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/threshold>
-    ingen:value -18.000000 ;
+<mono/attack>
+    ingen:value 0.000213 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/release>
+    ingen:value 0.050000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -561,12 +544,6 @@ _:b9
     a atom:AtomPort ,
         lv2:InputPort .
 
-<midi_loopback>
-    ingen:value 0 ;
-    lv2:index 12 ;
-    a atom:AtomPort ,
-        lv2:InputPort .
-
 <>
     doap:name "GRIG:Alembic" ;
     pedal:unitName "MOD Dwarf" ;
@@ -576,7 +553,7 @@ _:b9
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 16 ;
+    pedal:version 18 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -588,7 +565,7 @@ _:b9
               _:b8 ,
               _:b9 ;
     ingen:block <shiroverb> ,
-                <stereo> ,
+                <Gain2x2> ,
                 <faIR_cabsim> ,
                 <studiopre> ,
                 <_quack_> ,
@@ -597,7 +574,6 @@ _:b9
              <:bpm> ,
              <:rolling> ,
              <midi_separated_mode> ,
-             <midi_loopback> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

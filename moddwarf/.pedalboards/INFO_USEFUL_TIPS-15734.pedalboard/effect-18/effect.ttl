@@ -15,6 +15,6 @@
 -Click on a plugin to zoom in
 -While zoomed in, click + drag the background to move around in the pedalboard
 -Double click on the background to zoom out""" ;
-		<http://open-music-kontrollers.ch/lv2/notes#fontHeight> "25"^^xsd:int
+		<http://open-music-kontrollers.ch/lv2/notes#fontHeight> "20"^^xsd:int
 	] .
 

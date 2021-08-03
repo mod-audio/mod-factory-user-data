@@ -1,776 +1,764 @@
 [
     {
+        "name": "Dry",
         "data": {
-            "mod_volume_2x2_1": {
-                "parameters": {},
-                "ports": {
-                    "Volume": 0.65600000000000003,
-                    "PluginEnabled": 1.0,
-                    "Mode": 1.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
             "mod_volume_2x2": {
-                "parameters": {},
+                "bypassed": false,
                 "ports": {
+                    "Mode": 1.0,
                     "Volume": 0.0,
-                    "PluginEnabled": 1.0,
-                    "Mode": 1.0
+                    "PluginEnabled": 1.0
                 },
-                "preset": "",
-                "bypassed": false
+                "parameters": {},
+                "preset": ""
+            },
+            "xfade": {
+                "bypassed": false,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
             },
             "bolliedelay": {
-                "parameters": {},
+                "bypassed": false,
                 "ports": {
-                    "low_q": 1.0,
                     "mix": 100.0,
-                    "high_on": 0.0,
-                    "high_q": 1.0,
-                    "high_f": 7500.0,
-                    "div_r": 3.0,
-                    "tap": 0.0,
-                    "tempo_mode": 0.0,
-                    "crossf": 35.0,
-                    "feedback": 70.0,
                     "div_l": 2.0,
-                    "low_f": 20.0,
                     "low_on": 0.0,
+                    "low_f": 20.0,
+                    "tempo_mode": 0.0,
+                    "high_f": 7500.0,
+                    "tempo_host": 120.0,
+                    "high_on": 0.0,
+                    "feedback": 70.0,
+                    "low_q": 1.0,
+                    "tap": 0.0,
+                    "crossf": 35.0,
                     "tempo_user": 120.0,
-                    "tempo_host": 120.0
+                    "div_r": 3.0,
+                    "high_q": 1.0
                 },
-                "preset": "",
-                "bypassed": false
-            },
-            "stereo_1": {
                 "parameters": {},
+                "preset": ""
+            },
+            "reve": {
+                "bypassed": false,
                 "ports": {
-                    "gain": 0.0,
-                    "mute": 0.0,
-                    "enable": 1.0
+                    "DAMP": 71.0,
+                    "WETDRY": 0.0,
+                    "BYPASS": 0.0,
+                    "IDEL": 0.0,
+                    "TYPE": 0.0,
+                    "RS": 25.0,
+                    "TIME": 14.0,
+                    "IDELFB": 0.0,
+                    "LPF": 25040.0,
+                    "PAN": 0.0,
+                    "HPF": 27.0
+                },
+                "parameters": {},
+                "preset": "http://rakarrack.sourceforge.net/effects.html#reve:preset:basement"
+            },
+            "mod_volume_2x2_2": {
+                "bypassed": false,
+                "ports": {
+                    "Mode": 1.0,
+                    "Volume": 0.56299999999999994,
+                    "PluginEnabled": 1.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "xfade_1": {
+                "bypassed": false,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "Flanger": {
+                "bypassed": false,
+                "ports": {
+                    "min_delay": 1.9606980085372925,
+                    "stereo": 90.0,
+                    "feedback": 0.7734379768371582,
+                    "mod_depth": 10.0,
+                    "mod_rate": 0.045653000473976135,
+                    "dry": 0.0,
+                    "amount": 0.5,
+                    "reset": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "mod_volume_2x2_1": {
+                "bypassed": false,
+                "ports": {
+                    "Mode": 1.0,
+                    "Volume": 0.65600000000000003,
+                    "PluginEnabled": 1.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "filta": {
+                "bypassed": true,
+                "ports": {
+                    "active": 1.0,
+                    "frequency_control": 0.68799999999999994
+                },
+                "parameters": {},
+                "preset": ""
+            }
+        }
+    },
+    {
+        "name": "HPF Delay Flanger",
+        "data": {
+            "mod_volume_2x2": {
+                "ports": {
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.0,
+                    "Mode": 1.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "xfade": {
-                "parameters": {},
                 "ports": {
-                    "shape": 0.0,
                     "xfade": 1.0,
+                    "shape": 0.0,
                     "mode": 0.0
                 },
                 "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "bolliedelay": {
+                "ports": {
+                    "mix": 100.0,
+                    "div_l": 2.0,
+                    "low_on": 0.0,
+                    "high_q": 1.0,
+                    "tempo_mode": 0.0,
+                    "high_f": 7500.0,
+                    "feedback": 70.0,
+                    "tempo_host": 120.0,
+                    "low_q": 1.0,
+                    "high_on": 0.0,
+                    "low_f": 20.0,
+                    "crossf": 35.0,
+                    "tempo_user": 120.0,
+                    "div_r": 3.0,
+                    "tap": 0.0
+                },
+                "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "Flanger": {
-                "parameters": {},
                 "ports": {
-                    "stereo": 90.0,
-                    "feedback": 0.7734379768371582,
-                    "reset": 0.0,
-                    "mod_rate": 0.045653000473976135,
-                    "amount": 0.5,
                     "min_delay": 1.9606980085372925,
                     "mod_depth": 10.0,
-                    "dry": 0.0
+                    "feedback": 0.7734379768371582,
+                    "dry": 0.0,
+                    "amount": 0.5,
+                    "stereo": 90.0,
+                    "reset": 0.0,
+                    "mod_rate": 0.045653000473976135
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "mod_volume_2x2_2": {
-                "parameters": {},
                 "ports": {
-                    "Volume": 0.56299999999999994,
                     "PluginEnabled": 1.0,
+                    "Volume": 0.56299999999999994,
                     "Mode": 1.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "reve": {
-                "parameters": {},
                 "ports": {
-                    "BYPASS": 0.0,
                     "RS": 25.0,
-                    "PAN": 0.0,
-                    "IDELFB": 0.0,
-                    "DAMP": 71.0,
-                    "HPF": 27.0,
-                    "IDEL": 0.0,
-                    "TIME": 14.0,
-                    "TYPE": 0.0,
                     "LPF": 25040.0,
-                    "WETDRY": 0.0
+                    "TYPE": 0.0,
+                    "IDEL": 0.0,
+                    "IDELFB": 0.0,
+                    "WETDRY": 0.0,
+                    "TIME": 14.0,
+                    "BYPASS": 0.0,
+                    "PAN": 0.0,
+                    "HPF": 27.0,
+                    "DAMP": 71.0
                 },
                 "preset": "http://rakarrack.sourceforge.net/effects.html#reve:preset:basement",
+                "parameters": {},
                 "bypassed": false
             },
-            "stereo": {
-                "parameters": {},
+            "mod_volume_2x2_1": {
                 "ports": {
-                    "gain": 0.0,
-                    "mute": 1.0,
-                    "enable": 1.0
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.65600000000000003,
+                    "Mode": 1.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "filta": {
-                "parameters": {},
                 "ports": {
                     "active": 1.0,
                     "frequency_control": 0.68799999999999994
                 },
                 "preset": "",
-                "bypassed": true
+                "parameters": {},
+                "bypassed": false
+            },
+            "xfade_1": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
             }
-        },
-        "name": "Dry"
+        }
     },
     {
+        "name": "Mild Delay Flange",
         "data": {
-            "mod_volume_2x2_1": {
-                "parameters": {},
-                "ports": {
-                    "Volume": 0.65600000000000003,
-                    "PluginEnabled": 1.0,
-                    "Mode": 1.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
             "mod_volume_2x2": {
-                "parameters": {},
                 "ports": {
-                    "Volume": 0.0,
                     "PluginEnabled": 1.0,
+                    "Volume": 0.0,
                     "Mode": 1.0
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "bolliedelay": {
                 "parameters": {},
-                "ports": {
-                    "low_q": 1.0,
-                    "mix": 100.0,
-                    "high_on": 0.0,
-                    "high_q": 1.0,
-                    "high_f": 7500.0,
-                    "div_r": 3.0,
-                    "tap": 0.0,
-                    "tempo_mode": 0.0,
-                    "crossf": 35.0,
-                    "feedback": 70.0,
-                    "div_l": 2.0,
-                    "low_f": 20.0,
-                    "low_on": 0.0,
-                    "tempo_user": 120.0,
-                    "tempo_host": 120.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "stereo_1": {
-                "parameters": {},
-                "ports": {
-                    "gain": 0.0,
-                    "mute": 0.0,
-                    "enable": 1.0
-                },
-                "preset": "",
                 "bypassed": false
             },
             "xfade": {
-                "parameters": {},
                 "ports": {
-                    "shape": 0.0,
                     "xfade": 1.0,
+                    "shape": 0.0,
                     "mode": 0.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
-            "Flanger": {
-                "parameters": {},
+            "Gain2x2": {
+                "bypassed": false,
                 "ports": {
-                    "stereo": 90.0,
-                    "feedback": 0.7734379768371582,
-                    "reset": 0.0,
-                    "mod_rate": 0.045653000473976135,
-                    "amount": 0.5,
-                    "min_delay": 1.9606980085372925,
-                    "mod_depth": 10.0,
-                    "dry": 0.0
+                    "Gain": 0.0
                 },
-                "preset": "",
-                "bypassed": false
-            },
-            "mod_volume_2x2_2": {
                 "parameters": {},
-                "ports": {
-                    "Volume": 0.56299999999999994,
-                    "PluginEnabled": 1.0,
-                    "Mode": 1.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "reve": {
-                "parameters": {},
-                "ports": {
-                    "BYPASS": 0.0,
-                    "RS": 25.0,
-                    "PAN": 0.0,
-                    "IDELFB": 0.0,
-                    "DAMP": 71.0,
-                    "HPF": 27.0,
-                    "IDEL": 0.0,
-                    "TIME": 14.0,
-                    "TYPE": 0.0,
-                    "LPF": 25040.0,
-                    "WETDRY": 0.0
-                },
-                "preset": "http://rakarrack.sourceforge.net/effects.html#reve:preset:basement",
-                "bypassed": false
-            },
-            "stereo": {
-                "parameters": {},
-                "ports": {
-                    "gain": 0.0,
-                    "mute": 0.0,
-                    "enable": 1.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "filta": {
-                "parameters": {},
-                "ports": {
-                    "active": 1.0,
-                    "frequency_control": 0.68799999999999994
-                },
-                "preset": "",
-                "bypassed": false
-            }
-        },
-        "name": "HPF Delay Flanger"
-    },
-    {
-        "data": {
-            "mod_volume_2x2_1": {
-                "parameters": {},
-                "ports": {
-                    "Volume": 0.313,
-                    "PluginEnabled": 1.0,
-                    "Mode": 1.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "mod_volume_2x2": {
-                "parameters": {},
-                "ports": {
-                    "Volume": 0.0,
-                    "PluginEnabled": 1.0,
-                    "Mode": 1.0
-                },
-                "preset": "",
-                "bypassed": false
+                "preset": ""
             },
             "bolliedelay": {
-                "parameters": {},
                 "ports": {
-                    "low_q": 1.0,
                     "mix": 100.0,
-                    "high_on": 0.0,
-                    "high_q": 1.0,
-                    "high_f": 7500.0,
-                    "div_r": 3.0,
-                    "tap": 0.0,
-                    "tempo_mode": 0.0,
-                    "crossf": 35.0,
-                    "feedback": 70.0,
                     "div_l": 2.0,
-                    "low_f": 20.0,
                     "low_on": 0.0,
+                    "high_q": 1.0,
+                    "tempo_mode": 0.0,
+                    "high_f": 7500.0,
+                    "feedback": 70.0,
+                    "tempo_host": 120.0,
+                    "low_q": 1.0,
+                    "high_on": 0.0,
+                    "low_f": 20.0,
+                    "crossf": 35.0,
                     "tempo_user": 120.0,
-                    "tempo_host": 120.0
+                    "div_r": 3.0,
+                    "tap": 0.0
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "stereo_1": {
                 "parameters": {},
-                "ports": {
-                    "gain": 0.0,
-                    "mute": 0.0,
-                    "enable": 1.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "xfade": {
-                "parameters": {},
-                "ports": {
-                    "shape": 0.0,
-                    "xfade": 1.0,
-                    "mode": 0.0
-                },
-                "preset": "",
                 "bypassed": false
             },
             "Flanger": {
-                "parameters": {},
                 "ports": {
-                    "stereo": 90.0,
-                    "feedback": 0.7734379768371582,
-                    "reset": 0.0,
-                    "mod_rate": 0.045653000473976135,
-                    "amount": 0.5,
                     "min_delay": 1.9606980085372925,
                     "mod_depth": 10.0,
-                    "dry": 0.0
+                    "feedback": 0.7734379768371582,
+                    "dry": 0.0,
+                    "amount": 0.5,
+                    "stereo": 90.0,
+                    "reset": 0.0,
+                    "mod_rate": 0.045653000473976135
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "mod_volume_2x2_2": {
-                "parameters": {},
                 "ports": {
+                    "PluginEnabled": 1.0,
                     "Volume": 0.125,
-                    "PluginEnabled": 1.0,
                     "Mode": 1.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "reve": {
-                "parameters": {},
                 "ports": {
-                    "BYPASS": 0.0,
                     "RS": 25.0,
-                    "PAN": 0.0,
-                    "IDELFB": 0.0,
-                    "DAMP": 71.0,
-                    "HPF": 27.0,
-                    "IDEL": 0.0,
-                    "TIME": 14.0,
-                    "TYPE": 0.0,
                     "LPF": 25040.0,
-                    "WETDRY": 0.0
+                    "TYPE": 0.0,
+                    "IDEL": 0.0,
+                    "IDELFB": 0.0,
+                    "WETDRY": 0.0,
+                    "TIME": 14.0,
+                    "BYPASS": 0.0,
+                    "PAN": 0.0,
+                    "HPF": 27.0,
+                    "DAMP": 71.0
                 },
                 "preset": "http://rakarrack.sourceforge.net/effects.html#reve:preset:basement",
+                "parameters": {},
                 "bypassed": false
             },
-            "stereo": {
-                "parameters": {},
+            "mod_volume_2x2_1": {
                 "ports": {
-                    "gain": 0.0,
-                    "mute": 0.0,
-                    "enable": 1.0
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.313,
+                    "Mode": 1.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "filta": {
-                "parameters": {},
                 "ports": {
                     "active": 1.0,
                     "frequency_control": 0.68799999999999994
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": true
+            },
+            "xfade_1": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
             }
-        },
-        "name": "Mild Delay Flange"
+        }
     },
     {
+        "name": "Room Verb",
         "data": {
-            "mod_volume_2x2_1": {
-                "parameters": {},
-                "ports": {
-                    "Volume": 0.0,
-                    "PluginEnabled": 1.0,
-                    "Mode": 1.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
             "mod_volume_2x2": {
-                "parameters": {},
                 "ports": {
-                    "Volume": 1.0,
                     "PluginEnabled": 1.0,
+                    "Volume": 1.0,
                     "Mode": 1.0
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "bolliedelay": {
                 "parameters": {},
-                "ports": {
-                    "low_q": 1.0,
-                    "mix": 100.0,
-                    "high_on": 0.0,
-                    "high_q": 1.0,
-                    "high_f": 7500.0,
-                    "div_r": 3.0,
-                    "tap": 0.0,
-                    "tempo_mode": 0.0,
-                    "crossf": 35.0,
-                    "feedback": 70.0,
-                    "div_l": 2.0,
-                    "low_f": 20.0,
-                    "low_on": 0.0,
-                    "tempo_user": 120.0,
-                    "tempo_host": 120.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "stereo_1": {
-                "parameters": {},
-                "ports": {
-                    "gain": 0.0,
-                    "mute": 0.0,
-                    "enable": 1.0
-                },
-                "preset": "",
                 "bypassed": false
             },
             "xfade": {
-                "parameters": {},
                 "ports": {
-                    "shape": 0.0,
                     "xfade": 1.0,
+                    "shape": 0.0,
                     "mode": 0.0
                 },
                 "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "bolliedelay": {
+                "ports": {
+                    "mix": 100.0,
+                    "div_l": 2.0,
+                    "low_on": 0.0,
+                    "high_q": 1.0,
+                    "tempo_mode": 0.0,
+                    "high_f": 7500.0,
+                    "feedback": 70.0,
+                    "tempo_host": 120.0,
+                    "low_q": 1.0,
+                    "high_on": 0.0,
+                    "low_f": 20.0,
+                    "crossf": 35.0,
+                    "tempo_user": 120.0,
+                    "div_r": 3.0,
+                    "tap": 0.0
+                },
+                "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "Flanger": {
-                "parameters": {},
                 "ports": {
-                    "stereo": 90.0,
-                    "feedback": 0.7734379768371582,
-                    "reset": 0.0,
-                    "mod_rate": 0.045653000473976135,
-                    "amount": 0.5,
                     "min_delay": 1.9606980085372925,
                     "mod_depth": 10.0,
-                    "dry": 0.0
+                    "feedback": 0.7734379768371582,
+                    "dry": 0.0,
+                    "amount": 0.5,
+                    "stereo": 90.0,
+                    "reset": 0.0,
+                    "mod_rate": 0.045653000473976135
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "mod_volume_2x2_2": {
-                "parameters": {},
                 "ports": {
-                    "Volume": 0.0,
                     "PluginEnabled": 1.0,
+                    "Volume": 0.0,
                     "Mode": 1.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "reve": {
-                "parameters": {},
                 "ports": {
-                    "BYPASS": 0.0,
                     "RS": 25.0,
-                    "PAN": 0.0,
-                    "IDELFB": 0.0,
-                    "DAMP": 71.0,
-                    "HPF": 27.0,
-                    "IDEL": 0.0,
-                    "TIME": 14.0,
-                    "TYPE": 0.0,
                     "LPF": 25040.0,
-                    "WETDRY": 0.0
+                    "TYPE": 0.0,
+                    "IDEL": 0.0,
+                    "IDELFB": 0.0,
+                    "WETDRY": 0.0,
+                    "TIME": 14.0,
+                    "BYPASS": 0.0,
+                    "PAN": 0.0,
+                    "HPF": 27.0,
+                    "DAMP": 71.0
                 },
                 "preset": "http://rakarrack.sourceforge.net/effects.html#reve:preset:basement",
+                "parameters": {},
                 "bypassed": false
             },
-            "stereo": {
-                "parameters": {},
+            "mod_volume_2x2_1": {
                 "ports": {
-                    "gain": 0.0,
-                    "mute": 0.0,
-                    "enable": 1.0
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.0,
+                    "Mode": 1.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "filta": {
-                "parameters": {},
                 "ports": {
                     "active": 1.0,
                     "frequency_control": 0.68799999999999994
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": true
+            },
+            "xfade_1": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
             }
-        },
-        "name": "Room Verb"
+        }
     },
     {
+        "name": "HPF Room Flanger",
         "data": {
-            "mod_volume_2x2_1": {
-                "parameters": {},
-                "ports": {
-                    "Volume": 1.0,
-                    "PluginEnabled": 1.0,
-                    "Mode": 1.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
             "mod_volume_2x2": {
-                "parameters": {},
                 "ports": {
-                    "Volume": 1.0,
                     "PluginEnabled": 1.0,
+                    "Volume": 1.0,
                     "Mode": 1.0
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "bolliedelay": {
                 "parameters": {},
-                "ports": {
-                    "low_q": 1.0,
-                    "mix": 100.0,
-                    "high_on": 0.0,
-                    "high_q": 1.0,
-                    "high_f": 7500.0,
-                    "div_r": 3.0,
-                    "tap": 0.0,
-                    "tempo_mode": 0.0,
-                    "crossf": 35.0,
-                    "feedback": 70.0,
-                    "div_l": 2.0,
-                    "low_f": 20.0,
-                    "low_on": 0.0,
-                    "tempo_user": 120.0,
-                    "tempo_host": 120.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "stereo_1": {
-                "parameters": {},
-                "ports": {
-                    "gain": 0.0,
-                    "mute": 0.0,
-                    "enable": 1.0
-                },
-                "preset": "",
                 "bypassed": false
             },
             "xfade": {
-                "parameters": {},
                 "ports": {
-                    "shape": 0.0,
                     "xfade": 1.0,
+                    "shape": 0.0,
                     "mode": 0.0
                 },
                 "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "bolliedelay": {
+                "ports": {
+                    "mix": 100.0,
+                    "div_l": 2.0,
+                    "low_on": 0.0,
+                    "high_q": 1.0,
+                    "tempo_mode": 0.0,
+                    "high_f": 7500.0,
+                    "feedback": 70.0,
+                    "tempo_host": 120.0,
+                    "low_q": 1.0,
+                    "high_on": 0.0,
+                    "low_f": 20.0,
+                    "crossf": 35.0,
+                    "tempo_user": 120.0,
+                    "div_r": 3.0,
+                    "tap": 0.0
+                },
+                "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "Flanger": {
-                "parameters": {},
                 "ports": {
-                    "stereo": 90.0,
-                    "feedback": 0.7734379768371582,
-                    "reset": 0.0,
-                    "mod_rate": 0.045653000473976135,
-                    "amount": 0.5,
                     "min_delay": 1.9606980085372925,
                     "mod_depth": 10.0,
-                    "dry": 0.0
+                    "feedback": 0.7734379768371582,
+                    "dry": 0.0,
+                    "amount": 0.5,
+                    "stereo": 90.0,
+                    "reset": 0.0,
+                    "mod_rate": 0.045653000473976135
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "mod_volume_2x2_2": {
-                "parameters": {},
                 "ports": {
-                    "Volume": 0.0,
                     "PluginEnabled": 1.0,
+                    "Volume": 0.0,
                     "Mode": 1.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "reve": {
-                "parameters": {},
                 "ports": {
-                    "BYPASS": 0.0,
                     "RS": 25.0,
-                    "PAN": 0.0,
-                    "IDELFB": 0.0,
-                    "DAMP": 71.0,
-                    "HPF": 27.0,
-                    "IDEL": 0.0,
-                    "TIME": 14.0,
-                    "TYPE": 0.0,
                     "LPF": 25040.0,
-                    "WETDRY": 0.0
+                    "TYPE": 0.0,
+                    "IDEL": 0.0,
+                    "IDELFB": 0.0,
+                    "WETDRY": 0.0,
+                    "TIME": 14.0,
+                    "BYPASS": 0.0,
+                    "PAN": 0.0,
+                    "HPF": 27.0,
+                    "DAMP": 71.0
                 },
                 "preset": "http://rakarrack.sourceforge.net/effects.html#reve:preset:basement",
+                "parameters": {},
                 "bypassed": false
             },
-            "stereo": {
-                "parameters": {},
+            "mod_volume_2x2_1": {
                 "ports": {
-                    "gain": 0.0,
-                    "mute": 0.0,
-                    "enable": 1.0
+                    "PluginEnabled": 1.0,
+                    "Volume": 1.0,
+                    "Mode": 1.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "filta": {
-                "parameters": {},
                 "ports": {
                     "active": 1.0,
                     "frequency_control": 0.75
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
+            },
+            "xfade_1": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
             }
-        },
-        "name": "HPF Room Flanger"
+        }
     },
     {
+        "name": "Room Mild Delay",
         "data": {
-            "mod_volume_2x2_1": {
-                "parameters": {},
-                "ports": {
-                    "Volume": 0.0,
-                    "PluginEnabled": 1.0,
-                    "Mode": 1.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
             "mod_volume_2x2": {
-                "parameters": {},
                 "ports": {
-                    "Volume": 1.0,
                     "PluginEnabled": 1.0,
+                    "Volume": 1.0,
                     "Mode": 1.0
                 },
                 "preset": "",
-                "bypassed": false
-            },
-            "bolliedelay": {
                 "parameters": {},
-                "ports": {
-                    "low_q": 1.0,
-                    "mix": 100.0,
-                    "high_on": 0.0,
-                    "high_q": 1.0,
-                    "high_f": 7500.0,
-                    "div_r": 3.0,
-                    "tap": 0.0,
-                    "tempo_mode": 0.0,
-                    "crossf": 35.0,
-                    "feedback": 70.0,
-                    "div_l": 2.0,
-                    "low_f": 20.0,
-                    "low_on": 0.0,
-                    "tempo_user": 120.0,
-                    "tempo_host": 120.0
-                },
-                "preset": "",
-                "bypassed": false
-            },
-            "stereo_1": {
-                "parameters": {},
-                "ports": {
-                    "gain": 0.0,
-                    "mute": 0.0,
-                    "enable": 1.0
-                },
-                "preset": "",
                 "bypassed": false
             },
             "xfade": {
-                "parameters": {},
                 "ports": {
-                    "shape": 0.0,
                     "xfade": 1.0,
+                    "shape": 0.0,
                     "mode": 0.0
                 },
                 "preset": "",
+                "parameters": {},
+                "bypassed": false
+            },
+            "Gain2x2": {
+                "bypassed": false,
+                "ports": {
+                    "Gain": 0.0
+                },
+                "parameters": {},
+                "preset": ""
+            },
+            "bolliedelay": {
+                "ports": {
+                    "mix": 100.0,
+                    "div_l": 2.0,
+                    "low_on": 0.0,
+                    "high_q": 1.0,
+                    "tempo_mode": 0.0,
+                    "high_f": 7500.0,
+                    "feedback": 70.0,
+                    "tempo_host": 120.0,
+                    "low_q": 1.0,
+                    "high_on": 0.0,
+                    "low_f": 20.0,
+                    "crossf": 35.0,
+                    "tempo_user": 120.0,
+                    "div_r": 3.0,
+                    "tap": 0.0
+                },
+                "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "Flanger": {
-                "parameters": {},
                 "ports": {
-                    "stereo": 90.0,
-                    "feedback": 0.7734379768371582,
-                    "reset": 0.0,
-                    "mod_rate": 0.045653000473976135,
-                    "amount": 0.5,
                     "min_delay": 1.9606980085372925,
                     "mod_depth": 10.0,
-                    "dry": 0.0
+                    "feedback": 0.7734379768371582,
+                    "dry": 0.0,
+                    "amount": 0.5,
+                    "stereo": 90.0,
+                    "reset": 0.0,
+                    "mod_rate": 0.045653000473976135
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "mod_volume_2x2_2": {
-                "parameters": {},
                 "ports": {
-                    "Volume": 0.28100000000000003,
                     "PluginEnabled": 1.0,
+                    "Volume": 0.28100000000000003,
                     "Mode": 1.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "reve": {
-                "parameters": {},
                 "ports": {
-                    "BYPASS": 0.0,
                     "RS": 25.0,
-                    "PAN": 0.0,
-                    "IDELFB": 0.0,
-                    "DAMP": 71.0,
-                    "HPF": 27.0,
-                    "IDEL": 0.0,
-                    "TIME": 14.0,
-                    "TYPE": 0.0,
                     "LPF": 25040.0,
-                    "WETDRY": 0.0
+                    "TYPE": 0.0,
+                    "IDEL": 0.0,
+                    "IDELFB": 0.0,
+                    "WETDRY": 0.0,
+                    "TIME": 14.0,
+                    "BYPASS": 0.0,
+                    "PAN": 0.0,
+                    "HPF": 27.0,
+                    "DAMP": 71.0
                 },
                 "preset": "http://rakarrack.sourceforge.net/effects.html#reve:preset:basement",
+                "parameters": {},
                 "bypassed": false
             },
-            "stereo": {
-                "parameters": {},
+            "mod_volume_2x2_1": {
                 "ports": {
-                    "gain": 0.0,
-                    "mute": 0.0,
-                    "enable": 1.0
+                    "PluginEnabled": 1.0,
+                    "Volume": 0.0,
+                    "Mode": 1.0
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": false
             },
             "filta": {
-                "parameters": {},
                 "ports": {
                     "active": 1.0,
                     "frequency_control": 0.5
                 },
                 "preset": "",
+                "parameters": {},
                 "bypassed": true
+            },
+            "xfade_1": {
+                "bypassed": true,
+                "ports": {
+                    "xfade": 1.0,
+                    "shape": 0.0,
+                    "mode": 0.0
+                },
+                "parameters": {},
+                "preset": ""
             }
-        },
-        "name": "Room Mild Delay"
+        }
     }
 ]
