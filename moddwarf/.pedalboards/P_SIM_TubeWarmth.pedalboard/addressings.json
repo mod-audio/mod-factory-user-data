@@ -1,0 +1,103 @@
+{
+    "/hmi/group1": [],
+    "/hmi/knob2": [
+        {
+            "tempo": false,
+            "label": "In Gain",
+            "subpage": 2,
+            "group": null,
+            "coloured": false,
+            "maximum": 20.0,
+            "page": 0,
+            "port": "Gain",
+            "instance": "/graph/Gain2x2_1",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": -20.0,
+            "steps": 201
+        },
+        {
+            "tempo": false,
+            "label": "Tape/Tube",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 10.0,
+            "page": 0,
+            "port": "blend",
+            "instance": "/graph/tubewarmth",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": -10.0,
+            "steps": 201
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob3": [
+        {
+            "tempo": false,
+            "label": "Out Lvl",
+            "subpage": 2,
+            "group": null,
+            "coloured": false,
+            "maximum": 20.0,
+            "page": 0,
+            "port": "Gain",
+            "instance": "/graph/Gain2x2",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": -20.0,
+            "steps": 201
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "tempo": false,
+            "label": "TubeWarmth",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 0,
+            "port": ":bypass",
+            "instance": "/graph/xfade_1",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch2": [],
+    "/hmi/knob1": [
+        {
+            "tempo": false,
+            "label": "ST INPUT",
+            "subpage": 2,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 0,
+            "port": ":bypass",
+            "instance": "/graph/xfade",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 33
+        },
+        {
+            "tempo": false,
+            "label": "Drive",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 10.0,
+            "page": 0,
+            "port": "drive",
+            "instance": "/graph/tubewarmth",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.10000000149011612,
+            "steps": 201
+        }
+    ]
+}

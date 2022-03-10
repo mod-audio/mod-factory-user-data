@@ -1,0 +1,179 @@
+{
+    "/bpm": [],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "group": null,
+            "instance": "/graph/xfade",
+            "steps": 33,
+            "label": "Reverb"
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "group": null,
+            "instance": "/graph/Scape_1",
+            "steps": 33,
+            "label": "Scape"
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/knob2": [
+        {
+            "port": "Blur",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 1,
+            "page": 0,
+            "momentary": 0,
+            "minimum": 0.001,
+            "maximum": 15.0,
+            "group": null,
+            "instance": "/graph/Prefreak",
+            "steps": 201,
+            "label": "VRB Blur"
+        },
+        {
+            "port": "feedback",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "group": null,
+            "instance": "/graph/Scape_1",
+            "steps": 201,
+            "label": "SCP FBK"
+        },
+        {
+            "port": ":bpm",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 2,
+            "page": 0,
+            "momentary": 0,
+            "minimum": 20.0,
+            "maximum": 280.0,
+            "group": null,
+            "instance": "/pedalboard",
+            "steps": 260,
+            "label": "Tempo"
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "port": "Level",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 1,
+            "page": 0,
+            "momentary": 0,
+            "minimum": 0.0,
+            "maximum": 1.5,
+            "group": null,
+            "instance": "/graph/Prefreak",
+            "steps": 201,
+            "label": "Verb LVL"
+        },
+        {
+            "port": "divider",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "minimum": 2.0,
+            "maximum": 4.0,
+            "group": null,
+            "instance": "/graph/Scape_1",
+            "steps": 2,
+            "label": "SCP Div"
+        },
+        {
+            "port": "Gain",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 2,
+            "page": 0,
+            "momentary": 0,
+            "minimum": -20.0,
+            "maximum": 10.0,
+            "group": null,
+            "instance": "/graph/Gain2x2",
+            "steps": 201,
+            "label": "Out Lvl"
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "Freq",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 1,
+            "page": 0,
+            "momentary": 0,
+            "minimum": 20.0,
+            "maximum": 20000.0,
+            "group": null,
+            "instance": "/graph/HighPassFilter",
+            "steps": 201,
+            "label": "Verb HPF"
+        },
+        {
+            "port": "blend",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "group": null,
+            "instance": "/graph/Scape_1",
+            "steps": 201,
+            "label": "SCP MIX"
+        },
+        {
+            "port": ":bypass",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 2,
+            "page": 0,
+            "momentary": 0,
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "group": null,
+            "instance": "/graph/xfade_1",
+            "steps": 33,
+            "label": "St Input"
+        }
+    ]
+}

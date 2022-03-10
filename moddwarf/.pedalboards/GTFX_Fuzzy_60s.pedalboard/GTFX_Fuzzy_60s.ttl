@@ -12,24 +12,140 @@ _:b1
     ingen:head <shiroverb/lv2_audio_in_1> .
 
 _:b2
+    ingen:tail <xfade/out_left> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b3
+    ingen:tail <shiroverb/lv2_audio_out_1> ;
+    ingen:head <Gain2x2_1/In1> .
+
+_:b4
+    ingen:tail <xfade/out_right> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b5
+    ingen:tail <shiroverb/lv2_audio_out_2> ;
+    ingen:head <Gain2x2_1/In2> .
+
+_:b6
     ingen:tail <_fuzzface_/out> ;
     ingen:head <_cstb_/in> .
 
-_:b3
+_:b7
+    ingen:tail <Gain2x2_1/Out2> ;
+    ingen:head <playback_2> .
+
+_:b8
+    ingen:tail <Gain2x2_1/Out1> ;
+    ingen:head <playback_1> .
+
+_:b9
     ingen:tail <_cstb_/out> ;
     ingen:head <tremolo/input_0> .
 
-_:b4
+_:b10
     ingen:tail <capture_1> ;
+    ingen:head <xfade/inB_left> .
+
+_:b11
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_left> .
+
+_:b12
+    ingen:tail <Gain/Out> ;
     ingen:head <_fuzzface_/in> .
 
-_:b5
-    ingen:tail <shiroverb/lv2_audio_out_1> ;
-    ingen:head <playback_1> .
+_:b13
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <Gain/In> .
 
-_:b6
-    ingen:tail <shiroverb/lv2_audio_out_2> ;
-    ingen:head <playback_2> .
+_:b14
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <Gain/In> .
+
+_:b15
+    ingen:tail <capture_2> ;
+    ingen:head <xfade/inB_right> .
+
+_:b16
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_right> .
+
+<xfade>
+    ingen:canvasX 268.0 ;
+    ingen:canvasY 284.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 516 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 6 ;
+    lv2:port <xfade/inA_left> ,
+             <xfade/inA_right> ,
+             <xfade/inB_left> ,
+             <xfade/inB_right> ,
+             <xfade/out_left> ,
+             <xfade/out_right> ,
+             <xfade/xfade> ,
+             <xfade/shape> ,
+             <xfade/mode> ,
+             <xfade/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/xfade> ;
+    pedal:instanceNumber 27 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<xfade/inA_left>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade/inA_right>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade/inB_left>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade/inB_right>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade/inA_left>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade/inA_right>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade/inB_left>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade/inB_right>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade/shape>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade/xfade>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade/mode>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
 
 <tremolo>
     ingen:canvasX 2474.0 ;
@@ -64,13 +180,13 @@ _:b6
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<tremolo/depth>
-    ingen:value 81.500000 ;
+<tremolo/frequency>
+    ingen:value 4.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<tremolo/frequency>
-    ingen:value 4.000000 ;
+<tremolo/depth>
+    ingen:value 81.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -80,8 +196,8 @@ _:b6
         lv2:InputPort .
 
 <shiroverb>
-    ingen:canvasX 3127.0 ;
-    ingen:canvasY 430.0 ;
+    ingen:canvasX 2925.0 ;
+    ingen:canvasY 410.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -113,18 +229,8 @@ _:b6
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<shiroverb/mix>
-    ingen:value 25.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/bandwidth>
-    ingen:value 27.790179 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/shimmer>
-    ingen:value 0.000000 ;
+<shiroverb/roomsize>
+    ingen:value 10.343750 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -138,18 +244,28 @@ _:b6
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<shiroverb/shimmer>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <shiroverb/ratio>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<shiroverb/decay>
-    ingen:value 23.050000 ;
+<shiroverb/bandwidth>
+    ingen:value 27.790178 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<shiroverb/roomsize>
-    ingen:value 10.343750 ;
+<shiroverb/decay>
+    ingen:value 23.049999 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/mix>
+    ingen:value 25.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -159,8 +275,8 @@ _:b6
         lv2:InputPort .
 
 <_fuzzface_>
-    ingen:canvasX 1132.0 ;
-    ingen:canvasY 418.0 ;
+    ingen:canvasX 1434.0 ;
+    ingen:canvasY 406.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 3 ;
@@ -185,12 +301,12 @@ _:b6
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_fuzzface_/FUZZ>
+<_fuzzface_/LEVEL>
     ingen:value 0.805000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_fuzzface_/LEVEL>
+<_fuzzface_/FUZZ>
     ingen:value 0.805000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -201,8 +317,8 @@ _:b6
         lv2:InputPort .
 
 <_cstb_>
-    ingen:canvasX 1829.0 ;
-    ingen:canvasY 420.0 ;
+    ingen:canvasX 1961.0 ;
+    ingen:canvasY 406.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 3 ;
@@ -233,18 +349,146 @@ _:b6
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_cstb_/ATTACK>
-    ingen:value 0.765000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <_cstb_/LEVEL>
     ingen:value 0.855000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<_cstb_/ATTACK>
+    ingen:value 0.765000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <_cstb_/:bypass>
     ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain>
+    ingen:canvasX 1012.0 ;
+    ingen:canvasY 780.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 16 ;
+    lv2:port <Gain/In> ,
+             <Gain/Out> ,
+             <Gain/Gain> ,
+             <Gain/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain> ;
+    pedal:instanceNumber 28 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Gain/In>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain/In>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain/Gain>
+    ingen:value -6.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2>
+    ingen:canvasX 649.4 ;
+    ingen:canvasY 520.1 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 16 ;
+    lv2:port <Gain2x2/In1> ,
+             <Gain2x2/In2> ,
+             <Gain2x2/Out1> ,
+             <Gain2x2/Out2> ,
+             <Gain2x2/Gain> ,
+             <Gain2x2/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:instanceNumber 29 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/Gain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2_1>
+    ingen:canvasX 3436.0 ;
+    ingen:canvasY 385.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 16 ;
+    lv2:port <Gain2x2_1/In1> ,
+             <Gain2x2_1/In2> ,
+             <Gain2x2_1/Out1> ,
+             <Gain2x2_1/Out2> ,
+             <Gain2x2_1/Gain> ,
+             <Gain2x2_1/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:instanceNumber 30 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Gain2x2_1/In1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2_1/In2>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2_1/In1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2_1/In2>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2_1/Gain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2_1/:bypass>
+    ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -346,6 +590,12 @@ _:b6
     a atom:AtomPort ,
         lv2:InputPort .
 
+<midi_loopback>
+    ingen:value 0 ;
+    lv2:index 12 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
 <>
     doap:name "GTFX:Fuzzy.60s" ;
     pedal:unitName "MOD Dwarf" ;
@@ -355,22 +605,37 @@ _:b6
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 34 ;
+    pedal:version 37 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
               _:b3 ,
               _:b4 ,
               _:b5 ,
-              _:b6 ;
-    ingen:block <tremolo> ,
+              _:b6 ,
+              _:b7 ,
+              _:b8 ,
+              _:b9 ,
+              _:b10 ,
+              _:b11 ,
+              _:b12 ,
+              _:b13 ,
+              _:b14 ,
+              _:b15 ,
+              _:b16 ;
+    ingen:block <xfade> ,
+                <tremolo> ,
                 <shiroverb> ,
                 <_fuzzface_> ,
-                <_cstb_> ;
+                <_cstb_> ,
+                <Gain> ,
+                <Gain2x2> ,
+                <Gain2x2_1> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
              <midi_separated_mode> ,
+             <midi_loopback> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

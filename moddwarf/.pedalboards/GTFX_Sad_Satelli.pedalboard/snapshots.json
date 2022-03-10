@@ -1,0 +1,593 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "Gain_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 6.0
+                    },
+                    "bypassed": false
+                },
+                "vcalin": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "gain1": 0.0,
+                        "gain2": 0.13561099767684937,
+                        "outputLevel": 0.15217391304347827,
+                        "in2": 0.0,
+                        "in1": 1.0786750316619873
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": -0.25,
+                        "mode": 0.0
+                    },
+                    "bypassed": false
+                },
+                "vco3": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "linFMGain": 1.3043479919433594,
+                        "tune": 0.32015600800514221,
+                        "pwGain": 0.014492999762296677,
+                        "octave": 6.0,
+                        "edge": 1.0,
+                        "semitone": 0.0,
+                        "pw0": 0.5,
+                        "phi0": 0.0,
+                        "waveForm": 0.0,
+                        "expFMGain": 3.9337470531463623
+                    },
+                    "bypassed": false
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "mod_cv_control": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 3.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "env": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "release": 0.10144927536231885,
+                        "hold": 0.019999999552965164,
+                        "attack": 0.49275362318840582,
+                        "timeScale": 2.5272729396820068,
+                        "delay": 0.0,
+                        "decay": 0.2318840579710145,
+                        "sustain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "repeats": 75.0,
+                        "morph": 50.0,
+                        "tone": 3000.0,
+                        "depth": 1.0,
+                        "time": 500.0,
+                        "rate": 2.0,
+                        "mix": 75.0
+                    },
+                    "bypassed": false
+                },
+                "mod_audio_to_cv": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Offset": 0.0,
+                        "Level": 10.0,
+                        "BYPASS": 1.0
+                    },
+                    "bypassed": false
+                },
+                "filta": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "active": 1.0,
+                        "frequency_control": 0.61687000000000003
+                    },
+                    "bypassed": false
+                },
+                "lfo2_freq": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "freq": 1.337,
+                        "waveForm": 0.0,
+                        "phi0": 0.0
+                    },
+                    "bypassed": false
+                },
+                "PlateX2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "tail": 0.7784598214285714,
+                        "damping": 0.00050000002374872565,
+                        "blend": 0.58035714285714268
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Feedbacky Drone"
+        },
+        {
+            "data": {
+                "Gain_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 6.0
+                    },
+                    "bypassed": false
+                },
+                "vcalin": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "gain1": 0.0,
+                        "gain2": 0.13561099767684937,
+                        "outputLevel": 0.15217391304347827,
+                        "in2": 0.0,
+                        "in1": 1.0786750316619873
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": -0.625,
+                        "mode": 0.0
+                    },
+                    "bypassed": false
+                },
+                "vco3": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "linFMGain": 1.3043479919433594,
+                        "tune": 0.32015600800514221,
+                        "pwGain": 0.014492999762296677,
+                        "octave": 3.0,
+                        "edge": 1.0,
+                        "semitone": 0.0,
+                        "pw0": 0.5,
+                        "phi0": 0.0,
+                        "waveForm": 3.0,
+                        "expFMGain": 3.9337470531463623
+                    },
+                    "bypassed": false
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "mod_cv_control": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 3.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "env": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "release": 0.10144927536231885,
+                        "hold": 0.019999999552965164,
+                        "attack": 0.49275362318840582,
+                        "timeScale": 2.5272729396820068,
+                        "delay": 0.0,
+                        "decay": 0.2318840579710145,
+                        "sustain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "repeats": 75.0,
+                        "morph": 50.0,
+                        "tone": 3000.0,
+                        "depth": 1.0,
+                        "time": 500.0,
+                        "rate": 2.0,
+                        "mix": 75.0
+                    },
+                    "bypassed": false
+                },
+                "mod_audio_to_cv": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Offset": 0.0,
+                        "Level": 10.0,
+                        "BYPASS": 1.0
+                    },
+                    "bypassed": false
+                },
+                "filta": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "active": 1.0,
+                        "frequency_control": 0.5
+                    },
+                    "bypassed": false
+                },
+                "lfo2_freq": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "freq": 1.337,
+                        "waveForm": 0.0,
+                        "phi0": 0.0
+                    },
+                    "bypassed": true
+                },
+                "PlateX2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "tail": 0.7784598214285714,
+                        "damping": 0.00050000002374872565,
+                        "blend": 0.58035714285714268
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Disgusting"
+        },
+        {
+            "data": {
+                "Gain_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 6.0
+                    },
+                    "bypassed": false
+                },
+                "vcalin": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "gain1": 0.0,
+                        "gain2": 0.13561099767684937,
+                        "outputLevel": 0.15217391304347827,
+                        "in2": 0.0,
+                        "in1": 1.0786750316619873
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": -0.625,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "vco3": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "linFMGain": 1.3043479919433594,
+                        "tune": 0.32015600800514221,
+                        "pwGain": 0.014492999762296677,
+                        "octave": 3.0,
+                        "edge": 1.0,
+                        "semitone": 0.0,
+                        "pw0": 0.5,
+                        "phi0": 0.0,
+                        "waveForm": 3.0,
+                        "expFMGain": 3.9337470531463623
+                    },
+                    "bypassed": false
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "mod_cv_control": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 3.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "env": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "release": 0.10144927536231885,
+                        "hold": 0.019999999552965164,
+                        "attack": 0.49275362318840582,
+                        "timeScale": 2.5272729396820068,
+                        "delay": 0.0,
+                        "decay": 0.2318840579710145,
+                        "sustain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "repeats": 75.0,
+                        "morph": 50.0,
+                        "tone": 3000.0,
+                        "depth": 1.0,
+                        "time": 500.0,
+                        "rate": 2.0,
+                        "mix": 75.0
+                    },
+                    "bypassed": false
+                },
+                "mod_audio_to_cv": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Offset": 0.0,
+                        "Level": 10.0,
+                        "BYPASS": 1.0
+                    },
+                    "bypassed": false
+                },
+                "filta": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "active": 1.0,
+                        "frequency_control": 0.5
+                    },
+                    "bypassed": false
+                },
+                "lfo2_freq": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "freq": 1.337,
+                        "waveForm": 0.0,
+                        "phi0": 0.0
+                    },
+                    "bypassed": true
+                },
+                "PlateX2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "tail": 0.7784598214285714,
+                        "damping": 0.00050000002374872565,
+                        "blend": 0.58035714285714268
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "JustPlate"
+        },
+        {
+            "data": {
+                "Gain_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 6.0
+                    },
+                    "bypassed": false
+                },
+                "vcalin": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "gain1": 0.0,
+                        "gain2": 0.13561099767684937,
+                        "outputLevel": 0.15217391304347827,
+                        "in2": 0.0,
+                        "in1": 1.0786750316619873
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": -0.625,
+                        "mode": 0.0
+                    },
+                    "bypassed": false
+                },
+                "vco3": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "linFMGain": 1.3043479919433594,
+                        "tune": 0.32015600800514221,
+                        "pwGain": 0.014492999762296677,
+                        "octave": 4.0,
+                        "edge": 1.0,
+                        "semitone": 0.0,
+                        "pw0": 0.5,
+                        "phi0": 0.0,
+                        "waveForm": 3.0,
+                        "expFMGain": 3.9337470531463623
+                    },
+                    "bypassed": false
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "mod_cv_control": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 3.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "env": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "release": 0.10144927536231885,
+                        "hold": 0.019999999552965164,
+                        "attack": 0.49275362318840582,
+                        "timeScale": 2.5272729396820068,
+                        "delay": 0.0,
+                        "decay": 0.2318840579710145,
+                        "sustain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "repeats": 75.0,
+                        "morph": 50.0,
+                        "tone": 3000.0,
+                        "depth": 1.0,
+                        "time": 500.0,
+                        "rate": 2.0,
+                        "mix": 75.0
+                    },
+                    "bypassed": false
+                },
+                "mod_audio_to_cv": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Offset": 0.0,
+                        "Level": 10.0,
+                        "BYPASS": 1.0
+                    },
+                    "bypassed": false
+                },
+                "filta": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "active": 1.0,
+                        "frequency_control": 0.79594200000000004
+                    },
+                    "bypassed": false
+                },
+                "lfo2_freq": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "freq": 6.3369999999999997,
+                        "waveForm": 0.0,
+                        "phi0": 0.0
+                    },
+                    "bypassed": false
+                },
+                "PlateX2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "tail": 0.7784598214285714,
+                        "damping": 0.00050000002374872565,
+                        "blend": 0.58035714285714268
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Choppy"
+        }
+    ],
+    "current": 0
+}

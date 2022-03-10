@@ -1,0 +1,163 @@
+{
+    "/hmi/group1": [],
+    "/hmi/knob1": [
+        {
+            "port": ":bypass",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/xfade",
+            "label": "ST INPUT",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "threshold",
+            "dividers": null,
+            "maximum": 0.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": -36.0,
+            "steps": 201,
+            "instance": "/graph/stereo",
+            "label": "Threshold",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "attack",
+            "dividers": null,
+            "maximum": 0.75,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 9.9999997473787516e-06,
+            "steps": 201,
+            "instance": "/graph/stereo",
+            "label": "Attack",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "port": "xfade",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": -1.0,
+            "steps": 201,
+            "instance": "/graph/xfade_1",
+            "label": "Dry/Wet",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "noClip",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 1,
+            "instance": "/graph/stereo",
+            "label": "SoftClip",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "rms",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 201,
+            "instance": "/graph/stereo",
+            "label": "RMS",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "Gain",
+            "dividers": null,
+            "maximum": 20.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": -20.0,
+            "steps": 201,
+            "instance": "/graph/Gain2x2",
+            "label": "Wet Lvl",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "ratio",
+            "dividers": null,
+            "maximum": 20.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 1.0,
+            "steps": 201,
+            "instance": "/graph/stereo",
+            "label": "Ratio",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "release",
+            "dividers": null,
+            "maximum": 5.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 0.0010000000474974513,
+            "steps": 201,
+            "instance": "/graph/stereo",
+            "label": "Release",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/xfade_1",
+            "label": "Compressor",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/bpm": [],
+    "/hmi/footswitch2": []
+}

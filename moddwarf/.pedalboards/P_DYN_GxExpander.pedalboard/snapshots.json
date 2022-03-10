@@ -1,0 +1,81 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "Gain": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "stereo": {
+                    "ports": {
+                        "gain": 0.0,
+                        "bypass": 0.0,
+                        "ratio": 4.04,
+                        "release": 0.05000000074505806,
+                        "threshold": -18.0,
+                        "rms": 0.5,
+                        "noClip": 1.0,
+                        "attack": 0.014999999664723873
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "_expander": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "THRESHOLD": -40.0,
+                        "ATTACK": 0.0010000000474974513,
+                        "RATIO": 2.0,
+                        "KNEE": 3.0,
+                        "RELEASE": 0.10000000149011612
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                }
+            },
+            "name": "Default"
+        }
+    ]
+}

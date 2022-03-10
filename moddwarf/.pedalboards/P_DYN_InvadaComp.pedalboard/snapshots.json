@@ -1,0 +1,69 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "stereo": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "gain": 0.0,
+                        "bypass": 0.0,
+                        "ratio": 4.04,
+                        "release": 0.05000000074505806,
+                        "threshold": -18.0,
+                        "rms": 0.5,
+                        "noClip": 1.0,
+                        "attack": 0.014999999664723873
+                    }
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "xfade_1": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": ""
+                }
+            },
+            "name": "Default"
+        }
+    ]
+}

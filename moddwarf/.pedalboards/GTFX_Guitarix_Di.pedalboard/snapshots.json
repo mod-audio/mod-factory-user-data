@@ -1,0 +1,497 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "_fuzzface_": {
+                    "ports": {
+                        "FUZZ": 0.5,
+                        "LEVEL": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_timray_": {
+                    "ports": {
+                        "VOLUME": 0.75,
+                        "BASS": 0.5,
+                        "TRIM": 0.5,
+                        "GAIN": 0.5,
+                        "TREBLE": 0.5,
+                        "BYPASS": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_bajatubedriver_": {
+                    "ports": {
+                        "TONE": 0.5,
+                        "BYPASS": 1.0,
+                        "DRIVE": 0.34000000357627869,
+                        "VOLUME": 0.34000000357627869
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_oc_2_": {
+                    "ports": {
+                        "OCTAVE2": 0.5,
+                        "OCTAVE1": 0.5,
+                        "DIRECT": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "TubeDriver"
+        },
+        {
+            "data": {
+                "_fuzzface_": {
+                    "ports": {
+                        "FUZZ": 0.5,
+                        "LEVEL": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_timray_": {
+                    "ports": {
+                        "VOLUME": 0.75,
+                        "BASS": 0.5,
+                        "TRIM": 0.5,
+                        "GAIN": 0.5,
+                        "TREBLE": 0.5,
+                        "BYPASS": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_bajatubedriver_": {
+                    "ports": {
+                        "TONE": 0.5,
+                        "BYPASS": 1.0,
+                        "DRIVE": 0.34000000357627869,
+                        "VOLUME": 0.34000000357627869
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_oc_2_": {
+                    "ports": {
+                        "OCTAVE2": 0.5,
+                        "OCTAVE1": 0.5,
+                        "DIRECT": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "FuzzDriver"
+        },
+        {
+            "data": {
+                "_fuzzface_": {
+                    "ports": {
+                        "FUZZ": 0.5,
+                        "LEVEL": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_timray_": {
+                    "ports": {
+                        "VOLUME": 0.75,
+                        "BASS": 0.5,
+                        "TRIM": 0.5,
+                        "GAIN": 0.5,
+                        "TREBLE": 0.5,
+                        "BYPASS": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_bajatubedriver_": {
+                    "ports": {
+                        "TONE": 0.5,
+                        "BYPASS": 0.0,
+                        "DRIVE": 0.34000000357627869,
+                        "VOLUME": 0.34000000357627869
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "_oc_2_": {
+                    "ports": {
+                        "OCTAVE2": 0.5,
+                        "OCTAVE1": 0.5,
+                        "DIRECT": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "FuzzRay"
+        },
+        {
+            "data": {
+                "_fuzzface_": {
+                    "ports": {
+                        "FUZZ": 0.5,
+                        "LEVEL": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_timray_": {
+                    "ports": {
+                        "VOLUME": 0.75,
+                        "BASS": 0.5,
+                        "TRIM": 0.5,
+                        "GAIN": 0.5,
+                        "TREBLE": 0.5,
+                        "BYPASS": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_bajatubedriver_": {
+                    "ports": {
+                        "TONE": 0.5,
+                        "BYPASS": 0.0,
+                        "DRIVE": 0.34000000357627869,
+                        "VOLUME": 0.34000000357627869
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "_oc_2_": {
+                    "ports": {
+                        "OCTAVE2": 0.5,
+                        "OCTAVE1": 0.5,
+                        "DIRECT": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "OctRay"
+        },
+        {
+            "data": {
+                "_fuzzface_": {
+                    "ports": {
+                        "FUZZ": 0.5,
+                        "LEVEL": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_timray_": {
+                    "ports": {
+                        "VOLUME": 0.75,
+                        "BASS": 0.5,
+                        "TRIM": 0.5,
+                        "GAIN": 0.5,
+                        "TREBLE": 0.5,
+                        "BYPASS": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_bajatubedriver_": {
+                    "ports": {
+                        "TONE": 0.5,
+                        "BYPASS": 1.0,
+                        "DRIVE": 0.34000000357627869,
+                        "VOLUME": 0.34000000357627869
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_oc_2_": {
+                    "ports": {
+                        "OCTAVE2": 0.5,
+                        "OCTAVE1": 0.5,
+                        "DIRECT": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "OctDriver"
+        },
+        {
+            "data": {
+                "_fuzzface_": {
+                    "ports": {
+                        "FUZZ": 0.5,
+                        "LEVEL": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_timray_": {
+                    "ports": {
+                        "VOLUME": 0.75,
+                        "BASS": 0.5,
+                        "TRIM": 0.5,
+                        "GAIN": 0.5,
+                        "TREBLE": 0.5,
+                        "BYPASS": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_bajatubedriver_": {
+                    "ports": {
+                        "TONE": 0.5,
+                        "BYPASS": 1.0,
+                        "DRIVE": 0.34000000357627869,
+                        "VOLUME": 0.34000000357627869
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_oc_2_": {
+                    "ports": {
+                        "OCTAVE2": 0.5,
+                        "OCTAVE1": 0.5,
+                        "DIRECT": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "ALL ON"
+        }
+    ],
+    "current": 0
+}

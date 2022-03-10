@@ -1,0 +1,385 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "Flanger": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "feedback": 0.75,
+                        "mod_depth": 0.245,
+                        "stereo": 90.0,
+                        "dry": 0.25,
+                        "min_delay": 0.10000000149011612,
+                        "amount": 0.33700000000000002,
+                        "mod_rate": 4.7190000000000003,
+                        "reset": 0.0
+                    },
+                    "bypassed": true
+                },
+                "bolliedelay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "div_r": 0.0,
+                        "high_q": 2.5,
+                        "feedback": 74.55357142857136,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "mix": 35.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 20.0,
+                        "div_l": 0.0,
+                        "low_on": 1.0
+                    },
+                    "bypassed": false
+                },
+                "Phaser": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "stages": 4.0,
+                        "feedback": 0.49500000476837158,
+                        "mod_depth": 3996.0,
+                        "stereo": 180.0,
+                        "base_freq": 1499.7884186649108,
+                        "dry": 0.25,
+                        "amount": 0.75,
+                        "mod_rate": 0.48299999999999998,
+                        "reset": 0.0
+                    },
+                    "bypassed": true
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "PlateX2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "tail": 0.5,
+                        "damping": 0.00050000002374872565,
+                        "blend": 0.25
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Delay Plate"
+        },
+        {
+            "data": {
+                "Flanger": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "feedback": 0.75,
+                        "mod_depth": 0.245,
+                        "stereo": 90.0,
+                        "dry": 0.25,
+                        "min_delay": 0.10000000149011612,
+                        "amount": 0.33700000000000002,
+                        "mod_rate": 4.7190000000000003,
+                        "reset": 0.0
+                    },
+                    "bypassed": false
+                },
+                "bolliedelay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "div_r": 0.0,
+                        "high_q": 2.5,
+                        "feedback": 74.55357142857136,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "mix": 35.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 20.0,
+                        "div_l": 0.0,
+                        "low_on": 1.0
+                    },
+                    "bypassed": true
+                },
+                "Phaser": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "stages": 4.0,
+                        "feedback": 0.49500000476837158,
+                        "mod_depth": 3996.0,
+                        "stereo": 180.0,
+                        "base_freq": 1499.7884186649108,
+                        "dry": 0.25,
+                        "amount": 0.75,
+                        "mod_rate": 0.48299999999999998,
+                        "reset": 0.0
+                    },
+                    "bypassed": true
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "PlateX2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "tail": 0.5,
+                        "damping": 0.00050000002374872565,
+                        "blend": 0.25
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Flange Verb"
+        },
+        {
+            "data": {
+                "Flanger": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "feedback": 0.75,
+                        "mod_depth": 0.245,
+                        "stereo": 90.0,
+                        "dry": 0.25,
+                        "min_delay": 0.10000000149011612,
+                        "amount": 0.33700000000000002,
+                        "mod_rate": 4.7190000000000003,
+                        "reset": 0.0
+                    },
+                    "bypassed": true
+                },
+                "bolliedelay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "div_r": 0.0,
+                        "high_q": 2.5,
+                        "feedback": 74.55357142857136,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "mix": 35.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 20.0,
+                        "div_l": 0.0,
+                        "low_on": 1.0
+                    },
+                    "bypassed": false
+                },
+                "Phaser": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "stages": 4.0,
+                        "feedback": 0.49500000476837158,
+                        "mod_depth": 3996.0,
+                        "stereo": 180.0,
+                        "base_freq": 1499.7884186649108,
+                        "dry": 0.25,
+                        "amount": 0.75,
+                        "mod_rate": 0.48299999999999998,
+                        "reset": 0.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "PlateX2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "tail": 0.5,
+                        "damping": 0.00050000002374872565,
+                        "blend": 0.25
+                    },
+                    "bypassed": true
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Phase Delay"
+        },
+        {
+            "data": {
+                "Flanger": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "feedback": 0.75,
+                        "mod_depth": 0.245,
+                        "stereo": 90.0,
+                        "dry": 0.25,
+                        "min_delay": 0.10000000149011612,
+                        "amount": 0.33700000000000002,
+                        "mod_rate": 4.7190000000000003,
+                        "reset": 0.0
+                    },
+                    "bypassed": false
+                },
+                "bolliedelay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "div_r": 0.0,
+                        "high_q": 2.5,
+                        "feedback": 74.55357142857136,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "mix": 35.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 20.0,
+                        "div_l": 0.0,
+                        "low_on": 1.0
+                    },
+                    "bypassed": false
+                },
+                "Phaser": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "stages": 4.0,
+                        "feedback": 0.49500000476837158,
+                        "mod_depth": 3996.0,
+                        "stereo": 180.0,
+                        "base_freq": 1499.7884186649108,
+                        "dry": 0.25,
+                        "amount": 0.75,
+                        "mod_rate": 0.48299999999999998,
+                        "reset": 0.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "PlateX2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "tail": 0.5,
+                        "damping": 0.00050000002374872565,
+                        "blend": 0.25
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "All On"
+        }
+    ],
+    "current": 0
+}

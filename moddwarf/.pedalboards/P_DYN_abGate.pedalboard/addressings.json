@@ -1,0 +1,133 @@
+{
+    "/hmi/group1": [],
+    "/hmi/knob1": [
+        {
+            "port": ":bypass",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/xfade",
+            "label": "ST INPUT",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "attack",
+            "dividers": null,
+            "maximum": 500.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.10000000149011612,
+            "steps": 201,
+            "instance": "/graph/gate",
+            "label": "Attack",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "threshold",
+            "dividers": null,
+            "maximum": 0.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": -70.0,
+            "steps": 201,
+            "instance": "/graph/gate",
+            "label": "Threshold",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "port": "xfade",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": -1.0,
+            "steps": 201,
+            "instance": "/graph/xfade_1",
+            "label": "Dry/Wet",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "decay",
+            "dividers": null,
+            "maximum": 4000.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 5.0,
+            "steps": 201,
+            "instance": "/graph/gate",
+            "label": "Decay",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "Gain",
+            "dividers": null,
+            "maximum": 20.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": -20.0,
+            "steps": 201,
+            "instance": "/graph/Gain2x2",
+            "label": "Wet Lvl",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "hold",
+            "dividers": null,
+            "maximum": 3000.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 5.0,
+            "steps": 201,
+            "instance": "/graph/gate",
+            "label": "Hold",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/xfade_1",
+            "label": "ABGATE",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/bpm": [],
+    "/hmi/footswitch2": []
+}

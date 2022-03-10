@@ -1,0 +1,104 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "Gain": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "_KnightFuzz_": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "VOLUME": 0.30000001192092896,
+                        "BYPASS": 1.0,
+                        "INPUT": 0.5
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "_vstb_": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "VOLUME": 0.75,
+                        "TONE": 0.34999999999999998,
+                        "FUZZ": 0.75
+                    }
+                },
+                "_tonemachine_": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "VOLUME": 0.255,
+                        "TONE": 0.75,
+                        "OCTAVE": 0.0,
+                        "SUSTAIN": 0.80000000000000004
+                    }
+                },
+                "_hyperion_": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "VOLUME": 0.25,
+                        "INTENSITY": 0.5
+                    }
+                },
+                "BigMuffPi": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Tone": 0.5,
+                        "Level": 0.41999999999999998,
+                        "Sustain": 0.10000000000000001
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                }
+            },
+            "name": "Default"
+        }
+    ]
+}

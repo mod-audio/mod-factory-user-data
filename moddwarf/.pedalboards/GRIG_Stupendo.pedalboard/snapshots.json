@@ -1,0 +1,537 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "cs_chorus2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "mod_freq_1": 0.025411035071191405,
+                        "mod_freq_2": 0.11064008805942514,
+                        "delay": 0.0,
+                        "mod_amp_1": 2.6227678571428577,
+                        "mod_amp_2": 0.96428571428571441
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 10.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "BigMuffPi": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Tone": 0.18415178571428567,
+                        "Level": 0.66406249999999933,
+                        "Sustain": 0.67187499999999933
+                    },
+                    "bypassed": true
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "morph": 16.852678571428577,
+                        "repeats": 54.140625000000099,
+                        "tone": 2456.5210506589856,
+                        "depth": 0.16011168807554416,
+                        "time": 604.06249999999977,
+                        "rate": 1.5049523150287893,
+                        "mix": 61.272321428571416
+                    },
+                    "bypassed": true
+                },
+                "reverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xover": 223.60699462890625,
+                        "rt_low": 2.75,
+                        "damping": 6000.0,
+                        "rt_mid": 2.75,
+                        "f2_freq": 86.950143892632653,
+                        "f2_gain": 0.0,
+                        "out_mix": 0.515625,
+                        "f1_freq": 159.05400085449219,
+                        "f1_gain": 0.0,
+                        "delay": 0.059999998658895493
+                    },
+                    "bypassed": false
+                },
+                "studiopre": {
+                    "parameters": {},
+                    "ports": {
+                        "volume": 5.0,
+                        "bright": 0.0,
+                        "middle": 0.5,
+                        "treble": 0.5,
+                        "bass": 0.5
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "stereo": {
+                    "parameters": {},
+                    "ports": {
+                        "mute": 0.0,
+                        "gain": -5.0,
+                        "enable": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "marsh_1960_cabsim": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 5.0,
+                        "Mode": 2.0,
+                        "Attenuation": 0.0
+                    },
+                    "bypassed": false
+                },
+                "mono": {
+                    "parameters": {},
+                    "ports": {
+                        "attack": 0.00021300000662449747,
+                        "bypass": 0.0,
+                        "threshold": -18.0,
+                        "ratio": 6.0,
+                        "gain": 0.0,
+                        "noClip": 1.0,
+                        "rms": 0.5,
+                        "release": 0.05000000074505806
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Vasco"
+        },
+        {
+            "data": {
+                "cs_chorus2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "mod_freq_1": 0.025411035071191405,
+                        "mod_freq_2": 0.11064008805942514,
+                        "delay": 0.0,
+                        "mod_amp_1": 2.6227678571428577,
+                        "mod_amp_2": 0.96428571428571441
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 10.0
+                    },
+                    "bypassed": false
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "reverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "f2_freq": 86.950143892632653,
+                        "f2_gain": 0.0,
+                        "out_mix": 0.265625,
+                        "f1_freq": 159.05400085449219,
+                        "xover": 223.60699462890625,
+                        "rt_low": 2.75,
+                        "damping": 6000.0,
+                        "rt_mid": 2.75,
+                        "f1_gain": 0.0,
+                        "delay": 0.059999998658895493
+                    },
+                    "bypassed": false
+                },
+                "studiopre": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "volume": 5.0,
+                        "bright": 0.0,
+                        "middle": 0.5,
+                        "treble": 0.5,
+                        "bass": 0.5
+                    },
+                    "bypassed": false
+                },
+                "BigMuffPi": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Tone": 0.18415178571428567,
+                        "Level": 0.66406249999999933,
+                        "Sustain": 0.67187499999999933
+                    },
+                    "bypassed": false
+                },
+                "mono": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "threshold": -18.0,
+                        "gain": 0.0,
+                        "rms": 0.5,
+                        "release": 0.05000000074505806,
+                        "bypass": 0.0,
+                        "ratio": 6.0,
+                        "noClip": 1.0,
+                        "attack": 0.00021300000662449747
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "repeats": 54.140625000000099,
+                        "morph": 16.852678571428577,
+                        "tone": 2456.5210506589856,
+                        "depth": 0.16011168807554416,
+                        "time": 500.0,
+                        "rate": 1.5049523150287893,
+                        "mix": 61.272321428571416
+                    },
+                    "bypassed": true
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Muff"
+        },
+        {
+            "data": {
+                "cs_chorus2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "mod_freq_1": 0.025411035071191405,
+                        "mod_freq_2": 0.11064008805942514,
+                        "delay": 0.0,
+                        "mod_amp_1": 2.6227678571428577,
+                        "mod_amp_2": 0.96428571428571441
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 10.0
+                    },
+                    "bypassed": false
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "reverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "f2_freq": 86.950143892632653,
+                        "f2_gain": 0.0,
+                        "out_mix": 0.265625,
+                        "f1_freq": 159.05400085449219,
+                        "xover": 223.60699462890625,
+                        "rt_low": 2.75,
+                        "damping": 6000.0,
+                        "rt_mid": 2.75,
+                        "f1_gain": 0.0,
+                        "delay": 0.059999998658895493
+                    },
+                    "bypassed": false
+                },
+                "studiopre": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "volume": 5.0,
+                        "bright": 0.0,
+                        "middle": 0.5,
+                        "treble": 0.5,
+                        "bass": 0.5
+                    },
+                    "bypassed": false
+                },
+                "BigMuffPi": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Tone": 0.18415178571428567,
+                        "Level": 0.66406249999999933,
+                        "Sustain": 0.67187499999999933
+                    },
+                    "bypassed": true
+                },
+                "mono": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "threshold": -18.0,
+                        "gain": 0.0,
+                        "rms": 0.5,
+                        "release": 0.05000000074505806,
+                        "bypass": 0.0,
+                        "ratio": 6.0,
+                        "noClip": 1.0,
+                        "attack": 0.00021300000662449747
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "repeats": 54.140625000000099,
+                        "morph": 16.852678571428577,
+                        "tone": 2456.5210506589856,
+                        "depth": 0.16011168807554416,
+                        "time": 500.0,
+                        "rate": 1.5049523150287893,
+                        "mix": 61.272321428571416
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Delay"
+        },
+        {
+            "data": {
+                "cs_chorus2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "mod_freq_1": 0.025411035071191405,
+                        "mod_freq_2": 0.11064008805942514,
+                        "delay": 0.0,
+                        "mod_amp_1": 2.6227678571428577,
+                        "mod_amp_2": 0.96428571428571441
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 10.0
+                    },
+                    "bypassed": false
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "reverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "f2_freq": 86.950143892632653,
+                        "f2_gain": 0.0,
+                        "out_mix": 0.265625,
+                        "f1_freq": 159.05400085449219,
+                        "xover": 223.60699462890625,
+                        "rt_low": 2.75,
+                        "damping": 6000.0,
+                        "rt_mid": 2.75,
+                        "f1_gain": 0.0,
+                        "delay": 0.059999998658895493
+                    },
+                    "bypassed": false
+                },
+                "studiopre": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "volume": 5.0,
+                        "bright": 0.0,
+                        "middle": 0.5,
+                        "treble": 0.5,
+                        "bass": 0.5
+                    },
+                    "bypassed": false
+                },
+                "BigMuffPi": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Tone": 0.18415178571428567,
+                        "Level": 0.66406249999999933,
+                        "Sustain": 0.67187499999999933
+                    },
+                    "bypassed": false
+                },
+                "mono": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "threshold": -18.0,
+                        "gain": 0.0,
+                        "rms": 0.5,
+                        "release": 0.05000000074505806,
+                        "bypass": 0.0,
+                        "ratio": 6.0,
+                        "noClip": 1.0,
+                        "attack": 0.00021300000662449747
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "repeats": 54.140625000000099,
+                        "morph": 16.852678571428577,
+                        "tone": 2456.5210506589856,
+                        "depth": 0.16011168807554416,
+                        "time": 500.0,
+                        "rate": 1.5049523150287893,
+                        "mix": 61.272321428571416
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Muff Delay"
+        }
+    ],
+    "current": 0
+}

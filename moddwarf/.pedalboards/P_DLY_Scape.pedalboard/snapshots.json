@@ -1,0 +1,67 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Scape": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "feedback": 0.75,
+                        "blend": 1.0,
+                        "dry": 0.0,
+                        "bpm": 120.0,
+                        "tune": 440.0,
+                        "divider": 2.0
+                    }
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "xfade_1": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": ""
+                }
+            },
+            "name": "Default"
+        }
+    ]
+}

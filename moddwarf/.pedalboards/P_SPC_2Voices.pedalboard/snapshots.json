@@ -1,0 +1,130 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "SuperCapo": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 3.0,
+                        "Step": 12.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Drop": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 3.0,
+                        "Step": -12.0,
+                        "Fidelity": 2.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "mod": {
+                    "parameters": {},
+                    "ports": {
+                        "drumdecel": 1.3710000514984131,
+                        "filtatype": 0.0,
+                        "filtdfreq": 811.969482421875,
+                        "drumwidth": 1.0,
+                        "drumaccel": 4.1269998550415039,
+                        "drumbrake": 1.0,
+                        "filtbgain": -30.0,
+                        "hornrpmfast": 423.3599853515625,
+                        "filtbtype": 7.0,
+                        "filtbq": 1.0,
+                        "drumlvl": 0.0,
+                        "rt_speed": 1.0,
+                        "drumrpmfast": 357.29998779296875,
+                        "hornlvl": 0.0,
+                        "filtbfreq": 300.0,
+                        "hornbrakepos": 1.0,
+                        "filtdq": 1.6016000509262085,
+                        "hornaccel": 0.16099999845027924,
+                        "horndecel": 0.32100000977516174,
+                        "hornleak": -16.469999313354492,
+                        "filtaq": 2.7455999851226807,
+                        "filtdtype": 8.0,
+                        "drumrpmslow": 36.0,
+                        "hornrpmslow": 40.319999694824219,
+                        "filtagain": -30.0,
+                        "filtafreq": 4500.0,
+                        "filtdgain": -38.929100036621094
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "xfade": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "xfade_2": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "_2Voices": {
+                    "parameters": {},
+                    "ports": {
+                        "Step1": -5.0,
+                        "Step2": 7.0,
+                        "Gain_2": 3.0,
+                        "Fidelity": 3.0,
+                        "Gain_1": 3.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                }
+            },
+            "name": "Default"
+        }
+    ]
+}

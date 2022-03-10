@@ -1,0 +1,163 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "_vstb_": {
+                    "ports": {
+                        "VOLUME": 0.75,
+                        "TONE": 0.34999999999999998,
+                        "FUZZ": 0.75
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "_timray_": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "GAIN": 0.5,
+                        "BYPASS": 1.0,
+                        "VOLUME": 0.5,
+                        "BASS": 0.5,
+                        "TRIM": 0.5,
+                        "TREBLE": 0.5
+                    }
+                },
+                "CollisionDrive": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "LEVEL": -10.0,
+                        "DRIVE": 0.40000000000000002,
+                        "GATE": -55.0,
+                        "BRIGHT": 0.5,
+                        "ATTACK": 3.0
+                    }
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "DS1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Tone": 0.083000000000000004,
+                        "Dist": 0.128,
+                        "Level": 0.5
+                    }
+                },
+                "_hyperion_": {
+                    "ports": {
+                        "VOLUME": 0.25,
+                        "INTENSITY": 0.5
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "_bajatubedriver_": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "VOLUME": 0.20000000000000001,
+                        "TONE": 0.5,
+                        "BYPASS": 1.0,
+                        "DRIVE": 0.34000000357627869
+                    }
+                },
+                "_KnightFuzz_": {
+                    "ports": {
+                        "VOLUME": 0.30000001192092896,
+                        "BYPASS": 1.0,
+                        "INPUT": 0.5
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "BigMuffPi": {
+                    "ports": {
+                        "Tone": 0.5,
+                        "Level": 0.41999999999999998,
+                        "Sustain": 0.10000000000000001
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "MetalTone": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "HIGH": 0.5,
+                        "Bypass": 1.0,
+                        "LOW": 0.5,
+                        "DIST": 0.14999999999999999,
+                        "MIDFREQ": 0.5,
+                        "MIDDLE": 0.5,
+                        "LEVEL": 0.40000000000000002
+                    }
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "dt1_lv2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "level": 8.5,
+                        "drive": 5.0
+                    }
+                },
+                "xfade_1": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": ""
+                }
+            },
+            "name": "Default"
+        }
+    ]
+}

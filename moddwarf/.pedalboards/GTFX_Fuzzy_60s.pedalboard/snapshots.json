@@ -1,0 +1,503 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "shiroverb": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "roomsize": 10.34375,
+                        "damping": 43.75,
+                        "tone": 6000.0,
+                        "shimmer": 0.0,
+                        "ratio": 1.0,
+                        "bandwidth": 27.79017857142858,
+                        "decay": 23.050000000000001,
+                        "mix": 25.0
+                    },
+                    "parameters": {}
+                },
+                "_cstb_": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "WET_DRY": 55.5,
+                        "LEVEL": 0.85499999999999998,
+                        "ATTACK": 0.76500000000000001
+                    },
+                    "parameters": {}
+                },
+                "tremolo": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "gain": 0.20000000000000001,
+                        "frequency": 4.0,
+                        "depth": 81.5
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "_fuzzface_": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "FUZZ": 0.80500000000000005,
+                        "LEVEL": 0.80500000000000005
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                }
+            },
+            "name": "Tremolo"
+        },
+        {
+            "data": {
+                "shiroverb": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "roomsize": 10.34375,
+                        "damping": 43.75,
+                        "tone": 6000.0,
+                        "shimmer": 0.0,
+                        "ratio": 1.0,
+                        "bandwidth": 27.79017857142858,
+                        "decay": 23.050000000000001,
+                        "mix": 25.0
+                    },
+                    "parameters": {}
+                },
+                "_cstb_": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "WET_DRY": 55.5,
+                        "LEVEL": 0.85499999999999998,
+                        "ATTACK": 0.76500000000000001
+                    },
+                    "parameters": {}
+                },
+                "tremolo": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "gain": 0.20000000000000001,
+                        "frequency": 4.0,
+                        "depth": 81.5
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "_fuzzface_": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "FUZZ": 0.80500000000000005,
+                        "LEVEL": 0.80500000000000005
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                }
+            },
+            "name": "Mild Fuzz"
+        },
+        {
+            "data": {
+                "shiroverb": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "roomsize": 10.34375,
+                        "damping": 43.75,
+                        "tone": 6000.0,
+                        "shimmer": 0.0,
+                        "ratio": 1.0,
+                        "bandwidth": 27.79017857142858,
+                        "decay": 23.050000000000001,
+                        "mix": 25.0
+                    },
+                    "parameters": {}
+                },
+                "_cstb_": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "WET_DRY": 55.5,
+                        "LEVEL": 0.85499999999999998,
+                        "ATTACK": 0.76500000000000001
+                    },
+                    "parameters": {}
+                },
+                "tremolo": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "gain": 0.20000000000000001,
+                        "frequency": 4.0,
+                        "depth": 81.5
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "_fuzzface_": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FUZZ": 0.80500000000000005,
+                        "LEVEL": 0.80500000000000005
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                }
+            },
+            "name": "Fuzz"
+        },
+        {
+            "data": {
+                "shiroverb": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "roomsize": 10.34375,
+                        "damping": 43.75,
+                        "tone": 6000.0,
+                        "shimmer": 0.0,
+                        "ratio": 1.0,
+                        "bandwidth": 27.79017857142858,
+                        "decay": 23.050000000000001,
+                        "mix": 25.0
+                    },
+                    "parameters": {}
+                },
+                "_cstb_": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "WET_DRY": 100.0,
+                        "LEVEL": 0.85499999999999998,
+                        "ATTACK": 0.76500000000000001
+                    },
+                    "parameters": {}
+                },
+                "tremolo": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "gain": 0.20000000000000001,
+                        "frequency": 4.0,
+                        "depth": 81.5
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "_fuzzface_": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FUZZ": 0.80500000000000005,
+                        "LEVEL": 0.80500000000000005
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                }
+            },
+            "name": "Stacked Fuzz"
+        },
+        {
+            "data": {
+                "shiroverb": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "roomsize": 10.34375,
+                        "damping": 43.75,
+                        "tone": 6000.0,
+                        "shimmer": 0.0,
+                        "ratio": 1.0,
+                        "bandwidth": 27.79017857142858,
+                        "decay": 23.050000000000001,
+                        "mix": 25.0
+                    },
+                    "parameters": {}
+                },
+                "_cstb_": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "WET_DRY": 100.0,
+                        "LEVEL": 0.85499999999999998,
+                        "ATTACK": 0.76500000000000001
+                    },
+                    "parameters": {}
+                },
+                "tremolo": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "gain": 0.20000000000000001,
+                        "frequency": 4.0,
+                        "depth": 81.5
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "_fuzzface_": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FUZZ": 0.80500000000000005,
+                        "LEVEL": 0.80500000000000005
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                }
+            },
+            "name": "Trem Fuzz"
+        },
+        {
+            "data": {
+                "shiroverb": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "roomsize": 10.34375,
+                        "damping": 43.75,
+                        "tone": 6000.0,
+                        "shimmer": 0.0,
+                        "ratio": 1.0,
+                        "bandwidth": 27.79017857142858,
+                        "decay": 23.050000000000001,
+                        "mix": 25.0
+                    },
+                    "parameters": {}
+                },
+                "_cstb_": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "WET_DRY": 100.0,
+                        "LEVEL": 0.85499999999999998,
+                        "ATTACK": 0.76500000000000001
+                    },
+                    "parameters": {}
+                },
+                "tremolo": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "gain": 0.20000000000000001,
+                        "frequency": 4.0,
+                        "depth": 81.5
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "_fuzzface_": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FUZZ": 0.80500000000000005,
+                        "LEVEL": 0.80500000000000005
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                }
+            },
+            "name": "All Out"
+        }
+    ],
+    "current": 0
+}

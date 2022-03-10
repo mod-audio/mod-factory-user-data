@@ -1,0 +1,65 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "Granulator": {
+                    "parameters": {},
+                    "ports": {
+                        "grain_length": 0.12,
+                        "mix": 1.0,
+                        "grain_density": 8.3000000000000007,
+                        "delay_length": 1.925
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                }
+            },
+            "name": "Default"
+        }
+    ]
+}

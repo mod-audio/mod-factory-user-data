@@ -1,0 +1,134 @@
+{
+    "/hmi/group1": [],
+    "/hmi/knob1": [
+        {
+            "port": ":bypass",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/xfade",
+            "label": "ST INPUT",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "play_pause",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 1,
+            "instance": "/graph/sooperlooper_2x2",
+            "label": "Play",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "port": "Gain",
+            "dividers": null,
+            "maximum": 20.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": -20.0,
+            "steps": 201,
+            "instance": "/graph/Gain2x2",
+            "label": "Out Lvl",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "redo",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 1,
+            "instance": "/graph/sooperlooper_2x2",
+            "label": "Redo",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "dryLevel",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 201,
+            "instance": "/graph/sooperlooper_2x2",
+            "label": "Dry Lvl",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "reset",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 1,
+            "instance": "/graph/sooperlooper_2x2",
+            "label": "Reset",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "port": "record",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 1,
+            "instance": "/graph/sooperlooper_2x2",
+            "label": "Record",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/bpm": [],
+    "/hmi/footswitch2": [
+        {
+            "port": "undo",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 1,
+            "instance": "/graph/sooperlooper_2x2",
+            "label": "Undo",
+            "tempo": false,
+            "coloured": false
+        }
+    ]
+}

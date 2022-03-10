@@ -1,0 +1,86 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "bolliedelay": {
+                    "parameters": {},
+                    "ports": {
+                        "low_q": 1.0,
+                        "mix": 100.0,
+                        "high_on": 1.0,
+                        "high_q": 2.5,
+                        "high_f": 4050.6179999999999,
+                        "tempo_mode": 0.0,
+                        "tap": 0.0,
+                        "div_r": 3.0,
+                        "crossf": 30.0,
+                        "feedback": 75.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "low_on": 0.0,
+                        "tempo_user": 120.0,
+                        "tempo_host": 120.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "xfade": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "xfade_2": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                }
+            },
+            "name": "Default"
+        }
+    ]
+}

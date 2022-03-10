@@ -1,0 +1,127 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "Gain_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -7.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "onyx": {
+                    "parameters": {},
+                    "ports": {
+                        "clip": 100.0,
+                        "Mid": 0.5,
+                        "Character": 50.0,
+                        "Gain": 50.0,
+                        "Treble": 0.5,
+                        "Bass": 0.5,
+                        "Vol": 17.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "_supersonic_": {
+                    "parameters": {},
+                    "ports": {
+                        "GAIN": 0.14999999999999999,
+                        "TREBLE": 0.5,
+                        "BYPASS": 1.0,
+                        "BASS": 0.5,
+                        "VOLUME": 0.25
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "studiopre": {
+                    "parameters": {},
+                    "ports": {
+                        "treble": 0.5,
+                        "bright": 0.0,
+                        "middle": 0.5,
+                        "volume": 2.0,
+                        "bass": 0.5
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "AmpVTS": {
+                    "parameters": {},
+                    "ports": {
+                        "mid": 1.0,
+                        "attack": 0.0,
+                        "squash": 0.0,
+                        "tonestack": 1.0,
+                        "over": 2.0,
+                        "bright": 0.5,
+                        "gain": 0.25,
+                        "treble": 0.75,
+                        "power": 0.5,
+                        "bass": 0.25,
+                        "low_cut": 0.5
+                    },
+                    "preset": "file:///root/.lv2/mod-caps-AmpVTS.lv2/default-preset",
+                    "bypassed": false
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Default"
+        }
+    ],
+    "current": 0
+}

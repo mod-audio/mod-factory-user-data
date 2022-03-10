@@ -1,0 +1,365 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "harmless": {
+                    "ports": {
+                        "rate": 4.0,
+                        "tone": 6000.0,
+                        "shape": 0.5,
+                        "phase": 0.0,
+                        "depth": 100.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "modulay": {
+                    "ports": {
+                        "tone": 3000.0,
+                        "repeats": 75.0,
+                        "rate": 2.0,
+                        "morph": 50.0,
+                        "mix": 75.0,
+                        "time": 500.0,
+                        "depth": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "larynx": {
+                    "ports": {
+                        "tone": 6000.0,
+                        "depth": 1.0,
+                        "rate": 5.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "ports": {
+                        "ratio": 2.0,
+                        "damping": 50.0,
+                        "roomsize": 150.0,
+                        "mix": 50.0,
+                        "decay": 50.0,
+                        "tone": 1500.0,
+                        "bandwidth": 75.0,
+                        "shimmer": 50.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "VibratoVerb"
+        },
+        {
+            "data": {
+                "harmless": {
+                    "ports": {
+                        "rate": 4.0,
+                        "tone": 6000.0,
+                        "shape": 0.5,
+                        "phase": 0.0,
+                        "depth": 100.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "modulay": {
+                    "ports": {
+                        "tone": 3000.0,
+                        "repeats": 75.0,
+                        "rate": 2.0,
+                        "morph": 50.0,
+                        "mix": 75.0,
+                        "time": 500.0,
+                        "depth": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "larynx": {
+                    "ports": {
+                        "tone": 6000.0,
+                        "depth": 1.0,
+                        "rate": 5.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "ports": {
+                        "ratio": 2.0,
+                        "damping": 50.0,
+                        "roomsize": 150.0,
+                        "mix": 50.0,
+                        "decay": 50.0,
+                        "tone": 1500.0,
+                        "bandwidth": 75.0,
+                        "shimmer": 50.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "Delay Verb"
+        },
+        {
+            "data": {
+                "harmless": {
+                    "ports": {
+                        "rate": 4.0,
+                        "tone": 6000.0,
+                        "shape": 0.5,
+                        "phase": 0.0,
+                        "depth": 100.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "modulay": {
+                    "ports": {
+                        "tone": 3000.0,
+                        "repeats": 75.0,
+                        "rate": 2.0,
+                        "morph": 50.0,
+                        "mix": 75.0,
+                        "time": 500.0,
+                        "depth": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "larynx": {
+                    "ports": {
+                        "tone": 6000.0,
+                        "depth": 1.0,
+                        "rate": 5.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "ports": {
+                        "ratio": 2.0,
+                        "damping": 50.0,
+                        "roomsize": 150.0,
+                        "mix": 50.0,
+                        "decay": 50.0,
+                        "tone": 1500.0,
+                        "bandwidth": 75.0,
+                        "shimmer": 50.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "Verb Trem"
+        },
+        {
+            "data": {
+                "harmless": {
+                    "ports": {
+                        "rate": 4.0,
+                        "tone": 6000.0,
+                        "shape": 0.5,
+                        "phase": 0.0,
+                        "depth": 100.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "modulay": {
+                    "ports": {
+                        "tone": 3000.0,
+                        "repeats": 75.0,
+                        "rate": 2.0,
+                        "morph": 50.0,
+                        "mix": 75.0,
+                        "time": 500.0,
+                        "depth": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "larynx": {
+                    "ports": {
+                        "tone": 6000.0,
+                        "depth": 1.0,
+                        "rate": 5.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "ports": {
+                        "ratio": 2.0,
+                        "damping": 50.0,
+                        "roomsize": 150.0,
+                        "mix": 50.0,
+                        "decay": 50.0,
+                        "tone": 1500.0,
+                        "bandwidth": 75.0,
+                        "shimmer": 50.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "All On"
+        }
+    ],
+    "current": 0
+}

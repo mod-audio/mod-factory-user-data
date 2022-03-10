@@ -1,0 +1,179 @@
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch2": [
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 1.0,
+            "port": ":bypass",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 33,
+            "label": "Reverb",
+            "subpage": 0,
+            "instance": "/graph/Plate",
+            "dividers": null
+        }
+    ],
+    "/bpm": [],
+    "/hmi/footswitch1": [
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 100000.0,
+            "port": "clip",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 2,
+            "label": "Amp",
+            "subpage": 0,
+            "instance": "/graph/onyx",
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 1.0,
+            "port": "Mid",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 201,
+            "label": "Amp Mid",
+            "subpage": 0,
+            "instance": "/graph/onyx",
+            "dividers": null
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 100.0,
+            "port": "Vol",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 201,
+            "label": "Amp Vol",
+            "subpage": 1,
+            "instance": "/graph/onyx",
+            "dividers": null
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 1.0,
+            "port": "blend",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 201,
+            "label": "Verb Mix",
+            "subpage": 2,
+            "instance": "/graph/Plate",
+            "dividers": null
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 20.0,
+            "port": "Gain",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": -20.0,
+            "steps": 201,
+            "label": "Out Lvl",
+            "subpage": 2,
+            "instance": "/graph/Gain2x2",
+            "dividers": null
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 12.0,
+            "port": "Model",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 9,
+            "label": "Cab",
+            "subpage": 1,
+            "instance": "/graph/faIR_cabsim",
+            "dividers": null
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 1.0,
+            "port": "Treble",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 201,
+            "label": "Amp Treb",
+            "subpage": 0,
+            "instance": "/graph/onyx",
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 1.0,
+            "port": ":bypass",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 33,
+            "label": "ST INPUT",
+            "subpage": 2,
+            "instance": "/graph/xfade",
+            "dividers": null
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 100.0,
+            "port": "Gain",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 1.0,
+            "steps": 201,
+            "label": "Amp Gain",
+            "subpage": 1,
+            "instance": "/graph/onyx",
+            "dividers": null
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 100.0,
+            "port": "Character",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 201,
+            "label": "Amp Char",
+            "subpage": 0,
+            "instance": "/graph/onyx",
+            "dividers": null
+        }
+    ]
+}

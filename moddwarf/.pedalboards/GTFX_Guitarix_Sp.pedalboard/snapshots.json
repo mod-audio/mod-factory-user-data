@@ -1,0 +1,337 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_duck_delay_": {
+                    "ports": {
+                        "FEEDBACK": 0.66000000000000003,
+                        "AMOUNT": 19.600000000000001,
+                        "RELESE": 0.10000000000000001,
+                        "TIME": 500.0,
+                        "ATTACK": 0.10000000149011612
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_slowgear_": {
+                    "ports": {
+                        "TRESHOLD": 1.0,
+                        "DOWNTIME": 5.0,
+                        "UPTIME": 100.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_reverb_stereo": {
+                    "ports": {
+                        "damp": 0.20000000298023224,
+                        "dry_wet": 50.0,
+                        "lfo": 3.6560000000000001,
+                        "roomsize": 0.78500000000000003,
+                        "mode": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_phaser": {
+                    "ports": {
+                        "speed": 0.5,
+                        "dry_wet": 50.0,
+                        "level": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "Slow Duck Verb"
+        },
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_duck_delay_": {
+                    "ports": {
+                        "FEEDBACK": 0.66000000000000003,
+                        "AMOUNT": 19.600000000000001,
+                        "RELESE": 0.10000000000000001,
+                        "TIME": 500.0,
+                        "ATTACK": 0.10000000149011612
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_slowgear_": {
+                    "ports": {
+                        "TRESHOLD": 1.0,
+                        "DOWNTIME": 5.0,
+                        "UPTIME": 100.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_reverb_stereo": {
+                    "ports": {
+                        "damp": 0.20000000298023224,
+                        "dry_wet": 50.0,
+                        "lfo": 3.6560000000000001,
+                        "roomsize": 0.78500000000000003,
+                        "mode": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_phaser": {
+                    "ports": {
+                        "speed": 0.5,
+                        "dry_wet": 50.0,
+                        "level": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "Phaser Verb"
+        },
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_duck_delay_": {
+                    "ports": {
+                        "FEEDBACK": 0.66000000000000003,
+                        "AMOUNT": 19.600000000000001,
+                        "RELESE": 0.10000000000000001,
+                        "TIME": 500.0,
+                        "ATTACK": 0.10000000149011612
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_slowgear_": {
+                    "ports": {
+                        "TRESHOLD": 1.0,
+                        "DOWNTIME": 5.0,
+                        "UPTIME": 100.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_reverb_stereo": {
+                    "ports": {
+                        "damp": 0.20000000298023224,
+                        "dry_wet": 50.0,
+                        "lfo": 3.6560000000000001,
+                        "roomsize": 0.78500000000000003,
+                        "mode": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_phaser": {
+                    "ports": {
+                        "speed": 0.5,
+                        "dry_wet": 50.0,
+                        "level": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "Duck Verb"
+        },
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_duck_delay_": {
+                    "ports": {
+                        "FEEDBACK": 0.66000000000000003,
+                        "AMOUNT": 19.600000000000001,
+                        "RELESE": 0.10000000000000001,
+                        "TIME": 500.0,
+                        "ATTACK": 0.10000000149011612
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_slowgear_": {
+                    "ports": {
+                        "TRESHOLD": 1.0,
+                        "DOWNTIME": 5.0,
+                        "UPTIME": 100.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_reverb_stereo": {
+                    "ports": {
+                        "damp": 0.20000000298023224,
+                        "dry_wet": 50.0,
+                        "lfo": 3.6560000000000001,
+                        "roomsize": 0.78500000000000003,
+                        "mode": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "_phaser": {
+                    "ports": {
+                        "speed": 0.5,
+                        "dry_wet": 50.0,
+                        "level": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "Slow Phaser"
+        }
+    ],
+    "current": 0
+}

@@ -1,0 +1,219 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "Gain_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -3.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "vcf": {
+                    "parameters": {},
+                    "ports": {
+                        "freq": 2.0,
+                        "linFMGain": 4.0,
+                        "resonance": 0.5,
+                        "expFMGain": 0.0,
+                        "inputGain": 1.0,
+                        "resonanceGain": 0.0,
+                        "vcfType": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "mod_cv_slew": {
+                    "parameters": {},
+                    "ports": {
+                        "RiseTime": 0.10000000000000001,
+                        "FallTime": 201.30000000000001,
+                        "BYPASS": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "xfade": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "mod_cv_slew_1": {
+                    "parameters": {},
+                    "ports": {
+                        "RiseTime": 0.10000000149011612,
+                        "FallTime": 304.19999999999999,
+                        "BYPASS": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "mod_audio_to_cv_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Offset": 0.0,
+                        "Level": 6.2999999999999998,
+                        "BYPASS": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -3.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "notes": {
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            20.0,
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "Controller adressings:\n\nPage 1 - Input 1 filter\nI         Cutoff, Resonance, Filter Type\nII        LFO modulation\nIII       Envelope follower modulation\n\nPage 2 - Input 2 filter\nI        Cutoff, Resonance, Filter Type\nII       LFO modulation\nIII      Envelope follower modulation",
+                            "s"
+                        ]
+                    },
+                    "ports": {},
+                    "preset": "",
+                    "bypassed": false
+                },
+                "vcf_1": {
+                    "parameters": {},
+                    "ports": {
+                        "freq": 4.0,
+                        "linFMGain": 4.0,
+                        "resonance": 0.55000000000000004,
+                        "expFMGain": 0.0,
+                        "inputGain": 1.0,
+                        "resonanceGain": 0.0,
+                        "vcfType": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "lfo2_freq": {
+                    "parameters": {},
+                    "ports": {
+                        "waveForm": 0.0,
+                        "freq": 6.0,
+                        "phi0": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "mod_audio_to_cv": {
+                    "parameters": {},
+                    "ports": {
+                        "Offset": 0.0,
+                        "Level": 6.0,
+                        "BYPASS": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "lfo2_freq_1": {
+                    "parameters": {},
+                    "ports": {
+                        "waveForm": 2.0,
+                        "freq": 4.2000000000000002,
+                        "phi0": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "mod_cv_attenuverter_1": {
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Multiplier": 2.0,
+                        "Mode": 0.0,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "notes_2": {
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            20.0,
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "LFO modulation chains:\n\n-LFO goes to Attenuverter-Booster as a way to control modulation depth\n-Attenuverter-Booster goes to Freq Mod input on VCF so that the LFO can control the cutoff frequency",
+                            "s"
+                        ]
+                    },
+                    "ports": {},
+                    "preset": "",
+                    "bypassed": false
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Multiplier": 0.0,
+                        "Mode": 0.0,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "notes_1": {
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            20.0,
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "Envelope follower chains\n\n-Audio input goes through Audio to CV so that we can manipulate the signal in the CV realm.\n-Audio to CV output goes through Slew Rate Limiter so that we get the volume envelope of the audio signal.\n-Slew Rate Limiter goes to the LIN FM input of the VCF, so that we can modulate the cutoff frequency via with the volume envelope of the sound.",
+                            "s"
+                        ]
+                    },
+                    "ports": {},
+                    "preset": "",
+                    "bypassed": false
+                }
+            },
+            "name": "Default"
+        }
+    ],
+    "current": 0
+}

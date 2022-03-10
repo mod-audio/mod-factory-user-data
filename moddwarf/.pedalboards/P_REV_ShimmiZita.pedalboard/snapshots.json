@@ -1,0 +1,270 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "chorusflanger": {
+                    "ports": {
+                        "Depth": 75.0,
+                        "Delay": 25.0,
+                        "Contour": 100.0,
+                        "WetLevel": -3.0,
+                        "LRPhaseShift": 90.0,
+                        "DryLevel": -3.0,
+                        "Frequency": 1.75
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "mud": {
+                    "ports": {
+                        "filter": 80.0,
+                        "mix": 100.0,
+                        "lfo": 100.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "http://remaincalm.org/plugins/mud#preset004"
+                },
+                "kuiza": {
+                    "ports": {
+                        "High": 0.5,
+                        "Hi_Mid": 0.5,
+                        "Lo_Mid": 0.5,
+                        "Low": 0.5,
+                        "Level": 0.5,
+                        "active": 1.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Flanger": {
+                    "ports": {
+                        "mod_rate": 0.20000000298023224,
+                        "reset": 0.0,
+                        "feedback": 0.85099999999999998,
+                        "amount": 1.0,
+                        "min_delay": 5.0119999999999996,
+                        "stereo": 90.0,
+                        "mod_depth": 5.0119999999999996,
+                        "dry": 0.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "stereo": {
+                    "ports": {
+                        "freq1": 160.0,
+                        "freq3": 1250.0,
+                        "freq2": 397.0,
+                        "LPfreq": 20000.0,
+                        "freq4": 2500.0,
+                        "LPQ": 1.0,
+                        "HPQ": 0.69999998807907104,
+                        "HSfreq": 8000.0,
+                        "q2": 0.60000002384185791,
+                        "q4": 0.60000002384185791,
+                        "LSfreq": 80.0,
+                        "q1": 0.60000002384185791,
+                        "HSq": 1.0,
+                        "q3": 0.60000002384185791,
+                        "HSsec": 1.0,
+                        "LSsec": 1.0,
+                        "HPfreq": 20.0,
+                        "enable": 1.0,
+                        "peakreset": 1.0,
+                        "LSq": 1.0,
+                        "gain2": 0.0,
+                        "gain3": 0.0,
+                        "gain4": 0.0,
+                        "sec1": 1.0,
+                        "gain": 0.0,
+                        "sec3": 1.0,
+                        "sec2": 1.0,
+                        "LowPass": 0.0,
+                        "sec4": 1.0,
+                        "gain1": 0.0,
+                        "LSgain": 0.0,
+                        "HSgain": 0.0,
+                        "HighPass": 0.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "triple_chorus": {
+                    "ports": {
+                        "mod_amp_2": 1.5,
+                        "delay": 22.5,
+                        "mod_amp_1": 5.0,
+                        "mod_freq_1": 0.10000000149011612,
+                        "mod_freq_2": 0.55000001192092896
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "larynx": {
+                    "ports": {
+                        "depth": 1.0,
+                        "tone": 6000.0,
+                        "rate": 5.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "cr1_lv2": {
+                    "ports": {
+                        "depth": 5.0,
+                        "speed": 3.75
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": -10.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Phaser": {
+                    "ports": {
+                        "mod_rate": 0.25,
+                        "reset": 0.0,
+                        "base_freq": 1000.0,
+                        "feedback": 0.64300000000000002,
+                        "amount": 1.0,
+                        "stages": 6.0,
+                        "stereo": 180.0,
+                        "mod_depth": 4000.0,
+                        "dry": 0.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "RingMod": {
+                    "ports": {
+                        "feedback": 0.0,
+                        "freq": 110.0,
+                        "fine": 0.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "wah1_lv2": {
+                    "ports": {
+                        "sensitivity": 1.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "_shimmizita_": {
+                    "ports": {
+                        "Mix": 1.0,
+                        "FreqHigh": 6000.0,
+                        "LFOSpeed": 0.496,
+                        "DecayLow": 3.0,
+                        "FreqLow": 200.0,
+                        "Mode": 0.0,
+                        "PitchShift": 6.0,
+                        "EnvTime": 0.10000000000000001,
+                        "ModSource": 0.5,
+                        "ModDepth": 0.10000000000000001,
+                        "PitchMix": 0.45000000000000001,
+                        "DecayHigh": 2.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "EnvelopeFilter": {
+                    "ports": {
+                        "level_in": 1.0,
+                        "level_out": 1.0,
+                        "mix": 1.0,
+                        "sidechain": 0.0,
+                        "mode": 2.0,
+                        "response": 0.32000000000000001,
+                        "gain": 7.0330000000000004,
+                        "bypass": 0.0,
+                        "upper": 6000.0,
+                        "lower": 70.0,
+                        "release": 93.676000000000002,
+                        "res": 2.0,
+                        "attack": 17.439
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "ph1_lv2": {
+                    "ports": {
+                        "speed": 0.88
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "harmless": {
+                    "ports": {
+                        "tone": 6000.0,
+                        "shape": 0.5,
+                        "rate": 4.0,
+                        "phase": 0.0,
+                        "depth": 100.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                }
+            },
+            "name": "Default"
+        }
+    ]
+}

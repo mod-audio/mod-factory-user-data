@@ -1,0 +1,495 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "DS1": {
+                    "ports": {
+                        "Tone": 0.5,
+                        "Dist": 0.5,
+                        "Level": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "BigMuffPi": {
+                    "ports": {
+                        "Tone": 0.5,
+                        "Sustain": 0.5,
+                        "Level": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "ToggleSwitch4": {
+                    "ports": {
+                        "channel4": 0.0,
+                        "channel2": 1.0,
+                        "channel3": 1.0,
+                        "channel1": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "SuperCapo": {
+                    "ports": {
+                        "Gain": 3.0,
+                        "Step": 12.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Drop": {
+                    "ports": {
+                        "Gain": 3.0,
+                        "Step": -12.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "Up and Down"
+        },
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "DS1": {
+                    "ports": {
+                        "Tone": 0.5,
+                        "Dist": 0.5,
+                        "Level": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "BigMuffPi": {
+                    "ports": {
+                        "Tone": 0.5,
+                        "Sustain": 0.5,
+                        "Level": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "ToggleSwitch4": {
+                    "ports": {
+                        "channel4": 0.0,
+                        "channel2": 1.0,
+                        "channel3": 0.0,
+                        "channel1": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "SuperCapo": {
+                    "ports": {
+                        "Gain": 3.0,
+                        "Step": 12.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Drop": {
+                    "ports": {
+                        "Gain": 3.0,
+                        "Step": -12.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "Oct Dist"
+        },
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "DS1": {
+                    "ports": {
+                        "Tone": 0.5,
+                        "Dist": 0.5,
+                        "Level": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "BigMuffPi": {
+                    "ports": {
+                        "Tone": 0.5,
+                        "Sustain": 0.5,
+                        "Level": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "ToggleSwitch4": {
+                    "ports": {
+                        "channel4": 0.0,
+                        "channel2": 1.0,
+                        "channel3": 1.0,
+                        "channel1": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "SuperCapo": {
+                    "ports": {
+                        "Gain": 3.0,
+                        "Step": 12.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Drop": {
+                    "ports": {
+                        "Gain": 3.0,
+                        "Step": -12.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "Sub Fuzz"
+        },
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "DS1": {
+                    "ports": {
+                        "Tone": 0.5,
+                        "Dist": 0.5,
+                        "Level": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "BigMuffPi": {
+                    "ports": {
+                        "Tone": 0.5,
+                        "Sustain": 0.5,
+                        "Level": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "ToggleSwitch4": {
+                    "ports": {
+                        "channel4": 0.0,
+                        "channel2": 1.0,
+                        "channel3": 1.0,
+                        "channel1": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "SuperCapo": {
+                    "ports": {
+                        "Gain": 3.0,
+                        "Step": 12.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Drop": {
+                    "ports": {
+                        "Gain": 3.0,
+                        "Step": -12.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "SubUp Fuzz"
+        },
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "DS1": {
+                    "ports": {
+                        "Tone": 0.5,
+                        "Dist": 0.5,
+                        "Level": 0.64349384609531846
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "BigMuffPi": {
+                    "ports": {
+                        "Tone": 0.5,
+                        "Sustain": 0.5,
+                        "Level": 0.4375
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "ToggleSwitch4": {
+                    "ports": {
+                        "channel4": 0.0,
+                        "channel2": 1.0,
+                        "channel3": 1.0,
+                        "channel1": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "SuperCapo": {
+                    "ports": {
+                        "Gain": 3.0,
+                        "Step": 12.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Drop": {
+                    "ports": {
+                        "Gain": 3.0,
+                        "Step": -12.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "All On"
+        }
+    ],
+    "current": 0
+}

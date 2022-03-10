@@ -1,0 +1,187 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "mod_cv_attenuverter_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": -10.0,
+                        "Mode": 1.0,
+                        "Multiplier": 10.0,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "mod_cv_attenuverter_2": {
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 1.0,
+                        "Multiplier": -10.0,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "mod_volume_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "mod_volume": {
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "shiroverb": {
+                    "bypassed": false,
+                    "ports": {
+                        "mix": 100.0,
+                        "bandwidth": 100.0,
+                        "ratio": 2.0,
+                        "damping": 50.0,
+                        "shimmer": 0.0,
+                        "decay": 1.0,
+                        "tone": 6000.0,
+                        "roomsize": 60.799999237060547
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "ZamCompX2": {
+                    "bypassed": false,
+                    "ports": {
+                        "mak": 30.0,
+                        "kn": 0.0,
+                        "sidechain": 0.0,
+                        "att": 0.10000000149011612,
+                        "slew": 1.0,
+                        "rat": 20.0,
+                        "stereodet": 0.0,
+                        "thr": -59.464286804199219,
+                        "rel": 207.6171875
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "cabsim_vintage_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "Model": 9.0,
+                        "Attenuation": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "cabsim_vintage": {
+                    "bypassed": false,
+                    "ports": {
+                        "Model": 9.0,
+                        "Attenuation": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "mod_cv_control_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "mod_cv_slew_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 423.60675048828125,
+                        "RiseTime": 0.10000000149011612,
+                        "BYPASS": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "mod_cv_slew": {
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 154.66043090820312,
+                        "RiseTime": 129.55134582519531,
+                        "BYPASS": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "mod_cv_attenuverter": {
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 10.0,
+                        "Mode": 1.0,
+                        "Multiplier": -4.2995171546936035,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "bypassed": true,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                }
+            },
+            "name": "Default"
+        }
+    ]
+}

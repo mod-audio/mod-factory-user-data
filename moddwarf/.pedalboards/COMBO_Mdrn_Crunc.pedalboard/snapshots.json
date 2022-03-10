@@ -1,0 +1,107 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "cabsim_vintage": {
+                    "ports": {
+                        "Model": 7.0,
+                        "Attenuation": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "xfade": 1.0,
+                        "shape": 0.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "Plate": {
+                    "ports": {
+                        "tail": 0.375,
+                        "damping": 0.00050000002374872565,
+                        "bandwidth": 0.99949997663497925,
+                        "blend": 0.23000000000000001
+                    },
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "xfade": 1.0,
+                        "shape": 0.0
+                    }
+                },
+                "faIR_cabsim": {
+                    "ports": {
+                        "Model": 0.0,
+                        "Attenuation": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {}
+                },
+                "studiopre": {
+                    "ports": {
+                        "middle": 0.5,
+                        "treble": 0.5,
+                        "bright": 0.0,
+                        "bass": 0.5,
+                        "volume": 5.0
+                    },
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {}
+                },
+                "_CreamMachine_": {
+                    "ports": {
+                        "LEVEL": 0.5,
+                        "TREBLE": 0.5,
+                        "BYPASS": 1.0,
+                        "BASS": 0.5,
+                        "VOLUME": 0.23999999463558197
+                    },
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {}
+                }
+            }
+        }
+    ],
+    "current": 0
+}

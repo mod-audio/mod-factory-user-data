@@ -1,0 +1,305 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "PhaserII": {
+                    "ports": {
+                        "lfo": 0.0,
+                        "depth": 0.75,
+                        "rate": 0.25,
+                        "spread": 0.75,
+                        "resonance": 0.25
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "PlateX2": {
+                    "ports": {
+                        "damping": 0.00050000002374872565,
+                        "bandwidth": 1.0,
+                        "tail": 0.5,
+                        "blend": 0.25
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Scape": {
+                    "ports": {
+                        "bpm": 120.0,
+                        "divider": 2.0,
+                        "feedback": 0.75,
+                        "dry": 0.75,
+                        "tune": 440.0,
+                        "blend": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "Scape Plate"
+        },
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "PhaserII": {
+                    "ports": {
+                        "lfo": 0.0,
+                        "depth": 0.75,
+                        "rate": 0.25,
+                        "spread": 0.75,
+                        "resonance": 0.25
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "PlateX2": {
+                    "ports": {
+                        "damping": 0.00050000002374872565,
+                        "bandwidth": 1.0,
+                        "tail": 0.5,
+                        "blend": 0.25
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Scape": {
+                    "ports": {
+                        "bpm": 120.0,
+                        "divider": 2.0,
+                        "feedback": 0.75,
+                        "dry": 0.75,
+                        "tune": 440.0,
+                        "blend": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "Phaser"
+        },
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "PhaserII": {
+                    "ports": {
+                        "lfo": 0.0,
+                        "depth": 0.875,
+                        "rate": 0.6875,
+                        "spread": 0.75,
+                        "resonance": 0.75
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "PlateX2": {
+                    "ports": {
+                        "damping": 0.00050000002374872565,
+                        "bandwidth": 1.0,
+                        "tail": 0.5,
+                        "blend": 0.25
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Scape": {
+                    "ports": {
+                        "bpm": 120.0,
+                        "divider": 2.0,
+                        "feedback": 0.75,
+                        "dry": 0.75,
+                        "tune": 440.0,
+                        "blend": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "Phaser Plate"
+        },
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "PhaserII": {
+                    "ports": {
+                        "lfo": 0.0,
+                        "depth": 0.75,
+                        "rate": 0.25,
+                        "spread": 0.75,
+                        "resonance": 0.25
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "PlateX2": {
+                    "ports": {
+                        "damping": 0.00050000002374872565,
+                        "bandwidth": 1.0,
+                        "tail": 0.5,
+                        "blend": 0.25
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Scape": {
+                    "ports": {
+                        "bpm": 120.0,
+                        "divider": 2.0,
+                        "feedback": 0.75,
+                        "dry": 0.75,
+                        "tune": 440.0,
+                        "blend": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "All On"
+        }
+    ],
+    "current": 0
+}

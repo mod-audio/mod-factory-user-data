@@ -1,0 +1,163 @@
+{
+    "/hmi/group1": [],
+    "/hmi/knob1": [
+        {
+            "port": ":bypass",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/xfade",
+            "label": "ST INPUT",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "decay",
+            "dividers": null,
+            "maximum": 100.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 1.0,
+            "steps": 201,
+            "instance": "/graph/shiroverb",
+            "label": "decay",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "tone",
+            "dividers": null,
+            "maximum": 6000.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 500.0,
+            "steps": 201,
+            "instance": "/graph/shiroverb",
+            "label": "tone",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "port": "xfade",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": -1.0,
+            "steps": 201,
+            "instance": "/graph/xfade_1",
+            "label": "Dry/Wet",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "shimmer",
+            "dividers": null,
+            "maximum": 100.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 201,
+            "instance": "/graph/shiroverb",
+            "label": "shimmer",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "roomsize",
+            "dividers": null,
+            "maximum": 300.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 1.0,
+            "steps": 201,
+            "instance": "/graph/shiroverb",
+            "label": "roomsize",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "Gain",
+            "dividers": null,
+            "maximum": 20.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": -20.0,
+            "steps": 201,
+            "instance": "/graph/Gain2x2",
+            "label": "Wet Lvl",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "ratio",
+            "dividers": null,
+            "maximum": 2.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.5,
+            "steps": 201,
+            "instance": "/graph/shiroverb",
+            "label": "ratio",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "damping",
+            "dividers": null,
+            "maximum": 100.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 201,
+            "instance": "/graph/shiroverb",
+            "label": "damping",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/xfade_1",
+            "label": "Shiroverb",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/bpm": [],
+    "/hmi/footswitch2": []
+}

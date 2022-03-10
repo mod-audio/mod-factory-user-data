@@ -1,0 +1,353 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "PhaserII": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "lfo": 0.0,
+                        "depth": 1.0,
+                        "spread": 0.375,
+                        "resonance": 0.75,
+                        "rate": 0.171875
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "roomsize": 10.0,
+                        "damping": 29.6875,
+                        "tone": 6000.0,
+                        "shimmer": 25.0,
+                        "ratio": 1.0,
+                        "bandwidth": 68.75,
+                        "decay": 20.600000000000001,
+                        "mix": 32.5
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "BigMuffPi": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Tone": 0.375,
+                        "Level": 0.1875,
+                        "Sustain": 0.109375
+                    },
+                    "bypassed": true
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "_bajatubedriver_": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "TONE": 0.5,
+                        "DRIVE": 0.34000000357627869,
+                        "VOLUME": 0.34000000357627869,
+                        "BYPASS": 1.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Driven Ph-Verb"
+        },
+        {
+            "data": {
+                "PhaserII": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "lfo": 0.0,
+                        "depth": 1.0,
+                        "spread": 0.375,
+                        "resonance": 0.75,
+                        "rate": 0.171875
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "roomsize": 10.0,
+                        "damping": 29.6875,
+                        "tone": 6000.0,
+                        "shimmer": 25.0,
+                        "ratio": 1.0,
+                        "bandwidth": 68.75,
+                        "decay": 20.600000000000001,
+                        "mix": 32.5
+                    },
+                    "bypassed": true
+                },
+                "xfade": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "BigMuffPi": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Tone": 0.375,
+                        "Level": 0.1875,
+                        "Sustain": 0.109375
+                    },
+                    "bypassed": false
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "_bajatubedriver_": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "TONE": 0.5,
+                        "DRIVE": 0.34000000357627869,
+                        "VOLUME": 0.34000000357627869,
+                        "BYPASS": 1.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Disgusting Phaser"
+        },
+        {
+            "data": {
+                "PhaserII": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "lfo": 0.0,
+                        "depth": 1.0,
+                        "spread": 0.375,
+                        "resonance": 0.75,
+                        "rate": 0.171875
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "roomsize": 10.0,
+                        "damping": 29.6875,
+                        "tone": 6000.0,
+                        "shimmer": 25.0,
+                        "ratio": 1.0,
+                        "bandwidth": 68.75,
+                        "decay": 20.600000000000001,
+                        "mix": 32.5
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "BigMuffPi": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Tone": 0.375,
+                        "Level": 0.1875,
+                        "Sustain": 0.109375
+                    },
+                    "bypassed": false
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "_bajatubedriver_": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "TONE": 0.5,
+                        "DRIVE": 0.34000000357627869,
+                        "VOLUME": 0.34000000357627869,
+                        "BYPASS": 1.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "All Out"
+        },
+        {
+            "data": {
+                "PhaserII": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "lfo": 0.0,
+                        "depth": 1.0,
+                        "spread": 0.375,
+                        "resonance": 0.75,
+                        "rate": 0.171875
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "roomsize": 10.0,
+                        "damping": 29.6875,
+                        "tone": 6000.0,
+                        "shimmer": 25.0,
+                        "ratio": 1.0,
+                        "bandwidth": 68.75,
+                        "decay": 20.600000000000001,
+                        "mix": 32.5
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "BigMuffPi": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Tone": 0.375,
+                        "Level": 0.1875,
+                        "Sustain": 0.109375
+                    },
+                    "bypassed": true
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "_bajatubedriver_": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "TONE": 0.5,
+                        "DRIVE": 0.34000000357627869,
+                        "VOLUME": 0.34000000357627869,
+                        "BYPASS": 0.0
+                    },
+                    "bypassed": true
+                }
+            },
+            "name": "Phase-Verb"
+        }
+    ],
+    "current": 0
+}

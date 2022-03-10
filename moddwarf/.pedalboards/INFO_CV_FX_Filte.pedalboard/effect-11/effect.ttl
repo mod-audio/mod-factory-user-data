@@ -1,0 +1,20 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <http://open-music-kontrollers.ch/lv2/notes#notes> ;
+	state:state [
+		<http://open-music-kontrollers.ch/lv2/notes#text> """Envelope follower chains
+
+-Audio input goes through Audio to CV so that we can manipulate the signal in the CV realm.
+-Audio to CV output goes through Slew Rate Limiter so that we get the volume envelope of the audio signal.
+-Slew Rate Limiter goes to the LIN FM input of the VCF, so that we can modulate the cutoff frequency via with the volume envelope of the sound.""" ;
+		<http://open-music-kontrollers.ch/lv2/notes#fontHeight> "25"^^xsd:int
+	] .
+

@@ -1,0 +1,560 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "tubewarmth_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "ports": {
+                        "blend": 0.625,
+                        "drive": 10.0
+                    },
+                    "preset": ""
+                },
+                "gate": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "ports": {
+                        "gaterange": -90.0,
+                        "switch": 1.0,
+                        "hold": 500.0,
+                        "decay": 1000.0,
+                        "threshold": -54.533482142857139,
+                        "attack": 0.10000000149011612
+                    },
+                    "preset": ""
+                },
+                "tubewarmth_2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "ports": {
+                        "blend": 2.5,
+                        "drive": 1.3375000013038516
+                    },
+                    "preset": ""
+                },
+                "onyx": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "ports": {
+                        "Treble": 0.39130398631095886,
+                        "Vol": 49.51690673828125,
+                        "Mid": 0.97826099395751953,
+                        "clip": 600.0,
+                        "Character": 71.014495849609375,
+                        "Gain": 78.478263854980469,
+                        "Bass": 0.10144899785518646
+                    },
+                    "preset": ""
+                },
+                "xfade": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": ""
+                },
+                "PlateX2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "ports": {
+                        "tail": 0.73158502578735352,
+                        "blend": 0.4375,
+                        "damping": 0.25725400447845459,
+                        "bandwidth": 0.99949997663497925
+                    },
+                    "preset": ""
+                },
+                "_echo_stereo": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "ports": {
+                        "level_l": 14.0625,
+                        "lfo": 5.0,
+                        "timt_r": 412.62445068359375,
+                        "timt_l": 373.58148193359375,
+                        "link": 0.0,
+                        "mode": 1.0,
+                        "level_r": 14.0625
+                    },
+                    "preset": ""
+                },
+                "cabsim_modern": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "ports": {
+                        "Model": 5.0,
+                        "Attenuation": -20.0
+                    },
+                    "preset": ""
+                },
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "ports": {
+                        "Model": 7.0,
+                        "Attenuation": -20.0
+                    },
+                    "preset": ""
+                },
+                "stereo_2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "ports": {
+                        "release": 0.001945279681534122,
+                        "attack": 9.999999747378755e-06,
+                        "ratio": 2.1875,
+                        "noClip": 0.0,
+                        "threshold": -18.0,
+                        "rms": 0.5,
+                        "gain": 5.15625,
+                        "bypass": 0.0
+                    },
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": ""
+                },
+                "sooperlooper": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "ports": {
+                        "reset": 0.0,
+                        "play_pause": 1.0,
+                        "undo": 0.0,
+                        "record": 0.0,
+                        "dryLevel": 1.0,
+                        "redo": 0.0
+                    },
+                    "preset": ""
+                },
+                "chorusflanger": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "ports": {
+                        "Delay": 25.0,
+                        "Frequency": 1.75,
+                        "DryLevel": -0.625,
+                        "Contour": 100.0,
+                        "LRPhaseShift": 90.0,
+                        "Depth": 75.0,
+                        "WetLevel": -17.014509201049805
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "ports": {
+                        "release": 0.20000000298023224,
+                        "attack": 0.0030000000260770321,
+                        "ratio": 4.0,
+                        "noClip": 1.0,
+                        "threshold": -28.0,
+                        "rms": 0.5,
+                        "gain": 0.0,
+                        "bypass": 1.0
+                    },
+                    "preset": ""
+                },
+                "tubewarmth": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "ports": {
+                        "blend": 2.5,
+                        "drive": 1.3264508941626578
+                    },
+                    "preset": ""
+                },
+                "Gain": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": ""
+                }
+            },
+            "name": "LEAD"
+        },
+        {
+            "data": {
+                "tubewarmth_1": {
+                    "bypassed": true,
+                    "ports": {
+                        "blend": 0.625,
+                        "drive": 10.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "gate": {
+                    "bypassed": false,
+                    "ports": {
+                        "gaterange": -90.0,
+                        "switch": 1.0,
+                        "hold": 500.0,
+                        "decay": 1000.0,
+                        "threshold": -54.533481597900391,
+                        "attack": 0.10000000149011612
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "tubewarmth_2": {
+                    "bypassed": false,
+                    "ports": {
+                        "blend": 2.5,
+                        "drive": 1.3374999761581421
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "onyx": {
+                    "bypassed": false,
+                    "ports": {
+                        "Treble": 0.39130398631095886,
+                        "Vol": 49.51690673828125,
+                        "Mid": 0.97826099395751953,
+                        "clip": 100.0,
+                        "Character": 71.014495849609375,
+                        "Gain": 78.478263854980469,
+                        "Bass": 0.10144899785518646
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "ports": {
+                        "tail": 0.73158502578735352,
+                        "blend": 0.28999999999999998,
+                        "damping": 0.25725400447845459,
+                        "bandwidth": 0.99949997663497925
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "_echo_stereo": {
+                    "bypassed": true,
+                    "ports": {
+                        "level_l": 14.0625,
+                        "lfo": 5.0,
+                        "timt_r": 412.62445068359375,
+                        "timt_l": 373.58148193359375,
+                        "link": 0.0,
+                        "mode": 1.0,
+                        "level_r": 14.0625
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "sooperlooper": {
+                    "bypassed": false,
+                    "ports": {
+                        "reset": 0.0,
+                        "play_pause": 1.0,
+                        "undo": 0.0,
+                        "record": 0.0,
+                        "dryLevel": 1.0,
+                        "redo": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "cabsim_modern": {
+                    "bypassed": false,
+                    "ports": {
+                        "Model": 5.0,
+                        "Attenuation": -20.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "cabsim_vintage": {
+                    "bypassed": false,
+                    "ports": {
+                        "Model": 7.0,
+                        "Attenuation": -20.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "stereo_2": {
+                    "bypassed": false,
+                    "ports": {
+                        "noClip": 0.0,
+                        "release": 0.0019450000254437327,
+                        "attack": 9.9999997473787516e-06,
+                        "ratio": 2.1875,
+                        "rms": 0.5,
+                        "threshold": -18.0,
+                        "gain": 5.15625,
+                        "bypass": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "mono": {
+                    "bypassed": false,
+                    "ports": {
+                        "noClip": 1.0,
+                        "release": 0.20000000298023224,
+                        "attack": 0.0030000000260770321,
+                        "ratio": 4.0,
+                        "rms": 0.5,
+                        "threshold": -28.0,
+                        "gain": 0.0,
+                        "bypass": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "chorusflanger": {
+                    "bypassed": false,
+                    "ports": {
+                        "Delay": 25.0,
+                        "Frequency": 1.75,
+                        "DryLevel": -0.625,
+                        "Contour": 100.0,
+                        "LRPhaseShift": 90.0,
+                        "Depth": 75.0,
+                        "WetLevel": -17.014509201049805
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "tubewarmth": {
+                    "bypassed": false,
+                    "ports": {
+                        "blend": 2.5,
+                        "drive": 1.3264509439468384
+                    },
+                    "preset": "",
+                    "parameters": {}
+                }
+            },
+            "name": "Cleanish"
+        },
+        {
+            "data": {
+                "tubewarmth_1": {
+                    "bypassed": true,
+                    "ports": {
+                        "blend": 0.625,
+                        "drive": 10.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "gate": {
+                    "bypassed": false,
+                    "ports": {
+                        "gaterange": -90.0,
+                        "switch": 1.0,
+                        "hold": 500.0,
+                        "decay": 1000.0,
+                        "threshold": -54.533481597900391,
+                        "attack": 0.10000000149011612
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "tubewarmth_2": {
+                    "bypassed": false,
+                    "ports": {
+                        "blend": 2.5,
+                        "drive": 1.3374999761581421
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "onyx": {
+                    "bypassed": false,
+                    "ports": {
+                        "Treble": 0.39130398631095886,
+                        "Vol": 49.51690673828125,
+                        "Mid": 0.97826099395751953,
+                        "clip": 600.0,
+                        "Character": 71.014495849609375,
+                        "Gain": 78.478263854980469,
+                        "Bass": 0.10144899785518646
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "ports": {
+                        "tail": 0.73158502578735352,
+                        "blend": 0.28999999999999998,
+                        "damping": 0.25725400447845459,
+                        "bandwidth": 0.99949997663497925
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "_echo_stereo": {
+                    "bypassed": true,
+                    "ports": {
+                        "level_l": 14.0625,
+                        "lfo": 5.0,
+                        "timt_r": 412.62445068359375,
+                        "timt_l": 373.58148193359375,
+                        "link": 0.0,
+                        "mode": 1.0,
+                        "level_r": 14.0625
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "sooperlooper": {
+                    "bypassed": false,
+                    "ports": {
+                        "reset": 0.0,
+                        "play_pause": 1.0,
+                        "undo": 0.0,
+                        "record": 0.0,
+                        "dryLevel": 1.0,
+                        "redo": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "cabsim_modern": {
+                    "bypassed": false,
+                    "ports": {
+                        "Model": 5.0,
+                        "Attenuation": -20.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "cabsim_vintage": {
+                    "bypassed": false,
+                    "ports": {
+                        "Model": 7.0,
+                        "Attenuation": -20.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "stereo_2": {
+                    "bypassed": false,
+                    "ports": {
+                        "noClip": 0.0,
+                        "release": 0.0019450000254437327,
+                        "attack": 9.9999997473787516e-06,
+                        "ratio": 2.1875,
+                        "rms": 0.5,
+                        "threshold": -18.0,
+                        "gain": 5.15625,
+                        "bypass": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "mono": {
+                    "bypassed": false,
+                    "ports": {
+                        "noClip": 1.0,
+                        "release": 0.20000000298023224,
+                        "attack": 0.0030000000260770321,
+                        "ratio": 4.0,
+                        "rms": 0.5,
+                        "threshold": -28.0,
+                        "gain": 0.0,
+                        "bypass": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "chorusflanger": {
+                    "bypassed": false,
+                    "ports": {
+                        "Delay": 25.0,
+                        "Frequency": 1.75,
+                        "DryLevel": -0.625,
+                        "Contour": 100.0,
+                        "LRPhaseShift": 90.0,
+                        "Depth": 75.0,
+                        "WetLevel": -17.014509201049805
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "tubewarmth": {
+                    "bypassed": false,
+                    "ports": {
+                        "blend": 2.5,
+                        "drive": 1.3264509439468384
+                    },
+                    "preset": "",
+                    "parameters": {}
+                }
+            },
+            "name": "Crunch"
+        }
+    ]
+}

@@ -1,0 +1,224 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Multiplier": 0.71999999999999997,
+                        "Mode": 0.0,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "notes_1": {
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            20.0,
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "Detune Macro\n\n-Control to CV output is adressed to oscillator 3 \"tune\" parameter\n-Control to CV goes through CV attenuverter booster to invert the value\n-Attenuverter Booster output is adressed to oscillator 2 \"tune\" parameter\n-Control to CV \"control\" parameter is adressed to a knob on the MOD Dwarf, so that with 1 knob we get a nice detune effect.",
+                            "s"
+                        ]
+                    },
+                    "ports": {},
+                    "preset": "",
+                    "bypassed": false
+                },
+                "notes_2": {
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "48",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "OSCILLATOR 3    ^\n                                    |\nOSCILLATOR 2  -->\n                                   |\nOSCILLATOR 1   V",
+                            "s"
+                        ]
+                    },
+                    "ports": {},
+                    "preset": "",
+                    "bypassed": false
+                },
+                "mod_cv_attenuverter_1": {
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Multiplier": -1.0,
+                        "Mode": 0.0,
+                        "Smoothing": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "vco3": {
+                    "parameters": {},
+                    "ports": {
+                        "semitone": 0.0,
+                        "pw0": 0.5,
+                        "linFMGain": 0.0,
+                        "phi0": 0.0,
+                        "edge": 1.0,
+                        "pwGain": 0.0,
+                        "waveForm": 2.0,
+                        "expFMGain": 0.0,
+                        "tune": 0.0089999999999999993,
+                        "octave": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "vco3_1": {
+                    "parameters": {},
+                    "ports": {
+                        "semitone": 0.0,
+                        "pw0": 0.5,
+                        "linFMGain": 0.0,
+                        "phi0": 0.0,
+                        "edge": 1.0,
+                        "pwGain": 0.0,
+                        "waveForm": 2.0,
+                        "expFMGain": 0.0,
+                        "tune": -0.0089999999999999993,
+                        "octave": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "vcf": {
+                    "parameters": {},
+                    "ports": {
+                        "freq": 3.5265700483091753,
+                        "linFMGain": 0.0,
+                        "resonance": 0.30199999999999999,
+                        "expFMGain": 0.0,
+                        "inputGain": 1.0,
+                        "resonanceGain": 0.0,
+                        "vcfType": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "ports": {
+                        "Control": 1.8,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "env": {
+                    "parameters": {},
+                    "ports": {
+                        "timeScale": 1.0,
+                        "hold": 0.0024154589371980675,
+                        "attack": 0.0060000000000000001,
+                        "delay": 0.0,
+                        "release": 0.30434782608695654,
+                        "decay": 0.5,
+                        "sustain": 2.0048309178744006
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "mono": {
+                    "parameters": {},
+                    "ports": {
+                        "gain": 0.0,
+                        "mute": 0.0,
+                        "enable": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "ports": {
+                        "damping": 50.0,
+                        "tone": 1500.0,
+                        "roomsize": 75.0,
+                        "ratio": 1.0169999999999999,
+                        "shimmer": 50.0,
+                        "bandwidth": 75.0,
+                        "mix": 26.5,
+                        "decay": 46.045000000000002
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "notes": {
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "Controller adressings\n\nPage 1\nI          OSC 1+2+3 waveforms\nII         OSC 1+2+3 octaves\nIII        OSC 2+3 semitones + detune\nPage 2\nI         Envelope settings\nII        Filter settings\nIII       Shiroverb settings",
+                            "s"
+                        ]
+                    },
+                    "ports": {},
+                    "preset": "",
+                    "bypassed": false
+                },
+                "midi_to_cv_mono": {
+                    "parameters": {},
+                    "ports": {
+                        "Retrigger": 1.0,
+                        "Octave": 0.0,
+                        "Panic": 0.0,
+                        "Cent": 0.0,
+                        "Semitone": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "vco3_2": {
+                    "parameters": {},
+                    "ports": {
+                        "semitone": 0.0,
+                        "pw0": 0.5,
+                        "linFMGain": 0.0,
+                        "phi0": 0.0,
+                        "edge": 1.0,
+                        "pwGain": 0.0,
+                        "waveForm": 2.0,
+                        "expFMGain": 0.0,
+                        "tune": 0.0,
+                        "octave": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "vcaexp": {
+                    "parameters": {},
+                    "ports": {
+                        "gain2": 0.0,
+                        "gain1": 0.0,
+                        "in1": 1.0,
+                        "outputLevel": 0.25,
+                        "in2": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                }
+            },
+            "name": "Default"
+        }
+    ],
+    "current": 0
+}

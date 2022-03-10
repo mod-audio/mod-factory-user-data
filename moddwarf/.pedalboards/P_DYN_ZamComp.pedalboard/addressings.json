@@ -1,0 +1,202 @@
+{
+    "/hmi/group1": [],
+    "/cv/graph/mod_cv_control/Cvoutput": {
+        "addrs": [
+            {
+                "minimum": 0.0,
+                "port": ":bypass",
+                "steps": 33,
+                "maximum": 1.0,
+                "instance": "/graph/xfade_2",
+                "operational_mode": "+",
+                "label": "Stereo X-Fade"
+            },
+            {
+                "minimum": 0.0,
+                "port": "sidechain",
+                "steps": 1,
+                "maximum": 1.0,
+                "instance": "/graph/ZamCompX2",
+                "operational_mode": "+",
+                "label": "Sidechain"
+            }
+        ],
+        "name": "SideChain Enable"
+    },
+    "/hmi/knob1": [
+        {
+            "port": ":bypass",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/xfade",
+            "label": "ST INPUT",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "thr",
+            "dividers": null,
+            "maximum": 0.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": -80.0,
+            "steps": 201,
+            "instance": "/graph/ZamCompX2",
+            "label": "Threshold",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "att",
+            "dividers": null,
+            "maximum": 100.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 0.10000000149011612,
+            "steps": 201,
+            "instance": "/graph/ZamCompX2",
+            "label": "Attack",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "port": "xfade",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": -1.0,
+            "steps": 201,
+            "instance": "/graph/xfade_1",
+            "label": "Dry/Wet",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "kn",
+            "dividers": null,
+            "maximum": 8.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 201,
+            "instance": "/graph/ZamCompX2",
+            "label": "Knee",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "slew",
+            "dividers": null,
+            "maximum": 150.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 1.0,
+            "steps": 201,
+            "instance": "/graph/ZamCompX2",
+            "label": "Slew",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "Gain",
+            "dividers": null,
+            "maximum": 20.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": -20.0,
+            "steps": 201,
+            "instance": "/graph/Gain2x2",
+            "label": "Wet Lvl",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "rat",
+            "dividers": null,
+            "maximum": 20.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 1.0,
+            "steps": 201,
+            "instance": "/graph/ZamCompX2",
+            "label": "Ratio",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "rel",
+            "dividers": null,
+            "maximum": 500.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 1.0,
+            "steps": 201,
+            "instance": "/graph/ZamCompX2",
+            "label": "Release",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/xfade_1",
+            "label": "Zam Compressor",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/bpm": [],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bypass",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/mod_cv_control",
+            "label": "SideChain 2>1",
+            "tempo": false,
+            "coloured": false
+        }
+    ]
+}

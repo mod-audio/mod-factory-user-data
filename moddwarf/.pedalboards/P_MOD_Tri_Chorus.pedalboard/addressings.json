@@ -1,0 +1,148 @@
+{
+    "/hmi/group1": [],
+    "/hmi/knob1": [
+        {
+            "port": ":bypass",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/xfade",
+            "label": "ST INPUT",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "delay",
+            "dividers": null,
+            "maximum": 30.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 201,
+            "instance": "/graph/triple_chorus",
+            "label": "Delay",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "mod_freq_2",
+            "dividers": 0.33300000000000002,
+            "maximum": 30.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 0.0099999997764825821,
+            "steps": 201,
+            "instance": "/graph/triple_chorus",
+            "label": "Rate 2",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "port": "xfade",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": -1.0,
+            "steps": 201,
+            "instance": "/graph/xfade_1",
+            "label": "Dry/Wet",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "mod_amp_1",
+            "dividers": null,
+            "maximum": 10.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 201,
+            "instance": "/graph/triple_chorus",
+            "label": "Depth 1",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "Gain",
+            "dividers": null,
+            "maximum": 20.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": -20.0,
+            "steps": 201,
+            "instance": "/graph/Gain2x2",
+            "label": "Wet Lvl",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "mod_freq_1",
+            "dividers": 0.33300000000000002,
+            "maximum": 10.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0030000000260770321,
+            "steps": 201,
+            "instance": "/graph/triple_chorus",
+            "label": "Rate 1",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "mod_amp_2",
+            "dividers": null,
+            "maximum": 3.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 201,
+            "instance": "/graph/triple_chorus",
+            "label": "Depth 2",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/xfade_1",
+            "label": "Tri-Chorus",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/bpm": [],
+    "/hmi/footswitch2": []
+}

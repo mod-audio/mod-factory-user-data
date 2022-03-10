@@ -1,0 +1,325 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "xfade_1": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": -15.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Scape_1": {
+                    "ports": {
+                        "bpm": 120.0,
+                        "divider": 3.0,
+                        "feedback": 0.75,
+                        "dry": 0.75,
+                        "tune": 440.0,
+                        "blend": 0.80000001192092896
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Prefreak": {
+                    "ports": {
+                        "Blur": 5.2090001106262207,
+                        "Level": 0.375
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "HighPassFilter": {
+                    "ports": {
+                        "Order": 2.0,
+                        "Freq": 328.11801147460938
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                }
+            },
+            "name": "Freaked Scape"
+        },
+        {
+            "data": {
+                "xfade_1": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": -15.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Scape_1": {
+                    "ports": {
+                        "bpm": 120.0,
+                        "divider": 3.0,
+                        "feedback": 0.75,
+                        "dry": 0.75,
+                        "tune": 440.0,
+                        "blend": 0.80000001192092896
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Prefreak": {
+                    "ports": {
+                        "Blur": 5.2090001106262207,
+                        "Level": 0.375
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "HighPassFilter": {
+                    "ports": {
+                        "Order": 2.0,
+                        "Freq": 328.11801147460938
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                }
+            },
+            "name": "Scape"
+        },
+        {
+            "data": {
+                "xfade_1": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": -15.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Scape_1": {
+                    "ports": {
+                        "bpm": 120.0,
+                        "divider": 3.0,
+                        "feedback": 0.75,
+                        "dry": 0.75,
+                        "tune": 440.0,
+                        "blend": 0.80000001192092896
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Prefreak": {
+                    "ports": {
+                        "Blur": 5.2090001106262207,
+                        "Level": 0.375
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "HighPassFilter": {
+                    "ports": {
+                        "Order": 2.0,
+                        "Freq": 328.11801147460938
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                }
+            },
+            "name": "Freaked"
+        },
+        {
+            "data": {
+                "xfade_1": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": -15.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Scape_1": {
+                    "ports": {
+                        "bpm": 120.0,
+                        "divider": 3.0,
+                        "feedback": 0.94999999999999996,
+                        "dry": 0.75,
+                        "tune": 440.0,
+                        "blend": 0.80000001192092896
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Prefreak": {
+                    "ports": {
+                        "Blur": 15.0,
+                        "Level": 0.375
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "HighPassFilter": {
+                    "ports": {
+                        "Order": 2.0,
+                        "Freq": 328.11801147460938
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                }
+            },
+            "name": "loooooong"
+        }
+    ],
+    "current": 0
+}

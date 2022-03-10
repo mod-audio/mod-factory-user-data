@@ -1,0 +1,193 @@
+{
+    "/bpm": [],
+    "/hmi/knob3": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/xfade_1",
+            "coloured": false,
+            "minimum": -1.0,
+            "port": "xfade",
+            "label": "Dry/Wet",
+            "subpage": 2,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 260,
+            "momentary": 0,
+            "instance": "/pedalboard",
+            "coloured": false,
+            "minimum": 20.0,
+            "port": ":bpm",
+            "label": "Tempo",
+            "subpage": 1,
+            "group": null,
+            "maximum": 280.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/mod_cv_control_1",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "Control",
+            "label": "MD FILT",
+            "subpage": 0,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/Gain",
+            "coloured": false,
+            "minimum": -20.0,
+            "port": "Gain",
+            "label": "Wet Lvl",
+            "subpage": 2,
+            "group": null,
+            "maximum": 20.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/shiroverb",
+            "coloured": false,
+            "minimum": 0.5,
+            "port": "ratio",
+            "label": "MD Ratio",
+            "subpage": 0,
+            "group": null,
+            "maximum": 2.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/Scape",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "feedback",
+            "label": "MD fbk",
+            "subpage": 1,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "momentary": 0,
+            "instance": "/graph/xfade",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "St Input",
+            "subpage": 2,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/shiroverb",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "mix",
+            "label": "MD Verb",
+            "subpage": 0,
+            "group": null,
+            "maximum": 100.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 2,
+            "momentary": 0,
+            "instance": "/graph/Scape",
+            "coloured": false,
+            "minimum": 2.0,
+            "port": "divider",
+            "label": "MD Divider",
+            "subpage": 1,
+            "group": null,
+            "maximum": 4.0,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "momentary": 1,
+            "instance": "/graph/mod_cv_control",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "MD Filter",
+            "subpage": 0,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "momentary": 0,
+            "instance": "/graph/xfade_1",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "MegaDrone",
+            "subpage": 0,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        }
+    ],
+    "/hmi/group1": [],
+    "/cv/graph/mod_cv_slew/CVout": {
+        "name": "Mod_cv_slew CV Output",
+        "addrs": [
+            {
+                "operational_mode": "+",
+                "minimum": 150.0,
+                "steps": 33,
+                "port": "Freq",
+                "label": "Freq",
+                "instance": "/graph/LowPassFilter",
+                "maximum": 20000.0
+            }
+        ]
+    }
+}

@@ -1,0 +1,317 @@
+{
+    "/cv/graph/env/invOut": {
+        "name": "Momentary Env Inv",
+        "addrs": [
+            {
+                "operational_mode": "-",
+                "minimum": 25.0,
+                "steps": 33,
+                "port": "mix",
+                "label": "mix",
+                "instance": "/graph/shiroverb",
+                "maximum": 70.0
+            },
+            {
+                "operational_mode": "-",
+                "minimum": 4500.0,
+                "steps": 33,
+                "port": "tone",
+                "label": "tone",
+                "instance": "/graph/shiroverb",
+                "maximum": 6000.0
+            }
+        ]
+    },
+    "/bpm": [],
+    "/hmi/footswitch2": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "momentary": 1,
+            "instance": "/graph/mod_cv_control",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "Hold Me",
+            "subpage": 0,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "momentary": 0,
+            "instance": "/graph/mod_cv_control_1",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "FX",
+            "subpage": 0,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/env_1",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "release",
+            "label": "FX REL",
+            "subpage": 0,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/env",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "release",
+            "label": "HLD REL",
+            "subpage": 1,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/mod_cv_control_4",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "Control",
+            "label": "HLD VOL",
+            "subpage": 2,
+            "group": null,
+            "maximum": 10.0,
+            "page": 0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/env_1",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "sustain",
+            "label": "FX SUST",
+            "subpage": 0,
+            "group": null,
+            "maximum": 10.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/env",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "sustain",
+            "label": "HLD SUST",
+            "subpage": 1,
+            "group": null,
+            "maximum": 10.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/mod_cv_control_3",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "Control",
+            "label": "HLD TONE",
+            "subpage": 2,
+            "group": null,
+            "maximum": 10.0,
+            "page": 0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/env_1",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "attack",
+            "label": "FX ATK",
+            "subpage": 0,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/env",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "attack",
+            "label": "Hld ATK",
+            "subpage": 1,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/mod_cv_control_2",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "Control",
+            "label": "HLD DRIV",
+            "subpage": 2,
+            "group": null,
+            "maximum": 10.0,
+            "page": 0
+        }
+    ],
+    "/cv/graph/mod_cv_control_2/Cvoutput": {
+        "name": "Drive",
+        "addrs": [
+            {
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": "DRIVE",
+                "label": "DRIVE",
+                "instance": "/graph/_bajatubedriver__1",
+                "maximum": 1.0
+            },
+            {
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": "DRIVE",
+                "label": "DRIVE",
+                "instance": "/graph/_bajatubedriver_",
+                "maximum": 1.0
+            }
+        ]
+    },
+    "/cv/graph/env_1/out": {
+        "name": "Latching Env",
+        "addrs": [
+            {
+                "operational_mode": "+",
+                "minimum": -1.0,
+                "steps": 33,
+                "port": "xfade",
+                "label": "Signal A/B",
+                "instance": "/graph/xfade",
+                "maximum": 1.0
+            }
+        ]
+    },
+    "/cv/graph/mod_cv_control_3/Cvoutput": {
+        "name": "tone",
+        "addrs": [
+            {
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": "TONE",
+                "label": "TONE",
+                "instance": "/graph/_bajatubedriver__1",
+                "maximum": 1.0
+            },
+            {
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": "TONE",
+                "label": "TONE",
+                "instance": "/graph/_bajatubedriver_",
+                "maximum": 1.0
+            }
+        ]
+    },
+    "/hmi/group1": [],
+    "/cv/graph/mod_cv_control_4/Cvoutput": {
+        "name": "level",
+        "addrs": [
+            {
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": "VOLUME",
+                "label": "VOLUME",
+                "instance": "/graph/_bajatubedriver__1",
+                "maximum": 0.29999999999999999
+            },
+            {
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": "VOLUME",
+                "label": "VOLUME",
+                "instance": "/graph/_bajatubedriver_",
+                "maximum": 0.29999999999999999
+            }
+        ]
+    },
+    "/cv/graph/env/out": {
+        "name": "Momentary Env",
+        "addrs": [
+            {
+                "operational_mode": "+",
+                "minimum": -1.0,
+                "steps": 33,
+                "port": "xfade",
+                "label": "Signal A/B",
+                "instance": "/graph/xfade_1",
+                "maximum": 1.0
+            },
+            {
+                "operational_mode": "+",
+                "minimum": 1.0,
+                "steps": 33,
+                "port": "ratio",
+                "label": "ratio",
+                "instance": "/graph/shiroverb",
+                "maximum": 2.0
+            },
+            {
+                "operational_mode": "+",
+                "minimum": 25.0,
+                "steps": 33,
+                "port": "decay",
+                "label": "decay",
+                "instance": "/graph/shiroverb",
+                "maximum": 60.0
+            }
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "powercut": {
+                    "bypassed": true,
+                    "ports": {
+                        "DTIME": 1.4589999914169312,
+                        "DCURVE": 0.0,
+                        "PULL_THE_PLUG": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                }
+            },
+            "name": "Default"
+        }
+    ]
+}

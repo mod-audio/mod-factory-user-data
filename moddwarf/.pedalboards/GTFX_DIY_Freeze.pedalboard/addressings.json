@@ -1,0 +1,232 @@
+{
+    "/cv/graph/mod_cv_slew_1/CVout": {
+        "name": "Slow shut",
+        "addrs": [
+            {
+                "operational_mode": "b",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": "Volume",
+                "label": "Volume",
+                "instance": "/graph/mod_volume_1",
+                "maximum": 1.0
+            }
+        ]
+    },
+    "/bpm": [],
+    "/hmi/footswitch2": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "momentary": 0,
+            "instance": "/graph/mod_cv_control_1",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "twincab",
+            "subpage": 0,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "momentary": 1,
+            "instance": "/graph/mod_cv_control",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "Freeze",
+            "subpage": 0,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        }
+    ],
+    "/cv/graph/mod_cv_attenuverter_2/CVout1": {
+        "name": "Foot controller revers",
+        "addrs": [
+            {
+                "operational_mode": "b",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": "damping",
+                "label": "damping",
+                "instance": "/graph/shiroverb",
+                "maximum": 100.0
+            }
+        ]
+    },
+    "/hmi/knob3": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/shiroverb",
+            "coloured": false,
+            "minimum": 500.0,
+            "port": "tone",
+            "label": "F tone",
+            "subpage": 0,
+            "group": null,
+            "maximum": 6000.0,
+            "page": 0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/shiroverb",
+            "coloured": false,
+            "minimum": 0.5,
+            "port": "ratio",
+            "label": "F ratio",
+            "subpage": 0,
+            "group": null,
+            "maximum": 2.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/Gain2x2",
+            "coloured": false,
+            "minimum": -20.0,
+            "port": "Gain",
+            "label": "In gain",
+            "subpage": 2,
+            "group": null,
+            "maximum": 20.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/shiroverb",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "bandwidth",
+            "label": "F BandW",
+            "subpage": 1,
+            "group": null,
+            "maximum": 100.0,
+            "page": 0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/shiroverb",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "shimmer",
+            "label": "F Shim",
+            "subpage": 0,
+            "group": null,
+            "maximum": 100.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "momentary": 0,
+            "instance": "/graph/xfade",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "St Input",
+            "subpage": 2,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/shiroverb",
+            "coloured": false,
+            "minimum": 1.0,
+            "port": "roomsize",
+            "label": "F Room",
+            "subpage": 1,
+            "group": null,
+            "maximum": 300.0,
+            "page": 0
+        }
+    ],
+    "/cv/graph/mod_cv_control/Cvoutput": {
+        "name": "foot controller",
+        "addrs": [
+            {
+                "operational_mode": "+",
+                "minimum": 1.0,
+                "steps": 33,
+                "port": "decay",
+                "label": "decay",
+                "instance": "/graph/shiroverb",
+                "maximum": 100.0
+            }
+        ]
+    },
+    "/cv/graph/mod_cv_control_1/Cvoutput": {
+        "name": "cabinets",
+        "addrs": [
+            {
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": ":bypass",
+                "label": "Vintage Cabinets",
+                "instance": "/graph/cabsim_vintage_1",
+                "maximum": 1.0
+            },
+            {
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": ":bypass",
+                "label": "Vintage Cabinets",
+                "instance": "/graph/cabsim_vintage",
+                "maximum": 1.0
+            }
+        ]
+    },
+    "/hmi/group1": [],
+    "/cv/graph/mod_cv_attenuverter/CVout1": {
+        "name": "on/off",
+        "addrs": []
+    },
+    "/cv/graph/mod_cv_slew/CVout": {
+        "name": "Slow Send",
+        "addrs": [
+            {
+                "operational_mode": "b",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": "Volume",
+                "label": "Volume",
+                "instance": "/graph/mod_volume",
+                "maximum": 1.0
+            }
+        ]
+    }
+}

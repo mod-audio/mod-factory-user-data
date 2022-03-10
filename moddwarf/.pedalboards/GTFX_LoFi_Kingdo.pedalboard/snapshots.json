@@ -1,0 +1,385 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "paranoia": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "wet": -9.0,
+                        "nuclear": 4.0,
+                        "filter": 57.756696428571388,
+                        "crush": 40.0
+                    },
+                    "bypassed": false
+                },
+                "floaty": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "feedback": 30.9375,
+                        "filter": 19.0,
+                        "warp": 60.0,
+                        "delay": 280.0,
+                        "rate": 1.0,
+                        "mix": 42.0
+                    },
+                    "bypassed": false
+                },
+                "hip2b": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "WETDRY": 0.045200892857142863,
+                        "DOWN": 0.01785714285714235,
+                        "IN_GAIN": 2.0,
+                        "OUT_GAIN": 0.5,
+                        "UP": 0.015625,
+                        "OCTAVE": 0.0
+                    },
+                    "bypassed": true
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "bitta": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "drywet": 1.0,
+                        "active": 1.0,
+                        "crush": 8.0
+                    },
+                    "bypassed": true
+                },
+                "filta": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "active": 1.0,
+                        "frequency_control": 0.40999999999999998
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Para Float"
+        },
+        {
+            "data": {
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "paranoia": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "wet": -9.0,
+                        "nuclear": 4.0,
+                        "filter": 57.756696428571388,
+                        "crush": 40.0
+                    },
+                    "bypassed": false
+                },
+                "floaty": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "feedback": 30.9375,
+                        "filter": 19.0,
+                        "warp": 60.0,
+                        "delay": 280.0,
+                        "rate": 1.0,
+                        "mix": 42.0
+                    },
+                    "bypassed": false
+                },
+                "hip2b": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "WETDRY": 0.045200892857142863,
+                        "DOWN": 0.01785714285714235,
+                        "IN_GAIN": 2.0,
+                        "OUT_GAIN": 0.5,
+                        "UP": 0.015625,
+                        "OCTAVE": 0.0
+                    },
+                    "bypassed": false
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "bitta": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "drywet": 1.0,
+                        "active": 1.0,
+                        "crush": 8.0
+                    },
+                    "bypassed": true
+                },
+                "filta": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "active": 1.0,
+                        "frequency_control": 0.40999999999999998
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "disgusting"
+        },
+        {
+            "data": {
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "paranoia": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "wet": -9.0,
+                        "nuclear": 4.0,
+                        "filter": 57.756696428571388,
+                        "crush": 40.0
+                    },
+                    "bypassed": false
+                },
+                "floaty": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "feedback": 30.9375,
+                        "filter": 19.0,
+                        "warp": 60.0,
+                        "delay": 280.0,
+                        "rate": 1.0,
+                        "mix": 42.0
+                    },
+                    "bypassed": false
+                },
+                "hip2b": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "WETDRY": 0.045200892857142863,
+                        "DOWN": 0.01785714285714235,
+                        "IN_GAIN": 2.0,
+                        "OUT_GAIN": 0.5,
+                        "UP": 0.015625,
+                        "OCTAVE": 0.0
+                    },
+                    "bypassed": false
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "bitta": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "drywet": 1.0,
+                        "active": 1.0,
+                        "crush": 6.0
+                    },
+                    "bypassed": false
+                },
+                "filta": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "active": 1.0,
+                        "frequency_control": 0.40999999999999998
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Gated-ish"
+        },
+        {
+            "data": {
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "paranoia": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "wet": -9.0,
+                        "nuclear": 4.0,
+                        "filter": 57.756696428571388,
+                        "crush": 40.0
+                    },
+                    "bypassed": false
+                },
+                "floaty": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "feedback": 30.9375,
+                        "filter": 19.0,
+                        "warp": 60.0,
+                        "delay": 280.0,
+                        "rate": 1.0,
+                        "mix": 42.0
+                    },
+                    "bypassed": true
+                },
+                "hip2b": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "WETDRY": 0.045200892857142863,
+                        "DOWN": 0.01785714285714235,
+                        "IN_GAIN": 2.0,
+                        "OUT_GAIN": 0.5,
+                        "UP": 0.015625,
+                        "OCTAVE": 0.0
+                    },
+                    "bypassed": false
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "bitta": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "drywet": 1.0,
+                        "active": 1.0,
+                        "crush": 6.0
+                    },
+                    "bypassed": true
+                },
+                "filta": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "active": 1.0,
+                        "frequency_control": 0.40999999999999998
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "hip para"
+        }
+    ],
+    "current": 0
+}

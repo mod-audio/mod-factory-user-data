@@ -1,0 +1,183 @@
+{
+    "/hmi/group1": [],
+    "/cv/graph/mod_audio_to_cv/CVout": {
+        "addrs": [],
+        "name": "Mod_audio_to_cv CV Output"
+    },
+    "/hmi/knob2": [
+        {
+            "tempo": false,
+            "label": "PW Step2",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 24.0,
+            "page": 0,
+            "port": "Step2",
+            "instance": "/graph/_2Voices",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": -12.0,
+            "steps": 36
+        },
+        {
+            "tempo": false,
+            "label": "P Mix",
+            "subpage": 1,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 0,
+            "port": "blend",
+            "instance": "/graph/PlateX2",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 201
+        },
+        {
+            "tempo": false,
+            "label": "PW Lvl",
+            "subpage": 2,
+            "group": null,
+            "coloured": false,
+            "maximum": 20.0,
+            "page": 0,
+            "port": "Gain",
+            "instance": "/graph/Gain",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": -20.0,
+            "steps": 201
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "tempo": false,
+            "label": "PitchWave",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 0,
+            "port": ":bypass",
+            "instance": "/graph/xfade_1",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 33
+        }
+    ],
+    "/bpm": [],
+    "/hmi/knob1": [
+        {
+            "tempo": false,
+            "label": "PW Step1",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 24.0,
+            "page": 0,
+            "port": "Step1",
+            "instance": "/graph/_2Voices",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": -12.0,
+            "steps": 36
+        },
+        {
+            "tempo": false,
+            "label": "St Input",
+            "subpage": 2,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 0,
+            "port": ":bypass",
+            "instance": "/graph/xfade",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 33
+        },
+        {
+            "tempo": false,
+            "label": "PW Time",
+            "subpage": 1,
+            "group": null,
+            "coloured": false,
+            "maximum": 1000.0,
+            "page": 0,
+            "port": "time",
+            "instance": "/graph/modulay",
+            "momentary": 0,
+            "dividers": 1,
+            "minimum": 20.0,
+            "steps": 201
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "tempo": false,
+            "label": "Plate",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 0,
+            "port": ":bypass",
+            "instance": "/graph/PlateX2",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 33
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "tempo": false,
+            "label": "Out Lvl",
+            "subpage": 2,
+            "group": null,
+            "coloured": false,
+            "maximum": 20.0,
+            "page": 0,
+            "port": "Gain",
+            "instance": "/graph/Gain2x2",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": -20.0,
+            "steps": 201
+        },
+        {
+            "tempo": false,
+            "label": "PW fade",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 0,
+            "port": "attack",
+            "instance": "/graph/env",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.10000000000000001,
+            "steps": 201
+        },
+        {
+            "tempo": false,
+            "label": "P Decay",
+            "subpage": 1,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 0,
+            "port": "tail",
+            "instance": "/graph/PlateX2",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 201
+        }
+    ]
+}

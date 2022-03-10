@@ -1,0 +1,104 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "stereo": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "gain": 0.0,
+                        "bypass": 0.0,
+                        "ratio": 4.04,
+                        "release": 0.05000000074505806,
+                        "threshold": -18.0,
+                        "rms": 0.5,
+                        "noClip": 1.0,
+                        "attack": 0.014999999664723873
+                    }
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "ZamCompX2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "rat": 4.0,
+                        "slew": 1.0,
+                        "att": 10.0,
+                        "kn": 0.0,
+                        "sidechain": 0.0,
+                        "thr": 0.0,
+                        "mak": 0.0,
+                        "stereodet": 0.0,
+                        "rel": 80.0
+                    }
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "xfade_2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": ""
+                }
+            },
+            "name": "Default"
+        }
+    ]
+}

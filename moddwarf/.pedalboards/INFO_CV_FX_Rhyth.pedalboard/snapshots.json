@@ -1,0 +1,264 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "mod_cv_attenuverter": {
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Multiplier": -1.0,
+                        "Mode": 0.0,
+                        "Smoothing": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "vcaexp_1": {
+                    "ports": {
+                        "gain2": 0.0,
+                        "gain1": 0.0,
+                        "in1": 2.0,
+                        "outputLevel": 0.5,
+                        "in2": 0.5
+                    },
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "lfo2_freq": {
+                    "ports": {
+                        "waveForm": 4.0,
+                        "freq": 8.0,
+                        "phi0": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "stereo": {
+                    "ports": {
+                        "gain": 0.0,
+                        "mute": 0.0,
+                        "enable": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": true,
+                    "parameters": {}
+                },
+                "env": {
+                    "ports": {
+                        "timeScale": 1.0,
+                        "hold": 0.0,
+                        "attack": 0.0,
+                        "delay": 0.0,
+                        "sustain": 0.43478260869565216,
+                        "decay": 0.30434782608695654,
+                        "release": 0.69999999999999996
+                    },
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "mod_cv_control_1": {
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "mod_cv_gate": {
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "ClosingThreshold": 0.89999997615814209,
+                        "OpeningThreshold": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "mod_cv_gate_1": {
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "ClosingThreshold": -7.8125,
+                        "OpeningThreshold": -2.8125
+                    },
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "lfo2_freq_1": {
+                    "ports": {
+                        "waveForm": 4.0,
+                        "freq": 3.0125250000000001,
+                        "phi0": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "vcaexp": {
+                    "ports": {
+                        "gain2": 0.0,
+                        "gain1": 0.0,
+                        "in1": 2.0,
+                        "outputLevel": 0.5,
+                        "in2": 0.5
+                    },
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "notes_4": {
+                    "ports": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "-This control to CV plugin has the on-off switch adressed to a footswitch on the MOD Dwarf\n-Enabling it sends the random LFO to the envelope trigger input\n-Disabling it sends the regular LFO to the envelope trigger input",
+                            "s"
+                        ]
+                    }
+                },
+                "White": {
+                    "ports": {
+                        "volume": 0.004238283898302571
+                    },
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "notes_1": {
+                    "ports": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "Bypass + reset signal flow:\n-This control to CV plugin has the on-off switch adressed to a footswitch on the MOD Dwarf\n-Its CV output is adressed to the stereo x-fade at the end of the chain, allowing you to bypass the full chain.\n-It also sends a reset signal to the LFO when it gets turned on.",
+                            "s"
+                        ]
+                    }
+                },
+                "notes_2": {
+                    "ports": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "Noise + phaser signal flow:\n-The noise is there to add a percussive sound to the slicer effect.\n-The phaser is there to give some more movement to those percussive sounds, and to make use of the stereo field.",
+                            "s"
+                        ]
+                    }
+                },
+                "notes_3": {
+                    "ports": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "The left LFO triggers the random CV generator, which has its output adressed to the frequency parameter on the right LFO.",
+                            "s"
+                        ]
+                    }
+                },
+                "mod_cv_random": {
+                    "ports": {
+                        "Enabled": 1.0,
+                        "Trigger": 1.0,
+                        "MaxValue": 10.0,
+                        "MinValue": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "mod_cv_switch2": {
+                    "ports": {
+                        "Switch": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "notes": {
+                    "ports": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "Controller adressings\n\nPage 1\nI       Slicer rate, mix and noise\nII      Slicer envelope settings\nIII     Randomization settings",
+                            "s"
+                        ]
+                    }
+                },
+                "Phaser": {
+                    "ports": {
+                        "feedback": 0.25,
+                        "dry": 0.25,
+                        "stages": 6.0,
+                        "base_freq": 1000.0,
+                        "stereo": 180.0,
+                        "amount": 0.75,
+                        "mod_rate": 0.095497779408996758,
+                        "reset": 0.0,
+                        "mod_depth": 4000.0
+                    },
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {}
+                }
+            },
+            "name": "Default"
+        }
+    ],
+    "current": 0
+}

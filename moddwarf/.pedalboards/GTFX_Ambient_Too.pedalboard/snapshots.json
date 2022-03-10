@@ -1,0 +1,1285 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "reflector": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "wet": 0.0,
+                        "dry": 0.0,
+                        "fragment": 1000.0
+                    },
+                    "bypassed": false
+                },
+                "floaty": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "feedback": 22.5,
+                        "filter": 0.0,
+                        "warp": 67.075889587402344,
+                        "delay": 280.0,
+                        "rate": 1.0024999999999999,
+                        "mix": 42.0
+                    },
+                    "bypassed": false
+                },
+                "xfade_2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": false
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 0.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "bolliedelay_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "div_r": 1.0,
+                        "high_q": 2.5,
+                        "feedback": 37.5,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 0.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "mix": 30.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 65.848213195800781,
+                        "div_l": 4.0,
+                        "low_on": 0.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_3": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 6.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "roomsize": 150.0,
+                        "bandwidth": 75.0,
+                        "decay": 60.400002000000001,
+                        "damping": 50.0,
+                        "tone": 500.0,
+                        "shimmer": 40.0,
+                        "ratio": 1.0024999999999999,
+                        "mix": 50.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 3.3500000000000001,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "doubler": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "WetLevelDb": 0.0,
+                        "DryLevelDb": 0.0,
+                        "DryRightPosition": 1.0,
+                        "TimeTracking": 0.5,
+                        "WetRightPosition": 1.0,
+                        "PitchTracking": 0.5,
+                        "WetLeftPosition": 0.0,
+                        "DryLeftPosition": 0.0
+                    },
+                    "bypassed": false
+                },
+                "bolliedelay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "div_r": 3.0,
+                        "high_q": 2.5,
+                        "feedback": 37.5,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 0.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "mix": 30.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 33.59375,
+                        "div_l": 0.0,
+                        "low_on": 0.0
+                    },
+                    "bypassed": false
+                },
+                "PingPongPan": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "freq": 50.0,
+                        "width": 75.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_5": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 0.0,
+                        "Smoothing": 1.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_4": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 4.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "reflector_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "wet": 0.0,
+                        "dry": 0.0,
+                        "fragment": 1000.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "floaty_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "feedback": 22.5,
+                        "filter": 0.0,
+                        "warp": 60.0,
+                        "delay": 280.0,
+                        "rate": 1.0024999999999999,
+                        "mix": 42.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    },
+                    "bypassed": false
+                },
+                "Wider": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "pan": 0.0,
+                        "width": 1.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "_echo_stereo": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "timt_r": 1022.8102416992188,
+                        "level_r": 49.21875,
+                        "link": 0.48660698533058167,
+                        "timt_l": 1007.1930541992188,
+                        "lfo": 0.20000000298023224,
+                        "mode": 0.0,
+                        "level_l": 49.107143402099609
+                    },
+                    "bypassed": false
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "sooperlooper_2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "record": 0.0,
+                        "redo": 0.0,
+                        "dryLevel": 1.0,
+                        "play_pause": 1.0,
+                        "reset": 1.0,
+                        "undo": 0.0
+                    },
+                    "bypassed": false
+                },
+                "stuck": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "STICK_IT": 0.0,
+                        "DRONE_GAIN": 0.59637200832366943,
+                        "RELEASE": 0.27103200554847717
+                    },
+                    "bypassed": true
+                },
+                "mod_cv_control_2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 3.75,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "reverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "f2_freq": 2514.8701171875,
+                        "f2_gain": 0.0,
+                        "out_mix": 1.0,
+                        "f1_freq": 159.05400085449219,
+                        "xover": 223.60699462890625,
+                        "rt_low": 5.2000000000000002,
+                        "damping": 6000.0,
+                        "rt_mid": 5.2000000000000002,
+                        "f1_gain": 0.0,
+                        "delay": 0.059999998658895493
+                    },
+                    "bypassed": false
+                },
+                "shiroverb_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "roomsize": 150.0,
+                        "bandwidth": 75.0,
+                        "decay": 60.400002000000001,
+                        "damping": 50.0,
+                        "tone": 500.0,
+                        "shimmer": 40.0,
+                        "ratio": 1.0024999999999999,
+                        "mix": 50.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Dark Swell"
+        },
+        {
+            "data": {
+                "reflector": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "wet": 0.0,
+                        "dry": 0.0,
+                        "fragment": 1000.0
+                    },
+                    "bypassed": false
+                },
+                "floaty": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "feedback": 22.5,
+                        "filter": 42.000019000000002,
+                        "warp": 67.075889587402344,
+                        "delay": 280.0,
+                        "rate": 2.0,
+                        "mix": 42.0
+                    },
+                    "bypassed": false
+                },
+                "xfade_2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": false
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 0.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "bolliedelay_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "div_r": 1.0,
+                        "high_q": 2.5,
+                        "feedback": 37.5,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 0.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "mix": 30.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 65.848213195800781,
+                        "div_l": 4.0,
+                        "low_on": 0.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_3": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 6.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "roomsize": 150.0,
+                        "bandwidth": 75.0,
+                        "decay": 60.400002000000001,
+                        "damping": 50.0,
+                        "tone": 4350.001953,
+                        "shimmer": 40.0,
+                        "ratio": 2.0,
+                        "mix": 50.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "doubler": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "WetLevelDb": 0.0,
+                        "DryLevelDb": 0.0,
+                        "DryRightPosition": 1.0,
+                        "TimeTracking": 0.5,
+                        "WetRightPosition": 1.0,
+                        "PitchTracking": 0.5,
+                        "WetLeftPosition": 0.0,
+                        "DryLeftPosition": 0.0
+                    },
+                    "bypassed": false
+                },
+                "bolliedelay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "div_r": 3.0,
+                        "high_q": 2.5,
+                        "feedback": 37.5,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 0.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "mix": 30.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 33.59375,
+                        "div_l": 0.0,
+                        "low_on": 0.0
+                    },
+                    "bypassed": false
+                },
+                "PingPongPan": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "freq": 50.0,
+                        "width": 75.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_5": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 7.0,
+                        "Smoothing": 1.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_4": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 4.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "reflector_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "wet": 0.0,
+                        "dry": 0.0,
+                        "fragment": 1000.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "floaty_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "feedback": 22.5,
+                        "filter": 42.000019000000002,
+                        "warp": 60.0,
+                        "delay": 280.0,
+                        "rate": 2.0,
+                        "mix": 42.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    },
+                    "bypassed": false
+                },
+                "Wider": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "pan": 0.0,
+                        "width": 1.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "_echo_stereo": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "timt_r": 1022.8102416992188,
+                        "level_r": 49.21875,
+                        "link": 0.48660698533058167,
+                        "timt_l": 1007.1930541992188,
+                        "lfo": 0.20000000298023224,
+                        "mode": 0.0,
+                        "level_l": 49.107143402099609
+                    },
+                    "bypassed": false
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "sooperlooper_2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "record": 0.0,
+                        "redo": 0.0,
+                        "dryLevel": 1.0,
+                        "play_pause": 1.0,
+                        "reset": 1.0,
+                        "undo": 0.0
+                    },
+                    "bypassed": false
+                },
+                "stuck": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "STICK_IT": 0.0,
+                        "DRONE_GAIN": 0.59637200832366943,
+                        "RELEASE": 0.27103200554847717
+                    },
+                    "bypassed": true
+                },
+                "mod_cv_control_2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 3.75,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "reverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "f2_freq": 2514.8701171875,
+                        "f2_gain": 0.0,
+                        "out_mix": 1.0,
+                        "f1_freq": 159.05400085449219,
+                        "xover": 223.60699462890625,
+                        "rt_low": 5.2000000000000002,
+                        "damping": 6000.0,
+                        "rt_mid": 5.2000000000000002,
+                        "f1_gain": 0.0,
+                        "delay": 0.059999998658895493
+                    },
+                    "bypassed": false
+                },
+                "shiroverb_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "roomsize": 150.0,
+                        "bandwidth": 75.0,
+                        "decay": 60.400002000000001,
+                        "damping": 50.0,
+                        "tone": 4350.001953,
+                        "shimmer": 40.0,
+                        "ratio": 2.0,
+                        "mix": 50.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Octave Heaven"
+        },
+        {
+            "data": {
+                "reflector": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "wet": 0.0,
+                        "dry": 0.0,
+                        "fragment": 1000.0
+                    },
+                    "bypassed": false
+                },
+                "floaty": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "feedback": 0.0,
+                        "filter": 41.999980999999998,
+                        "warp": 67.075889587402344,
+                        "delay": 280.0,
+                        "rate": 0.5,
+                        "mix": 42.0
+                    },
+                    "bypassed": false
+                },
+                "xfade_2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": false
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 0.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "bolliedelay_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "div_r": 1.0,
+                        "high_q": 2.5,
+                        "feedback": 0.0,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 0.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "mix": 30.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 65.848213195800781,
+                        "div_l": 4.0,
+                        "low_on": 0.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_3": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 0.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "roomsize": 150.0,
+                        "bandwidth": 75.0,
+                        "decay": 1.0,
+                        "damping": 50.0,
+                        "tone": 4349.9985349999997,
+                        "shimmer": 40.0,
+                        "ratio": 0.5,
+                        "mix": 50.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 0.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "doubler": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "WetLevelDb": 0.0,
+                        "DryLevelDb": 0.0,
+                        "DryRightPosition": 1.0,
+                        "TimeTracking": 0.5,
+                        "WetRightPosition": 1.0,
+                        "PitchTracking": 0.5,
+                        "WetLeftPosition": 0.0,
+                        "DryLeftPosition": 0.0
+                    },
+                    "bypassed": false
+                },
+                "bolliedelay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "div_r": 3.0,
+                        "high_q": 2.5,
+                        "feedback": 0.0,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 0.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "mix": 30.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 33.59375,
+                        "div_l": 0.0,
+                        "low_on": 0.0
+                    },
+                    "bypassed": false
+                },
+                "PingPongPan": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "freq": 50.0,
+                        "width": 75.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_5": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 7.0,
+                        "Smoothing": 1.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_4": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 4.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "reflector_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "wet": 0.0,
+                        "dry": 0.0,
+                        "fragment": 1000.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "floaty_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "feedback": 0.0,
+                        "filter": 41.999980999999998,
+                        "warp": 60.0,
+                        "delay": 280.0,
+                        "rate": 0.5,
+                        "mix": 42.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    },
+                    "bypassed": false
+                },
+                "Wider": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "pan": 0.0,
+                        "width": 1.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "_echo_stereo": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "timt_r": 1022.8102416992188,
+                        "level_r": 49.21875,
+                        "link": 0.48660698533058167,
+                        "timt_l": 1007.1930541992188,
+                        "lfo": 0.20000000298023224,
+                        "mode": 0.0,
+                        "level_l": 49.107143402099609
+                    },
+                    "bypassed": false
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "sooperlooper_2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "record": 0.0,
+                        "redo": 0.0,
+                        "dryLevel": 1.0,
+                        "play_pause": 1.0,
+                        "reset": 1.0,
+                        "undo": 0.0
+                    },
+                    "bypassed": false
+                },
+                "stuck": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "STICK_IT": 0.0,
+                        "DRONE_GAIN": 0.59637200832366943,
+                        "RELEASE": 0.27103200554847717
+                    },
+                    "bypassed": true
+                },
+                "mod_cv_control_2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 0.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "reverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "f2_freq": 2514.8701171875,
+                        "f2_gain": 0.0,
+                        "out_mix": 1.0,
+                        "f1_freq": 159.05400085449219,
+                        "xover": 223.60699462890625,
+                        "rt_low": 1.0,
+                        "damping": 6000.0,
+                        "rt_mid": 1.0,
+                        "f1_gain": 0.0,
+                        "delay": 0.059999998658895493
+                    },
+                    "bypassed": false
+                },
+                "shiroverb_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "roomsize": 150.0,
+                        "bandwidth": 75.0,
+                        "decay": 1.0,
+                        "damping": 50.0,
+                        "tone": 4349.9985349999997,
+                        "shimmer": 40.0,
+                        "ratio": 0.5,
+                        "mix": 50.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Sub Swell"
+        },
+        {
+            "data": {
+                "reflector": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "wet": 0.0,
+                        "dry": 0.0,
+                        "fragment": 1000.0
+                    },
+                    "bypassed": false
+                },
+                "floaty": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "feedback": 0.0,
+                        "filter": 41.999980999999998,
+                        "warp": 67.075889587402344,
+                        "delay": 280.0,
+                        "rate": 2.0,
+                        "mix": 42.0
+                    },
+                    "bypassed": false
+                },
+                "xfade_2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": false
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 0.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "bolliedelay_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "div_r": 1.0,
+                        "high_q": 2.5,
+                        "feedback": 0.0,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 0.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "mix": 30.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 65.848213195800781,
+                        "div_l": 4.0,
+                        "low_on": 0.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_3": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 0.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "roomsize": 150.0,
+                        "bandwidth": 75.0,
+                        "decay": 1.0,
+                        "damping": 50.0,
+                        "tone": 4349.9985349999997,
+                        "shimmer": 100.0,
+                        "ratio": 2.0,
+                        "mix": 50.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "doubler": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "WetLevelDb": 0.0,
+                        "DryLevelDb": 0.0,
+                        "DryRightPosition": 1.0,
+                        "TimeTracking": 0.5,
+                        "WetRightPosition": 1.0,
+                        "PitchTracking": 0.5,
+                        "WetLeftPosition": 0.0,
+                        "DryLeftPosition": 0.0
+                    },
+                    "bypassed": false
+                },
+                "bolliedelay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "div_r": 3.0,
+                        "high_q": 2.5,
+                        "feedback": 0.0,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 0.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "mix": 30.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 33.59375,
+                        "div_l": 0.0,
+                        "low_on": 0.0
+                    },
+                    "bypassed": false
+                },
+                "PingPongPan": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "freq": 50.0,
+                        "width": 75.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_5": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 7.0,
+                        "Smoothing": 1.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_4": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "reflector_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "wet": 0.0,
+                        "dry": 0.0,
+                        "fragment": 1000.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "floaty_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "feedback": 0.0,
+                        "filter": 41.999980999999998,
+                        "warp": 60.0,
+                        "delay": 280.0,
+                        "rate": 2.0,
+                        "mix": 42.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    },
+                    "bypassed": false
+                },
+                "Wider": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "pan": 0.0,
+                        "width": 1.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "_echo_stereo": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "timt_r": 1022.8102416992188,
+                        "level_r": 49.21875,
+                        "link": 0.48660698533058167,
+                        "timt_l": 1007.1930541992188,
+                        "lfo": 0.20000000298023224,
+                        "mode": 0.0,
+                        "level_l": 49.107143402099609
+                    },
+                    "bypassed": false
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "sooperlooper_2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "record": 0.0,
+                        "redo": 0.0,
+                        "dryLevel": 1.0,
+                        "play_pause": 1.0,
+                        "reset": 1.0,
+                        "undo": 0.0
+                    },
+                    "bypassed": false
+                },
+                "stuck": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "STICK_IT": 0.0,
+                        "DRONE_GAIN": 0.59637200832366943,
+                        "RELEASE": 0.27103200554847717
+                    },
+                    "bypassed": true
+                },
+                "mod_cv_control_2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 0.0,
+                        "Smoothing": 0.0
+                    },
+                    "bypassed": false
+                },
+                "reverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "f2_freq": 2514.8701171875,
+                        "f2_gain": 0.0,
+                        "out_mix": 1.0,
+                        "f1_freq": 159.05400085449219,
+                        "xover": 223.60699462890625,
+                        "rt_low": 1.0,
+                        "damping": 6000.0,
+                        "rt_mid": 1.0,
+                        "f1_gain": 0.0,
+                        "delay": 0.059999998658895493
+                    },
+                    "bypassed": false
+                },
+                "shiroverb_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "roomsize": 150.0,
+                        "bandwidth": 75.0,
+                        "decay": 1.0,
+                        "damping": 50.0,
+                        "tone": 4349.9985349999997,
+                        "shimmer": 100.0,
+                        "ratio": 2.0,
+                        "mix": 50.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Shimmery"
+        }
+    ],
+    "current": 0
+}

@@ -1,0 +1,445 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "Gain_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 0.67000001668930054
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade_2": {
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Freaktail": {
+                    "bypassed": false,
+                    "ports": {
+                        "Tail_level": 0.2800000011920929,
+                        "Roomsize": 1.9592189788818359,
+                        "Decay": 0.83399999141693115
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "cr1_lv2": {
+                    "bypassed": false,
+                    "ports": {
+                        "depth": 10.0,
+                        "speed": 1.5703120231628418
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "floaty": {
+                    "bypassed": false,
+                    "ports": {
+                        "delay": 450.49700927734375,
+                        "filter": 28.125,
+                        "rate": -0.1875,
+                        "feedback": 18.75,
+                        "mix": 54.6875,
+                        "warp": 98.4375
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Granulator": {
+                    "bypassed": false,
+                    "ports": {
+                        "delay_length": 5.3984379768371582,
+                        "grain_density": 9.875,
+                        "grain_length": 0.32390600442886353,
+                        "mix": 0.390625
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                }
+            },
+            "name": "Gino"
+        },
+        {
+            "data": {
+                "Gain_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 0.67000001668930054
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade_2": {
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Freaktail": {
+                    "bypassed": true,
+                    "ports": {
+                        "Tail_level": 0.2800000011920929,
+                        "Roomsize": 1.9592189788818359,
+                        "Decay": 0.83399999141693115
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "cr1_lv2": {
+                    "bypassed": false,
+                    "ports": {
+                        "depth": 10.0,
+                        "speed": 1.5703120231628418
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "floaty": {
+                    "bypassed": false,
+                    "ports": {
+                        "delay": 450.49700927734375,
+                        "filter": 28.125,
+                        "rate": -0.1875,
+                        "feedback": 18.75,
+                        "mix": 54.6875,
+                        "warp": 98.4375
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Granulator": {
+                    "bypassed": false,
+                    "ports": {
+                        "delay_length": 5.3984379768371582,
+                        "grain_density": 9.875,
+                        "grain_length": 0.32390600442886353,
+                        "mix": 0.390625
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                }
+            },
+            "name": "No-tail"
+        },
+        {
+            "data": {
+                "Gain_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 0.67000001668930054
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade_2": {
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Freaktail": {
+                    "bypassed": false,
+                    "ports": {
+                        "Tail_level": 0.2800000011920929,
+                        "Roomsize": 1.9592189788818359,
+                        "Decay": 0.55400000000000005
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "cr1_lv2": {
+                    "bypassed": false,
+                    "ports": {
+                        "depth": 10.0,
+                        "speed": 1.5703120231628418
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "floaty": {
+                    "bypassed": false,
+                    "ports": {
+                        "delay": 450.49700927734375,
+                        "filter": 28.125,
+                        "rate": -0.1875,
+                        "feedback": 18.75,
+                        "mix": 54.6875,
+                        "warp": 98.4375
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Granulator": {
+                    "bypassed": false,
+                    "ports": {
+                        "delay_length": 5.3984379768371582,
+                        "grain_density": 9.875,
+                        "grain_length": 0.32390600442886353,
+                        "mix": 0.390625
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                }
+            },
+            "name": "Med-Tail"
+        },
+        {
+            "data": {
+                "Gain_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 0.67000001668930054
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade_2": {
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Freaktail": {
+                    "bypassed": false,
+                    "ports": {
+                        "Tail_level": 0.2800000011920929,
+                        "Roomsize": 1.9592189788818359,
+                        "Decay": 0.83399999141693115
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "cr1_lv2": {
+                    "bypassed": false,
+                    "ports": {
+                        "depth": 10.0,
+                        "speed": 1.5703120231628418
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "floaty": {
+                    "bypassed": false,
+                    "ports": {
+                        "delay": 50.191326141357422,
+                        "filter": 28.125,
+                        "rate": -0.1875,
+                        "feedback": 18.75,
+                        "mix": 54.6875,
+                        "warp": 98.4375
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Granulator": {
+                    "bypassed": false,
+                    "ports": {
+                        "delay_length": 5.3984379768371582,
+                        "grain_density": 9.875,
+                        "grain_length": 0.32390600442886353,
+                        "mix": 0.390625
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                }
+            },
+            "name": "ShortTape"
+        }
+    ]
+}

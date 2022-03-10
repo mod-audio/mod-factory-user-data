@@ -1,0 +1,179 @@
+{
+    "/hmi/group1": [],
+    "/hmi/footswitch2": [
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 1.0,
+            "port": ":bypass",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 33,
+            "label": "Reverb",
+            "subpage": 0,
+            "instance": "/graph/Plate",
+            "dividers": null
+        }
+    ],
+    "/bpm": [],
+    "/hmi/footswitch1": [
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 1.0,
+            "port": ":bypass",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 33,
+            "label": "Tremolo",
+            "subpage": 0,
+            "instance": "/graph/tremolo",
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 20.0,
+            "port": "Gain",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": -20.0,
+            "steps": 201,
+            "label": "In Gain",
+            "subpage": 2,
+            "instance": "/graph/Gain",
+            "dividers": null
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 1.0,
+            "port": "BASS",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 201,
+            "label": "amp BASS",
+            "subpage": 0,
+            "instance": "/graph/_supersonic_",
+            "dividers": null
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 100.0,
+            "port": "depth",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 201,
+            "label": "T Depth",
+            "subpage": 1,
+            "instance": "/graph/tremolo",
+            "dividers": null
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 20.0,
+            "port": "Gain",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": -20.0,
+            "steps": 201,
+            "label": "Out Lvl",
+            "subpage": 2,
+            "instance": "/graph/Gain2x2",
+            "dividers": null
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 1.0,
+            "port": "TREBLE",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 201,
+            "label": "amp TREBLE",
+            "subpage": 0,
+            "instance": "/graph/_supersonic_",
+            "dividers": null
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 1.0,
+            "port": "blend",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 201,
+            "label": "Verb Mix",
+            "subpage": 1,
+            "instance": "/graph/Plate",
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 1.0,
+            "port": ":bypass",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 33,
+            "label": "ST INPUT",
+            "subpage": 2,
+            "instance": "/graph/xfade",
+            "dividers": null
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 1.0,
+            "port": "GAIN",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 201,
+            "label": "amp GAIN",
+            "subpage": 0,
+            "instance": "/graph/_supersonic_",
+            "dividers": null
+        },
+        {
+            "tempo": false,
+            "page": 0,
+            "maximum": 20.0,
+            "port": "frequency",
+            "coloured": false,
+            "momentary": 0,
+            "group": null,
+            "minimum": 0.0,
+            "steps": 201,
+            "label": "T Rate",
+            "subpage": 1,
+            "instance": "/graph/tremolo",
+            "dividers": 0.33300000000000002
+        }
+    ]
+}

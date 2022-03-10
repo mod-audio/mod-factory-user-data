@@ -1,0 +1,424 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "Plate": {
+                    "ports": {
+                        "damping": 0.29999999999999999,
+                        "bandwidth": 0.85999999999999999,
+                        "tail": 0.64500000000000002,
+                        "blend": 0.28999999999999998
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "mod_cv_attenuverter": {
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Multiplier": 0.85013902187347412,
+                        "Mode": 1.0,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "stereo": {
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "vcaexp_1": {
+                    "ports": {
+                        "gain2": 0.0,
+                        "gain1": 0.0,
+                        "in1": 0.37681201100349426,
+                        "outputLevel": 0.25,
+                        "in2": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "modulay": {
+                    "ports": {
+                        "tone": 3223.71,
+                        "repeats": 47.299999999999997,
+                        "depth": 3.0,
+                        "mix": 50.0,
+                        "morph": 39.453125000000014,
+                        "time": 372.80000000000001,
+                        "rate": 0.90296440411986345
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "BigMuffPi": {
+                    "ports": {
+                        "Tone": 0.1026030033826828,
+                        "Sustain": 0.0,
+                        "Level": 0.45089301466941833
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "env": {
+                    "ports": {
+                        "timeScale": 1.0,
+                        "hold": 0.010576999746263027,
+                        "attack": 0.0,
+                        "delay": 0.0,
+                        "sustain": 1.6629459857940674,
+                        "decay": 0.05000000074505806,
+                        "release": 0.68638402223587036
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "mod_cv_clock_2": {
+                    "ports": {
+                        "Divisions": 2.6666600704193115,
+                        "sync": 1.0,
+                        "Bpm": 120.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "vcf": {
+                    "ports": {
+                        "freq": 7.0745220184326172,
+                        "linFMGain": 0.0,
+                        "resonance": 0.24634300172328949,
+                        "expFMGain": 0.0,
+                        "inputGain": 2.2463769912719727,
+                        "resonanceGain": 0.0,
+                        "vcfType": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "vcf_1": {
+                    "ports": {
+                        "freq": 6.7245721817016602,
+                        "linFMGain": 0.0,
+                        "resonance": 0.27775600552558899,
+                        "expFMGain": 0.0,
+                        "inputGain": 1.2318840026855469,
+                        "resonanceGain": 0.0,
+                        "vcfType": 2.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "vcf_2": {
+                    "ports": {
+                        "freq": 0.0,
+                        "linFMGain": 0.0,
+                        "resonance": 0.0099999997764825821,
+                        "expFMGain": 0.0,
+                        "inputGain": 7.2463769912719727,
+                        "resonanceGain": 0.0,
+                        "vcfType": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "mixer": {
+                    "ports": {
+                        "Volume4": 0.75,
+                        "Alt4": 0.0,
+                        "Alt2": 0.0,
+                        "Alt3": 0.0,
+                        "AltVolume": 0.75,
+                        "Alt1": 0.0,
+                        "Panning1": 0.0,
+                        "Panning2": 0.0,
+                        "Panning3": 0.0,
+                        "Panning4": 0.0,
+                        "Solo4": 0.0,
+                        "Mute4": 0.0,
+                        "MasterVolume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Solo2": 0.0,
+                        "Volume2": 1.0,
+                        "Volume3": 1.0,
+                        "Mute1": 0.0,
+                        "Mute3": 0.0,
+                        "Mute2": 0.0,
+                        "Solo3": 0.0,
+                        "Volume1": 0.9375,
+                        "Solo1": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "mod_cv_clock": {
+                    "ports": {
+                        "Divisions": 8.0,
+                        "sync": 1.0,
+                        "Bpm": 120.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "White": {
+                    "ports": {
+                        "volume": 0.65536797046661377
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "vcaexp": {
+                    "ports": {
+                        "gain2": 0.0,
+                        "gain1": 0.0,
+                        "in1": 0.31055900454521179,
+                        "outputLevel": 0.25,
+                        "in2": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "White_1": {
+                    "ports": {
+                        "volume": 0.72881400585174561
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "env_1": {
+                    "ports": {
+                        "timeScale": 1.0,
+                        "hold": 0.035255998373031616,
+                        "attack": 0.0,
+                        "delay": 0.0,
+                        "sustain": 0.0,
+                        "decay": 0.25696900486946106,
+                        "release": 0.31361600756645203
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "env_2": {
+                    "ports": {
+                        "timeScale": 1.0,
+                        "hold": 0.0,
+                        "attack": 0.0,
+                        "delay": 0.0,
+                        "sustain": 6.2160120010375977,
+                        "decay": 0.61819601058959961,
+                        "release": 0.26920199394226074
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "_duck_delay_": {
+                    "ports": {
+                        "FEEDBACK": 0.39414998888969421,
+                        "AMOUNT": 0.0,
+                        "RELESE": 0.3242189884185791,
+                        "TIME": 52.829414367675781,
+                        "ATTACK": 0.05000000074505806
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "notes_1": {
+                    "ports": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "Snare Drum signal chain:\n\n-Clock triggers envelope\n-Envelope controls noise+oscillator levels through VCA\n-VCF filters out high frequencies",
+                            "s"
+                        ]
+                    }
+                },
+                "notes_2": {
+                    "ports": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "Bass Drum signal chain:\n\n-Clock triggers envelope\n-Envelope controls oscillator pitch + VCF cutoff via the attenuverter-booster\n-Envelope controls oscillator level through VCA\n-Envelope controls VCF cutoff\n",
+                            "s"
+                        ]
+                    }
+                },
+                "notes_3": {
+                    "ports": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "Controller adressings:\n\nPage 1\nI      Trigger rates\nII     Sound shaping\nIII    Sound envelopes\nPage 2\nI      LPF/HPF and FX MIX\nII     Delay settings\nIII    Reverb settings",
+                            "s"
+                        ]
+                    }
+                },
+                "vco3": {
+                    "ports": {
+                        "edge": 1.0,
+                        "pw0": 0.5,
+                        "phi0": 0.0,
+                        "linFMGain": 0.0,
+                        "semitone": 0.0,
+                        "waveForm": 1.0,
+                        "expFMGain": 0.0,
+                        "pwGain": 0.0,
+                        "tune": 0.37427300214767456,
+                        "octave": 3.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "vco3_1": {
+                    "ports": {
+                        "edge": 1.0,
+                        "pw0": 0.5,
+                        "phi0": 0.0,
+                        "linFMGain": 0.0,
+                        "semitone": 0.0,
+                        "waveForm": 1.0,
+                        "expFMGain": 0.0,
+                        "pwGain": 0.0,
+                        "tune": 0.0,
+                        "octave": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "notes": {
+                    "ports": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "Hi-hat signal chain:\n\n-Clock triggers envelope\n-Envelope controls noise level through VCA\n-VCF Filters out low frequencies",
+                            "s"
+                        ]
+                    }
+                },
+                "stereo_1": {
+                    "ports": {
+                        "gain": 0.71717298030853271,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "stereo_2": {
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "stereo_3": {
+                    "ports": {
+                        "gain": 0.56565701961517334,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "filta": {
+                    "ports": {
+                        "frequency_control": 0.5,
+                        "active": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "mod_cv_clock_1": {
+                    "ports": {
+                        "Divisions": 1.0,
+                        "sync": 1.0,
+                        "Bpm": 120.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Phaser": {
+                    "ports": {
+                        "feedback": 0.72261202335357666,
+                        "dry": 0.70982098579406738,
+                        "stages": 6.0,
+                        "base_freq": 617.99554443359375,
+                        "mod_depth": 1482.0318603515625,
+                        "amount": 0.49553599953651428,
+                        "mod_rate": 0.068259000778198242,
+                        "reset": 0.0,
+                        "stereo": 180.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "vcaexp_2": {
+                    "ports": {
+                        "gain2": 0.0,
+                        "gain1": 0.0,
+                        "in1": 0.17184300720691681,
+                        "outputLevel": 0.25,
+                        "in2": 0.31262901425361633
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                }
+            },
+            "name": "Default"
+        }
+    ],
+    "current": 0
+}

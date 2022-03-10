@@ -8,64 +8,72 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <xfade/out_left> ;
-    ingen:head <Gain/In> .
-
-_:b2
-    ingen:tail <cr1_lv2/output> ;
-    ingen:head <ph1_lv2/input> .
-
-_:b3
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_right> .
-
-_:b4
-    ingen:tail <capture_2> ;
-    ingen:head <xfade/inB_right> .
-
-_:b5
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_left> .
-
-_:b6
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inB_left> .
-
-_:b7
-    ingen:tail <Gain/Out> ;
-    ingen:head <wah1_lv2/input> .
-
-_:b8
-    ingen:tail <dt1_lv2/output> ;
-    ingen:head <cr1_lv2/input> .
-
-_:b9
     ingen:tail <wah1_lv2/output> ;
     ingen:head <dt1_lv2/input> .
 
-_:b10
-    ingen:tail <xfade/out_right> ;
+_:b2
+    ingen:tail <dt1_lv2/output> ;
+    ingen:head <cr1_lv2/input> .
+
+_:b3
+    ingen:tail <cr1_lv2/output> ;
+    ingen:head <ph1_lv2/input> .
+
+_:b4
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_right> .
+
+_:b5
+    ingen:tail <Gain/Out> ;
+    ingen:head <wah1_lv2/input> .
+
+_:b6
+    ingen:tail <Gain2x2_1/Out2> ;
     ingen:head <Gain/In> .
 
-_:b11
-    ingen:tail <ph1_lv2/output> ;
-    ingen:head <Gain2x2/In1> .
+_:b7
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inB_left> .
 
-_:b12
-    ingen:tail <ph1_lv2/output> ;
-    ingen:head <Gain2x2/In2> .
+_:b8
+    ingen:tail <Gain2x2_1/Out1> ;
+    ingen:head <Gain/In> .
 
-_:b13
+_:b9
     ingen:tail <Gain2x2/Out1> ;
     ingen:head <playback_1> .
 
-_:b14
+_:b10
+    ingen:tail <capture_2> ;
+    ingen:head <xfade/inB_right> .
+
+_:b11
+    ingen:tail <xfade/out_right> ;
+    ingen:head <Gain2x2_1/In2> .
+
+_:b12
     ingen:tail <Gain2x2/Out2> ;
     ingen:head <playback_2> .
 
+_:b13
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_left> .
+
+_:b14
+    ingen:tail <xfade/out_left> ;
+    ingen:head <Gain2x2_1/In1> .
+
+_:b15
+    ingen:tail <ph1_lv2/output> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b16
+    ingen:tail <ph1_lv2/output> ;
+    ingen:head <Gain2x2/In1> .
+
 <Gain>
-    ingen:canvasX 997.0 ;
-    ingen:canvasY 344.0 ;
+    ingen:canvasX 991.0 ;
+    ingen:canvasY 688.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -100,9 +108,9 @@ _:b14
         lv2:InputPort .
 
 <xfade>
-    ingen:canvasX 447.0 ;
-    ingen:canvasY 286.0 ;
-    ingen:enabled true ;
+    ingen:canvasX 245.0 ;
+    ingen:canvasY 292.0 ;
+    ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 516 ;
@@ -155,13 +163,13 @@ _:b14
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade/xfade>
-    ingen:value 1.000000 ;
+<xfade/shape>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade/shape>
-    ingen:value 0.000000 ;
+<xfade/xfade>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -171,13 +179,13 @@ _:b14
         lv2:InputPort .
 
 <xfade/:bypass>
-    ingen:value 0 ;
+    ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <cr1_lv2>
-    ingen:canvasX 2425.0 ;
-    ingen:canvasY 306.0 ;
+    ingen:canvasX 2431.0 ;
+    ingen:canvasY 690.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 1 ;
@@ -202,13 +210,13 @@ _:b14
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<cr1_lv2/depth>
-    ingen:value 5.000000 ;
+<cr1_lv2/speed>
+    ingen:value 3.750000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<cr1_lv2/speed>
-    ingen:value 3.750000 ;
+<cr1_lv2/depth>
+    ingen:value 5.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -218,8 +226,8 @@ _:b14
         lv2:InputPort .
 
 <ph1_lv2>
-    ingen:canvasX 2865.4 ;
-    ingen:canvasY 307.4 ;
+    ingen:canvasX 2905.4 ;
+    ingen:canvasY 665.4 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 1 ;
@@ -254,8 +262,8 @@ _:b14
         lv2:InputPort .
 
 <dt1_lv2>
-    ingen:canvasX 1976.0 ;
-    ingen:canvasY 311.0 ;
+    ingen:canvasX 1972.0 ;
+    ingen:canvasY 689.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 1 ;
@@ -280,13 +288,13 @@ _:b14
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<dt1_lv2/drive>
-    ingen:value 2.000000 ;
+<dt1_lv2/level>
+    ingen:value 10.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<dt1_lv2/level>
-    ingen:value 10.000000 ;
+<dt1_lv2/drive>
+    ingen:value 2.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -296,9 +304,9 @@ _:b14
         lv2:InputPort .
 
 <wah1_lv2>
-    ingen:canvasX 1485.3 ;
-    ingen:canvasY 320.1 ;
-    ingen:enabled false ;
+    ingen:canvasX 1493.3 ;
+    ingen:canvasY 692.1 ;
+    ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 1 ;
     lv2:minorVersion 2 ;
@@ -327,7 +335,7 @@ _:b14
         lv2:InputPort .
 
 <wah1_lv2/:bypass>
-    ingen:value 1 ;
+    ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -373,6 +381,52 @@ _:b14
         lv2:InputPort .
 
 <Gain2x2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2_1>
+    ingen:canvasX 622.0 ;
+    ingen:canvasY 436.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 16 ;
+    lv2:port <Gain2x2_1/In1> ,
+             <Gain2x2_1/In2> ,
+             <Gain2x2_1/Out1> ,
+             <Gain2x2_1/Out2> ,
+             <Gain2x2_1/Gain> ,
+             <Gain2x2_1/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:instanceNumber 13 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Gain2x2_1/In1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2_1/In2>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2_1/In1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2_1/In2>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2_1/Gain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2_1/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -475,6 +529,12 @@ _:b14
     a atom:AtomPort ,
         lv2:InputPort .
 
+<midi_loopback>
+    ingen:value 0 ;
+    lv2:index 12 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
 <>
     doap:name "GTFX:OverToneDSP" ;
     pedal:unitName "MOD Dwarf" ;
@@ -484,7 +544,7 @@ _:b14
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 24 ;
+    pedal:version 27 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -499,18 +559,22 @@ _:b14
               _:b11 ,
               _:b12 ,
               _:b13 ,
-              _:b14 ;
+              _:b14 ,
+              _:b15 ,
+              _:b16 ;
     ingen:block <Gain> ,
                 <xfade> ,
                 <cr1_lv2> ,
                 <ph1_lv2> ,
                 <dt1_lv2> ,
                 <wah1_lv2> ,
-                <Gain2x2> ;
+                <Gain2x2> ,
+                <Gain2x2_1> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
              <midi_separated_mode> ,
+             <midi_loopback> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

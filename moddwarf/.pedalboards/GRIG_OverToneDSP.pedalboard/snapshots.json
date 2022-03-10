@@ -1,0 +1,590 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "name": "Wah",
+            "data": {
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -2.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    }
+                },
+                "Plate": {
+                    "bypassed": false,
+                    "ports": {
+                        "blend": 0.1875,
+                        "tail": 0.5,
+                        "bandwidth": 0.99949997663497925,
+                        "damping": 0.00050000002374872565
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "wah1_lv2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "sensitivity": 1.0
+                    }
+                },
+                "ph1_lv2": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "speed": 0.10000000149011612
+                    }
+                },
+                "_CreamMachine_": {
+                    "bypassed": false,
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "LEVEL": 0.1642512077294685,
+                        "BASS": 0.5,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.23999999463558197
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "cr1_lv2": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "depth": 5.0,
+                        "speed": 3.75
+                    }
+                },
+                "studiopre": {
+                    "bypassed": false,
+                    "ports": {
+                        "bass": 0.5,
+                        "bright": 0.0,
+                        "volume": 5.0,
+                        "treble": 0.5,
+                        "middle": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "dt1_lv2": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "level": 10.0,
+                        "drive": 2.0
+                    }
+                },
+                "faIR_cabsim": {
+                    "bypassed": false,
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "Phase Wah",
+            "data": {
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -2.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    }
+                },
+                "Plate": {
+                    "bypassed": false,
+                    "ports": {
+                        "blend": 0.1875,
+                        "tail": 0.5,
+                        "bandwidth": 0.99949997663497925,
+                        "damping": 0.00050000002374872565
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "wah1_lv2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "sensitivity": 1.0
+                    }
+                },
+                "ph1_lv2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "speed": 0.10000000149011612
+                    }
+                },
+                "_CreamMachine_": {
+                    "bypassed": false,
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "LEVEL": 0.1642512077294685,
+                        "BASS": 0.5,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.23999999463558197
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "cr1_lv2": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "depth": 5.0,
+                        "speed": 3.75
+                    }
+                },
+                "studiopre": {
+                    "bypassed": false,
+                    "ports": {
+                        "bass": 0.5,
+                        "bright": 0.0,
+                        "volume": 5.0,
+                        "treble": 0.5,
+                        "middle": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "dt1_lv2": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "level": 10.0,
+                        "drive": 2.0
+                    }
+                },
+                "faIR_cabsim": {
+                    "bypassed": false,
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "Driven Phaser",
+            "data": {
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -2.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    }
+                },
+                "Plate": {
+                    "bypassed": false,
+                    "ports": {
+                        "blend": 0.1875,
+                        "tail": 0.5,
+                        "bandwidth": 0.99949997663497925,
+                        "damping": 0.00050000002374872565
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "wah1_lv2": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "sensitivity": 1.0
+                    }
+                },
+                "ph1_lv2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "speed": 0.10000000149011612
+                    }
+                },
+                "_CreamMachine_": {
+                    "bypassed": false,
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "LEVEL": 0.1642512077294685,
+                        "BASS": 0.5,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.23999999463558197
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "cr1_lv2": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "depth": 5.0,
+                        "speed": 3.75
+                    }
+                },
+                "studiopre": {
+                    "bypassed": false,
+                    "ports": {
+                        "bass": 0.5,
+                        "bright": 0.0,
+                        "volume": 5.0,
+                        "treble": 0.5,
+                        "middle": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "dt1_lv2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "level": 10.0,
+                        "drive": 2.0
+                    }
+                },
+                "faIR_cabsim": {
+                    "bypassed": false,
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "Chorus",
+            "data": {
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -2.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    }
+                },
+                "Plate": {
+                    "bypassed": false,
+                    "ports": {
+                        "blend": 0.1875,
+                        "tail": 0.5,
+                        "bandwidth": 0.99949997663497925,
+                        "damping": 0.00050000002374872565
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "wah1_lv2": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "sensitivity": 1.0
+                    }
+                },
+                "ph1_lv2": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "speed": 0.10000000149011612
+                    }
+                },
+                "_CreamMachine_": {
+                    "bypassed": false,
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "LEVEL": 0.1642512077294685,
+                        "BASS": 0.5,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.23999999463558197
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "cr1_lv2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "depth": 5.0,
+                        "speed": 3.75
+                    }
+                },
+                "studiopre": {
+                    "bypassed": false,
+                    "ports": {
+                        "bass": 0.5,
+                        "bright": 0.0,
+                        "volume": 5.0,
+                        "treble": 0.5,
+                        "middle": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "dt1_lv2": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "level": 10.0,
+                        "drive": 2.0
+                    }
+                },
+                "faIR_cabsim": {
+                    "bypassed": false,
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "Driven Chorus",
+            "data": {
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -2.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    }
+                },
+                "Plate": {
+                    "bypassed": false,
+                    "ports": {
+                        "blend": 0.1875,
+                        "tail": 0.5,
+                        "bandwidth": 0.99949997663497925,
+                        "damping": 0.00050000002374872565
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "wah1_lv2": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "sensitivity": 1.0
+                    }
+                },
+                "ph1_lv2": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "speed": 0.10000000149011612
+                    }
+                },
+                "_CreamMachine_": {
+                    "bypassed": false,
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "LEVEL": 0.1642512077294685,
+                        "BASS": 0.5,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.23999999463558197
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "cr1_lv2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "depth": 5.0,
+                        "speed": 3.75
+                    }
+                },
+                "studiopre": {
+                    "bypassed": false,
+                    "ports": {
+                        "bass": 0.5,
+                        "bright": 0.0,
+                        "volume": 5.0,
+                        "treble": 0.5,
+                        "middle": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "dt1_lv2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "level": 10.0,
+                        "drive": 2.0
+                    }
+                },
+                "faIR_cabsim": {
+                    "bypassed": false,
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                }
+            }
+        }
+    ]
+}

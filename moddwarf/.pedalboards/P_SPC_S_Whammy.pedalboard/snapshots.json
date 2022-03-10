@@ -1,0 +1,78 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "Gain2x2": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "mod_cv_slew": {
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 65.093002319335938,
+                        "RiseTime": 20.097999572753906,
+                        "BYPASS": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "SuperWhammy": {
+                    "bypassed": false,
+                    "ports": {
+                        "Step": 0.0,
+                        "Fidelity": 3.0,
+                        "Last": 12.0,
+                        "Gain": 3.0,
+                        "Clean": 0.0,
+                        "First": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "bypassed": true,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                }
+            },
+            "name": "Default"
+        }
+    ]
+}

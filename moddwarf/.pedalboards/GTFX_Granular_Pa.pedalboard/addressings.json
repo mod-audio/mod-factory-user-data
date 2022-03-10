@@ -1,0 +1,202 @@
+{
+    "/hmi/group1": [],
+    "/hmi/knob2": [
+        {
+            "tempo": false,
+            "label": "grain density",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 16.0,
+            "page": 0,
+            "port": "grain_density",
+            "instance": "/graph/Granulator",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 2.0,
+            "steps": 201
+        },
+        {
+            "tempo": false,
+            "label": "depth",
+            "subpage": 1,
+            "group": null,
+            "coloured": false,
+            "maximum": 100.0,
+            "page": 0,
+            "port": "depth",
+            "instance": "/graph/harmless",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 201
+        },
+        {
+            "tempo": false,
+            "label": "wet lvl",
+            "subpage": 2,
+            "group": null,
+            "coloured": false,
+            "maximum": 20.0,
+            "page": 0,
+            "port": "Gain",
+            "instance": "/graph/Gain2x2_1",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": -20.0,
+            "steps": 201
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "tempo": false,
+            "label": "GranPad",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 0,
+            "port": ":bypass",
+            "instance": "/graph/xfade_1",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 33
+        }
+    ],
+    "/bpm": [
+        {
+            "port": "bufsiz",
+            "page": null,
+            "label": "Time",
+            "dividers": 8,
+            "tempo": true,
+            "minimum": 4,
+            "maximum": 48,
+            "instance": "/graph/avocado",
+            "steps": 10
+        },
+        {
+            "port": "bufsiz",
+            "page": null,
+            "label": "Time",
+            "dividers": 10.666,
+            "tempo": true,
+            "minimum": 4,
+            "maximum": 48,
+            "instance": "/graph/avocado_1",
+            "steps": 10
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "tempo": false,
+            "label": "delay length",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 10.0,
+            "page": 0,
+            "port": "delay_length",
+            "instance": "/graph/Granulator",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.5,
+            "steps": 201
+        },
+        {
+            "tempo": true,
+            "label": "rate",
+            "subpage": 1,
+            "group": null,
+            "coloured": false,
+            "maximum": 48,
+            "page": 0,
+            "port": "rate",
+            "instance": "/graph/harmless",
+            "momentary": 0,
+            "dividers": 5.3330000000000002,
+            "minimum": 0.33300000000000002,
+            "steps": 20
+        },
+        {
+            "tempo": false,
+            "label": "St Input",
+            "subpage": 2,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 0,
+            "port": ":bypass",
+            "instance": "/graph/xfade",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 33
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "tempo": false,
+            "label": "Tap",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 280.0,
+            "page": 0,
+            "port": ":bpm",
+            "instance": "/pedalboard",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 20.0,
+            "steps": 260
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "tempo": false,
+            "label": "grain length",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 0.5,
+            "page": 0,
+            "port": "grain_length",
+            "instance": "/graph/Granulator",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0099999997764825821,
+            "steps": 201
+        },
+        {
+            "tempo": false,
+            "label": "Dry/wet",
+            "subpage": 2,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 0,
+            "port": "xfade",
+            "instance": "/graph/xfade_1",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": -1.0,
+            "steps": 201
+        },
+        {
+            "tempo": false,
+            "label": "WeirdLFO",
+            "subpage": 1,
+            "group": null,
+            "coloured": false,
+            "maximum": 10.0,
+            "page": 0,
+            "port": "LFOSpeed",
+            "instance": "/graph/_shimmizita_",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.10000000000000001,
+            "steps": 201
+        }
+    ]
+}

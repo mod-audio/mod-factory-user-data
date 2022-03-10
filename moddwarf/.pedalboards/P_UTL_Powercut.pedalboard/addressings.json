@@ -1,0 +1,88 @@
+{
+    "/bpm": [],
+    "/hmi/knob3": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/Gain2x2",
+            "coloured": false,
+            "minimum": -20.0,
+            "port": "Gain",
+            "label": "Out Lvl",
+            "subpage": 2,
+            "group": null,
+            "maximum": 20.0,
+            "page": 0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/powercut",
+            "coloured": false,
+            "minimum": 0.01,
+            "port": "DTIME",
+            "label": "DCY Time",
+            "subpage": 0,
+            "group": null,
+            "maximum": 10.0,
+            "page": 0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "momentary": 0,
+            "instance": "/graph/xfade",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "ST INPUT",
+            "subpage": 2,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/powercut",
+            "coloured": false,
+            "minimum": -10.0,
+            "port": "DCURVE",
+            "label": "DCY CURVE",
+            "subpage": 0,
+            "group": null,
+            "maximum": 10.0,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch2": [],
+    "/hmi/footswitch1": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "momentary": 1,
+            "instance": "/graph/powercut",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "powercut",
+            "subpage": 0,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        }
+    ],
+    "/hmi/group1": []
+}

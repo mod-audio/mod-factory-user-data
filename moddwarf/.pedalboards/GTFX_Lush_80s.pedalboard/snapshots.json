@@ -1,0 +1,615 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "Gain2x2_2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Wider": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "pan": 0.0,
+                        "width": 0.0
+                    },
+                    "parameters": {}
+                },
+                "bolliedelay": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "div_r": 3.0,
+                        "high_q": 1.0,
+                        "feedback": 69.0,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "div_l": 2.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 20.0,
+                        "mix": 42.5,
+                        "low_on": 1.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 0.5,
+                        "mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "PlateX2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "bandwidth": 1.0,
+                        "tail": 0.51999998092651367,
+                        "damping": 0.25334799289703369,
+                        "blend": 0.26499998569488525
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -3.0
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "_bajatubedriver_": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "TONE": 0.5,
+                        "DRIVE": 0.34000000357627869,
+                        "VOLUME": 0.34000000357627869,
+                        "BYPASS": 0.0
+                    },
+                    "parameters": {}
+                },
+                "triple_chorus": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "mod_freq_1": 0.10000000149011612,
+                        "delay": 22.5,
+                        "mod_amp_1": 3.75,
+                        "mod_amp_2": 0.89999997615814209,
+                        "mod_freq_2": 0.55000001192092896
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Chorus"
+        },
+        {
+            "data": {
+                "Gain2x2_2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Wider": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "pan": 0.0,
+                        "width": 0.0
+                    },
+                    "parameters": {}
+                },
+                "bolliedelay": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "div_r": 3.0,
+                        "high_q": 1.0,
+                        "feedback": 69.0,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "div_l": 2.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 20.0,
+                        "mix": 42.5,
+                        "low_on": 1.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 0.5,
+                        "mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "PlateX2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "bandwidth": 1.0,
+                        "tail": 0.51999998092651367,
+                        "damping": 0.25334799289703369,
+                        "blend": 0.26499998569488525
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -3.0
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "_bajatubedriver_": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "TONE": 0.5,
+                        "DRIVE": 0.34000000357627869,
+                        "VOLUME": 0.34000000357627869,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "triple_chorus": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "mod_freq_1": 0.10000000149011612,
+                        "delay": 22.5,
+                        "mod_amp_1": 3.75,
+                        "mod_amp_2": 0.89999997615814209,
+                        "mod_freq_2": 0.55000001192092896
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Driven Chorus"
+        },
+        {
+            "data": {
+                "Gain2x2_2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Wider": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "pan": 0.0,
+                        "width": 0.0
+                    },
+                    "parameters": {}
+                },
+                "bolliedelay": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "div_r": 3.0,
+                        "high_q": 1.0,
+                        "feedback": 69.0,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "div_l": 2.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 20.0,
+                        "mix": 42.5,
+                        "low_on": 1.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 0.5,
+                        "mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "PlateX2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "bandwidth": 1.0,
+                        "tail": 0.51999998092651367,
+                        "damping": 0.25334799289703369,
+                        "blend": 0.26499998569488525
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -3.0
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "_bajatubedriver_": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "TONE": 0.5,
+                        "DRIVE": 0.34000000357627869,
+                        "VOLUME": 0.34000000357627869,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "triple_chorus": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "mod_freq_1": 0.10000000149011612,
+                        "delay": 22.5,
+                        "mod_amp_1": 3.75,
+                        "mod_amp_2": 0.89999997615814209,
+                        "mod_freq_2": 0.55000001192092896
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Driven Delay"
+        },
+        {
+            "data": {
+                "Gain2x2_2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Wider": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "pan": 0.0,
+                        "width": 0.0
+                    },
+                    "parameters": {}
+                },
+                "bolliedelay": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "div_r": 3.0,
+                        "high_q": 1.0,
+                        "feedback": 69.0,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "div_l": 2.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 20.0,
+                        "mix": 42.5,
+                        "low_on": 1.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 0.5,
+                        "mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "PlateX2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "bandwidth": 1.0,
+                        "tail": 0.51999998092651367,
+                        "damping": 0.25334799289703369,
+                        "blend": 0.26499998569488525
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -3.0
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "_bajatubedriver_": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "TONE": 0.5,
+                        "DRIVE": 0.34000000357627869,
+                        "VOLUME": 0.34000000357627869,
+                        "BYPASS": 0.0
+                    },
+                    "parameters": {}
+                },
+                "triple_chorus": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "mod_freq_1": 0.10000000149011612,
+                        "delay": 22.5,
+                        "mod_amp_1": 3.75,
+                        "mod_amp_2": 0.89999997615814209,
+                        "mod_freq_2": 0.55000001192092896
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Chorus Delay"
+        },
+        {
+            "data": {
+                "Gain2x2_2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Wider": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "pan": 0.0,
+                        "width": 0.0
+                    },
+                    "parameters": {}
+                },
+                "bolliedelay": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "div_r": 3.0,
+                        "high_q": 1.0,
+                        "feedback": 69.0,
+                        "tempo_user": 120.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "tap": 0.0,
+                        "tempo_mode": 0.0,
+                        "div_l": 2.0,
+                        "high_f": 7500.0,
+                        "low_q": 1.0,
+                        "tempo_host": 120.0,
+                        "crossf": 20.0,
+                        "mix": 42.5,
+                        "low_on": 1.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 0.5,
+                        "mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "PlateX2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "bandwidth": 1.0,
+                        "tail": 0.51999998092651367,
+                        "damping": 0.25334799289703369,
+                        "blend": 0.26499998569488525
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -3.0
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "_bajatubedriver_": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "TONE": 0.5,
+                        "DRIVE": 0.34000000357627869,
+                        "VOLUME": 0.34000000357627869,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "triple_chorus": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "mod_freq_1": 0.10000000149011612,
+                        "delay": 22.5,
+                        "mod_amp_1": 3.75,
+                        "mod_amp_2": 0.89999997615814209,
+                        "mod_freq_2": 0.55000001192092896
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Driven ChDel"
+        }
+    ],
+    "current": 0
+}

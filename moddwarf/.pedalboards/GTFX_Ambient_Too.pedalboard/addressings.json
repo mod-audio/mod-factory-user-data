@@ -1,0 +1,487 @@
+{
+    "/hmi/group1": [],
+    "/cv/graph/mod_cv_control_1/Cvoutput": {
+        "addrs": [
+            {
+                "port": "rate",
+                "label": "Playback Rate",
+                "operational_mode": "+",
+                "minimum": 0.5,
+                "maximum": 2.0,
+                "instance": "/graph/floaty_1",
+                "steps": 33
+            },
+            {
+                "port": "rate",
+                "label": "Playback Rate",
+                "operational_mode": "+",
+                "minimum": 0.5,
+                "maximum": 2.0,
+                "instance": "/graph/floaty",
+                "steps": 33
+            },
+            {
+                "port": "ratio",
+                "label": "ratio",
+                "operational_mode": "+",
+                "minimum": 0.5,
+                "maximum": 2.0,
+                "instance": "/graph/shiroverb",
+                "steps": 33
+            },
+            {
+                "port": "ratio",
+                "label": "ratio",
+                "operational_mode": "+",
+                "minimum": 0.5,
+                "maximum": 2.0,
+                "instance": "/graph/shiroverb_1",
+                "steps": 33
+            }
+        ],
+        "name": "macro 1"
+    },
+    "/hmi/footswitch2": [
+        {
+            "tempo": false,
+            "label": "Undo",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 1,
+            "port": "undo",
+            "instance": "/graph/sooperlooper_2x2",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 1
+        },
+        {
+            "tempo": false,
+            "label": "SwStuck",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 0,
+            "port": ":bypass",
+            "instance": "/graph/stuck",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 33
+        }
+    ],
+    "/cv/graph/mod_cv_control_4/Cvoutput": {
+        "addrs": [
+            {
+                "port": "shimmer",
+                "label": "shimmer",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "maximum": 100.0,
+                "instance": "/graph/shiroverb",
+                "steps": 33
+            },
+            {
+                "port": "shimmer",
+                "label": "shimmer",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "maximum": 100.0,
+                "instance": "/graph/shiroverb_1",
+                "steps": 33
+            }
+        ],
+        "name": "macro 4"
+    },
+    "/cv/graph/mod_cv_control_3/Cvoutput": {
+        "addrs": [
+            {
+                "port": "decay",
+                "label": "decay",
+                "operational_mode": "+",
+                "minimum": 1.0,
+                "maximum": 100.0,
+                "instance": "/graph/shiroverb",
+                "steps": 33
+            },
+            {
+                "port": "decay",
+                "label": "decay",
+                "operational_mode": "+",
+                "minimum": 1.0,
+                "maximum": 100.0,
+                "instance": "/graph/shiroverb_1",
+                "steps": 33
+            },
+            {
+                "port": "rt_low",
+                "label": "Decay Low",
+                "operational_mode": "+",
+                "minimum": 1.0,
+                "maximum": 8.0,
+                "instance": "/graph/reverb",
+                "steps": 33
+            },
+            {
+                "port": "rt_mid",
+                "label": "Decay Mid",
+                "operational_mode": "+",
+                "minimum": 1.0,
+                "maximum": 8.0,
+                "instance": "/graph/reverb",
+                "steps": 33
+            }
+        ],
+        "name": "macro 3"
+    },
+    "/bpm": [
+        {
+            "port": "fragment",
+            "page": null,
+            "label": "Fragment Length",
+            "dividers": 2,
+            "tempo": true,
+            "minimum": 0.66600000000000004,
+            "maximum": 48,
+            "instance": "/graph/reflector",
+            "steps": 18
+        },
+        {
+            "port": "fragment",
+            "page": null,
+            "label": "Fragment Length",
+            "dividers": 2,
+            "tempo": true,
+            "minimum": 0.66600000000000004,
+            "maximum": 48,
+            "instance": "/graph/reflector_1",
+            "steps": 18
+        }
+    ],
+    "/cv/graph/mod_cv_control_5/Cvoutput": {
+        "addrs": [
+            {
+                "port": "tone",
+                "label": "tone",
+                "operational_mode": "+",
+                "minimum": 500.0,
+                "maximum": 6000.0,
+                "instance": "/graph/shiroverb",
+                "steps": 33
+            },
+            {
+                "port": "tone",
+                "label": "tone",
+                "operational_mode": "+",
+                "minimum": 500.0,
+                "maximum": 6000.0,
+                "instance": "/graph/shiroverb_1",
+                "steps": 33
+            },
+            {
+                "port": "filter",
+                "label": "Tone",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "maximum": 60.0,
+                "instance": "/graph/floaty",
+                "steps": 33
+            },
+            {
+                "port": "filter",
+                "label": "Tone",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "maximum": 60.0,
+                "instance": "/graph/floaty_1",
+                "steps": 33
+            }
+        ],
+        "name": "macro 5"
+    },
+    "/hmi/footswitch1": [
+        {
+            "tempo": false,
+            "label": "Record",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 1,
+            "port": "record",
+            "instance": "/graph/sooperlooper_2x2",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 1
+        },
+        {
+            "tempo": false,
+            "label": "Swell",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 0,
+            "port": ":bypass",
+            "instance": "/graph/mod_cv_control",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 33
+        }
+    ],
+    "/cv/graph/mod_cv_control/Cvoutput": {
+        "addrs": [
+            {
+                "port": ":bypass",
+                "label": "Swell",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "maximum": 1.0,
+                "instance": "/graph/xfade_2",
+                "steps": 33
+            },
+            {
+                "port": ":bypass",
+                "label": "Stereo X-Fade",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "maximum": 1.0,
+                "instance": "/graph/xfade_1",
+                "steps": 33
+            }
+        ],
+        "name": "swell"
+    },
+    "/cv/graph/mod_cv_control_2/Cvoutput": {
+        "addrs": [
+            {
+                "port": "feedback",
+                "label": "Feedback",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "maximum": 60.0,
+                "instance": "/graph/floaty",
+                "steps": 33
+            },
+            {
+                "port": "feedback",
+                "label": "Feedback",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "maximum": 60.0,
+                "instance": "/graph/floaty_1",
+                "steps": 33
+            },
+            {
+                "port": "feedback",
+                "label": "Feedback",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "maximum": 100.0,
+                "instance": "/graph/bolliedelay_1",
+                "steps": 33
+            },
+            {
+                "port": "feedback",
+                "label": "Feedback",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "maximum": 100.0,
+                "instance": "/graph/bolliedelay",
+                "steps": 33
+            }
+        ],
+        "name": "macro 2"
+    },
+    "/hmi/knob1": [
+        {
+            "tempo": false,
+            "label": "St Input",
+            "subpage": 2,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 0,
+            "port": ":bypass",
+            "instance": "/graph/xfade",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 33
+        },
+        {
+            "tempo": false,
+            "label": "PLAY",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 1,
+            "port": "play_pause",
+            "instance": "/graph/sooperlooper_2x2",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 1
+        },
+        {
+            "tempo": false,
+            "label": "Pitch",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 10.0,
+            "page": 0,
+            "port": "Control",
+            "instance": "/graph/mod_cv_control_1",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 201
+        },
+        {
+            "tempo": false,
+            "label": "Shimmer",
+            "subpage": 1,
+            "group": null,
+            "coloured": false,
+            "maximum": 10.0,
+            "page": 0,
+            "port": "Control",
+            "instance": "/graph/mod_cv_control_4",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 201
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "tempo": false,
+            "label": "Reset",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 1,
+            "port": "reset",
+            "instance": "/graph/sooperlooper_2x2",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 1
+        },
+        {
+            "tempo": false,
+            "label": "Wet Lvl",
+            "subpage": 2,
+            "group": null,
+            "coloured": false,
+            "maximum": 20.0,
+            "page": 0,
+            "port": "Gain",
+            "instance": "/graph/Gain2x2_1",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": -20.0,
+            "steps": 201
+        },
+        {
+            "tempo": false,
+            "label": "Feedback",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 10.0,
+            "page": 0,
+            "port": "Control",
+            "instance": "/graph/mod_cv_control_2",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 201
+        },
+        {
+            "tempo": false,
+            "label": "Tone",
+            "subpage": 1,
+            "group": null,
+            "coloured": false,
+            "maximum": 10.0,
+            "page": 0,
+            "port": "Control",
+            "instance": "/graph/mod_cv_control_5",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 201
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "tempo": false,
+            "label": "Redo",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 1,
+            "port": "redo",
+            "instance": "/graph/sooperlooper_2x2",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 1
+        },
+        {
+            "tempo": false,
+            "label": "Dry/Wet",
+            "subpage": 2,
+            "group": null,
+            "coloured": false,
+            "maximum": 1.0,
+            "page": 0,
+            "port": "xfade",
+            "instance": "/graph/xfade_1",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": -1.0,
+            "steps": 201
+        },
+        {
+            "tempo": false,
+            "label": "Decay",
+            "subpage": 0,
+            "group": null,
+            "coloured": false,
+            "maximum": 10.0,
+            "page": 0,
+            "port": "Control",
+            "instance": "/graph/mod_cv_control_3",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 0.0,
+            "steps": 201
+        },
+        {
+            "tempo": false,
+            "label": "Tempo",
+            "subpage": 1,
+            "group": null,
+            "coloured": false,
+            "maximum": 280.0,
+            "page": 0,
+            "port": ":bpm",
+            "instance": "/pedalboard",
+            "momentary": 0,
+            "dividers": null,
+            "minimum": 20.0,
+            "steps": 260
+        }
+    ]
+}

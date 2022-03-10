@@ -1,0 +1,72 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "faIR_cabsim": {
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true,
+                    "parameters": {}
+                },
+                "Gain": {
+                    "preset": "",
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true,
+                    "parameters": {}
+                },
+                "Gain2x2_1": {
+                    "preset": "",
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "cabsim_modern": {
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                }
+            },
+            "name": "Default"
+        }
+    ],
+    "current": 0
+}

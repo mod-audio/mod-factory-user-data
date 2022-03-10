@@ -1,0 +1,163 @@
+{
+    "/bpm": [],
+    "/hmi/footswitch2": [],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "group": null,
+            "instance": "/graph/xfade_1",
+            "steps": 33,
+            "label": "FX"
+        }
+    ],
+    "/hmi/group1": [],
+    "/hmi/knob2": [
+        {
+            "port": "Step",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "minimum": -12.0,
+            "maximum": 0.0,
+            "group": null,
+            "instance": "/graph/Drop",
+            "steps": 12,
+            "label": "Rev Ptch"
+        },
+        {
+            "port": "feedback",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 1,
+            "page": 0,
+            "momentary": 0,
+            "minimum": -110.0,
+            "maximum": 110.0,
+            "group": null,
+            "instance": "/graph/DubDelay",
+            "steps": 201,
+            "label": "FWD Fbk"
+        },
+        {
+            "port": "xfade",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 2,
+            "page": 0,
+            "momentary": 0,
+            "minimum": -1.0,
+            "maximum": 1.0,
+            "group": null,
+            "instance": "/graph/xfade",
+            "steps": 201,
+            "label": "Rev/fwd"
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "port": "level",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "group": null,
+            "instance": "/graph/SubSynth",
+            "steps": 201,
+            "label": "Rev Sub"
+        },
+        {
+            "port": "Frequency",
+            "tempo": false,
+            "dividers": 0.33300000000000002,
+            "coloured": false,
+            "subpage": 1,
+            "page": 0,
+            "momentary": 0,
+            "minimum": 0.0,
+            "maximum": 20.0,
+            "group": null,
+            "instance": "/graph/autopan",
+            "steps": 201,
+            "label": "FWD Pan"
+        },
+        {
+            "port": "xfade",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 2,
+            "page": 0,
+            "momentary": 0,
+            "minimum": -1.0,
+            "maximum": 1.0,
+            "group": null,
+            "instance": "/graph/xfade_1",
+            "steps": 201,
+            "label": "Dry/Wet"
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "port": "fragment",
+            "tempo": false,
+            "dividers": 0.75,
+            "coloured": false,
+            "subpage": 0,
+            "page": 0,
+            "momentary": 0,
+            "minimum": 100.0,
+            "maximum": 1600.0,
+            "group": null,
+            "instance": "/graph/reflector",
+            "steps": 201,
+            "label": "Rev Time"
+        },
+        {
+            "port": "delay",
+            "tempo": false,
+            "dividers": 0.33300000000000002,
+            "coloured": false,
+            "subpage": 1,
+            "page": 0,
+            "momentary": 0,
+            "minimum": 0.0,
+            "maximum": 7341.0,
+            "group": null,
+            "instance": "/graph/DubDelay",
+            "steps": 201,
+            "label": "FWD time"
+        },
+        {
+            "port": ":bypass",
+            "tempo": false,
+            "dividers": null,
+            "coloured": false,
+            "subpage": 2,
+            "page": 0,
+            "momentary": 0,
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "group": null,
+            "instance": "/graph/xfade_2",
+            "steps": 33,
+            "label": "st input"
+        }
+    ]
+}

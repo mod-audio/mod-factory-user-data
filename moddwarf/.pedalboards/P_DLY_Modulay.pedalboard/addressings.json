@@ -1,0 +1,179 @@
+{
+    "/hmi/group1": [],
+    "/hmi/knob1": [
+        {
+            "port": ":bypass",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/xfade",
+            "label": "ST INPUT",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "time",
+            "dividers": 4,
+            "maximum": 48,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 1,
+            "steps": 16,
+            "instance": "/graph/modulay",
+            "label": "time",
+            "tempo": true,
+            "coloured": false
+        },
+        {
+            "port": "morph",
+            "dividers": null,
+            "maximum": 100.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 201,
+            "instance": "/graph/modulay",
+            "label": "morph",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "port": "xfade",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": -1.0,
+            "steps": 201,
+            "instance": "/graph/xfade_1",
+            "label": "Dry/Wet",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "tone",
+            "dividers": null,
+            "maximum": 6000.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 500.0,
+            "steps": 201,
+            "instance": "/graph/modulay",
+            "label": "tone",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "depth",
+            "dividers": null,
+            "maximum": 3.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 0.10000000149011612,
+            "steps": 201,
+            "instance": "/graph/modulay",
+            "label": "depth",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "port": "Gain",
+            "dividers": null,
+            "maximum": 20.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 2,
+            "page": 0,
+            "minimum": -20.0,
+            "steps": 201,
+            "instance": "/graph/Gain2x2",
+            "label": "Wet Lvl",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "repeats",
+            "dividers": null,
+            "maximum": 110.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 201,
+            "instance": "/graph/modulay",
+            "label": "repeats",
+            "tempo": false,
+            "coloured": false
+        },
+        {
+            "port": "rate",
+            "dividers": 0.33300000000000002,
+            "maximum": 5.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 1,
+            "page": 0,
+            "minimum": 0.10000000149011612,
+            "steps": 201,
+            "instance": "/graph/modulay",
+            "label": "rate",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "port": ":bypass",
+            "dividers": null,
+            "maximum": 1.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 0.0,
+            "steps": 33,
+            "instance": "/graph/xfade_1",
+            "label": "Modulay",
+            "tempo": false,
+            "coloured": false
+        }
+    ],
+    "/bpm": [],
+    "/hmi/footswitch2": [
+        {
+            "port": ":bpm",
+            "dividers": null,
+            "maximum": 280.0,
+            "group": null,
+            "momentary": 0,
+            "subpage": 0,
+            "page": 0,
+            "minimum": 20.0,
+            "steps": 260,
+            "instance": "/pedalboard",
+            "label": "TAP",
+            "tempo": false,
+            "coloured": false
+        }
+    ]
+}

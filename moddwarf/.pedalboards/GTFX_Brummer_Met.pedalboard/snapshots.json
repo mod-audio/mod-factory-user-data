@@ -1,0 +1,389 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "MetalTone": {
+                    "ports": {
+                        "LOW": 0.5,
+                        "MIDFREQ": 0.5,
+                        "DIST": 0.0,
+                        "LEVEL": 0.484375,
+                        "MIDDLE": 0.5,
+                        "HIGH": 0.5,
+                        "Bypass": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "doubler": {
+                    "ports": {
+                        "PitchTracking": 0.5,
+                        "DryRightPosition": 1.0,
+                        "TimeTracking": 0.5,
+                        "WetLeftPosition": 0.0,
+                        "WetRightPosition": 1.0,
+                        "DryLevelDb": 0.0,
+                        "WetLevelDb": 0.0,
+                        "DryLeftPosition": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "ports": {
+                        "ratio": 2.0,
+                        "damping": 50.0,
+                        "roomsize": 150.0,
+                        "mix": 50.0,
+                        "decay": 50.0,
+                        "tone": 1500.0,
+                        "bandwidth": 75.0,
+                        "shimmer": 50.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "CollisionDrive": {
+                    "ports": {
+                        "ATTACK": 1.0,
+                        "DRIVE": 0.5,
+                        "LEVEL": -10.0,
+                        "GATE": -55.0,
+                        "BRIGHT": 0.5,
+                        "BYPASS": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "Double-Metal"
+        },
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "MetalTone": {
+                    "ports": {
+                        "LOW": 0.5,
+                        "MIDFREQ": 0.5,
+                        "DIST": 0.0,
+                        "LEVEL": 0.484375,
+                        "MIDDLE": 0.5,
+                        "HIGH": 0.5,
+                        "Bypass": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "doubler": {
+                    "ports": {
+                        "PitchTracking": 0.5,
+                        "DryRightPosition": 1.0,
+                        "TimeTracking": 0.5,
+                        "WetLeftPosition": 0.0,
+                        "WetRightPosition": 1.0,
+                        "DryLevelDb": 0.0,
+                        "WetLevelDb": 0.0,
+                        "DryLeftPosition": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "ports": {
+                        "ratio": 2.0,
+                        "damping": 50.0,
+                        "roomsize": 150.0,
+                        "mix": 50.0,
+                        "decay": 50.0,
+                        "tone": 1500.0,
+                        "bandwidth": 75.0,
+                        "shimmer": 50.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "CollisionDrive": {
+                    "ports": {
+                        "ATTACK": 1.0,
+                        "DRIVE": 0.5,
+                        "LEVEL": -10.0,
+                        "GATE": -55.0,
+                        "BRIGHT": 0.5,
+                        "BYPASS": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "MetalCollider"
+        },
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "MetalTone": {
+                    "ports": {
+                        "LOW": 0.5,
+                        "MIDFREQ": 0.5,
+                        "DIST": 0.0,
+                        "LEVEL": 0.484375,
+                        "MIDDLE": 0.5,
+                        "HIGH": 0.5,
+                        "Bypass": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "doubler": {
+                    "ports": {
+                        "PitchTracking": 0.5,
+                        "DryRightPosition": 1.0,
+                        "TimeTracking": 0.5,
+                        "WetLeftPosition": 0.0,
+                        "WetRightPosition": 1.0,
+                        "DryLevelDb": 0.0,
+                        "WetLevelDb": 0.0,
+                        "DryLeftPosition": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "ports": {
+                        "ratio": 2.0,
+                        "damping": 50.0,
+                        "roomsize": 150.0,
+                        "mix": 50.0,
+                        "decay": 50.0,
+                        "tone": 1500.0,
+                        "bandwidth": 75.0,
+                        "shimmer": 50.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "CollisionDrive": {
+                    "ports": {
+                        "ATTACK": 1.0,
+                        "DRIVE": 0.5,
+                        "LEVEL": -10.0,
+                        "GATE": -55.0,
+                        "BRIGHT": 0.5,
+                        "BYPASS": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "Lead"
+        },
+        {
+            "data": {
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "MetalTone": {
+                    "ports": {
+                        "LOW": 0.5,
+                        "MIDFREQ": 0.5,
+                        "DIST": 0.0,
+                        "LEVEL": 0.484375,
+                        "MIDDLE": 0.5,
+                        "HIGH": 0.5,
+                        "Bypass": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "doubler": {
+                    "ports": {
+                        "PitchTracking": 0.5,
+                        "DryRightPosition": 1.0,
+                        "TimeTracking": 0.5,
+                        "WetLeftPosition": 0.0,
+                        "WetRightPosition": 1.0,
+                        "DryLevelDb": 0.0,
+                        "WetLevelDb": 0.0,
+                        "DryLeftPosition": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "ports": {
+                        "ratio": 2.0,
+                        "damping": 50.0,
+                        "roomsize": 150.0,
+                        "mix": 50.0,
+                        "decay": 50.0,
+                        "tone": 1500.0,
+                        "bandwidth": 75.0,
+                        "shimmer": 50.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "CollisionDrive": {
+                    "ports": {
+                        "ATTACK": 1.0,
+                        "DRIVE": 0.5,
+                        "LEVEL": -10.0,
+                        "GATE": -55.0,
+                        "BRIGHT": 0.5,
+                        "BYPASS": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                }
+            },
+            "name": "ALL ON LEAD"
+        }
+    ],
+    "current": 0
+}

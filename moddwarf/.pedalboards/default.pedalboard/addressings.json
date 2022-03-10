@@ -1,25 +1,41 @@
 {
-    "/hmi/group1": [],
-    "/hmi/knob2": [],
+    "/bpm": [],
     "/hmi/knob3": [
         {
-            "momentary": 0,
-            "port": "Gain",
-            "group": null,
-            "instance": "/graph/Gain2x2",
-            "page": 0,
-            "dividers": null,
-            "coloured": false,
             "tempo": false,
-            "subpage": 0,
-            "maximum": 20.0,
+            "dividers": null,
             "steps": 201,
-            "label": "PB Gain",
-            "minimum": -20.0
+            "momentary": 0,
+            "instance": "/graph/Gain2x2",
+            "coloured": false,
+            "minimum": -20.0,
+            "port": "Gain",
+            "label": "Out Lvl",
+            "subpage": 2,
+            "group": null,
+            "maximum": 20.0,
+            "page": 0
         }
     ],
-    "/hmi/knob1": [],
+    "/hmi/knob2": [],
+    "/hmi/knob1": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "momentary": 0,
+            "instance": "/graph/xfade",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "ST INPUT",
+            "subpage": 2,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        }
+    ],
     "/hmi/footswitch2": [],
-    "/bpm": [],
-    "/hmi/footswitch1": []
+    "/hmi/footswitch1": [],
+    "/hmi/group1": []
 }

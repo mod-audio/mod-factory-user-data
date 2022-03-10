@@ -1,0 +1,80 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "avocado": {
+                    "parameters": {},
+                    "ports": {
+                        "bufsiz": 500.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "xfade": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "xfade_2": {
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "avocado_1": {
+                    "parameters": {},
+                    "ports": {
+                        "bufsiz": 250.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                }
+            },
+            "name": "Default"
+        }
+    ]
+}

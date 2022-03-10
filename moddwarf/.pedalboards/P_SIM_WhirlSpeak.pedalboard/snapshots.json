@@ -1,0 +1,80 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "mod": {
+                    "bypassed": false,
+                    "ports": {
+                        "filtbq": 1.0,
+                        "filtdq": 1.6016000509262085,
+                        "drumrpmfast": 357.29998779296875,
+                        "drumlvl": 0.0,
+                        "filtafreq": 4500.0,
+                        "hornleak": -16.469999313354492,
+                        "hornaccel": 0.16099999845027924,
+                        "filtdtype": 8.0,
+                        "drumbrake": 1.0,
+                        "filtdgain": -38.929100036621094,
+                        "drumwidth": 1.0,
+                        "filtaq": 2.7455999851226807,
+                        "rt_speed": 1.0,
+                        "drumaccel": 4.1269998550415039,
+                        "filtagain": -30.0,
+                        "filtatype": 0.0,
+                        "drumrpmslow": 36.0,
+                        "hornlvl": 0.0,
+                        "horndecel": 0.32100000977516174,
+                        "filtdfreq": 811.969482421875,
+                        "hornbrakepos": 1.0,
+                        "drumdecel": 1.3710000514984131,
+                        "hornrpmslow": 40.319999694824219,
+                        "filtbtype": 7.0,
+                        "filtbgain": -30.0,
+                        "hornrpmfast": 423.3599853515625,
+                        "filtbfreq": 300.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "preset": "",
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true,
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true,
+                    "parameters": {}
+                }
+            },
+            "name": "Default"
+        }
+    ],
+    "current": 0
+}

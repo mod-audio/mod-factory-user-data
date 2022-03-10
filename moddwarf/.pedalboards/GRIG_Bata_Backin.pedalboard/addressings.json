@@ -1,0 +1,217 @@
+{
+    "/bpm": [
+        {
+            "dividers": 5.3330000000000002,
+            "minimum": 0.5,
+            "steps": 19,
+            "port": "ldelay",
+            "label": "L Delay",
+            "instance": "/graph/echo",
+            "tempo": true,
+            "maximum": 48,
+            "page": null
+        },
+        {
+            "dividers": 2.6659999999999999,
+            "minimum": 0.5,
+            "steps": 19,
+            "port": "rhaasdelay",
+            "label": "Right Haas Delay",
+            "instance": "/graph/echo",
+            "tempo": true,
+            "maximum": 48,
+            "page": null
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/EPiano",
+            "coloured": false,
+            "minimum": -50.0,
+            "port": "hardness",
+            "label": "EP HARDNESS",
+            "subpage": 0,
+            "group": null,
+            "maximum": 50.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/mixer_stereo",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "Volume4",
+            "label": "EP LVL",
+            "subpage": 1,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/mixer_stereo",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "MasterVolume",
+            "label": "Out Lvl",
+            "subpage": 2,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 7,
+            "momentary": 0,
+            "instance": "/graph/FluidPlug_FluidBass",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "program",
+            "label": "Bass",
+            "subpage": 0,
+            "group": null,
+            "maximum": 8.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/FluidPlug_FluidBass",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "level",
+            "label": "Bass Lvl",
+            "subpage": 1,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 30,
+            "momentary": 0,
+            "instance": "/graph/FluidPlug_FluidDrums",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "program",
+            "label": "Drums",
+            "subpage": 0,
+            "group": null,
+            "maximum": 31.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "momentary": 0,
+            "instance": "/graph/FluidPlug_FluidDrums",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": "level",
+            "label": "Drum Lvl",
+            "subpage": 1,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "momentary": 0,
+            "instance": "/graph/xfade",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "st input",
+            "subpage": 2,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "tempo": null,
+            "dividers": null,
+            "steps": 33,
+            "momentary": 0,
+            "instance": "/graph/EPiano",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "ePiano",
+            "subpage": 0,
+            "group": null,
+            "maximum": 1.0,
+            "page": 0
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "momentary": 0,
+            "instance": "/graph/FluidPlug_FluidBass",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "Bass",
+            "subpage": 0,
+            "group": null,
+            "maximum": 1.0,
+            "page": 1
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "momentary": 0,
+            "instance": "/graph/FluidPlug_FluidDrums",
+            "coloured": false,
+            "minimum": 0.0,
+            "port": ":bypass",
+            "label": "Drums",
+            "subpage": 0,
+            "group": null,
+            "maximum": 1.0,
+            "page": 1
+        },
+        {
+            "tempo": false,
+            "dividers": null,
+            "steps": 4,
+            "momentary": 0,
+            "instance": "/pedalboard",
+            "coloured": false,
+            "minimum": 0,
+            "port": ":presets",
+            "label": "Pt",
+            "subpage": 0,
+            "group": null,
+            "maximum": 5,
+            "page": 0
+        }
+    ],
+    "/hmi/group1": []
+}
