@@ -129,3 +129,16 @@ tap-tubewarmth.lv2
 tinygain.lv2
 wah1.lv2
 xfade.lv2
+TALNoiseMakerME.lv2
+ZamComp.lv2
+cabsimIRloader.lv2
+carlafiles.lv2
+gx_bottlerocket.lv2
+mindi.lv2
+modarpeggiator.lv2
+modcvmeter.lv2
+modmdaPiano.lv2
+modmiditocvpoly.lv2
+modmeter.lv2
+modspectre.lv2
+stepseq_s32n8.lv2
