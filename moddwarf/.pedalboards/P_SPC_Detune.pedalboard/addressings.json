@@ -2,102 +2,102 @@
     "/hmi/group1": [],
     "/hmi/knob1": [
         {
-            "port": ":bypass",
-            "dividers": null,
-            "maximum": 1.0,
-            "group": null,
+            "minimum": 0.0,
+            "instance": "/graph/xfade",
             "momentary": 0,
+            "steps": 33,
+            "coloured": false,
             "subpage": 2,
             "page": 0,
-            "minimum": 0.0,
-            "steps": 33,
-            "instance": "/graph/xfade",
+            "port": ":bypass",
+            "group": null,
+            "dividers": null,
             "label": "ST INPUT",
-            "tempo": false,
-            "coloured": false
+            "maximum": 1.0,
+            "tempo": false
         },
         {
-            "port": "detune",
-            "dividers": null,
-            "maximum": 300.0,
-            "group": null,
+            "minimum": 0.0,
+            "instance": "/graph/Detune",
             "momentary": 0,
+            "steps": 201,
+            "coloured": false,
             "subpage": 0,
             "page": 0,
-            "minimum": 0.0,
-            "steps": 201,
-            "instance": "/graph/Detune",
-            "label": "Detune",
-            "tempo": false,
-            "coloured": false
-        }
-    ],
-    "/hmi/knob3": [
-        {
-            "port": "xfade",
-            "dividers": null,
-            "maximum": 1.0,
+            "port": "detune",
             "group": null,
-            "momentary": 0,
-            "subpage": 2,
-            "page": 0,
-            "minimum": -1.0,
-            "steps": 201,
-            "instance": "/graph/xfade_1",
-            "label": "Dry/Wet",
-            "tempo": false,
-            "coloured": false
+            "dividers": null,
+            "label": "Detune",
+            "maximum": 300.0,
+            "tempo": false
         }
     ],
     "/hmi/knob2": [
         {
-            "port": "Gain",
-            "dividers": null,
-            "maximum": 20.0,
-            "group": null,
+            "minimum": -20.0,
+            "instance": "/graph/Gain2x2",
             "momentary": 0,
+            "steps": 201,
+            "coloured": false,
             "subpage": 2,
             "page": 0,
-            "minimum": -20.0,
-            "steps": 201,
-            "instance": "/graph/Gain2x2",
+            "port": "Gain",
+            "group": null,
+            "dividers": null,
             "label": "Wet Lvl",
-            "tempo": false,
-            "coloured": false
+            "maximum": 20.0,
+            "tempo": false
         },
         {
-            "port": "latency",
-            "dividers": null,
-            "maximum": 92.900001525878906,
-            "group": null,
+            "minimum": 5.8000001907348633,
+            "instance": "/graph/Detune",
             "momentary": 0,
+            "steps": 4,
+            "coloured": false,
             "subpage": 0,
             "page": 0,
-            "minimum": 5.8000001907348633,
-            "steps": 201,
-            "instance": "/graph/Detune",
+            "port": "latency",
+            "group": null,
+            "dividers": null,
             "label": "Latency",
-            "tempo": false,
-            "coloured": false
+            "maximum": 92.900001525878906,
+            "tempo": false
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "minimum": -1.0,
+            "instance": "/graph/xfade_1",
+            "momentary": 0,
+            "steps": 201,
+            "coloured": false,
+            "subpage": 2,
+            "page": 0,
+            "port": "xfade",
+            "group": null,
+            "dividers": null,
+            "label": "Dry/Wet",
+            "maximum": 1.0,
+            "tempo": false
         }
     ],
     "/hmi/footswitch1": [
         {
-            "port": ":bypass",
-            "dividers": null,
-            "maximum": 1.0,
-            "group": null,
+            "minimum": 0.0,
+            "instance": "/graph/xfade_1",
             "momentary": 0,
+            "steps": 33,
+            "coloured": false,
             "subpage": 0,
             "page": 0,
-            "minimum": 0.0,
-            "steps": 33,
-            "instance": "/graph/xfade_1",
+            "port": ":bypass",
+            "group": null,
+            "dividers": null,
             "label": "Detune",
-            "tempo": false,
-            "coloured": false
+            "maximum": 1.0,
+            "tempo": false
         }
     ],
-    "/bpm": [],
-    "/hmi/footswitch2": []
+    "/hmi/footswitch2": [],
+    "/bpm": []
 }

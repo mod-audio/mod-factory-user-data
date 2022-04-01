@@ -9,59 +9,59 @@
 
 _:b1
     ingen:tail <faIR_cabsim/Out> ;
-    ingen:head <xfade/inA_right> .
+    ingen:head <triple_chorus/in> .
 
 _:b2
-    ingen:tail <faIR_cabsim/Out> ;
-    ingen:head <xfade/inA_left> .
-
-_:b3
-    ingen:tail <Wider/outr> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b4
-    ingen:tail <capture_1> ;
-    ingen:head <_bajatubedriver_/in> .
-
-_:b5
-    ingen:tail <triple_chorus/out2> ;
-    ingen:head <Wider/in> .
-
-_:b6
-    ingen:tail <triple_chorus/out3> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b7
-    ingen:tail <triple_chorus/out1> ;
-    ingen:head <Gain2x2/In1> .
-
-_:b8
-    ingen:tail <studiopre/out> ;
-    ingen:head <_CreamMachine_/in> .
-
-_:b9
-    ingen:tail <PlateX2/outl> ;
-    ingen:head <playback_1> .
-
-_:b10
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <xfade/inB_right> .
-
-_:b11
-    ingen:tail <_CreamMachine_/out> ;
-    ingen:head <faIR_cabsim/In> .
-
-_:b12
-    ingen:tail <xfade/out_left> ;
-    ingen:head <bolliedelay/in_l> .
-
-_:b13
     ingen:tail <xfade/out_right> ;
     ingen:head <bolliedelay/in_r> .
 
-_:b14
+_:b3
     ingen:tail <bolliedelay/out_l> ;
     ingen:head <PlateX2/inl> .
+
+_:b4
+    ingen:tail <xfade/out_left> ;
+    ingen:head <bolliedelay/in_l> .
+
+_:b5
+    ingen:tail <_CreamMachine_/out> ;
+    ingen:head <faIR_cabsim/In> .
+
+_:b6
+    ingen:tail <capture_1> ;
+    ingen:head <_bajatubedriver_/in> .
+
+_:b7
+    ingen:tail <studiopre/out> ;
+    ingen:head <_CreamMachine_/in> .
+
+_:b8
+    ingen:tail <PlateX2/outr> ;
+    ingen:head <playback_2> .
+
+_:b9
+    ingen:tail <triple_chorus/out3> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b10
+    ingen:tail <PlateX2/outl> ;
+    ingen:head <playback_1> .
+
+_:b11
+    ingen:tail <triple_chorus/out1> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b12
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <xfade/inB_right> .
+
+_:b13
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <xfade/inB_left> .
+
+_:b14
+    ingen:tail <bolliedelay/out_r> ;
+    ingen:head <PlateX2/inr> .
 
 _:b15
     ingen:tail <_bajatubedriver_/out> ;
@@ -69,23 +69,23 @@ _:b15
 
 _:b16
     ingen:tail <faIR_cabsim/Out> ;
-    ingen:head <triple_chorus/in> .
+    ingen:head <xfade/inA_left> .
 
 _:b17
-    ingen:tail <PlateX2/outr> ;
-    ingen:head <playback_2> .
+    ingen:tail <Wider/outr> ;
+    ingen:head <Gain2x2/In2> .
 
 _:b18
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <xfade/inB_left> .
-
-_:b19
-    ingen:tail <bolliedelay/out_r> ;
-    ingen:head <PlateX2/inr> .
-
-_:b20
     ingen:tail <Wider/outl> ;
     ingen:head <Gain2x2/In1> .
+
+_:b19
+    ingen:tail <faIR_cabsim/Out> ;
+    ingen:head <xfade/inA_right> .
+
+_:b20
+    ingen:tail <triple_chorus/out2> ;
+    ingen:head <Wider/in> .
 
 <PlateX2>
     ingen:canvasX 3166.0 ;
@@ -126,8 +126,8 @@ _:b20
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<PlateX2/tail>
-    ingen:value 0.340000 ;
+<PlateX2/bandwidth>
+    ingen:value 0.850000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -136,13 +136,13 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<PlateX2/bandwidth>
-    ingen:value 0.850000 ;
+<PlateX2/damping>
+    ingen:value 0.253348 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<PlateX2/damping>
-    ingen:value 0.253348 ;
+<PlateX2/tail>
+    ingen:value 0.340000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -181,18 +181,8 @@ _:b20
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<studiopre/treble>
+<studiopre/bass>
     ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/middle>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<studiopre/bright>
-    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -201,7 +191,17 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<studiopre/bass>
+<studiopre/bright>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/middle>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<studiopre/treble>
     ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -219,7 +219,7 @@ _:b20
     lv2:microVersion 1 ;
     lv2:minorVersion 36 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 11 ;
+    mod:releaseNumber 12 ;
     lv2:port <_CreamMachine_/in> ,
              <_CreamMachine_/out> ,
              <_CreamMachine_/BYPASS> ,
@@ -241,18 +241,8 @@ _:b20
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_CreamMachine_/TREBLE>
+<_CreamMachine_/BASS>
     ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_CreamMachine_/LEVEL>
-    ingen:value 0.170000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_CreamMachine_/BYPASS>
-    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -261,13 +251,119 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_CreamMachine_/BASS>
+<_CreamMachine_/BYPASS>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_CreamMachine_/LEVEL>
+    ingen:value 0.170000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_CreamMachine_/TREBLE>
     ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <_CreamMachine_/:bypass>
     ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<faIR_cabsim>
+    ingen:canvasX 934.1 ;
+    ingen:canvasY 521.1 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 1 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <faIR_cabsim/In> ,
+             <faIR_cabsim/Out> ,
+             <faIR_cabsim/Attenuation> ,
+             <faIR_cabsim/Model> ,
+             <faIR_cabsim/:bypass> ;
+    lv2:prototype <http://http://JHLM.com/plugins/mod-devel/faIR-cabsim> ;
+    pedal:instanceNumber 4 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<faIR_cabsim/In>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<faIR_cabsim/In>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<faIR_cabsim/Attenuation>
+    ingen:value -4.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<faIR_cabsim/Model>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<faIR_cabsim/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_>
+    ingen:canvasX 234.0 ;
+    ingen:canvasY 539.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 35 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 5 ;
+    lv2:port <_bajatubedriver_/in> ,
+             <_bajatubedriver_/out> ,
+             <_bajatubedriver_/BYPASS> ,
+             <_bajatubedriver_/DRIVE> ,
+             <_bajatubedriver_/TONE> ,
+             <_bajatubedriver_/VOLUME> ,
+             <_bajatubedriver_/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_bajatubedriver_#_bajatubedriver_> ;
+    pedal:instanceNumber 6 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<_bajatubedriver_/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<_bajatubedriver_/TONE>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_/DRIVE>
+    ingen:value 0.340000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_/VOLUME>
+    ingen:value 0.340000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_/:bypass>
+    ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -279,7 +375,7 @@ _:b20
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2/In1> ,
              <Gain2x2/In2> ,
              <Gain2x2/Out1> ,
@@ -317,102 +413,6 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_bajatubedriver_>
-    ingen:canvasX 234.0 ;
-    ingen:canvasY 539.0 ;
-    ingen:enabled false ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 35 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
-    lv2:port <_bajatubedriver_/in> ,
-             <_bajatubedriver_/out> ,
-             <_bajatubedriver_/BYPASS> ,
-             <_bajatubedriver_/DRIVE> ,
-             <_bajatubedriver_/TONE> ,
-             <_bajatubedriver_/VOLUME> ,
-             <_bajatubedriver_/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_bajatubedriver_#_bajatubedriver_> ;
-    pedal:instanceNumber 6 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<_bajatubedriver_/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<_bajatubedriver_/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<_bajatubedriver_/DRIVE>
-    ingen:value 0.340000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_bajatubedriver_/BYPASS>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_bajatubedriver_/VOLUME>
-    ingen:value 0.340000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_bajatubedriver_/TONE>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_bajatubedriver_/:bypass>
-    ingen:value 1 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<faIR_cabsim>
-    ingen:canvasX 934.1 ;
-    ingen:canvasY 521.1 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 1 ;
-    lv2:minorVersion 1 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
-    lv2:port <faIR_cabsim/In> ,
-             <faIR_cabsim/Out> ,
-             <faIR_cabsim/Attenuation> ,
-             <faIR_cabsim/Model> ,
-             <faIR_cabsim/:bypass> ;
-    lv2:prototype <http://http://JHLM.com/plugins/mod-devel/faIR-cabsim> ;
-    pedal:instanceNumber 4 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<faIR_cabsim/In>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<faIR_cabsim/In>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<faIR_cabsim/Model>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<faIR_cabsim/Attenuation>
-    ingen:value -4.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<faIR_cabsim/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <triple_chorus>
     ingen:canvasX 1156.0 ;
     ingen:canvasY 1114.4 ;
@@ -445,18 +445,8 @@ _:b20
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<triple_chorus/mod_freq_2>
-    ingen:value 0.550000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<triple_chorus/mod_freq_1>
-    ingen:value 0.100000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<triple_chorus/delay>
-    ingen:value 22.500000 ;
+<triple_chorus/mod_amp_2>
+    ingen:value 0.900000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -465,8 +455,18 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<triple_chorus/mod_amp_2>
-    ingen:value 0.900000 ;
+<triple_chorus/delay>
+    ingen:value 22.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<triple_chorus/mod_freq_1>
+    ingen:value 0.100000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<triple_chorus/mod_freq_2>
+    ingen:value 0.550000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -531,8 +531,8 @@ _:b20
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade/mode>
-    ingen:value 0.000000 ;
+<xfade/xfade>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -541,8 +541,8 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade/xfade>
-    ingen:value 0.500000 ;
+<xfade/mode>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -579,12 +579,12 @@ _:b20
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<Wider/pan>
+<Wider/width>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Wider/width>
+<Wider/pan>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -645,22 +645,12 @@ _:b20
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<bolliedelay/tap>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/high_f>
-    ingen:value 7500.000000 ;
+<bolliedelay/crossf>
+    ingen:value 20.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <bolliedelay/tempo_host>
-    ingen:value 120.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/tempo_user>
     ingen:value 120.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -670,13 +660,18 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<bolliedelay/mix>
-    ingen:value 42.500000 ;
+<bolliedelay/feedback>
+    ingen:value 69.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<bolliedelay/crossf>
-    ingen:value 20.000000 ;
+<bolliedelay/low_on>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/tempo_user>
+    ingen:value 120.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -685,13 +680,33 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<bolliedelay/high_f>
+    ingen:value 7500.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/high_on>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/mix>
+    ingen:value 42.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/tap>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <bolliedelay/tempo_mode>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<bolliedelay/low_on>
-    ingen:value 1.000000 ;
+<bolliedelay/div_l>
+    ingen:value 2.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -702,21 +717,6 @@ _:b20
 
 <bolliedelay/low_f>
     ingen:value 20.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/high_on>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/div_l>
-    ingen:value 2.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/feedback>
-    ingen:value 69.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -842,7 +842,7 @@ _:b20
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 19 ;
+    pedal:version 20 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -867,9 +867,9 @@ _:b20
     ingen:block <PlateX2> ,
                 <studiopre> ,
                 <_CreamMachine_> ,
-                <Gain2x2> ,
-                <_bajatubedriver_> ,
                 <faIR_cabsim> ,
+                <_bajatubedriver_> ,
+                <Gain2x2> ,
                 <triple_chorus> ,
                 <xfade> ,
                 <Wider> ,

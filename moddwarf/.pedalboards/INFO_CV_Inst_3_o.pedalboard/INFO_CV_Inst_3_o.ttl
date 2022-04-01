@@ -12,76 +12,76 @@ _:b1
     ingen:head <vcf/in> .
 
 _:b2
-    ingen:tail <midi_to_cv_mono/Gate> ;
-    ingen:head <env/gate> .
-
-_:b3
-    ingen:tail <vcaexp/out> ;
-    ingen:head <mono/in> .
-
-_:b4
-    ingen:tail <env/out> ;
-    ingen:head <vcaexp/gain1Data> .
-
-_:b5
-    ingen:tail <vcf/out> ;
-    ingen:head <vcaexp/in1Data> .
-
-_:b6
     ingen:tail <vco3_1/out> ;
     ingen:head <vcf/in> .
 
-_:b7
+_:b3
     ingen:tail <Gain2x2/Out2> ;
     ingen:head <playback_2> .
 
-_:b8
+_:b4
+    ingen:tail <shiroverb/lv2_audio_out_2> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b5
     ingen:tail <mod_cv_attenuverter/CVout1> ;
     ingen:head <vcf/freqPort> .
 
-_:b9
+_:b6
     ingen:tail <shiroverb/lv2_audio_out_1> ;
     ingen:head <Gain2x2/In1> .
 
+_:b7
+    ingen:tail <midi_to_cv_mono/Pitch> ;
+    ingen:head <vco3/freq> .
+
+_:b8
+    ingen:tail <vcf/out> ;
+    ingen:head <vcaexp/in1Data> .
+
+_:b9
+    ingen:tail <midi_merger_out> ;
+    ingen:head <midi_to_cv_mono/in> .
+
 _:b10
-    ingen:tail <shiroverb/lv2_audio_out_2> ;
-    ingen:head <Gain2x2/In2> .
+    ingen:tail <env/out> ;
+    ingen:head <mod_cv_attenuverter/CVin> .
 
 _:b11
     ingen:tail <midi_to_cv_mono/Pitch> ;
     ingen:head <vco3_1/freq> .
 
 _:b12
-    ingen:tail <mod_cv_control/Cvoutput> ;
-    ingen:head <mod_cv_attenuverter_1/CVin> .
-
-_:b13
     ingen:tail <vco3_2/out> ;
     ingen:head <vcf/in> .
 
-_:b14
+_:b13
     ingen:tail <midi_to_cv_mono/Pitch> ;
     ingen:head <vco3_2/freq> .
 
-_:b15
-    ingen:tail <midi_to_cv_mono/Pitch> ;
-    ingen:head <vco3/freq> .
-
-_:b16
+_:b14
     ingen:tail <env/out> ;
-    ingen:head <mod_cv_attenuverter/CVin> .
+    ingen:head <vcaexp/gain1Data> .
 
-_:b17
-    ingen:tail <midi_merger_out> ;
-    ingen:head <midi_to_cv_mono/in> .
-
-_:b18
+_:b15
     ingen:tail <Gain2x2/Out1> ;
     ingen:head <playback_1> .
 
-_:b19
+_:b16
+    ingen:tail <vcaexp/out> ;
+    ingen:head <mono/in> .
+
+_:b17
     ingen:tail <mono/out> ;
     ingen:head <shiroverb/lv2_audio_in_1> .
+
+_:b18
+    ingen:tail <mod_cv_control/Cvoutput> ;
+    ingen:head <mod_cv_attenuverter_1/CVin> .
+
+_:b19
+    ingen:tail <midi_to_cv_mono/Gate> ;
+    ingen:head <env/gate> .
 
 <Gain2x2>
     ingen:canvasX 4113.0 ;
@@ -91,7 +91,7 @@ _:b19
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2/In1> ,
              <Gain2x2/In2> ,
              <Gain2x2/Out1> ,
@@ -176,7 +176,7 @@ _:b19
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<midi_to_cv_mono/Semitone>
+<midi_to_cv_mono/Cent>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -186,7 +186,7 @@ _:b19
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<midi_to_cv_mono/Cent>
+<midi_to_cv_mono/Semitone>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -258,13 +258,13 @@ _:b19
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vcf/linFMGain>
-    ingen:value 0.000000 ;
+<vcf/resonance>
+    ingen:value 0.302000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vcf/resonance>
-    ingen:value 0.302000 ;
+<vcf/linFMGain>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -278,17 +278,123 @@ _:b19
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vcf/resonanceGain>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <vcf/vcfType>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<vcf/resonanceGain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <vcf/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3>
+    ingen:canvasX 1151.1 ;
+    ingen:canvasY 62.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 8 ;
+    lv2:port <vco3/out> ,
+             <vco3/waveForm> ,
+             <vco3/octave> ,
+             <vco3/tune> ,
+             <vco3/semitone> ,
+             <vco3/pw0> ,
+             <vco3/pwGain> ,
+             <vco3/edge> ,
+             <vco3/phi0> ,
+             <vco3/expFMGain> ,
+             <vco3/linFMGain> ,
+             <vco3/freq> ,
+             <vco3/expFM> ,
+             <vco3/linFM> ,
+             <vco3/pwPort> ,
+             <vco3/sync> ,
+             <vco3/:bypass> ;
+    lv2:prototype <http://github.com/blablack/ams-lv2/vco3> ;
+    pedal:instanceNumber 3 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<vco3/freq>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vco3/expFM>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vco3/linFM>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vco3/pwPort>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vco3/sync>
+    a lv2:CVPort ,
+        lv2:InputPort .
+
+<vco3/expFMGain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/linFMGain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/semitone>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/edge>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/pwGain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/waveForm>
+    ingen:value 2.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/pw0>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/phi0>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/tune>
+    ingen:value 0.009000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/octave>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -357,13 +463,13 @@ _:b19
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vcaexp/outputLevel>
-    ingen:value 0.250000 ;
+<vcaexp/in2>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vcaexp/in2>
-    ingen:value 1.000000 ;
+<vcaexp/outputLevel>
+    ingen:value 0.250000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -419,18 +525,23 @@ _:b19
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<env/hold>
-    ingen:value 0.002415 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <env/attack>
     ingen:value 0.006000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<env/hold>
+    ingen:value 0.002415 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <env/delay>
     ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<env/sustain>
+    ingen:value 2.004831 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -441,11 +552,6 @@ _:b19
 
 <env/decay>
     ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<env/sustain>
-    ingen:value 2.004831 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -510,17 +616,12 @@ _:b19
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vco3_1/pw0>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <vco3_1/linFMGain>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vco3_1/phi0>
+<vco3_1/semitone>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -530,7 +631,7 @@ _:b19
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vco3_1/semitone>
+<vco3_1/pwGain>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -540,7 +641,12 @@ _:b19
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vco3_1/pwGain>
+<vco3_1/pw0>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3_1/phi0>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -648,13 +754,13 @@ _:b19
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_cv_attenuverter/Offset>
-    ingen:value 0.000000 ;
+<mod_cv_attenuverter/Multiplier>
+    ingen:value 0.720000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_cv_attenuverter/Multiplier>
-    ingen:value 0.720000 ;
+<mod_cv_attenuverter/Offset>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -707,13 +813,13 @@ _:b19
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<shiroverb/damping>
-    ingen:value 50.000000 ;
+<shiroverb/tone>
+    ingen:value 1500.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<shiroverb/tone>
-    ingen:value 1500.000000 ;
+<shiroverb/damping>
+    ingen:value 50.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -748,26 +854,6 @@ _:b19
         lv2:InputPort .
 
 <shiroverb/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<notes>
-    ingen:canvasX 3688.1 ;
-    ingen:canvasY 1173.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 3 ;
-    lv2:port <notes/:bypass> ;
-    lv2:prototype <http://open-music-kontrollers.ch/lv2/notes#notes> ;
-    pedal:instanceNumber 11 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<notes/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -828,17 +914,12 @@ _:b19
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vco3_2/pw0>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <vco3_2/linFMGain>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vco3_2/phi0>
+<vco3_2/semitone>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -848,7 +929,7 @@ _:b19
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vco3_2/semitone>
+<vco3_2/pwGain>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -858,7 +939,12 @@ _:b19
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vco3_2/pwGain>
+<vco3_2/pw0>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<vco3_2/phi0>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -950,13 +1036,13 @@ _:b19
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_cv_attenuverter_1/Offset>
-    ingen:value 0.000000 ;
+<mod_cv_attenuverter_1/Multiplier>
+    ingen:value -1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_cv_attenuverter_1/Multiplier>
-    ingen:value -1.000000 ;
+<mod_cv_attenuverter_1/Offset>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1015,108 +1101,22 @@ _:b19
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vco3>
-    ingen:canvasX 1151.1 ;
-    ingen:canvasY 62.0 ;
+<notes>
+    ingen:canvasX 3688.1 ;
+    ingen:canvasY 1173.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
-    lv2:minorVersion 1 ;
+    lv2:minorVersion 2 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 8 ;
-    lv2:port <vco3/out> ,
-             <vco3/waveForm> ,
-             <vco3/octave> ,
-             <vco3/tune> ,
-             <vco3/semitone> ,
-             <vco3/pw0> ,
-             <vco3/pwGain> ,
-             <vco3/edge> ,
-             <vco3/phi0> ,
-             <vco3/expFMGain> ,
-             <vco3/linFMGain> ,
-             <vco3/freq> ,
-             <vco3/expFM> ,
-             <vco3/linFM> ,
-             <vco3/pwPort> ,
-             <vco3/sync> ,
-             <vco3/:bypass> ;
-    lv2:prototype <http://github.com/blablack/ams-lv2/vco3> ;
-    pedal:instanceNumber 3 ;
+    mod:releaseNumber 3 ;
+    lv2:port <notes/:bypass> ;
+    lv2:prototype <http://open-music-kontrollers.ch/lv2/notes#notes> ;
+    pedal:instanceNumber 11 ;
     pedal:preset <> ;
     a ingen:Block .
 
-<vco3/freq>
-    a lv2:CVPort ,
-        lv2:InputPort .
-
-<vco3/expFM>
-    a lv2:CVPort ,
-        lv2:InputPort .
-
-<vco3/linFM>
-    a lv2:CVPort ,
-        lv2:InputPort .
-
-<vco3/pwPort>
-    a lv2:CVPort ,
-        lv2:InputPort .
-
-<vco3/sync>
-    a lv2:CVPort ,
-        lv2:InputPort .
-
-<vco3/expFMGain>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vco3/pw0>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vco3/linFMGain>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vco3/phi0>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vco3/edge>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vco3/semitone>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vco3/waveForm>
-    ingen:value 2.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vco3/pwGain>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vco3/tune>
-    ingen:value 0.009000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vco3/octave>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<vco3/:bypass>
+<notes/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -1234,7 +1234,7 @@ _:b19
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 2 ;
+    pedal:version 3 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -1258,19 +1258,19 @@ _:b19
     ingen:block <Gain2x2> ,
                 <midi_to_cv_mono> ,
                 <vcf> ,
+                <vco3> ,
                 <vcaexp> ,
                 <env> ,
                 <vco3_1> ,
                 <mono> ,
                 <mod_cv_attenuverter> ,
                 <shiroverb> ,
-                <notes> ,
                 <vco3_2> ,
                 <mod_cv_control> ,
                 <mod_cv_attenuverter_1> ,
                 <notes_1> ,
                 <notes_2> ,
-                <vco3> ;
+                <notes> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,

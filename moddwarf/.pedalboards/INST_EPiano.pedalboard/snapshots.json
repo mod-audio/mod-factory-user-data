@@ -1,0 +1,560 @@
+{
+    "snapshots": [
+        {
+            "name": "Mellow",
+            "data": {
+                "EPiano": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#EPiano-mellow",
+                    "parameters": {},
+                    "ports": {
+                        "fine_tuning": 0.0,
+                        "lfo_rate": 2.7836425899853094,
+                        "env_decay": 20.0,
+                        "hardness": -22.0,
+                        "stereo_width": 100.0,
+                        "polyphonic": 0.5,
+                        "overdrive": 30.0,
+                        "env_release": 1.3999999999999999,
+                        "random_tuning": 9.75,
+                        "treble_boost": -5.0,
+                        "modulation": -25.0,
+                        "vel_sense": 25.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.20339000225067139,
+                        "Mode": 1.0
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tail": 0.41999998688697815,
+                        "bandwidth": 0.89999997615814209,
+                        "damping": 0.17499999701976776,
+                        "blend": 1.0
+                    }
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "mix": 100.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "high_q": 2.1608619689941406,
+                        "low_q": 1.0,
+                        "low_on": 0.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 84.375,
+                        "tap": 0.0,
+                        "div_r": 3.0,
+                        "high_f": 22000.0
+                    }
+                },
+                "Gain2x2_2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.26271200180053711,
+                        "Mode": 1.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "Broken Tuning",
+            "data": {
+                "EPiano": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#EPiano-mellow",
+                    "parameters": {},
+                    "ports": {
+                        "fine_tuning": 0.0,
+                        "lfo_rate": 2.7799999999999998,
+                        "env_decay": 20.250694625849871,
+                        "hardness": -22.0,
+                        "stereo_width": 100.0,
+                        "polyphonic": 0.5,
+                        "overdrive": 30.0,
+                        "env_release": 1.3999999761581421,
+                        "random_tuning": 50.0,
+                        "treble_boost": -5.0,
+                        "modulation": -25.0,
+                        "vel_sense": 25.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.20339000225067139,
+                        "Mode": 1.0
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tail": 0.41999998688697815,
+                        "bandwidth": 0.89999997615814209,
+                        "damping": 0.17499999701976776,
+                        "blend": 1.0
+                    }
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "mix": 100.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "high_q": 2.1608619689941406,
+                        "low_q": 1.0,
+                        "low_on": 0.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 84.375,
+                        "tap": 0.0,
+                        "div_r": 3.0,
+                        "high_f": 22000.0
+                    }
+                },
+                "Gain2x2_2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.26271200180053711,
+                        "Mode": 1.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "Overdriven",
+            "data": {
+                "EPiano": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#EPiano-mellow",
+                    "parameters": {},
+                    "ports": {
+                        "fine_tuning": 0.0,
+                        "lfo_rate": 2.7799999999999998,
+                        "env_decay": 20.148,
+                        "hardness": 44.0,
+                        "stereo_width": 100.0,
+                        "polyphonic": 0.5,
+                        "overdrive": 90.5,
+                        "env_release": 1.3999999999999999,
+                        "random_tuning": 9.5,
+                        "treble_boost": -15.0,
+                        "modulation": -25.0,
+                        "vel_sense": 25.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.20339000225067139,
+                        "Mode": 1.0
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tail": 0.41999998688697815,
+                        "bandwidth": 0.89999997615814209,
+                        "damping": 0.17499999701976776,
+                        "blend": 1.0
+                    }
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "mix": 100.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "high_q": 2.1608619689941406,
+                        "low_q": 1.0,
+                        "low_on": 0.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 84.375,
+                        "tap": 0.0,
+                        "div_r": 3.0,
+                        "high_f": 22000.0
+                    }
+                },
+                "Gain2x2_2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.26271200180053711,
+                        "Mode": 1.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "Fast Dub",
+            "data": {
+                "EPiano": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#EPiano-mellow",
+                    "parameters": {},
+                    "ports": {
+                        "fine_tuning": 0.0,
+                        "lfo_rate": 2.7799999999999998,
+                        "env_decay": 3.0,
+                        "hardness": -14.5,
+                        "stereo_width": 100.0,
+                        "polyphonic": 0.5,
+                        "overdrive": 60.5,
+                        "env_release": 0.29885671361355931,
+                        "random_tuning": 9.5,
+                        "treble_boost": -25.0,
+                        "modulation": -25.0,
+                        "vel_sense": 25.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.25,
+                        "Mode": 1.0
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tail": 0.41999998688697815,
+                        "bandwidth": 0.89999997615814209,
+                        "damping": 0.17499999701976776,
+                        "blend": 1.0
+                    }
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "mix": 100.0,
+                        "div_l": 4.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "high_q": 2.1608619689941406,
+                        "low_q": 1.0,
+                        "low_on": 0.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 90.0,
+                        "tap": 0.0,
+                        "div_r": 4.0,
+                        "high_f": 22000.0
+                    }
+                },
+                "Gain2x2_2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.66000000000000003,
+                        "Mode": 1.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "Slow Dub",
+            "data": {
+                "EPiano": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#EPiano-mellow",
+                    "parameters": {},
+                    "ports": {
+                        "fine_tuning": 0.0,
+                        "lfo_rate": 2.7799999999999998,
+                        "env_decay": 3.0,
+                        "hardness": -14.5,
+                        "stereo_width": 100.0,
+                        "polyphonic": 0.5,
+                        "overdrive": 60.5,
+                        "env_release": 0.29999999999999999,
+                        "random_tuning": 9.5,
+                        "treble_boost": -25.0,
+                        "modulation": -25.0,
+                        "vel_sense": 25.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.25,
+                        "Mode": 1.0
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tail": 0.41999998688697815,
+                        "bandwidth": 0.89999997615814209,
+                        "damping": 0.17499999701976776,
+                        "blend": 1.0
+                    }
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "mix": 100.0,
+                        "div_l": 1.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "high_q": 2.1608619689941406,
+                        "low_q": 1.0,
+                        "low_on": 0.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 90.0,
+                        "tap": 0.0,
+                        "div_r": 1.0,
+                        "high_f": 22000.0
+                    }
+                },
+                "Gain2x2_2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.66000000000000003,
+                        "Mode": 1.0
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

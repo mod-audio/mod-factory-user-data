@@ -10,7 +10,7 @@
 	a pset:Preset ;
 	lv2:appliesTo <http://open-music-kontrollers.ch/lv2/notes#notes> ;
 	state:state [
-		<http://open-music-kontrollers.ch/lv2/notes#text> """-Control to CV has the toggle adressed to Foot B on the MOD Dwarf as a momentary toggle
+		<http://open-music-kontrollers.ch/lv2/notes#text> """-Control to CV has the toggle adressed to Foot C on the MOD Dwarf as a momentary toggle
 -It triggers the envelope, which controls multiple parameters in the FX chain""" ;
 		<http://open-music-kontrollers.ch/lv2/notes#fontHeight> "25"^^xsd:int
 	] .

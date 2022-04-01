@@ -1,0 +1,1270 @@
+{
+    "snapshots": [
+        {
+            "name": "Chiff Organ",
+            "data": {
+                "DX10": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#DX10-chiff-organ",
+                    "parameters": {},
+                    "ports": {
+                        "attack": 209.12800598144531,
+                        "waveform": 28.299999237060547,
+                        "mod_thru": 82.199996948242188,
+                        "octave": 0.0,
+                        "coarse": 4.0,
+                        "mod_dec": 138.84700012207031,
+                        "release": 345.54998779296875,
+                        "mod_rel": 318.91000366210938,
+                        "mod_sus": 5.0,
+                        "fine": 0.2122499942779541,
+                        "lfo_rate": 12.5,
+                        "decay": 6973.31005859375,
+                        "mod_init": 57.0,
+                        "vibrato": 13.800000190734863,
+                        "mod_vel": 50.0,
+                        "finetune": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.40000000596046448,
+                        "Mode": 1.0
+                    }
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tail": 0.41999998688697815,
+                        "bandwidth": 0.89999997615814209,
+                        "damping": 0.17499999701976776,
+                        "blend": 1.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.20000000298023224,
+                        "Mode": 1.0
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "mix": 100.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "high_q": 2.1608619689941406,
+                        "low_q": 1.0,
+                        "low_on": 0.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 84.375,
+                        "tap": 0.0,
+                        "div_r": 3.0,
+                        "high_f": 22000.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "Gain2x2_2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "E.Bass",
+            "data": {
+                "DX10": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#DX10-e-bass",
+                    "parameters": {},
+                    "ports": {
+                        "attack": 13.642299652099609,
+                        "waveform": 17.799999237060547,
+                        "mod_thru": 82.199996948242188,
+                        "octave": -1.7999999523162842,
+                        "coarse": 6.0,
+                        "mod_dec": 32.370998382568359,
+                        "release": 76.77459716796875,
+                        "mod_rel": 154.91299438476562,
+                        "mod_sus": 25.0,
+                        "fine": 0.0010000000474974513,
+                        "lfo_rate": 12.5,
+                        "decay": 2567.85009765625,
+                        "mod_init": 38.799999237060547,
+                        "vibrato": 20.0,
+                        "mod_vel": 50.0,
+                        "finetune": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.40000000596046448,
+                        "Mode": 1.0
+                    }
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tail": 0.41999998688697815,
+                        "bandwidth": 0.89999997615814209,
+                        "damping": 0.17499999701976776,
+                        "blend": 1.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.20000000298023224,
+                        "Mode": 1.0
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "mix": 100.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "high_q": 2.1608619689941406,
+                        "low_q": 1.0,
+                        "low_on": 0.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 84.375,
+                        "tap": 0.0,
+                        "div_r": 3.0,
+                        "high_f": 22000.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "Gain2x2_2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "EPiano Pad",
+            "data": {
+                "DX10": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#DX10-e-piano-pad",
+                    "parameters": {},
+                    "ports": {
+                        "attack": 2.5,
+                        "waveform": 42.799999237060547,
+                        "mod_thru": 83.599998474121094,
+                        "octave": 0.0,
+                        "coarse": 2.0,
+                        "mod_dec": 469.40301513671875,
+                        "release": 345.54998779296875,
+                        "mod_rel": 6485.06982421875,
+                        "mod_sus": 22.399999618530273,
+                        "fine": 0.1379999965429306,
+                        "lfo_rate": 12.5,
+                        "decay": 6241.990234375,
+                        "mod_init": 27.0,
+                        "vibrato": 25.0,
+                        "mod_vel": 97.400001525878906,
+                        "finetune": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.40000000596046448,
+                        "Mode": 1.0
+                    }
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tail": 0.41999998688697815,
+                        "bandwidth": 0.89999997615814209,
+                        "damping": 0.17499999701976776,
+                        "blend": 1.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.20000000298023224,
+                        "Mode": 1.0
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "mix": 100.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "high_q": 2.1608619689941406,
+                        "low_q": 1.0,
+                        "low_on": 0.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 84.375,
+                        "tap": 0.0,
+                        "div_r": 3.0,
+                        "high_f": 22000.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "Gain2x2_2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "Messy Clav",
+            "data": {
+                "DX10": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#DX10-funk-clav",
+                    "parameters": {},
+                    "ports": {
+                        "attack": 2.5,
+                        "waveform": 30.299999237060547,
+                        "mod_thru": 86.800003051757812,
+                        "octave": 0.0,
+                        "coarse": 5.0,
+                        "mod_dec": 52.106899261474609,
+                        "release": 76.77459716796875,
+                        "mod_rel": 6485.06982421875,
+                        "mod_sus": 59.200000762939453,
+                        "fine": 0.0010000000474974513,
+                        "lfo_rate": 12.5,
+                        "decay": 1151.18994140625,
+                        "mod_init": 87.5,
+                        "vibrato": 0.0,
+                        "mod_vel": 50.0,
+                        "finetune": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.40000000596046448,
+                        "Mode": 1.0
+                    }
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tail": 0.41999998688697815,
+                        "bandwidth": 0.89999997615814209,
+                        "damping": 0.17499999701976776,
+                        "blend": 1.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.20000000298023224,
+                        "Mode": 1.0
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "mix": 100.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "high_q": 2.1608619689941406,
+                        "low_q": 1.0,
+                        "low_on": 0.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 84.375,
+                        "tap": 0.0,
+                        "div_r": 3.0,
+                        "high_f": 22000.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "Gain2x2_2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "Horn",
+            "data": {
+                "DX10": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#DX10-horn",
+                    "parameters": {},
+                    "ports": {
+                        "attack": 19.728500366210938,
+                        "waveform": 21.700000762939453,
+                        "mod_thru": 48.0,
+                        "octave": -0.60000002384185791,
+                        "coarse": 2.0,
+                        "mod_dec": 279.61801147460938,
+                        "release": 189.31900024414062,
+                        "mod_rel": 6485.06982421875,
+                        "mod_sus": 30.0,
+                        "fine": 0.0010000000474974513,
+                        "lfo_rate": 12.5,
+                        "decay": 6973.31005859375,
+                        "mod_init": 18.0,
+                        "vibrato": 0.0,
+                        "mod_vel": 50.0,
+                        "finetune": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.40000000596046448,
+                        "Mode": 1.0
+                    }
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tail": 0.41999998688697815,
+                        "bandwidth": 0.89999997615814209,
+                        "damping": 0.17499999701976776,
+                        "blend": 1.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.20000000298023224,
+                        "Mode": 1.0
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "mix": 100.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "high_q": 2.1608619689941406,
+                        "low_q": 1.0,
+                        "low_on": 0.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 84.375,
+                        "tap": 0.0,
+                        "div_r": 3.0,
+                        "high_f": 22000.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "Gain2x2_2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "Snappy Piano",
+            "data": {
+                "DX10": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#DX10-jazz-e-piano",
+                    "parameters": {},
+                    "ports": {
+                        "attack": 2.5,
+                        "waveform": 17.799999237060547,
+                        "mod_thru": 0.0,
+                        "octave": 0.0,
+                        "coarse": 18.0,
+                        "mod_dec": 178.64300537109375,
+                        "release": 76.77459716796875,
+                        "mod_rel": 6485.06982421875,
+                        "mod_sus": 24.299999237060547,
+                        "fine": 0.0010000000474974513,
+                        "lfo_rate": 12.5,
+                        "decay": 2567.85009765625,
+                        "mod_init": 44.099998474121094,
+                        "vibrato": 0.0,
+                        "mod_vel": 50.0,
+                        "finetune": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.40000000596046448,
+                        "Mode": 1.0
+                    }
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tail": 0.41999998688697815,
+                        "bandwidth": 0.89999997615814209,
+                        "damping": 0.17499999701976776,
+                        "blend": 1.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.20000000298023224,
+                        "Mode": 1.0
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "mix": 100.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "high_q": 2.1608619689941406,
+                        "low_q": 1.0,
+                        "low_on": 0.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 84.375,
+                        "tap": 0.0,
+                        "div_r": 3.0,
+                        "high_f": 22000.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "Gain2x2_2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "Log Drum",
+            "data": {
+                "DX10": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#DX10-log-drum",
+                    "parameters": {},
+                    "ports": {
+                        "attack": 2.5,
+                        "waveform": 15.100000381469727,
+                        "mod_thru": 2.0,
+                        "octave": -0.60000002384185791,
+                        "coarse": 4.0,
+                        "mod_dec": 29.555099487304688,
+                        "release": 570.5260009765625,
+                        "mod_rel": 2567.85009765625,
+                        "mod_sus": 15.800000190734863,
+                        "fine": 0.0010000000474974513,
+                        "lfo_rate": 12.5,
+                        "decay": 516.08697509765625,
+                        "mod_init": 46.700000762939453,
+                        "vibrato": 0.0,
+                        "mod_vel": 50.0,
+                        "finetune": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.40000000596046448,
+                        "Mode": 1.0
+                    }
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tail": 0.41999998688697815,
+                        "bandwidth": 0.89999997615814209,
+                        "damping": 0.17499999701976776,
+                        "blend": 1.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.20000000298023224,
+                        "Mode": 1.0
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "mix": 100.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "high_q": 2.1608619689941406,
+                        "low_q": 1.0,
+                        "low_on": 0.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 84.375,
+                        "tap": 0.0,
+                        "div_r": 3.0,
+                        "high_f": 22000.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "Gain2x2_2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "Sine Bass",
+            "data": {
+                "DX10": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#DX10-sine-bass",
+                    "parameters": {},
+                    "ports": {
+                        "attack": 2.5,
+                        "waveform": 11.800000190734863,
+                        "mod_thru": 1.2999999523162842,
+                        "octave": -0.60000002384185791,
+                        "coarse": 1.0,
+                        "mod_dec": 279.61801147460938,
+                        "release": 542.6240234375,
+                        "mod_rel": 6737.6201171875,
+                        "mod_sus": 0.0,
+                        "fine": 0.1132500022649765,
+                        "lfo_rate": 12.5,
+                        "decay": 5727.85986328125,
+                        "mod_init": 9.8999996185302734,
+                        "vibrato": 0.0,
+                        "mod_vel": 50.0,
+                        "finetune": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.40000000596046448,
+                        "Mode": 1.0
+                    }
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tail": 0.41999998688697815,
+                        "bandwidth": 0.89999997615814209,
+                        "damping": 0.17499999701976776,
+                        "blend": 1.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.20000000298023224,
+                        "Mode": 1.0
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "mix": 100.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "high_q": 2.1608619689941406,
+                        "low_q": 1.0,
+                        "low_on": 0.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 84.375,
+                        "tap": 0.0,
+                        "div_r": 3.0,
+                        "high_f": 22000.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "Gain2x2_2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "Square Bass",
+            "data": {
+                "DX10": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#DX10-square-bass",
+                    "parameters": {},
+                    "ports": {
+                        "attack": 2.5,
+                        "waveform": 30.299999237060547,
+                        "mod_thru": 73.0,
+                        "octave": -1.7999999523162842,
+                        "coarse": 4.0,
+                        "mod_dec": 1851.1600341796875,
+                        "release": 76.77459716796875,
+                        "mod_rel": 154.91299438476562,
+                        "mod_sus": 10.0,
+                        "fine": 0.0010000000474974513,
+                        "lfo_rate": 12.5,
+                        "decay": 5727.85986328125,
+                        "mod_init": 35.0,
+                        "vibrato": 0.0,
+                        "mod_vel": 50.0,
+                        "finetune": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.40000000596046448,
+                        "Mode": 1.0
+                    }
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tail": 0.41999998688697815,
+                        "bandwidth": 0.89999997615814209,
+                        "damping": 0.17499999701976776,
+                        "blend": 1.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.20000000298023224,
+                        "Mode": 1.0
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "mix": 100.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "high_q": 2.1608619689941406,
+                        "low_q": 1.0,
+                        "low_on": 0.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 84.375,
+                        "tap": 0.0,
+                        "div_r": 3.0,
+                        "high_f": 22000.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "Gain2x2_2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "Thick Bass",
+            "data": {
+                "DX10": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#DX10-thick-bass",
+                    "parameters": {},
+                    "ports": {
+                        "attack": 2.5,
+                        "waveform": 44.099998474121094,
+                        "mod_thru": 30.899999618530273,
+                        "octave": -0.60000002384185791,
+                        "coarse": 1.0,
+                        "mod_dec": 197.03799438476562,
+                        "release": 345.54998779296875,
+                        "mod_rel": 6737.6201171875,
+                        "mod_sus": 10.0,
+                        "fine": 0.10875000059604645,
+                        "lfo_rate": 12.5,
+                        "decay": 5727.85986328125,
+                        "mod_init": 29.0,
+                        "vibrato": 0.0,
+                        "mod_vel": 50.0,
+                        "finetune": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.40000000596046448,
+                        "Mode": 1.0
+                    }
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tail": 0.41999998688697815,
+                        "bandwidth": 0.89999997615814209,
+                        "damping": 0.17499999701976776,
+                        "blend": 1.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.20000000298023224,
+                        "Mode": 1.0
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "mix": 100.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "high_q": 2.1608619689941406,
+                        "low_q": 1.0,
+                        "low_on": 0.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 84.375,
+                        "tap": 0.0,
+                        "div_r": 3.0,
+                        "high_f": 22000.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "Gain2x2_2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "Syn Tom",
+            "data": {
+                "DX10": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#DX10-syn-tom",
+                    "parameters": {},
+                    "ports": {
+                        "attack": 2.5,
+                        "waveform": 100.0,
+                        "mod_thru": 29.600000381469727,
+                        "octave": 0.87000000476837158,
+                        "coarse": 0.0,
+                        "mod_dec": 17.0,
+                        "release": 268.92300415039062,
+                        "mod_rel": 2567.85009765625,
+                        "mod_sus": 20.0,
+                        "fine": 0.078749999403953552,
+                        "lfo_rate": 12.5,
+                        "decay": 802.333984375,
+                        "mod_init": 0.0,
+                        "vibrato": 0.0,
+                        "mod_vel": 50.0,
+                        "finetune": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.40000000596046448,
+                        "Mode": 1.0
+                    }
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tail": 0.41999998688697815,
+                        "bandwidth": 0.89999997615814209,
+                        "damping": 0.17499999701976776,
+                        "blend": 1.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.20000000298023224,
+                        "Mode": 1.0
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "mix": 100.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "high_q": 2.1608619689941406,
+                        "low_q": 1.0,
+                        "low_on": 0.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 84.375,
+                        "tap": 0.0,
+                        "div_r": 3.0,
+                        "high_f": 22000.0
+                    }
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "Gain2x2_2": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

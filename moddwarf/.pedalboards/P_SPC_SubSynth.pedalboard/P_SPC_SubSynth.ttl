@@ -8,20 +8,20 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <xfade/out_right> ;
-    ingen:head <xfade_1/inA_right> .
-
-_:b2
     ingen:tail <Gain2x2/Out2> ;
     ingen:head <xfade_1/inB_right> .
 
+_:b2
+    ingen:tail <SubSynth/right_out> ;
+    ingen:head <Gain2x2/In2> .
+
 _:b3
-    ingen:tail <xfade_1/out_left> ;
-    ingen:head <playback_1> .
+    ingen:tail <xfade_1/out_right> ;
+    ingen:head <playback_2> .
 
 _:b4
     ingen:tail <capture_1> ;
-    ingen:head <xfade/inB_left> .
+    ingen:head <xfade/inA_right> .
 
 _:b5
     ingen:tail <xfade/out_left> ;
@@ -32,36 +32,36 @@ _:b6
     ingen:head <xfade/inB_right> .
 
 _:b7
+    ingen:tail <SubSynth/left_out> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b8
     ingen:tail <capture_1> ;
     ingen:head <xfade/inA_left> .
 
-_:b8
-    ingen:tail <xfade/out_right> ;
-    ingen:head <SubSynth/right_in> .
-
 _:b9
-    ingen:tail <xfade_1/out_right> ;
-    ingen:head <playback_2> .
+    ingen:tail <xfade/out_right> ;
+    ingen:head <xfade_1/inA_right> .
 
 _:b10
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_right> .
-
-_:b11
-    ingen:tail <SubSynth/right_out> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b12
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <xfade_1/inB_left> .
-
-_:b13
     ingen:tail <xfade/out_left> ;
     ingen:head <xfade_1/inA_left> .
 
+_:b11
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inB_left> .
+
+_:b12
+    ingen:tail <xfade_1/out_left> ;
+    ingen:head <playback_1> .
+
+_:b13
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <xfade_1/inB_left> .
+
 _:b14
-    ingen:tail <SubSynth/left_out> ;
-    ingen:head <Gain2x2/In1> .
+    ingen:tail <xfade/out_right> ;
+    ingen:head <SubSynth/right_in> .
 
 <xfade_1>
     ingen:canvasX 3376.0 ;
@@ -147,7 +147,7 @@ _:b14
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2/In1> ,
              <Gain2x2/In2> ,
              <Gain2x2/Out1> ,
@@ -269,7 +269,7 @@ _:b14
     lv2:microVersion 3 ;
     lv2:minorVersion 0 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 12 ;
+    mod:releaseNumber 14 ;
     lv2:port <SubSynth/left_in> ,
              <SubSynth/right_in> ,
              <SubSynth/left_out> ,
@@ -302,13 +302,13 @@ _:b14
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<SubSynth/level>
-    ingen:value 50.000000 ;
+<SubSynth/dry_mix>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<SubSynth/release>
-    ingen:value 1.000000 ;
+<SubSynth/level>
+    ingen:value 50.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -317,8 +317,8 @@ _:b14
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<SubSynth/dry_mix>
-    ingen:value 0.000000 ;
+<SubSynth/release>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -450,7 +450,7 @@ _:b14
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 22 ;
+    pedal:version 23 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,

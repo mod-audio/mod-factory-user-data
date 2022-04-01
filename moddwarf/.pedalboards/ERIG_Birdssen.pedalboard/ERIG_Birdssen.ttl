@@ -8,172 +8,172 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <Gain2x2_3/Out2> ;
-    ingen:head <filta/in_right> .
+    ingen:tail <xfade_1/out_left> ;
+    ingen:head <mod_volume_2x2_1/AudioIn1> .
 
 _:b2
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inB_left> .
-
-_:b3
-    ingen:tail <filta/out_left> ;
-    ingen:head <stereo_1/inL> .
-
-_:b4
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <Gain2x2_2/In2> .
-
-_:b5
-    ingen:tail <bolliedelay/out_r> ;
-    ingen:head <Gain2x2_1/In2> .
-
-_:b6
-    ingen:tail <bolliedelay/out_l> ;
-    ingen:head <Gain2x2_1/In1> .
-
-_:b7
-    ingen:tail <Gain2x2_1/Out1> ;
-    ingen:head <Gain2x2_2/In1> .
-
-_:b8
-    ingen:tail <_bajatubedriver_/out> ;
-    ingen:head <Gain2x2_2/In1> .
-
-_:b9
-    ingen:tail <_bajatubedriver__1/out> ;
-    ingen:head <Gain2x2_2/In2> .
-
-_:b10
     ingen:tail <Gain2x2_1/Out2> ;
     ingen:head <Gain2x2_2/In2> .
 
-_:b11
-    ingen:tail <stereo_1/outL> ;
-    ingen:head <_bajatubedriver_/in> .
-
-_:b12
-    ingen:tail <stereo_8/outL> ;
-    ingen:head <playback_1> .
-
-_:b13
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_right> .
-
-_:b14
-    ingen:tail <stereo_1/outR> ;
-    ingen:head <_bajatubedriver__1/in> .
-
-_:b15
-    ingen:tail <PlateX2/outl> ;
-    ingen:head <Gain2x2/In1> .
-
-_:b16
-    ingen:tail <xfade/out_left> ;
-    ingen:head <RePsycho/left_in> .
-
-_:b17
-    ingen:tail <mod_volume_2x2/AudioOut2> ;
-    ingen:head <bolliedelay/in_r> .
-
-_:b18
-    ingen:tail <mod_volume_2x2/AudioOut1> ;
-    ingen:head <bolliedelay/in_l> .
-
-_:b19
-    ingen:tail <PlateX2/outr> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b20
-    ingen:tail <Gain2x2/Out1> ;
+_:b3
+    ingen:tail <_bajatubedriver_/out> ;
     ingen:head <Gain2x2_2/In1> .
 
-_:b21
-    ingen:tail <Gain2x2_2/Out1> ;
-    ingen:head <powercut/INPUT> .
+_:b4
+    ingen:tail <_bajatubedriver__1/out> ;
+    ingen:head <Gain2x2_2/In2> .
 
-_:b22
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_left> .
+_:b5
+    ingen:tail <Gain2x2_1/Out1> ;
+    ingen:head <Gain2x2_2/In1> .
 
-_:b23
-    ingen:tail <Gain2x2_3/Out1> ;
-    ingen:head <filta/in_left> .
-
-_:b24
-    ingen:tail <RePsycho/left_out> ;
-    ingen:head <Gain2x2_3/In1> .
-
-_:b25
-    ingen:tail <RePsycho/right_out> ;
-    ingen:head <Gain2x2_3/In2> .
-
-_:b26
-    ingen:tail <powercut/OUTPUT> ;
-    ingen:head <stereo_7/inL> .
-
-_:b27
-    ingen:tail <Gain2x2_2/Out2> ;
-    ingen:head <powercut_1/INPUT> .
-
-_:b28
-    ingen:tail <mod_volume_2x2_1/AudioOut1> ;
-    ingen:head <PlateX2/inl> .
-
-_:b29
-    ingen:tail <capture_2> ;
-    ingen:head <xfade/inB_right> .
-
-_:b30
-    ingen:tail <xfade/out_right> ;
-    ingen:head <RePsycho/right_in> .
-
-_:b31
-    ingen:tail <stereo_8/outR> ;
-    ingen:head <playback_2> .
-
-_:b32
-    ingen:tail <powercut_1/OUTPUT> ;
-    ingen:head <stereo_7/inR> .
-
-_:b33
-    ingen:tail <filta/out_right> ;
-    ingen:head <stereo_1/inR> .
-
-_:b34
-    ingen:tail <stereo_7/outR> ;
-    ingen:head <stereo_8/inR> .
-
-_:b35
-    ingen:tail <mod_volume_2x2_1/AudioOut2> ;
-    ingen:head <PlateX2/inr> .
-
-_:b36
-    ingen:tail <stereo_7/outL> ;
-    ingen:head <stereo_8/inL> .
-
-_:b37
-    ingen:tail <stereo_1/outR> ;
-    ingen:head <xfade_1/inA_right> .
-
-_:b38
-    ingen:tail <stereo_1/outL> ;
-    ingen:head <xfade_1/inA_left> .
-
-_:b39
+_:b6
     ingen:tail <xfade_1/out_left> ;
     ingen:head <mod_volume_2x2/AudioIn1> .
 
-_:b40
+_:b7
+    ingen:tail <xfade/out_right> ;
+    ingen:head <RePsycho/right_in> .
+
+_:b8
+    ingen:tail <powercut_1/OUTPUT> ;
+    ingen:head <stereo_7/inR> .
+
+_:b9
+    ingen:tail <stereo_8/outR> ;
+    ingen:head <playback_2> .
+
+_:b10
+    ingen:tail <stereo_7/outL> ;
+    ingen:head <stereo_8/inL> .
+
+_:b11
+    ingen:tail <filta/out_right> ;
+    ingen:head <stereo_1/inR> .
+
+_:b12
+    ingen:tail <mod_volume_2x2_1/AudioOut2> ;
+    ingen:head <PlateX2/inr> .
+
+_:b13
+    ingen:tail <stereo_7/outR> ;
+    ingen:head <stereo_8/inR> .
+
+_:b14
+    ingen:tail <capture_2> ;
+    ingen:head <xfade/inB_right> .
+
+_:b15
+    ingen:tail <filta/out_left> ;
+    ingen:head <stereo_1/inL> .
+
+_:b16
+    ingen:tail <RePsycho/left_out> ;
+    ingen:head <Gain2x2_3/In1> .
+
+_:b17
+    ingen:tail <Gain2x2_3/Out1> ;
+    ingen:head <filta/in_left> .
+
+_:b18
+    ingen:tail <mod_volume_2x2_1/AudioOut1> ;
+    ingen:head <PlateX2/inl> .
+
+_:b19
+    ingen:tail <RePsycho/right_out> ;
+    ingen:head <Gain2x2_3/In2> .
+
+_:b20
+    ingen:tail <stereo_1/outL> ;
+    ingen:head <_bajatubedriver_/in> .
+
+_:b21
+    ingen:tail <Gain2x2_2/Out2> ;
+    ingen:head <powercut_1/INPUT> .
+
+_:b22
+    ingen:tail <powercut/OUTPUT> ;
+    ingen:head <stereo_7/inL> .
+
+_:b23
+    ingen:tail <PlateX2/outl> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b24
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_left> .
+
+_:b25
+    ingen:tail <mod_volume_2x2/AudioOut2> ;
+    ingen:head <bolliedelay/in_r> .
+
+_:b26
+    ingen:tail <xfade/out_left> ;
+    ingen:head <RePsycho/left_in> .
+
+_:b27
+    ingen:tail <Gain2x2_2/Out1> ;
+    ingen:head <powercut/INPUT> .
+
+_:b28
+    ingen:tail <mod_volume_2x2/AudioOut1> ;
+    ingen:head <bolliedelay/in_l> .
+
+_:b29
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <Gain2x2_2/In1> .
+
+_:b30
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inB_left> .
+
+_:b31
+    ingen:tail <PlateX2/outr> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b32
+    ingen:tail <stereo_8/outL> ;
+    ingen:head <playback_1> .
+
+_:b33
+    ingen:tail <stereo_1/outL> ;
+    ingen:head <xfade_1/inA_left> .
+
+_:b34
+    ingen:tail <Gain2x2_3/Out2> ;
+    ingen:head <filta/in_right> .
+
+_:b35
+    ingen:tail <bolliedelay/out_l> ;
+    ingen:head <Gain2x2_1/In1> .
+
+_:b36
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <Gain2x2_2/In2> .
+
+_:b37
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_right> .
+
+_:b38
     ingen:tail <xfade_1/out_right> ;
     ingen:head <mod_volume_2x2/AudioIn2> .
 
-_:b41
+_:b39
+    ingen:tail <stereo_1/outR> ;
+    ingen:head <_bajatubedriver__1/in> .
+
+_:b40
     ingen:tail <xfade_1/out_right> ;
     ingen:head <mod_volume_2x2_1/AudioIn2> .
 
+_:b41
+    ingen:tail <stereo_1/outR> ;
+    ingen:head <xfade_1/inA_right> .
+
 _:b42
-    ingen:tail <xfade_1/out_left> ;
-    ingen:head <mod_volume_2x2_1/AudioIn1> .
+    ingen:tail <bolliedelay/out_r> ;
+    ingen:head <Gain2x2_1/In2> .
 
 <stereo_8>
     ingen:canvasX 5527.0 ;
@@ -224,18 +224,13 @@ _:b42
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<stereo_8/gain>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <stereo_8/noClip>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo_8/ratio>
-    ingen:value 9.000000 ;
+<stereo_8/attack>
+    ingen:value 0.000010 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -249,18 +244,23 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo_8/threshold>
-    ingen:value -6.000000 ;
+<stereo_8/gain>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo_8/attack>
-    ingen:value 0.000010 ;
+<stereo_8/ratio>
+    ingen:value 9.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <stereo_8/release>
     ingen:value 0.083141 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo_8/threshold>
+    ingen:value -6.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -349,13 +349,13 @@ _:b42
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade/xfade>
-    ingen:value 1.000000 ;
+<xfade/shape>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade/shape>
-    ingen:value 0.000000 ;
+<xfade/xfade>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -420,43 +420,18 @@ _:b42
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<bolliedelay/mix>
-    ingen:value 100.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/feedback>
-    ingen:value 75.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/low_on>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/low_f>
-    ingen:value 20.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/tempo_mode>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/high_f>
-    ingen:value 22000.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/low_q>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <bolliedelay/tempo_host>
     ingen:value 120.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/tempo_user>
+    ingen:value 120.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/mix>
+    ingen:value 100.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -465,8 +440,43 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<bolliedelay/tempo_user>
-    ingen:value 120.000000 ;
+<bolliedelay/low_f>
+    ingen:value 20.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/high_on>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/crossf>
+    ingen:value 45.312500 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/high_q>
+    ingen:value 5.879850 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/low_q>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/low_on>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/tempo_mode>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/feedback>
+    ingen:value 75.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -480,18 +490,8 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<bolliedelay/crossf>
-    ingen:value 45.312500 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/high_on>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/high_q>
-    ingen:value 5.879850 ;
+<bolliedelay/high_f>
+    ingen:value 22000.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -512,7 +512,7 @@ _:b42
     lv2:microVersion 0 ;
     lv2:minorVersion 2 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 6 ;
+    mod:releaseNumber 8 ;
     lv2:port <filta/in_left> ,
              <filta/in_right> ,
              <filta/out_left> ,
@@ -594,7 +594,7 @@ _:b42
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<mod_volume_2x2/Mode>
+<mod_volume_2x2/PluginEnabled>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -604,7 +604,7 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_volume_2x2/PluginEnabled>
+<mod_volume_2x2/Mode>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -652,7 +652,7 @@ _:b42
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<mod_volume_2x2_1/Mode>
+<mod_volume_2x2_1/PluginEnabled>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -662,7 +662,7 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_volume_2x2_1/PluginEnabled>
+<mod_volume_2x2_1/Mode>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -721,18 +721,13 @@ _:b42
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<stereo_1/gain>
-    ingen:value 5.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <stereo_1/noClip>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo_1/ratio>
-    ingen:value 4.000000 ;
+<stereo_1/attack>
+    ingen:value 0.000235 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -746,18 +741,23 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo_1/threshold>
-    ingen:value -12.000000 ;
+<stereo_1/gain>
+    ingen:value 5.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo_1/attack>
-    ingen:value 0.000235 ;
+<stereo_1/ratio>
+    ingen:value 4.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <stereo_1/release>
     ingen:value 0.050000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo_1/threshold>
+    ingen:value -12.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -946,7 +946,7 @@ _:b42
     lv2:microVersion 1 ;
     lv2:minorVersion 0 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 12 ;
+    mod:releaseNumber 14 ;
     lv2:port <RePsycho/left_in> ,
              <RePsycho/right_in> ,
              <RePsycho/left_out> ,
@@ -980,13 +980,13 @@ _:b42
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<RePsycho/hold>
-    ingen:value 168.750000 ;
+<RePsycho/mix>
+    ingen:value 100.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<RePsycho/tune>
-    ingen:value -12.000000 ;
+<RePsycho/decay>
+    ingen:value -5.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -995,8 +995,8 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<RePsycho/mix>
-    ingen:value 100.000000 ;
+<RePsycho/hold>
+    ingen:value 168.750000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1005,8 +1005,8 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<RePsycho/decay>
-    ingen:value -5.000000 ;
+<RePsycho/tune>
+    ingen:value -12.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1053,13 +1053,13 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<powercut/PULL_THE_PLUG>
-    ingen:value 0.000000 ;
+<powercut/DTIME>
+    ingen:value 3.657143 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<powercut/DTIME>
-    ingen:value 3.657143 ;
+<powercut/PULL_THE_PLUG>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1101,13 +1101,13 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<powercut_1/PULL_THE_PLUG>
-    ingen:value 0.000000 ;
+<powercut_1/DTIME>
+    ingen:value 3.657143 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<powercut_1/DTIME>
-    ingen:value 3.657143 ;
+<powercut_1/PULL_THE_PLUG>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1155,6 +1155,11 @@ _:b42
     a lv2:AudioPort ,
         lv2:OutputPort .
 
+<PlateX2/tail>
+    ingen:value 0.435000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <PlateX2/bandwidth>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
@@ -1162,11 +1167,6 @@ _:b42
 
 <PlateX2/damping>
     ingen:value 0.400000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<PlateX2/tail>
-    ingen:value 0.435000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1209,13 +1209,13 @@ _:b42
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_bajatubedriver_/BYPASS>
-    ingen:value 0.000000 ;
+<_bajatubedriver_/VOLUME>
+    ingen:value 0.505000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_bajatubedriver_/TONE>
-    ingen:value 0.210000 ;
+<_bajatubedriver_/BYPASS>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1224,8 +1224,8 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_bajatubedriver_/VOLUME>
-    ingen:value 0.505000 ;
+<_bajatubedriver_/TONE>
+    ingen:value 0.210000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1263,13 +1263,13 @@ _:b42
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_bajatubedriver__1/BYPASS>
-    ingen:value 0.000000 ;
+<_bajatubedriver__1/VOLUME>
+    ingen:value 0.505000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_bajatubedriver__1/TONE>
-    ingen:value 0.210000 ;
+<_bajatubedriver__1/BYPASS>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1278,8 +1278,8 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_bajatubedriver__1/VOLUME>
-    ingen:value 0.505000 ;
+<_bajatubedriver__1/TONE>
+    ingen:value 0.210000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1394,46 +1394,6 @@ _:b42
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<stereo_7/HPQ>
-    ingen:value 0.700000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo_7/sec4>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo_7/LSsec>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo_7/HSgain>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo_7/enable>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo_7/HSfreq>
-    ingen:value 8000.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo_7/LSgain>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo_7/LPQ>
-    ingen:value 0.854687 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <stereo_7/sec2>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
@@ -1449,23 +1409,18 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo_7/peakreset>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo_7/LowPass>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo_7/gain>
+<stereo_7/sec4>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo_7/LPfreq>
-    ingen:value 20000.000000 ;
+<stereo_7/HSgain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo_7/LSgain>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1484,6 +1439,26 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<stereo_7/q4>
+    ingen:value 0.600000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo_7/LPfreq>
+    ingen:value 20000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo_7/freq4>
+    ingen:value 2500.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo_7/freq1>
+    ingen:value 160.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <stereo_7/freq2>
     ingen:value 397.000000 ;
     a lv2:ControlPort ,
@@ -1494,23 +1469,13 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo_7/HSsec>
+<stereo_7/LSsec>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo_7/freq1>
-    ingen:value 160.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo_7/freq4>
-    ingen:value 2500.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo_7/q4>
-    ingen:value 0.600000 ;
+<stereo_7/HSfreq>
+    ingen:value 8000.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1519,8 +1484,13 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo_7/HighPass>
+<stereo_7/LowPass>
     ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo_7/gain>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1529,8 +1499,33 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo_7/LSfreq>
-    ingen:value 80.000000 ;
+<stereo_7/HSsec>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo_7/enable>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo_7/gain4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo_7/HPfreq>
+    ingen:value 34.534000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo_7/gain1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo_7/peakreset>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1544,18 +1539,23 @@ _:b42
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo_7/gain1>
-    ingen:value 0.000000 ;
+<stereo_7/LSfreq>
+    ingen:value 80.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo_7/HPfreq>
-    ingen:value 34.534000 ;
+<stereo_7/HPQ>
+    ingen:value 0.700000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo_7/gain4>
-    ingen:value 0.000000 ;
+<stereo_7/HighPass>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo_7/LPQ>
+    ingen:value 0.854687 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1576,7 +1576,7 @@ _:b42
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2/In1> ,
              <Gain2x2/In2> ,
              <Gain2x2/Out1> ,
@@ -1622,7 +1622,7 @@ _:b42
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2_1/In1> ,
              <Gain2x2_1/In2> ,
              <Gain2x2_1/Out1> ,
@@ -1668,7 +1668,7 @@ _:b42
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2_2/In1> ,
              <Gain2x2_2/In2> ,
              <Gain2x2_2/Out1> ,
@@ -1714,7 +1714,7 @@ _:b42
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2_3/In1> ,
              <Gain2x2_3/In2> ,
              <Gain2x2_3/Out1> ,
@@ -1808,13 +1808,13 @@ _:b42
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade_1/xfade>
-    ingen:value 1.000000 ;
+<xfade_1/shape>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade_1/shape>
-    ingen:value 0.000000 ;
+<xfade_1/xfade>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1926,6 +1926,12 @@ _:b42
     a atom:AtomPort ,
         lv2:InputPort .
 
+<midi_loopback>
+    ingen:value 0 ;
+    lv2:index 12 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
 <>
     doap:name "ERIG:Birdssen" ;
     pedal:unitName "MOD Dwarf" ;
@@ -1935,7 +1941,7 @@ _:b42
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 27 ;
+    pedal:version 28 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -2007,6 +2013,7 @@ _:b42
              <:bpm> ,
              <:rolling> ,
              <midi_separated_mode> ,
+             <midi_loopback> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

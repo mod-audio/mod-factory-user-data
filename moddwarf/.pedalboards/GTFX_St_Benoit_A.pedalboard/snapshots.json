@@ -1,608 +1,608 @@
 {
     "snapshots": [
         {
+            "name": "Long -5th",
             "data": {
-                "SubSynth": {
+                "autopan": {
+                    "bypassed": false,
                     "ports": {
-                        "level": 50.0,
-                        "type": 0.75,
-                        "dry_mix": 100.0,
-                        "tune": 192.7919921875,
-                        "thresh": -60.0,
-                        "release": 772.75
+                        "Gain": 0.41294598579406738,
+                        "Depth": 81.361610412597656,
+                        "Frequency": 2.2000000476837158
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
+                    "preset": ""
+                },
+                "DubDelay": {
+                    "bypassed": false,
+                    "ports": {
+                        "feedback": -18.700000762939453,
+                        "fx_mix": 36.495536804199219,
+                        "fb_tone": -22.0,
+                        "output": 0.0,
+                        "delay": 1065.1030100347086,
+                        "lfo_depth": 20.3125,
+                        "lfo_rate": 0.47828124978695996
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "xfade": {
+                    "bypassed": false,
+                    "ports": {
+                        "xfade": 0.0,
+                        "shape": 0.70535701513290405,
+                        "mode": 1.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "EnvelopeFilter": {
+                    "bypassed": false,
+                    "ports": {
+                        "mix": 0.85000002384185791,
+                        "res": 2.0,
+                        "level_out": 1.0,
+                        "sidechain": 0.0,
+                        "attack": 2.2202808856964111,
+                        "bypass": 0.0,
+                        "gain": 26.58056640625,
+                        "release": 200.0,
+                        "upper": 3000.0,
+                        "mode": 7.0,
+                        "level_in": 2.9797360897064209,
+                        "response": 0.39955401420593262,
+                        "lower": 80.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "doubler": {
+                    "bypassed": false,
+                    "ports": {
+                        "WetLeftPosition": 0.7421879768371582,
+                        "DryLeftPosition": 0.31696400046348572,
+                        "PitchTracking": 0.6484379768371582,
+                        "WetLevelDb": 2.6897320747375488,
+                        "TimeTracking": 0.5,
+                        "WetRightPosition": 0.81919598579406738,
+                        "DryLevelDb": -4.4308037757873535,
+                        "DryRightPosition": 0.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "xfade_2": {
+                    "bypassed": true,
+                    "ports": {
+                        "xfade": 1.0,
+                        "shape": 0.0,
+                        "mode": 0.0
+                    },
+                    "parameters": {},
+                    "preset": ""
                 },
                 "Drop": {
+                    "bypassed": false,
                     "ports": {
                         "Gain": 3.0,
                         "Step": -7.0,
                         "Fidelity": 2.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
-                },
-                "doubler": {
-                    "ports": {
-                        "PitchTracking": 0.6484379768371582,
-                        "DryRightPosition": 0.0,
-                        "TimeTracking": 0.5,
-                        "WetLeftPosition": 0.7421879768371582,
-                        "WetRightPosition": 0.81919598579406738,
-                        "DryLevelDb": -4.4308037757873535,
-                        "WetLevelDb": 2.6897320747375488,
-                        "DryLeftPosition": 0.31696400046348572
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "Gain": {
-                    "ports": {
-                        "Gain": -6.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "EnvelopeFilter": {
-                    "ports": {
-                        "level_in": 2.9797360897064209,
-                        "lower": 80.0,
-                        "response": 0.39955401420593262,
-                        "sidechain": 0.0,
-                        "gain": 26.58056640625,
-                        "mix": 0.85000002384185791,
-                        "level_out": 1.0,
-                        "release": 200.0,
-                        "bypass": 0.0,
-                        "res": 2.0,
-                        "upper": 3000.0,
-                        "mode": 7.0,
-                        "attack": 2.2202808856964111
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "xfade_1": {
-                    "ports": {
-                        "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 0.62000000476837158
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
                 "Gain2x2": {
+                    "bypassed": false,
                     "ports": {
                         "Gain": -3.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
-                "xfade_2": {
+                "xfade_1": {
+                    "bypassed": false,
                     "ports": {
+                        "xfade": 0.62000000476837158,
                         "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 1.0
+                        "mode": 0.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": true
+                    "preset": ""
+                },
+                "SubSynth": {
+                    "bypassed": false,
+                    "ports": {
+                        "tune": 160.0,
+                        "dry_mix": 100.0,
+                        "thresh": -60.0,
+                        "level": 50.0,
+                        "release": 772.75,
+                        "type": 0.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "reflector": {
+                    "bypassed": false,
+                    "ports": {
+                        "fragment": 1075.0,
+                        "dry": -60.0,
+                        "wet": 0.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "Short -Oct",
+            "data": {
+                "autopan": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.41294598579406738,
+                        "Depth": 81.361610412597656,
+                        "Frequency": 2.2000000476837158
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "DubDelay": {
+                    "bypassed": false,
+                    "ports": {
+                        "feedback": -18.700000762939453,
+                        "fx_mix": 36.495536804199219,
+                        "fb_tone": -22.0,
+                        "output": 0.0,
+                        "delay": 103.52200000000001,
+                        "lfo_depth": 20.3125,
+                        "lfo_rate": 0.5
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "xfade": {
+                    "bypassed": false,
+                    "ports": {
+                        "xfade": 0.0,
+                        "shape": 0.70535701513290405,
+                        "mode": 1.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "EnvelopeFilter": {
+                    "bypassed": false,
+                    "ports": {
+                        "mix": 0.85000002384185791,
+                        "res": 2.0,
+                        "level_out": 1.0,
+                        "sidechain": 0.0,
+                        "attack": 2.2202808856964111,
+                        "bypass": 0.0,
+                        "gain": 26.58056640625,
+                        "release": 200.0,
+                        "upper": 3000.0,
+                        "mode": 7.0,
+                        "level_in": 2.9797360897064209,
+                        "response": 0.39955401420593262,
+                        "lower": 80.0
+                    },
+                    "parameters": {},
+                    "preset": ""
                 },
                 "Gain2x2_1": {
+                    "bypassed": false,
                     "ports": {
                         "Gain": 0.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
-                "autopan": {
+                "doubler": {
+                    "bypassed": false,
                     "ports": {
-                        "Gain": 0.41294598579406738,
-                        "Frequency": 2.2000000476837158,
-                        "Depth": 81.361610412597656
+                        "WetLeftPosition": 0.7421879768371582,
+                        "DryLeftPosition": 0.31696400046348572,
+                        "PitchTracking": 0.6484379768371582,
+                        "WetLevelDb": 2.6897320747375488,
+                        "TimeTracking": 0.5,
+                        "WetRightPosition": 0.81919598579406738,
+                        "DryLevelDb": -4.4308037757873535,
+                        "DryRightPosition": 0.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
-                "DubDelay": {
+                "Gain": {
+                    "bypassed": false,
                     "ports": {
-                        "lfo_depth": 20.3125,
-                        "fx_mix": 36.495536804199219,
-                        "lfo_rate": 21.730133056640625,
-                        "fb_tone": -22.0,
-                        "feedback": -18.700000762939453,
-                        "delay": 1982.0699462890625,
-                        "output": 0.0
+                        "Gain": -6.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
-                "xfade": {
+                "xfade_2": {
+                    "bypassed": true,
                     "ports": {
-                        "shape": 0.70535701513290405,
-                        "mode": 1.0,
-                        "xfade": 0.0
+                        "xfade": 1.0,
+                        "shape": 0.0,
+                        "mode": 0.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
-                },
-                "reflector": {
-                    "ports": {
-                        "dry": -60.0,
-                        "wet": 0.0,
-                        "fragment": 1075.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                }
-            },
-            "name": "Long -5th"
-        },
-        {
-            "data": {
-                "SubSynth": {
-                    "ports": {
-                        "level": 50.0,
-                        "type": 0.75,
-                        "dry_mix": 100.0,
-                        "tune": 192.7919921875,
-                        "thresh": -60.0,
-                        "release": 772.75
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
                 "Drop": {
+                    "bypassed": false,
                     "ports": {
                         "Gain": 3.0,
                         "Step": -12.0,
                         "Fidelity": 2.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
-                },
-                "doubler": {
-                    "ports": {
-                        "PitchTracking": 0.6484379768371582,
-                        "DryRightPosition": 0.0,
-                        "TimeTracking": 0.5,
-                        "WetLeftPosition": 0.7421879768371582,
-                        "WetRightPosition": 0.81919598579406738,
-                        "DryLevelDb": -4.4308037757873535,
-                        "WetLevelDb": 2.6897320747375488,
-                        "DryLeftPosition": 0.31696400046348572
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "Gain": {
-                    "ports": {
-                        "Gain": -6.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "EnvelopeFilter": {
-                    "ports": {
-                        "level_in": 2.9797360897064209,
-                        "lower": 80.0,
-                        "response": 0.39955401420593262,
-                        "sidechain": 0.0,
-                        "gain": 26.58056640625,
-                        "mix": 0.85000002384185791,
-                        "level_out": 1.0,
-                        "release": 200.0,
-                        "bypass": 0.0,
-                        "res": 2.0,
-                        "upper": 3000.0,
-                        "mode": 7.0,
-                        "attack": 2.2202808856964111
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "xfade_1": {
-                    "ports": {
-                        "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 0.62000000476837158
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
                 "Gain2x2": {
+                    "bypassed": false,
                     "ports": {
                         "Gain": -3.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
-                "xfade_2": {
+                "xfade_1": {
+                    "bypassed": false,
                     "ports": {
+                        "xfade": 0.62000000476837158,
                         "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 1.0
+                        "mode": 0.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": true
+                    "preset": ""
+                },
+                "SubSynth": {
+                    "bypassed": false,
+                    "ports": {
+                        "tune": 160.0,
+                        "dry_mix": 100.0,
+                        "thresh": -60.0,
+                        "level": 50.0,
+                        "release": 772.75,
+                        "type": 0.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "reflector": {
+                    "bypassed": false,
+                    "ports": {
+                        "fragment": 392.5,
+                        "dry": -60.0,
+                        "wet": 0.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "Long -oct",
+            "data": {
+                "autopan": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.41294598579406738,
+                        "Depth": 81.361610412597656,
+                        "Frequency": 2.2000000476837158
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "DubDelay": {
+                    "bypassed": false,
+                    "ports": {
+                        "feedback": -18.700000762939453,
+                        "fx_mix": 36.495536804199219,
+                        "fb_tone": -22.0,
+                        "output": 0.0,
+                        "delay": 1065.1030100347086,
+                        "lfo_depth": 20.3125,
+                        "lfo_rate": 0.5
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "xfade": {
+                    "bypassed": false,
+                    "ports": {
+                        "xfade": 0.0,
+                        "shape": 0.70535701513290405,
+                        "mode": 1.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "EnvelopeFilter": {
+                    "bypassed": false,
+                    "ports": {
+                        "mix": 0.85000002384185791,
+                        "res": 2.0,
+                        "level_out": 1.0,
+                        "sidechain": 0.0,
+                        "attack": 2.2202808856964111,
+                        "bypass": 0.0,
+                        "gain": 26.58056640625,
+                        "release": 200.0,
+                        "upper": 3000.0,
+                        "mode": 7.0,
+                        "level_in": 2.9797360897064209,
+                        "response": 0.39955401420593262,
+                        "lower": 80.0
+                    },
+                    "parameters": {},
+                    "preset": ""
                 },
                 "Gain2x2_1": {
+                    "bypassed": false,
                     "ports": {
                         "Gain": 0.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
-                "autopan": {
+                "doubler": {
+                    "bypassed": false,
                     "ports": {
-                        "Gain": 0.41294598579406738,
-                        "Frequency": 2.2000000476837158,
-                        "Depth": 81.361610412597656
+                        "WetLeftPosition": 0.7421879768371582,
+                        "DryLeftPosition": 0.31696400046348572,
+                        "PitchTracking": 0.6484379768371582,
+                        "WetLevelDb": 2.6897320747375488,
+                        "TimeTracking": 0.5,
+                        "WetRightPosition": 0.81919598579406738,
+                        "DryLevelDb": -4.4308037757873535,
+                        "DryRightPosition": 0.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
-                "DubDelay": {
+                "Gain": {
+                    "bypassed": false,
                     "ports": {
-                        "lfo_depth": 20.3125,
-                        "fx_mix": 36.495536804199219,
-                        "lfo_rate": 21.730133056640625,
-                        "fb_tone": -22.0,
-                        "feedback": -18.700000762939453,
-                        "delay": 367.05000000000001,
-                        "output": 0.0
+                        "Gain": -6.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
-                "xfade": {
+                "xfade_2": {
+                    "bypassed": true,
                     "ports": {
-                        "shape": 0.70535701513290405,
-                        "mode": 1.0,
-                        "xfade": 0.0
+                        "xfade": 1.0,
+                        "shape": 0.0,
+                        "mode": 0.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
-                },
-                "reflector": {
-                    "ports": {
-                        "dry": -60.0,
-                        "wet": 0.0,
-                        "fragment": 392.5
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                }
-            },
-            "name": "Short -Oct"
-        },
-        {
-            "data": {
-                "SubSynth": {
-                    "ports": {
-                        "level": 50.0,
-                        "type": 0.75,
-                        "dry_mix": 100.0,
-                        "tune": 192.7919921875,
-                        "thresh": -60.0,
-                        "release": 772.75
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
                 "Drop": {
+                    "bypassed": false,
                     "ports": {
                         "Gain": 3.0,
                         "Step": -12.0,
                         "Fidelity": 2.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
-                },
-                "doubler": {
-                    "ports": {
-                        "PitchTracking": 0.6484379768371582,
-                        "DryRightPosition": 0.0,
-                        "TimeTracking": 0.5,
-                        "WetLeftPosition": 0.7421879768371582,
-                        "WetRightPosition": 0.81919598579406738,
-                        "DryLevelDb": -4.4308037757873535,
-                        "WetLevelDb": 2.6897320747375488,
-                        "DryLeftPosition": 0.31696400046348572
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "Gain": {
-                    "ports": {
-                        "Gain": -6.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "EnvelopeFilter": {
-                    "ports": {
-                        "level_in": 2.9797360897064209,
-                        "lower": 80.0,
-                        "response": 0.39955401420593262,
-                        "sidechain": 0.0,
-                        "gain": 26.58056640625,
-                        "mix": 0.85000002384185791,
-                        "level_out": 1.0,
-                        "release": 200.0,
-                        "bypass": 0.0,
-                        "res": 2.0,
-                        "upper": 3000.0,
-                        "mode": 7.0,
-                        "attack": 2.2202808856964111
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "xfade_1": {
-                    "ports": {
-                        "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 0.62000000476837158
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
                 "Gain2x2": {
+                    "bypassed": false,
                     "ports": {
                         "Gain": -3.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
-                "xfade_2": {
+                "xfade_1": {
+                    "bypassed": false,
                     "ports": {
+                        "xfade": 0.62000000476837158,
                         "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 1.0
+                        "mode": 0.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": true
+                    "preset": ""
                 },
-                "Gain2x2_1": {
+                "SubSynth": {
+                    "bypassed": false,
                     "ports": {
-                        "Gain": 0.0
+                        "tune": 160.0,
+                        "dry_mix": 100.0,
+                        "thresh": -60.0,
+                        "level": 50.0,
+                        "release": 772.75,
+                        "type": 0.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
-                },
-                "autopan": {
-                    "ports": {
-                        "Gain": 0.41294598579406738,
-                        "Frequency": 2.2000000476837158,
-                        "Depth": 81.361610412597656
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "DubDelay": {
-                    "ports": {
-                        "lfo_depth": 20.3125,
-                        "fx_mix": 36.495536804199219,
-                        "lfo_rate": 21.730133056640625,
-                        "fb_tone": -22.0,
-                        "feedback": -18.700000762939453,
-                        "delay": 1982.0699462890625,
-                        "output": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "xfade": {
-                    "ports": {
-                        "shape": 0.70535701513290405,
-                        "mode": 1.0,
-                        "xfade": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
                 "reflector": {
+                    "bypassed": false,
                     "ports": {
+                        "fragment": 1075.0,
                         "dry": -60.0,
-                        "wet": 0.0,
-                        "fragment": 1075.0
+                        "wet": 0.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 }
-            },
-            "name": "Long -oct"
+            }
         },
         {
+            "name": "ShortFast -5th",
             "data": {
-                "SubSynth": {
-                    "ports": {
-                        "level": 50.0,
-                        "type": 0.75,
-                        "dry_mix": 100.0,
-                        "tune": 192.7919921875,
-                        "thresh": -60.0,
-                        "release": 772.75
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "Drop": {
-                    "ports": {
-                        "Gain": 3.0,
-                        "Step": -7.0,
-                        "Fidelity": 2.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "doubler": {
-                    "ports": {
-                        "PitchTracking": 0.6484379768371582,
-                        "DryRightPosition": 0.0,
-                        "TimeTracking": 0.5,
-                        "WetLeftPosition": 0.7421879768371582,
-                        "WetRightPosition": 0.81919598579406738,
-                        "DryLevelDb": -4.4308037757873535,
-                        "WetLevelDb": 2.6897320747375488,
-                        "DryLeftPosition": 0.31696400046348572
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "Gain": {
-                    "ports": {
-                        "Gain": -6.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "EnvelopeFilter": {
-                    "ports": {
-                        "level_in": 2.9797360897064209,
-                        "lower": 80.0,
-                        "response": 0.39955401420593262,
-                        "sidechain": 0.0,
-                        "gain": 26.58056640625,
-                        "mix": 0.85000002384185791,
-                        "level_out": 1.0,
-                        "release": 200.0,
-                        "bypass": 0.0,
-                        "res": 2.0,
-                        "upper": 3000.0,
-                        "mode": 7.0,
-                        "attack": 2.2202808856964111
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "xfade_1": {
-                    "ports": {
-                        "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 1.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "Gain2x2": {
-                    "ports": {
-                        "Gain": -3.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "xfade_2": {
-                    "ports": {
-                        "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 1.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": true
-                },
-                "Gain2x2_1": {
-                    "ports": {
-                        "Gain": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
                 "autopan": {
+                    "bypassed": false,
                     "ports": {
                         "Gain": 0.41294598579406738,
-                        "Frequency": 17.699999999999999,
-                        "Depth": 100.0
+                        "Depth": 100.0,
+                        "Frequency": 17.699999999999999
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
                 "DubDelay": {
+                    "bypassed": false,
                     "ports": {
-                        "lfo_depth": 20.3125,
-                        "fx_mix": 36.495536804199219,
-                        "lfo_rate": 21.730133056640625,
-                        "fb_tone": -22.0,
                         "feedback": 70.400000000000006,
-                        "delay": 734.10000000000002,
-                        "output": 0.0
+                        "fx_mix": 36.495536804199219,
+                        "fb_tone": -22.0,
+                        "output": 0.0,
+                        "delay": 103.52200000000001,
+                        "lfo_depth": 20.3125,
+                        "lfo_rate": 0.5
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 },
                 "xfade": {
+                    "bypassed": false,
                     "ports": {
+                        "xfade": 0.36495535714285698,
                         "shape": 0.70535701513290405,
-                        "mode": 1.0,
-                        "xfade": 0.36495535714285698
+                        "mode": 1.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
+                    "preset": ""
+                },
+                "EnvelopeFilter": {
+                    "bypassed": false,
+                    "ports": {
+                        "mix": 0.85000002384185791,
+                        "res": 2.0,
+                        "level_out": 1.0,
+                        "sidechain": 0.0,
+                        "attack": 2.2202808856964111,
+                        "bypass": 0.0,
+                        "gain": 26.58056640625,
+                        "release": 200.0,
+                        "upper": 3000.0,
+                        "mode": 7.0,
+                        "level_in": 2.9797360897064209,
+                        "response": 0.39955401420593262,
+                        "lower": 80.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "doubler": {
+                    "bypassed": false,
+                    "ports": {
+                        "WetLeftPosition": 0.7421879768371582,
+                        "DryLeftPosition": 0.31696400046348572,
+                        "PitchTracking": 0.6484379768371582,
+                        "WetLevelDb": 2.6897320747375488,
+                        "TimeTracking": 0.5,
+                        "WetRightPosition": 0.81919598579406738,
+                        "DryLevelDb": -4.4308037757873535,
+                        "DryRightPosition": 0.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "xfade_2": {
+                    "bypassed": true,
+                    "ports": {
+                        "xfade": 1.0,
+                        "shape": 0.0,
+                        "mode": 0.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "Drop": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 3.0,
+                        "Step": -7.0,
+                        "Fidelity": 2.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -3.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "xfade_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "xfade": 1.0,
+                        "shape": 0.0,
+                        "mode": 0.0
+                    },
+                    "parameters": {},
+                    "preset": ""
+                },
+                "SubSynth": {
+                    "bypassed": false,
+                    "ports": {
+                        "tune": 160.0,
+                        "dry_mix": 100.0,
+                        "thresh": -60.0,
+                        "level": 50.0,
+                        "release": 772.75,
+                        "type": 0.0
+                    },
+                    "parameters": {},
+                    "preset": ""
                 },
                 "reflector": {
+                    "bypassed": false,
                     "ports": {
+                        "fragment": 392.5,
                         "dry": -60.0,
-                        "wet": 0.0,
-                        "fragment": 392.5
+                        "wet": 0.0
                     },
-                    "preset": "",
                     "parameters": {},
-                    "bypassed": false
+                    "preset": ""
                 }
-            },
-            "name": "ShortFast -5th"
+            }
         }
     ],
     "current": 0

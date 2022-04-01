@@ -8,108 +8,108 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <mod_audio_to_cv_1/CVout> ;
-    ingen:head <mod_cv_slew_1/CVIn> .
-
-_:b2
-    ingen:tail <mod_cv_attenuverter/CVout1> ;
-    ingen:head <vcf_1/freqPort> .
-
-_:b3
-    ingen:tail <mod_cv_attenuverter_1/CVout1> ;
-    ingen:head <vcf/freqPort> .
-
-_:b4
-    ingen:tail <mod_cv_slew_1/CVout> ;
-    ingen:head <vcf/linFM> .
-
-_:b5
-    ingen:tail <capture_1> ;
-    ingen:head <mod_audio_to_cv_1/AudioIn> .
-
-_:b6
-    ingen:tail <lfo2_freq/output> ;
-    ingen:head <mod_cv_attenuverter/CVin> .
-
-_:b7
-    ingen:tail <capture_2> ;
-    ingen:head <mod_audio_to_cv/AudioIn> .
-
-_:b8
-    ingen:tail <xfade/out_left> ;
-    ingen:head <playback_1> .
-
-_:b9
-    ingen:tail <Gain_1/Out> ;
-    ingen:head <xfade/inB_right> .
-
-_:b10
-    ingen:tail <xfade/out_right> ;
-    ingen:head <playback_2> .
-
-_:b11
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <xfade/inA_right> .
-
-_:b12
-    ingen:tail <Gain_1/Out> ;
-    ingen:head <xfade/inB_left> .
-
-_:b13
-    ingen:tail <vcf/out> ;
-    ingen:head <Gain2x2/In1> .
-
-_:b14
-    ingen:tail <lfo2_freq_1/output> ;
-    ingen:head <mod_cv_attenuverter_1/CVin> .
-
-_:b15
-    ingen:tail <mod_cv_slew/CVout> ;
-    ingen:head <vcf_1/linFM> .
-
-_:b16
-    ingen:tail <mod_audio_to_cv/CVout> ;
-    ingen:head <mod_cv_slew/CVIn> .
-
-_:b17
-    ingen:tail <vcf_1/out> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b18
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <xfade_1/inA_left> .
-
-_:b19
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <Gain/In> .
-
-_:b20
-    ingen:tail <xfade_1/out_left> ;
-    ingen:head <playback_1> .
-
-_:b21
-    ingen:tail <Gain/Out> ;
-    ingen:head <xfade_1/inB_right> .
-
-_:b22
-    ingen:tail <Gain/Out> ;
-    ingen:head <xfade_1/inB_left> .
-
-_:b23
     ingen:tail <Gain2x2/Out2> ;
     ingen:head <Gain_1/In> .
 
-_:b24
+_:b2
     ingen:tail <capture_2> ;
     ingen:head <vcf_1/in> .
 
-_:b25
+_:b3
+    ingen:tail <vcf/out> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b4
+    ingen:tail <lfo2_freq_1/output> ;
+    ingen:head <mod_cv_attenuverter_1/CVin> .
+
+_:b5
+    ingen:tail <Gain_1/Out> ;
+    ingen:head <xfade/inB_right> .
+
+_:b6
+    ingen:tail <Gain_1/Out> ;
+    ingen:head <xfade/inB_left> .
+
+_:b7
+    ingen:tail <capture_1> ;
+    ingen:head <vcf/in> .
+
+_:b8
     ingen:tail <xfade_1/out_right> ;
     ingen:head <playback_2> .
 
-_:b26
+_:b9
+    ingen:tail <mod_cv_slew/CVout> ;
+    ingen:head <vcf_1/linFM> .
+
+_:b10
+    ingen:tail <mod_cv_slew_1/CVout> ;
+    ingen:head <vcf/linFM> .
+
+_:b11
+    ingen:tail <mod_cv_attenuverter_1/CVout1> ;
+    ingen:head <vcf/freqPort> .
+
+_:b12
     ingen:tail <capture_1> ;
-    ingen:head <vcf/in> .
+    ingen:head <mod_audio_to_cv_1/AudioIn> .
+
+_:b13
+    ingen:tail <mod_audio_to_cv/CVout> ;
+    ingen:head <mod_cv_slew/CVIn> .
+
+_:b14
+    ingen:tail <Gain/Out> ;
+    ingen:head <xfade_1/inB_left> .
+
+_:b15
+    ingen:tail <Gain/Out> ;
+    ingen:head <xfade_1/inB_right> .
+
+_:b16
+    ingen:tail <vcf_1/out> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b17
+    ingen:tail <xfade/out_right> ;
+    ingen:head <playback_2> .
+
+_:b18
+    ingen:tail <xfade_1/out_left> ;
+    ingen:head <playback_1> .
+
+_:b19
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <xfade/inA_right> .
+
+_:b20
+    ingen:tail <xfade/out_left> ;
+    ingen:head <playback_1> .
+
+_:b21
+    ingen:tail <mod_audio_to_cv_1/CVout> ;
+    ingen:head <mod_cv_slew_1/CVIn> .
+
+_:b22
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <xfade_1/inA_left> .
+
+_:b23
+    ingen:tail <mod_cv_attenuverter/CVout1> ;
+    ingen:head <vcf_1/freqPort> .
+
+_:b24
+    ingen:tail <lfo2_freq/output> ;
+    ingen:head <mod_cv_attenuverter/CVin> .
+
+_:b25
+    ingen:tail <capture_2> ;
+    ingen:head <mod_audio_to_cv/AudioIn> .
+
+_:b26
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <Gain/In> .
 
 <Gain2x2>
     ingen:canvasX 3086.0 ;
@@ -119,7 +119,7 @@ _:b26
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2/In1> ,
              <Gain2x2/In2> ,
              <Gain2x2/Out1> ,
@@ -214,13 +214,13 @@ _:b26
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vcf/linFMGain>
-    ingen:value 4.000000 ;
+<vcf/resonance>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vcf/resonance>
-    ingen:value 0.500000 ;
+<vcf/linFMGain>
+    ingen:value 4.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -234,13 +234,13 @@ _:b26
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vcf/resonanceGain>
-    ingen:value 0.000000 ;
+<vcf/vcfType>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vcf/vcfType>
-    ingen:value 1.000000 ;
+<vcf/resonanceGain>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -306,13 +306,13 @@ _:b26
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vcf_1/linFMGain>
-    ingen:value 4.000000 ;
+<vcf_1/resonance>
+    ingen:value 0.297000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vcf_1/resonance>
-    ingen:value 0.297000 ;
+<vcf_1/linFMGain>
+    ingen:value 4.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -326,13 +326,13 @@ _:b26
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vcf_1/resonanceGain>
-    ingen:value 0.000000 ;
+<vcf_1/vcfType>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<vcf_1/vcfType>
-    ingen:value 1.000000 ;
+<vcf_1/resonanceGain>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -398,13 +398,13 @@ _:b26
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_audio_to_cv/Level>
-    ingen:value 6.000000 ;
+<mod_audio_to_cv/BYPASS>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_audio_to_cv/BYPASS>
-    ingen:value 1.000000 ;
+<mod_audio_to_cv/Level>
+    ingen:value 6.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -446,13 +446,13 @@ _:b26
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_cv_slew/BYPASS>
-    ingen:value 1.000000 ;
+<mod_cv_slew/FallTime>
+    ingen:value 201.300003 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_cv_slew/FallTime>
-    ingen:value 201.300003 ;
+<mod_cv_slew/BYPASS>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -496,12 +496,12 @@ _:b26
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_cv_attenuverter/Offset>
+<mod_cv_attenuverter/Multiplier>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_cv_attenuverter/Multiplier>
+<mod_cv_attenuverter/Offset>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -554,13 +554,13 @@ _:b26
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_cv_slew_1/BYPASS>
-    ingen:value 1.000000 ;
+<mod_cv_slew_1/FallTime>
+    ingen:value 304.200012 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_cv_slew_1/FallTime>
-    ingen:value 304.200012 ;
+<mod_cv_slew_1/BYPASS>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -626,13 +626,13 @@ _:b26
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_audio_to_cv_1/Level>
-    ingen:value 6.300000 ;
+<mod_audio_to_cv_1/BYPASS>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_audio_to_cv_1/BYPASS>
-    ingen:value 1.000000 ;
+<mod_audio_to_cv_1/Level>
+    ingen:value 6.300000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -676,13 +676,13 @@ _:b26
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_cv_attenuverter_1/Offset>
-    ingen:value 0.000000 ;
+<mod_cv_attenuverter_1/Multiplier>
+    ingen:value 2.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod_cv_attenuverter_1/Multiplier>
-    ingen:value 2.000000 ;
+<mod_cv_attenuverter_1/Offset>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -977,7 +977,7 @@ _:b26
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain/In> ,
              <Gain/Out> ,
              <Gain/Gain> ,
@@ -1013,7 +1013,7 @@ _:b26
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain_1/In> ,
              <Gain_1/Out> ,
              <Gain_1/Gain> ,
@@ -1154,7 +1154,7 @@ _:b26
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 3 ;
+    pedal:version 4 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,

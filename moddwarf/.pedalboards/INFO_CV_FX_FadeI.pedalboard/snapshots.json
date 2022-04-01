@@ -1,148 +1,60 @@
 {
-    "current": 0,
     "snapshots": [
         {
             "data": {
-                "mod_cv_control_4": {
-                    "bypassed": false,
+                "env_1": {
                     "ports": {
-                        "Control": 5.9178738594055176,
-                        "Smoothing": 1.0
+                        "timeScale": 1.0,
+                        "attack": 0.63999998569488525,
+                        "hold": 0.0,
+                        "delay": 0.0,
+                        "sustain": 10.0,
+                        "release": 0.875,
+                        "decay": 0.0
                     },
                     "preset": "",
-                    "parameters": {}
+                    "parameters": {},
+                    "bypassed": false
                 },
-                "notes": {
-                    "bypassed": false,
-                    "ports": {},
-                    "preset": "",
-                    "parameters": {
-                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
-                            "25",
-                            "i"
-                        ],
-                        "http://open-music-kontrollers.ch/lv2/notes#text": [
-                            "-Control to CV has the toggle adressed to Foot A on the MOD Dwarf\n-It triggers the envelope, which controls the mix of the FX chain",
-                            "s"
-                        ]
-                    }
-                },
-                "mod_cv_control_1": {
-                    "bypassed": false,
+                "_bajatubedriver__1": {
                     "ports": {
-                        "Control": 10.0,
-                        "Smoothing": 0.0
+                        "VOLUME": 0.177536,
+                        "TONE": 0.72499999999999998,
+                        "DRIVE": 0.46859899999999999,
+                        "BYPASS": 1.0
                     },
                     "preset": "",
-                    "parameters": {}
+                    "parameters": {},
+                    "bypassed": false
                 },
                 "mod_cv_control_2": {
-                    "bypassed": false,
                     "ports": {
                         "Control": 4.6859898567199707,
                         "Smoothing": 1.0
                     },
                     "preset": "",
-                    "parameters": {}
+                    "parameters": {},
+                    "bypassed": false
                 },
-                "xfade": {
-                    "bypassed": false,
+                "xfade_1": {
                     "ports": {
                         "shape": 0.0,
                         "mode": 0.0,
-                        "xfade": 1.0
+                        "xfade": -1.0
                     },
                     "preset": "",
-                    "parameters": {}
+                    "parameters": {},
+                    "bypassed": false
                 },
-                "_bajatubedriver_": {
-                    "bypassed": false,
+                "Gain": {
                     "ports": {
-                        "VOLUME": 0.177536,
-                        "TONE": 0.72499999999999998,
-                        "DRIVE": 0.46859899999999999,
-                        "BYPASS": 1.0
+                        "Gain": -8.0
                     },
                     "preset": "",
-                    "parameters": {}
-                },
-                "shiroverb": {
-                    "bypassed": false,
-                    "ports": {
-                        "mix": 70.0,
-                        "bandwidth": 75.0,
-                        "ratio": 1.0,
-                        "damping": 0.0,
-                        "shimmer": 100.0,
-                        "decay": 25.0,
-                        "tone": 6000.0,
-                        "roomsize": 150.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "mod_cv_control_3": {
-                    "bypassed": false,
-                    "ports": {
-                        "Control": 7.25,
-                        "Smoothing": 1.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "notes_3": {
-                    "bypassed": false,
-                    "ports": {},
-                    "preset": "",
-                    "parameters": {
-                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
-                            "25",
-                            "i"
-                        ],
-                        "http://open-music-kontrollers.ch/lv2/notes#text": [
-                            "These 3 Control to CV plugins control Drive, Tone and Volume respectively.\n\nThey function as macros to control the two Tube Driver plugins simultaneously",
-                            "s"
-                        ]
-                    }
-                },
-                "_bajatubedriver__1": {
-                    "bypassed": false,
-                    "ports": {
-                        "VOLUME": 0.177536,
-                        "TONE": 0.72499999999999998,
-                        "DRIVE": 0.46859899999999999,
-                        "BYPASS": 1.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "notes_1": {
-                    "bypassed": false,
-                    "ports": {},
-                    "preset": "",
-                    "parameters": {
-                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
-                            "25",
-                            "i"
-                        ],
-                        "http://open-music-kontrollers.ch/lv2/notes#text": [
-                            "-Control to CV has the toggle adressed to Foot B on the MOD Dwarf as a momentary toggle\n-It triggers the envelope, which controls multiple parameters in the FX chain",
-                            "s"
-                        ]
-                    }
-                },
-                "stereo": {
-                    "bypassed": false,
-                    "ports": {
-                        "enable": 1.0,
-                        "gain": 0.0,
-                        "mute": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
+                    "parameters": {},
+                    "bypassed": false
                 },
                 "notes_2": {
-                    "bypassed": false,
                     "ports": {},
                     "preset": "",
                     "parameters": {
@@ -154,73 +66,161 @@
                             "Controller adressings\n\nPage 1 - FX + Hold Me\nI          FX envelope settings\nII         Hold envelope settings\nIII        Hold FX settings",
                             "s"
                         ]
-                    }
+                    },
+                    "bypassed": false
                 },
-                "env_1": {
-                    "bypassed": false,
+                "shiroverb": {
                     "ports": {
-                        "release": 0.875,
-                        "delay": 0.0,
-                        "attack": 0.63999998569488525,
-                        "hold": 0.0,
-                        "decay": 0.0,
-                        "timeScale": 1.0,
-                        "sustain": 10.0
+                        "tone": 6000.0,
+                        "damping": 0.0,
+                        "roomsize": 150.0,
+                        "ratio": 1.0,
+                        "shimmer": 100.0,
+                        "bandwidth": 75.0,
+                        "mix": 70.0,
+                        "decay": 25.0
                     },
                     "preset": "",
-                    "parameters": {}
-                },
-                "xfade_1": {
-                    "bypassed": false,
-                    "ports": {
-                        "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": -1.0
-                    },
-                    "preset": "",
-                    "parameters": {}
+                    "parameters": {},
+                    "bypassed": false
                 },
                 "env": {
-                    "bypassed": false,
                     "ports": {
-                        "release": 1.0,
-                        "delay": 0.0,
+                        "timeScale": 1.0,
                         "attack": 0.5,
                         "hold": 0.0,
-                        "decay": 0.0,
-                        "timeScale": 1.0,
-                        "sustain": 10.0
+                        "delay": 0.0,
+                        "sustain": 10.0,
+                        "release": 1.0,
+                        "decay": 0.0
                     },
                     "preset": "",
-                    "parameters": {}
+                    "parameters": {},
+                    "bypassed": false
                 },
-                "Gain2x2": {
-                    "bypassed": false,
+                "_bajatubedriver_": {
                     "ports": {
-                        "Gain": 0.0
+                        "VOLUME": 0.177536,
+                        "TONE": 0.72499999999999998,
+                        "DRIVE": 0.46859899999999999,
+                        "BYPASS": 1.0
                     },
                     "preset": "",
-                    "parameters": {}
+                    "parameters": {},
+                    "bypassed": false
                 },
-                "Gain": {
-                    "bypassed": false,
-                    "ports": {
-                        "Gain": -8.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "mod_cv_control": {
-                    "bypassed": true,
+                "mod_cv_control_1": {
                     "ports": {
                         "Control": 10.0,
                         "Smoothing": 0.0
                     },
                     "preset": "",
-                    "parameters": {}
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "notes": {
+                    "ports": {},
+                    "preset": "",
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "-Control to CV has the toggle adressed to Foot A on the MOD Dwarf\n-It triggers the envelope, which controls the mix of the FX chain",
+                            "s"
+                        ]
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control_3": {
+                    "ports": {
+                        "Control": 7.25,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "mod_cv_control_4": {
+                    "ports": {
+                        "Control": 5.9178738594055176,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "notes_3": {
+                    "ports": {},
+                    "preset": "",
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "These 3 Control to CV plugins control Drive, Tone and Volume respectively.\n\nThey function as macros to control the two Tube Driver plugins simultaneously",
+                            "s"
+                        ]
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "notes_1": {
+                    "ports": {},
+                    "preset": "",
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "-Control to CV has the toggle adressed to Foot B on the MOD Dwarf as a momentary toggle\n-It triggers the envelope, which controls multiple parameters in the FX chain",
+                            "s"
+                        ]
+                    },
+                    "bypassed": false
+                },
+                "stereo": {
+                    "ports": {
+                        "gain": 0.0,
+                        "mute": 0.0,
+                        "enable": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "mod_cv_control": {
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
                 }
             },
             "name": "Default"
         }
-    ]
+    ],
+    "current": 0
 }

@@ -1,1985 +1,1985 @@
 {
-    "current": 0,
     "snapshots": [
         {
+            "name": "I Main",
             "data": {
-                "faIR_cabsim": {
-                    "bypassed": false,
-                    "ports": {
-                        "Model": 0.0,
-                        "Attenuation": -5.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "mixer_stereo": {
-                    "bypassed": false,
-                    "ports": {
-                        "Panning3": 0.0,
-                        "Panning1": 0.0,
-                        "Solo3": 0.0,
-                        "PluginEnabled": 1.0,
-                        "MasterVolume": 0.9375,
-                        "Panning4": 0.0,
-                        "Alt4": 0.0,
-                        "Alt3": 0.0,
-                        "Alt2": 0.0,
-                        "Alt1": 0.0,
-                        "Panning2": 0.0,
-                        "Mute4": 0.0,
-                        "TruePanning": 1.0,
-                        "Mute1": 0.0,
-                        "Mute2": 0.0,
-                        "Mute3": 0.0,
-                        "Volume4": 0.58537946428571352,
-                        "Volume1": 1.0,
-                        "Volume3": 0.9375,
-                        "Volume2": 0.75,
-                        "Solo2": 0.0,
-                        "AltVolume": 0.75,
-                        "Solo1": 0.0,
-                        "Solo4": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "onechannelfilter": {
-                    "bypassed": false,
-                    "ports": {
-                        "channel": 2.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "FluidPlug_FluidBass": {
-                    "bypassed": false,
-                    "ports": {
-                        "program": 0.0,
-                        "level": 0.75
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "_CreamMachine_": {
-                    "bypassed": false,
-                    "ports": {
-                        "TREBLE": 0.5,
-                        "VOLUME": 0.23999999463558197,
-                        "BASS": 0.5,
-                        "BYPASS": 1.0,
-                        "LEVEL": 0.15942028985507245
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "xfade": {
-                    "bypassed": true,
-                    "ports": {
-                        "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 1.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "studiopre": {
-                    "bypassed": false,
-                    "ports": {
-                        "volume": 5.0,
-                        "middle": 0.5,
-                        "bright": 0.0,
-                        "treble": 0.5,
-                        "bass": 0.5
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "miditranspose": {
-                    "bypassed": false,
-                    "ports": {
-                        "transpose": 36.0,
-                        "inversion": 0.0,
-                        "channelf": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "randvelocity": {
-                    "bypassed": false,
-                    "ports": {
-                        "randfact": 127.0,
-                        "mode": 1.0,
-                        "channel": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
                 "CollisionDrive": {
                     "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
                     "ports": {
-                        "GATE": -55.0,
                         "BRIGHT": 0.5,
-                        "DRIVE": 0.59375,
-                        "ATTACK": 1.0,
+                        "LEVEL": -0.875,
                         "BYPASS": 1.0,
-                        "LEVEL": -0.875
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "midichord": {
-                    "bypassed": false,
-                    "ports": {
-                        "c3": 0.0,
-                        "c1": 1.0,
-                        "c7": 0.0,
-                        "c6": 0.0,
-                        "c5": 1.0,
-                        "c9": 0.0,
-                        "c8": 1.0,
-                        "_8": 1.0,
-                        "c13": 0.0,
-                        "c11": 0.0,
-                        "scale": 7.0,
-                        "channelf": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "FluidPlug_FluidDrums": {
-                    "bypassed": false,
-                    "ports": {
-                        "program": 2.0,
-                        "level": 0.84375
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "echo": {
-                    "bypassed": false,
-                    "ports": {
-                        "haaseffect": 1.0,
-                        "swapoutputs": 0.0,
-                        "rhaasfeedback": 10.0,
-                        "lecholevel": -12.5,
-                        "recholevel": -12.5,
-                        "ldelay": 375.0,
-                        "dryLevel": -4.0,
-                        "crossmode": 1.0,
-                        "lfeedback": 10.0,
-                        "rhaasdelay": 750.0
-                    },
-                    "preset": "",
-                    "parameters": {}
+                        "ATTACK": 1.0,
+                        "GATE": -55.0,
+                        "DRIVE": 0.59375
+                    }
                 },
                 "s8n16": {
                     "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
                     "ports": {
-                        "grid_4_7": 0.0,
+                        "note12": 11.0,
+                        "note13": 9.0,
+                        "note10": 16.0,
+                        "note11": 14.0,
+                        "swing": 0.0,
+                        "note14": 7.0,
+                        "note15": 4.0,
                         "grid_1_12": 0.0,
-                        "grid_3_13": 0.0,
-                        "grid_5_5": 0.0,
-                        "grid_5_4": 115.0,
-                        "grid_5_7": 0.0,
-                        "grid_5_6": 0.0,
-                        "grid_5_1": 0.0,
-                        "grid_8_7": 0.0,
-                        "grid_5_3": 0.0,
-                        "grid_5_2": 0.0,
-                        "grid_5_9": 0.0,
-                        "grid_5_8": 0.0,
-                        "grid_3_7": 0.0,
-                        "grid_3_6": 0.0,
-                        "grid_3_5": 0.0,
-                        "grid_3_4": 113.0,
-                        "grid_3_3": 0.0,
-                        "grid_3_2": 119.0,
-                        "grid_3_1": 0.0,
-                        "grid_3_16": 0.0,
-                        "grid_3_9": 0.0,
-                        "grid_3_8": 0.0,
-                        "panic": 0.0,
-                        "grid_8_6": 0.0,
-                        "grid_3_12": 0.0,
-                        "grid_6_14": 0.0,
-                        "grid_4_12": 0.0,
-                        "grid_2_6": 0.0,
-                        "grid_2_7": 0.0,
-                        "grid_2_10": 0.0,
-                        "grid_7_10": 0.0,
-                        "grid_7_14": 0.0,
+                        "grid_1_9": 0.0,
+                        "note16": 2.0,
+                        "drummode": 0.0,
+                        "grid_2_11": 0.0,
+                        "chn": 0.0,
+                        "grid_8_3": 111.0,
+                        "grid_6_12": 0.0,
+                        "grid_1_3": 0.0,
+                        "grid_1_16": 0.0,
                         "grid_1_15": 127.0,
-                        "grid_7_11": 0.0,
-                        "grid_2_13": 0.0,
+                        "grid_1_14": 0.0,
+                        "grid_8_13": 0.0,
+                        "grid_4_12": 0.0,
+                        "grid_8_11": 0.0,
+                        "grid_8_10": 0.0,
+                        "grid_1_10": 0.0,
                         "grid_7_15": 127.0,
-                        "grid_5_13": 0.0,
+                        "grid_8_6": 0.0,
+                        "grid_8_5": 0.0,
+                        "grid_1_5": 0.0,
+                        "grid_3_11": 0.0,
+                        "grid_2_4": 0.0,
+                        "grid_8_12": 0.0,
+                        "grid_2_12": 0.0,
+                        "grid_6_1": 117.0,
+                        "grid_6_3": 113.0,
+                        "grid_6_2": 0.0,
+                        "grid_6_5": 0.0,
+                        "grid_6_4": 0.0,
+                        "grid_6_7": 0.0,
+                        "grid_6_6": 0.0,
+                        "grid_6_9": 0.0,
+                        "div": 2.0,
+                        "grid_8_14": 0.0,
+                        "grid_4_7": 0.0,
+                        "grid_4_6": 0.0,
+                        "grid_4_5": 0.0,
+                        "grid_4_4": 0.0,
+                        "grid_4_3": 107.0,
+                        "grid_4_2": 0.0,
+                        "grid_4_1": 121.0,
+                        "grid_2_2": 0.0,
+                        "grid_7_14": 0.0,
+                        "grid_4_9": 0.0,
+                        "bpm": 120.0,
+                        "grid_8_7": 0.0,
+                        "grid_1_8": 0.0,
+                        "grid_2_16": 0.0,
+                        "note8": 26.0,
+                        "note9": 19.0,
+                        "note2": 38.0,
+                        "note3": 42.0,
+                        "note1": 35.0,
+                        "note6": 51.0,
+                        "note7": 28.0,
+                        "note4": 44.0,
+                        "note5": 41.0,
+                        "grid_4_11": 0.0,
+                        "grid_5_10": 0.0,
+                        "grid_3_14": 0.0,
+                        "grid_7_12": 0.0,
+                        "grid_7_10": 0.0,
+                        "grid_5_15": 0.0,
+                        "grid_8_9": 0.0,
+                        "grid_8_8": 0.0,
+                        "grid_3_10": 0.0,
+                        "grid_1_2": 0.0,
+                        "grid_8_2": 0.0,
+                        "grid_8_1": 0.0,
+                        "grid_1_1": 127.0,
+                        "grid_1_6": 0.0,
+                        "grid_1_7": 0.0,
+                        "grid_1_4": 119.0,
+                        "grid_8_4": 0.0,
+                        "grid_7_8": 0.0,
+                        "grid_7_9": 0.0,
+                        "grid_7_1": 0.0,
+                        "grid_7_2": 127.0,
+                        "grid_7_3": 0.0,
+                        "grid_7_4": 115.0,
+                        "grid_7_5": 0.0,
+                        "grid_7_6": 0.0,
+                        "grid_7_7": 0.0,
+                        "grid_6_13": 0.0,
+                        "grid_5_8": 0.0,
+                        "grid_5_9": 0.0,
+                        "grid_5_6": 0.0,
+                        "grid_5_7": 0.0,
+                        "grid_5_4": 115.0,
+                        "grid_5_5": 0.0,
+                        "grid_5_2": 0.0,
+                        "grid_5_3": 0.0,
+                        "grid_5_1": 0.0,
+                        "grid_6_8": 0.0,
+                        "grid_1_13": 0.0,
+                        "grid_6_16": 0.0,
+                        "grid_7_16": 0.0,
+                        "grid_4_15": 0.0,
                         "grid_4_16": 127.0,
-                        "grid_5_16": 127.0,
-                        "grid_5_14": 0.0,
-                        "drummode": 0.0,
-                        "grid_8_10": 0.0,
-                        "grid_8_13": 0.0,
-                        "grid_3_15": 127.0,
-                        "grid_3_14": 0.0,
-                        "sync": 0.0,
-                        "grid_7_9": 0.0,
-                        "grid_8_12": 0.0,
-                        "grid_5_12": 0.0,
-                        "grid_7_3": 0.0,
-                        "grid_7_2": 127.0,
-                        "grid_7_1": 0.0,
-                        "grid_7_7": 0.0,
-                        "grid_7_6": 0.0,
-                        "grid_7_5": 0.0,
-                        "grid_7_4": 115.0,
-                        "grid_4_14": 0.0,
-                        "grid_7_13": 0.0,
-                        "grid_6_11": 0.0,
-                        "grid_1_10": 0.0,
-                        "grid_7_8": 0.0,
-                        "grid_1_13": 0.0,
-                        "grid_1_11": 0.0,
-                        "note2": 38.0,
-                        "grid_3_10": 0.0,
                         "grid_2_14": 0.0,
-                        "grid_5_10": 0.0,
-                        "grid_2_12": 0.0,
-                        "grid_4_13": 0.0,
-                        "grid_2_16": 0.0,
-                        "chn": 0.0,
-                        "grid_6_2": 0.0,
-                        "grid_6_3": 113.0,
-                        "note3": 42.0,
-                        "grid_6_1": 117.0,
-                        "grid_6_6": 0.0,
-                        "note4": 44.0,
-                        "grid_6_4": 0.0,
-                        "note6": 51.0,
-                        "note9": 19.0,
-                        "note8": 26.0,
-                        "grid_6_8": 0.0,
-                        "grid_6_9": 0.0,
-                        "grid_8_14": 0.0,
-                        "grid_6_15": 127.0,
-                        "grid_1_16": 0.0,
-                        "grid_8_11": 0.0,
-                        "grid_6_10": 0.0,
-                        "grid_2_11": 0.0,
-                        "grid_7_12": 0.0,
-                        "grid_6_13": 0.0,
-                        "grid_3_11": 0.0,
-                        "grid_4_11": 0.0,
-                        "div": 2.0,
-                        "grid_6_16": 0.0,
-                        "note7": 28.0,
-                        "note1": 35.0,
-                        "grid_2_15": 127.0,
-                        "note11": 14.0,
-                        "note10": 16.0,
-                        "note13": 9.0,
-                        "note12": 11.0,
-                        "note15": 4.0,
-                        "note14": 7.0,
-                        "note16": 2.0,
-                        "note5": 41.0,
-                        "grid_6_7": 0.0,
-                        "grid_8_15": 0.0,
-                        "grid_4_8": 0.0,
-                        "grid_4_9": 0.0,
-                        "grid_4_4": 0.0,
-                        "grid_4_5": 0.0,
-                        "grid_4_6": 0.0,
-                        "grid_6_5": 0.0,
-                        "bpm": 120.0,
-                        "grid_4_1": 121.0,
-                        "grid_4_2": 0.0,
-                        "grid_4_3": 107.0,
-                        "grid_8_1": 0.0,
-                        "grid_8_2": 0.0,
-                        "grid_8_3": 111.0,
-                        "grid_8_4": 0.0,
-                        "grid_8_5": 0.0,
-                        "grid_2_8": 0.0,
                         "grid_2_9": 0.0,
-                        "grid_8_8": 0.0,
-                        "grid_8_9": 0.0,
-                        "grid_2_4": 0.0,
-                        "grid_2_5": 0.0,
-                        "grid_2_2": 0.0,
-                        "grid_2_3": 121.0,
-                        "grid_2_1": 0.0,
-                        "grid_1_1": 127.0,
-                        "grid_1_3": 0.0,
-                        "grid_1_2": 0.0,
-                        "grid_1_5": 0.0,
-                        "grid_1_4": 119.0,
-                        "grid_1_7": 0.0,
-                        "grid_1_6": 0.0,
-                        "grid_1_9": 0.0,
-                        "grid_1_8": 0.0,
-                        "grid_1_14": 0.0,
-                        "grid_5_15": 0.0,
-                        "grid_7_16": 0.0,
-                        "grid_4_15": 0.0,
-                        "grid_6_12": 0.0,
-                        "grid_8_16": 127.0,
-                        "grid_4_10": 0.0,
-                        "swing": 0.0,
-                        "grid_5_11": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "EPiano": {
-                    "bypassed": false,
-                    "ports": {
-                        "fine_tuning": 0.0,
-                        "hardness": -46.875,
-                        "overdrive": 18.75,
-                        "random_tuning": 6.25,
-                        "stereo_width": 150.0,
-                        "polyphonic": 0.5,
-                        "treble_boost": -50.0,
-                        "env_release": 71.875,
-                        "env_decay": 76.5625,
-                        "lfo_rate": 24.055000305175781,
-                        "modulation": 6.25,
-                        "vel_sense": 15.625
-                    },
-                    "preset": "http://moddevices.com/plugins/mda/presets#EPiano-mellow",
-                    "parameters": {}
-                },
-                "midistrum": {
-                    "bypassed": false,
-                    "ports": {
-                        "collect": 300.0,
-                        "adjvelocity": 112.0,
-                        "adjspeed": 1.0,
-                        "randspeed": 1.0,
-                        "bpm": 120.0,
-                        "bpmsrc": 1.0,
-                        "randvelocity": 1.0,
-                        "duration": 2.0,
-                        "mode": 2.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "Gain": {
-                    "bypassed": false,
-                    "ports": {
-                        "Gain": -6.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "onechannelfilter_1": {
-                    "bypassed": false,
-                    "ports": {
-                        "channel": 1.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "keysplit": {
-                    "bypassed": false,
-                    "ports": {
-                        "transp1": 0.0,
-                        "transp0": 24.0,
-                        "split": 34.0,
-                        "channel1": 2.0,
-                        "channel0": 1.0,
-                        "channelf": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                }
-            },
-            "name": "I Main"
-        },
-        {
-            "data": {
-                "faIR_cabsim": {
-                    "bypassed": false,
-                    "ports": {
-                        "Model": 0.0,
-                        "Attenuation": -5.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "mixer_stereo": {
-                    "bypassed": false,
-                    "ports": {
-                        "Panning3": 0.0,
-                        "Panning1": 0.0,
-                        "Solo3": 0.0,
-                        "PluginEnabled": 1.0,
-                        "MasterVolume": 0.9375,
-                        "Panning4": 0.0,
-                        "Alt4": 0.0,
-                        "Alt3": 0.0,
-                        "Alt2": 0.0,
-                        "Alt1": 0.0,
-                        "Panning2": 0.0,
-                        "Mute4": 0.0,
-                        "TruePanning": 1.0,
-                        "Mute1": 0.0,
-                        "Mute2": 0.0,
-                        "Mute3": 0.0,
-                        "Volume4": 0.58537946428571352,
-                        "Volume1": 1.0,
-                        "Volume3": 0.9375,
-                        "Volume2": 0.75,
-                        "Solo2": 0.0,
-                        "AltVolume": 0.75,
-                        "Solo1": 0.0,
-                        "Solo4": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "onechannelfilter": {
-                    "bypassed": false,
-                    "ports": {
-                        "channel": 2.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "FluidPlug_FluidBass": {
-                    "bypassed": false,
-                    "ports": {
-                        "program": 0.0,
-                        "level": 0.75
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "_CreamMachine_": {
-                    "bypassed": false,
-                    "ports": {
-                        "TREBLE": 0.5,
-                        "VOLUME": 0.23999999463558197,
-                        "BASS": 0.5,
-                        "BYPASS": 1.0,
-                        "LEVEL": 0.15942028985507245
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "xfade": {
-                    "bypassed": true,
-                    "ports": {
-                        "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 1.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "studiopre": {
-                    "bypassed": false,
-                    "ports": {
-                        "volume": 5.0,
-                        "middle": 0.5,
-                        "bright": 0.0,
-                        "treble": 0.5,
-                        "bass": 0.5
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "miditranspose": {
-                    "bypassed": false,
-                    "ports": {
-                        "transpose": 36.0,
-                        "inversion": 0.0,
-                        "channelf": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "randvelocity": {
-                    "bypassed": false,
-                    "ports": {
-                        "randfact": 127.0,
-                        "mode": 1.0,
-                        "channel": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "CollisionDrive": {
-                    "bypassed": false,
-                    "ports": {
-                        "GATE": -55.0,
-                        "BRIGHT": 0.5,
-                        "DRIVE": 0.59375,
-                        "ATTACK": 1.0,
-                        "BYPASS": 1.0,
-                        "LEVEL": -0.875
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "midichord": {
-                    "bypassed": false,
-                    "ports": {
-                        "c3": 0.0,
-                        "c1": 1.0,
-                        "c7": 0.0,
-                        "c6": 0.0,
-                        "c5": 1.0,
-                        "c9": 0.0,
-                        "c8": 1.0,
-                        "_8": 1.0,
-                        "c13": 0.0,
-                        "c11": 0.0,
-                        "scale": 7.0,
-                        "channelf": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "FluidPlug_FluidDrums": {
-                    "bypassed": false,
-                    "ports": {
-                        "program": 2.0,
-                        "level": 0.84375
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "echo": {
-                    "bypassed": false,
-                    "ports": {
-                        "haaseffect": 1.0,
-                        "swapoutputs": 0.0,
-                        "rhaasfeedback": 10.0,
-                        "lecholevel": -12.5,
-                        "recholevel": -12.5,
-                        "ldelay": 375.0,
-                        "dryLevel": -4.0,
-                        "crossmode": 1.0,
-                        "lfeedback": 10.0,
-                        "rhaasdelay": 750.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "s8n16": {
-                    "bypassed": false,
-                    "ports": {
-                        "grid_4_7": 0.0,
-                        "grid_1_12": 0.0,
-                        "grid_3_13": 0.0,
-                        "grid_5_5": 0.0,
-                        "grid_5_4": 115.0,
-                        "grid_5_7": 0.0,
-                        "grid_5_6": 0.0,
-                        "grid_5_1": 0.0,
-                        "grid_8_7": 0.0,
-                        "grid_5_3": 0.0,
-                        "grid_5_2": 127.0,
-                        "grid_5_9": 0.0,
-                        "grid_5_8": 0.0,
-                        "grid_3_7": 0.0,
-                        "grid_3_6": 0.0,
-                        "grid_3_5": 0.0,
-                        "grid_3_4": 113.0,
-                        "grid_3_3": 0.0,
-                        "grid_3_2": 119.0,
-                        "grid_3_1": 0.0,
-                        "grid_3_16": 0.0,
-                        "grid_3_9": 0.0,
-                        "grid_3_8": 0.0,
-                        "panic": 0.0,
-                        "grid_8_6": 0.0,
-                        "grid_3_12": 0.0,
-                        "grid_6_14": 0.0,
-                        "grid_4_12": 0.0,
-                        "grid_2_6": 0.0,
-                        "grid_2_7": 0.0,
-                        "grid_2_10": 0.0,
-                        "grid_7_10": 0.0,
-                        "grid_7_14": 0.0,
-                        "grid_1_15": 127.0,
+                        "grid_2_8": 0.0,
                         "grid_7_11": 0.0,
+                        "grid_2_5": 0.0,
                         "grid_2_13": 0.0,
-                        "grid_7_15": 0.0,
-                        "grid_5_13": 0.0,
-                        "grid_4_16": 0.0,
-                        "grid_5_16": 0.0,
-                        "grid_5_14": 0.0,
-                        "drummode": 0.0,
-                        "grid_8_10": 0.0,
-                        "grid_8_13": 0.0,
-                        "grid_3_15": 127.0,
-                        "grid_3_14": 0.0,
-                        "sync": 0.0,
-                        "grid_7_9": 127.0,
-                        "grid_8_12": 0.0,
-                        "grid_5_12": 0.0,
-                        "grid_7_3": 0.0,
-                        "grid_7_2": 127.0,
-                        "grid_7_1": 0.0,
-                        "grid_7_7": 0.0,
-                        "grid_7_6": 0.0,
-                        "grid_7_5": 0.0,
-                        "grid_7_4": 115.0,
-                        "grid_4_14": 0.0,
-                        "grid_7_13": 0.0,
-                        "grid_6_11": 0.0,
-                        "grid_1_10": 0.0,
-                        "grid_7_8": 0.0,
-                        "grid_1_13": 0.0,
+                        "grid_2_7": 0.0,
+                        "grid_2_6": 0.0,
+                        "grid_2_1": 0.0,
+                        "grid_2_3": 121.0,
+                        "grid_3_12": 0.0,
                         "grid_1_11": 0.0,
-                        "note2": 38.0,
-                        "grid_3_10": 0.0,
-                        "grid_2_14": 0.0,
-                        "grid_5_10": 0.0,
-                        "grid_2_12": 0.0,
-                        "grid_4_13": 0.0,
-                        "grid_2_16": 0.0,
-                        "chn": 0.0,
-                        "grid_6_2": 0.0,
-                        "grid_6_3": 113.0,
-                        "note3": 42.0,
-                        "grid_6_1": 117.0,
-                        "grid_6_6": 0.0,
-                        "note4": 44.0,
-                        "grid_6_4": 0.0,
-                        "note6": 51.0,
-                        "note9": 19.0,
-                        "note8": 26.0,
-                        "grid_6_8": 0.0,
-                        "grid_6_9": 127.0,
-                        "grid_8_14": 0.0,
-                        "grid_6_15": 0.0,
-                        "grid_1_16": 0.0,
-                        "grid_8_11": 0.0,
                         "grid_6_10": 0.0,
-                        "grid_2_11": 0.0,
-                        "grid_7_12": 0.0,
-                        "grid_6_13": 0.0,
-                        "grid_3_11": 0.0,
-                        "grid_4_11": 127.0,
-                        "div": 2.0,
-                        "grid_6_16": 0.0,
-                        "note7": 28.0,
-                        "note1": 35.0,
+                        "grid_5_16": 127.0,
+                        "grid_2_10": 0.0,
+                        "grid_7_13": 0.0,
                         "grid_2_15": 127.0,
-                        "note11": 14.0,
-                        "note10": 16.0,
-                        "note13": 9.0,
-                        "note12": 11.0,
-                        "note15": 4.0,
-                        "note14": 7.0,
-                        "note16": 2.0,
-                        "note5": 41.0,
-                        "grid_6_7": 0.0,
-                        "grid_8_15": 0.0,
-                        "grid_4_8": 0.0,
-                        "grid_4_9": 0.0,
-                        "grid_4_4": 0.0,
-                        "grid_4_5": 0.0,
-                        "grid_4_6": 0.0,
-                        "grid_6_5": 0.0,
-                        "bpm": 120.0,
-                        "grid_4_1": 121.0,
-                        "grid_4_2": 0.0,
-                        "grid_4_3": 107.0,
-                        "grid_8_1": 0.0,
-                        "grid_8_2": 0.0,
-                        "grid_8_3": 111.0,
-                        "grid_8_4": 0.0,
-                        "grid_8_5": 0.0,
-                        "grid_2_8": 0.0,
-                        "grid_2_9": 0.0,
-                        "grid_8_8": 0.0,
-                        "grid_8_9": 127.0,
-                        "grid_2_4": 0.0,
-                        "grid_2_5": 0.0,
-                        "grid_2_2": 0.0,
-                        "grid_2_3": 121.0,
-                        "grid_2_1": 0.0,
-                        "grid_1_1": 127.0,
-                        "grid_1_3": 0.0,
-                        "grid_1_2": 0.0,
-                        "grid_1_5": 0.0,
-                        "grid_1_4": 119.0,
-                        "grid_1_7": 0.0,
-                        "grid_1_6": 0.0,
-                        "grid_1_9": 0.0,
-                        "grid_1_8": 0.0,
-                        "grid_1_14": 0.0,
-                        "grid_5_15": 0.0,
-                        "grid_7_16": 0.0,
-                        "grid_4_15": 0.0,
-                        "grid_6_12": 0.0,
-                        "grid_8_16": 0.0,
-                        "grid_4_10": 0.0,
-                        "swing": 0.0,
-                        "grid_5_11": 127.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "EPiano": {
-                    "bypassed": false,
-                    "ports": {
-                        "fine_tuning": 0.0,
-                        "hardness": -46.875,
-                        "overdrive": 18.75,
-                        "random_tuning": 6.25,
-                        "stereo_width": 150.0,
-                        "polyphonic": 0.5,
-                        "treble_boost": -50.0,
-                        "env_release": 71.875,
-                        "env_decay": 76.5625,
-                        "lfo_rate": 24.055000305175781,
-                        "modulation": 6.25,
-                        "vel_sense": 15.625
-                    },
-                    "preset": "http://moddevices.com/plugins/mda/presets#EPiano-mellow",
-                    "parameters": {}
-                },
-                "midistrum": {
-                    "bypassed": false,
-                    "ports": {
-                        "collect": 300.0,
-                        "adjvelocity": 112.0,
-                        "adjspeed": 1.0,
-                        "randspeed": 1.0,
-                        "bpm": 120.0,
-                        "bpmsrc": 1.0,
-                        "randvelocity": 1.0,
-                        "duration": 2.0,
-                        "mode": 2.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "Gain": {
-                    "bypassed": false,
-                    "ports": {
-                        "Gain": -6.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "onechannelfilter_1": {
-                    "bypassed": false,
-                    "ports": {
-                        "channel": 1.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "keysplit": {
-                    "bypassed": false,
-                    "ports": {
-                        "transp1": 0.0,
-                        "transp0": 24.0,
-                        "split": 34.0,
-                        "channel1": 2.0,
-                        "channel0": 1.0,
-                        "channelf": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                }
-            },
-            "name": "I Fill"
-        },
-        {
-            "data": {
-                "faIR_cabsim": {
-                    "bypassed": false,
-                    "ports": {
-                        "Model": 0.0,
-                        "Attenuation": -5.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "mixer_stereo": {
-                    "bypassed": false,
-                    "ports": {
-                        "Panning3": 0.0,
-                        "Panning1": 0.0,
-                        "Solo3": 0.0,
-                        "PluginEnabled": 1.0,
-                        "MasterVolume": 0.9375,
-                        "Panning4": 0.0,
-                        "Alt4": 0.0,
-                        "Alt3": 0.0,
-                        "Alt2": 0.0,
-                        "Alt1": 0.0,
-                        "Panning2": 0.0,
-                        "Mute4": 0.0,
-                        "TruePanning": 1.0,
-                        "Mute1": 0.0,
-                        "Mute2": 0.0,
-                        "Mute3": 0.0,
-                        "Volume4": 0.58537946428571352,
-                        "Volume1": 1.0,
-                        "Volume3": 0.9375,
-                        "Volume2": 0.75,
-                        "Solo2": 0.0,
-                        "AltVolume": 0.75,
-                        "Solo1": 0.0,
-                        "Solo4": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "onechannelfilter": {
-                    "bypassed": false,
-                    "ports": {
-                        "channel": 2.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "FluidPlug_FluidBass": {
-                    "bypassed": false,
-                    "ports": {
-                        "program": 0.0,
-                        "level": 0.75
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "_CreamMachine_": {
-                    "bypassed": false,
-                    "ports": {
-                        "TREBLE": 0.5,
-                        "VOLUME": 0.23999999463558197,
-                        "BASS": 0.5,
-                        "BYPASS": 1.0,
-                        "LEVEL": 0.15942028985507245
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "xfade": {
-                    "bypassed": true,
-                    "ports": {
-                        "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 1.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "studiopre": {
-                    "bypassed": false,
-                    "ports": {
-                        "volume": 5.0,
-                        "middle": 0.5,
-                        "bright": 0.0,
-                        "treble": 0.5,
-                        "bass": 0.5
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "miditranspose": {
-                    "bypassed": false,
-                    "ports": {
-                        "transpose": 36.0,
-                        "inversion": 0.0,
-                        "channelf": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "randvelocity": {
-                    "bypassed": false,
-                    "ports": {
-                        "randfact": 127.0,
-                        "mode": 1.0,
-                        "channel": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "CollisionDrive": {
-                    "bypassed": false,
-                    "ports": {
-                        "GATE": -55.0,
-                        "BRIGHT": 0.5,
-                        "DRIVE": 0.59375,
-                        "ATTACK": 1.0,
-                        "BYPASS": 1.0,
-                        "LEVEL": -0.875
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "midichord": {
-                    "bypassed": false,
-                    "ports": {
-                        "c3": 0.0,
-                        "c1": 1.0,
-                        "c7": 0.0,
-                        "c6": 0.0,
-                        "c5": 1.0,
-                        "c9": 0.0,
-                        "c8": 1.0,
-                        "_8": 1.0,
-                        "c13": 0.0,
-                        "c11": 0.0,
-                        "scale": 7.0,
-                        "channelf": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "FluidPlug_FluidDrums": {
-                    "bypassed": false,
-                    "ports": {
-                        "program": 2.0,
-                        "level": 0.84375
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "echo": {
-                    "bypassed": false,
-                    "ports": {
-                        "haaseffect": 1.0,
-                        "swapoutputs": 0.0,
-                        "rhaasfeedback": 10.0,
-                        "lecholevel": -12.5,
-                        "recholevel": -12.5,
-                        "ldelay": 375.0,
-                        "dryLevel": -4.0,
-                        "crossmode": 1.0,
-                        "lfeedback": 10.0,
-                        "rhaasdelay": 750.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "s8n16": {
-                    "bypassed": false,
-                    "ports": {
-                        "grid_4_7": 0.0,
-                        "grid_1_12": 0.0,
-                        "grid_3_13": 0.0,
-                        "grid_5_5": 0.0,
-                        "grid_5_4": 115.0,
-                        "grid_5_7": 0.0,
-                        "grid_5_6": 0.0,
-                        "grid_5_1": 127.0,
-                        "grid_8_7": 0.0,
-                        "grid_5_3": 0.0,
-                        "grid_5_2": 0.0,
-                        "grid_5_9": 0.0,
-                        "grid_5_8": 0.0,
-                        "grid_3_7": 0.0,
-                        "grid_3_6": 0.0,
-                        "grid_3_5": 0.0,
-                        "grid_3_4": 113.0,
-                        "grid_3_3": 0.0,
-                        "grid_3_2": 119.0,
-                        "grid_3_1": 0.0,
-                        "grid_3_16": 0.0,
-                        "grid_3_9": 0.0,
-                        "grid_3_8": 0.0,
-                        "panic": 0.0,
-                        "grid_8_6": 0.0,
-                        "grid_3_12": 0.0,
-                        "grid_6_14": 0.0,
-                        "grid_4_12": 0.0,
-                        "grid_2_6": 0.0,
-                        "grid_2_7": 0.0,
-                        "grid_2_10": 0.0,
-                        "grid_7_10": 0.0,
-                        "grid_7_14": 0.0,
-                        "grid_1_15": 0.0,
-                        "grid_7_11": 0.0,
-                        "grid_2_13": 127.0,
-                        "grid_7_15": 0.0,
+                        "grid_8_16": 127.0,
                         "grid_5_13": 0.0,
-                        "grid_4_16": 0.0,
-                        "grid_5_16": 0.0,
-                        "grid_5_14": 127.0,
-                        "drummode": 0.0,
-                        "grid_8_10": 0.0,
-                        "grid_8_13": 0.0,
-                        "grid_3_15": 0.0,
-                        "grid_3_14": 0.0,
-                        "sync": 0.0,
-                        "grid_7_9": 127.0,
-                        "grid_8_12": 127.0,
-                        "grid_5_12": 0.0,
-                        "grid_7_3": 0.0,
-                        "grid_7_2": 127.0,
-                        "grid_7_1": 0.0,
-                        "grid_7_7": 0.0,
-                        "grid_7_6": 0.0,
-                        "grid_7_5": 0.0,
-                        "grid_7_4": 115.0,
-                        "grid_4_14": 127.0,
-                        "grid_7_13": 0.0,
-                        "grid_6_11": 0.0,
-                        "grid_1_10": 0.0,
-                        "grid_7_8": 0.0,
-                        "grid_1_13": 127.0,
-                        "grid_1_11": 0.0,
-                        "note2": 38.0,
-                        "grid_3_10": 0.0,
-                        "grid_2_14": 0.0,
-                        "grid_5_10": 0.0,
-                        "grid_2_12": 0.0,
-                        "grid_4_13": 0.0,
-                        "grid_2_16": 0.0,
-                        "chn": 0.0,
-                        "grid_6_2": 0.0,
-                        "grid_6_3": 113.0,
-                        "note3": 42.0,
-                        "grid_6_1": 0.0,
-                        "grid_6_6": 0.0,
-                        "note4": 44.0,
-                        "grid_6_4": 0.0,
-                        "note6": 51.0,
-                        "note9": 19.0,
-                        "note8": 26.0,
-                        "grid_6_8": 0.0,
-                        "grid_6_9": 127.0,
-                        "grid_8_14": 0.0,
-                        "grid_6_15": 0.0,
-                        "grid_1_16": 0.0,
-                        "grid_8_11": 0.0,
-                        "grid_6_10": 0.0,
-                        "grid_2_11": 0.0,
-                        "grid_7_12": 0.0,
-                        "grid_6_13": 0.0,
-                        "grid_3_11": 0.0,
-                        "grid_4_11": 0.0,
-                        "div": 2.0,
-                        "grid_6_16": 0.0,
-                        "note7": 28.0,
-                        "note1": 35.0,
-                        "grid_2_15": 0.0,
-                        "note11": 14.0,
-                        "note10": 16.0,
-                        "note13": 9.0,
-                        "note12": 12.0,
-                        "note15": 4.0,
-                        "note14": 7.0,
-                        "note16": 2.0,
-                        "note5": 41.0,
-                        "grid_6_7": 0.0,
-                        "grid_8_15": 0.0,
-                        "grid_4_8": 0.0,
-                        "grid_4_9": 0.0,
-                        "grid_4_4": 0.0,
-                        "grid_4_5": 0.0,
-                        "grid_4_6": 0.0,
-                        "grid_6_5": 0.0,
-                        "bpm": 120.0,
-                        "grid_4_1": 0.0,
-                        "grid_4_2": 0.0,
-                        "grid_4_3": 107.0,
-                        "grid_8_1": 0.0,
-                        "grid_8_2": 0.0,
-                        "grid_8_3": 111.0,
-                        "grid_8_4": 0.0,
-                        "grid_8_5": 0.0,
-                        "grid_2_8": 0.0,
-                        "grid_2_9": 0.0,
-                        "grid_8_8": 0.0,
-                        "grid_8_9": 0.0,
-                        "grid_2_4": 0.0,
-                        "grid_2_5": 0.0,
-                        "grid_2_2": 0.0,
-                        "grid_2_3": 121.0,
-                        "grid_2_1": 0.0,
-                        "grid_1_1": 127.0,
-                        "grid_1_3": 0.0,
-                        "grid_1_2": 0.0,
-                        "grid_1_5": 0.0,
-                        "grid_1_4": 119.0,
-                        "grid_1_7": 0.0,
-                        "grid_1_6": 0.0,
-                        "grid_1_9": 0.0,
-                        "grid_1_8": 0.0,
-                        "grid_1_14": 0.0,
-                        "grid_5_15": 0.0,
-                        "grid_7_16": 0.0,
-                        "grid_4_15": 0.0,
-                        "grid_6_12": 0.0,
-                        "grid_8_16": 0.0,
-                        "grid_4_10": 0.0,
-                        "swing": 0.0,
-                        "grid_5_11": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "EPiano": {
-                    "bypassed": false,
-                    "ports": {
-                        "fine_tuning": 0.0,
-                        "hardness": -46.875,
-                        "overdrive": 18.75,
-                        "random_tuning": 6.25,
-                        "stereo_width": 150.0,
-                        "polyphonic": 0.5,
-                        "treble_boost": -50.0,
-                        "env_release": 71.875,
-                        "env_decay": 76.5625,
-                        "lfo_rate": 24.055000305175781,
-                        "modulation": 6.25,
-                        "vel_sense": 15.625
-                    },
-                    "preset": "http://moddevices.com/plugins/mda/presets#EPiano-mellow",
-                    "parameters": {}
-                },
-                "midistrum": {
-                    "bypassed": false,
-                    "ports": {
-                        "collect": 300.0,
-                        "adjvelocity": 112.0,
-                        "adjspeed": 1.0,
-                        "randspeed": 1.0,
-                        "bpm": 120.0,
-                        "bpmsrc": 1.0,
-                        "randvelocity": 1.0,
-                        "duration": 2.0,
-                        "mode": 2.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "Gain": {
-                    "bypassed": false,
-                    "ports": {
-                        "Gain": -6.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "onechannelfilter_1": {
-                    "bypassed": false,
-                    "ports": {
-                        "channel": 1.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "keysplit": {
-                    "bypassed": false,
-                    "ports": {
-                        "transp1": 0.0,
-                        "transp0": 24.0,
-                        "split": 34.0,
-                        "channel1": 2.0,
-                        "channel0": 1.0,
-                        "channelf": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                }
-            },
-            "name": "IV Base"
-        },
-        {
-            "data": {
-                "faIR_cabsim": {
-                    "bypassed": false,
-                    "ports": {
-                        "Model": 0.0,
-                        "Attenuation": -5.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "mixer_stereo": {
-                    "bypassed": false,
-                    "ports": {
-                        "Panning3": 0.0,
-                        "Panning1": 0.0,
-                        "Solo3": 0.0,
-                        "PluginEnabled": 1.0,
-                        "MasterVolume": 0.9375,
-                        "Panning4": 0.0,
-                        "Alt4": 0.0,
-                        "Alt3": 0.0,
-                        "Alt2": 0.0,
-                        "Alt1": 0.0,
-                        "Panning2": 0.0,
-                        "Mute4": 0.0,
-                        "TruePanning": 1.0,
-                        "Mute1": 0.0,
-                        "Mute2": 0.0,
-                        "Mute3": 0.0,
-                        "Volume4": 0.58537946428571352,
-                        "Volume1": 1.0,
-                        "Volume3": 0.9375,
-                        "Volume2": 0.75,
-                        "Solo2": 0.0,
-                        "AltVolume": 0.75,
-                        "Solo1": 0.0,
-                        "Solo4": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "onechannelfilter": {
-                    "bypassed": false,
-                    "ports": {
-                        "channel": 2.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "FluidPlug_FluidBass": {
-                    "bypassed": false,
-                    "ports": {
-                        "program": 0.0,
-                        "level": 0.75
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "_CreamMachine_": {
-                    "bypassed": false,
-                    "ports": {
-                        "TREBLE": 0.5,
-                        "VOLUME": 0.23999999463558197,
-                        "BASS": 0.5,
-                        "BYPASS": 1.0,
-                        "LEVEL": 0.15942028985507245
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "xfade": {
-                    "bypassed": true,
-                    "ports": {
-                        "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 1.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "studiopre": {
-                    "bypassed": false,
-                    "ports": {
-                        "volume": 5.0,
-                        "middle": 0.5,
-                        "bright": 0.0,
-                        "treble": 0.5,
-                        "bass": 0.5
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "miditranspose": {
-                    "bypassed": false,
-                    "ports": {
-                        "transpose": 36.0,
-                        "inversion": 0.0,
-                        "channelf": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "randvelocity": {
-                    "bypassed": false,
-                    "ports": {
-                        "randfact": 127.0,
-                        "mode": 1.0,
-                        "channel": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "CollisionDrive": {
-                    "bypassed": false,
-                    "ports": {
-                        "GATE": -55.0,
-                        "BRIGHT": 0.5,
-                        "DRIVE": 0.59375,
-                        "ATTACK": 1.0,
-                        "BYPASS": 1.0,
-                        "LEVEL": -0.875
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "midichord": {
-                    "bypassed": false,
-                    "ports": {
-                        "c3": 0.0,
-                        "c1": 1.0,
-                        "c7": 0.0,
-                        "c6": 0.0,
-                        "c5": 1.0,
-                        "c9": 0.0,
-                        "c8": 1.0,
-                        "_8": 1.0,
-                        "c13": 0.0,
-                        "c11": 0.0,
-                        "scale": 7.0,
-                        "channelf": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "FluidPlug_FluidDrums": {
-                    "bypassed": false,
-                    "ports": {
-                        "program": 2.0,
-                        "level": 0.84375
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "echo": {
-                    "bypassed": false,
-                    "ports": {
-                        "haaseffect": 1.0,
-                        "swapoutputs": 0.0,
-                        "rhaasfeedback": 10.0,
-                        "lecholevel": -12.5,
-                        "recholevel": -12.5,
-                        "ldelay": 375.0,
-                        "dryLevel": -4.0,
-                        "crossmode": 1.0,
-                        "lfeedback": 10.0,
-                        "rhaasdelay": 750.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "s8n16": {
-                    "bypassed": false,
-                    "ports": {
-                        "grid_4_7": 0.0,
-                        "grid_1_12": 0.0,
-                        "grid_3_13": 0.0,
-                        "grid_5_5": 0.0,
-                        "grid_5_4": 127.0,
-                        "grid_5_7": 0.0,
-                        "grid_5_6": 0.0,
-                        "grid_5_1": 127.0,
-                        "grid_8_7": 0.0,
-                        "grid_5_3": 0.0,
-                        "grid_5_2": 0.0,
-                        "grid_5_9": 0.0,
-                        "grid_5_8": 0.0,
-                        "grid_3_7": 0.0,
-                        "grid_3_6": 0.0,
-                        "grid_3_5": 0.0,
-                        "grid_3_4": 0.0,
-                        "grid_3_3": 0.0,
-                        "grid_3_2": 0.0,
-                        "grid_3_1": 127.0,
                         "grid_3_16": 0.0,
-                        "grid_3_9": 0.0,
-                        "grid_3_8": 0.0,
-                        "panic": 0.0,
-                        "grid_8_6": 0.0,
-                        "grid_3_12": 0.0,
-                        "grid_6_14": 0.0,
-                        "grid_4_12": 0.0,
-                        "grid_2_6": 0.0,
-                        "grid_2_7": 0.0,
-                        "grid_2_10": 0.0,
-                        "grid_7_10": 0.0,
-                        "grid_7_14": 0.0,
-                        "grid_1_15": 0.0,
-                        "grid_7_11": 0.0,
-                        "grid_2_13": 127.0,
-                        "grid_7_15": 0.0,
-                        "grid_5_13": 0.0,
-                        "grid_4_16": 0.0,
-                        "grid_5_16": 0.0,
-                        "grid_5_14": 127.0,
-                        "drummode": 0.0,
-                        "grid_8_10": 0.0,
-                        "grid_8_13": 0.0,
-                        "grid_3_15": 0.0,
-                        "grid_3_14": 0.0,
-                        "sync": 0.0,
-                        "grid_7_9": 127.0,
-                        "grid_8_12": 127.0,
-                        "grid_5_12": 0.0,
-                        "grid_7_3": 0.0,
-                        "grid_7_2": 0.0,
-                        "grid_7_1": 127.0,
-                        "grid_7_7": 0.0,
-                        "grid_7_6": 0.0,
-                        "grid_7_5": 0.0,
-                        "grid_7_4": 0.0,
-                        "grid_4_14": 127.0,
-                        "grid_7_13": 0.0,
-                        "grid_6_11": 0.0,
-                        "grid_1_10": 0.0,
-                        "grid_7_8": 0.0,
-                        "grid_1_13": 127.0,
-                        "grid_1_11": 0.0,
-                        "note2": 38.0,
-                        "grid_3_10": 0.0,
-                        "grid_2_14": 0.0,
-                        "grid_5_10": 0.0,
-                        "grid_2_12": 0.0,
-                        "grid_4_13": 0.0,
-                        "grid_2_16": 0.0,
-                        "chn": 0.0,
-                        "grid_6_2": 127.0,
-                        "grid_6_3": 127.0,
-                        "note3": 42.0,
-                        "grid_6_1": 0.0,
-                        "grid_6_6": 0.0,
-                        "note4": 44.0,
-                        "grid_6_4": 0.0,
-                        "note6": 51.0,
-                        "note9": 19.0,
-                        "note8": 26.0,
-                        "grid_6_8": 0.0,
-                        "grid_6_9": 127.0,
-                        "grid_8_14": 0.0,
-                        "grid_6_15": 0.0,
-                        "grid_1_16": 0.0,
-                        "grid_8_11": 0.0,
-                        "grid_6_10": 0.0,
-                        "grid_2_11": 0.0,
-                        "grid_7_12": 0.0,
-                        "grid_6_13": 0.0,
-                        "grid_3_11": 0.0,
-                        "grid_4_11": 0.0,
-                        "div": 2.0,
-                        "grid_6_16": 0.0,
-                        "note7": 28.0,
-                        "note1": 35.0,
-                        "grid_2_15": 0.0,
-                        "note11": 14.0,
-                        "note10": 16.0,
-                        "note13": 9.0,
-                        "note12": 12.0,
-                        "note15": 4.0,
-                        "note14": 7.0,
-                        "note16": 2.0,
-                        "note5": 49.0,
-                        "grid_6_7": 0.0,
-                        "grid_8_15": 0.0,
-                        "grid_4_8": 0.0,
-                        "grid_4_9": 0.0,
-                        "grid_4_4": 0.0,
-                        "grid_4_5": 0.0,
-                        "grid_4_6": 0.0,
-                        "grid_6_5": 0.0,
-                        "bpm": 120.0,
-                        "grid_4_1": 0.0,
-                        "grid_4_2": 127.0,
-                        "grid_4_3": 0.0,
-                        "grid_8_1": 0.0,
-                        "grid_8_2": 127.0,
-                        "grid_8_3": 111.0,
-                        "grid_8_4": 0.0,
-                        "grid_8_5": 127.0,
-                        "grid_2_8": 0.0,
-                        "grid_2_9": 0.0,
-                        "grid_8_8": 0.0,
-                        "grid_8_9": 0.0,
-                        "grid_2_4": 0.0,
-                        "grid_2_5": 0.0,
-                        "grid_2_2": 0.0,
-                        "grid_2_3": 127.0,
-                        "grid_2_1": 0.0,
-                        "grid_1_1": 127.0,
-                        "grid_1_3": 0.0,
-                        "grid_1_2": 127.0,
-                        "grid_1_5": 0.0,
-                        "grid_1_4": 0.0,
-                        "grid_1_7": 0.0,
-                        "grid_1_6": 0.0,
-                        "grid_1_9": 0.0,
-                        "grid_1_8": 0.0,
-                        "grid_1_14": 0.0,
-                        "grid_5_15": 0.0,
-                        "grid_7_16": 0.0,
-                        "grid_4_15": 0.0,
-                        "grid_6_12": 0.0,
-                        "grid_8_16": 0.0,
                         "grid_4_10": 0.0,
-                        "swing": 0.0,
-                        "grid_5_11": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "EPiano": {
-                    "bypassed": false,
-                    "ports": {
-                        "fine_tuning": 0.0,
-                        "hardness": -46.875,
-                        "overdrive": 18.75,
-                        "random_tuning": 6.25,
-                        "stereo_width": 150.0,
-                        "polyphonic": 0.5,
-                        "treble_boost": -50.0,
-                        "env_release": 71.875,
-                        "env_decay": 76.5625,
-                        "lfo_rate": 24.055000305175781,
-                        "modulation": 6.25,
-                        "vel_sense": 15.625
-                    },
-                    "preset": "http://moddevices.com/plugins/mda/presets#EPiano-mellow",
-                    "parameters": {}
-                },
-                "midistrum": {
-                    "bypassed": false,
-                    "ports": {
-                        "collect": 300.0,
-                        "adjvelocity": 112.0,
-                        "adjspeed": 1.0,
-                        "randspeed": 1.0,
-                        "bpm": 120.0,
-                        "bpmsrc": 1.0,
-                        "randvelocity": 1.0,
-                        "duration": 2.0,
-                        "mode": 2.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "Gain": {
-                    "bypassed": false,
-                    "ports": {
-                        "Gain": -6.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "onechannelfilter_1": {
-                    "bypassed": false,
-                    "ports": {
-                        "channel": 1.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "keysplit": {
-                    "bypassed": false,
-                    "ports": {
-                        "transp1": 0.0,
-                        "transp0": 24.0,
-                        "split": 34.0,
-                        "channel1": 2.0,
-                        "channel0": 1.0,
-                        "channelf": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                }
-            },
-            "name": "IV Fill"
-        },
-        {
-            "data": {
-                "faIR_cabsim": {
-                    "bypassed": false,
-                    "ports": {
-                        "Model": 0.0,
-                        "Attenuation": -5.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "mixer_stereo": {
-                    "bypassed": false,
-                    "ports": {
-                        "Panning3": 0.0,
-                        "Panning1": 0.0,
-                        "Solo3": 0.0,
-                        "PluginEnabled": 1.0,
-                        "MasterVolume": 0.9375,
-                        "Panning4": 0.0,
-                        "Alt4": 0.0,
-                        "Alt3": 0.0,
-                        "Alt2": 0.0,
-                        "Alt1": 0.0,
-                        "Panning2": 0.0,
-                        "Mute4": 0.0,
-                        "TruePanning": 1.0,
-                        "Mute1": 0.0,
-                        "Mute2": 0.0,
-                        "Mute3": 0.0,
-                        "Volume4": 0.58537946428571352,
-                        "Volume1": 1.0,
-                        "Volume3": 0.9375,
-                        "Volume2": 0.75,
-                        "Solo2": 0.0,
-                        "AltVolume": 0.75,
-                        "Solo1": 0.0,
-                        "Solo4": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "onechannelfilter": {
-                    "bypassed": false,
-                    "ports": {
-                        "channel": 2.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "FluidPlug_FluidBass": {
-                    "bypassed": false,
-                    "ports": {
-                        "program": 0.0,
-                        "level": 0.75
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "_CreamMachine_": {
-                    "bypassed": false,
-                    "ports": {
-                        "TREBLE": 0.5,
-                        "VOLUME": 0.23999999463558197,
-                        "BASS": 0.5,
-                        "BYPASS": 1.0,
-                        "LEVEL": 0.15942028985507245
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "xfade": {
-                    "bypassed": true,
-                    "ports": {
-                        "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 1.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "studiopre": {
-                    "bypassed": false,
-                    "ports": {
-                        "volume": 5.0,
-                        "middle": 0.5,
-                        "bright": 0.0,
-                        "treble": 0.5,
-                        "bass": 0.5
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "miditranspose": {
-                    "bypassed": false,
-                    "ports": {
-                        "transpose": 36.0,
-                        "inversion": 0.0,
-                        "channelf": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "randvelocity": {
-                    "bypassed": false,
-                    "ports": {
-                        "randfact": 127.0,
-                        "mode": 1.0,
-                        "channel": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "CollisionDrive": {
-                    "bypassed": false,
-                    "ports": {
-                        "GATE": -55.0,
-                        "BRIGHT": 0.5,
-                        "DRIVE": 0.59375,
-                        "ATTACK": 1.0,
-                        "BYPASS": 1.0,
-                        "LEVEL": -0.875
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "midichord": {
-                    "bypassed": false,
-                    "ports": {
-                        "c3": 0.0,
-                        "c1": 1.0,
-                        "c7": 0.0,
-                        "c6": 0.0,
-                        "c5": 1.0,
-                        "c9": 0.0,
-                        "c8": 1.0,
-                        "_8": 1.0,
-                        "c13": 0.0,
-                        "c11": 0.0,
-                        "scale": 7.0,
-                        "channelf": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "FluidPlug_FluidDrums": {
-                    "bypassed": false,
-                    "ports": {
-                        "program": 2.0,
-                        "level": 0.84375
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "echo": {
-                    "bypassed": false,
-                    "ports": {
-                        "haaseffect": 1.0,
-                        "swapoutputs": 0.0,
-                        "rhaasfeedback": 10.0,
-                        "lecholevel": -12.5,
-                        "recholevel": -12.5,
-                        "ldelay": 375.0,
-                        "dryLevel": -4.0,
-                        "crossmode": 1.0,
-                        "lfeedback": 10.0,
-                        "rhaasdelay": 750.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "s8n16": {
-                    "bypassed": false,
-                    "ports": {
-                        "grid_4_7": 0.0,
-                        "grid_1_12": 127.0,
-                        "grid_3_13": 0.0,
-                        "grid_5_5": 0.0,
-                        "grid_5_4": 0.0,
-                        "grid_5_7": 0.0,
-                        "grid_5_6": 101.0,
-                        "grid_5_1": 0.0,
-                        "grid_8_7": 0.0,
-                        "grid_5_3": 0.0,
-                        "grid_5_2": 127.0,
-                        "grid_5_9": 0.0,
-                        "grid_5_8": 0.0,
-                        "grid_3_7": 0.0,
-                        "grid_3_6": 99.0,
-                        "grid_3_5": 0.0,
-                        "grid_3_4": 0.0,
-                        "grid_3_3": 127.0,
-                        "grid_3_2": 0.0,
-                        "grid_3_1": 127.0,
-                        "grid_3_16": 0.0,
-                        "grid_3_9": 0.0,
-                        "grid_3_8": 0.0,
-                        "panic": 0.0,
-                        "grid_8_6": 0.0,
-                        "grid_3_12": 0.0,
-                        "grid_6_14": 0.0,
-                        "grid_4_12": 127.0,
-                        "grid_2_6": 0.0,
-                        "grid_2_7": 0.0,
-                        "grid_2_10": 0.0,
-                        "grid_7_10": 127.0,
-                        "grid_7_14": 0.0,
-                        "grid_1_15": 0.0,
-                        "grid_7_11": 0.0,
-                        "grid_2_13": 127.0,
-                        "grid_7_15": 0.0,
-                        "grid_5_13": 0.0,
-                        "grid_4_16": 0.0,
-                        "grid_5_16": 0.0,
-                        "grid_5_14": 0.0,
-                        "drummode": 0.0,
-                        "grid_8_10": 0.0,
-                        "grid_8_13": 0.0,
-                        "grid_3_15": 0.0,
-                        "grid_3_14": 0.0,
-                        "sync": 0.0,
-                        "grid_7_9": 0.0,
-                        "grid_8_12": 0.0,
+                        "grid_3_15": 127.0,
+                        "grid_8_15": 0.0,
                         "grid_5_12": 0.0,
-                        "grid_7_3": 127.0,
-                        "grid_7_2": 0.0,
-                        "grid_7_1": 127.0,
-                        "grid_7_7": 0.0,
-                        "grid_7_6": 103.0,
-                        "grid_7_5": 0.0,
-                        "grid_7_4": 0.0,
+                        "grid_4_8": 0.0,
+                        "grid_6_14": 0.0,
+                        "panic": 0.0,
                         "grid_4_14": 0.0,
-                        "grid_7_13": 0.0,
                         "grid_6_11": 0.0,
-                        "grid_1_10": 0.0,
-                        "grid_7_8": 0.0,
-                        "grid_1_13": 0.0,
-                        "grid_1_11": 0.0,
-                        "note2": 38.0,
-                        "grid_3_10": 0.0,
-                        "grid_2_14": 0.0,
-                        "grid_5_10": 0.0,
-                        "grid_2_12": 0.0,
+                        "grid_3_4": 113.0,
+                        "grid_3_5": 0.0,
+                        "grid_3_6": 0.0,
+                        "grid_3_7": 0.0,
+                        "grid_3_1": 0.0,
+                        "grid_3_2": 119.0,
+                        "grid_3_3": 0.0,
+                        "grid_3_8": 0.0,
+                        "grid_3_9": 0.0,
+                        "grid_3_13": 0.0,
+                        "grid_6_15": 127.0,
+                        "grid_5_11": 0.0,
                         "grid_4_13": 0.0,
-                        "grid_2_16": 0.0,
-                        "chn": 0.0,
-                        "grid_6_2": 0.0,
-                        "grid_6_3": 0.0,
-                        "note3": 42.0,
-                        "grid_6_1": 0.0,
-                        "grid_6_6": 0.0,
-                        "note4": 44.0,
-                        "grid_6_4": 0.0,
-                        "note6": 51.0,
-                        "note9": 19.0,
-                        "note8": 26.0,
-                        "grid_6_8": 0.0,
-                        "grid_6_9": 0.0,
-                        "grid_8_14": 0.0,
-                        "grid_6_15": 0.0,
-                        "grid_1_16": 0.0,
-                        "grid_8_11": 0.0,
-                        "grid_6_10": 0.0,
-                        "grid_2_11": 0.0,
-                        "grid_7_12": 0.0,
-                        "grid_6_13": 0.0,
-                        "grid_3_11": 0.0,
-                        "grid_4_11": 0.0,
-                        "div": 2.0,
-                        "grid_6_16": 0.0,
-                        "note7": 28.0,
-                        "note1": 35.0,
-                        "grid_2_15": 0.0,
-                        "note11": 14.0,
-                        "note10": 16.0,
-                        "note13": 9.0,
-                        "note12": 11.0,
-                        "note15": 4.0,
-                        "note14": 7.0,
-                        "note16": 2.0,
-                        "note5": 49.0,
-                        "grid_6_7": 0.0,
-                        "grid_8_15": 0.0,
-                        "grid_4_8": 0.0,
-                        "grid_4_9": 0.0,
-                        "grid_4_4": 0.0,
-                        "grid_4_5": 0.0,
-                        "grid_4_6": 0.0,
-                        "grid_6_5": 0.0,
-                        "bpm": 120.0,
-                        "grid_4_1": 0.0,
-                        "grid_4_2": 0.0,
-                        "grid_4_3": 0.0,
-                        "grid_8_1": 0.0,
-                        "grid_8_2": 0.0,
-                        "grid_8_3": 0.0,
-                        "grid_8_4": 0.0,
-                        "grid_8_5": 0.0,
-                        "grid_2_8": 0.0,
-                        "grid_2_9": 0.0,
-                        "grid_8_8": 0.0,
-                        "grid_8_9": 0.0,
-                        "grid_2_4": 0.0,
-                        "grid_2_5": 0.0,
-                        "grid_2_2": 0.0,
-                        "grid_2_3": 0.0,
-                        "grid_2_1": 0.0,
-                        "grid_1_1": 127.0,
-                        "grid_1_3": 0.0,
-                        "grid_1_2": 0.0,
-                        "grid_1_5": 0.0,
-                        "grid_1_4": 0.0,
-                        "grid_1_7": 0.0,
-                        "grid_1_6": 103.0,
-                        "grid_1_9": 0.0,
-                        "grid_1_8": 0.0,
-                        "grid_1_14": 0.0,
-                        "grid_5_15": 0.0,
-                        "grid_7_16": 0.0,
-                        "grid_4_15": 0.0,
-                        "grid_6_12": 0.0,
-                        "grid_8_16": 0.0,
-                        "grid_4_10": 0.0,
-                        "swing": 0.0,
-                        "grid_5_11": 127.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "EPiano": {
-                    "bypassed": false,
-                    "ports": {
-                        "fine_tuning": 0.0,
-                        "hardness": -46.875,
-                        "overdrive": 18.75,
-                        "random_tuning": 6.25,
-                        "stereo_width": 150.0,
-                        "polyphonic": 0.5,
-                        "treble_boost": -50.0,
-                        "env_release": 71.875,
-                        "env_decay": 76.5625,
-                        "lfo_rate": 24.055000305175781,
-                        "modulation": 6.25,
-                        "vel_sense": 15.625
-                    },
-                    "preset": "http://moddevices.com/plugins/mda/presets#EPiano-mellow",
-                    "parameters": {}
-                },
-                "midistrum": {
-                    "bypassed": false,
-                    "ports": {
-                        "collect": 300.0,
-                        "adjvelocity": 112.0,
-                        "adjspeed": 1.0,
-                        "randspeed": 1.0,
-                        "bpm": 120.0,
-                        "bpmsrc": 1.0,
-                        "randvelocity": 1.0,
-                        "duration": 2.0,
-                        "mode": 2.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "Gain": {
-                    "bypassed": false,
-                    "ports": {
-                        "Gain": -6.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "onechannelfilter_1": {
-                    "bypassed": false,
-                    "ports": {
-                        "channel": 1.0
-                    },
-                    "preset": "",
-                    "parameters": {}
+                        "sync": 0.0,
+                        "grid_5_14": 0.0
+                    }
                 },
                 "keysplit": {
                     "bypassed": false,
-                    "ports": {
-                        "transp1": 0.0,
-                        "transp0": 24.0,
-                        "split": 34.0,
-                        "channel1": 2.0,
-                        "channel0": 1.0,
-                        "channelf": 0.0
-                    },
                     "preset": "",
-                    "parameters": {}
+                    "parameters": {},
+                    "ports": {
+                        "channel0": 1.0,
+                        "channel1": 2.0,
+                        "channelf": 0.0,
+                        "split": 34.0,
+                        "transp0": 24.0,
+                        "transp1": 0.0
+                    }
+                },
+                "FluidPlug_FluidDrums": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "program": 2.0,
+                        "level": 0.84375
+                    }
+                },
+                "studiopre": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "bright": 0.0,
+                        "middle": 0.5,
+                        "treble": 0.5,
+                        "volume": 5.0,
+                        "bass": 0.5
+                    }
+                },
+                "FluidPlug_FluidBass": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "program": 0.0,
+                        "level": 0.75
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "faIR_cabsim": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 0.0,
+                        "Attenuation": -5.0
+                    }
+                },
+                "miditranspose": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "transpose": 36.0,
+                        "channelf": 0.0,
+                        "inversion": 0.0
+                    }
+                },
+                "randvelocity": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "randfact": 127.0,
+                        "channel": 0.0,
+                        "mode": 1.0
+                    }
+                },
+                "midistrum": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "collect": 300.0,
+                        "randvelocity": 1.0,
+                        "mode": 2.0,
+                        "randspeed": 1.0,
+                        "duration": 2.0,
+                        "bpmsrc": 1.0,
+                        "adjspeed": 1.0,
+                        "bpm": 120.0,
+                        "adjvelocity": 112.0
+                    }
+                },
+                "EPiano": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#EPiano-mellow",
+                    "parameters": {},
+                    "ports": {
+                        "fine_tuning": 0.0,
+                        "lfo_rate": 4.0,
+                        "env_decay": 23.0,
+                        "hardness": -46.875,
+                        "stereo_width": 150.0,
+                        "polyphonic": 0.5,
+                        "overdrive": 18.75,
+                        "env_release": 1.3999999761581421,
+                        "random_tuning": 6.25,
+                        "treble_boost": -50.0,
+                        "modulation": 10.0,
+                        "vel_sense": 15.625
+                    }
+                },
+                "_CreamMachine_": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "TREBLE": 0.5,
+                        "LEVEL": 0.15941999852657318,
+                        "BYPASS": 1.0,
+                        "BASS": 0.5,
+                        "VOLUME": 0.23999999463558197
+                    }
+                },
+                "midichord": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "c8": 1.0,
+                        "c9": 0.0,
+                        "c13": 0.0,
+                        "c11": 0.0,
+                        "c3": 0.0,
+                        "c5": 1.0,
+                        "c6": 0.0,
+                        "c7": 0.0,
+                        "scale": 7.0,
+                        "_8": 1.0,
+                        "channelf": 0.0,
+                        "c1": 1.0
+                    }
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "onechannelfilter": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "channel": 2.0
+                    }
+                },
+                "mixer_stereo": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Mute4": 0.0,
+                        "Mute3": 0.0,
+                        "Mute2": 0.0,
+                        "Panning4": 0.0,
+                        "Panning2": 0.0,
+                        "Alt2": 0.0,
+                        "Panning1": 0.0,
+                        "AltVolume": 0.75,
+                        "Volume4": 0.58537900447845459,
+                        "Volume2": 0.75,
+                        "Volume3": 0.9375,
+                        "Volume1": 1.0,
+                        "Solo1": 0.0,
+                        "MasterVolume": 0.94999999999999996,
+                        "Solo3": 0.0,
+                        "Solo2": 0.0,
+                        "TruePanning": 1.0,
+                        "Alt1": 0.0,
+                        "Mute1": 0.0,
+                        "Alt3": 0.0,
+                        "Alt4": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Panning3": 0.0,
+                        "Solo4": 0.0
+                    }
+                },
+                "echo": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "dryLevel": -4.0,
+                        "crossmode": 1.0,
+                        "rhaasfeedback": 10.0,
+                        "recholevel": -12.5,
+                        "ldelay": 375.0234375,
+                        "lfeedback": 10.0,
+                        "lecholevel": -12.5,
+                        "swapoutputs": 0.0,
+                        "haaseffect": 1.0,
+                        "rhaasdelay": 750.18756103515625
+                    }
+                },
+                "onechannelfilter_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "channel": 1.0
+                    }
                 }
-            },
-            "name": "V Base"
+            }
+        },
+        {
+            "name": "I Fill",
+            "data": {
+                "CollisionDrive": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "BRIGHT": 0.5,
+                        "LEVEL": -0.875,
+                        "BYPASS": 1.0,
+                        "ATTACK": 1.0,
+                        "GATE": -55.0,
+                        "DRIVE": 0.59375
+                    }
+                },
+                "s8n16": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "note12": 11.0,
+                        "note13": 9.0,
+                        "note10": 16.0,
+                        "note11": 14.0,
+                        "swing": 0.0,
+                        "note14": 7.0,
+                        "note15": 4.0,
+                        "grid_1_12": 0.0,
+                        "grid_1_9": 0.0,
+                        "note16": 2.0,
+                        "drummode": 0.0,
+                        "grid_2_11": 0.0,
+                        "chn": 0.0,
+                        "grid_8_3": 111.0,
+                        "grid_6_12": 0.0,
+                        "grid_1_3": 0.0,
+                        "grid_1_16": 0.0,
+                        "grid_1_15": 127.0,
+                        "grid_1_14": 0.0,
+                        "grid_8_13": 0.0,
+                        "grid_4_12": 0.0,
+                        "grid_8_11": 0.0,
+                        "grid_8_10": 0.0,
+                        "grid_1_10": 0.0,
+                        "grid_7_15": 0.0,
+                        "grid_8_6": 0.0,
+                        "grid_8_5": 0.0,
+                        "grid_1_5": 0.0,
+                        "grid_3_11": 0.0,
+                        "grid_2_4": 0.0,
+                        "grid_8_12": 0.0,
+                        "grid_2_12": 0.0,
+                        "grid_6_1": 117.0,
+                        "grid_6_3": 113.0,
+                        "grid_6_2": 0.0,
+                        "grid_6_5": 0.0,
+                        "grid_6_4": 0.0,
+                        "grid_6_7": 0.0,
+                        "grid_6_6": 0.0,
+                        "grid_6_9": 127.0,
+                        "div": 2.0,
+                        "grid_8_14": 0.0,
+                        "grid_4_7": 0.0,
+                        "grid_4_6": 0.0,
+                        "grid_4_5": 0.0,
+                        "grid_4_4": 0.0,
+                        "grid_4_3": 107.0,
+                        "grid_4_2": 0.0,
+                        "grid_4_1": 121.0,
+                        "grid_2_2": 0.0,
+                        "grid_7_14": 0.0,
+                        "grid_4_9": 0.0,
+                        "bpm": 120.0,
+                        "grid_8_7": 0.0,
+                        "grid_1_8": 0.0,
+                        "grid_2_16": 0.0,
+                        "note8": 26.0,
+                        "note9": 19.0,
+                        "note2": 38.0,
+                        "note3": 42.0,
+                        "note1": 35.0,
+                        "note6": 51.0,
+                        "note7": 28.0,
+                        "note4": 44.0,
+                        "note5": 41.0,
+                        "grid_4_11": 127.0,
+                        "grid_5_10": 0.0,
+                        "grid_3_14": 0.0,
+                        "grid_7_12": 0.0,
+                        "grid_7_10": 0.0,
+                        "grid_5_15": 0.0,
+                        "grid_8_9": 127.0,
+                        "grid_8_8": 0.0,
+                        "grid_3_10": 0.0,
+                        "grid_1_2": 0.0,
+                        "grid_8_2": 0.0,
+                        "grid_8_1": 0.0,
+                        "grid_1_1": 127.0,
+                        "grid_1_6": 0.0,
+                        "grid_1_7": 0.0,
+                        "grid_1_4": 119.0,
+                        "grid_8_4": 0.0,
+                        "grid_7_8": 0.0,
+                        "grid_7_9": 127.0,
+                        "grid_7_1": 0.0,
+                        "grid_7_2": 127.0,
+                        "grid_7_3": 0.0,
+                        "grid_7_4": 115.0,
+                        "grid_7_5": 0.0,
+                        "grid_7_6": 0.0,
+                        "grid_7_7": 0.0,
+                        "grid_6_13": 0.0,
+                        "grid_5_8": 0.0,
+                        "grid_5_9": 0.0,
+                        "grid_5_6": 0.0,
+                        "grid_5_7": 0.0,
+                        "grid_5_4": 115.0,
+                        "grid_5_5": 0.0,
+                        "grid_5_2": 127.0,
+                        "grid_5_3": 0.0,
+                        "grid_5_1": 0.0,
+                        "grid_6_8": 0.0,
+                        "grid_1_13": 0.0,
+                        "grid_6_16": 0.0,
+                        "grid_7_16": 0.0,
+                        "grid_4_15": 0.0,
+                        "grid_4_16": 0.0,
+                        "grid_2_14": 0.0,
+                        "grid_2_9": 0.0,
+                        "grid_2_8": 0.0,
+                        "grid_7_11": 0.0,
+                        "grid_2_5": 0.0,
+                        "grid_2_13": 0.0,
+                        "grid_2_7": 0.0,
+                        "grid_2_6": 0.0,
+                        "grid_2_1": 0.0,
+                        "grid_2_3": 121.0,
+                        "grid_3_12": 0.0,
+                        "grid_1_11": 0.0,
+                        "grid_6_10": 0.0,
+                        "grid_5_16": 0.0,
+                        "grid_2_10": 0.0,
+                        "grid_7_13": 0.0,
+                        "grid_2_15": 127.0,
+                        "grid_8_16": 0.0,
+                        "grid_5_13": 0.0,
+                        "grid_3_16": 0.0,
+                        "grid_4_10": 0.0,
+                        "grid_3_15": 127.0,
+                        "grid_8_15": 0.0,
+                        "grid_5_12": 0.0,
+                        "grid_4_8": 0.0,
+                        "grid_6_14": 0.0,
+                        "panic": 0.0,
+                        "grid_4_14": 0.0,
+                        "grid_6_11": 0.0,
+                        "grid_3_4": 113.0,
+                        "grid_3_5": 0.0,
+                        "grid_3_6": 0.0,
+                        "grid_3_7": 0.0,
+                        "grid_3_1": 0.0,
+                        "grid_3_2": 119.0,
+                        "grid_3_3": 0.0,
+                        "grid_3_8": 0.0,
+                        "grid_3_9": 0.0,
+                        "grid_3_13": 0.0,
+                        "grid_6_15": 0.0,
+                        "grid_5_11": 127.0,
+                        "grid_4_13": 0.0,
+                        "sync": 0.0,
+                        "grid_5_14": 0.0
+                    }
+                },
+                "keysplit": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "channel0": 1.0,
+                        "channel1": 2.0,
+                        "channelf": 0.0,
+                        "split": 34.0,
+                        "transp0": 24.0,
+                        "transp1": 0.0
+                    }
+                },
+                "FluidPlug_FluidDrums": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "program": 2.0,
+                        "level": 0.84375
+                    }
+                },
+                "studiopre": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "bright": 0.0,
+                        "middle": 0.5,
+                        "treble": 0.5,
+                        "volume": 5.0,
+                        "bass": 0.5
+                    }
+                },
+                "FluidPlug_FluidBass": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "program": 0.0,
+                        "level": 0.75
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "faIR_cabsim": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 0.0,
+                        "Attenuation": -5.0
+                    }
+                },
+                "miditranspose": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "transpose": 36.0,
+                        "channelf": 0.0,
+                        "inversion": 0.0
+                    }
+                },
+                "randvelocity": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "randfact": 127.0,
+                        "channel": 0.0,
+                        "mode": 1.0
+                    }
+                },
+                "midistrum": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "collect": 300.0,
+                        "randvelocity": 1.0,
+                        "mode": 2.0,
+                        "randspeed": 1.0,
+                        "duration": 2.0,
+                        "bpmsrc": 1.0,
+                        "adjspeed": 1.0,
+                        "bpm": 120.0,
+                        "adjvelocity": 112.0
+                    }
+                },
+                "EPiano": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#EPiano-mellow",
+                    "parameters": {},
+                    "ports": {
+                        "fine_tuning": 0.0,
+                        "lfo_rate": 4.0,
+                        "env_decay": 23.0,
+                        "hardness": -46.875,
+                        "stereo_width": 150.0,
+                        "polyphonic": 0.5,
+                        "overdrive": 18.75,
+                        "env_release": 1.3999999761581421,
+                        "random_tuning": 6.25,
+                        "treble_boost": -50.0,
+                        "modulation": 10.0,
+                        "vel_sense": 15.625
+                    }
+                },
+                "_CreamMachine_": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "TREBLE": 0.5,
+                        "LEVEL": 0.15942028985507245,
+                        "BYPASS": 1.0,
+                        "BASS": 0.5,
+                        "VOLUME": 0.23999999463558197
+                    }
+                },
+                "midichord": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "c8": 1.0,
+                        "c9": 0.0,
+                        "c13": 0.0,
+                        "c11": 0.0,
+                        "c3": 0.0,
+                        "c5": 1.0,
+                        "c6": 0.0,
+                        "c7": 0.0,
+                        "scale": 7.0,
+                        "_8": 1.0,
+                        "channelf": 0.0,
+                        "c1": 1.0
+                    }
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "onechannelfilter": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "channel": 2.0
+                    }
+                },
+                "mixer_stereo": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Mute4": 0.0,
+                        "Mute3": 0.0,
+                        "Mute2": 0.0,
+                        "Panning4": 0.0,
+                        "Panning2": 0.0,
+                        "Alt2": 0.0,
+                        "Panning1": 0.0,
+                        "AltVolume": 0.75,
+                        "Volume4": 0.58537946428571352,
+                        "Volume2": 0.75,
+                        "Volume3": 0.9375,
+                        "Volume1": 1.0,
+                        "Solo1": 0.0,
+                        "MasterVolume": 0.9375,
+                        "Solo3": 0.0,
+                        "Solo2": 0.0,
+                        "TruePanning": 1.0,
+                        "Alt1": 0.0,
+                        "Mute1": 0.0,
+                        "Alt3": 0.0,
+                        "Alt4": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Panning3": 0.0,
+                        "Solo4": 0.0
+                    }
+                },
+                "echo": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "dryLevel": -4.0,
+                        "crossmode": 1.0,
+                        "rhaasfeedback": 10.0,
+                        "recholevel": -12.5,
+                        "ldelay": 375.0,
+                        "lfeedback": 10.0,
+                        "lecholevel": -12.5,
+                        "swapoutputs": 0.0,
+                        "haaseffect": 1.0,
+                        "rhaasdelay": 750.0
+                    }
+                },
+                "onechannelfilter_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "channel": 1.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "IV Base",
+            "data": {
+                "CollisionDrive": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "BRIGHT": 0.5,
+                        "LEVEL": -0.875,
+                        "BYPASS": 1.0,
+                        "ATTACK": 1.0,
+                        "GATE": -55.0,
+                        "DRIVE": 0.59375
+                    }
+                },
+                "s8n16": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "note12": 12.0,
+                        "note13": 9.0,
+                        "note10": 16.0,
+                        "note11": 14.0,
+                        "swing": 0.0,
+                        "note14": 7.0,
+                        "note15": 4.0,
+                        "grid_1_12": 0.0,
+                        "grid_1_9": 0.0,
+                        "note16": 2.0,
+                        "drummode": 0.0,
+                        "grid_2_11": 0.0,
+                        "chn": 0.0,
+                        "grid_8_3": 111.0,
+                        "grid_6_12": 0.0,
+                        "grid_1_3": 0.0,
+                        "grid_1_16": 0.0,
+                        "grid_1_15": 0.0,
+                        "grid_1_14": 0.0,
+                        "grid_8_13": 0.0,
+                        "grid_4_12": 0.0,
+                        "grid_8_11": 0.0,
+                        "grid_8_10": 0.0,
+                        "grid_1_10": 0.0,
+                        "grid_7_15": 0.0,
+                        "grid_8_6": 0.0,
+                        "grid_8_5": 0.0,
+                        "grid_1_5": 0.0,
+                        "grid_3_11": 0.0,
+                        "grid_2_4": 0.0,
+                        "grid_8_12": 127.0,
+                        "grid_2_12": 0.0,
+                        "grid_6_1": 0.0,
+                        "grid_6_3": 113.0,
+                        "grid_6_2": 0.0,
+                        "grid_6_5": 0.0,
+                        "grid_6_4": 0.0,
+                        "grid_6_7": 0.0,
+                        "grid_6_6": 0.0,
+                        "grid_6_9": 127.0,
+                        "div": 2.0,
+                        "grid_8_14": 0.0,
+                        "grid_4_7": 0.0,
+                        "grid_4_6": 0.0,
+                        "grid_4_5": 0.0,
+                        "grid_4_4": 0.0,
+                        "grid_4_3": 107.0,
+                        "grid_4_2": 0.0,
+                        "grid_4_1": 0.0,
+                        "grid_2_2": 0.0,
+                        "grid_7_14": 0.0,
+                        "grid_4_9": 0.0,
+                        "bpm": 120.0,
+                        "grid_8_7": 0.0,
+                        "grid_1_8": 0.0,
+                        "grid_2_16": 0.0,
+                        "note8": 26.0,
+                        "note9": 19.0,
+                        "note2": 38.0,
+                        "note3": 42.0,
+                        "note1": 35.0,
+                        "note6": 51.0,
+                        "note7": 28.0,
+                        "note4": 44.0,
+                        "note5": 41.0,
+                        "grid_4_11": 0.0,
+                        "grid_5_10": 0.0,
+                        "grid_3_14": 0.0,
+                        "grid_7_12": 0.0,
+                        "grid_7_10": 0.0,
+                        "grid_5_15": 0.0,
+                        "grid_8_9": 0.0,
+                        "grid_8_8": 0.0,
+                        "grid_3_10": 0.0,
+                        "grid_1_2": 0.0,
+                        "grid_8_2": 0.0,
+                        "grid_8_1": 0.0,
+                        "grid_1_1": 127.0,
+                        "grid_1_6": 0.0,
+                        "grid_1_7": 0.0,
+                        "grid_1_4": 119.0,
+                        "grid_8_4": 0.0,
+                        "grid_7_8": 0.0,
+                        "grid_7_9": 127.0,
+                        "grid_7_1": 0.0,
+                        "grid_7_2": 127.0,
+                        "grid_7_3": 0.0,
+                        "grid_7_4": 115.0,
+                        "grid_7_5": 0.0,
+                        "grid_7_6": 0.0,
+                        "grid_7_7": 0.0,
+                        "grid_6_13": 0.0,
+                        "grid_5_8": 0.0,
+                        "grid_5_9": 0.0,
+                        "grid_5_6": 0.0,
+                        "grid_5_7": 0.0,
+                        "grid_5_4": 115.0,
+                        "grid_5_5": 0.0,
+                        "grid_5_2": 0.0,
+                        "grid_5_3": 0.0,
+                        "grid_5_1": 127.0,
+                        "grid_6_8": 0.0,
+                        "grid_1_13": 127.0,
+                        "grid_6_16": 0.0,
+                        "grid_7_16": 0.0,
+                        "grid_4_15": 0.0,
+                        "grid_4_16": 0.0,
+                        "grid_2_14": 0.0,
+                        "grid_2_9": 0.0,
+                        "grid_2_8": 0.0,
+                        "grid_7_11": 0.0,
+                        "grid_2_5": 0.0,
+                        "grid_2_13": 127.0,
+                        "grid_2_7": 0.0,
+                        "grid_2_6": 0.0,
+                        "grid_2_1": 0.0,
+                        "grid_2_3": 121.0,
+                        "grid_3_12": 0.0,
+                        "grid_1_11": 0.0,
+                        "grid_6_10": 0.0,
+                        "grid_5_16": 0.0,
+                        "grid_2_10": 0.0,
+                        "grid_7_13": 0.0,
+                        "grid_2_15": 0.0,
+                        "grid_8_16": 0.0,
+                        "grid_5_13": 0.0,
+                        "grid_3_16": 0.0,
+                        "grid_4_10": 0.0,
+                        "grid_3_15": 0.0,
+                        "grid_8_15": 0.0,
+                        "grid_5_12": 0.0,
+                        "grid_4_8": 0.0,
+                        "grid_6_14": 0.0,
+                        "panic": 0.0,
+                        "grid_4_14": 127.0,
+                        "grid_6_11": 0.0,
+                        "grid_3_4": 113.0,
+                        "grid_3_5": 0.0,
+                        "grid_3_6": 0.0,
+                        "grid_3_7": 0.0,
+                        "grid_3_1": 0.0,
+                        "grid_3_2": 119.0,
+                        "grid_3_3": 0.0,
+                        "grid_3_8": 0.0,
+                        "grid_3_9": 0.0,
+                        "grid_3_13": 0.0,
+                        "grid_6_15": 0.0,
+                        "grid_5_11": 0.0,
+                        "grid_4_13": 0.0,
+                        "sync": 0.0,
+                        "grid_5_14": 127.0
+                    }
+                },
+                "keysplit": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "channel0": 1.0,
+                        "channel1": 2.0,
+                        "channelf": 0.0,
+                        "split": 34.0,
+                        "transp0": 24.0,
+                        "transp1": 0.0
+                    }
+                },
+                "FluidPlug_FluidDrums": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "program": 2.0,
+                        "level": 0.84375
+                    }
+                },
+                "studiopre": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "bright": 0.0,
+                        "middle": 0.5,
+                        "treble": 0.5,
+                        "volume": 5.0,
+                        "bass": 0.5
+                    }
+                },
+                "FluidPlug_FluidBass": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "program": 0.0,
+                        "level": 0.75
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "faIR_cabsim": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 0.0,
+                        "Attenuation": -5.0
+                    }
+                },
+                "miditranspose": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "transpose": 36.0,
+                        "channelf": 0.0,
+                        "inversion": 0.0
+                    }
+                },
+                "randvelocity": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "randfact": 127.0,
+                        "channel": 0.0,
+                        "mode": 1.0
+                    }
+                },
+                "midistrum": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "collect": 300.0,
+                        "randvelocity": 1.0,
+                        "mode": 2.0,
+                        "randspeed": 1.0,
+                        "duration": 2.0,
+                        "bpmsrc": 1.0,
+                        "adjspeed": 1.0,
+                        "bpm": 120.0,
+                        "adjvelocity": 112.0
+                    }
+                },
+                "EPiano": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#EPiano-mellow",
+                    "parameters": {},
+                    "ports": {
+                        "fine_tuning": 0.0,
+                        "lfo_rate": 4.0,
+                        "env_decay": 23.0,
+                        "hardness": -46.875,
+                        "stereo_width": 150.0,
+                        "polyphonic": 0.5,
+                        "overdrive": 18.75,
+                        "env_release": 1.3999999761581421,
+                        "random_tuning": 6.25,
+                        "treble_boost": -50.0,
+                        "modulation": 10.0,
+                        "vel_sense": 15.625
+                    }
+                },
+                "_CreamMachine_": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "TREBLE": 0.5,
+                        "LEVEL": 0.15942028985507245,
+                        "BYPASS": 1.0,
+                        "BASS": 0.5,
+                        "VOLUME": 0.23999999463558197
+                    }
+                },
+                "midichord": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "c8": 1.0,
+                        "c9": 0.0,
+                        "c13": 0.0,
+                        "c11": 0.0,
+                        "c3": 0.0,
+                        "c5": 1.0,
+                        "c6": 0.0,
+                        "c7": 0.0,
+                        "scale": 7.0,
+                        "_8": 1.0,
+                        "channelf": 0.0,
+                        "c1": 1.0
+                    }
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "onechannelfilter": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "channel": 2.0
+                    }
+                },
+                "mixer_stereo": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Mute4": 0.0,
+                        "Mute3": 0.0,
+                        "Mute2": 0.0,
+                        "Panning4": 0.0,
+                        "Panning2": 0.0,
+                        "Alt2": 0.0,
+                        "Panning1": 0.0,
+                        "AltVolume": 0.75,
+                        "Volume4": 0.58537946428571352,
+                        "Volume2": 0.75,
+                        "Volume3": 0.9375,
+                        "Volume1": 1.0,
+                        "Solo1": 0.0,
+                        "MasterVolume": 0.9375,
+                        "Solo3": 0.0,
+                        "Solo2": 0.0,
+                        "TruePanning": 1.0,
+                        "Alt1": 0.0,
+                        "Mute1": 0.0,
+                        "Alt3": 0.0,
+                        "Alt4": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Panning3": 0.0,
+                        "Solo4": 0.0
+                    }
+                },
+                "echo": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "dryLevel": -4.0,
+                        "crossmode": 1.0,
+                        "rhaasfeedback": 10.0,
+                        "recholevel": -12.5,
+                        "ldelay": 375.0,
+                        "lfeedback": 10.0,
+                        "lecholevel": -12.5,
+                        "swapoutputs": 0.0,
+                        "haaseffect": 1.0,
+                        "rhaasdelay": 750.0
+                    }
+                },
+                "onechannelfilter_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "channel": 1.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "IV Fill",
+            "data": {
+                "CollisionDrive": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "BRIGHT": 0.5,
+                        "LEVEL": -0.875,
+                        "BYPASS": 1.0,
+                        "ATTACK": 1.0,
+                        "GATE": -55.0,
+                        "DRIVE": 0.59375
+                    }
+                },
+                "s8n16": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "note12": 12.0,
+                        "note13": 9.0,
+                        "note10": 16.0,
+                        "note11": 14.0,
+                        "swing": 0.0,
+                        "note14": 7.0,
+                        "note15": 4.0,
+                        "grid_1_12": 0.0,
+                        "grid_1_9": 0.0,
+                        "note16": 2.0,
+                        "drummode": 0.0,
+                        "grid_2_11": 0.0,
+                        "chn": 0.0,
+                        "grid_8_3": 111.0,
+                        "grid_6_12": 0.0,
+                        "grid_1_3": 0.0,
+                        "grid_1_16": 0.0,
+                        "grid_1_15": 0.0,
+                        "grid_1_14": 0.0,
+                        "grid_8_13": 0.0,
+                        "grid_4_12": 0.0,
+                        "grid_8_11": 0.0,
+                        "grid_8_10": 0.0,
+                        "grid_1_10": 0.0,
+                        "grid_7_15": 0.0,
+                        "grid_8_6": 0.0,
+                        "grid_8_5": 127.0,
+                        "grid_1_5": 0.0,
+                        "grid_3_11": 0.0,
+                        "grid_2_4": 0.0,
+                        "grid_8_12": 127.0,
+                        "grid_2_12": 0.0,
+                        "grid_6_1": 0.0,
+                        "grid_6_3": 127.0,
+                        "grid_6_2": 127.0,
+                        "grid_6_5": 0.0,
+                        "grid_6_4": 0.0,
+                        "grid_6_7": 0.0,
+                        "grid_6_6": 0.0,
+                        "grid_6_9": 127.0,
+                        "div": 2.0,
+                        "grid_8_14": 0.0,
+                        "grid_4_7": 0.0,
+                        "grid_4_6": 0.0,
+                        "grid_4_5": 0.0,
+                        "grid_4_4": 0.0,
+                        "grid_4_3": 0.0,
+                        "grid_4_2": 127.0,
+                        "grid_4_1": 0.0,
+                        "grid_2_2": 0.0,
+                        "grid_7_14": 0.0,
+                        "grid_4_9": 0.0,
+                        "bpm": 120.0,
+                        "grid_8_7": 0.0,
+                        "grid_1_8": 0.0,
+                        "grid_2_16": 0.0,
+                        "note8": 26.0,
+                        "note9": 19.0,
+                        "note2": 38.0,
+                        "note3": 42.0,
+                        "note1": 35.0,
+                        "note6": 51.0,
+                        "note7": 28.0,
+                        "note4": 44.0,
+                        "note5": 49.0,
+                        "grid_4_11": 0.0,
+                        "grid_5_10": 0.0,
+                        "grid_3_14": 0.0,
+                        "grid_7_12": 0.0,
+                        "grid_7_10": 0.0,
+                        "grid_5_15": 0.0,
+                        "grid_8_9": 0.0,
+                        "grid_8_8": 0.0,
+                        "grid_3_10": 0.0,
+                        "grid_1_2": 127.0,
+                        "grid_8_2": 127.0,
+                        "grid_8_1": 0.0,
+                        "grid_1_1": 127.0,
+                        "grid_1_6": 0.0,
+                        "grid_1_7": 0.0,
+                        "grid_1_4": 0.0,
+                        "grid_8_4": 0.0,
+                        "grid_7_8": 0.0,
+                        "grid_7_9": 127.0,
+                        "grid_7_1": 127.0,
+                        "grid_7_2": 0.0,
+                        "grid_7_3": 0.0,
+                        "grid_7_4": 0.0,
+                        "grid_7_5": 0.0,
+                        "grid_7_6": 0.0,
+                        "grid_7_7": 0.0,
+                        "grid_6_13": 0.0,
+                        "grid_5_8": 0.0,
+                        "grid_5_9": 0.0,
+                        "grid_5_6": 0.0,
+                        "grid_5_7": 0.0,
+                        "grid_5_4": 127.0,
+                        "grid_5_5": 0.0,
+                        "grid_5_2": 0.0,
+                        "grid_5_3": 0.0,
+                        "grid_5_1": 127.0,
+                        "grid_6_8": 0.0,
+                        "grid_1_13": 127.0,
+                        "grid_6_16": 0.0,
+                        "grid_7_16": 0.0,
+                        "grid_4_15": 0.0,
+                        "grid_4_16": 0.0,
+                        "grid_2_14": 0.0,
+                        "grid_2_9": 0.0,
+                        "grid_2_8": 0.0,
+                        "grid_7_11": 0.0,
+                        "grid_2_5": 0.0,
+                        "grid_2_13": 127.0,
+                        "grid_2_7": 0.0,
+                        "grid_2_6": 0.0,
+                        "grid_2_1": 0.0,
+                        "grid_2_3": 127.0,
+                        "grid_3_12": 0.0,
+                        "grid_1_11": 0.0,
+                        "grid_6_10": 0.0,
+                        "grid_5_16": 0.0,
+                        "grid_2_10": 0.0,
+                        "grid_7_13": 0.0,
+                        "grid_2_15": 0.0,
+                        "grid_8_16": 0.0,
+                        "grid_5_13": 0.0,
+                        "grid_3_16": 0.0,
+                        "grid_4_10": 0.0,
+                        "grid_3_15": 0.0,
+                        "grid_8_15": 0.0,
+                        "grid_5_12": 0.0,
+                        "grid_4_8": 0.0,
+                        "grid_6_14": 0.0,
+                        "panic": 0.0,
+                        "grid_4_14": 127.0,
+                        "grid_6_11": 0.0,
+                        "grid_3_4": 0.0,
+                        "grid_3_5": 0.0,
+                        "grid_3_6": 0.0,
+                        "grid_3_7": 0.0,
+                        "grid_3_1": 127.0,
+                        "grid_3_2": 0.0,
+                        "grid_3_3": 0.0,
+                        "grid_3_8": 0.0,
+                        "grid_3_9": 0.0,
+                        "grid_3_13": 0.0,
+                        "grid_6_15": 0.0,
+                        "grid_5_11": 0.0,
+                        "grid_4_13": 0.0,
+                        "sync": 0.0,
+                        "grid_5_14": 127.0
+                    }
+                },
+                "keysplit": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "channel0": 1.0,
+                        "channel1": 2.0,
+                        "channelf": 0.0,
+                        "split": 34.0,
+                        "transp0": 24.0,
+                        "transp1": 0.0
+                    }
+                },
+                "FluidPlug_FluidDrums": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "program": 2.0,
+                        "level": 0.84375
+                    }
+                },
+                "studiopre": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "bright": 0.0,
+                        "middle": 0.5,
+                        "treble": 0.5,
+                        "volume": 5.0,
+                        "bass": 0.5
+                    }
+                },
+                "FluidPlug_FluidBass": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "program": 0.0,
+                        "level": 0.75
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "faIR_cabsim": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 0.0,
+                        "Attenuation": -5.0
+                    }
+                },
+                "miditranspose": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "transpose": 36.0,
+                        "channelf": 0.0,
+                        "inversion": 0.0
+                    }
+                },
+                "randvelocity": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "randfact": 127.0,
+                        "channel": 0.0,
+                        "mode": 1.0
+                    }
+                },
+                "midistrum": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "collect": 300.0,
+                        "randvelocity": 1.0,
+                        "mode": 2.0,
+                        "randspeed": 1.0,
+                        "duration": 2.0,
+                        "bpmsrc": 1.0,
+                        "adjspeed": 1.0,
+                        "bpm": 120.0,
+                        "adjvelocity": 112.0
+                    }
+                },
+                "EPiano": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#EPiano-mellow",
+                    "parameters": {},
+                    "ports": {
+                        "fine_tuning": 0.0,
+                        "lfo_rate": 4.0,
+                        "env_decay": 23.0,
+                        "hardness": -46.875,
+                        "stereo_width": 150.0,
+                        "polyphonic": 0.5,
+                        "overdrive": 18.75,
+                        "env_release": 1.3999999761581421,
+                        "random_tuning": 6.25,
+                        "treble_boost": -50.0,
+                        "modulation": 10.0,
+                        "vel_sense": 15.625
+                    }
+                },
+                "_CreamMachine_": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "TREBLE": 0.5,
+                        "LEVEL": 0.15942028985507245,
+                        "BYPASS": 1.0,
+                        "BASS": 0.5,
+                        "VOLUME": 0.23999999463558197
+                    }
+                },
+                "midichord": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "c8": 1.0,
+                        "c9": 0.0,
+                        "c13": 0.0,
+                        "c11": 0.0,
+                        "c3": 0.0,
+                        "c5": 1.0,
+                        "c6": 0.0,
+                        "c7": 0.0,
+                        "scale": 7.0,
+                        "_8": 1.0,
+                        "channelf": 0.0,
+                        "c1": 1.0
+                    }
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "onechannelfilter": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "channel": 2.0
+                    }
+                },
+                "mixer_stereo": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Mute4": 0.0,
+                        "Mute3": 0.0,
+                        "Mute2": 0.0,
+                        "Panning4": 0.0,
+                        "Panning2": 0.0,
+                        "Alt2": 0.0,
+                        "Panning1": 0.0,
+                        "AltVolume": 0.75,
+                        "Volume4": 0.58537946428571352,
+                        "Volume2": 0.75,
+                        "Volume3": 0.9375,
+                        "Volume1": 1.0,
+                        "Solo1": 0.0,
+                        "MasterVolume": 0.9375,
+                        "Solo3": 0.0,
+                        "Solo2": 0.0,
+                        "TruePanning": 1.0,
+                        "Alt1": 0.0,
+                        "Mute1": 0.0,
+                        "Alt3": 0.0,
+                        "Alt4": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Panning3": 0.0,
+                        "Solo4": 0.0
+                    }
+                },
+                "echo": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "dryLevel": -4.0,
+                        "crossmode": 1.0,
+                        "rhaasfeedback": 10.0,
+                        "recholevel": -12.5,
+                        "ldelay": 375.0,
+                        "lfeedback": 10.0,
+                        "lecholevel": -12.5,
+                        "swapoutputs": 0.0,
+                        "haaseffect": 1.0,
+                        "rhaasdelay": 750.0
+                    }
+                },
+                "onechannelfilter_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "channel": 1.0
+                    }
+                }
+            }
+        },
+        {
+            "name": "V Base",
+            "data": {
+                "CollisionDrive": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "BRIGHT": 0.5,
+                        "LEVEL": -0.875,
+                        "BYPASS": 1.0,
+                        "ATTACK": 1.0,
+                        "GATE": -55.0,
+                        "DRIVE": 0.59375
+                    }
+                },
+                "s8n16": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "note12": 11.0,
+                        "note13": 9.0,
+                        "note10": 16.0,
+                        "note11": 14.0,
+                        "swing": 0.0,
+                        "note14": 7.0,
+                        "note15": 4.0,
+                        "grid_1_12": 127.0,
+                        "grid_1_9": 0.0,
+                        "note16": 2.0,
+                        "drummode": 0.0,
+                        "grid_2_11": 0.0,
+                        "chn": 0.0,
+                        "grid_8_3": 0.0,
+                        "grid_6_12": 0.0,
+                        "grid_1_3": 0.0,
+                        "grid_1_16": 0.0,
+                        "grid_1_15": 0.0,
+                        "grid_1_14": 0.0,
+                        "grid_8_13": 0.0,
+                        "grid_4_12": 127.0,
+                        "grid_8_11": 0.0,
+                        "grid_8_10": 0.0,
+                        "grid_1_10": 0.0,
+                        "grid_7_15": 0.0,
+                        "grid_8_6": 0.0,
+                        "grid_8_5": 0.0,
+                        "grid_1_5": 0.0,
+                        "grid_3_11": 0.0,
+                        "grid_2_4": 0.0,
+                        "grid_8_12": 0.0,
+                        "grid_2_12": 0.0,
+                        "grid_6_1": 0.0,
+                        "grid_6_3": 0.0,
+                        "grid_6_2": 0.0,
+                        "grid_6_5": 0.0,
+                        "grid_6_4": 0.0,
+                        "grid_6_7": 0.0,
+                        "grid_6_6": 0.0,
+                        "grid_6_9": 0.0,
+                        "div": 2.0,
+                        "grid_8_14": 0.0,
+                        "grid_4_7": 0.0,
+                        "grid_4_6": 0.0,
+                        "grid_4_5": 0.0,
+                        "grid_4_4": 0.0,
+                        "grid_4_3": 0.0,
+                        "grid_4_2": 0.0,
+                        "grid_4_1": 0.0,
+                        "grid_2_2": 0.0,
+                        "grid_7_14": 0.0,
+                        "grid_4_9": 0.0,
+                        "bpm": 120.0,
+                        "grid_8_7": 0.0,
+                        "grid_1_8": 0.0,
+                        "grid_2_16": 0.0,
+                        "note8": 26.0,
+                        "note9": 19.0,
+                        "note2": 38.0,
+                        "note3": 42.0,
+                        "note1": 35.0,
+                        "note6": 51.0,
+                        "note7": 28.0,
+                        "note4": 44.0,
+                        "note5": 49.0,
+                        "grid_4_11": 0.0,
+                        "grid_5_10": 0.0,
+                        "grid_3_14": 0.0,
+                        "grid_7_12": 0.0,
+                        "grid_7_10": 127.0,
+                        "grid_5_15": 0.0,
+                        "grid_8_9": 0.0,
+                        "grid_8_8": 0.0,
+                        "grid_3_10": 0.0,
+                        "grid_1_2": 0.0,
+                        "grid_8_2": 0.0,
+                        "grid_8_1": 0.0,
+                        "grid_1_1": 127.0,
+                        "grid_1_6": 103.0,
+                        "grid_1_7": 0.0,
+                        "grid_1_4": 0.0,
+                        "grid_8_4": 0.0,
+                        "grid_7_8": 0.0,
+                        "grid_7_9": 0.0,
+                        "grid_7_1": 127.0,
+                        "grid_7_2": 0.0,
+                        "grid_7_3": 127.0,
+                        "grid_7_4": 0.0,
+                        "grid_7_5": 0.0,
+                        "grid_7_6": 103.0,
+                        "grid_7_7": 0.0,
+                        "grid_6_13": 0.0,
+                        "grid_5_8": 0.0,
+                        "grid_5_9": 0.0,
+                        "grid_5_6": 101.0,
+                        "grid_5_7": 0.0,
+                        "grid_5_4": 0.0,
+                        "grid_5_5": 0.0,
+                        "grid_5_2": 127.0,
+                        "grid_5_3": 0.0,
+                        "grid_5_1": 0.0,
+                        "grid_6_8": 0.0,
+                        "grid_1_13": 0.0,
+                        "grid_6_16": 0.0,
+                        "grid_7_16": 0.0,
+                        "grid_4_15": 0.0,
+                        "grid_4_16": 0.0,
+                        "grid_2_14": 0.0,
+                        "grid_2_9": 0.0,
+                        "grid_2_8": 0.0,
+                        "grid_7_11": 0.0,
+                        "grid_2_5": 0.0,
+                        "grid_2_13": 127.0,
+                        "grid_2_7": 0.0,
+                        "grid_2_6": 0.0,
+                        "grid_2_1": 0.0,
+                        "grid_2_3": 0.0,
+                        "grid_3_12": 0.0,
+                        "grid_1_11": 0.0,
+                        "grid_6_10": 0.0,
+                        "grid_5_16": 0.0,
+                        "grid_2_10": 0.0,
+                        "grid_7_13": 0.0,
+                        "grid_2_15": 0.0,
+                        "grid_8_16": 0.0,
+                        "grid_5_13": 0.0,
+                        "grid_3_16": 0.0,
+                        "grid_4_10": 0.0,
+                        "grid_3_15": 0.0,
+                        "grid_8_15": 0.0,
+                        "grid_5_12": 0.0,
+                        "grid_4_8": 0.0,
+                        "grid_6_14": 0.0,
+                        "panic": 0.0,
+                        "grid_4_14": 0.0,
+                        "grid_6_11": 0.0,
+                        "grid_3_4": 0.0,
+                        "grid_3_5": 0.0,
+                        "grid_3_6": 99.0,
+                        "grid_3_7": 0.0,
+                        "grid_3_1": 127.0,
+                        "grid_3_2": 0.0,
+                        "grid_3_3": 127.0,
+                        "grid_3_8": 0.0,
+                        "grid_3_9": 0.0,
+                        "grid_3_13": 0.0,
+                        "grid_6_15": 0.0,
+                        "grid_5_11": 127.0,
+                        "grid_4_13": 0.0,
+                        "sync": 0.0,
+                        "grid_5_14": 0.0
+                    }
+                },
+                "keysplit": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "channel0": 1.0,
+                        "channel1": 2.0,
+                        "channelf": 0.0,
+                        "split": 34.0,
+                        "transp0": 24.0,
+                        "transp1": 0.0
+                    }
+                },
+                "FluidPlug_FluidDrums": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "program": 2.0,
+                        "level": 0.84375
+                    }
+                },
+                "studiopre": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "bright": 0.0,
+                        "middle": 0.5,
+                        "treble": 0.5,
+                        "volume": 5.0,
+                        "bass": 0.5
+                    }
+                },
+                "FluidPlug_FluidBass": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "program": 0.0,
+                        "level": 0.75
+                    }
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "faIR_cabsim": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 0.0,
+                        "Attenuation": -5.0
+                    }
+                },
+                "miditranspose": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "transpose": 36.0,
+                        "channelf": 0.0,
+                        "inversion": 0.0
+                    }
+                },
+                "randvelocity": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "randfact": 127.0,
+                        "channel": 0.0,
+                        "mode": 1.0
+                    }
+                },
+                "midistrum": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "collect": 300.0,
+                        "randvelocity": 1.0,
+                        "mode": 2.0,
+                        "randspeed": 1.0,
+                        "duration": 2.0,
+                        "bpmsrc": 1.0,
+                        "adjspeed": 1.0,
+                        "bpm": 120.0,
+                        "adjvelocity": 112.0
+                    }
+                },
+                "EPiano": {
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#EPiano-mellow",
+                    "parameters": {},
+                    "ports": {
+                        "fine_tuning": 0.0,
+                        "lfo_rate": 4.0,
+                        "env_decay": 23.0,
+                        "hardness": -46.875,
+                        "stereo_width": 150.0,
+                        "polyphonic": 0.5,
+                        "overdrive": 18.75,
+                        "env_release": 1.3999999761581421,
+                        "random_tuning": 6.25,
+                        "treble_boost": -50.0,
+                        "modulation": 10.0,
+                        "vel_sense": 15.625
+                    }
+                },
+                "_CreamMachine_": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "TREBLE": 0.5,
+                        "LEVEL": 0.15942028985507245,
+                        "BYPASS": 1.0,
+                        "BASS": 0.5,
+                        "VOLUME": 0.23999999463558197
+                    }
+                },
+                "midichord": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "c8": 1.0,
+                        "c9": 0.0,
+                        "c13": 0.0,
+                        "c11": 0.0,
+                        "c3": 0.0,
+                        "c5": 1.0,
+                        "c6": 0.0,
+                        "c7": 0.0,
+                        "scale": 7.0,
+                        "_8": 1.0,
+                        "channelf": 0.0,
+                        "c1": 1.0
+                    }
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    }
+                },
+                "onechannelfilter": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "channel": 2.0
+                    }
+                },
+                "mixer_stereo": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Mute4": 0.0,
+                        "Mute3": 0.0,
+                        "Mute2": 0.0,
+                        "Panning4": 0.0,
+                        "Panning2": 0.0,
+                        "Alt2": 0.0,
+                        "Panning1": 0.0,
+                        "AltVolume": 0.75,
+                        "Volume4": 0.58537946428571352,
+                        "Volume2": 0.75,
+                        "Volume3": 0.9375,
+                        "Volume1": 1.0,
+                        "Solo1": 0.0,
+                        "MasterVolume": 0.9375,
+                        "Solo3": 0.0,
+                        "Solo2": 0.0,
+                        "TruePanning": 1.0,
+                        "Alt1": 0.0,
+                        "Mute1": 0.0,
+                        "Alt3": 0.0,
+                        "Alt4": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Panning3": 0.0,
+                        "Solo4": 0.0
+                    }
+                },
+                "echo": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "dryLevel": -4.0,
+                        "crossmode": 1.0,
+                        "rhaasfeedback": 10.0,
+                        "recholevel": -12.5,
+                        "ldelay": 375.0,
+                        "lfeedback": 10.0,
+                        "lecholevel": -12.5,
+                        "swapoutputs": 0.0,
+                        "haaseffect": 1.0,
+                        "rhaasdelay": 750.0
+                    }
+                },
+                "onechannelfilter_1": {
+                    "bypassed": false,
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "channel": 1.0
+                    }
+                }
+            }
         }
-    ]
+    ],
+    "current": 0
 }
