@@ -1,72 +1,87 @@
 {
-    "/hmi/group1": [],
+    "/bpm": [],
+    "/hmi/knob1": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Reverb Mix",
+            "minimum": 0.0,
+            "instance": "/graph/Plate",
+            "port": "blend",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
+        }
+    ],
     "/hmi/footswitch1": [
         {
-            "port": ":bypass",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 1.0,
             "label": "amsynth",
-            "page": null,
-            "instance": "/graph/amsynth",
             "minimum": 0.0,
-            "dividers": null
+            "instance": "/graph/amsynth",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
         }
     ],
     "/hmi/footswitch2": [
         {
-            "port": ":bypass",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 1.0,
             "label": "DX10",
-            "page": null,
-            "instance": "/graph/DX10_1",
             "minimum": 0.0,
-            "dividers": null
+            "instance": "/graph/DX10_1",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
         }
     ],
     "/hmi/knob2": [
         {
-            "port": "waveform",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 100.0,
             "label": "Waveform",
-            "page": null,
-            "instance": "/graph/DX10_1",
             "minimum": 0.0,
-            "dividers": null
+            "instance": "/graph/DX10_1",
+            "port": "waveform",
+            "tempo": null,
+            "page": null,
+            "maximum": 100.0
         },
         {
-            "port": "Gain",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 20.0,
             "label": "Master Volume",
-            "page": null,
-            "instance": "/graph/Gain2x2",
             "minimum": -20.0,
-            "dividers": null
-        }
-    ],
-    "/hmi/knob1": [
-        {
-            "port": "blend",
-            "group": null,
-            "steps": 33,
+            "instance": "/graph/Gain2x2",
+            "port": "Gain",
             "tempo": null,
-            "maximum": 1.0,
-            "label": "Reverb Mix",
             "page": null,
-            "instance": "/graph/Plate",
-            "minimum": 0.0,
-            "dividers": null
+            "maximum": 20.0
         }
     ],
-    "/bpm": []
+    "/hmi/group1": []
 }

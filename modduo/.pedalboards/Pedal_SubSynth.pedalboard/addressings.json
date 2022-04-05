@@ -1,1 +1,72 @@
-{"/hmi/knob1": [{"steps": 33, "port": "level", "instance": "/graph/SubSynth", "minimum": 0.0, "label": "Subsynth Level", "maximum": 75.0}], "/hmi/knob2": [{"steps": 33, "port": "dry_mix", "instance": "/graph/SubSynth", "minimum": 0.0, "label": "Dry Mix", "maximum": 100.0}], "/hmi/footswitch1": [{"steps": 33, "port": ":bypass", "instance": "/graph/SubSynth", "minimum": 0.0, "label": "SubSynth", "maximum": 1.0}], "/hmi/footswitch2": [{"steps": 33, "port": ":bypass", "instance": "/graph/HardwareBypass", "minimum": 0.0, "label": "T.Bypass", "maximum": 1.0}]}
+{
+    "/bpm": [],
+    "/hmi/knob1": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Subsynth Level",
+            "minimum": 0.0,
+            "instance": "/graph/SubSynth",
+            "port": "level",
+            "tempo": null,
+            "page": null,
+            "maximum": 75.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "SubSynth",
+            "minimum": 0.0,
+            "instance": "/graph/SubSynth",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "T.Bypass",
+            "minimum": 0.0,
+            "instance": "/graph/HardwareBypass",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Dry Mix",
+            "minimum": 0.0,
+            "instance": "/graph/SubSynth",
+            "port": "dry_mix",
+            "tempo": null,
+            "page": null,
+            "maximum": 100.0
+        }
+    ],
+    "/hmi/group1": []
+}

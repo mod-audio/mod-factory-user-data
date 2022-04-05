@@ -1,0 +1,59 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": 0.26785698533058167
+                    }
+                },
+                "roomy": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "time": 0.25,
+                        "dry_wet": 0.25,
+                        "damping": 0.5
+                    }
+                },
+                "harmless": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "shape": 0.5,
+                        "tone": 6000.0,
+                        "phase": 180.0,
+                        "rate": 4.0,
+                        "depth": 100.0
+                    }
+                },
+                "EPiano": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "fine_tuning": 0.0,
+                        "treble_boost": -50.0,
+                        "vel_sense": 25.0,
+                        "polyphonic": 0.5,
+                        "overdrive": 0.0,
+                        "lfo_rate": 24.055000305175781,
+                        "env_decay": 50.0,
+                        "random_tuning": 12.300000190734863,
+                        "env_release": 50.0,
+                        "hardness": -50.0,
+                        "modulation": 0.0,
+                        "stereo_width": 100.0
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

@@ -1,1 +1,87 @@
-{"/hmi/knob1": [{"steps": 33, "port": "detune", "instance": "/graph/Detune", "minimum": 0.0, "label": "Detune", "maximum": 300.0}, {"steps": 33, "port": "mix", "instance": "/graph/Detune", "minimum": 0.0, "label": "Mix", "maximum": 99.0}], "/hmi/knob2": [{"steps": 33, "port": "output", "instance": "/graph/Detune", "minimum": -20.0, "label": "Level", "maximum": 20.0}], "/hmi/footswitch1": [{"steps": 33, "port": ":bypass", "instance": "/graph/Detune", "minimum": 0.0, "label": "Detune", "maximum": 1.0}], "/hmi/footswitch2": [{"steps": 33, "port": ":bypass", "instance": "/graph/HardwareBypass", "minimum": 0.0, "label": "T.Bypass", "maximum": 1.0}]}
+{
+    "/bpm": [],
+    "/hmi/knob1": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Detune",
+            "minimum": 0.0,
+            "instance": "/graph/Detune",
+            "port": "detune",
+            "tempo": null,
+            "page": null,
+            "maximum": 300.0
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Mix",
+            "minimum": 0.0,
+            "instance": "/graph/Detune",
+            "port": "mix",
+            "tempo": null,
+            "page": null,
+            "maximum": 99.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Detune",
+            "minimum": 0.0,
+            "instance": "/graph/Detune",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "T.Bypass",
+            "minimum": 0.0,
+            "instance": "/graph/HardwareBypass",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Level",
+            "minimum": -20.0,
+            "instance": "/graph/Detune",
+            "port": "output",
+            "tempo": null,
+            "page": null,
+            "maximum": 20.0
+        }
+    ],
+    "/hmi/group1": []
+}

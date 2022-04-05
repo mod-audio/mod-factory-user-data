@@ -1,84 +1,102 @@
 {
-    "/hmi/group1": [],
+    "/bpm": [],
+    "/hmi/knob1": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Waveform",
+            "minimum": 0.0,
+            "instance": "/graph/DX10",
+            "port": "waveform",
+            "tempo": null,
+            "page": null,
+            "maximum": 100.0
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Delay",
+            "minimum": 0.0,
+            "instance": "/graph/cs_chorus2",
+            "port": "delay",
+            "tempo": null,
+            "page": null,
+            "maximum": 30.0
+        }
+    ],
     "/hmi/footswitch1": [
         {
-            "port": ":bypass",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 1.0,
             "label": "CS Chorus 2",
-            "page": null,
-            "instance": "/graph/cs_chorus2",
             "minimum": 0.0,
-            "dividers": null
+            "instance": "/graph/cs_chorus2",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
         }
     ],
     "/hmi/footswitch2": [
         {
-            "port": ":bypass",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 1.0,
             "label": "PlateX2",
-            "page": null,
-            "instance": "/graph/PlateX2",
             "minimum": 0.0,
-            "dividers": null
+            "instance": "/graph/PlateX2",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
         }
     ],
     "/hmi/knob2": [
         {
-            "port": "damping",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 1.0,
             "label": "Damping",
-            "page": null,
+            "minimum": 0.0,
             "instance": "/graph/PlateX2",
-            "minimum": 0.0,
-            "dividers": null
+            "port": "damping",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
         },
         {
-            "port": "Gain",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 65,
-            "tempo": null,
-            "maximum": 20.0,
             "label": "Master Volume",
-            "page": null,
-            "instance": "/graph/Gain2x2",
             "minimum": -20.0,
-            "dividers": null
+            "instance": "/graph/Gain2x2",
+            "port": "Gain",
+            "tempo": null,
+            "page": null,
+            "maximum": 20.0
         }
     ],
-    "/hmi/knob1": [
-        {
-            "port": "waveform",
-            "group": null,
-            "steps": 33,
-            "tempo": null,
-            "maximum": 100.0,
-            "label": "Waveform",
-            "page": null,
-            "instance": "/graph/DX10",
-            "minimum": 0.0,
-            "dividers": null
-        },
-        {
-            "port": "delay",
-            "group": null,
-            "steps": 33,
-            "tempo": null,
-            "maximum": 30.0,
-            "label": "Delay",
-            "page": null,
-            "instance": "/graph/cs_chorus2",
-            "minimum": 0.0,
-            "dividers": null
-        }
-    ],
-    "/bpm": []
+    "/hmi/group1": []
 }

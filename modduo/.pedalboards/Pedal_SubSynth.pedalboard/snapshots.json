@@ -1,0 +1,32 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "SubSynth": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "file:///root/.lv2/mod-mda-SubSynth.lv2/default-preset",
+                    "ports": {
+                        "dry_mix": 53.125,
+                        "thresh": -60.0,
+                        "type": 0.5,
+                        "tune": 198.0,
+                        "level": 51.562999725341797,
+                        "release": 1569.0
+                    }
+                },
+                "HardwareBypass": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "mode": 0.0,
+                        "enabled": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

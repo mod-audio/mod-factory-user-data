@@ -1,0 +1,45 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "RePsycho": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "hold": 111.56300354003906,
+                        "decay": 49.776786804199219,
+                        "thresh": -30.0,
+                        "fine": 0.0,
+                        "mix": 56.25,
+                        "tune": -11.973214149475098,
+                        "quality": 1.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -2.5
+                    }
+                },
+                "hip2b": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "http://ssj71.github.io/infamousPlugins/plugs.html#hip2b:preset:04nes_bass",
+                    "ports": {
+                        "UP": 0.015399999916553497,
+                        "DOWN": -0.0043999999761581421,
+                        "WETDRY": 0.31299999356269836,
+                        "IN_GAIN": 2.0,
+                        "OUT_GAIN": 0.30357098579406738,
+                        "OCTAVE": -1.0
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

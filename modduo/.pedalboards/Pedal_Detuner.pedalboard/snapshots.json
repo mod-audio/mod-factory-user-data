@@ -1,0 +1,30 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "Detune": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "detune": 120.0,
+                        "mix": 50.0,
+                        "latency": 92.900001525878906,
+                        "output": 0.0
+                    }
+                },
+                "HardwareBypass": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "mode": 0.0,
+                        "enabled": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

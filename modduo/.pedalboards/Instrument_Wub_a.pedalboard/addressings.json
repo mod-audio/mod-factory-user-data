@@ -1,72 +1,87 @@
 {
-    "/hmi/group1": [],
+    "/bpm": [],
+    "/hmi/knob1": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 17,
+            "label": "Freq",
+            "minimum": 20.0,
+            "instance": "/graph/LowPassFilter",
+            "port": "Freq",
+            "tempo": null,
+            "page": null,
+            "maximum": 20000.0
+        }
+    ],
     "/hmi/footswitch1": [
         {
-            "port": ":bypass",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 1.0,
             "label": "LO JX10",
-            "page": null,
-            "instance": "/graph/JX10",
             "minimum": 0.0,
-            "dividers": null
+            "instance": "/graph/JX10",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
         }
     ],
     "/hmi/footswitch2": [
         {
-            "port": ":bypass",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 1.0,
             "label": "HI JX10",
-            "page": null,
-            "instance": "/graph/JX10_1",
             "minimum": 0.0,
-            "dividers": null
+            "instance": "/graph/JX10_1",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
         }
     ],
     "/hmi/knob2": [
         {
-            "port": "FUZZ",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 1.0,
             "label": "FUZZ",
-            "page": null,
-            "instance": "/graph/_vstb_",
             "minimum": 0.0,
-            "dividers": null
+            "instance": "/graph/_vstb_",
+            "port": "FUZZ",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
         },
         {
-            "port": "Gain",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 65,
-            "tempo": null,
-            "maximum": 20.0,
             "label": "Master Volume",
-            "page": null,
-            "instance": "/graph/Gain2x2",
             "minimum": -20.0,
-            "dividers": null
-        }
-    ],
-    "/hmi/knob1": [
-        {
-            "port": "Freq",
-            "group": null,
-            "steps": 17,
+            "instance": "/graph/Gain2x2",
+            "port": "Gain",
             "tempo": null,
-            "maximum": 20000.0,
-            "label": "Freq",
             "page": null,
-            "instance": "/graph/LowPassFilter",
-            "minimum": 20.0,
-            "dividers": null
+            "maximum": 20.0
         }
     ],
-    "/bpm": []
+    "/hmi/group1": []
 }

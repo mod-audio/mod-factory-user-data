@@ -1,0 +1,64 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "PlateX2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "blend": 0.40513399243354797,
+                        "damping": 0.0,
+                        "tail": 0.60000002384185791,
+                        "bandwidth": 0.99949997663497925
+                    }
+                },
+                "DX10": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "mod_dec": 80.0,
+                        "mod_sus": 5.0,
+                        "coarse": 33.680000305175781,
+                        "mod_thru": 0.0,
+                        "mod_rel": 80.0,
+                        "finetune": 0.0,
+                        "attack": 0.0,
+                        "mod_vel": 90.0,
+                        "lfo_rate": 10.350000381469727,
+                        "waveform": 25.0,
+                        "release": 46.153846740722656,
+                        "fine": 0.24674999713897705,
+                        "octave": 0.0,
+                        "mod_init": 23.0,
+                        "decay": 65.0,
+                        "vibrato": 0.0
+                    }
+                },
+                "cs_chorus2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "mod_freq_1": 0.20000000298023224,
+                        "mod_amp_2": 0.75,
+                        "mod_freq_2": 0.55000001192092896,
+                        "delay": 7.5,
+                        "mod_amp_1": 1.25
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

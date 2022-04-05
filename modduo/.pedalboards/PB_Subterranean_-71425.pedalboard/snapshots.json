@@ -1,0 +1,57 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": 0.625
+                    }
+                },
+                "DubDelay": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "delay": 1835.25,
+                        "fx_mix": 30.803571701049805,
+                        "lfo_depth": 43.75,
+                        "feedback": 39.53125,
+                        "lfo_rate": 39.680915832519531,
+                        "fb_tone": -28.571428298950195,
+                        "output": 0.0
+                    }
+                },
+                "roomy": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "time": 0.27232098579406738,
+                        "dry_wet": 0.20982100069522858,
+                        "damping": 0.73883897066116333
+                    }
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "damping": 50.0,
+                        "shimmer": 50.0,
+                        "decay": 50.0,
+                        "mix": 50.0,
+                        "tone": 1500.0,
+                        "roomsize": 150.0,
+                        "ratio": 2.0,
+                        "bandwidth": 75.0
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

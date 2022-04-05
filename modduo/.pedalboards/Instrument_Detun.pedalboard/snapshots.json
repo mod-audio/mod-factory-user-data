@@ -1,0 +1,83 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "DX10": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "file:///root/.lv2/mod-mda-DX10.lv2/default-preset",
+                    "ports": {
+                        "mod_dec": 25.0,
+                        "mod_sus": 0.0,
+                        "coarse": 0.0099999997764825821,
+                        "mod_thru": 37.5,
+                        "mod_rel": 0.0,
+                        "finetune": 3.125,
+                        "attack": 40.625,
+                        "mod_vel": 15.625,
+                        "lfo_rate": 2.734375,
+                        "waveform": 75.0,
+                        "release": 83.370536804199219,
+                        "fine": 0.0020630001090466976,
+                        "octave": 0.0,
+                        "mod_init": 29.6875,
+                        "decay": 59.375,
+                        "vibrato": 25.0
+                    }
+                },
+                "roomy": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "time": 0.16629500687122345,
+                        "dry_wet": 0.15600000321865082,
+                        "damping": 0.98214298486709595
+                    }
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -14.107143402099609
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "damping": 0.0,
+                        "shimmer": 31.25,
+                        "decay": 5.8616070747375488,
+                        "mix": 14.397320747375488,
+                        "tone": 4779.548828125,
+                        "roomsize": 69.743301391601562,
+                        "ratio": 2.0,
+                        "bandwidth": 59.486606597900391
+                    }
+                },
+                "booster": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "fslider0_": 20.0,
+                        "fslider1_": 8.7265615463256836
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

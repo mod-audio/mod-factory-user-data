@@ -1,1 +1,102 @@
-{"/hmi/knob1": [{"steps": 33, "port": "WETDRY", "instance": "/graph/hip2b", "minimum": 0.0, "label": "Mix", "maximum": 1.0}], "/hmi/knob2": [{"steps": 33, "port": "hold", "instance": "/graph/RePsycho", "minimum": 10.0, "label": "Hold Time", "maximum": 260.0}, {"steps": 33, "port": "mix", "instance": "/graph/RePsycho", "minimum": 0.0, "label": "Mix", "maximum": 100.0}, {"steps": 65, "port": "Gain", "instance": "/graph/Gain2x2", "minimum": -20.0, "label": "Master Volume", "maximum": 20.0}], "/hmi/footswitch1": [{"steps": 33, "port": ":bypass", "instance": "/graph/hip2b", "minimum": 0.0, "label": "BitFuzz", "maximum": 1.0}], "/hmi/footswitch2": [{"steps": 33, "port": ":bypass", "instance": "/graph/RePsycho", "minimum": 0.0, "label": "RePsycho", "maximum": 1.0}]}
+{
+    "/bpm": [],
+    "/hmi/knob1": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Mix",
+            "minimum": 0.0,
+            "instance": "/graph/hip2b",
+            "port": "WETDRY",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "BitFuzz",
+            "minimum": 0.0,
+            "instance": "/graph/hip2b",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "RePsycho",
+            "minimum": 0.0,
+            "instance": "/graph/RePsycho",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Hold Time",
+            "minimum": 10.0,
+            "instance": "/graph/RePsycho",
+            "port": "hold",
+            "tempo": null,
+            "page": null,
+            "maximum": 260.0
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Mix",
+            "minimum": 0.0,
+            "instance": "/graph/RePsycho",
+            "port": "mix",
+            "tempo": null,
+            "page": null,
+            "maximum": 100.0
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 65,
+            "label": "Master Volume",
+            "minimum": -20.0,
+            "instance": "/graph/Gain2x2",
+            "port": "Gain",
+            "tempo": null,
+            "page": null,
+            "maximum": 20.0
+        }
+    ],
+    "/hmi/group1": []
+}

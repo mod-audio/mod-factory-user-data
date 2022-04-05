@@ -1,0 +1,136 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "_vstb_": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "FUZZ": 1.0,
+                        "TONE": 0.5,
+                        "VOLUME": 0.75334799289703369
+                    }
+                },
+                "LowPassFilter": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Freq": 3556.55908203125,
+                        "Order": 2.0
+                    }
+                },
+                "SubSynth": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "dry_mix": 78.125,
+                        "thresh": -47.8125,
+                        "type": 0.5,
+                        "tune": 250.79513549804688,
+                        "level": 45.647319793701172,
+                        "release": 1569.0
+                    }
+                },
+                "JX10_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "vcf_reso": 0.0,
+                        "env_rel": 0.070000000298023224,
+                        "vibrato": 0.0,
+                        "vcf_sus": 1.0,
+                        "gld_bend": 0.58928602933883667,
+                        "lfo_rate": 0.82142901420593262,
+                        "noise": 0.0,
+                        "vcf_vel": 0.81999999284744263,
+                        "vcf_freq": 0.42857098579406738,
+                        "osc_mix": 0.0,
+                        "vcf_att": 0.36830401420593262,
+                        "env_att": 0.090000003576278687,
+                        "env_dec": 0.5,
+                        "env_sus": 1.0,
+                        "octave": 0.23999999463558197,
+                        "vcf_rel": 0.296875,
+                        "vcf_dec": 0.68999999761581421,
+                        "vcf_env": 0.45424100756645203,
+                        "tuning": 0.0,
+                        "glide": 0.63999998569488525,
+                        "gld_rate": 0.81999999284744263,
+                        "osc_tune": 0.0,
+                        "osc_fine": 0.0,
+                        "vcf_lfo": 0.86383897066116333
+                    }
+                },
+                "JX10": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "vcf_reso": 0.31584799289703369,
+                        "env_rel": 0.070000000298023224,
+                        "vibrato": 0.0,
+                        "vcf_sus": 1.0,
+                        "gld_bend": 0.58928602933883667,
+                        "lfo_rate": 0.82142901420593262,
+                        "noise": 0.0,
+                        "vcf_vel": 0.81999999284744263,
+                        "vcf_freq": 0.29352700710296631,
+                        "osc_mix": 0.0,
+                        "vcf_att": 0.36830401420593262,
+                        "env_att": 0.090000003576278687,
+                        "env_dec": 0.5,
+                        "env_sus": 1.0,
+                        "octave": 0.23999999463558197,
+                        "vcf_rel": 0.296875,
+                        "vcf_dec": 0.68999999761581421,
+                        "vcf_env": 0.45424100756645203,
+                        "tuning": 0.0,
+                        "glide": 0.63999998569488525,
+                        "gld_rate": 0.81999999284744263,
+                        "osc_tune": 0.0,
+                        "osc_fine": 0.0,
+                        "vcf_lfo": 0.86383897066116333
+                    }
+                },
+                "miditranspose": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "inversion": 0.0,
+                        "transpose": 12.0,
+                        "channelf": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -12.5
+                    }
+                },
+                "velocityscale": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "onmax": 91.28125,
+                        "offmax": 95.25,
+                        "onmin": 85.65625,
+                        "channel": 0.0,
+                        "offoff": 22.0,
+                        "offmin": 95.25,
+                        "onoff": 16.0
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

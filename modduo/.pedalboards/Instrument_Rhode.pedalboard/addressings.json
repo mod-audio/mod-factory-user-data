@@ -1,84 +1,102 @@
 {
-    "/hmi/group1": [],
+    "/bpm": [],
+    "/hmi/knob1": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Hardness",
+            "minimum": -50.0,
+            "instance": "/graph/EPiano",
+            "port": "hardness",
+            "tempo": null,
+            "page": null,
+            "maximum": 50.0
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Decay",
+            "minimum": 0.0,
+            "instance": "/graph/roomy",
+            "port": "time",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
+        }
+    ],
     "/hmi/footswitch1": [
         {
-            "port": ":bypass",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 1.0,
             "label": "Roomy",
-            "page": null,
-            "instance": "/graph/roomy",
             "minimum": 0.0,
-            "dividers": null
+            "instance": "/graph/roomy",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
         }
     ],
     "/hmi/footswitch2": [
         {
-            "port": ":bypass",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 1.0,
             "label": "Harmless",
-            "page": null,
-            "instance": "/graph/harmless",
             "minimum": 0.0,
-            "dividers": null
+            "instance": "/graph/harmless",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
         }
     ],
     "/hmi/knob2": [
         {
-            "port": "rate",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 20.0,
             "label": "rate",
-            "page": null,
-            "instance": "/graph/harmless",
             "minimum": 0.10000000149011612,
-            "dividers": null
+            "instance": "/graph/harmless",
+            "port": "rate",
+            "tempo": null,
+            "page": null,
+            "maximum": 20.0
         },
         {
-            "port": "Gain",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 20.0,
             "label": "Master Volume",
-            "page": null,
-            "instance": "/graph/Gain2x2",
             "minimum": -20.0,
-            "dividers": null
+            "instance": "/graph/Gain2x2",
+            "port": "Gain",
+            "tempo": null,
+            "page": null,
+            "maximum": 20.0
         }
     ],
-    "/hmi/knob1": [
-        {
-            "port": "hardness",
-            "group": null,
-            "steps": 33,
-            "tempo": null,
-            "maximum": 50.0,
-            "label": "Hardness",
-            "page": null,
-            "instance": "/graph/EPiano",
-            "minimum": -50.0,
-            "dividers": null
-        },
-        {
-            "port": "time",
-            "group": null,
-            "steps": 33,
-            "tempo": null,
-            "maximum": 1.0,
-            "label": "Decay",
-            "page": null,
-            "instance": "/graph/roomy",
-            "minimum": 0.0,
-            "dividers": null
-        }
-    ],
-    "/bpm": []
+    "/hmi/group1": []
 }

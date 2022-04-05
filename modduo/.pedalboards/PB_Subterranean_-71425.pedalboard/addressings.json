@@ -1,1 +1,72 @@
-{"/hmi/knob1": [{"instance": "/graph/shiroverb", "maximum": 100.0, "minimum": 0.0, "steps": 33, "port": "shimmer", "label": "shimmer"}], "/hmi/footswitch1": [{"instance": "/graph/shiroverb", "maximum": 1.0, "minimum": 0.0, "steps": 33, "port": ":bypass", "label": "Shimmer"}], "/hmi/footswitch2": [{"instance": "/graph/DubDelay", "maximum": 1.0, "minimum": 0.0, "steps": 33, "port": ":bypass", "label": "Delay"}], "/hmi/knob2": [{"instance": "/graph/Gain2x2", "maximum": 12.0, "minimum": -40.0, "steps": 33, "port": "Gain", "label": "Output Level"}]}
+{
+    "/bpm": [],
+    "/hmi/knob1": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "shimmer",
+            "minimum": 0.0,
+            "instance": "/graph/shiroverb",
+            "port": "shimmer",
+            "tempo": null,
+            "page": null,
+            "maximum": 100.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Shimmer",
+            "minimum": 0.0,
+            "instance": "/graph/shiroverb",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Delay",
+            "minimum": 0.0,
+            "instance": "/graph/DubDelay",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Output Level",
+            "minimum": -40.0,
+            "instance": "/graph/Gain2x2",
+            "port": "Gain",
+            "tempo": null,
+            "page": null,
+            "maximum": 12.0
+        }
+    ],
+    "/hmi/group1": []
+}

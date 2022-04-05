@@ -1,84 +1,102 @@
 {
-    "/hmi/group1": [],
+    "/bpm": [],
+    "/hmi/knob1": [
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "Vibrato",
+            "minimum": 0.0,
+            "instance": "/graph/DX10",
+            "port": "vibrato",
+            "tempo": null,
+            "page": null,
+            "maximum": 100.0
+        },
+        {
+            "coloured": false,
+            "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
+            "steps": 33,
+            "label": "shimmer",
+            "minimum": 0.0,
+            "instance": "/graph/shiroverb",
+            "port": "shimmer",
+            "tempo": null,
+            "page": null,
+            "maximum": 100.0
+        }
+    ],
     "/hmi/footswitch1": [
         {
-            "port": ":bypass",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 1.0,
             "label": "Shiroverb",
-            "page": null,
-            "instance": "/graph/shiroverb",
             "minimum": 0.0,
-            "dividers": null
+            "instance": "/graph/shiroverb",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
         }
     ],
     "/hmi/footswitch2": [
         {
-            "port": ":bypass",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 1.0,
             "label": "Roomy",
-            "page": null,
-            "instance": "/graph/roomy",
             "minimum": 0.0,
-            "dividers": null
+            "instance": "/graph/roomy",
+            "port": ":bypass",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
         }
     ],
     "/hmi/knob2": [
         {
-            "port": "dry_wet",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 33,
-            "tempo": null,
-            "maximum": 1.0,
             "label": "Mix",
-            "page": null,
+            "minimum": 0.0,
             "instance": "/graph/roomy",
-            "minimum": 0.0,
-            "dividers": null
+            "port": "dry_wet",
+            "tempo": null,
+            "page": null,
+            "maximum": 1.0
         },
         {
-            "port": "Gain",
+            "coloured": false,
             "group": null,
+            "subpage": null,
+            "momentary": 0,
+            "dividers": null,
             "steps": 65,
-            "tempo": null,
-            "maximum": 20.0,
             "label": "Master Volume",
-            "page": null,
-            "instance": "/graph/Gain2x2",
             "minimum": -20.0,
-            "dividers": null
+            "instance": "/graph/Gain2x2",
+            "port": "Gain",
+            "tempo": null,
+            "page": null,
+            "maximum": 20.0
         }
     ],
-    "/hmi/knob1": [
-        {
-            "port": "vibrato",
-            "group": null,
-            "steps": 33,
-            "tempo": null,
-            "maximum": 100.0,
-            "label": "Vibrato",
-            "page": null,
-            "instance": "/graph/DX10",
-            "minimum": 0.0,
-            "dividers": null
-        },
-        {
-            "port": "shimmer",
-            "group": null,
-            "steps": 33,
-            "tempo": null,
-            "maximum": 100.0,
-            "label": "shimmer",
-            "page": null,
-            "instance": "/graph/shiroverb",
-            "minimum": 0.0,
-            "dividers": null
-        }
-    ],
-    "/bpm": []
+    "/hmi/group1": []
 }

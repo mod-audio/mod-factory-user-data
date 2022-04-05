@@ -1,0 +1,67 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -5.0
+                    }
+                },
+                "Plate": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "blend": 0.27008900046348572,
+                        "damping": 0.5,
+                        "tail": 0.1875,
+                        "bandwidth": 0.640625
+                    }
+                },
+                "DubDelay": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "delay": 812.5,
+                        "fx_mix": 67.1875,
+                        "lfo_depth": 0.0,
+                        "feedback": 41.25,
+                        "lfo_rate": 0.10000000149011612,
+                        "fb_tone": 78.125,
+                        "output": 0.0
+                    }
+                },
+                "tubewarmth": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "blend": -9.6875,
+                        "drive": 3.1937499046325684
+                    }
+                },
+                "vibrochump": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -1.875,
+                        "Vibe": 1.0,
+                        "Sinewave": 0.0,
+                        "Intensity": 0.0,
+                        "Tone": 0.19977700710296631,
+                        "Feedback": 0.0,
+                        "Speed": 5.619999885559082,
+                        "Volume": 3.4375
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}
