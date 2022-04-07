@@ -1,0 +1,126 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "mono": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain": 36.0,
+                        "ratio": 4.0,
+                        "noClip": 1.0,
+                        "threshold": -36.0,
+                        "rms": 0.5,
+                        "bypass": 0.0,
+                        "attack": 0.014999999664723873,
+                        "release": 0.05000000074505806
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "xfade": 1.0,
+                        "shape": 0.0,
+                        "mode": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "xfade": 1.0,
+                        "shape": 0.0,
+                        "mode": 0.0
+                    }
+                },
+                "bolliedelay": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "tempo_user": 120.0,
+                        "feedback": 67.94775390625,
+                        "high_on": 0.0,
+                        "tap": 0.0,
+                        "crossf": 54.787635803222656,
+                        "low_f": 20.0,
+                        "div_r": 4.0,
+                        "mix": 33.006782531738281,
+                        "high_f": 7500.0,
+                        "low_on": 0.0,
+                        "div_l": 1.0,
+                        "tempo_mode": 0.0,
+                        "high_q": 1.0,
+                        "low_q": 1.0,
+                        "tempo_host": 80.0
+                    }
+                },
+                "hip2b": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "http://ssj71.github.io/infamousPlugins/plugs.html#hip2b:preset:04nes_bass",
+                    "ports": {
+                        "OUT_GAIN": 0.09375,
+                        "WETDRY": 1.0,
+                        "UP": 0.5,
+                        "DOWN": -0.5,
+                        "OCTAVE": 0.0,
+                        "IN_GAIN": 2.0
+                    }
+                },
+                "Phaser": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "mod_rate": 1.6376329660415649,
+                        "feedback": 0.78227698802947998,
+                        "mod_depth": 1364.9547119140625,
+                        "dry": 0.11160700023174286,
+                        "reset": 0.0,
+                        "stages": 1.0,
+                        "amount": 0.27232098579406738,
+                        "base_freq": 20000.0,
+                        "stereo": 171.96427917480469
+                    }
+                },
+                "stereo": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    }
+                },
+                "Detune": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "detune": 14.899553571428573,
+                        "mix": 55.908481597900391,
+                        "output": -1.5178569555282593,
+                        "latency": 0.0
+                    }
+                },
+                "filta": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "active": 1.0,
+                        "frequency_control": 0.319597989320755
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

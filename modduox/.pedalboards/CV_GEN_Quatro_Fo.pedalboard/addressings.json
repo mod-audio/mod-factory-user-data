@@ -1,366 +1,408 @@
 {
-    "/cv/graph/mod_cv_attenuverter_2/CVout1": {
-        "name": "DelayMod1",
+    "/cv/graph/mod_cv_control_1/Cvoutput": {
         "addrs": [
             {
-                "operational_mode": "b",
-                "instance": "/graph/DubDelay",
-                "maximum": 500.0,
-                "minimum": 70.0,
-                "steps": 33,
-                "port": "delay",
-                "label": "Time"
+                "port": "linFMGain",
+                "minimum": 0.0,
+                "instance": "/graph/vcf",
+                "label": "Lin. FM Gain",
+                "operational_mode": "+",
+                "maximum": 10.0,
+                "steps": 33
+            },
+            {
+                "port": "linFMGain",
+                "minimum": 0.0,
+                "instance": "/graph/vcf_1",
+                "label": "Lin. FM Gain",
+                "operational_mode": "+",
+                "maximum": 10.0,
+                "steps": 33
+            },
+            {
+                "port": "linFMGain",
+                "minimum": 0.0,
+                "instance": "/graph/vcf_2",
+                "label": "Lin. FM Gain",
+                "operational_mode": "+",
+                "maximum": 10.0,
+                "steps": 33
             }
-        ]
+        ],
+        "name": "CV Sensitivity"
     },
     "/cv/graph/mod_cv_attenuverter_1/CVout1": {
-        "name": "RevMod",
         "addrs": [
             {
-                "operational_mode": "b",
-                "instance": "/graph/reverb",
-                "maximum": 5000.0,
-                "minimum": 0.0,
-                "steps": 33,
                 "port": "decay",
-                "label": "Decay"
+                "minimum": 0.0,
+                "instance": "/graph/reverb",
+                "label": "Decay",
+                "operational_mode": "b",
+                "maximum": 5000.0,
+                "steps": 33
             }
-        ]
+        ],
+        "name": "RevMod"
+    },
+    "/cv/graph/mod_cv_control_2/Cvoutput": {
+        "addrs": [
+            {
+                "port": "freq",
+                "minimum": 0.10000000000000001,
+                "instance": "/graph/vcf",
+                "label": "Frequency",
+                "operational_mode": "+",
+                "maximum": 4.2999999999999998,
+                "steps": 33
+            },
+            {
+                "port": "freq",
+                "minimum": 0.10000000000000001,
+                "instance": "/graph/vcf_2",
+                "label": "Frequency",
+                "operational_mode": "+",
+                "maximum": 4.0,
+                "steps": 33
+            },
+            {
+                "port": "freq",
+                "minimum": 3.8999999999999999,
+                "instance": "/graph/vcf_1",
+                "label": "Frequency",
+                "operational_mode": "+",
+                "maximum": 7.2000000000000002,
+                "steps": 33
+            },
+            {
+                "port": "freq",
+                "minimum": 4.0,
+                "instance": "/graph/vcf_3",
+                "label": "Frequency",
+                "operational_mode": "+",
+                "maximum": 7.0999999999999996,
+                "steps": 33
+            }
+        ],
+        "name": "Cutoff"
     },
     "/cv/graph/mod_cv_control_4/Cvoutput": {
-        "name": "Hi LFO AMT",
         "addrs": [
             {
-                "operational_mode": "+",
+                "port": "expFMGain",
+                "minimum": 0.0,
                 "instance": "/graph/vcf_1",
+                "label": "Exp. FM Gain",
+                "operational_mode": "+",
                 "maximum": 4.0,
-                "minimum": 0.0,
-                "steps": 33,
-                "port": "expFMGain",
-                "label": "Exp. FM Gain"
+                "steps": 33
             },
             {
-                "operational_mode": "+",
-                "instance": "/graph/vcf_3",
-                "maximum": 5.0,
-                "minimum": 0.0,
-                "steps": 33,
                 "port": "expFMGain",
-                "label": "Exp. FM Gain"
+                "minimum": 0.0,
+                "instance": "/graph/vcf_3",
+                "label": "Exp. FM Gain",
+                "operational_mode": "+",
+                "maximum": 5.0,
+                "steps": 33
             }
-        ]
+        ],
+        "name": "Hi LFO AMT"
     },
-    "/bpm": [],
-    "/cv/graph/cv_capture_2": [],
-    "/cv/graph/mod_cv_control_1/Cvoutput": {
-        "name": "CV Sensitivity",
+    "/cv/graph/mod_cv_attenuverter_3/CVout1": {
         "addrs": [
             {
-                "operational_mode": "+",
-                "instance": "/graph/vcf",
-                "maximum": 10.0,
-                "minimum": 0.0,
-                "steps": 33,
-                "port": "linFMGain",
-                "label": "Lin. FM Gain"
-            },
-            {
-                "operational_mode": "+",
-                "instance": "/graph/vcf_1",
-                "maximum": 10.0,
-                "minimum": 0.0,
-                "steps": 33,
-                "port": "linFMGain",
-                "label": "Lin. FM Gain"
-            },
-            {
-                "operational_mode": "+",
-                "instance": "/graph/vcf_2",
-                "maximum": 10.0,
-                "minimum": 0.0,
-                "steps": 33,
-                "port": "linFMGain",
-                "label": "Lin. FM Gain"
+                "port": "feedback",
+                "minimum": -80.0,
+                "instance": "/graph/DubDelay",
+                "label": "Feedback",
+                "operational_mode": "b",
+                "maximum": 80.0,
+                "steps": 33
             }
-        ]
+        ],
+        "name": "DelayMod2"
     },
     "/cv/graph/mod_cv_control_3/Cvoutput": {
-        "name": "Lo LFO AMT",
         "addrs": [
             {
-                "operational_mode": "+",
-                "instance": "/graph/vcf",
-                "maximum": 4.0,
-                "minimum": 0.0,
-                "steps": 33,
                 "port": "expFMGain",
-                "label": "Exp. FM Gain"
+                "minimum": 0.0,
+                "instance": "/graph/vcf",
+                "label": "Exp. FM Gain",
+                "operational_mode": "+",
+                "maximum": 4.0,
+                "steps": 33
             },
             {
-                "operational_mode": "+",
-                "instance": "/graph/vcf_2",
-                "maximum": 4.0,
-                "minimum": 0.0,
-                "steps": 33,
                 "port": "expFMGain",
-                "label": "Exp. FM Gain"
+                "minimum": 0.0,
+                "instance": "/graph/vcf_2",
+                "label": "Exp. FM Gain",
+                "operational_mode": "+",
+                "maximum": 4.0,
+                "steps": 33
             }
-        ]
+        ],
+        "name": "Lo LFO AMT"
     },
-    "/hmi/potentiometer6": [
+    "/hmi/knob1": [
         {
-            "instance": "/graph/lfo2_freq_2",
-            "tempo": false,
-            "maximum": 100.0,
-            "label": "LFO",
-            "steps": 33,
-            "page": 0,
-            "port": "freq",
-            "dividers": 0.33300000000000002,
             "group": null,
-            "minimum": 9.9999997473787516e-05
-        }
-    ],
-    "/hmi/potentiometer7": [
-        {
-            "instance": "/graph/vco3",
+            "coloured": false,
             "tempo": false,
-            "maximum": 1.0,
-            "label": "OSC TUN",
-            "steps": 33,
-            "page": 0,
-            "port": "tune",
-            "dividers": null,
-            "group": null,
-            "minimum": -1.0
-        }
-    ],
-    "/hmi/potentiometer4": [
-        {
-            "instance": "/graph/mod_cv_control_4",
-            "tempo": false,
+            "subpage": null,
+            "label": "CV Sensitivity",
             "maximum": 10.0,
-            "label": "AMT",
-            "steps": 33,
-            "page": 0,
+            "instance": "/graph/mod_cv_control_1",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
             "port": "Control",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/potentiometer5": [
-        {
-            "instance": "/graph/vco3",
-            "tempo": false,
-            "maximum": 4.0,
-            "label": "OSC MOD",
-            "steps": 33,
-            "page": 0,
-            "port": "expFMGain",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/potentiometer2": [
-        {
-            "instance": "/graph/lfo2_freq_1",
-            "tempo": false,
-            "maximum": 10.0,
-            "label": "Hi LFO",
-            "steps": 33,
-            "page": 0,
-            "port": "freq",
-            "dividers": 0.33300000000000002,
-            "group": null,
-            "minimum": 9.9999997473787516e-05
-        }
-    ],
-    "/hmi/potentiometer3": [
-        {
-            "instance": "/graph/mod_cv_control_3",
-            "tempo": false,
-            "maximum": 10.0,
-            "label": "AMT",
             "steps": 65,
-            "page": 0,
-            "port": "Control",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/potentiometer1": [
-        {
-            "instance": "/graph/lfo2_freq",
-            "tempo": false,
-            "maximum": 10.0,
-            "label": "Lo LFO",
-            "steps": 33,
-            "page": 0,
-            "port": "freq",
-            "dividers": 0.33300000000000002,
-            "group": null,
-            "minimum": 9.9999997473787516e-05
-        }
-    ],
-    "/hmi/footswitch1": [
-        {
-            "instance": "/graph/midi_to_cv_mono",
-            "tempo": false,
-            "maximum": 1.0,
-            "label": "MIDI Input",
-            "steps": 33,
-            "page": 0,
-            "port": ":bypass",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/footswitch3": [
-        {
-            "instance": "/graph/DubDelay",
-            "tempo": false,
-            "maximum": 1.0,
-            "label": "DubDelay",
-            "steps": 33,
-            "page": 0,
-            "port": ":bypass",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/footswitch2": [
-        {
-            "instance": "/graph/sum",
-            "tempo": false,
-            "maximum": 1.0,
-            "label": "Delay Munge ST",
-            "steps": 33,
-            "page": 0,
-            "port": ":bypass",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
+            "page": 0
         }
     ],
     "/hmi/footswitch4": [
         {
-            "instance": "/graph/reverb",
-            "tempo": false,
-            "maximum": 1.0,
-            "label": "Reverberator",
-            "steps": 33,
-            "page": 0,
-            "port": ":bypass",
-            "dividers": null,
             "group": null,
-            "minimum": 0.0
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Reverberator",
+            "maximum": 1.0,
+            "instance": "/graph/reverb",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": ":bypass",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/knob2": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": null,
+            "subpage": null,
+            "label": "Output Volume",
+            "maximum": 12.0,
+            "instance": "/graph/Gain2x2",
+            "minimum": -20.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "Gain",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "MIDI Input",
+            "maximum": 1.0,
+            "instance": "/graph/midi_to_cv_mono",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": ":bypass",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Delay Munge ST",
+            "maximum": 1.0,
+            "instance": "/graph/sum",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": ":bypass",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch3": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "DubDelay",
+            "maximum": 1.0,
+            "instance": "/graph/DubDelay",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": ":bypass",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer3": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "AMT",
+            "maximum": 10.0,
+            "instance": "/graph/mod_cv_control_3",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "Control",
+            "steps": 65,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer2": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Hi LFO",
+            "maximum": 10.0,
+            "instance": "/graph/lfo2_freq_1",
+            "minimum": 9.9999997473787516e-05,
+            "momentary": 0,
+            "dividers": 0.33300000000000002,
+            "port": "freq",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer1": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Lo LFO",
+            "maximum": 10.0,
+            "instance": "/graph/lfo2_freq",
+            "minimum": 9.9999997473787516e-05,
+            "momentary": 0,
+            "dividers": 0.33300000000000002,
+            "port": "freq",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "OSC TUN",
+            "maximum": 1.0,
+            "instance": "/graph/vco3",
+            "minimum": -1.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "tune",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer6": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "LFO",
+            "maximum": 100.0,
+            "instance": "/graph/lfo2_freq_2",
+            "minimum": 9.9999997473787516e-05,
+            "momentary": 0,
+            "dividers": 0.33300000000000002,
+            "port": "freq",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "OSC MOD",
+            "maximum": 4.0,
+            "instance": "/graph/vco3",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "expFMGain",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "AMT",
+            "maximum": 10.0,
+            "instance": "/graph/mod_cv_control_4",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "Control",
+            "steps": 33,
+            "page": 0
         }
     ],
     "/hmi/potentiometer8": [
         {
-            "instance": "/graph/mod_cv_control_2",
+            "group": null,
+            "coloured": false,
             "tempo": false,
-            "maximum": 10.0,
+            "subpage": null,
             "label": "4FREQ",
-            "steps": 33,
-            "page": 0,
-            "port": "Control",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/cv/graph/mod_cv_attenuverter_3/CVout1": {
-        "name": "DelayMod2",
-        "addrs": [
-            {
-                "operational_mode": "b",
-                "instance": "/graph/DubDelay",
-                "maximum": 80.0,
-                "minimum": -80.0,
-                "steps": 33,
-                "port": "feedback",
-                "label": "Feedback"
-            }
-        ]
-    },
-    "/hmi/knob1": [
-        {
-            "instance": "/graph/mod_cv_control_1",
-            "tempo": false,
             "maximum": 10.0,
-            "label": "CV Sensitivity",
-            "steps": 65,
-            "page": 0,
+            "instance": "/graph/mod_cv_control_2",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
             "port": "Control",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/knob2": [
-        {
-            "instance": "/graph/Gain2x2",
-            "tempo": null,
-            "maximum": 12.0,
-            "label": "Output Volume",
             "steps": 33,
-            "page": 0,
-            "port": "Gain",
-            "dividers": null,
-            "group": null,
-            "minimum": -20.0
+            "page": 0
         }
     ],
-    "/cv/graph/mod_cv_control_2/Cvoutput": {
-        "name": "Cutoff",
+    "/cv/graph/cv_capture_2": [],
+    "/hmi/group1": [],
+    "/bpm": [],
+    "/hmi/group2": [],
+    "/hmi/group3": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/cv/graph/mod_cv_attenuverter_2/CVout1": {
         "addrs": [
             {
-                "operational_mode": "+",
-                "instance": "/graph/vcf",
-                "maximum": 4.2999999999999998,
-                "minimum": 0.10000000000000001,
-                "steps": 33,
-                "port": "freq",
-                "label": "Frequency"
-            },
-            {
-                "operational_mode": "+",
-                "instance": "/graph/vcf_2",
-                "maximum": 4.0,
-                "minimum": 0.10000000000000001,
-                "steps": 33,
-                "port": "freq",
-                "label": "Frequency"
-            },
-            {
-                "operational_mode": "+",
-                "instance": "/graph/vcf_1",
-                "maximum": 7.2000000000000002,
-                "minimum": 3.8999999999999999,
-                "steps": 33,
-                "port": "freq",
-                "label": "Frequency"
-            },
-            {
-                "operational_mode": "+",
-                "instance": "/graph/vcf_3",
-                "maximum": 7.0999999999999996,
-                "minimum": 4.0,
-                "steps": 33,
-                "port": "freq",
-                "label": "Frequency"
+                "port": "delay",
+                "minimum": 70.0,
+                "instance": "/graph/DubDelay",
+                "label": "Time",
+                "operational_mode": "b",
+                "maximum": 500.0,
+                "steps": 33
             }
-        ]
-    },
-    "/cv/graph/cv_exp_pedal": [],
-    "/hmi/group3": [],
-    "/hmi/group2": [],
-    "/hmi/group1": [],
-    "/cv/graph/cv_capture_1": []
+        ],
+        "name": "DelayMod1"
+    }
 }

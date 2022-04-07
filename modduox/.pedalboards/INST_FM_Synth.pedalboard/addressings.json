@@ -1,242 +1,263 @@
 {
-    "/hmi/potentiometer1": [
+    "/hmi/potentiometer3": [
         {
-            "port": "attack",
-            "maximum": 100.0,
-            "label": "Attack",
             "group": null,
+            "coloured": false,
             "tempo": false,
-            "steps": 33,
-            "dividers": {
-                "options": [],
-                "value": null
-            },
+            "subpage": null,
+            "label": "Decay",
+            "maximum": 7000.0,
             "instance": "/graph/DX10",
-            "minimum": 0.0,
-            "page": 0
-        }
-    ],
-    "/hmi/footswitch4": [
-        {
-            "port": ":bypass",
-            "maximum": 1.0,
-            "label": "Shiro DOWN",
-            "group": null,
-            "tempo": false,
+            "minimum": 46.5,
+            "momentary": 0,
+            "dividers": null,
+            "port": "decay",
             "steps": 33,
-            "dividers": {
-                "options": []
-            },
-            "instance": "/graph/shiroverb_1",
-            "minimum": 0.0,
             "page": 0
         }
     ],
     "/hmi/potentiometer2": [
         {
-            "port": "waveform",
-            "maximum": 100.0,
-            "label": "Waveform",
             "group": null,
+            "coloured": false,
             "tempo": false,
-            "steps": 33,
+            "subpage": null,
+            "label": "Waveform",
+            "maximum": 100.0,
+            "instance": "/graph/DX10",
+            "minimum": 0.0,
+            "momentary": 0,
             "dividers": {
                 "options": [],
                 "value": null
             },
+            "port": "waveform",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer1": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Attack",
+            "maximum": 4000.0,
             "instance": "/graph/DX10",
-            "minimum": 0.0,
-            "page": 0
-        }
-    ],
-    "/hmi/footswitch2": [
-        {
-            "port": ":bypass",
-            "maximum": 1.0,
-            "label": "Chorus/Flanger",
-            "group": null,
-            "tempo": false,
+            "minimum": 2.5,
+            "momentary": 0,
+            "dividers": null,
+            "port": "attack",
             "steps": 33,
-            "dividers": {
-                "options": []
-            },
-            "instance": "/graph/chorusflanger",
-            "minimum": 0.0,
-            "page": 0
-        }
-    ],
-    "/hmi/footswitch3": [
-        {
-            "port": ":bypass",
-            "maximum": 1.0,
-            "label": "Shiro UP",
-            "group": null,
-            "tempo": false,
-            "steps": 33,
-            "dividers": {
-                "options": []
-            },
-            "instance": "/graph/shiroverb",
-            "minimum": 0.0,
             "page": 0
         }
     ],
     "/hmi/potentiometer7": [
         {
-            "port": "mod_dec",
-            "maximum": 100.0,
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
             "label": "Mod Dec",
-            "group": null,
-            "tempo": false,
-            "steps": 33,
-            "dividers": {
-                "options": [],
-                "value": null
-            },
+            "maximum": 7000.0,
             "instance": "/graph/DX10",
-            "minimum": 0.0,
-            "page": 0
-        }
-    ],
-    "/hmi/footswitch1": [
-        {
-            "port": ":bypass",
-            "maximum": 1.0,
-            "label": "Glitch/Stutter",
-            "group": null,
-            "tempo": false,
+            "minimum": 17.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "mod_dec",
             "steps": 33,
-            "dividers": {
-                "options": []
-            },
-            "instance": "/graph/xfade",
-            "minimum": 0.0,
             "page": 0
         }
     ],
-    "/hmi/potentiometer8": [
-        {
-            "port": "mod_rel",
-            "maximum": 100.0,
-            "label": "Mod Rel",
-            "group": null,
-            "tempo": false,
-            "steps": 33,
-            "dividers": {
-                "options": [],
-                "value": null
-            },
-            "instance": "/graph/DX10",
-            "minimum": 0.0,
-            "page": 0
-        }
-    ],
-    "/cv/graph/cv_capture_1": [],
     "/hmi/potentiometer6": [
         {
-            "port": "mod_sus",
-            "maximum": 100.0,
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
             "label": "Mod Sus",
-            "group": null,
-            "tempo": false,
-            "steps": 33,
-            "dividers": {
-                "options": [],
-                "value": null
-            },
-            "instance": "/graph/DX10",
-            "minimum": 0.0,
-            "page": 0
-        }
-    ],
-    "/hmi/group2": [],
-    "/hmi/potentiometer3": [
-        {
-            "port": "decay",
             "maximum": 100.0,
-            "label": "Decay",
-            "group": null,
-            "tempo": false,
-            "steps": 33,
-            "dividers": {
-                "options": [],
-                "value": null
-            },
             "instance": "/graph/DX10",
             "minimum": 0.0,
-            "page": 0
-        }
-    ],
-    "/hmi/group1": [],
-    "/hmi/knob1": [
-        {
-            "port": "coarse",
-            "maximum": 40.0,
-            "label": "Coarse",
-            "group": null,
-            "tempo": false,
-            "steps": 65,
+            "momentary": 0,
             "dividers": {
                 "options": [],
                 "value": null
             },
-            "instance": "/graph/DX10",
-            "minimum": 0.0099999997764825821,
-            "page": 0
-        }
-    ],
-    "/cv/graph/cv_capture_2": [],
-    "/bpm": [],
-    "/cv/graph/cv_exp_pedal": [],
-    "/hmi/knob2": [
-        {
-            "port": "fine",
-            "maximum": 0.75,
-            "label": "Fine",
-            "group": null,
-            "tempo": false,
-            "steps": 65,
-            "dividers": {
-                "options": [],
-                "value": null
-            },
-            "instance": "/graph/DX10",
-            "minimum": 0.0010000000474974513,
+            "port": "mod_sus",
+            "steps": 33,
             "page": 0
         }
     ],
     "/hmi/potentiometer5": [
         {
-            "port": "mod_init",
-            "maximum": 100.0,
-            "label": "Mod Init",
             "group": null,
+            "coloured": false,
             "tempo": false,
-            "steps": 33,
+            "subpage": null,
+            "label": "Mod Init",
+            "maximum": 100.0,
+            "instance": "/graph/DX10",
+            "minimum": 0.0,
+            "momentary": 0,
             "dividers": {
                 "options": [],
                 "value": null
             },
-            "instance": "/graph/DX10",
-            "minimum": 0.0,
+            "port": "mod_init",
+            "steps": 33,
             "page": 0
         }
     ],
-    "/hmi/group3": [],
     "/hmi/potentiometer4": [
         {
-            "port": "release",
-            "maximum": 100.0,
-            "label": "Release",
             "group": null,
+            "coloured": false,
             "tempo": false,
+            "subpage": null,
+            "label": "Release",
+            "maximum": 7000.0,
+            "instance": "/graph/DX10",
+            "minimum": 46.5,
+            "momentary": 0,
+            "dividers": null,
+            "port": "release",
             "steps": 33,
+            "page": 0
+        }
+    ],
+    "/cv/graph/cv_exp_pedal": [],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/potentiometer8": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Mod Rel",
+            "maximum": 7000.0,
+            "instance": "/graph/DX10",
+            "minimum": 46.5,
+            "momentary": 0,
+            "dividers": null,
+            "port": "mod_rel",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/cv/graph/cv_capture_2": [],
+    "/bpm": [],
+    "/hmi/group2": [],
+    "/hmi/group3": [],
+    "/hmi/group1": [],
+    "/hmi/footswitch4": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Shiro DOWN",
+            "maximum": 1.0,
+            "instance": "/graph/shiroverb_1",
+            "minimum": 0.0,
+            "momentary": 0,
             "dividers": {
-                "options": [],
-                "value": null
+                "options": []
             },
+            "port": ":bypass",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Coarse",
+            "maximum": 40.0,
             "instance": "/graph/DX10",
             "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "coarse",
+            "steps": 40,
+            "page": 0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Fine",
+            "maximum": 0.75,
+            "instance": "/graph/DX10",
+            "minimum": 0.0010000000474974513,
+            "momentary": 0,
+            "dividers": null,
+            "port": "fine",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Glitch/Stutter",
+            "maximum": 1.0,
+            "instance": "/graph/xfade",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": {
+                "options": []
+            },
+            "port": ":bypass",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Chorus/Flanger",
+            "maximum": 1.0,
+            "instance": "/graph/chorusflanger",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": {
+                "options": []
+            },
+            "port": ":bypass",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch3": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Shiro UP",
+            "maximum": 1.0,
+            "instance": "/graph/shiroverb",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": {
+                "options": []
+            },
+            "port": ":bypass",
+            "steps": 33,
             "page": 0
         }
     ]

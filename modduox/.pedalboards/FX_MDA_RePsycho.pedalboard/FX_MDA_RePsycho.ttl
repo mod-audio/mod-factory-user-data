@@ -12,56 +12,132 @@ _:b1
     ingen:head <xfade_1/inB_left> .
 
 _:b2
-    ingen:tail <xfade/out_left> ;
-    ingen:head <Gain2x2/In1> .
-
-_:b3
-    ingen:tail <capture_2> ;
-    ingen:head <xfade_1/inB_right> .
-
-_:b4
-    ingen:tail <xfade_1/out_right> ;
-    ingen:head <xfade/inA_right> .
-
-_:b5
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <playback_2> .
-
-_:b6
-    ingen:tail <xfade_1/out_right> ;
-    ingen:head <RePsycho/right_in> .
-
-_:b7
-    ingen:tail <xfade_1/out_left> ;
-    ingen:head <xfade/inA_left> .
-
-_:b8
-    ingen:tail <capture_1> ;
-    ingen:head <xfade_1/inA_left> .
-
-_:b9
-    ingen:tail <xfade/out_right> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b10
-    ingen:tail <capture_1> ;
-    ingen:head <xfade_1/inA_right> .
-
-_:b11
-    ingen:tail <xfade_1/out_left> ;
-    ingen:head <RePsycho/left_in> .
-
-_:b12
     ingen:tail <RePsycho/left_out> ;
     ingen:head <xfade/inB_left> .
 
-_:b13
+_:b3
     ingen:tail <RePsycho/right_out> ;
     ingen:head <xfade/inB_right> .
 
-_:b14
+_:b4
     ingen:tail <Gain2x2/Out1> ;
     ingen:head <playback_1> .
+
+_:b5
+    ingen:tail <xfade_1/out_right> ;
+    ingen:head <RePsycho/right_in> .
+
+_:b6
+    ingen:tail <xfade/out_right> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b7
+    ingen:tail <capture_1> ;
+    ingen:head <xfade_1/inA_right> .
+
+_:b8
+    ingen:tail <xfade_1/out_left> ;
+    ingen:head <xfade/inA_left> .
+
+_:b9
+    ingen:tail <capture_1> ;
+    ingen:head <xfade_1/inA_left> .
+
+_:b10
+    ingen:tail <xfade/out_left> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b11
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
+
+_:b12
+    ingen:tail <xfade_1/out_left> ;
+    ingen:head <RePsycho/left_in> .
+
+_:b13
+    ingen:tail <capture_2> ;
+    ingen:head <xfade_1/inB_right> .
+
+_:b14
+    ingen:tail <xfade_1/out_right> ;
+    ingen:head <xfade/inA_right> .
+
+<xfade_1>
+    ingen:canvasX 502.4 ;
+    ingen:canvasY 327.1 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 516 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 6 ;
+    lv2:port <xfade_1/inA_left> ,
+             <xfade_1/inA_right> ,
+             <xfade_1/inB_left> ,
+             <xfade_1/inB_right> ,
+             <xfade_1/out_left> ,
+             <xfade_1/out_right> ,
+             <xfade_1/xfade> ,
+             <xfade_1/shape> ,
+             <xfade_1/mode> ,
+             <xfade_1/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/xfade> ;
+    pedal:instanceNumber 0 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<xfade_1/inA_left>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade_1/inA_right>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade_1/inB_left>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade_1/inB_right>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade_1/inA_left>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade_1/inA_right>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade_1/inB_left>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade_1/inB_right>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade_1/xfade>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade_1/shape>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade_1/mode>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade_1/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
 
 <Gain2x2>
     ingen:canvasX 2907.0 ;
@@ -71,7 +147,7 @@ _:b14
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 12 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2/In1> ,
              <Gain2x2/In2> ,
              <Gain2x2/Out1> ,
@@ -79,6 +155,7 @@ _:b14
              <Gain2x2/Gain> ,
              <Gain2x2/:bypass> ;
     lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:instanceNumber 1 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -116,7 +193,7 @@ _:b14
     lv2:microVersion 1 ;
     lv2:minorVersion 0 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 9 ;
+    mod:releaseNumber 15 ;
     lv2:port <RePsycho/left_in> ,
              <RePsycho/right_in> ,
              <RePsycho/left_out> ,
@@ -130,6 +207,7 @@ _:b14
              <RePsycho/quality> ,
              <RePsycho/:bypass> ;
     lv2:prototype <http://moddevices.com/plugins/mda/RePsycho> ;
+    pedal:instanceNumber 2 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -149,28 +227,13 @@ _:b14
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<RePsycho/hold>
-    ingen:value 162.339996 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <RePsycho/thresh>
     ingen:value -25.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<RePsycho/decay>
-    ingen:value -37.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<RePsycho/mix>
-    ingen:value 100.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<RePsycho/fine>
-    ingen:value 0.000000 ;
+<RePsycho/hold>
+    ingen:value 162.339996 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -181,6 +244,21 @@ _:b14
 
 <RePsycho/quality>
     ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<RePsycho/decay>
+    ingen:value -37.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<RePsycho/fine>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<RePsycho/mix>
+    ingen:value 100.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -197,7 +275,7 @@ _:b14
     lv2:microVersion 0 ;
     lv2:minorVersion 516 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
+    mod:releaseNumber 6 ;
     lv2:port <xfade/inA_left> ,
              <xfade/inA_right> ,
              <xfade/inB_left> ,
@@ -209,6 +287,7 @@ _:b14
              <xfade/mode> ,
              <xfade/:bypass> ;
     lv2:prototype <http://gareus.org/oss/lv2/xfade> ;
+    pedal:instanceNumber 3 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -244,13 +323,13 @@ _:b14
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade/shape>
-    ingen:value 0.000000 ;
+<xfade/xfade>
+    ingen:value -0.417440 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade/xfade>
-    ingen:value -0.417440 ;
+<xfade/shape>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -261,81 +340,6 @@ _:b14
 
 <xfade/:bypass>
     ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<xfade_1>
-    ingen:canvasX 502.4 ;
-    ingen:canvasY 327.1 ;
-    ingen:enabled false ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 516 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
-    lv2:port <xfade_1/inA_left> ,
-             <xfade_1/inA_right> ,
-             <xfade_1/inB_left> ,
-             <xfade_1/inB_right> ,
-             <xfade_1/out_left> ,
-             <xfade_1/out_right> ,
-             <xfade_1/xfade> ,
-             <xfade_1/shape> ,
-             <xfade_1/mode> ,
-             <xfade_1/:bypass> ;
-    lv2:prototype <http://gareus.org/oss/lv2/xfade> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<xfade_1/inA_left>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<xfade_1/inA_right>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<xfade_1/inB_left>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<xfade_1/inB_right>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<xfade_1/inA_left>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<xfade_1/inA_right>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<xfade_1/inB_left>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<xfade_1/inB_right>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<xfade_1/shape>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<xfade_1/xfade>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<xfade_1/mode>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<xfade_1/:bypass>
-    ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -477,16 +481,22 @@ _:b14
     a atom:AtomPort ,
         lv2:InputPort .
 
+<midi_loopback>
+    ingen:value 0 ;
+    lv2:index 17 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
 <>
     doap:name "FX - MDA RePsycho" ;
     pedal:unitName "MOD Duo X" ;
-    pedal:unitModel "Unknown" ;
+    pedal:unitModel "duox:aarch64-a72.a53" ;
     pedal:width 3840 ;
     pedal:height 1758 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 13 ;
+    pedal:version 14 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -502,14 +512,15 @@ _:b14
               _:b12 ,
               _:b13 ,
               _:b14 ;
-    ingen:block <Gain2x2> ,
+    ingen:block <xfade_1> ,
+                <Gain2x2> ,
                 <RePsycho> ,
-                <xfade> ,
-                <xfade_1> ;
+                <xfade> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
              <midi_separated_mode> ,
+             <midi_loopback> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

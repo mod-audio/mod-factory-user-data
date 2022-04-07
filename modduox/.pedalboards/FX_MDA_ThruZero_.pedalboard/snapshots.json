@@ -1,0 +1,62 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "xfade": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "xfade": 1.0,
+                        "shape": 0.0,
+                        "mode": 0.0
+                    }
+                },
+                "stereo_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain": -0.71428602933883667,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    }
+                },
+                "stereo": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    }
+                },
+                "ThruZero": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "feedback": 83.039764404296875,
+                        "depth": 37.898437499999972,
+                        "mix": 100.0,
+                        "depth_mod": 34.793556213378906,
+                        "rate": 0.83536254024764689
+                    }
+                },
+                "xfade_2": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "xfade": 1.0,
+                        "shape": 0.0,
+                        "mode": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

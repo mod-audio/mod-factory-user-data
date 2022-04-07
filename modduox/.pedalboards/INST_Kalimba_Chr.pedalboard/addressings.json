@@ -1,349 +1,427 @@
 {
-    "/hmi/knob1": [
+    "/hmi/potentiometer3": [
         {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "CP LVL",
+            "maximum": 2.0,
             "instance": "/graph/FluidPlug_FluidChromPerc",
-            "tempo": false,
-            "maximum": 8.0,
-            "label": "ChromPerc",
-            "steps": 8,
-            "page": 0,
-            "port": "program",
+            "minimum": 0.0,
+            "momentary": 0,
             "dividers": null,
-            "group": null,
-            "minimum": 0.0
+            "port": "level",
+            "steps": 33,
+            "page": 0
         },
         {
-            "instance": "/graph/bolliedelay",
-            "tempo": false,
-            "maximum": 5.0,
-            "label": "BD Left",
-            "steps": 5,
-            "page": 1,
-            "port": "div_l",
-            "dividers": null,
             "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/knob2": [
-        {
-            "instance": "/graph/bolliedelay",
+            "coloured": false,
             "tempo": false,
-            "maximum": 5.0,
-            "label": "BD Right",
-            "steps": 5,
-            "page": 1,
-            "port": "div_r",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/cv/graph/cv_capture_2": [],
-    "/cv/graph/cv_capture_1": [],
-    "/bpm": [],
-    "/cv/graph/cv_exp_pedal": [],
-    "/hmi/potentiometer6": [
-        {
-            "instance": "/graph/RePsycho",
-            "tempo": false,
+            "subpage": null,
+            "label": "BD XFD",
             "maximum": 100.0,
-            "label": "RP MIX",
-            "steps": 33,
-            "page": 0,
-            "port": "mix",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        },
-        {
             "instance": "/graph/bolliedelay",
-            "tempo": false,
-            "maximum": 8.0,
-            "label": "Lo Q",
-            "steps": 33,
-            "page": 1,
-            "port": "low_q",
+            "minimum": 0.0,
+            "momentary": 0,
             "dividers": null,
-            "group": null,
-            "minimum": 0.125
-        }
-    ],
-    "/hmi/potentiometer7": [
-        {
-            "instance": "/graph/RePsycho",
-            "tempo": false,
-            "maximum": 50.0,
-            "label": "RP DCY",
+            "port": "crossf",
             "steps": 33,
-            "page": 0,
-            "port": "decay",
-            "dividers": null,
-            "group": null,
-            "minimum": -50.0
-        },
-        {
-            "instance": "/graph/bolliedelay",
-            "tempo": false,
-            "maximum": 22000.0,
-            "label": "hi frq",
-            "steps": 33,
-            "page": 1,
-            "port": "high_f",
-            "dividers": null,
-            "group": null,
-            "minimum": 200.0
-        }
-    ],
-    "/hmi/potentiometer4": [
-        {
-            "instance": "/graph/RePsycho",
-            "tempo": false,
-            "maximum": 0.0,
-            "label": "RP FINE",
-            "steps": 33,
-            "page": 0,
-            "port": "fine",
-            "dividers": null,
-            "group": null,
-            "minimum": -99.0
-        }
-    ],
-    "/hmi/potentiometer5": [
-        {
-            "instance": "/graph/RePsycho",
-            "tempo": false,
-            "maximum": 0.0,
-            "label": "RP TRSH",
-            "steps": 33,
-            "page": 0,
-            "port": "thresh",
-            "dividers": null,
-            "group": null,
-            "minimum": -30.0
-        },
-        {
-            "instance": "/graph/bolliedelay",
-            "tempo": false,
-            "maximum": 2000.0,
-            "label": "Lo frq",
-            "steps": 33,
-            "page": 1,
-            "port": "low_f",
-            "dividers": null,
-            "group": null,
-            "minimum": 20.0
+            "page": 1
         }
     ],
     "/hmi/potentiometer2": [
         {
-            "instance": "/graph/RePsycho",
-            "tempo": false,
-            "maximum": 0.0,
-            "label": "RP TUNE",
-            "steps": 33,
-            "page": 0,
-            "port": "tune",
-            "dividers": null,
             "group": null,
-            "minimum": -24.0
-        },
-        {
-            "instance": "/graph/bolliedelay",
+            "coloured": false,
             "tempo": false,
-            "maximum": 100.0,
+            "subpage": null,
             "label": "BD Mix",
-            "steps": 33,
-            "page": 1,
+            "maximum": 100.0,
+            "instance": "/graph/bolliedelay",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
             "port": "mix",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/potentiometer3": [
-        {
-            "instance": "/graph/FluidPlug_FluidChromPerc",
-            "tempo": false,
-            "maximum": 2.0,
-            "label": "CP LVL",
             "steps": 33,
-            "page": 0,
-            "port": "level",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
+            "page": 1
         },
         {
-            "instance": "/graph/bolliedelay",
-            "tempo": false,
-            "maximum": 100.0,
-            "label": "BD XFD",
-            "steps": 33,
-            "page": 1,
-            "port": "crossf",
-            "dividers": null,
             "group": null,
-            "minimum": 0.0
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "rp Tune",
+            "maximum": 0.0,
+            "instance": "/graph/RePsycho",
+            "minimum": -24.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "tune",
+            "steps": 24,
+            "page": 0
         }
     ],
-    "/hmi/group1": [],
     "/hmi/potentiometer1": [
         {
-            "instance": "/graph/FluidPlug_FluidEthnic",
-            "tempo": false,
-            "maximum": 2.0,
-            "label": "KLB LVL",
-            "steps": 33,
-            "page": 0,
-            "port": "level",
-            "dividers": null,
             "group": null,
-            "minimum": 0.0
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "KLB LVL",
+            "maximum": 2.0,
+            "instance": "/graph/FluidPlug_FluidEthnic",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "level",
+            "steps": 33,
+            "page": 0
         },
         {
-            "instance": "/graph/bolliedelay",
-            "tempo": false,
-            "maximum": 100.0,
-            "label": "BD FBCK",
-            "steps": 33,
-            "page": 1,
-            "port": "feedback",
-            "dividers": null,
             "group": null,
-            "minimum": 0.0
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "BD FBCK",
+            "maximum": 100.0,
+            "instance": "/graph/bolliedelay",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "feedback",
+            "steps": 33,
+            "page": 1
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "RP DCY",
+            "maximum": 50.0,
+            "instance": "/graph/RePsycho",
+            "minimum": -50.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "decay",
+            "steps": 33,
+            "page": 0
+        },
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "hi frq",
+            "maximum": 22000.0,
+            "instance": "/graph/bolliedelay",
+            "minimum": 200.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "high_f",
+            "steps": 33,
+            "page": 1
+        }
+    ],
+    "/hmi/potentiometer6": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "RP MIX",
+            "maximum": 100.0,
+            "instance": "/graph/RePsycho",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "mix",
+            "steps": 33,
+            "page": 0
+        },
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Lo Q",
+            "maximum": 8.0,
+            "instance": "/graph/bolliedelay",
+            "minimum": 0.125,
+            "momentary": 0,
+            "dividers": null,
+            "port": "low_q",
+            "steps": 33,
+            "page": 1
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "RP TRSH",
+            "maximum": 0.0,
+            "instance": "/graph/RePsycho",
+            "minimum": -30.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "thresh",
+            "steps": 33,
+            "page": 0
+        },
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Lo frq",
+            "maximum": 2000.0,
+            "instance": "/graph/bolliedelay",
+            "minimum": 20.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "low_f",
+            "steps": 33,
+            "page": 1
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "rp Fine",
+            "maximum": 0.0,
+            "instance": "/graph/RePsycho",
+            "minimum": -100.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "fine",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/cv/graph/cv_exp_pedal": [],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/potentiometer8": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "RP HOLD",
+            "maximum": 260.0,
+            "instance": "/graph/RePsycho",
+            "minimum": 10.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "hold",
+            "steps": 33,
+            "page": 0
+        },
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "hi q",
+            "maximum": 8.0,
+            "instance": "/graph/bolliedelay",
+            "minimum": 0.125,
+            "momentary": 0,
+            "dividers": null,
+            "port": "high_q",
+            "steps": 33,
+            "page": 1
+        }
+    ],
+    "/cv/graph/cv_capture_2": [],
+    "/bpm": [],
+    "/hmi/group2": [],
+    "/hmi/group3": [],
+    "/hmi/group1": [],
+    "/hmi/footswitch4": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "RP Quality",
+            "maximum": 1.0,
+            "instance": "/graph/RePsycho",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "quality",
+            "steps": 1,
+            "page": 0
+        },
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "BD Highcut",
+            "maximum": 1.0,
+            "instance": "/graph/bolliedelay",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "high_on",
+            "steps": 1,
+            "page": 1
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "ChromPerc",
+            "maximum": 8.0,
+            "instance": "/graph/FluidPlug_FluidChromPerc",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "program",
+            "steps": 7,
+            "page": 0
+        },
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "BD Left",
+            "maximum": 5.0,
+            "instance": "/graph/bolliedelay",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "div_l",
+            "steps": 5,
+            "page": 1
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "BD Right",
+            "maximum": 5.0,
+            "instance": "/graph/bolliedelay",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "div_r",
+            "steps": 5,
+            "page": 1
         }
     ],
     "/hmi/footswitch1": [
         {
-            "instance": "/graph/FluidPlug_FluidEthnic",
+            "group": null,
+            "coloured": false,
             "tempo": false,
-            "maximum": 1.0,
+            "subpage": null,
             "label": "Kalimba",
-            "steps": 33,
-            "page": 0,
-            "port": ":bypass",
+            "maximum": 1.0,
+            "instance": "/graph/FluidPlug_FluidEthnic",
+            "minimum": 0.0,
+            "momentary": 0,
             "dividers": null,
-            "group": null,
-            "minimum": 0.0
+            "port": ":bypass",
+            "steps": 33,
+            "page": 0
         },
         {
-            "instance": "/graph/bolliedelay",
+            "group": null,
+            "coloured": false,
             "tempo": false,
-            "maximum": 1.0,
+            "subpage": null,
             "label": "Bollie Delay",
-            "steps": 33,
-            "page": 1,
-            "port": ":bypass",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/group3": [],
-    "/hmi/footswitch3": [
-        {
-            "instance": "/graph/RePsycho",
-            "tempo": false,
             "maximum": 1.0,
-            "label": "RePsycho",
-            "steps": 33,
-            "page": 0,
-            "port": ":bypass",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        },
-        {
             "instance": "/graph/bolliedelay",
-            "tempo": false,
-            "maximum": 1.0,
-            "label": "BD Lowcut",
-            "steps": 1,
-            "page": 1,
-            "port": "low_on",
+            "minimum": 0.0,
+            "momentary": 0,
             "dividers": null,
-            "group": null,
-            "minimum": 0.0
+            "port": ":bypass",
+            "steps": 33,
+            "page": 1
         }
     ],
     "/hmi/footswitch2": [
         {
-            "instance": "/graph/FluidPlug_FluidChromPerc",
+            "group": null,
+            "coloured": false,
             "tempo": false,
-            "maximum": 1.0,
+            "subpage": null,
             "label": "ChromPerc",
-            "steps": 33,
-            "page": 0,
+            "maximum": 1.0,
+            "instance": "/graph/FluidPlug_FluidChromPerc",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
             "port": ":bypass",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
+            "steps": 33,
+            "page": 0
         },
         {
-            "instance": "/pedalboard",
+            "group": null,
+            "coloured": false,
             "tempo": false,
-            "maximum": 280.0,
+            "subpage": null,
             "label": "Tap",
-            "steps": 260,
-            "page": 1,
+            "maximum": 280.0,
+            "instance": "/pedalboard",
+            "minimum": 20.0,
+            "momentary": 0,
+            "dividers": null,
             "port": ":bpm",
-            "dividers": null,
-            "group": null,
-            "minimum": 20.0
+            "steps": 260,
+            "page": 1
         }
     ],
-    "/hmi/footswitch4": [
+    "/hmi/footswitch3": [
         {
-            "instance": "/graph/RePsycho",
-            "tempo": false,
-            "maximum": 1.0,
-            "label": "RP Quality",
-            "steps": 33,
-            "page": 0,
-            "port": "quality",
-            "dividers": null,
             "group": null,
-            "minimum": 0.0
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "RePsycho",
+            "maximum": 1.0,
+            "instance": "/graph/RePsycho",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": ":bypass",
+            "steps": 33,
+            "page": 0
         },
         {
-            "instance": "/graph/bolliedelay",
+            "group": null,
+            "coloured": false,
             "tempo": false,
+            "subpage": null,
+            "label": "BD Lowcut",
             "maximum": 1.0,
-            "label": "BD Highcut",
+            "instance": "/graph/bolliedelay",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "low_on",
             "steps": 1,
-            "page": 1,
-            "port": "high_on",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
+            "page": 1
         }
-    ],
-    "/hmi/potentiometer8": [
-        {
-            "instance": "/graph/RePsycho",
-            "tempo": false,
-            "maximum": 260.0,
-            "label": "RP HOLD",
-            "steps": 33,
-            "page": 0,
-            "port": "hold",
-            "dividers": null,
-            "group": null,
-            "minimum": 10.0
-        },
-        {
-            "instance": "/graph/bolliedelay",
-            "tempo": false,
-            "maximum": 8.0,
-            "label": "hi q",
-            "steps": 33,
-            "page": 1,
-            "port": "high_q",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.125
-        }
-    ],
-    "/hmi/group2": []
+    ]
 }

@@ -1,0 +1,52 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "xfade": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "xfade": -0.41743999719619751,
+                        "shape": 0.0,
+                        "mode": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -3.125
+                    }
+                },
+                "RePsycho": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "thresh": -25.0,
+                        "hold": 162.33999633789062,
+                        "tune": -12.0,
+                        "mix": 100.0,
+                        "decay": -37.0,
+                        "fine": 0.0,
+                        "quality": 1.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "xfade": 1.0,
+                        "shape": 0.0,
+                        "mode": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

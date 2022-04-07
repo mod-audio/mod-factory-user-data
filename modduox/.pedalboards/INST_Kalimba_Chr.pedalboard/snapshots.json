@@ -1,0 +1,84 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "stereo_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    }
+                },
+                "FluidPlug_FluidChromPerc": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "program": 0.0,
+                        "level": 0.31706100702285767
+                    }
+                },
+                "FluidPlug_FluidEthnic": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "program": 4.0,
+                        "level": 1.1186439990997314
+                    }
+                },
+                "bolliedelay": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "tempo_user": 120.0,
+                        "feedback": 71.072509765625,
+                        "high_on": 0.0,
+                        "tap": 0.0,
+                        "crossf": 57.272270202636719,
+                        "low_f": 109.26468658447266,
+                        "div_r": 2.0,
+                        "mix": 42.1875,
+                        "high_f": 2502.355712890625,
+                        "low_on": 0.0,
+                        "div_l": 0.0,
+                        "tempo_mode": 0.0,
+                        "high_q": 4.5896778106689453,
+                        "low_q": 5.0537328720092773,
+                        "tempo_host": 120.0
+                    }
+                },
+                "stereo": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    }
+                },
+                "RePsycho": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "thresh": -15.602679252624512,
+                        "hold": 80.033485412597656,
+                        "tune": -17.0,
+                        "mix": 34.933036804199219,
+                        "decay": 9.7098207473754883,
+                        "fine": -13.932769775390625,
+                        "quality": 1.0
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

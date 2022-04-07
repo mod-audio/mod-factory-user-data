@@ -1,0 +1,41 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -3.125
+                    }
+                },
+                "SubSynth": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "dry_mix": 34.719074249267578,
+                        "thresh": -48.434818267822266,
+                        "tune": 198.0,
+                        "level": 50.0,
+                        "type": 0.5,
+                        "release": 1.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "xfade": 1.0,
+                        "shape": 0.0,
+                        "mode": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

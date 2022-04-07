@@ -1,0 +1,509 @@
+{
+    "snapshots": [
+        {
+            "name": "Fat Bee",
+            "data": {
+                "vco3_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "tune": 0.0,
+                        "pwGain": 0.0,
+                        "linFMGain": 0.019999999552965164,
+                        "semitone": 1.0,
+                        "phi0": 0.0,
+                        "pw0": 0.5,
+                        "octave": 0.0,
+                        "waveForm": 0.0,
+                        "expFMGain": 0.72463798522949219,
+                        "edge": 1.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -2.8571429252624512
+                    }
+                },
+                "vcaexp": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain1": 1.0,
+                        "in2": 1.0393370389938354,
+                        "in1": 1.3747409582138062,
+                        "gain2": 0.0,
+                        "outputLevel": 0.087474003434181213
+                    }
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "bandwidth": 75.0,
+                        "ratio": 0.94999998807907104,
+                        "mix": 38.28125,
+                        "shimmer": 58.59375,
+                        "tone": 2198.58251953125,
+                        "damping": 50.0,
+                        "decay": 25.197544097900391,
+                        "roomsize": 150.0
+                    }
+                },
+                "DubDelay": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "feedback": 50.390998840332031,
+                        "delay": 20.134498447233767,
+                        "output": 0.0,
+                        "fx_mix": 49.441963195800781,
+                        "lfo_rate": 2.0838169641085877,
+                        "fb_tone": 52.008930206298828,
+                        "lfo_depth": 59.151786804199219
+                    }
+                },
+                "lfo2_freq": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "phi0": 0.0,
+                        "freq": 9.0063018798828125,
+                        "waveForm": 5.0
+                    }
+                },
+                "vco3": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "tune": 0.0,
+                        "pwGain": 0.54037302732467651,
+                        "linFMGain": 0.0,
+                        "semitone": 0.0,
+                        "phi0": 0.0,
+                        "pw0": 0.5,
+                        "octave": 0.0,
+                        "waveForm": 1.0,
+                        "expFMGain": 9.3995857238769531,
+                        "edge": 1.0
+                    }
+                },
+                "lfo2_freq_3": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "phi0": 0.0,
+                        "freq": 10.432722091674805,
+                        "waveForm": 5.0
+                    }
+                },
+                "lfo2_freq_2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "phi0": 0.0,
+                        "freq": 66.563179016113281,
+                        "waveForm": 0.0
+                    }
+                },
+                "vcf": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "expFMGain": 9.5341606140136719,
+                        "inputGain": 2.8157351016998291,
+                        "vcfType": 1.0,
+                        "resonanceGain": 0.0,
+                        "freq": 3.8405799865722656,
+                        "linFMGain": 1.3043479919433594,
+                        "resonance": 0.076614998281002045
+                    }
+                },
+                "vcaexp_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain1": 0.53002101182937622,
+                        "in2": 1.0,
+                        "in1": 1.0,
+                        "gain2": 0.13768100738525391,
+                        "outputLevel": 0.16407899558544159
+                    }
+                },
+                "lfo2_freq_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "phi0": 0.0,
+                        "freq": 73.028457641601562,
+                        "waveForm": 5.0
+                    }
+                },
+                "vcf_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "expFMGain": 0.0,
+                        "inputGain": 1.0,
+                        "vcfType": 2.0,
+                        "resonanceGain": 0.0,
+                        "freq": 5.590062141418457,
+                        "linFMGain": 0.0,
+                        "resonance": 0.0099999997764825821
+                    }
+                }
+            }
+        },
+        {
+            "name": "Bad Dream",
+            "data": {
+                "vco3_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "tune": 0.57428900000000005,
+                        "pwGain": 0.0,
+                        "linFMGain": 0.069468000000000002,
+                        "semitone": 1.0,
+                        "phi0": 0.0,
+                        "pw0": 0.5,
+                        "octave": 3.4902350000000002,
+                        "waveForm": 2.0,
+                        "expFMGain": 0.29493200000000003,
+                        "edge": 1.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -14.0
+                    }
+                },
+                "vcaexp": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain1": 1.0,
+                        "in2": 1.125,
+                        "in1": 1.625,
+                        "gain2": 0.0,
+                        "outputLevel": 0.087474003434181213
+                    }
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "bandwidth": 75.0,
+                        "ratio": 0.94999999999999996,
+                        "mix": 38.28125,
+                        "shimmer": 58.59375,
+                        "tone": 2198.5824447284804,
+                        "damping": 50.0,
+                        "decay": 25.197544642857146,
+                        "roomsize": 150.0
+                    }
+                },
+                "DubDelay": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "feedback": 14.71199,
+                        "delay": 12.360140369722703,
+                        "output": 0.0,
+                        "fx_mix": 49.441963195800781,
+                        "lfo_rate": 2.4071540176872599,
+                        "fb_tone": 52.008930206298828,
+                        "lfo_depth": 59.151786804199219
+                    }
+                },
+                "lfo2_freq": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "phi0": 0.0,
+                        "freq": 5.883902,
+                        "waveForm": 5.0
+                    }
+                },
+                "vco3": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "tune": 0.0,
+                        "pwGain": 0.54037302732467651,
+                        "linFMGain": 0.0,
+                        "semitone": 0.0,
+                        "phi0": 0.0,
+                        "pw0": 0.5,
+                        "octave": 0.0,
+                        "waveForm": 1.0,
+                        "expFMGain": 9.3995857238769531,
+                        "edge": 1.0
+                    }
+                },
+                "lfo2_freq_3": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "phi0": 0.0,
+                        "freq": 14.363498,
+                        "waveForm": 5.0
+                    }
+                },
+                "lfo2_freq_2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "phi0": 0.0,
+                        "freq": 21.508112000000001,
+                        "waveForm": 0.0
+                    }
+                },
+                "vcf": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "expFMGain": 9.5341606140136719,
+                        "inputGain": 2.8157351016998291,
+                        "vcfType": 1.0,
+                        "resonanceGain": 0.0,
+                        "freq": 7.4709519999999996,
+                        "linFMGain": 1.3043479919433594,
+                        "resonance": 0.15709300000000001
+                    }
+                },
+                "vcaexp_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain1": 0.53002101182937622,
+                        "in2": 1.0,
+                        "in1": 1.0,
+                        "gain2": 0.13768115942028986,
+                        "outputLevel": 0.16407899558544159
+                    }
+                },
+                "lfo2_freq_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "phi0": 0.0,
+                        "freq": 16.934567999999999,
+                        "waveForm": 5.0
+                    }
+                },
+                "vcf_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "expFMGain": 0.0,
+                        "inputGain": 1.0,
+                        "vcfType": 2.0,
+                        "resonanceGain": 0.0,
+                        "freq": 4.1483309999999998,
+                        "linFMGain": 0.0,
+                        "resonance": 0.29023500000000002
+                    }
+                }
+            }
+        },
+        {
+            "name": "Iceland",
+            "data": {
+                "vco3_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "tune": 0.57428900000000005,
+                        "pwGain": 0.0,
+                        "linFMGain": 0.069468000000000002,
+                        "semitone": 1.0,
+                        "phi0": 0.0,
+                        "pw0": 0.5,
+                        "octave": 0.0,
+                        "waveForm": 2.0,
+                        "expFMGain": 0.29493200000000003,
+                        "edge": 1.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -14.0
+                    }
+                },
+                "vcaexp": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain1": 1.0,
+                        "in2": 0.0625,
+                        "in1": 1.5,
+                        "gain2": 0.0,
+                        "outputLevel": 0.087474003434181213
+                    }
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "bandwidth": 75.0,
+                        "ratio": 0.94999999999999996,
+                        "mix": 38.28125,
+                        "shimmer": 58.59375,
+                        "tone": 2198.5824447284804,
+                        "damping": 50.0,
+                        "decay": 25.197544642857146,
+                        "roomsize": 150.0
+                    }
+                },
+                "DubDelay": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "feedback": 91.888748000000007,
+                        "delay": 131.57522713977181,
+                        "output": 0.0,
+                        "fx_mix": 49.441963195800781,
+                        "lfo_rate": 2.3569810266147084,
+                        "fb_tone": 52.008930206298828,
+                        "lfo_depth": 59.151786804199219
+                    }
+                },
+                "lfo2_freq": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "phi0": 0.0,
+                        "freq": 84.845505000000003,
+                        "waveForm": 5.0
+                    }
+                },
+                "vco3": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "tune": 0.0,
+                        "pwGain": 0.54037302732467651,
+                        "linFMGain": 0.0,
+                        "semitone": 0.0,
+                        "phi0": 0.0,
+                        "pw0": 0.5,
+                        "octave": 0.0,
+                        "waveForm": 1.0,
+                        "expFMGain": 9.3995857238769531,
+                        "edge": 1.0
+                    }
+                },
+                "lfo2_freq_3": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "phi0": 0.0,
+                        "freq": 98.071692999999996,
+                        "waveForm": 5.0
+                    }
+                },
+                "lfo2_freq_2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "phi0": 0.0,
+                        "freq": 98.071692999999996,
+                        "waveForm": 0.0
+                    }
+                },
+                "vcf": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "expFMGain": 9.5341606140136719,
+                        "inputGain": 2.8157351016998291,
+                        "vcfType": 1.0,
+                        "resonanceGain": 0.0,
+                        "freq": 3.844252,
+                        "linFMGain": 1.3043479919433594,
+                        "resonance": 0.15709300000000001
+                    }
+                },
+                "vcaexp_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain1": 0.53002101182937622,
+                        "in2": 1.0,
+                        "in1": 1.0,
+                        "gain2": 0.13768115942028986,
+                        "outputLevel": 0.16407899558544159
+                    }
+                },
+                "lfo2_freq_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "phi0": 0.0,
+                        "freq": 58.195343000000001,
+                        "waveForm": 5.0
+                    }
+                },
+                "vcf_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "expFMGain": 0.0,
+                        "inputGain": 1.0,
+                        "vcfType": 2.0,
+                        "resonanceGain": 0.0,
+                        "freq": 2.1260810000000001,
+                        "linFMGain": 0.0,
+                        "resonance": 0.29023500000000002
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

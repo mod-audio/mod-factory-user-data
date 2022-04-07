@@ -1,127 +1,151 @@
 {
-    "/hmi/knob1": [],
-    "/hmi/knob2": [
+    "/hmi/potentiometer3": [
         {
-            "instance": "/graph/xfade",
-            "tempo": false,
-            "maximum": 1.0,
-            "label": "Mix",
-            "steps": 33,
-            "page": 0,
-            "port": "xfade",
-            "dividers": null,
             "group": null,
-            "minimum": -1.0
-        }
-    ],
-    "/cv/graph/cv_capture_2": [],
-    "/cv/graph/cv_capture_1": [],
-    "/bpm": [],
-    "/cv/graph/cv_exp_pedal": [],
-    "/hmi/potentiometer6": [],
-    "/hmi/potentiometer7": [],
-    "/hmi/potentiometer4": [
-        {
-            "instance": "/graph/ThruZero",
+            "coloured": false,
             "tempo": false,
+            "subpage": null,
+            "label": "Feedback",
             "maximum": 100.0,
-            "label": "Dep Mod",
-            "steps": 33,
-            "page": 0,
-            "port": "depth_mod",
+            "instance": "/graph/ThruZero",
+            "minimum": -100.0,
+            "momentary": 0,
             "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/potentiometer5": [
-        {
-            "instance": "/graph/stereo_1",
-            "tempo": false,
-            "maximum": 10.0,
-            "label": "Gain",
+            "port": "feedback",
             "steps": 33,
-            "page": 0,
-            "port": "gain",
-            "dividers": null,
-            "group": null,
-            "minimum": -10.0
+            "page": 0
         }
     ],
     "/hmi/potentiometer2": [
         {
-            "instance": "/graph/ThruZero",
+            "group": null,
+            "coloured": false,
             "tempo": false,
-            "maximum": 45.349998474121094,
+            "subpage": null,
             "label": "Depth",
-            "steps": 33,
-            "page": 0,
-            "port": "depth",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/potentiometer3": [
-        {
+            "maximum": 42.0,
             "instance": "/graph/ThruZero",
-            "tempo": false,
-            "maximum": 100.0,
-            "label": "Feedback",
-            "steps": 33,
-            "page": 0,
-            "port": "feedback",
+            "minimum": 0.0,
+            "momentary": 0,
             "dividers": null,
-            "group": null,
-            "minimum": -100.0
+            "port": "depth",
+            "steps": 33,
+            "page": 0
         }
     ],
-    "/hmi/group1": [],
     "/hmi/potentiometer1": [
         {
-            "instance": "/graph/ThruZero",
-            "tempo": false,
-            "maximum": 93.339996337890625,
-            "label": "Rate",
-            "steps": 33,
-            "page": 0,
-            "port": "rate",
-            "dividers": 0.33300000000000002,
             "group": null,
-            "minimum": 0.10000000149011612
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Rate",
+            "maximum": 10.0,
+            "instance": "/graph/ThruZero",
+            "minimum": 0.0099999997764825821,
+            "momentary": 0,
+            "dividers": 0.33300000000000002,
+            "port": "rate",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer7": [],
+    "/hmi/potentiometer6": [],
+    "/hmi/potentiometer5": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Gain",
+            "maximum": 10.0,
+            "instance": "/graph/stereo_1",
+            "minimum": -10.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "gain",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Dep Mod",
+            "maximum": 100.0,
+            "instance": "/graph/ThruZero",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "depth_mod",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/cv/graph/cv_exp_pedal": [],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/potentiometer8": [],
+    "/cv/graph/cv_capture_2": [],
+    "/bpm": [],
+    "/hmi/group2": [],
+    "/hmi/group3": [],
+    "/hmi/group1": [],
+    "/hmi/footswitch4": [],
+    "/hmi/knob1": [],
+    "/hmi/knob2": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Mix",
+            "maximum": 1.0,
+            "instance": "/graph/xfade",
+            "minimum": -1.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "xfade",
+            "steps": 33,
+            "page": 0
         }
     ],
     "/hmi/footswitch1": [
         {
-            "instance": "/graph/xfade",
-            "tempo": false,
-            "maximum": 1.0,
-            "label": "FX Chain",
-            "steps": 33,
-            "page": 0,
-            "port": ":bypass",
-            "dividers": null,
             "group": null,
-            "minimum": 0.0
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "FX Chain",
+            "maximum": 1.0,
+            "instance": "/graph/xfade",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": ":bypass",
+            "steps": 33,
+            "page": 0
         }
     ],
-    "/hmi/group3": [],
-    "/hmi/footswitch3": [],
     "/hmi/footswitch2": [
         {
-            "instance": "/graph/xfade_2",
-            "tempo": false,
-            "maximum": 1.0,
-            "label": "Stereo Inp",
-            "steps": 33,
-            "page": 0,
-            "port": ":bypass",
-            "dividers": null,
             "group": null,
-            "minimum": 0.0
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Stereo Inp",
+            "maximum": 1.0,
+            "instance": "/graph/xfade_2",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": ":bypass",
+            "steps": 33,
+            "page": 0
         }
     ],
-    "/hmi/footswitch4": [],
-    "/hmi/potentiometer8": [],
-    "/hmi/group2": []
+    "/hmi/footswitch3": []
 }

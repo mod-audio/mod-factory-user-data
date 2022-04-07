@@ -8,60 +8,60 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <capture_1> ;
-    ingen:head <xfade_1/inA_right> .
-
-_:b2
-    ingen:tail <Vocoder/right_out> ;
-    ingen:head <stereo/inR> .
-
-_:b3
-    ingen:tail <capture_2> ;
-    ingen:head <xfade_1/inB_right> .
-
-_:b4
-    ingen:tail <stereo/outR> ;
-    ingen:head <playback_2> .
-
-_:b5
-    ingen:tail <Vocoder/left_out> ;
-    ingen:head <stereo/inL> .
-
-_:b6
-    ingen:tail <xfade_1/out_right> ;
-    ingen:head <Vocoder/left_in> .
-
-_:b7
-    ingen:tail <stereo/outL> ;
-    ingen:head <playback_1> .
-
-_:b8
-    ingen:tail <capture_1> ;
-    ingen:head <xfade_1/inB_left> .
-
-_:b9
-    ingen:tail <capture_1> ;
-    ingen:head <xfade_1/inA_left> .
-
-_:b10
-    ingen:tail <midi_merger_out> ;
-    ingen:head <FluidPlug_FluidSynthLeads/events> .
-
-_:b11
     ingen:tail <xfade_1/out_left> ;
     ingen:head <Vocoder/left_in> .
 
-_:b12
+_:b2
+    ingen:tail <capture_2> ;
+    ingen:head <xfade_1/inB_right> .
+
+_:b3
+    ingen:tail <midi_merger_out> ;
+    ingen:head <FluidPlug_FluidSynthLeads/events> .
+
+_:b4
+    ingen:tail <capture_1> ;
+    ingen:head <xfade_1/inA_right> .
+
+_:b5
+    ingen:tail <Vocoder/right_out> ;
+    ingen:head <stereo/inR> .
+
+_:b6
+    ingen:tail <capture_2> ;
+    ingen:head <xfade/inA_left> .
+
+_:b7
     ingen:tail <xfade/out_left> ;
     ingen:head <Vocoder/right_in> .
 
-_:b13
+_:b8
+    ingen:tail <stereo/outR> ;
+    ingen:head <playback_2> .
+
+_:b9
     ingen:tail <FluidPlug_FluidSynthLeads/audio_out_l> ;
     ingen:head <xfade/inB_left> .
 
+_:b10
+    ingen:tail <capture_1> ;
+    ingen:head <xfade_1/inB_left> .
+
+_:b11
+    ingen:tail <capture_1> ;
+    ingen:head <xfade_1/inA_left> .
+
+_:b12
+    ingen:tail <Vocoder/left_out> ;
+    ingen:head <stereo/inL> .
+
+_:b13
+    ingen:tail <stereo/outL> ;
+    ingen:head <playback_1> .
+
 _:b14
-    ingen:tail <capture_2> ;
-    ingen:head <xfade/inA_left> .
+    ingen:tail <xfade_1/out_right> ;
+    ingen:head <Vocoder/left_in> .
 
 <FluidPlug_FluidSynthLeads>
     ingen:canvasX 564.1 ;
@@ -70,7 +70,7 @@ _:b14
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 2 ;
-    mod:builderVersion 1 ;
+    mod:builderVersion 0 ;
     mod:releaseNumber 11 ;
     lv2:port <FluidPlug_FluidSynthLeads/audio_out_l> ,
              <FluidPlug_FluidSynthLeads/audio_out_r> ,
@@ -79,6 +79,7 @@ _:b14
              <FluidPlug_FluidSynthLeads/events> ,
              <FluidPlug_FluidSynthLeads/:bypass> ;
     lv2:prototype <http://kxstudio.linuxaudio.org/plugins/FluidPlug_FluidSynthLeads> ;
+    pedal:instanceNumber 0 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -108,10 +109,10 @@ _:b14
     ingen:canvasY 383.3 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
-    lv2:microVersion 3 ;
+    lv2:microVersion 4 ;
     lv2:minorVersion 0 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 9 ;
+    mod:releaseNumber 15 ;
     lv2:port <Vocoder/left_in> ,
              <Vocoder/right_in> ,
              <Vocoder/left_out> ,
@@ -126,7 +127,8 @@ _:b14
              <Vocoder/quality> ,
              <Vocoder/:bypass> ;
     lv2:prototype <http://moddevices.com/plugins/mda/Vocoder> ;
-    pedal:preset <http://moddevices.com/plugins/mda/presets#Vocoder-vocoder> ;
+    pedal:instanceNumber 1 ;
+    pedal:preset <file:///root/.lv2/mod-mda-Vocoder.lv2/default-preset> ;
     a ingen:Block .
 
 <Vocoder/left_in>
@@ -150,23 +152,13 @@ _:b14
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Vocoder/envelope>
-    ingen:value 1611.760010 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Vocoder/output>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <Vocoder/hi_thru>
     ingen:value 40.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Vocoder/mid_freq>
-    ingen:value 1133.380005 ;
+<Vocoder/output>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -177,6 +169,16 @@ _:b14
 
 <Vocoder/quality>
     ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Vocoder/envelope>
+    ingen:value 31.831861 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Vocoder/mid_freq>
+    ingen:value 1133.380005 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -198,7 +200,7 @@ _:b14
     lv2:microVersion 0 ;
     lv2:minorVersion 770 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 6 ;
+    mod:releaseNumber 7 ;
     lv2:port <stereo/inL> ,
              <stereo/inR> ,
              <stereo/outL> ,
@@ -209,6 +211,7 @@ _:b14
              <stereo/level> ,
              <stereo/:bypass> ;
     lv2:prototype <http://gareus.org/oss/lv2/tinygain#stereo> ;
+    pedal:instanceNumber 2 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -260,7 +263,7 @@ _:b14
     lv2:microVersion 0 ;
     lv2:minorVersion 516 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
+    mod:releaseNumber 6 ;
     lv2:port <xfade/inA_left> ,
              <xfade/inA_right> ,
              <xfade/inB_left> ,
@@ -272,6 +275,7 @@ _:b14
              <xfade/mode> ,
              <xfade/:bypass> ;
     lv2:prototype <http://gareus.org/oss/lv2/xfade> ;
+    pedal:instanceNumber 3 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -307,13 +311,13 @@ _:b14
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade/shape>
-    ingen:value 0.000000 ;
+<xfade/xfade>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade/xfade>
-    ingen:value 1.000000 ;
+<xfade/shape>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -335,7 +339,7 @@ _:b14
     lv2:microVersion 0 ;
     lv2:minorVersion 516 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
+    mod:releaseNumber 6 ;
     lv2:port <xfade_1/inA_left> ,
              <xfade_1/inA_right> ,
              <xfade_1/inB_left> ,
@@ -347,6 +351,7 @@ _:b14
              <xfade_1/mode> ,
              <xfade_1/:bypass> ;
     lv2:prototype <http://gareus.org/oss/lv2/xfade> ;
+    pedal:instanceNumber 4 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -382,13 +387,13 @@ _:b14
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade_1/shape>
-    ingen:value 0.000000 ;
+<xfade_1/xfade>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade_1/xfade>
-    ingen:value 1.000000 ;
+<xfade_1/shape>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -540,16 +545,22 @@ _:b14
     a atom:AtomPort ,
         lv2:InputPort .
 
+<midi_loopback>
+    ingen:value 0 ;
+    lv2:index 17 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
 <>
     doap:name "FX - MDA Vocoder" ;
     pedal:unitName "MOD Duo X" ;
-    pedal:unitModel "Unknown" ;
+    pedal:unitModel "duox:aarch64-a72.a53" ;
     pedal:width 3840 ;
     pedal:height 1838 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 3 ;
+    pedal:version 4 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -574,6 +585,7 @@ _:b14
              <:bpm> ,
              <:rolling> ,
              <midi_separated_mode> ,
+             <midi_loopback> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

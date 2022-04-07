@@ -1,0 +1,203 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "xfade": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "xfade": -0.21875,
+                        "shape": 0.0,
+                        "mode": 0.0
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Mode": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Multiplier": 1.0,
+                        "Smoothing": 1.0
+                    }
+                },
+                "vco3_2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "tune": 0.59798997640609741,
+                        "pwGain": 0.0,
+                        "linFMGain": 0.0,
+                        "semitone": 7.0,
+                        "phi0": 0.0,
+                        "pw0": 0.5,
+                        "octave": 3.0,
+                        "waveForm": 2.0,
+                        "expFMGain": 0.0,
+                        "edge": 1.0
+                    }
+                },
+                "mod_cv_slew": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "FallTime": 1000.0,
+                        "BYPASS": 0.0,
+                        "RiseTime": 0.10000000149011612
+                    }
+                },
+                "mod_audio_to_cv": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "Level": 10.0,
+                        "Offset": 0.14492799341678619
+                    }
+                },
+                "mod_cv_meter": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Reset": 1.0
+                    }
+                },
+                "mod_cv_parameter_modulation": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "ParameterValue": 0.0,
+                        "ModulationDepth": 18.647903442382812
+                    }
+                },
+                "mono": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain": 4.3605232238769531,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    }
+                },
+                "faIR_cabsim": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0
+                    }
+                },
+                "lfo2_freq": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "phi0": 0.0,
+                        "freq": 0.75,
+                        "waveForm": 0.0
+                    }
+                },
+                "vco3": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "tune": -0.58832001686096191,
+                        "pwGain": 0.0,
+                        "linFMGain": 0.0,
+                        "semitone": 2.8670690059661865,
+                        "phi0": 0.0,
+                        "pw0": 0.5,
+                        "octave": 3.5343921184539795,
+                        "waveForm": 2.0,
+                        "expFMGain": 0.0,
+                        "edge": 1.0
+                    }
+                },
+                "Vocoder": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "file:///root/.lv2/mod-mda-Vocoder.lv2/default-preset",
+                    "ports": {
+                        "mod_in": 0.0,
+                        "output": 0.0,
+                        "hi_band": 40.0,
+                        "envelope": 1064.0066068163819,
+                        "quality": 1.0,
+                        "hi_thru": 40.0,
+                        "filter_q": 49.357521057128906,
+                        "mid_freq": 713.73211669921875
+                    }
+                },
+                "_supersonic_": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "GAIN": 0.22256700694561005,
+                        "BASS": 0.5,
+                        "BYPASS": 1.0,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.25
+                    }
+                },
+                "stereo": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    }
+                },
+                "mono_3": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain": -6.5178570747375488,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    }
+                },
+                "mod_cv_attenuverter_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Mode": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Multiplier": 0.20000000298023224,
+                        "Smoothing": 1.0
+                    }
+                },
+                "mono_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain": -3.125,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

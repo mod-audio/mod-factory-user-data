@@ -12,40 +12,40 @@ _:b1
     ingen:head <xfade_1/inB_left> .
 
 _:b2
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <playback_1> .
+    ingen:tail <xfade_1/out_left> ;
+    ingen:head <SubSynth/left_in> .
 
 _:b3
-    ingen:tail <capture_2> ;
-    ingen:head <xfade_1/inB_right> .
+    ingen:tail <capture_1> ;
+    ingen:head <xfade_1/inA_left> .
 
 _:b4
-    ingen:tail <SubSynth/left_out> ;
-    ingen:head <Gain2x2/In1> .
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
 
 _:b5
     ingen:tail <capture_1> ;
     ingen:head <xfade_1/inA_right> .
 
 _:b6
-    ingen:tail <capture_1> ;
-    ingen:head <xfade_1/inA_left> .
+    ingen:tail <SubSynth/left_out> ;
+    ingen:head <Gain2x2/In1> .
 
 _:b7
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <playback_2> .
+    ingen:tail <capture_2> ;
+    ingen:head <xfade_1/inB_right> .
 
 _:b8
     ingen:tail <SubSynth/right_out> ;
     ingen:head <Gain2x2/In2> .
 
 _:b9
-    ingen:tail <xfade_1/out_right> ;
-    ingen:head <SubSynth/right_in> .
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
 
 _:b10
-    ingen:tail <xfade_1/out_left> ;
-    ingen:head <SubSynth/left_in> .
+    ingen:tail <xfade_1/out_right> ;
+    ingen:head <SubSynth/right_in> .
 
 <Gain2x2>
     ingen:canvasX 2907.0 ;
@@ -55,7 +55,7 @@ _:b10
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 12 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2/In1> ,
              <Gain2x2/In2> ,
              <Gain2x2/Out1> ,
@@ -63,6 +63,7 @@ _:b10
              <Gain2x2/Gain> ,
              <Gain2x2/:bypass> ;
     lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:instanceNumber 0 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -100,7 +101,7 @@ _:b10
     lv2:microVersion 3 ;
     lv2:minorVersion 0 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 9 ;
+    mod:releaseNumber 15 ;
     lv2:port <SubSynth/left_in> ,
              <SubSynth/right_in> ,
              <SubSynth/left_out> ,
@@ -113,6 +114,7 @@ _:b10
              <SubSynth/release> ,
              <SubSynth/:bypass> ;
     lv2:prototype <http://moddevices.com/plugins/mda/SubSynth> ;
+    pedal:instanceNumber 1 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -132,18 +134,18 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<SubSynth/release>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<SubSynth/type>
-    ingen:value 0.500000 ;
+<SubSynth/dry_mix>
+    ingen:value 34.719074 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <SubSynth/thresh>
-    ingen:value -48.434820 ;
+    ingen:value -48.434818 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<SubSynth/tune>
+    ingen:value 198.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -152,13 +154,13 @@ _:b10
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<SubSynth/dry_mix>
-    ingen:value 34.719074 ;
+<SubSynth/type>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<SubSynth/tune>
-    ingen:value 198.000000 ;
+<SubSynth/release>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -175,7 +177,7 @@ _:b10
     lv2:microVersion 0 ;
     lv2:minorVersion 516 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
+    mod:releaseNumber 6 ;
     lv2:port <xfade_1/inA_left> ,
              <xfade_1/inA_right> ,
              <xfade_1/inB_left> ,
@@ -187,6 +189,7 @@ _:b10
              <xfade_1/mode> ,
              <xfade_1/:bypass> ;
     lv2:prototype <http://gareus.org/oss/lv2/xfade> ;
+    pedal:instanceNumber 2 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -222,13 +225,13 @@ _:b10
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade_1/shape>
-    ingen:value 0.000000 ;
+<xfade_1/xfade>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade_1/xfade>
-    ingen:value 1.000000 ;
+<xfade_1/shape>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -380,16 +383,22 @@ _:b10
     a atom:AtomPort ,
         lv2:InputPort .
 
+<midi_loopback>
+    ingen:value 0 ;
+    lv2:index 17 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
 <>
     doap:name "FX - MDA SubSynth" ;
     pedal:unitName "MOD Duo X" ;
-    pedal:unitModel "Unknown" ;
+    pedal:unitModel "duox:aarch64-a72.a53" ;
     pedal:width 3490 ;
     pedal:height 1582 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 6 ;
+    pedal:version 7 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -408,6 +417,7 @@ _:b10
              <:bpm> ,
              <:rolling> ,
              <midi_separated_mode> ,
+             <midi_loopback> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

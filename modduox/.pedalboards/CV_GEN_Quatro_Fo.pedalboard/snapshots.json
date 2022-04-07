@@ -1,0 +1,319 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "sum": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "munge": 42.633930206298828,
+                        "LFOcycle": 37.44134521484375,
+                        "mungemode": 0.0,
+                        "delay1": 0.038614001125097275,
+                        "vol1": 100.0,
+                        "vol2": 100.0,
+                        "delay2": 0.048163998872041702,
+                        "mode": 0.0,
+                        "LFOdepth": 38.28125,
+                        "bypass": 0.0,
+                        "pan2": 0.69999998807907104,
+                        "fb1": 29.761903762817383,
+                        "fb2": 28.571426391601562,
+                        "pan1": -0.69999998807907104
+                    }
+                },
+                "midi_to_cv_mono": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Retrigger": 0.0,
+                        "Octave": 0.0,
+                        "Semitone": 0.0,
+                        "Cent": 0.0,
+                        "Panic": 0.0
+                    }
+                },
+                "mod_cv_control_3": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Control": 2.5672879219055176,
+                        "Smoothing": 1.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -4.7321429252624512
+                    }
+                },
+                "reverb": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "allps_en": 1.0,
+                        "bandpass_en": 1.0,
+                        "wetlevel": -17.321428298950195,
+                        "stereo_enh": 1.0,
+                        "drylevel": -0.89285701513290405,
+                        "combs_en": 1.0,
+                        "mode": 2.0,
+                        "decay": 3196.7314449999999
+                    }
+                },
+                "lfo2_freq_2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "phi0": 0.0,
+                        "freq": 0.78134900331497192,
+                        "waveForm": 5.0
+                    }
+                },
+                "mod_cv_control_2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Control": 4.9493198394775391,
+                        "Smoothing": 1.0
+                    }
+                },
+                "mod_cv_control_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Control": 0.0,
+                        "Smoothing": 1.0
+                    }
+                },
+                "lfo2_freq_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "phi0": 0.0,
+                        "freq": 1.6564129590988159,
+                        "waveForm": 5.0
+                    }
+                },
+                "mod_cv_control_4": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Control": 4.0683231353759766,
+                        "Smoothing": 1.0
+                    }
+                },
+                "dynamics_st": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "releaseM": 274.12054443359375,
+                        "function": 12.0,
+                        "makeup": -3.9285709857940674,
+                        "stereo": 0.0,
+                        "offset": 0.0,
+                        "attack": 137.96427917480469
+                    }
+                },
+                "DubDelay": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "feedback": 80.0,
+                        "delay": 118.60902400000001,
+                        "output": 0.0,
+                        "fx_mix": 50.0,
+                        "lfo_rate": 2.5074999998323619,
+                        "fb_tone": 0.0,
+                        "lfo_depth": 50.0
+                    }
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Control": 1.0041409730911255,
+                        "Smoothing": 1.0
+                    }
+                },
+                "vcf_2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "expFMGain": 1.0269140000000001,
+                        "inputGain": 10.0,
+                        "vcfType": 3.0,
+                        "resonanceGain": 0.0,
+                        "freq": 2.030233,
+                        "linFMGain": 0.0,
+                        "resonance": 1.0
+                    }
+                },
+                "mod_cv_attenuverter_3": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Mode": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Multiplier": -10.0,
+                        "Smoothing": 1.0
+                    }
+                },
+                "mod_cv_attenuverter_2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Mode": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Multiplier": 6.0869569778442383,
+                        "Smoothing": 1.0
+                    }
+                },
+                "mod_cv_attenuverter_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Mode": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Multiplier": -2.7122149467468262,
+                        "Smoothing": 1.0
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Mode": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Multiplier": -3.6853001117706299,
+                        "Smoothing": 1.0
+                    }
+                },
+                "vcf": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "expFMGain": 1.0269140000000001,
+                        "inputGain": 10.0,
+                        "vcfType": 3.0,
+                        "resonanceGain": 0.0,
+                        "freq": 2.1787130000000001,
+                        "linFMGain": 0.0,
+                        "resonance": 1.0
+                    }
+                },
+                "lfo2_freq": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "phi0": 0.0,
+                        "freq": 0.93177598714828491,
+                        "waveForm": 5.0
+                    }
+                },
+                "vco3": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "tune": -0.34368500113487244,
+                        "pwGain": 0.0,
+                        "linFMGain": 0.0,
+                        "semitone": 0.0,
+                        "phi0": 0.0,
+                        "pw0": 0.5,
+                        "octave": 0.0,
+                        "waveForm": 3.0,
+                        "expFMGain": 3.8405799865722656,
+                        "edge": 1.0
+                    }
+                },
+                "mod_cv_slew": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "FallTime": 412.06707763671875,
+                        "BYPASS": 1.0,
+                        "RiseTime": 265.0838623046875
+                    }
+                },
+                "vcf_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "expFMGain": 1.6273280000000001,
+                        "inputGain": 10.0,
+                        "vcfType": 3.0,
+                        "resonanceGain": 0.0,
+                        "freq": 5.5332739999999996,
+                        "linFMGain": 0.0,
+                        "resonance": 1.0
+                    }
+                },
+                "mod_cv_slew_2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "FallTime": 534.20806884765625,
+                        "BYPASS": 1.0,
+                        "RiseTime": 397.57577514648438
+                    }
+                },
+                "vcf_3": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "expFMGain": 2.03416,
+                        "inputGain": 10.0,
+                        "vcfType": 3.0,
+                        "resonanceGain": 0.0,
+                        "freq": 5.5342880000000001,
+                        "linFMGain": 0.0,
+                        "resonance": 1.0
+                    }
+                },
+                "mod_cv_slew_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "FallTime": 80.837265014648438,
+                        "BYPASS": 1.0,
+                        "RiseTime": 114.99533843994141
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

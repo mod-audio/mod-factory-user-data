@@ -1,0 +1,140 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "xfade": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "xfade": 1.0,
+                        "shape": 1.0,
+                        "mode": 0.0
+                    }
+                },
+                "chorusflanger": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "LRPhaseShift": 90.0,
+                        "WetLevel": -3.0,
+                        "Depth": 100.0,
+                        "Contour": 100.0,
+                        "Delay": 25.0,
+                        "DryLevel": -3.0,
+                        "Frequency": 1.75
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -17.0
+                    }
+                },
+                "CrossOver3": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain_3": 0.0,
+                        "Gain_2": 0.0,
+                        "Gain_1": 0.0,
+                        "Freq_1": 239.41700744628906,
+                        "Freq_2": 1000.0,
+                        "Order": 2.0
+                    }
+                },
+                "avocado_2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "bufsiz": 175.0
+                    }
+                },
+                "avocado_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "bufsiz": 70.0
+                    }
+                },
+                "Gain": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -2.5
+                    }
+                },
+                "shiroverb_1": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "bandwidth": 75.0,
+                        "ratio": 0.5,
+                        "mix": 40.625,
+                        "shimmer": 50.0,
+                        "tone": 1500.0,
+                        "damping": 50.0,
+                        "decay": 43.870536804199219,
+                        "roomsize": 150.0
+                    }
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "bandwidth": 75.0,
+                        "ratio": 2.0,
+                        "mix": 39.955356597900391,
+                        "shimmer": 43.75,
+                        "tone": 6000.0,
+                        "damping": 50.0,
+                        "decay": 38.125,
+                        "roomsize": 150.0
+                    }
+                },
+                "DX10": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#DX10-chiff-organ",
+                    "ports": {
+                        "vibrato": 36.050998687744141,
+                        "mod_rel": 329.6822496724937,
+                        "coarse": 0.0,
+                        "finetune": 0.0,
+                        "fine": 0.67629851135684105,
+                        "mod_sus": 0.0,
+                        "attack": 2.5,
+                        "octave": 1.0,
+                        "mod_thru": 100.0,
+                        "mod_dec": 512.79461530174376,
+                        "mod_vel": 25.0,
+                        "decay": 1154.8001638498868,
+                        "lfo_rate": 15.904018402099609,
+                        "mod_init": 14.923000335693359,
+                        "waveform": 21.461999893188477,
+                        "release": 1154.8001638498868
+                    }
+                },
+                "avocado": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "bufsiz": 40.0
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

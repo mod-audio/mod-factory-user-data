@@ -8,60 +8,60 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <stereo/outL> ;
-    ingen:head <RePsycho/left_in> .
+    ingen:tail <RePsycho/left_out> ;
+    ingen:head <bolliedelay/in_l> .
 
 _:b2
-    ingen:tail <stereo_1/outR> ;
-    ingen:head <playback_2> .
+    ingen:tail <midi_merger_out> ;
+    ingen:head <FluidPlug_FluidChromPerc/events> .
 
 _:b3
-    ingen:tail <stereo/outR> ;
-    ingen:head <RePsycho/right_in> .
+    ingen:tail <stereo_1/outL> ;
+    ingen:head <playback_1> .
 
 _:b4
-    ingen:tail <FluidPlug_FluidChromPerc/audio_out_l> ;
-    ingen:head <stereo/inL> .
+    ingen:tail <stereo/outL> ;
+    ingen:head <RePsycho/left_in> .
 
 _:b5
     ingen:tail <midi_merger_out> ;
     ingen:head <FluidPlug_FluidEthnic/events> .
 
 _:b6
-    ingen:tail <FluidPlug_FluidEthnic/audio_out_l> ;
-    ingen:head <stereo/inL> .
+    ingen:tail <bolliedelay/out_r> ;
+    ingen:head <stereo_1/inR> .
 
 _:b7
-    ingen:tail <FluidPlug_FluidEthnic/audio_out_r> ;
-    ingen:head <stereo/inR> .
-
-_:b8
-    ingen:tail <FluidPlug_FluidChromPerc/audio_out_r> ;
-    ingen:head <stereo/inR> .
-
-_:b9
     ingen:tail <RePsycho/right_out> ;
     ingen:head <bolliedelay/in_r> .
 
-_:b10
-    ingen:tail <midi_merger_out> ;
-    ingen:head <FluidPlug_FluidChromPerc/events> .
-
-_:b11
-    ingen:tail <stereo_1/outL> ;
-    ingen:head <playback_1> .
-
-_:b12
-    ingen:tail <RePsycho/left_out> ;
-    ingen:head <bolliedelay/in_l> .
-
-_:b13
+_:b8
     ingen:tail <bolliedelay/out_l> ;
     ingen:head <stereo_1/inL> .
 
+_:b9
+    ingen:tail <stereo/outR> ;
+    ingen:head <RePsycho/right_in> .
+
+_:b10
+    ingen:tail <FluidPlug_FluidChromPerc/audio_out_l> ;
+    ingen:head <stereo/inL> .
+
+_:b11
+    ingen:tail <FluidPlug_FluidEthnic/audio_out_l> ;
+    ingen:head <stereo/inL> .
+
+_:b12
+    ingen:tail <FluidPlug_FluidChromPerc/audio_out_r> ;
+    ingen:head <stereo/inR> .
+
+_:b13
+    ingen:tail <FluidPlug_FluidEthnic/audio_out_r> ;
+    ingen:head <stereo/inR> .
+
 _:b14
-    ingen:tail <bolliedelay/out_r> ;
-    ingen:head <stereo_1/inR> .
+    ingen:tail <stereo_1/outR> ;
+    ingen:head <playback_2> .
 
 <FluidPlug_FluidChromPerc>
     ingen:canvasX 882.0 ;
@@ -70,7 +70,7 @@ _:b14
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 2 ;
-    mod:builderVersion 1 ;
+    mod:builderVersion 0 ;
     mod:releaseNumber 11 ;
     lv2:port <FluidPlug_FluidChromPerc/audio_out_l> ,
              <FluidPlug_FluidChromPerc/audio_out_r> ,
@@ -79,6 +79,7 @@ _:b14
              <FluidPlug_FluidChromPerc/events> ,
              <FluidPlug_FluidChromPerc/:bypass> ;
     lv2:prototype <http://kxstudio.linuxaudio.org/plugins/FluidPlug_FluidChromPerc> ;
+    pedal:instanceNumber 0 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -110,7 +111,7 @@ _:b14
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 2 ;
-    mod:builderVersion 1 ;
+    mod:builderVersion 0 ;
     mod:releaseNumber 11 ;
     lv2:port <FluidPlug_FluidEthnic/audio_out_l> ,
              <FluidPlug_FluidEthnic/audio_out_r> ,
@@ -119,6 +120,7 @@ _:b14
              <FluidPlug_FluidEthnic/events> ,
              <FluidPlug_FluidEthnic/:bypass> ;
     lv2:prototype <http://kxstudio.linuxaudio.org/plugins/FluidPlug_FluidEthnic> ;
+    pedal:instanceNumber 1 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -151,7 +153,7 @@ _:b14
     lv2:microVersion 1 ;
     lv2:minorVersion 0 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 9 ;
+    mod:releaseNumber 15 ;
     lv2:port <RePsycho/left_in> ,
              <RePsycho/right_in> ,
              <RePsycho/left_out> ,
@@ -165,6 +167,7 @@ _:b14
              <RePsycho/quality> ,
              <RePsycho/:bypass> ;
     lv2:prototype <http://moddevices.com/plugins/mda/RePsycho> ;
+    pedal:instanceNumber 2 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -184,28 +187,13 @@ _:b14
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<RePsycho/hold>
-    ingen:value 80.033485 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <RePsycho/thresh>
     ingen:value -15.602679 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<RePsycho/decay>
-    ingen:value 9.709821 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<RePsycho/mix>
-    ingen:value 34.933036 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<RePsycho/fine>
-    ingen:value -13.932770 ;
+<RePsycho/hold>
+    ingen:value 80.033485 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -216,6 +204,21 @@ _:b14
 
 <RePsycho/quality>
     ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<RePsycho/decay>
+    ingen:value 9.709821 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<RePsycho/fine>
+    ingen:value -13.932770 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<RePsycho/mix>
+    ingen:value 34.933037 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -232,7 +235,7 @@ _:b14
     lv2:microVersion 6 ;
     lv2:minorVersion 2 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
+    mod:releaseNumber 6 ;
     lv2:port <bolliedelay/in_l> ,
              <bolliedelay/in_r> ,
              <bolliedelay/out_l> ,
@@ -255,6 +258,7 @@ _:b14
              <bolliedelay/tempo_out> ,
              <bolliedelay/:bypass> ;
     lv2:prototype <https://ca9.eu/lv2/bolliedelay> ;
+    pedal:instanceNumber 3 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -274,23 +278,8 @@ _:b14
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<bolliedelay/tempo_host>
-    ingen:value 120.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/div_l>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <bolliedelay/tempo_user>
     ingen:value 120.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/low_f>
-    ingen:value 109.264687 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -299,23 +288,13 @@ _:b14
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<bolliedelay/low_on>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/high_q>
-    ingen:value 4.589678 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <bolliedelay/div_r>
     ingen:value 2.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<bolliedelay/low_q>
-    ingen:value 5.053733 ;
+<bolliedelay/tap>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -324,7 +303,27 @@ _:b14
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<bolliedelay/tempo_mode>
+<bolliedelay/high_q>
+    ingen:value 4.589678 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/high_on>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/div_l>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/high_f>
+    ingen:value 2502.355713 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/low_on>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -334,18 +333,23 @@ _:b14
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<bolliedelay/high_f>
-    ingen:value 2502.355713 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/tap>
+<bolliedelay/tempo_mode>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<bolliedelay/high_on>
-    ingen:value 0.000000 ;
+<bolliedelay/low_f>
+    ingen:value 109.264687 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/low_q>
+    ingen:value 5.053733 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/tempo_host>
+    ingen:value 120.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -366,7 +370,7 @@ _:b14
     lv2:microVersion 0 ;
     lv2:minorVersion 770 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 6 ;
+    mod:releaseNumber 7 ;
     lv2:port <stereo/inL> ,
              <stereo/inR> ,
              <stereo/outL> ,
@@ -377,6 +381,7 @@ _:b14
              <stereo/level> ,
              <stereo/:bypass> ;
     lv2:prototype <http://gareus.org/oss/lv2/tinygain#stereo> ;
+    pedal:instanceNumber 4 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -428,7 +433,7 @@ _:b14
     lv2:microVersion 0 ;
     lv2:minorVersion 770 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 6 ;
+    mod:releaseNumber 7 ;
     lv2:port <stereo_1/inL> ,
              <stereo_1/inR> ,
              <stereo_1/outL> ,
@@ -439,6 +444,7 @@ _:b14
              <stereo_1/level> ,
              <stereo_1/:bypass> ;
     lv2:prototype <http://gareus.org/oss/lv2/tinygain#stereo> ;
+    pedal:instanceNumber 5 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -620,16 +626,22 @@ _:b14
     a atom:AtomPort ,
         lv2:InputPort .
 
+<midi_loopback>
+    ingen:value 0 ;
+    lv2:index 17 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
 <>
     doap:name "INST - Kalimba / ChromPerc" ;
     pedal:unitName "MOD Duo X" ;
-    pedal:unitModel "Unknown" ;
+    pedal:unitModel "duox:aarch64-a72.a53" ;
     pedal:width 3884 ;
     pedal:height 1758 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 7 ;
+    pedal:version 8 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -655,6 +667,7 @@ _:b14
              <:bpm> ,
              <:rolling> ,
              <midi_separated_mode> ,
+             <midi_loopback> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

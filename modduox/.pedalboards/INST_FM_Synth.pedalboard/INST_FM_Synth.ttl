@@ -8,685 +8,112 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <xfade/out_left> ;
-    ingen:head <shiroverb_1/lv2_audio_in_1> .
-
-_:b2
-    ingen:tail <DX10/right_out> ;
-    ingen:head <chorusflanger/InputR> .
-
-_:b3
-    ingen:tail <xfade/out_left> ;
-    ingen:head <shiroverb/lv2_audio_in_1> .
-
-_:b4
-    ingen:tail <CrossOver3/Out2> ;
-    ingen:head <avocado_1/lv2_audio_in_1> .
-
-_:b5
-    ingen:tail <shiroverb/lv2_audio_out_2> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b6
-    ingen:tail <chorusflanger/OutputR> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b7
-    ingen:tail <CrossOver3/Out1> ;
-    ingen:head <avocado/lv2_audio_in_1> .
-
-_:b8
-    ingen:tail <shiroverb_1/lv2_audio_out_1> ;
-    ingen:head <Gain2x2/In1> .
-
-_:b9
-    ingen:tail <midi_merger_out> ;
-    ingen:head <DX10/event_in> .
-
-_:b10
-    ingen:tail <DX10/left_out> ;
-    ingen:head <CrossOver3/In> .
-
-_:b11
-    ingen:tail <shiroverb_1/lv2_audio_out_2> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b12
-    ingen:tail <DX10/left_out> ;
-    ingen:head <chorusflanger/InputL> .
-
-_:b13
-    ingen:tail <Gain/Out> ;
-    ingen:head <xfade/inB_left> .
-
-_:b14
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <playback_1> .
-
-_:b15
-    ingen:tail <xfade/out_right> ;
-    ingen:head <shiroverb_1/lv2_audio_in_1> .
-
-_:b16
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <playback_2> .
-
-_:b17
-    ingen:tail <avocado/lv2_audio_out_1> ;
-    ingen:head <Gain/In> .
-
-_:b18
     ingen:tail <DX10/right_out> ;
     ingen:head <xfade/inA_right> .
 
-_:b19
+_:b2
     ingen:tail <xfade/out_right> ;
-    ingen:head <shiroverb/lv2_audio_in_1> .
+    ingen:head <shiroverb_1/lv2_audio_in_1> .
 
-_:b20
-    ingen:tail <DX10/left_out> ;
-    ingen:head <xfade/inA_left> .
+_:b3
+    ingen:tail <avocado/lv2_audio_out_1> ;
+    ingen:head <Gain/In> .
 
-_:b21
+_:b4
     ingen:tail <chorusflanger/OutputL> ;
     ingen:head <Gain2x2/In1> .
 
-_:b22
+_:b5
+    ingen:tail <DX10/left_out> ;
+    ingen:head <xfade/inA_left> .
+
+_:b6
+    ingen:tail <shiroverb_1/lv2_audio_out_1> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b7
+    ingen:tail <chorusflanger/OutputR> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b8
     ingen:tail <Gain/Out> ;
     ingen:head <xfade/inB_right> .
 
-_:b23
-    ingen:tail <avocado_2/lv2_audio_out_1> ;
-    ingen:head <Gain/In> .
+_:b9
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
 
-_:b24
-    ingen:tail <shiroverb/lv2_audio_out_1> ;
-    ingen:head <Gain2x2/In1> .
+_:b10
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
 
-_:b25
-    ingen:tail <CrossOver3/Out3> ;
-    ingen:head <avocado_2/lv2_audio_in_1> .
+_:b11
+    ingen:tail <DX10/left_out> ;
+    ingen:head <chorusflanger/InputL> .
 
-_:b26
-    ingen:tail <avocado_1/lv2_audio_out_1> ;
-    ingen:head <Gain/In> .
+_:b12
+    ingen:tail <Gain/Out> ;
+    ingen:head <xfade/inB_left> .
 
-_:b27
+_:b13
+    ingen:tail <xfade/out_left> ;
+    ingen:head <shiroverb_1/lv2_audio_in_1> .
+
+_:b14
+    ingen:tail <shiroverb_1/lv2_audio_out_2> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b15
+    ingen:tail <CrossOver3/Out1> ;
+    ingen:head <avocado/lv2_audio_in_1> .
+
+_:b16
     ingen:tail <DX10/right_out> ;
     ingen:head <CrossOver3/In> .
 
-<avocado_1>
-    ingen:canvasX 1157.0 ;
-    ingen:canvasY 834.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
-    lv2:port <avocado_1/lv2_audio_in_1> ,
-             <avocado_1/lv2_audio_out_1> ,
-             <avocado_1/bufsiz> ,
-             <avocado_1/:bypass> ;
-    lv2:prototype <http://remaincalm.org/plugins/avocado> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<avocado_1/lv2_audio_in_1>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<avocado_1/lv2_audio_in_1>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<avocado_1/bufsiz>
-    ingen:value 70.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<avocado_1/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<avocado_2>
-    ingen:canvasX 1400.0 ;
-    ingen:canvasY 1170.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
-    lv2:port <avocado_2/lv2_audio_in_1> ,
-             <avocado_2/lv2_audio_out_1> ,
-             <avocado_2/bufsiz> ,
-             <avocado_2/:bypass> ;
-    lv2:prototype <http://remaincalm.org/plugins/avocado> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<avocado_2/lv2_audio_in_1>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<avocado_2/lv2_audio_in_1>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<avocado_2/bufsiz>
-    ingen:value 175.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<avocado_2/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<chorusflanger>
-    ingen:canvasX 1768.0 ;
-    ingen:canvasY 59.0 ;
-    ingen:enabled false ;
-    ingen:polyphonic false ;
-    lv2:microVersion 2 ;
-    lv2:minorVersion 7 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 10 ;
-    lv2:port <chorusflanger/InputL> ,
-             <chorusflanger/InputR> ,
-             <chorusflanger/OutputL> ,
-             <chorusflanger/OutputR> ,
-             <chorusflanger/Frequency> ,
-             <chorusflanger/LRPhaseShift> ,
-             <chorusflanger/Depth> ,
-             <chorusflanger/Delay> ,
-             <chorusflanger/Contour> ,
-             <chorusflanger/DryLevel> ,
-             <chorusflanger/WetLevel> ,
-             <chorusflanger/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/tap/chorusflanger> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<chorusflanger/InputL>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<chorusflanger/InputR>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<chorusflanger/InputL>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<chorusflanger/InputR>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<chorusflanger/Contour>
-    ingen:value 100.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<chorusflanger/WetLevel>
-    ingen:value -3.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<chorusflanger/LRPhaseShift>
-    ingen:value 90.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<chorusflanger/Frequency>
-    ingen:value 1.750000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<chorusflanger/Delay>
-    ingen:value 25.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<chorusflanger/DryLevel>
-    ingen:value -3.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<chorusflanger/Depth>
-    ingen:value 100.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<chorusflanger/:bypass>
-    ingen:value 1 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb>
-    ingen:canvasX 2673.0 ;
-    ingen:canvasY 584.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 11 ;
-    lv2:port <shiroverb/lv2_audio_in_1> ,
-             <shiroverb/lv2_audio_out_1> ,
-             <shiroverb/lv2_audio_out_2> ,
-             <shiroverb/shimmer> ,
-             <shiroverb/decay> ,
-             <shiroverb/damping> ,
-             <shiroverb/mix> ,
-             <shiroverb/ratio> ,
-             <shiroverb/roomsize> ,
-             <shiroverb/bandwidth> ,
-             <shiroverb/tone> ,
-             <shiroverb/:bypass> ;
-    lv2:prototype <https://github.com/ninodewit/SHIRO-Plugins/plugins/shiroverb> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<shiroverb/lv2_audio_in_1>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<shiroverb/lv2_audio_in_1>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<shiroverb/shimmer>
-    ingen:value 43.750000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/tone>
-    ingen:value 6000.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/damping>
-    ingen:value 50.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/ratio>
-    ingen:value 2.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/decay>
-    ingen:value 38.125000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/mix>
-    ingen:value 39.955357 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/roomsize>
-    ingen:value 150.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/bandwidth>
-    ingen:value 75.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb_1>
-    ingen:canvasX 2677.0 ;
-    ingen:canvasY 1051.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 11 ;
-    lv2:port <shiroverb_1/lv2_audio_in_1> ,
-             <shiroverb_1/lv2_audio_out_1> ,
-             <shiroverb_1/lv2_audio_out_2> ,
-             <shiroverb_1/shimmer> ,
-             <shiroverb_1/decay> ,
-             <shiroverb_1/damping> ,
-             <shiroverb_1/mix> ,
-             <shiroverb_1/ratio> ,
-             <shiroverb_1/roomsize> ,
-             <shiroverb_1/bandwidth> ,
-             <shiroverb_1/tone> ,
-             <shiroverb_1/:bypass> ;
-    lv2:prototype <https://github.com/ninodewit/SHIRO-Plugins/plugins/shiroverb> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<shiroverb_1/lv2_audio_in_1>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<shiroverb_1/lv2_audio_in_1>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<shiroverb_1/shimmer>
-    ingen:value 50.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb_1/tone>
-    ingen:value 1500.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb_1/damping>
-    ingen:value 50.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb_1/ratio>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb_1/decay>
-    ingen:value 43.870537 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb_1/mix>
-    ingen:value 40.625000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb_1/roomsize>
-    ingen:value 150.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb_1/bandwidth>
-    ingen:value 75.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb_1/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<xfade>
-    ingen:canvasX 2167.0 ;
-    ingen:canvasY 565.0 ;
-    ingen:enabled false ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 516 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
-    lv2:port <xfade/inA_left> ,
-             <xfade/inA_right> ,
-             <xfade/inB_left> ,
-             <xfade/inB_right> ,
-             <xfade/out_left> ,
-             <xfade/out_right> ,
-             <xfade/xfade> ,
-             <xfade/shape> ,
-             <xfade/mode> ,
-             <xfade/:bypass> ;
-    lv2:prototype <http://gareus.org/oss/lv2/xfade> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<xfade/inA_left>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<xfade/inA_right>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<xfade/inB_left>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<xfade/inB_right>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<xfade/inA_left>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<xfade/inA_right>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<xfade/inB_left>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<xfade/inB_right>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<xfade/mode>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<xfade/xfade>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<xfade/shape>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<xfade/:bypass>
-    ingen:value 1 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CrossOver3>
-    ingen:canvasX 439.0 ;
-    ingen:canvasY 862.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 1 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 12 ;
-    lv2:port <CrossOver3/In> ,
-             <CrossOver3/Out1> ,
-             <CrossOver3/Out2> ,
-             <CrossOver3/Out3> ,
-             <CrossOver3/Freq_1> ,
-             <CrossOver3/Freq_2> ,
-             <CrossOver3/Gain_1> ,
-             <CrossOver3/Gain_2> ,
-             <CrossOver3/Gain_3> ,
-             <CrossOver3/Order> ,
-             <CrossOver3/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mod-devel/CrossOver3> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<CrossOver3/In>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<CrossOver3/In>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<CrossOver3/Order>
-    ingen:value 2.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CrossOver3/Freq_1>
-    ingen:value 239.417007 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CrossOver3/Freq_2>
-    ingen:value 1000.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CrossOver3/Gain_3>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CrossOver3/Gain_2>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CrossOver3/Gain_1>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CrossOver3/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10>
-    ingen:canvasX 212.0 ;
-    ingen:canvasY 100.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 2 ;
-    lv2:minorVersion 0 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 9 ;
-    lv2:port <DX10/left_out> ,
-             <DX10/right_out> ,
-             <DX10/attack> ,
-             <DX10/decay> ,
-             <DX10/release> ,
-             <DX10/coarse> ,
-             <DX10/fine> ,
-             <DX10/mod_init> ,
-             <DX10/mod_dec> ,
-             <DX10/mod_sus> ,
-             <DX10/mod_rel> ,
-             <DX10/mod_vel> ,
-             <DX10/vibrato> ,
-             <DX10/octave> ,
-             <DX10/finetune> ,
-             <DX10/waveform> ,
-             <DX10/mod_thru> ,
-             <DX10/lfo_rate> ,
-             <DX10/event_in> ,
-             <DX10/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mda/DX10> ;
-    pedal:preset <http://moddevices.com/plugins/mda/presets#DX10-chiff-organ> ;
-    a ingen:Block .
-
-<DX10/event_in>
-    atom:bufferType atom:Sequence ;
-    atom:supports midi:MidiEvent ;
-    a atom:AtomPort ,
-        lv2:InputPort .
-
-<DX10/mod_init>
-    ingen:value 14.923000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/mod_rel>
-    ingen:value 42.590000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/mod_thru>
-    ingen:value 100.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/finetune>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/lfo_rate>
-    ingen:value 15.904018 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/vibrato>
-    ingen:value 36.050999 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/mod_sus>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/fine>
-    ingen:value 0.676000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/release>
-    ingen:value 67.281998 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/mod_vel>
-    ingen:value 25.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/mod_dec>
-    ingen:value 56.537998 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/coarse>
-    ingen:value 0.010000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/decay>
-    ingen:value 67.897003 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/octave>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/waveform>
-    ingen:value 21.462000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/attack>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<DX10/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
+_:b17
+    ingen:tail <shiroverb/lv2_audio_out_2> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b18
+    ingen:tail <xfade/out_left> ;
+    ingen:head <shiroverb/lv2_audio_in_1> .
+
+_:b19
+    ingen:tail <DX10/right_out> ;
+    ingen:head <chorusflanger/InputR> .
+
+_:b20
+    ingen:tail <CrossOver3/Out2> ;
+    ingen:head <avocado_1/lv2_audio_in_1> .
+
+_:b21
+    ingen:tail <xfade/out_right> ;
+    ingen:head <shiroverb/lv2_audio_in_1> .
+
+_:b22
+    ingen:tail <avocado_2/lv2_audio_out_1> ;
+    ingen:head <Gain/In> .
+
+_:b23
+    ingen:tail <avocado_1/lv2_audio_out_1> ;
+    ingen:head <Gain/In> .
+
+_:b24
+    ingen:tail <midi_merger_out> ;
+    ingen:head <DX10/event_in> .
+
+_:b25
+    ingen:tail <shiroverb/lv2_audio_out_1> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b26
+    ingen:tail <CrossOver3/Out3> ;
+    ingen:head <avocado_2/lv2_audio_in_1> .
+
+_:b27
+    ingen:tail <DX10/left_out> ;
+    ingen:head <CrossOver3/In> .
 
 <Gain>
     ingen:canvasX 1775.0 ;
@@ -696,12 +123,13 @@ _:b27
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 12 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain/In> ,
              <Gain/Out> ,
              <Gain/Gain> ,
              <Gain/:bypass> ;
     lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain> ;
+    pedal:instanceNumber 0 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -723,6 +151,161 @@ _:b27
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<shiroverb_1>
+    ingen:canvasX 2677.0 ;
+    ingen:canvasY 1051.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 12 ;
+    lv2:port <shiroverb_1/lv2_audio_in_1> ,
+             <shiroverb_1/lv2_audio_out_1> ,
+             <shiroverb_1/lv2_audio_out_2> ,
+             <shiroverb_1/shimmer> ,
+             <shiroverb_1/decay> ,
+             <shiroverb_1/damping> ,
+             <shiroverb_1/mix> ,
+             <shiroverb_1/ratio> ,
+             <shiroverb_1/roomsize> ,
+             <shiroverb_1/bandwidth> ,
+             <shiroverb_1/tone> ,
+             <shiroverb_1/:bypass> ;
+    lv2:prototype <https://github.com/ninodewit/SHIRO-Plugins/plugins/shiroverb> ;
+    pedal:instanceNumber 1 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<shiroverb_1/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<shiroverb_1/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<shiroverb_1/mix>
+    ingen:value 40.625000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb_1/shimmer>
+    ingen:value 50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb_1/tone>
+    ingen:value 1500.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb_1/damping>
+    ingen:value 50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb_1/roomsize>
+    ingen:value 150.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb_1/decay>
+    ingen:value 43.870537 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb_1/bandwidth>
+    ingen:value 75.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb_1/ratio>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb_1/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade>
+    ingen:canvasX 2167.0 ;
+    ingen:canvasY 565.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 516 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 6 ;
+    lv2:port <xfade/inA_left> ,
+             <xfade/inA_right> ,
+             <xfade/inB_left> ,
+             <xfade/inB_right> ,
+             <xfade/out_left> ,
+             <xfade/out_right> ,
+             <xfade/xfade> ,
+             <xfade/shape> ,
+             <xfade/mode> ,
+             <xfade/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/xfade> ;
+    pedal:instanceNumber 2 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<xfade/inA_left>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade/inA_right>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade/inB_left>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade/inB_right>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade/inA_left>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade/inA_right>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade/inB_left>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade/inB_right>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade/xfade>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade/shape>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade/mode>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <Gain2x2>
     ingen:canvasX 3135.0 ;
     ingen:canvasY 411.0 ;
@@ -731,7 +314,7 @@ _:b27
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 12 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2/In1> ,
              <Gain2x2/In2> ,
              <Gain2x2/Out1> ,
@@ -739,6 +322,7 @@ _:b27
              <Gain2x2/Gain> ,
              <Gain2x2/:bypass> ;
     lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:instanceNumber 3 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -768,6 +352,131 @@ _:b27
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<DX10>
+    ingen:canvasX 212.0 ;
+    ingen:canvasY 100.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 15 ;
+    lv2:port <DX10/left_out> ,
+             <DX10/right_out> ,
+             <DX10/attack> ,
+             <DX10/decay> ,
+             <DX10/release> ,
+             <DX10/coarse> ,
+             <DX10/fine> ,
+             <DX10/mod_init> ,
+             <DX10/mod_dec> ,
+             <DX10/mod_sus> ,
+             <DX10/mod_rel> ,
+             <DX10/mod_vel> ,
+             <DX10/vibrato> ,
+             <DX10/octave> ,
+             <DX10/finetune> ,
+             <DX10/waveform> ,
+             <DX10/mod_thru> ,
+             <DX10/lfo_rate> ,
+             <DX10/event_in> ,
+             <DX10/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mda/DX10> ;
+    pedal:instanceNumber 4 ;
+    pedal:preset <http://moddevices.com/plugins/mda/presets#DX10-chiff-organ> ;
+    a ingen:Block .
+
+<DX10/event_in>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<DX10/mod_thru>
+    ingen:value 100.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/vibrato>
+    ingen:value 36.050999 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_rel>
+    ingen:value 329.682250 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/coarse>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_dec>
+    ingen:value 512.794615 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/waveform>
+    ingen:value 21.462000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/fine>
+    ingen:value 0.676299 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_sus>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/attack>
+    ingen:value 2.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_vel>
+    ingen:value 25.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/lfo_rate>
+    ingen:value 15.904018 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/finetune>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/mod_init>
+    ingen:value 14.923000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/octave>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/decay>
+    ingen:value 1154.800164 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/release>
+    ingen:value 1154.800164 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<DX10/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <avocado>
     ingen:canvasX 912.0 ;
     ingen:canvasY 510.0 ;
@@ -776,12 +485,13 @@ _:b27
     lv2:microVersion 0 ;
     lv2:minorVersion 2 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
+    mod:releaseNumber 6 ;
     lv2:port <avocado/lv2_audio_in_1> ,
              <avocado/lv2_audio_out_1> ,
              <avocado/bufsiz> ,
              <avocado/:bypass> ;
     lv2:prototype <http://remaincalm.org/plugins/avocado> ;
+    pedal:instanceNumber 5 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -799,6 +509,307 @@ _:b27
         lv2:InputPort .
 
 <avocado/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<avocado_1>
+    ingen:canvasX 1157.0 ;
+    ingen:canvasY 834.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 6 ;
+    lv2:port <avocado_1/lv2_audio_in_1> ,
+             <avocado_1/lv2_audio_out_1> ,
+             <avocado_1/bufsiz> ,
+             <avocado_1/:bypass> ;
+    lv2:prototype <http://remaincalm.org/plugins/avocado> ;
+    pedal:instanceNumber 6 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<avocado_1/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<avocado_1/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<avocado_1/bufsiz>
+    ingen:value 70.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<avocado_1/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<avocado_2>
+    ingen:canvasX 1400.0 ;
+    ingen:canvasY 1170.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 6 ;
+    lv2:port <avocado_2/lv2_audio_in_1> ,
+             <avocado_2/lv2_audio_out_1> ,
+             <avocado_2/bufsiz> ,
+             <avocado_2/:bypass> ;
+    lv2:prototype <http://remaincalm.org/plugins/avocado> ;
+    pedal:instanceNumber 7 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<avocado_2/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<avocado_2/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<avocado_2/bufsiz>
+    ingen:value 175.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<avocado_2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger>
+    ingen:canvasX 1768.0 ;
+    ingen:canvasY 59.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 7 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 11 ;
+    lv2:port <chorusflanger/InputL> ,
+             <chorusflanger/InputR> ,
+             <chorusflanger/OutputL> ,
+             <chorusflanger/OutputR> ,
+             <chorusflanger/Frequency> ,
+             <chorusflanger/LRPhaseShift> ,
+             <chorusflanger/Depth> ,
+             <chorusflanger/Delay> ,
+             <chorusflanger/Contour> ,
+             <chorusflanger/DryLevel> ,
+             <chorusflanger/WetLevel> ,
+             <chorusflanger/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/tap/chorusflanger> ;
+    pedal:instanceNumber 8 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<chorusflanger/InputL>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<chorusflanger/InputR>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<chorusflanger/InputL>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<chorusflanger/InputR>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<chorusflanger/LRPhaseShift>
+    ingen:value 90.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/WetLevel>
+    ingen:value -3.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/Depth>
+    ingen:value 100.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/Contour>
+    ingen:value 100.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/Delay>
+    ingen:value 25.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/DryLevel>
+    ingen:value -3.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/Frequency>
+    ingen:value 1.750000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb>
+    ingen:canvasX 2673.0 ;
+    ingen:canvasY 584.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 12 ;
+    lv2:port <shiroverb/lv2_audio_in_1> ,
+             <shiroverb/lv2_audio_out_1> ,
+             <shiroverb/lv2_audio_out_2> ,
+             <shiroverb/shimmer> ,
+             <shiroverb/decay> ,
+             <shiroverb/damping> ,
+             <shiroverb/mix> ,
+             <shiroverb/ratio> ,
+             <shiroverb/roomsize> ,
+             <shiroverb/bandwidth> ,
+             <shiroverb/tone> ,
+             <shiroverb/:bypass> ;
+    lv2:prototype <https://github.com/ninodewit/SHIRO-Plugins/plugins/shiroverb> ;
+    pedal:instanceNumber 9 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<shiroverb/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<shiroverb/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<shiroverb/mix>
+    ingen:value 39.955357 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/shimmer>
+    ingen:value 43.750000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/tone>
+    ingen:value 6000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/damping>
+    ingen:value 50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/roomsize>
+    ingen:value 150.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/decay>
+    ingen:value 38.125000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/bandwidth>
+    ingen:value 75.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/ratio>
+    ingen:value 2.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CrossOver3>
+    ingen:canvasX 439.0 ;
+    ingen:canvasY 862.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 18 ;
+    lv2:port <CrossOver3/In> ,
+             <CrossOver3/Out1> ,
+             <CrossOver3/Out2> ,
+             <CrossOver3/Out3> ,
+             <CrossOver3/Freq_1> ,
+             <CrossOver3/Freq_2> ,
+             <CrossOver3/Gain_1> ,
+             <CrossOver3/Gain_2> ,
+             <CrossOver3/Gain_3> ,
+             <CrossOver3/Order> ,
+             <CrossOver3/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/CrossOver3> ;
+    pedal:instanceNumber 10 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<CrossOver3/In>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<CrossOver3/In>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<CrossOver3/Gain_3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CrossOver3/Gain_2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CrossOver3/Gain_1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CrossOver3/Freq_1>
+    ingen:value 239.417007 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CrossOver3/Freq_2>
+    ingen:value 1000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CrossOver3/Order>
+    ingen:value 2.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CrossOver3/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -941,16 +952,22 @@ _:b27
     a atom:AtomPort ,
         lv2:InputPort .
 
+<midi_loopback>
+    ingen:value 0 ;
+    lv2:index 17 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
 <>
     doap:name "INST - FM Synth" ;
     pedal:unitName "MOD Duo X" ;
-    pedal:unitModel "Unknown" ;
+    pedal:unitModel "duox:aarch64-a72.a53" ;
     pedal:width 0 ;
     pedal:height 0 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 2 ;
+    pedal:version 3 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -979,21 +996,22 @@ _:b27
               _:b25 ,
               _:b26 ,
               _:b27 ;
-    ingen:block <avocado_1> ,
+    ingen:block <Gain> ,
+                <shiroverb_1> ,
+                <xfade> ,
+                <Gain2x2> ,
+                <DX10> ,
+                <avocado> ,
+                <avocado_1> ,
                 <avocado_2> ,
                 <chorusflanger> ,
                 <shiroverb> ,
-                <shiroverb_1> ,
-                <xfade> ,
-                <CrossOver3> ,
-                <DX10> ,
-                <Gain> ,
-                <Gain2x2> ,
-                <avocado> ;
+                <CrossOver3> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
              <midi_separated_mode> ,
+             <midi_loopback> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

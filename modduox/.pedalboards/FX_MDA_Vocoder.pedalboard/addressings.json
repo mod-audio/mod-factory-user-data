@@ -1,166 +1,199 @@
 {
-    "/hmi/knob1": [
+    "/hmi/potentiometer3": [
         {
-            "instance": "/graph/Vocoder",
-            "tempo": false,
-            "maximum": 6,
-            "label": "Preset",
-            "steps": 33,
-            "page": 0,
-            "port": ":presets",
-            "dividers": null,
             "group": null,
-            "minimum": -1.0
-        }
-    ],
-    "/hmi/knob2": [],
-    "/cv/graph/cv_capture_2": [],
-    "/cv/graph/cv_capture_1": [],
-    "/bpm": [],
-    "/cv/graph/cv_exp_pedal": [],
-    "/hmi/potentiometer6": [
-        {
-            "instance": "/graph/Vocoder",
+            "coloured": false,
             "tempo": false,
-            "maximum": 100.0,
-            "label": "Hi Thru",
-            "steps": 33,
-            "page": 0,
-            "port": "hi_thru",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/potentiometer7": [],
-    "/hmi/potentiometer4": [
-        {
+            "subpage": null,
+            "label": "Mid Frq",
+            "maximum": 1600.0,
             "instance": "/graph/Vocoder",
-            "tempo": false,
-            "maximum": 100.0,
-            "label": "Hi Band",
-            "steps": 33,
-            "page": 0,
-            "port": "hi_band",
+            "minimum": 200.0,
+            "momentary": 0,
             "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/potentiometer5": [
-        {
-            "instance": "/graph/Vocoder",
-            "tempo": false,
-            "maximum": 20.0,
-            "label": "Output",
+            "port": "mid_freq",
             "steps": 33,
-            "page": 0,
-            "port": "output",
-            "dividers": null,
-            "group": null,
-            "minimum": -20.0
+            "page": 0
         }
     ],
     "/hmi/potentiometer2": [
         {
-            "instance": "/graph/Vocoder",
+            "group": null,
+            "coloured": false,
             "tempo": false,
-            "maximum": 100.0,
+            "subpage": null,
             "label": "Fltr Q",
-            "steps": 33,
-            "page": 0,
-            "port": "filter_q",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/potentiometer3": [
-        {
+            "maximum": 100.0,
             "instance": "/graph/Vocoder",
-            "tempo": false,
-            "maximum": 1600.0,
-            "label": "Mid Frq",
-            "steps": 33,
-            "page": 0,
-            "port": "mid_freq",
+            "minimum": 0.0,
+            "momentary": 0,
             "dividers": null,
-            "group": null,
-            "minimum": 200.0
+            "port": "filter_q",
+            "steps": 33,
+            "page": 0
         }
     ],
-    "/hmi/group1": [],
     "/hmi/potentiometer1": [
         {
-            "instance": "/graph/Vocoder",
-            "tempo": false,
-            "maximum": 10000.0,
-            "label": "Envelope",
-            "steps": 33,
-            "page": 0,
-            "port": "envelope",
-            "dividers": null,
             "group": null,
-            "minimum": 14.0
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Envelope",
+            "maximum": 10000.0,
+            "instance": "/graph/Vocoder",
+            "minimum": 14.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "envelope",
+            "steps": 33,
+            "page": 0
         }
     ],
+    "/hmi/potentiometer7": [],
+    "/hmi/potentiometer6": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Hi Thru",
+            "maximum": 100.0,
+            "instance": "/graph/Vocoder",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "hi_thru",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer5": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Output",
+            "maximum": 20.0,
+            "instance": "/graph/Vocoder",
+            "minimum": -20.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "output",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer4": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Hi Band",
+            "maximum": 100.0,
+            "instance": "/graph/Vocoder",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "hi_band",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/cv/graph/cv_exp_pedal": [],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/potentiometer8": [],
+    "/cv/graph/cv_capture_2": [],
+    "/bpm": [],
+    "/hmi/group2": [],
+    "/hmi/group3": [],
+    "/hmi/group1": [],
+    "/hmi/footswitch4": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Stereo Input",
+            "maximum": 1.0,
+            "instance": "/graph/xfade_1",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": ":bypass",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Preset",
+            "maximum": 5,
+            "instance": "/graph/Vocoder",
+            "minimum": 0,
+            "momentary": 0,
+            "dividers": null,
+            "port": ":presets",
+            "steps": 4,
+            "page": 0
+        }
+    ],
+    "/hmi/knob2": [],
     "/hmi/footswitch1": [
         {
-            "instance": "/graph/Vocoder",
+            "group": null,
+            "coloured": false,
             "tempo": false,
-            "maximum": 1.0,
+            "subpage": null,
             "label": "Qlty",
-            "steps": 33,
-            "page": 0,
-            "port": "quality",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/group3": [],
-    "/hmi/footswitch3": [
-        {
-            "instance": "/graph/xfade",
-            "tempo": false,
             "maximum": 1.0,
-            "label": "Internal Synth",
-            "steps": 33,
-            "page": 0,
-            "port": ":bypass",
+            "instance": "/graph/Vocoder",
+            "minimum": 0.0,
+            "momentary": 0,
             "dividers": null,
-            "group": null,
-            "minimum": 0.0
+            "port": "quality",
+            "steps": 1,
+            "page": 0
         }
     ],
     "/hmi/footswitch2": [
         {
-            "instance": "/graph/Vocoder",
+            "group": null,
+            "coloured": false,
             "tempo": false,
-            "maximum": 1.0,
+            "subpage": null,
             "label": "Carrier In",
-            "steps": 33,
-            "page": 0,
-            "port": "mod_in",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/footswitch4": [
-        {
-            "instance": "/graph/xfade_1",
-            "tempo": false,
             "maximum": 1.0,
-            "label": "Stereo Input",
-            "steps": 33,
-            "page": 0,
-            "port": ":bypass",
+            "instance": "/graph/Vocoder",
+            "minimum": 0.0,
+            "momentary": 0,
             "dividers": null,
-            "group": null,
-            "minimum": 0.0
+            "port": "mod_in",
+            "steps": 1,
+            "page": 0
         }
     ],
-    "/hmi/potentiometer8": [],
-    "/hmi/group2": []
+    "/hmi/footswitch3": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Internal Synth",
+            "maximum": 1.0,
+            "instance": "/graph/xfade",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": ":bypass",
+            "steps": 33,
+            "page": 0
+        }
+    ]
 }

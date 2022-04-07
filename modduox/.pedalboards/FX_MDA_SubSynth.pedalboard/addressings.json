@@ -1,127 +1,151 @@
 {
-    "/hmi/knob1": [
+    "/hmi/potentiometer3": [
         {
-            "instance": "/graph/SubSynth",
-            "tempo": false,
-            "maximum": 1.0,
-            "label": "Type",
-            "steps": 33,
-            "page": 0,
-            "port": "type",
-            "dividers": null,
             "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/knob2": [],
-    "/cv/graph/cv_capture_2": [],
-    "/cv/graph/cv_capture_1": [],
-    "/bpm": [],
-    "/cv/graph/cv_exp_pedal": [],
-    "/hmi/potentiometer6": [],
-    "/hmi/potentiometer7": [
-        {
-            "instance": "/graph/SubSynth",
+            "coloured": false,
             "tempo": false,
-            "maximum": 1569.0,
-            "label": "Release",
-            "steps": 33,
-            "page": 0,
-            "port": "release",
-            "dividers": null,
-            "group": null,
-            "minimum": 1.0
-        }
-    ],
-    "/hmi/potentiometer4": [],
-    "/hmi/potentiometer5": [
-        {
+            "subpage": null,
+            "label": "Thresh",
+            "maximum": 0.0,
             "instance": "/graph/SubSynth",
-            "tempo": false,
-            "maximum": 320.0,
-            "label": "Tune",
-            "steps": 33,
-            "page": 0,
-            "port": "tune",
+            "minimum": -60.0,
+            "momentary": 0,
             "dividers": null,
-            "group": null,
-            "minimum": 10.0
+            "port": "thresh",
+            "steps": 33,
+            "page": 0
         }
     ],
     "/hmi/potentiometer2": [
         {
-            "instance": "/graph/SubSynth",
+            "group": null,
+            "coloured": false,
             "tempo": false,
-            "maximum": 100.0,
+            "subpage": null,
             "label": "Dry Mix",
-            "steps": 33,
-            "page": 0,
-            "port": "dry_mix",
-            "dividers": null,
-            "group": null,
-            "minimum": 0.0
-        }
-    ],
-    "/hmi/potentiometer3": [
-        {
+            "maximum": 100.0,
             "instance": "/graph/SubSynth",
-            "tempo": false,
-            "maximum": 0.0,
-            "label": "Thresh",
-            "steps": 33,
-            "page": 0,
-            "port": "thresh",
+            "minimum": 0.0,
+            "momentary": 0,
             "dividers": null,
-            "group": null,
-            "minimum": -60.0
+            "port": "dry_mix",
+            "steps": 33,
+            "page": 0
         }
     ],
-    "/hmi/group1": [],
     "/hmi/potentiometer1": [
         {
-            "instance": "/graph/SubSynth",
-            "tempo": false,
-            "maximum": 100.0,
-            "label": "Level",
-            "steps": 33,
-            "page": 0,
-            "port": "level",
-            "dividers": null,
             "group": null,
-            "minimum": 0.0
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Level",
+            "maximum": 100.0,
+            "instance": "/graph/SubSynth",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "level",
+            "steps": 33,
+            "page": 0
         }
     ],
+    "/hmi/potentiometer7": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Release",
+            "maximum": 1442.0,
+            "instance": "/graph/SubSynth",
+            "minimum": 1.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "release",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer6": [],
+    "/hmi/potentiometer5": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Tune",
+            "maximum": 320.0,
+            "instance": "/graph/SubSynth",
+            "minimum": 10.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "tune",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer4": [],
+    "/cv/graph/cv_exp_pedal": [],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/potentiometer8": [],
+    "/cv/graph/cv_capture_2": [],
+    "/bpm": [],
+    "/hmi/group2": [],
+    "/hmi/group3": [],
+    "/hmi/group1": [],
+    "/hmi/footswitch4": [],
+    "/hmi/knob1": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Type",
+            "maximum": 1.0,
+            "instance": "/graph/SubSynth",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "type",
+            "steps": 3,
+            "page": 0
+        }
+    ],
+    "/hmi/knob2": [],
     "/hmi/footswitch1": [
         {
-            "instance": "/graph/SubSynth",
-            "tempo": false,
-            "maximum": 1.0,
-            "label": "SubSynth",
-            "steps": 33,
-            "page": 0,
-            "port": ":bypass",
-            "dividers": null,
             "group": null,
-            "minimum": 0.0
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "SubSynth",
+            "maximum": 1.0,
+            "instance": "/graph/SubSynth",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": ":bypass",
+            "steps": 33,
+            "page": 0
         }
     ],
-    "/hmi/group3": [],
-    "/hmi/footswitch3": [],
     "/hmi/footswitch2": [
         {
-            "instance": "/graph/xfade_1",
-            "tempo": false,
-            "maximum": 1.0,
-            "label": "Stereo Input",
-            "steps": 33,
-            "page": 0,
-            "port": ":bypass",
-            "dividers": null,
             "group": null,
-            "minimum": 0.0
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Stereo Input",
+            "maximum": 1.0,
+            "instance": "/graph/xfade_1",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": ":bypass",
+            "steps": 33,
+            "page": 0
         }
     ],
-    "/hmi/footswitch4": [],
-    "/hmi/potentiometer8": [],
-    "/hmi/group2": []
+    "/hmi/footswitch3": []
 }

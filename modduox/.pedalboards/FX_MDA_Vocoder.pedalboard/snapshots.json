@@ -1,0 +1,64 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "Vocoder": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "file:///root/.lv2/mod-mda-Vocoder.lv2/default-preset",
+                    "ports": {
+                        "mod_in": 0.0,
+                        "output": 0.0,
+                        "hi_band": 40.0,
+                        "envelope": 31.831861110466889,
+                        "quality": 1.0,
+                        "hi_thru": 40.0,
+                        "filter_q": 55.0,
+                        "mid_freq": 1133.3800048828125
+                    }
+                },
+                "FluidPlug_FluidSynthLeads": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "program": 1.0,
+                        "level": 1.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "xfade": 1.0,
+                        "shape": 0.0,
+                        "mode": 0.0
+                    }
+                },
+                "stereo": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "xfade": 1.0,
+                        "shape": 0.0,
+                        "mode": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

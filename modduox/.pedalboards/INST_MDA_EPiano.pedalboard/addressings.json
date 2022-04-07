@@ -1,153 +1,183 @@
 {
-    "/hmi/potentiometer1": [
-        {
-            "port": "env_decay",
-            "maximum": 100.0,
-            "label": "Decay",
-            "group": null,
-            "tempo": false,
-            "steps": 33,
-            "dividers": null,
-            "instance": "/graph/EPiano",
-            "minimum": 0.0,
-            "page": 0
-        }
-    ],
-    "/hmi/footswitch4": [],
-    "/hmi/potentiometer2": [
-        {
-            "port": "env_release",
-            "maximum": 100.0,
-            "label": "Release",
-            "group": null,
-            "tempo": false,
-            "steps": 33,
-            "dividers": null,
-            "instance": "/graph/EPiano",
-            "minimum": 0.0,
-            "page": 0
-        }
-    ],
-    "/hmi/footswitch2": [],
-    "/hmi/footswitch3": [],
-    "/hmi/potentiometer7": [
-        {
-            "port": "random_tuning",
-            "maximum": 50.0,
-            "label": "Rnd Tune",
-            "group": null,
-            "tempo": false,
-            "steps": 33,
-            "dividers": null,
-            "instance": "/graph/EPiano",
-            "minimum": 0.0,
-            "page": 0
-        }
-    ],
-    "/hmi/footswitch1": [
-        {
-            "port": "polyphonic",
-            "maximum": 1.0,
-            "label": "Polyphonic",
-            "group": null,
-            "tempo": false,
-            "steps": 1,
-            "dividers": null,
-            "instance": "/graph/EPiano",
-            "minimum": 0.0,
-            "page": 0
-        }
-    ],
-    "/hmi/potentiometer8": [
-        {
-            "port": "fine_tuning",
-            "maximum": 50.0,
-            "label": "Fne Tune",
-            "group": null,
-            "tempo": false,
-            "steps": 33,
-            "dividers": null,
-            "instance": "/graph/EPiano",
-            "minimum": -50.0,
-            "page": 0
-        }
-    ],
-    "/cv/graph/cv_capture_1": [],
-    "/hmi/potentiometer6": [
-        {
-            "port": "stereo_width",
-            "maximum": 200.0,
-            "label": "Width",
-            "group": null,
-            "tempo": false,
-            "steps": 33,
-            "dividers": null,
-            "instance": "/graph/EPiano",
-            "minimum": 0.0,
-            "page": 0
-        }
-    ],
-    "/hmi/group2": [],
     "/hmi/potentiometer3": [
         {
-            "port": "hardness",
-            "maximum": 50.0,
-            "label": "Hrdness",
             "group": null,
+            "coloured": false,
             "tempo": false,
-            "steps": 33,
-            "dividers": null,
+            "subpage": null,
+            "label": "Hrdness",
+            "maximum": 50.0,
             "instance": "/graph/EPiano",
             "minimum": -50.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "hardness",
+            "steps": 33,
             "page": 0
         }
     ],
-    "/hmi/group1": [],
-    "/hmi/group3": [],
-    "/bpm": [],
-    "/cv/graph/cv_capture_2": [],
-    "/cv/graph/cv_exp_pedal": [],
-    "/hmi/knob2": [],
+    "/hmi/potentiometer2": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Release",
+            "maximum": 1.3999999761581421,
+            "instance": "/graph/EPiano",
+            "minimum": 0.0099999997764825821,
+            "momentary": 0,
+            "dividers": null,
+            "port": "env_release",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer1": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Decay",
+            "maximum": 23.0,
+            "instance": "/graph/EPiano",
+            "minimum": 3.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "env_decay",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer7": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Rnd Tune",
+            "maximum": 50.0,
+            "instance": "/graph/EPiano",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "random_tuning",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/potentiometer6": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Width",
+            "maximum": 200.0,
+            "instance": "/graph/EPiano",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "stereo_width",
+            "steps": 33,
+            "page": 0
+        }
+    ],
     "/hmi/potentiometer5": [
         {
-            "port": "overdrive",
-            "maximum": 100.0,
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
             "label": "Drive",
-            "group": null,
-            "tempo": false,
-            "steps": 33,
-            "dividers": null,
-            "instance": "/graph/EPiano",
-            "minimum": 0.0,
-            "page": 0
-        }
-    ],
-    "/hmi/knob1": [
-        {
-            "port": "vel_sense",
             "maximum": 100.0,
-            "label": "Velocity Sensitivity",
-            "group": null,
-            "tempo": false,
-            "steps": 33,
-            "dividers": null,
             "instance": "/graph/EPiano",
             "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "overdrive",
+            "steps": 33,
             "page": 0
         }
     ],
     "/hmi/potentiometer4": [
         {
-            "port": "treble_boost",
-            "maximum": 50.0,
-            "label": "Hi Bst",
             "group": null,
+            "coloured": false,
             "tempo": false,
-            "steps": 33,
-            "dividers": null,
+            "subpage": null,
+            "label": "Hi Bst",
+            "maximum": 50.0,
             "instance": "/graph/EPiano",
             "minimum": -50.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "treble_boost",
+            "steps": 33,
             "page": 0
         }
-    ]
+    ],
+    "/cv/graph/cv_exp_pedal": [],
+    "/cv/graph/cv_capture_1": [],
+    "/hmi/potentiometer8": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Fne Tune",
+            "maximum": 50.0,
+            "instance": "/graph/EPiano",
+            "minimum": -50.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "fine_tuning",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/cv/graph/cv_capture_2": [],
+    "/bpm": [],
+    "/hmi/group2": [],
+    "/hmi/group3": [],
+    "/hmi/group1": [],
+    "/hmi/footswitch4": [],
+    "/hmi/knob1": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Velocity Sensitivity",
+            "maximum": 100.0,
+            "instance": "/graph/EPiano",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "vel_sense",
+            "steps": 33,
+            "page": 0
+        }
+    ],
+    "/hmi/knob2": [],
+    "/hmi/footswitch1": [
+        {
+            "group": null,
+            "coloured": false,
+            "tempo": false,
+            "subpage": null,
+            "label": "Polyphonic",
+            "maximum": 1.0,
+            "instance": "/graph/EPiano",
+            "minimum": 0.0,
+            "momentary": 0,
+            "dividers": null,
+            "port": "polyphonic",
+            "steps": 1,
+            "page": 0
+        }
+    ],
+    "/hmi/footswitch2": [],
+    "/hmi/footswitch3": []
 }

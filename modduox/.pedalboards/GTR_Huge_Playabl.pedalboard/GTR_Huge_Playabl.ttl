@@ -8,20 +8,20 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <Detune/right_out> ;
-    ingen:head <filta/in_right> .
+    ingen:tail <xfade_1/out_left> ;
+    ingen:head <mono/in> .
 
 _:b2
-    ingen:tail <capture_2> ;
-    ingen:head <xfade_1/inB_right> .
+    ingen:tail <Detune/left_out> ;
+    ingen:head <filta/in_left> .
 
 _:b3
-    ingen:tail <capture_1> ;
-    ingen:head <xfade_1/inA_right> .
-
-_:b4
     ingen:tail <xfade_1/out_right> ;
     ingen:head <mono/in> .
+
+_:b4
+    ingen:tail <xfade_1/out_left> ;
+    ingen:head <xfade/inA_left> .
 
 _:b5
     ingen:tail <capture_1> ;
@@ -32,72 +32,148 @@ _:b6
     ingen:head <playback_1> .
 
 _:b7
-    ingen:tail <xfade_1/out_left> ;
-    ingen:head <xfade/inA_left> .
-
-_:b8
-    ingen:tail <xfade_1/out_left> ;
-    ingen:head <mono/in> .
-
-_:b9
-    ingen:tail <Detune/left_out> ;
-    ingen:head <filta/in_left> .
-
-_:b10
-    ingen:tail <bolliedelay/out_l> ;
-    ingen:head <xfade/inB_left> .
-
-_:b11
-    ingen:tail <hip2b/OUTPUT> ;
-    ingen:head <Detune/right_in> .
-
-_:b12
-    ingen:tail <bolliedelay/out_r> ;
-    ingen:head <xfade/inB_right> .
-
-_:b13
-    ingen:tail <xfade_1/out_right> ;
-    ingen:head <xfade/inA_right> .
-
-_:b14
-    ingen:tail <hip2b/OUTPUT> ;
-    ingen:head <Detune/left_in> .
-
-_:b15
-    ingen:tail <Phaser/out_r> ;
-    ingen:head <bolliedelay/in_r> .
-
-_:b16
-    ingen:tail <Phaser/out_l> ;
-    ingen:head <bolliedelay/in_l> .
-
-_:b17
-    ingen:tail <capture_1> ;
-    ingen:head <xfade_1/inA_left> .
-
-_:b18
-    ingen:tail <filta/out_left> ;
-    ingen:head <Phaser/in_l> .
-
-_:b19
-    ingen:tail <stereo/outR> ;
-    ingen:head <playback_2> .
-
-_:b20
-    ingen:tail <filta/out_right> ;
-    ingen:head <Phaser/in_r> .
-
-_:b21
     ingen:tail <xfade/out_right> ;
     ingen:head <stereo/inR> .
 
-_:b22
+_:b8
+    ingen:tail <capture_1> ;
+    ingen:head <xfade_1/inA_right> .
+
+_:b9
+    ingen:tail <filta/out_left> ;
+    ingen:head <Phaser/in_l> .
+
+_:b10
+    ingen:tail <capture_1> ;
+    ingen:head <xfade_1/inA_left> .
+
+_:b11
     ingen:tail <xfade/out_left> ;
     ingen:head <stereo/inL> .
+
+_:b12
+    ingen:tail <Phaser/out_l> ;
+    ingen:head <bolliedelay/in_l> .
+
+_:b13
+    ingen:tail <filta/out_right> ;
+    ingen:head <Phaser/in_r> .
+
+_:b14
+    ingen:tail <capture_2> ;
+    ingen:head <xfade_1/inB_right> .
+
+_:b15
+    ingen:tail <stereo/outR> ;
+    ingen:head <playback_2> .
+
+_:b16
+    ingen:tail <Phaser/out_r> ;
+    ingen:head <bolliedelay/in_r> .
+
+_:b17
+    ingen:tail <xfade_1/out_right> ;
+    ingen:head <xfade/inA_right> .
+
+_:b18
+    ingen:tail <hip2b/OUTPUT> ;
+    ingen:head <Detune/left_in> .
+
+_:b19
+    ingen:tail <bolliedelay/out_r> ;
+    ingen:head <xfade/inB_right> .
+
+_:b20
+    ingen:tail <Detune/right_out> ;
+    ingen:head <filta/in_right> .
+
+_:b21
+    ingen:tail <bolliedelay/out_l> ;
+    ingen:head <xfade/inB_left> .
+
+_:b22
+    ingen:tail <hip2b/OUTPUT> ;
+    ingen:head <Detune/right_in> .
 
 _:b23
     ingen:tail <mono/out> ;
     ingen:head <hip2b/INPUT> .
+
+<xfade_1>
+    ingen:canvasX 422.3 ;
+    ingen:canvasY 106.3 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 516 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 6 ;
+    lv2:port <xfade_1/inA_left> ,
+             <xfade_1/inA_right> ,
+             <xfade_1/inB_left> ,
+             <xfade_1/inB_right> ,
+             <xfade_1/out_left> ,
+             <xfade_1/out_right> ,
+             <xfade_1/xfade> ,
+             <xfade_1/shape> ,
+             <xfade_1/mode> ,
+             <xfade_1/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/xfade> ;
+    pedal:instanceNumber 0 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<xfade_1/inA_left>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade_1/inA_right>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade_1/inB_left>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade_1/inB_right>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<xfade_1/inA_left>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade_1/inA_right>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade_1/inB_left>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade_1/inB_right>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<xfade_1/xfade>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade_1/shape>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade_1/mode>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<xfade_1/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
 
 <Detune>
     ingen:canvasX 1396.0 ;
@@ -107,7 +183,7 @@ _:b23
     lv2:microVersion 4 ;
     lv2:minorVersion 0 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 9 ;
+    mod:releaseNumber 15 ;
     lv2:port <Detune/left_in> ,
              <Detune/right_in> ,
              <Detune/left_out> ,
@@ -118,7 +194,8 @@ _:b23
              <Detune/latency> ,
              <Detune/:bypass> ;
     lv2:prototype <http://moddevices.com/plugins/mda/Detune> ;
-    pedal:preset <http://moddevices.com/plugins/mda/presets#Detune-stereo-detune> ;
+    pedal:instanceNumber 1 ;
+    pedal:preset <> ;
     a ingen:Block .
 
 <Detune/left_in>
@@ -137,16 +214,6 @@ _:b23
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<Detune/latency>
-    ingen:value 5.800000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Detune/detune>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <Detune/output>
     ingen:value -1.517857 ;
     a lv2:ControlPort ,
@@ -154,6 +221,16 @@ _:b23
 
 <Detune/mix>
     ingen:value 55.908482 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Detune/detune>
+    ingen:value 14.899554 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Detune/latency>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -170,7 +247,7 @@ _:b23
     lv2:microVersion 0 ;
     lv2:minorVersion 60 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 9 ;
+    mod:releaseNumber 11 ;
     lv2:port <Phaser/in_l> ,
              <Phaser/in_r> ,
              <Phaser/out_l> ,
@@ -186,6 +263,7 @@ _:b23
              <Phaser/dry> ,
              <Phaser/:bypass> ;
     lv2:prototype <http://calf.sourceforge.net/plugins/Phaser> ;
+    pedal:instanceNumber 2 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -205,13 +283,8 @@ _:b23
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<Phaser/mod_depth>
-    ingen:value 1364.954712 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Phaser/amount>
-    ingen:value 0.272321 ;
+<Phaser/mod_rate>
+    ingen:value 1.637633 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -220,13 +293,13 @@ _:b23
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Phaser/base_freq>
-    ingen:value 20000.000000 ;
+<Phaser/amount>
+    ingen:value 0.272321 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Phaser/stages>
-    ingen:value 1.000000 ;
+<Phaser/mod_depth>
+    ingen:value 1364.954712 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -240,8 +313,13 @@ _:b23
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Phaser/mod_rate>
-    ingen:value 1.637633 ;
+<Phaser/stages>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Phaser/base_freq>
+    ingen:value 20000.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -263,7 +341,7 @@ _:b23
     lv2:microVersion 6 ;
     lv2:minorVersion 2 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
+    mod:releaseNumber 6 ;
     lv2:port <bolliedelay/in_l> ,
              <bolliedelay/in_r> ,
              <bolliedelay/out_l> ,
@@ -286,6 +364,7 @@ _:b23
              <bolliedelay/tempo_out> ,
              <bolliedelay/:bypass> ;
     lv2:prototype <https://ca9.eu/lv2/bolliedelay> ;
+    pedal:instanceNumber 3 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -305,13 +384,18 @@ _:b23
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<bolliedelay/high_f>
-    ingen:value 7500.000000 ;
+<bolliedelay/tempo_user>
+    ingen:value 120.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<bolliedelay/tempo_mode>
-    ingen:value 0.000000 ;
+<bolliedelay/feedback>
+    ingen:value 67.947754 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/div_r>
+    ingen:value 4.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -320,8 +404,28 @@ _:b23
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<bolliedelay/crossf>
+    ingen:value 54.787636 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/high_q>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <bolliedelay/high_on>
     ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/div_l>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<bolliedelay/high_f>
+    ingen:value 7500.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -335,13 +439,13 @@ _:b23
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<bolliedelay/tempo_user>
-    ingen:value 120.000000 ;
+<bolliedelay/tempo_mode>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<bolliedelay/crossf>
-    ingen:value 54.787636 ;
+<bolliedelay/low_f>
+    ingen:value 20.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -352,31 +456,6 @@ _:b23
 
 <bolliedelay/tempo_host>
     ingen:value 80.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/feedback>
-    ingen:value 67.947754 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/high_q>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/div_l>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/low_f>
-    ingen:value 20.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<bolliedelay/div_r>
-    ingen:value 4.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -397,7 +476,7 @@ _:b23
     lv2:microVersion 0 ;
     lv2:minorVersion 2 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
+    mod:releaseNumber 8 ;
     lv2:port <filta/in_left> ,
              <filta/in_right> ,
              <filta/out_left> ,
@@ -406,6 +485,7 @@ _:b23
              <filta/active> ,
              <filta/:bypass> ;
     lv2:prototype <http://www.openavproductions.com/artyfx#filta> ;
+    pedal:instanceNumber 4 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -448,7 +528,7 @@ _:b23
     lv2:microVersion 1 ;
     lv2:minorVersion 0 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 7 ;
+    mod:releaseNumber 9 ;
     lv2:port <hip2b/INPUT> ,
              <hip2b/OUTPUT> ,
              <hip2b/UP> ,
@@ -460,6 +540,7 @@ _:b23
              <hip2b/LATENCY> ,
              <hip2b/:bypass> ;
     lv2:prototype <http://ssj71.github.io/infamousPlugins/plugs.html#hip2b> ;
+    pedal:instanceNumber 5 ;
     pedal:preset <http://ssj71.github.io/infamousPlugins/plugs.html#hip2b:preset:04nes_bass> ;
     a ingen:Block .
 
@@ -471,8 +552,8 @@ _:b23
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<hip2b/DOWN>
-    ingen:value -0.500000 ;
+<hip2b/OUT_GAIN>
+    ingen:value 0.093750 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -486,6 +567,11 @@ _:b23
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<hip2b/DOWN>
+    ingen:value -0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <hip2b/OCTAVE>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
@@ -493,11 +579,6 @@ _:b23
 
 <hip2b/IN_GAIN>
     ingen:value 2.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<hip2b/OUT_GAIN>
-    ingen:value 0.093750 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -518,7 +599,7 @@ _:b23
     lv2:microVersion 1 ;
     lv2:minorVersion 2 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 7 ;
+    mod:releaseNumber 8 ;
     lv2:port <mono/in> ,
              <mono/out> ,
              <mono/bypass> ,
@@ -535,6 +616,7 @@ _:b23
              <mono/meterOut> ,
              <mono/:bypass> ;
     lv2:prototype <http://invadarecords.com/plugins/lv2/compressor/mono> ;
+    pedal:instanceNumber 6 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -546,6 +628,16 @@ _:b23
     a lv2:AudioPort ,
         lv2:OutputPort .
 
+<mono/gain>
+    ingen:value 36.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/noClip>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <mono/ratio>
     ingen:value 4.000000 ;
     a lv2:ControlPort ,
@@ -556,23 +648,13 @@ _:b23
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/bypass>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/noClip>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/release>
-    ingen:value 0.050000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <mono/rms>
     ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/bypass>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -581,8 +663,8 @@ _:b23
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/gain>
-    ingen:value 36.000000 ;
+<mono/release>
+    ingen:value 0.050000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -615,7 +697,7 @@ _:b23
     lv2:microVersion 0 ;
     lv2:minorVersion 770 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 6 ;
+    mod:releaseNumber 7 ;
     lv2:port <stereo/inL> ,
              <stereo/inR> ,
              <stereo/outL> ,
@@ -626,6 +708,7 @@ _:b23
              <stereo/level> ,
              <stereo/:bypass> ;
     lv2:prototype <http://gareus.org/oss/lv2/tinygain#stereo> ;
+    pedal:instanceNumber 7 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -645,7 +728,7 @@ _:b23
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<stereo/mute>
+<stereo/gain>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -655,7 +738,7 @@ _:b23
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<stereo/gain>
+<stereo/mute>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -677,7 +760,7 @@ _:b23
     lv2:microVersion 0 ;
     lv2:minorVersion 516 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
+    mod:releaseNumber 6 ;
     lv2:port <xfade/inA_left> ,
              <xfade/inA_right> ,
              <xfade/inB_left> ,
@@ -689,6 +772,7 @@ _:b23
              <xfade/mode> ,
              <xfade/:bypass> ;
     lv2:prototype <http://gareus.org/oss/lv2/xfade> ;
+    pedal:instanceNumber 8 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -723,11 +807,6 @@ _:b23
 <xfade/inB_right>
     a lv2:AudioPort ,
         lv2:OutputPort .
-
-<xfade/mode>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
 
 <xfade/xfade>
     ingen:value 1.000000 ;
@@ -739,83 +818,13 @@ _:b23
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<xfade/mode>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <xfade/:bypass>
     ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<xfade_1>
-    ingen:canvasX 422.3 ;
-    ingen:canvasY 106.3 ;
-    ingen:enabled false ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 516 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
-    lv2:port <xfade_1/inA_left> ,
-             <xfade_1/inA_right> ,
-             <xfade_1/inB_left> ,
-             <xfade_1/inB_right> ,
-             <xfade_1/out_left> ,
-             <xfade_1/out_right> ,
-             <xfade_1/xfade> ,
-             <xfade_1/shape> ,
-             <xfade_1/mode> ,
-             <xfade_1/:bypass> ;
-    lv2:prototype <http://gareus.org/oss/lv2/xfade> ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<xfade_1/inA_left>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<xfade_1/inA_right>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<xfade_1/inB_left>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<xfade_1/inB_right>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<xfade_1/inA_left>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<xfade_1/inA_right>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<xfade_1/inB_left>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<xfade_1/inB_right>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<xfade_1/mode>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<xfade_1/xfade>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<xfade_1/shape>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<xfade_1/:bypass>
-    ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -979,16 +988,22 @@ _:b23
     a atom:AtomPort ,
         lv2:InputPort .
 
+<midi_loopback>
+    ingen:value 0 ;
+    lv2:index 19 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
 <>
     doap:name "GTR - Huge Playable Synth" ;
     pedal:unitName "MOD Duo X" ;
-    pedal:unitModel "Unknown" ;
+    pedal:unitModel "duox:aarch64-a72.a53" ;
     pedal:width 3840 ;
     pedal:height 1758 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 7 ;
+    pedal:version 8 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -1013,19 +1028,20 @@ _:b23
               _:b21 ,
               _:b22 ,
               _:b23 ;
-    ingen:block <Detune> ,
+    ingen:block <xfade_1> ,
+                <Detune> ,
                 <Phaser> ,
                 <bolliedelay> ,
                 <filta> ,
                 <hip2b> ,
                 <mono> ,
                 <stereo> ,
-                <xfade> ,
-                <xfade_1> ;
+                <xfade> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
              <midi_separated_mode> ,
+             <midi_loopback> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,

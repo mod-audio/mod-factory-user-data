@@ -1,0 +1,59 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "Phaser": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "mod_rate": 0.036929000169038773,
+                        "feedback": 0.25,
+                        "mod_depth": 4000.0,
+                        "dry": 0.5,
+                        "reset": 0.0,
+                        "stages": 6.0,
+                        "amount": 0.5,
+                        "base_freq": 1000.0,
+                        "stereo": 180.0
+                    }
+                },
+                "stereo": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain": -5.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    }
+                },
+                "DX10": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "file:///root/.lv2/mod-mda-DX10.lv2/default-preset",
+                    "ports": {
+                        "vibrato": 46.142246246337891,
+                        "mod_rel": 2527.9232351493056,
+                        "coarse": 1.0,
+                        "finetune": 4.8982701301574707,
+                        "fine": 0.011420000344514847,
+                        "mod_sus": 5.0,
+                        "attack": 141.31658183844772,
+                        "octave": 3.0,
+                        "mod_thru": 32.378799438476562,
+                        "mod_dec": 162.53329539971108,
+                        "mod_vel": 90.0,
+                        "decay": 1708.5801608793067,
+                        "lfo_rate": 15.018844604492188,
+                        "mod_init": 68.982879638671875,
+                        "waveform": 17.919075012207031,
+                        "release": 6999.9999999999982
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

@@ -1,0 +1,39 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "stereo": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    }
+                },
+                "EPiano": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "http://moddevices.com/plugins/mda/presets#EPiano-bright",
+                    "ports": {
+                        "env_release": 0.086882239506522518,
+                        "fine_tuning": 0.0,
+                        "vel_sense": 25.0,
+                        "stereo_width": 100.0,
+                        "overdrive": 50.0,
+                        "env_decay": 3.0,
+                        "hardness": 50.0,
+                        "polyphonic": 1.0,
+                        "lfo_rate": 6.3939147150405642,
+                        "treble_boost": 30.0,
+                        "random_tuning": 7.3000001907348633,
+                        "modulation": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}

@@ -1,0 +1,100 @@
+{
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "floaty": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "feedback": 20.290178298950195,
+                        "filter": 23.708282470703125,
+                        "mix": 42.0,
+                        "warp": 18.973213195800781,
+                        "rate": -0.13392899930477142,
+                        "delay": 373.28677368164062
+                    }
+                },
+                "_room_simulator_": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "RT": 0.0,
+                        "EFFECT": 0.00048799999999999999,
+                        "PREDELAYMS": 1.4441959857940674,
+                        "DRYWET": 1.0,
+                        "ROOMSIZE": 0.64620500802993774
+                    }
+                },
+                "PlateX2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "bandwidth": 0.6484379768371582,
+                        "blend": 0.8600500226020813,
+                        "damping": 0.57477700710296631,
+                        "tail": 0.79241102933883667
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "Gain": -10.0
+                    }
+                },
+                "RingMod": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "feedback": 19.400352478027344,
+                        "freq": 122.67675018310547,
+                        "fine": 52.063411712646484
+                    }
+                },
+                "_hotbox_": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "BASS": 0.28125,
+                        "GAIN": 0.25,
+                        "BYPASS": 0.0,
+                        "TREBLE": 0.4375,
+                        "VOLUME": 1.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "bypassed": true,
+                    "preset": "",
+                    "ports": {
+                        "xfade": 1.0,
+                        "shape": 0.0,
+                        "mode": 0.0
+                    }
+                },
+                "DubDelay": {
+                    "parameters": {},
+                    "bypassed": false,
+                    "preset": "",
+                    "ports": {
+                        "feedback": 48.215087890625,
+                        "delay": 3.5420552839850812,
+                        "output": 0.0,
+                        "fx_mix": 0.048840000000000001,
+                        "lfo_rate": 1.8831249998183921,
+                        "fb_tone": -100.0,
+                        "lfo_depth": 26.004463195800781
+                    }
+                }
+            }
+        }
+    ],
+    "current": 0
+}
