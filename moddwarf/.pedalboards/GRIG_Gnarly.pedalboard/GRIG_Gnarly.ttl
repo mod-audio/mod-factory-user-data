@@ -8,170 +8,142 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <paranoia/lv2_audio_out_1> ;
-    ingen:head <_timray_/in> .
-
-_:b2
-    ingen:tail <capture_1> ;
-    ingen:head <paranoia/lv2_audio_in_1> .
-
-_:b3
-    ingen:tail <mud/lv2_audio_out_1> ;
-    ingen:head <studiopre_1/in> .
-
-_:b4
-    ingen:tail <_CreamMachine_/out> ;
-    ingen:head <faIR_cabsim/In> .
-
-_:b5
-    ingen:tail <_timray_/out> ;
-    ingen:head <mud/lv2_audio_in_1> .
-
-_:b6
-    ingen:tail <faIR_cabsim/Out> ;
-    ingen:head <Plate/in> .
-
-_:b7
-    ingen:tail <studiopre_1/out> ;
-    ingen:head <_CreamMachine_/in> .
-
-_:b8
-    ingen:tail <Plate/outl> ;
-    ingen:head <playback_1> .
-
-_:b9
     ingen:tail <Plate/outr> ;
     ingen:head <playback_2> .
 
-<studiopre_1>
-    ingen:canvasX 2249.0 ;
-    ingen:canvasY 495.0 ;
+_:b2
+    ingen:tail <Plate/outl> ;
+    ingen:head <playback_1> .
+
+_:b3
+    ingen:tail <_timray_/out> ;
+    ingen:head <mud/lv2_audio_in_1> .
+
+_:b4
+    ingen:tail <paranoia/lv2_audio_out_1> ;
+    ingen:head <_timray_/in> .
+
+_:b5
+    ingen:tail <faIR_cabsim/Out> ;
+    ingen:head <Plate/in> .
+
+_:b6
+    ingen:tail <capture_1> ;
+    ingen:head <paranoia/lv2_audio_in_1> .
+
+_:b7
+    ingen:tail <Mutant/Out> ;
+    ingen:head <faIR_cabsim/In> .
+
+_:b8
+    ingen:tail <mud/lv2_audio_out_1> ;
+    ingen:head <Mutant/In> .
+
+<Mutant>
+    ingen:canvasX 2028.4 ;
+    ingen:canvasY 410.4 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
-    lv2:microVersion 3 ;
-    lv2:minorVersion 28 ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 3 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 24 ;
-    lv2:port <studiopre_1/in> ,
-             <studiopre_1/out> ,
-             <studiopre_1/bright> ,
-             <studiopre_1/volume> ,
-             <studiopre_1/bass> ,
-             <studiopre_1/middle> ,
-             <studiopre_1/treble> ,
-             <studiopre_1/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_studiopre#studiopre> ;
-    pedal:instanceNumber 17 ;
-    pedal:preset <> ;
+    mod:releaseNumber 2 ;
+    lv2:port <Mutant/In> ,
+             <Mutant/Out> ,
+             <Mutant/Pregain> ,
+             <Mutant/Drive> ,
+             <Mutant/Drivegain> ,
+             <Mutant/DriveVolume> ,
+             <Mutant/Bass> ,
+             <Mutant/Mid> ,
+             <Mutant/Treble> ,
+             <Mutant/Postgain> ,
+             <Mutant/Presence> ,
+             <Mutant/Depth> ,
+             <Mutant/Volume> ,
+             <Mutant/:bypass> ;
+    lv2:prototype <http://VeJaPlugins.com/plugins/Release/Mutant> ;
+    pedal:instanceNumber 27 ;
+    pedal:preset <file:///root/.lv2/mutant.lv2/3_Breakup> ;
     a ingen:Block .
 
-<studiopre_1/in>
+<Mutant/In>
     a lv2:AudioPort ,
         lv2:InputPort .
 
-<studiopre_1/in>
+<Mutant/In>
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<studiopre_1/bright>
+<Mutant/Depth>
+    ingen:value 50.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Mutant/Presence>
+    ingen:value 100.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Mutant/Drive>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<studiopre_1/volume>
-    ingen:value 5.000000 ;
+<Mutant/DriveVolume>
+    ingen:value 25.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<studiopre_1/bass>
-    ingen:value 0.500000 ;
+<Mutant/Drivegain>
+    ingen:value 30.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<studiopre_1/treble>
-    ingen:value 0.500000 ;
+<Mutant/Postgain>
+    ingen:value 90.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<studiopre_1/middle>
-    ingen:value 0.500000 ;
+<Mutant/Bass>
+    ingen:value 50.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<studiopre_1/:bypass>
-    ingen:value 0 ;
+<Mutant/Volume>
+    ingen:value 75.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_CreamMachine_>
-    ingen:canvasX 2130.0 ;
-    ingen:canvasY 822.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 1 ;
-    lv2:minorVersion 36 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 11 ;
-    lv2:port <_CreamMachine_/in> ,
-             <_CreamMachine_/out> ,
-             <_CreamMachine_/BYPASS> ,
-             <_CreamMachine_/BASS> ,
-             <_CreamMachine_/LEVEL> ,
-             <_CreamMachine_/TREBLE> ,
-             <_CreamMachine_/VOLUME> ,
-             <_CreamMachine_/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_CreamMachine_#_CreamMachine_> ;
-    pedal:instanceNumber 18 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<_CreamMachine_/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<_CreamMachine_/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<_CreamMachine_/BYPASS>
-    ingen:value 1.000000 ;
+<Mutant/Mid>
+    ingen:value 50.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_CreamMachine_/VOLUME>
-    ingen:value 0.188406 ;
+<Mutant/Pregain>
+    ingen:value 60.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_CreamMachine_/BASS>
-    ingen:value 0.500000 ;
+<Mutant/Treble>
+    ingen:value 50.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_CreamMachine_/TREBLE>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_CreamMachine_/LEVEL>
-    ingen:value 0.304348 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_CreamMachine_/:bypass>
+<Mutant/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <faIR_cabsim>
-    ingen:canvasX 2404.0 ;
-    ingen:canvasY 1099.0 ;
+    ingen:canvasX 2208.0 ;
+    ingen:canvasY 929.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
-    lv2:microVersion 1 ;
+    lv2:microVersion 2 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
+    mod:releaseNumber 9 ;
     lv2:port <faIR_cabsim/In> ,
              <faIR_cabsim/Out> ,
              <faIR_cabsim/Attenuation> ,
@@ -191,7 +163,7 @@ _:b9
         lv2:OutputPort .
 
 <faIR_cabsim/Attenuation>
-    ingen:value 0.000000 ;
+    ingen:value -7.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -206,8 +178,8 @@ _:b9
         lv2:InputPort .
 
 <paranoia>
-    ingen:canvasX 385.0 ;
-    ingen:canvasY 711.0 ;
+    ingen:canvasX 483.0 ;
+    ingen:canvasY 420.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -234,7 +206,12 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<paranoia/crush>
+<paranoia/wet>
+    ingen:value -11.700000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<paranoia/filter>
     ingen:value 40.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -244,13 +221,8 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<paranoia/filter>
+<paranoia/crush>
     ingen:value 40.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<paranoia/wet>
-    ingen:value -9.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -260,8 +232,8 @@ _:b9
         lv2:InputPort .
 
 <_timray_>
-    ingen:canvasX 876.0 ;
-    ingen:canvasY 700.5 ;
+    ingen:canvasX 958.8 ;
+    ingen:canvasY 404.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -290,13 +262,18 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
+<_timray_/VOLUME>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <_timray_/BYPASS>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_timray_/GAIN>
-    ingen:value 0.739130 ;
+<_timray_/BASS>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -305,13 +282,8 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_timray_/VOLUME>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_timray_/BASS>
-    ingen:value 0.500000 ;
+<_timray_/GAIN>
+    ingen:value 0.739130 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -326,8 +298,8 @@ _:b9
         lv2:InputPort .
 
 <mud>
-    ingen:canvasX 1427.0 ;
-    ingen:canvasY 706.0 ;
+    ingen:canvasX 1495.2 ;
+    ingen:canvasY 423.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -353,18 +325,18 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
+<mud/lfo>
+    ingen:value -40.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <mud/mix>
-    ingen:value 100.000000 ;
+    ingen:value 75.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <mud/filter>
-    ingen:value 15.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mud/lfo>
-    ingen:value -40.000000 ;
+    ingen:value 22.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -403,23 +375,23 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<Plate/blend>
-    ingen:value 0.187500 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <Plate/bandwidth>
     ingen:value 0.999500 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Plate/tail>
-    ingen:value 0.312500 ;
+<Plate/damping>
+    ingen:value 0.125000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Plate/damping>
-    ingen:value 0.125000 ;
+<Plate/blend>
+    ingen:value 0.190000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Plate/tail>
+    ingen:value 0.305000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -536,12 +508,12 @@ _:b9
     doap:name "GRIG:Gnarly" ;
     pedal:unitName "MOD Dwarf" ;
     pedal:unitModel "dwarf:aarch64-a35" ;
-    pedal:width 4800 ;
-    pedal:height 2240 ;
+    pedal:width 3840 ;
+    pedal:height 1838 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 10 ;
+    pedal:version 15 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -550,10 +522,8 @@ _:b9
               _:b5 ,
               _:b6 ,
               _:b7 ,
-              _:b8 ,
-              _:b9 ;
-    ingen:block <studiopre_1> ,
-                <_CreamMachine_> ,
+              _:b8 ;
+    ingen:block <Mutant> ,
                 <faIR_cabsim> ,
                 <paranoia> ,
                 <_timray_> ,

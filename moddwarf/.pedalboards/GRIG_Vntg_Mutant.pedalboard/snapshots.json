@@ -1,0 +1,98 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "Mutant": {
+                    "preset": "file:///root/.lv2/mutant.lv2/2_Vintage-Clean",
+                    "parameters": {},
+                    "ports": {
+                        "Pregain": 35.0,
+                        "Volume": 90.0,
+                        "Bass": 25.0,
+                        "Presence": 78.0,
+                        "Postgain": 65.0,
+                        "Depth": 30.0,
+                        "Mid": 90.0,
+                        "Drive": 0.0,
+                        "DriveVolume": 25.0,
+                        "Treble": 50.0,
+                        "Drivegain": 25.0
+                    },
+                    "bypassed": false
+                },
+                "plate": {
+                    "preset": "file:///root/.lv2/DragonflyPlateReverb.lv2/Narrow_Tank.ttl",
+                    "parameters": {},
+                    "ports": {
+                        "early_level": 50.0,
+                        "high_cut": 10000.0,
+                        "algorithm": 2.0,
+                        "predelay": 10.0,
+                        "width": 60.0,
+                        "early_damp": 7000.0,
+                        "decay": 0.60000002384185791,
+                        "dry_level": 0.0,
+                        "low_cut": 50.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "Gain_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Fidelity": 1.0,
+                        "Model": 0.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "mod_volume_2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.30000001192092896,
+                        "Mode": 1.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Default"
+        }
+    ],
+    "current": 0
+}

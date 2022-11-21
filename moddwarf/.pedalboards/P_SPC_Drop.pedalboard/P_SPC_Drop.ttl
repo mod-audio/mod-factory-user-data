@@ -8,64 +8,64 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <xfade/out_left> ;
-    ingen:head <Gain/In> .
-
-_:b2
-    ingen:tail <xfade/out_right> ;
-    ingen:head <Gain/In> .
-
-_:b3
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_right> .
-
-_:b4
     ingen:tail <Gain2x2/Out2> ;
     ingen:head <xfade_1/inB_right> .
 
-_:b5
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <xfade_1/inB_left> .
+_:b2
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_right> .
 
-_:b6
+_:b3
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inB_left> .
+
+_:b4
+    ingen:tail <Drop/Out> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b5
     ingen:tail <xfade/out_left> ;
     ingen:head <xfade_1/inA_left> .
 
+_:b6
+    ingen:tail <xfade_1/out_left> ;
+    ingen:head <playback_1> .
+
 _:b7
     ingen:tail <xfade/out_right> ;
-    ingen:head <xfade_1/inA_right> .
+    ingen:head <Gain/In> .
 
 _:b8
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_left> .
+    ingen:tail <Gain/Out> ;
+    ingen:head <Drop/In> .
 
 _:b9
     ingen:tail <capture_2> ;
     ingen:head <xfade/inB_right> .
 
 _:b10
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_left> .
+
+_:b11
     ingen:tail <xfade_1/out_right> ;
     ingen:head <playback_2> .
 
-_:b11
-    ingen:tail <Drop/Out> ;
-    ingen:head <Gain2x2/In1> .
-
 _:b12
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inB_left> .
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <xfade_1/inB_left> .
 
 _:b13
-    ingen:tail <Gain/Out> ;
-    ingen:head <Drop/In> .
+    ingen:tail <xfade/out_right> ;
+    ingen:head <xfade_1/inA_right> .
 
 _:b14
     ingen:tail <Drop/Out> ;
-    ingen:head <Gain2x2/In2> .
+    ingen:head <Gain2x2/In1> .
 
 _:b15
-    ingen:tail <xfade_1/out_left> ;
-    ingen:head <playback_1> .
+    ingen:tail <xfade/out_left> ;
+    ingen:head <Gain/In> .
 
 <Gain2x2>
     ingen:canvasX 2960.0 ;
@@ -75,7 +75,7 @@ _:b15
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2/In1> ,
              <Gain2x2/In2> ,
              <Gain2x2/Out1> ,
@@ -169,7 +169,7 @@ _:b15
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade/shape>
+<xfade/mode>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -179,7 +179,7 @@ _:b15
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade/mode>
+<xfade/shape>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -245,7 +245,7 @@ _:b15
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade_1/shape>
+<xfade_1/mode>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -255,7 +255,7 @@ _:b15
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade_1/mode>
+<xfade_1/shape>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -273,7 +273,7 @@ _:b15
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain/In> ,
              <Gain/Out> ,
              <Gain/Gain> ,
@@ -340,7 +340,7 @@ _:b15
         lv2:InputPort .
 
 <Drop/Step>
-    ingen:value -12.000000 ;
+    ingen:value -7.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -462,7 +462,7 @@ _:b15
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 9 ;
+    pedal:version 12 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,

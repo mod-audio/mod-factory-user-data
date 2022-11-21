@@ -3,726 +3,690 @@
         {
             "name": "Chorus",
             "data": {
-                "_CreamMachine_": {
+                "xfade": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "BASS": 0.5,
-                        "VOLUME": 0.29999999999999999,
-                        "BYPASS": 1.0,
-                        "LEVEL": 0.17000000000000001,
-                        "TREBLE": 0.5
+                        "xfade": 0.5,
+                        "mode": 0.0,
+                        "shape": 0.0
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
+                },
+                "bolliedelay": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "high_q": 1.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "tempo_host": 120.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "tempo_user": 120.0,
+                        "mix": 42.5,
+                        "div_r": 3.0,
+                        "high_f": 7500.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 69.0,
+                        "tap": 0.0,
+                        "low_q": 1.0,
+                        "low_on": 1.0
+                    },
+                    "bypassed": true
                 },
                 "Gain2x2": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "Gain": -3.0
+                        "Gain": -1.25
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
-                "studiopre": {
+                "PlateX2": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "bass": 0.5,
-                        "volume": 5.0,
-                        "bright": 0.0,
-                        "middle": 0.5,
-                        "treble": 0.5
+                        "bandwidth": 0.85000002384185791,
+                        "damping": 0.25334799289703369,
+                        "blend": 0.20999999344348907,
+                        "tail": 0.34000000357627869
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "_bajatubedriver_": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "VOLUME": 0.34000000357627869,
                         "BYPASS": 0.0,
                         "DRIVE": 0.34000000357627869,
-                        "TONE": 0.5
+                        "TONE": 0.5,
+                        "VOLUME": 0.16
                     },
-                    "bypassed": true,
-                    "preset": ""
+                    "bypassed": true
                 },
-                "xfade": {
+                "Wider": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "xfade": 0.5,
-                        "shape": 0.0,
-                        "mode": 0.0
+                        "pan": 0.0,
+                        "width": 0.0
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "faIR_cabsim": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
                         "Attenuation": -4.0,
                         "Model": 0.0
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
-                "PlateX2": {
+                "Mutant": {
                     "parameters": {},
+                    "preset": "file:///root/.lv2/mutant.lv2/1_Neutral-Clean",
                     "ports": {
-                        "damping": 0.25334799289703369,
-                        "blend": 0.20999999999999999,
-                        "bandwidth": 0.84999999999999998,
-                        "tail": 0.34000000000000002
+                        "DriveVolume": 25.0,
+                        "Depth": 45.0,
+                        "Pregain": 40.0,
+                        "Volume": 90.0,
+                        "Postgain": 65.0,
+                        "Drive": 0.0,
+                        "Drivegain": 25.0,
+                        "Presence": 65.0,
+                        "Bass": 50.0,
+                        "Mid": 50.0,
+                        "Treble": 50.0
                     },
-                    "bypassed": false,
-                    "preset": ""
-                },
-                "Wider": {
-                    "parameters": {},
-                    "ports": {
-                        "width": 0.0,
-                        "pan": 0.0
-                    },
-                    "bypassed": false,
-                    "preset": ""
-                },
-                "bolliedelay": {
-                    "parameters": {},
-                    "ports": {
-                        "crossf": 20.0,
-                        "tempo_host": 120.0,
-                        "tempo_user": 120.0,
-                        "low_on": 1.0,
-                        "feedback": 69.0,
-                        "low_q": 1.0,
-                        "high_f": 7500.0,
-                        "low_f": 20.0,
-                        "high_on": 1.0,
-                        "div_r": 3.0,
-                        "mix": 42.5,
-                        "high_q": 1.0,
-                        "tempo_mode": 0.0,
-                        "div_l": 2.0,
-                        "tap": 0.0
-                    },
-                    "bypassed": true,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "triple_chorus": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "mod_amp_2": 0.89999997615814209,
                         "mod_amp_1": 3.75,
-                        "delay": 22.5,
+                        "mod_amp_2": 0.89999997615814209,
                         "mod_freq_1": 0.10000000149011612,
+                        "delay": 22.5,
                         "mod_freq_2": 0.55000001192092896
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 }
             }
         },
         {
             "name": "Driven Chorus",
             "data": {
-                "_CreamMachine_": {
+                "xfade": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "BASS": 0.5,
-                        "VOLUME": 0.29999999999999999,
-                        "BYPASS": 1.0,
-                        "LEVEL": 0.17000000000000001,
-                        "TREBLE": 0.5
+                        "xfade": 0.5,
+                        "mode": 0.0,
+                        "shape": 0.0
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
+                },
+                "bolliedelay": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "high_q": 1.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "tempo_host": 120.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "tempo_user": 120.0,
+                        "mix": 42.5,
+                        "div_r": 3.0,
+                        "high_f": 7500.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 69.0,
+                        "tap": 0.0,
+                        "low_q": 1.0,
+                        "low_on": 1.0
+                    },
+                    "bypassed": true
                 },
                 "Gain2x2": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "Gain": -3.0
+                        "Gain": -1.25
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
-                "studiopre": {
+                "PlateX2": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "bass": 0.5,
-                        "volume": 5.0,
-                        "bright": 0.0,
-                        "middle": 0.5,
-                        "treble": 0.5
+                        "bandwidth": 0.85000002384185791,
+                        "damping": 0.25334799289703369,
+                        "blend": 0.20999999344348907,
+                        "tail": 0.34000000357627869
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "_bajatubedriver_": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "VOLUME": 0.34000000357627869,
                         "BYPASS": 1.0,
                         "DRIVE": 0.34000000357627869,
-                        "TONE": 0.5
+                        "TONE": 0.5,
+                        "VOLUME": 0.16
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
-                "xfade": {
+                "Wider": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "xfade": 0.5,
-                        "shape": 0.0,
-                        "mode": 0.0
+                        "pan": 0.0,
+                        "width": 0.0
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "faIR_cabsim": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
                         "Attenuation": -4.0,
                         "Model": 0.0
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
-                "PlateX2": {
+                "Mutant": {
                     "parameters": {},
+                    "preset": "file:///root/.lv2/mutant.lv2/1_Neutral-Clean",
                     "ports": {
-                        "damping": 0.25334799289703369,
-                        "blend": 0.20999999999999999,
-                        "bandwidth": 0.84999999999999998,
-                        "tail": 0.34000000000000002
+                        "DriveVolume": 25.0,
+                        "Depth": 45.0,
+                        "Pregain": 40.0,
+                        "Volume": 90.0,
+                        "Postgain": 65.0,
+                        "Drive": 0.0,
+                        "Drivegain": 25.0,
+                        "Presence": 65.0,
+                        "Bass": 50.0,
+                        "Mid": 50.0,
+                        "Treble": 50.0
                     },
-                    "bypassed": false,
-                    "preset": ""
-                },
-                "Wider": {
-                    "parameters": {},
-                    "ports": {
-                        "width": 0.0,
-                        "pan": 0.0
-                    },
-                    "bypassed": false,
-                    "preset": ""
-                },
-                "bolliedelay": {
-                    "parameters": {},
-                    "ports": {
-                        "crossf": 20.0,
-                        "tempo_host": 120.0,
-                        "tempo_user": 120.0,
-                        "low_on": 1.0,
-                        "feedback": 69.0,
-                        "low_q": 1.0,
-                        "high_f": 7500.0,
-                        "low_f": 20.0,
-                        "high_on": 1.0,
-                        "div_r": 3.0,
-                        "mix": 42.5,
-                        "high_q": 1.0,
-                        "tempo_mode": 0.0,
-                        "div_l": 2.0,
-                        "tap": 0.0
-                    },
-                    "bypassed": true,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "triple_chorus": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "mod_amp_2": 0.89999997615814209,
                         "mod_amp_1": 3.75,
-                        "delay": 22.5,
+                        "mod_amp_2": 0.89999997615814209,
                         "mod_freq_1": 0.10000000149011612,
+                        "delay": 22.5,
                         "mod_freq_2": 0.55000001192092896
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 }
             }
         },
         {
             "name": "Chorus Delay",
             "data": {
-                "_CreamMachine_": {
+                "xfade": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "BASS": 0.5,
-                        "VOLUME": 0.29999999999999999,
-                        "BYPASS": 1.0,
-                        "LEVEL": 0.17000000000000001,
-                        "TREBLE": 0.5
+                        "xfade": 0.5,
+                        "mode": 0.0,
+                        "shape": 0.0
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
+                },
+                "bolliedelay": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "high_q": 1.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "tempo_host": 120.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "tempo_user": 120.0,
+                        "mix": 42.5,
+                        "div_r": 3.0,
+                        "high_f": 7500.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 69.0,
+                        "tap": 0.0,
+                        "low_q": 1.0,
+                        "low_on": 1.0
+                    },
+                    "bypassed": false
                 },
                 "Gain2x2": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "Gain": -3.0
+                        "Gain": -1.25
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
-                "studiopre": {
+                "PlateX2": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "bass": 0.5,
-                        "volume": 5.0,
-                        "bright": 0.0,
-                        "middle": 0.5,
-                        "treble": 0.5
+                        "bandwidth": 0.85000002384185791,
+                        "damping": 0.25334799289703369,
+                        "blend": 0.20999999344348907,
+                        "tail": 0.34000000357627869
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "_bajatubedriver_": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "VOLUME": 0.34000000357627869,
                         "BYPASS": 0.0,
                         "DRIVE": 0.34000000357627869,
-                        "TONE": 0.5
+                        "TONE": 0.5,
+                        "VOLUME": 0.16
                     },
-                    "bypassed": true,
-                    "preset": ""
+                    "bypassed": true
                 },
-                "xfade": {
+                "Wider": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "xfade": 0.5,
-                        "shape": 0.0,
-                        "mode": 0.0
+                        "pan": 0.0,
+                        "width": 0.0
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "faIR_cabsim": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
                         "Attenuation": -4.0,
                         "Model": 0.0
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
-                "PlateX2": {
+                "Mutant": {
                     "parameters": {},
+                    "preset": "file:///root/.lv2/mutant.lv2/1_Neutral-Clean",
                     "ports": {
-                        "damping": 0.25334799289703369,
-                        "blend": 0.20999999999999999,
-                        "bandwidth": 0.84999999999999998,
-                        "tail": 0.34000000000000002
+                        "DriveVolume": 25.0,
+                        "Depth": 45.0,
+                        "Pregain": 40.0,
+                        "Volume": 90.0,
+                        "Postgain": 65.0,
+                        "Drive": 0.0,
+                        "Drivegain": 25.0,
+                        "Presence": 65.0,
+                        "Bass": 50.0,
+                        "Mid": 50.0,
+                        "Treble": 50.0
                     },
-                    "bypassed": false,
-                    "preset": ""
-                },
-                "Wider": {
-                    "parameters": {},
-                    "ports": {
-                        "width": 0.0,
-                        "pan": 0.0
-                    },
-                    "bypassed": false,
-                    "preset": ""
-                },
-                "bolliedelay": {
-                    "parameters": {},
-                    "ports": {
-                        "crossf": 20.0,
-                        "tempo_host": 120.0,
-                        "tempo_user": 120.0,
-                        "low_on": 1.0,
-                        "feedback": 69.0,
-                        "low_q": 1.0,
-                        "high_f": 7500.0,
-                        "low_f": 20.0,
-                        "high_on": 1.0,
-                        "div_r": 3.0,
-                        "mix": 42.5,
-                        "high_q": 1.0,
-                        "tempo_mode": 0.0,
-                        "div_l": 2.0,
-                        "tap": 0.0
-                    },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "triple_chorus": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "mod_amp_2": 0.89999997615814209,
                         "mod_amp_1": 3.75,
-                        "delay": 22.5,
+                        "mod_amp_2": 0.89999997615814209,
                         "mod_freq_1": 0.10000000149011612,
+                        "delay": 22.5,
                         "mod_freq_2": 0.55000001192092896
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 }
             }
         },
         {
             "name": "Driven ChDel",
             "data": {
-                "_CreamMachine_": {
+                "xfade": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "BASS": 0.5,
-                        "VOLUME": 0.29999999999999999,
-                        "BYPASS": 1.0,
-                        "LEVEL": 0.17000000000000001,
-                        "TREBLE": 0.5
+                        "xfade": 0.5,
+                        "mode": 0.0,
+                        "shape": 0.0
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
+                },
+                "bolliedelay": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "high_q": 1.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "tempo_host": 120.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "tempo_user": 120.0,
+                        "mix": 42.5,
+                        "div_r": 3.0,
+                        "high_f": 7500.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 69.0,
+                        "tap": 0.0,
+                        "low_q": 1.0,
+                        "low_on": 1.0
+                    },
+                    "bypassed": false
                 },
                 "Gain2x2": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "Gain": -3.0
+                        "Gain": -1.25
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
-                "studiopre": {
+                "PlateX2": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "bass": 0.5,
-                        "volume": 5.0,
-                        "bright": 0.0,
-                        "middle": 0.5,
-                        "treble": 0.5
+                        "bandwidth": 0.85000002384185791,
+                        "damping": 0.25334799289703369,
+                        "blend": 0.20999999344348907,
+                        "tail": 0.34000000357627869
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "_bajatubedriver_": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "VOLUME": 0.34000000357627869,
                         "BYPASS": 1.0,
                         "DRIVE": 0.34000000357627869,
-                        "TONE": 0.5
+                        "TONE": 0.5,
+                        "VOLUME": 0.16
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
-                "xfade": {
+                "Wider": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "xfade": 0.5,
-                        "shape": 0.0,
-                        "mode": 0.0
+                        "pan": 0.0,
+                        "width": 0.0
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "faIR_cabsim": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
                         "Attenuation": -4.0,
                         "Model": 0.0
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
-                "PlateX2": {
+                "Mutant": {
                     "parameters": {},
+                    "preset": "file:///root/.lv2/mutant.lv2/1_Neutral-Clean",
                     "ports": {
-                        "damping": 0.25334799289703369,
-                        "blend": 0.20999999999999999,
-                        "bandwidth": 0.84999999999999998,
-                        "tail": 0.34000000000000002
+                        "DriveVolume": 25.0,
+                        "Depth": 45.0,
+                        "Pregain": 40.0,
+                        "Volume": 90.0,
+                        "Postgain": 65.0,
+                        "Drive": 0.0,
+                        "Drivegain": 25.0,
+                        "Presence": 65.0,
+                        "Bass": 50.0,
+                        "Mid": 50.0,
+                        "Treble": 50.0
                     },
-                    "bypassed": false,
-                    "preset": ""
-                },
-                "Wider": {
-                    "parameters": {},
-                    "ports": {
-                        "width": 0.0,
-                        "pan": 0.0
-                    },
-                    "bypassed": false,
-                    "preset": ""
-                },
-                "bolliedelay": {
-                    "parameters": {},
-                    "ports": {
-                        "crossf": 20.0,
-                        "tempo_host": 120.0,
-                        "tempo_user": 120.0,
-                        "low_on": 1.0,
-                        "feedback": 69.0,
-                        "low_q": 1.0,
-                        "high_f": 7500.0,
-                        "low_f": 20.0,
-                        "high_on": 1.0,
-                        "div_r": 3.0,
-                        "mix": 42.5,
-                        "high_q": 1.0,
-                        "tempo_mode": 0.0,
-                        "div_l": 2.0,
-                        "tap": 0.0
-                    },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "triple_chorus": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "mod_amp_2": 0.89999997615814209,
                         "mod_amp_1": 3.75,
-                        "delay": 22.5,
+                        "mod_amp_2": 0.89999997615814209,
                         "mod_freq_1": 0.10000000149011612,
+                        "delay": 22.5,
                         "mod_freq_2": 0.55000001192092896
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 }
             }
         },
         {
             "name": "Delay",
             "data": {
-                "_CreamMachine_": {
+                "xfade": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "BASS": 0.5,
-                        "VOLUME": 0.29999999999999999,
-                        "BYPASS": 1.0,
-                        "LEVEL": 0.17000000000000001,
-                        "TREBLE": 0.5
+                        "xfade": 0.5,
+                        "mode": 0.0,
+                        "shape": 0.0
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": true
+                },
+                "bolliedelay": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "high_q": 1.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "tempo_host": 120.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "tempo_user": 120.0,
+                        "mix": 42.5,
+                        "div_r": 3.0,
+                        "high_f": 7500.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 69.0,
+                        "tap": 0.0,
+                        "low_q": 1.0,
+                        "low_on": 1.0
+                    },
+                    "bypassed": false
                 },
                 "Gain2x2": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "Gain": -3.0
+                        "Gain": -1.25
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
-                "studiopre": {
+                "PlateX2": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "bass": 0.5,
-                        "volume": 5.0,
-                        "bright": 0.0,
-                        "middle": 0.5,
-                        "treble": 0.5
+                        "bandwidth": 0.85000002384185791,
+                        "damping": 0.25334799289703369,
+                        "blend": 0.20999999344348907,
+                        "tail": 0.34000000357627869
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "_bajatubedriver_": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "VOLUME": 0.34000000357627869,
                         "BYPASS": 0.0,
                         "DRIVE": 0.34000000357627869,
-                        "TONE": 0.5
+                        "TONE": 0.5,
+                        "VOLUME": 0.16
                     },
-                    "bypassed": true,
-                    "preset": ""
+                    "bypassed": true
                 },
-                "xfade": {
+                "Wider": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "xfade": 0.5,
-                        "shape": 0.0,
-                        "mode": 0.0
+                        "pan": 0.0,
+                        "width": 0.0
                     },
-                    "bypassed": true,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "faIR_cabsim": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
                         "Attenuation": -4.0,
                         "Model": 0.0
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
-                "PlateX2": {
+                "Mutant": {
                     "parameters": {},
+                    "preset": "file:///root/.lv2/mutant.lv2/1_Neutral-Clean",
                     "ports": {
-                        "damping": 0.25334799289703369,
-                        "blend": 0.20999999999999999,
-                        "bandwidth": 0.84999999999999998,
-                        "tail": 0.34000000000000002
+                        "DriveVolume": 25.0,
+                        "Depth": 45.0,
+                        "Pregain": 40.0,
+                        "Volume": 90.0,
+                        "Postgain": 65.0,
+                        "Drive": 0.0,
+                        "Drivegain": 25.0,
+                        "Presence": 65.0,
+                        "Bass": 50.0,
+                        "Mid": 50.0,
+                        "Treble": 50.0
                     },
-                    "bypassed": false,
-                    "preset": ""
-                },
-                "Wider": {
-                    "parameters": {},
-                    "ports": {
-                        "width": 0.0,
-                        "pan": 0.0
-                    },
-                    "bypassed": false,
-                    "preset": ""
-                },
-                "bolliedelay": {
-                    "parameters": {},
-                    "ports": {
-                        "crossf": 20.0,
-                        "tempo_host": 120.0,
-                        "tempo_user": 120.0,
-                        "low_on": 1.0,
-                        "feedback": 69.0,
-                        "low_q": 1.0,
-                        "high_f": 7500.0,
-                        "low_f": 20.0,
-                        "high_on": 1.0,
-                        "div_r": 3.0,
-                        "mix": 42.5,
-                        "high_q": 1.0,
-                        "tempo_mode": 0.0,
-                        "div_l": 2.0,
-                        "tap": 0.0
-                    },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "triple_chorus": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "mod_amp_2": 0.89999997615814209,
                         "mod_amp_1": 3.75,
-                        "delay": 22.5,
+                        "mod_amp_2": 0.89999997615814209,
                         "mod_freq_1": 0.10000000149011612,
+                        "delay": 22.5,
                         "mod_freq_2": 0.55000001192092896
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 }
             }
         },
         {
             "name": "Driven Delay",
             "data": {
-                "_CreamMachine_": {
+                "xfade": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "BASS": 0.5,
-                        "VOLUME": 0.29999999999999999,
-                        "BYPASS": 1.0,
-                        "LEVEL": 0.17000000000000001,
-                        "TREBLE": 0.5
+                        "xfade": 0.5,
+                        "mode": 0.0,
+                        "shape": 0.0
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": true
+                },
+                "bolliedelay": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "high_q": 1.0,
+                        "high_on": 1.0,
+                        "crossf": 20.0,
+                        "tempo_host": 120.0,
+                        "div_l": 2.0,
+                        "low_f": 20.0,
+                        "tempo_user": 120.0,
+                        "mix": 42.5,
+                        "div_r": 3.0,
+                        "high_f": 7500.0,
+                        "tempo_mode": 0.0,
+                        "feedback": 69.0,
+                        "tap": 0.0,
+                        "low_q": 1.0,
+                        "low_on": 1.0
+                    },
+                    "bypassed": false
                 },
                 "Gain2x2": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "Gain": -3.0
+                        "Gain": -1.25
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
-                "studiopre": {
+                "PlateX2": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "bass": 0.5,
-                        "volume": 5.0,
-                        "bright": 0.0,
-                        "middle": 0.5,
-                        "treble": 0.5
+                        "bandwidth": 0.85000002384185791,
+                        "damping": 0.25334799289703369,
+                        "blend": 0.20999999344348907,
+                        "tail": 0.34000000357627869
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "_bajatubedriver_": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "VOLUME": 0.34000000357627869,
                         "BYPASS": 1.0,
                         "DRIVE": 0.34000000357627869,
-                        "TONE": 0.5
+                        "TONE": 0.5,
+                        "VOLUME": 0.16
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
-                "xfade": {
+                "Wider": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "xfade": 0.5,
-                        "shape": 0.0,
-                        "mode": 0.0
+                        "pan": 0.0,
+                        "width": 0.0
                     },
-                    "bypassed": true,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "faIR_cabsim": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
                         "Attenuation": -4.0,
                         "Model": 0.0
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
-                "PlateX2": {
+                "Mutant": {
                     "parameters": {},
+                    "preset": "file:///root/.lv2/mutant.lv2/1_Neutral-Clean",
                     "ports": {
-                        "damping": 0.25334799289703369,
-                        "blend": 0.20999999999999999,
-                        "bandwidth": 0.84999999999999998,
-                        "tail": 0.34000000000000002
+                        "DriveVolume": 25.0,
+                        "Depth": 45.0,
+                        "Pregain": 40.0,
+                        "Volume": 90.0,
+                        "Postgain": 65.0,
+                        "Drive": 0.0,
+                        "Drivegain": 25.0,
+                        "Presence": 65.0,
+                        "Bass": 50.0,
+                        "Mid": 50.0,
+                        "Treble": 50.0
                     },
-                    "bypassed": false,
-                    "preset": ""
-                },
-                "Wider": {
-                    "parameters": {},
-                    "ports": {
-                        "width": 0.0,
-                        "pan": 0.0
-                    },
-                    "bypassed": false,
-                    "preset": ""
-                },
-                "bolliedelay": {
-                    "parameters": {},
-                    "ports": {
-                        "crossf": 20.0,
-                        "tempo_host": 120.0,
-                        "tempo_user": 120.0,
-                        "low_on": 1.0,
-                        "feedback": 69.0,
-                        "low_q": 1.0,
-                        "high_f": 7500.0,
-                        "low_f": 20.0,
-                        "high_on": 1.0,
-                        "div_r": 3.0,
-                        "mix": 42.5,
-                        "high_q": 1.0,
-                        "tempo_mode": 0.0,
-                        "div_l": 2.0,
-                        "tap": 0.0
-                    },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 },
                 "triple_chorus": {
                     "parameters": {},
+                    "preset": "",
                     "ports": {
-                        "mod_amp_2": 0.89999997615814209,
                         "mod_amp_1": 3.75,
-                        "delay": 22.5,
+                        "mod_amp_2": 0.89999997615814209,
                         "mod_freq_1": 0.10000000149011612,
+                        "delay": 22.5,
                         "mod_freq_2": 0.55000001192092896
                     },
-                    "bypassed": false,
-                    "preset": ""
+                    "bypassed": false
                 }
             }
         }

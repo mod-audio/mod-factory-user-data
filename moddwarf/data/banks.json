@@ -1,111 +1,5 @@
 [
     {
-        "title": "CHAINS:Guitar Rigs",
-        "pedalboards": [
-            {
-                "title": "GRIG:Gnarly",
-                "bundle": "/root/.pedalboards/GRIG_Gnarly.pedalboard"
-            },
-            {
-                "title": "GRIG:Mean.Mud",
-                "bundle": "/root/.pedalboards/GRIG_Mean_Mud.pedalboard"
-            },
-            {
-                "title": "GRIG:Fuzzy.60s",
-                "bundle": "/root/.pedalboards/GRIG_Fuzzy_60s.pedalboard"
-            },
-            {
-                "title": "GRIG:Swirly.70s",
-                "bundle": "/root/.pedalboards/GRIG_Swirly_70s.pedalboard"
-            },
-            {
-                "title": "GRIG:Lush.80s",
-                "bundle": "/root/.pedalboards/GRIG_Lush_80s.pedalboard"
-            },
-            {
-                "title": "GRIG:Loris.Jazz",
-                "bundle": "/root/.pedalboards/GRIG_Loris_Jazz.pedalboard"
-            },
-            {
-                "title": "GRIG:Birdssen.WDW",
-                "bundle": "/root/.pedalboards/GRIG_Birdssen_WD.pedalboard"
-            },
-            {
-                "title": "GRIG:Alembic",
-                "bundle": "/root/.pedalboards/GRIG_Alembic.pedalboard"
-            },
-            {
-                "title": "GRIG:Supersonic",
-                "bundle": "/root/.pedalboards/GRIG_Supersonic.pedalboard"
-            },
-            {
-                "title": "GRIG:Onyx",
-                "bundle": "/root/.pedalboards/GRIG_Onyx.pedalboard"
-            },
-            {
-                "title": "GRIG:Stupendo",
-                "bundle": "/root/.pedalboards/GRIG_Stupendo.pedalboard"
-            },
-            {
-                "title": "GRIG:Remaincalm",
-                "bundle": "/root/.pedalboards/GRIG_Remaincalm.pedalboard"
-            },
-            {
-                "title": "GRIG:Vntg.Shiro",
-                "bundle": "/root/.pedalboards/GRIG_Vntg_Shiro.pedalboard"
-            },
-            {
-                "title": "GRIG:OverToneDSP",
-                "bundle": "/root/.pedalboards/GRIG_OverToneDSP.pedalboard"
-            },
-            {
-                "title": "GRIG:LoFi.Kingdom",
-                "bundle": "/root/.pedalboards/GRIG_LoFi_Kingdo.pedalboard"
-            },
-            {
-                "title": "GRIG:Jesse.Ambient",
-                "bundle": "/root/.pedalboards/GRIG_Jesse_Ambie.pedalboard"
-            },
-            {
-                "title": "GRIG:Elec.Timmons",
-                "bundle": "/root/.pedalboards/GRIG_Elec_Timmon.pedalboard"
-            },
-            {
-                "title": "GRIG:Bata.Backing",
-                "bundle": "/root/.pedalboards/GRIG_Bata_Backin.pedalboard"
-            }
-        ]
-    },
-    {
-        "title": "CHAINS:Guitar Combos",
-        "pedalboards": [
-            {
-                "title": "COMBO:Vntg.California",
-                "bundle": "/root/.pedalboards/COMBO_Vntg_Calif.pedalboard"
-            },
-            {
-                "title": "COMBO:Vntg.Clean",
-                "bundle": "/root/.pedalboards/COMBO_Vntg_Clean.pedalboard"
-            },
-            {
-                "title": "COMBO:Vntg.Crunch",
-                "bundle": "/root/.pedalboards/COMBO_Vntg_Crunc.pedalboard"
-            },
-            {
-                "title": "COMBO:3-Chan.TubeAmp",
-                "bundle": "/root/.pedalboards/COMBO_3_Chan_Tub.pedalboard"
-            },
-            {
-                "title": "COMBO:Mdrn.Crunch",
-                "bundle": "/root/.pedalboards/COMBO_Mdrn_Crunc.pedalboard"
-            },
-            {
-                "title": "COMBO:Mdrn.HiGain",
-                "bundle": "/root/.pedalboards/COMBO_Mdrn_HiGai.pedalboard"
-            }
-        ]
-    },
-    {
         "title": "CHAINS:Guitar FX",
         "pedalboards": [
             {
@@ -119,10 +13,6 @@
             {
                 "title": "GTFX:Lush.80s",
                 "bundle": "/root/.pedalboards/GTFX_Lush_80s.pedalboard"
-            },
-            {
-                "title": "GTFX:OverToneDSP",
-                "bundle": "/root/.pedalboards/GTFX_OverToneDSP.pedalboard"
             },
             {
                 "title": "GTFX:Shiro",
@@ -215,6 +105,120 @@
         ]
     },
     {
+        "title": "CHAINS:Guitar Synth",
+        "pedalboards": [
+            {
+                "title": "GSYNTH:Bass",
+                "bundle": "/root/.pedalboards/GSYNTH_Bass.pedalboard"
+            },
+            {
+                "title": "GSYNTH:Lead",
+                "bundle": "/root/.pedalboards/GSYNTH_Lead.pedalboard"
+            },
+            {
+                "title": "GSYNTH:Chords",
+                "bundle": "/root/.pedalboards/GSYNTH_Chords-22439.pedalboard"
+            },
+            {
+                "title": "GSYNTH:Guitar Mix",
+                "bundle": "/root/.pedalboards/GSYNTH_Guitar_Mi.pedalboard"
+            },
+            {
+                "title": "GSYNTH:Flexible",
+                "bundle": "/root/.pedalboards/GSYNTH_Flexible.pedalboard"
+            },
+            {
+                "title": "GSYNTH:Minimal",
+                "bundle": "/root/.pedalboards/GSYNTH_Minimal.pedalboard"
+            }
+        ]
+    },
+    {
+        "title": "CHAINS:Guitar Rigs",
+        "pedalboards": [
+            {
+                "title": "GRIG:Vntg.Mutant",
+                "bundle": "/root/.pedalboards/GRIG_Vntg_Mutant.pedalboard"
+            },
+            {
+                "title": "GRIG:Vntg.Supersonic",
+                "bundle": "/root/.pedalboards/GRIG_Vntg_Supers.pedalboard"
+            },
+            {
+                "title": "GRIG:Vntg.Alembic",
+                "bundle": "/root/.pedalboards/GRIG_Vntg_Alembi.pedalboard"
+            },
+            {
+                "title": "GRIG:Mdrn.Mutant",
+                "bundle": "/root/.pedalboards/GRIG_Mdrn_Mutant.pedalboard"
+            },
+            {
+                "title": "GRIG:Mdrn.Supersonic",
+                "bundle": "/root/.pedalboards/GRIG_Mdrn_Supers.pedalboard"
+            },
+            {
+                "title": "GRIG:Mdrn.Alembic",
+                "bundle": "/root/.pedalboards/GRIG_Mdrn_Alembi.pedalboard"
+            },
+            {
+                "title": "GRIG:Fuzzy.60s",
+                "bundle": "/root/.pedalboards/GRIG_Fuzzy_60s.pedalboard"
+            },
+            {
+                "title": "GRIG:Swirly.70s",
+                "bundle": "/root/.pedalboards/GRIG_Swirly_70s.pedalboard"
+            },
+            {
+                "title": "GRIG:Lush.80s",
+                "bundle": "/root/.pedalboards/GRIG_Lush_80s.pedalboard"
+            },
+            {
+                "title": "GRIG:Vntg.Subdriver",
+                "bundle": "/root/.pedalboards/GRIG_Vntg_Subdri.pedalboard"
+            },
+            {
+                "title": "GRIG:Vntg.Shiro",
+                "bundle": "/root/.pedalboards/GRIG_Vntg_Shiro.pedalboard"
+            },
+            {
+                "title": "GRIG:Remaincalm",
+                "bundle": "/root/.pedalboards/GRIG_Remaincalm.pedalboard"
+            },
+            {
+                "title": "GRIG:Squacky.Clean",
+                "bundle": "/root/.pedalboards/GRIG_Squacky_Cle.pedalboard"
+            },
+            {
+                "title": "GRIG:Gnarly",
+                "bundle": "/root/.pedalboards/GRIG_Gnarly.pedalboard"
+            },
+            {
+                "title": "GRIG:LoFi.Kingdom",
+                "bundle": "/root/.pedalboards/GRIG_LoFi_Kingdo.pedalboard"
+            },
+            {
+                "title": "GRIG:Stupendo",
+                "bundle": "/root/.pedalboards/GRIG_Stupendo.pedalboard"
+            },
+            {
+                "title": "GRIG:Elec.Timmons",
+                "bundle": "/root/.pedalboards/GRIG_Elec_Timmon.pedalboard"
+            },
+            {
+                "title": "GRIG:Jesse.Ambient",
+                "bundle": "/root/.pedalboards/GRIG_Jesse_Ambie.pedalboard"
+            },
+            {
+                "title": "GRIG:Loris.Jazz",
+                "bundle": "/root/.pedalboards/GRIG_Loris_Jazz.pedalboard"
+            },
+            {
+                "title": "GRIG:Bata.Backing",
+                "bundle": "/root/.pedalboards/GRIG_Bata_Backin.pedalboard"
+            }
+        ]
+    },
+    {
         "title": "PLUGINS:DLY.MOD.REV",
         "pedalboards": [
             {
@@ -250,10 +254,6 @@
                 "bundle": "/root/.pedalboards/P_DLY_Stuck.pedalboard"
             },
             {
-                "title": "P.MOD:CR-1",
-                "bundle": "/root/.pedalboards/P_MOD_CR_1.pedalboard"
-            },
-            {
                 "title": "P.MOD:CalfFlanger",
                 "bundle": "/root/.pedalboards/P_MOD_CalfFlange.pedalboard"
             },
@@ -272,10 +272,6 @@
             {
                 "title": "P.MOD:Larynx",
                 "bundle": "/root/.pedalboards/P_MOD_Larynx.pedalboard"
-            },
-            {
-                "title": "P.MOD:PH-1",
-                "bundle": "/root/.pedalboards/P_MOD_PH_1.pedalboard"
             },
             {
                 "title": "P.MOD:Ringmod",
@@ -333,10 +329,6 @@
             {
                 "title": "P.DST:DS1",
                 "bundle": "/root/.pedalboards/P_DST_DS1.pedalboard"
-            },
-            {
-                "title": "P.DST:DT-1",
-                "bundle": "/root/.pedalboards/P_DST_DT_1.pedalboard"
             },
             {
                 "title": "P.DST:Hip2B",
@@ -417,10 +409,6 @@
             {
                 "title": "P.FLT:Mud",
                 "bundle": "/root/.pedalboards/P_FLT_Mud.pedalboard"
-            },
-            {
-                "title": "P.FLT:Wah-1",
-                "bundle": "/root/.pedalboards/P_FLT_Wah_1.pedalboard"
             }
         ]
     },
@@ -501,36 +489,20 @@
                 "bundle": "/root/.pedalboards/P_SIM_TubeWarmth.pedalboard"
             },
             {
-                "title": "P.AMP:Alem+Cream",
-                "bundle": "/root/.pedalboards/P_AMP_Alem_Cream.pedalboard"
+                "title": "P.AMP:Mutant",
+                "bundle": "/root/.pedalboards/P_AMP_Mutant.pedalboard"
+            },
+            {
+                "title": "P.AMP:SuperSonic",
+                "bundle": "/root/.pedalboards/P_AMP_SuperSonic.pedalboard"
             },
             {
                 "title": "P.AMP:Alembic",
                 "bundle": "/root/.pedalboards/P_AMP_Alembic.pedalboard"
             },
             {
-                "title": "P.AMP:AmpVTS",
-                "bundle": "/root/.pedalboards/P_AMP_AmpVTS.pedalboard"
-            },
-            {
-                "title": "P.AMP:CreamMachine",
-                "bundle": "/root/.pedalboards/P_AMP_CreamMachi.pedalboard"
-            },
-            {
-                "title": "P.AMP:GxAmp",
-                "bundle": "/root/.pedalboards/P_AMP_GxAmp.pedalboard"
-            },
-            {
                 "title": "P.AMP:GxSVT",
                 "bundle": "/root/.pedalboards/P_AMP_GxSVT.pedalboard"
-            },
-            {
-                "title": "P.AMP:Onyx",
-                "bundle": "/root/.pedalboards/P_AMP_Onyx.pedalboard"
-            },
-            {
-                "title": "P.AMP:SuperSonic",
-                "bundle": "/root/.pedalboards/P_AMP_SuperSonic.pedalboard"
             },
             {
                 "title": "P.CAB:FA.ModernRock",
@@ -558,18 +530,34 @@
                 "bundle": "/root/.pedalboards/BRIG_SVTube.pedalboard"
             },
             {
-                "title": "BRIG:Direct.Shim",
-                "bundle": "/root/.pedalboards/BRIG_Direct_Shim.pedalboard"
+                "title": "BRIG:Supersonic",
+                "bundle": "/root/.pedalboards/BRIG_Supersonic.pedalboard"
             },
             {
-                "title": "BRIG:Mean.Mud",
-                "bundle": "/root/.pedalboards/BRIG_Mean_Mud-67762.pedalboard"
+                "title": "BRIG:Alembic",
+                "bundle": "/root/.pedalboards/BRIG_Alembic.pedalboard"
+            },
+            {
+                "title": "BRIG:Comp.Sub.SVT",
+                "bundle": "/root/.pedalboards/BRIG_Comp_Sub_SV.pedalboard"
+            },
+            {
+                "title": "BRIG:Direct.Shim",
+                "bundle": "/root/.pedalboards/BRIG_Direct_Shim.pedalboard"
             }
         ]
     },
     {
         "title": "CHAINS:Electronic Rigs",
         "pedalboards": [
+            {
+                "title": "ERIG:Basic.MFX1",
+                "bundle": "/root/.pedalboards/ERIG_Basic_MFX1.pedalboard"
+            },
+            {
+                "title": "ERIG:Basic.MFX2",
+                "bundle": "/root/.pedalboards/ERIG_Basic_MFX2.pedalboard"
+            },
             {
                 "title": "ERIG:Birdssen",
                 "bundle": "/root/.pedalboards/ERIG_Birdssen.pedalboard"
@@ -614,28 +602,28 @@
         "title": "INSTRUMENTS:MIDI",
         "pedalboards": [
             {
-                "title": "INST:AMSynth",
-                "bundle": "/root/.pedalboards/INST_AMSynth.pedalboard"
+                "title": "INST:EPiano",
+                "bundle": "/root/.pedalboards/INST_EPiano.pedalboard"
             },
             {
                 "title": "INST:DX10",
                 "bundle": "/root/.pedalboards/INST_DX10.pedalboard"
             },
             {
-                "title": "INST:EPiano",
-                "bundle": "/root/.pedalboards/INST_EPiano.pedalboard"
-            },
-            {
                 "title": "INST:JX10",
                 "bundle": "/root/.pedalboards/INST_JX10.pedalboard"
             },
             {
-                "title": "INST:Karplus",
-                "bundle": "/root/.pedalboards/INST_Karplus.pedalboard"
+                "title": "INST:AMSynth",
+                "bundle": "/root/.pedalboards/INST_AMSynth.pedalboard"
             },
             {
                 "title": "INST:Nekobi",
                 "bundle": "/root/.pedalboards/INST_Nekobi.pedalboard"
+            },
+            {
+                "title": "INST:Karplus",
+                "bundle": "/root/.pedalboards/INST_Karplus.pedalboard"
             }
         ]
     }

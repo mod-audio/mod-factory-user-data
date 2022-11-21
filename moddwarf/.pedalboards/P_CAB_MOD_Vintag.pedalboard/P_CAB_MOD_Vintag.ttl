@@ -8,64 +8,64 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <xfade_1/out_left> ;
-    ingen:head <playback_1> .
-
-_:b2
-    ingen:tail <xfade/out_right> ;
-    ingen:head <Gain/In> .
-
-_:b3
-    ingen:tail <xfade_1/out_right> ;
-    ingen:head <playback_2> .
-
-_:b4
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <xfade_1/inB_left> .
-
-_:b5
-    ingen:tail <xfade/out_left> ;
-    ingen:head <Gain/In> .
-
-_:b6
-    ingen:tail <xfade/out_right> ;
-    ingen:head <xfade_1/inA_right> .
-
-_:b7
-    ingen:tail <cabsim_vintage/Out> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b8
-    ingen:tail <cabsim_vintage/Out> ;
-    ingen:head <Gain2x2/In1> .
-
-_:b9
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <xfade_1/inB_right> .
-
-_:b10
-    ingen:tail <xfade/out_left> ;
-    ingen:head <xfade_1/inA_left> .
-
-_:b11
     ingen:tail <capture_1> ;
     ingen:head <xfade/inA_left> .
 
-_:b12
-    ingen:tail <capture_2> ;
-    ingen:head <xfade/inB_right> .
+_:b2
+    ingen:tail <xfade_1/out_right> ;
+    ingen:head <playback_2> .
 
-_:b13
+_:b3
+    ingen:tail <cabsim_vintage/Out> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b4
     ingen:tail <Gain/Out> ;
     ingen:head <cabsim_vintage/In> .
 
-_:b14
+_:b5
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <xfade_1/inB_right> .
+
+_:b6
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_right> .
+
+_:b7
+    ingen:tail <xfade/out_left> ;
+    ingen:head <xfade_1/inA_left> .
+
+_:b8
     ingen:tail <capture_1> ;
     ingen:head <xfade/inB_left> .
 
+_:b9
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <xfade_1/inB_left> .
+
+_:b10
+    ingen:tail <xfade/out_right> ;
+    ingen:head <xfade_1/inA_right> .
+
+_:b11
+    ingen:tail <capture_2> ;
+    ingen:head <xfade/inB_right> .
+
+_:b12
+    ingen:tail <xfade/out_right> ;
+    ingen:head <Gain/In> .
+
+_:b13
+    ingen:tail <xfade/out_left> ;
+    ingen:head <Gain/In> .
+
+_:b14
+    ingen:tail <cabsim_vintage/Out> ;
+    ingen:head <Gain2x2/In2> .
+
 _:b15
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_right> .
+    ingen:tail <xfade_1/out_left> ;
+    ingen:head <playback_1> .
 
 <Gain2x2>
     ingen:canvasX 2994.0 ;
@@ -75,7 +75,7 @@ _:b15
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2/In1> ,
              <Gain2x2/In2> ,
              <Gain2x2/Out1> ,
@@ -273,7 +273,7 @@ _:b15
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain/In> ,
              <Gain/Out> ,
              <Gain/Gain> ,
@@ -309,11 +309,12 @@ _:b15
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 9 ;
+    mod:releaseNumber 11 ;
     lv2:port <cabsim_vintage/In> ,
              <cabsim_vintage/Out> ,
              <cabsim_vintage/Attenuation> ,
              <cabsim_vintage/Model> ,
+             <cabsim_vintage/Fidelity> ,
              <cabsim_vintage/:bypass> ;
     lv2:prototype <http://moddevices.com/plugins/mod-devel/cabsim-vintage> ;
     pedal:instanceNumber 7 ;
@@ -335,6 +336,11 @@ _:b15
 
 <cabsim_vintage/Model>
     ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<cabsim_vintage/Fidelity>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -452,11 +458,11 @@ _:b15
     pedal:unitName "MOD Dwarf" ;
     pedal:unitModel "dwarf:aarch64-a35" ;
     pedal:width 3840 ;
-    pedal:height 1838 ;
+    pedal:height 1756 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 9 ;
+    pedal:version 11 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,

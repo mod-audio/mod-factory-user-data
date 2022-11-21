@@ -1,0 +1,113 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "Gain_1": {
+                    "bypassed": true,
+                    "ports": {
+                        "Gain": 6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "studiopre": {
+                    "bypassed": false,
+                    "ports": {
+                        "middle": 0.5,
+                        "volume": 2.6086956521739131,
+                        "bright": 0.0,
+                        "bass": 0.5,
+                        "treble": 0.5
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "cabsim_bass": {
+                    "bypassed": false,
+                    "ports": {
+                        "Fidelity": 1.0,
+                        "Model": 0.0,
+                        "MicPos": 0.0,
+                        "Attenuation": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "_supersonic_": {
+                    "bypassed": false,
+                    "ports": {
+                        "VOLUME": 0.18840579710144928,
+                        "TREBLE": 0.46618357487922713,
+                        "GAIN": 0.072463768115942032,
+                        "BASS": 0.47826086956521741,
+                        "BYPASS": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "Gain2x2_1": {
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "xfade": {
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                },
+                "_ampegsvt_": {
+                    "bypassed": false,
+                    "ports": {
+                        "BASS": 0.5,
+                        "MIDDLE": 0.5,
+                        "HIGHSWITCH": 0.0,
+                        "LOWSWITCH": 1.0,
+                        "TREBLE": 0.5,
+                        "MIDSWITCH": 1.0,
+                        "VOLUME": 0.20000000298023224,
+                        "CABSWITCH": 0.0,
+                        "BYPASS": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {}
+                }
+            }
+        }
+    ]
+}

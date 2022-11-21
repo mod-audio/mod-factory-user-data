@@ -1,0 +1,167 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "dragonfly_reverb": {
+                    "preset": "file:///root/.lv2/DragonflyHallReverb.lv2/p03_Dark_Room.ttl",
+                    "parameters": {},
+                    "ports": {
+                        "early_level": 25.0,
+                        "delay": 4.0,
+                        "size": 10.0,
+                        "early_send": 20.0,
+                        "high_cut": 7600.0,
+                        "decay": 0.69999998807907104,
+                        "high_mult": 0.34999999403953552,
+                        "modulation": 30.0,
+                        "low_mult": 1.2000000476837158,
+                        "dry_level": 80.0,
+                        "diffuse": 50.0,
+                        "low_xo": 500.0,
+                        "wander": 25.0,
+                        "spin": 1.0,
+                        "high_xo": 4900.0,
+                        "late_level": 50.0,
+                        "width": 90.0,
+                        "low_cut": 4.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "mod_cv_control": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 1.0
+                    },
+                    "bypassed": true
+                },
+                "Mutant": {
+                    "preset": "file:///root/.lv2/mutant.lv2/1_Neutral-Clean",
+                    "parameters": {},
+                    "ports": {
+                        "Treble": 50.0,
+                        "Pregain": 30.0,
+                        "Volume": 93.75,
+                        "Bass": 50.0,
+                        "Drive": 0.0,
+                        "Drivegain": 25.0,
+                        "DriveVolume": 25.0,
+                        "Postgain": 65.0,
+                        "Presence": 65.0,
+                        "Depth": 45.0,
+                        "Mid": 50.0
+                    },
+                    "bypassed": false
+                },
+                "plate": {
+                    "preset": "file:///root/.lv2/DragonflyPlateReverb.lv2/Narrow_Tank.ttl",
+                    "parameters": {},
+                    "ports": {
+                        "early_level": 50.0,
+                        "high_cut": 10000.0,
+                        "algorithm": 2.0,
+                        "predelay": 10.0,
+                        "width": 60.0,
+                        "early_damp": 7000.0,
+                        "decay": 0.60000002384185791,
+                        "dry_level": 0.0,
+                        "low_cut": 50.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "room": {
+                    "preset": "file:///root/.lv2/DragonflyRoomReverb.lv2/p12_Medium_Clear_Room.ttl",
+                    "parameters": {},
+                    "ports": {
+                        "early_level": 25.0,
+                        "spin": 0.80000001192092896,
+                        "size": 12.0,
+                        "early_send": 20.0,
+                        "early_damp": 10000.0,
+                        "late_level": 50.0,
+                        "predelay": 8.0,
+                        "wander": 40.0,
+                        "low_boost": 50.0,
+                        "diffuse": 70.0,
+                        "dry_level": 0.0,
+                        "late_damp": 9400.0,
+                        "in_low_cut": 4.0,
+                        "decay": 0.40000000596046448,
+                        "boost_freq": 600.0,
+                        "width": 100.0,
+                        "in_high_cut": 16000.0
+                    },
+                    "bypassed": false
+                },
+                "Gain_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -3.0
+                    },
+                    "bypassed": false
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "faIR_cabsim": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0
+                    },
+                    "bypassed": false
+                },
+                "studiopre": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "bright": 0.0,
+                        "middle": 0.5,
+                        "treble": 0.5,
+                        "volume": 2.0,
+                        "bass": 0.5
+                    },
+                    "bypassed": false
+                },
+                "mod_volume_2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.30000001192092896,
+                        "Mode": 1.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Default"
+        }
+    ],
+    "current": 0
+}

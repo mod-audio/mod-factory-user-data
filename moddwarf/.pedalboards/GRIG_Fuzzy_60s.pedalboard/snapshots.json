@@ -1,0 +1,431 @@
+{
+    "snapshots": [
+        {
+            "name": "Tremolo",
+            "data": {
+                "_fuzzface_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "LEVEL": 0.80500000000000005,
+                        "FUZZ": 0.80500000000000005
+                    },
+                    "bypassed": true
+                },
+                "tremolo": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "gain": 0.20000000000000001,
+                        "frequency": 4.0,
+                        "depth": 81.5
+                    },
+                    "bypassed": false
+                },
+                "_supersonic_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.38500000000000001,
+                        "TREBLE": 0.5,
+                        "BASS": 0.5,
+                        "VOLUME": 0.23000000000000001
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false
+                },
+                "_cstb_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "LEVEL": 0.85499999999999998,
+                        "ATTACK": 0.76500000000000001,
+                        "WET_DRY": 100.0
+                    },
+                    "bypassed": true
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "roomsize": 10.34375,
+                        "tone": 6000.0,
+                        "decay": 18.149999999999999,
+                        "mix": 28.0,
+                        "shimmer": 0.0,
+                        "bandwidth": 27.79017857142858,
+                        "ratio": 1.0,
+                        "damping": 43.75
+                    },
+                    "bypassed": false
+                }
+            }
+        },
+        {
+            "name": "Mild Fuzz",
+            "data": {
+                "_fuzzface_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "LEVEL": 0.80500000000000005,
+                        "FUZZ": 0.80500000000000005
+                    },
+                    "bypassed": true
+                },
+                "tremolo": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "gain": 0.20000000000000001,
+                        "frequency": 4.0,
+                        "depth": 81.5
+                    },
+                    "bypassed": true
+                },
+                "_supersonic_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.38500000000000001,
+                        "TREBLE": 0.5,
+                        "BASS": 0.5,
+                        "VOLUME": 0.23000000000000001
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false
+                },
+                "_cstb_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "LEVEL": 0.85499999999999998,
+                        "ATTACK": 0.76500000000000001,
+                        "WET_DRY": 100.0
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "roomsize": 10.34375,
+                        "tone": 6000.0,
+                        "decay": 18.149999999999999,
+                        "mix": 28.0,
+                        "shimmer": 0.0,
+                        "bandwidth": 27.79017857142858,
+                        "ratio": 1.0,
+                        "damping": 43.75
+                    },
+                    "bypassed": false
+                }
+            }
+        },
+        {
+            "name": "Fuzz",
+            "data": {
+                "_fuzzface_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "LEVEL": 0.80500000000000005,
+                        "FUZZ": 0.80500000000000005
+                    },
+                    "bypassed": false
+                },
+                "tremolo": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "gain": 0.20000000000000001,
+                        "frequency": 4.0,
+                        "depth": 81.5
+                    },
+                    "bypassed": true
+                },
+                "_supersonic_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.38500000000000001,
+                        "TREBLE": 0.5,
+                        "BASS": 0.5,
+                        "VOLUME": 0.23000000000000001
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false
+                },
+                "_cstb_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "LEVEL": 0.85499999999999998,
+                        "ATTACK": 0.76500000000000001,
+                        "WET_DRY": 100.0
+                    },
+                    "bypassed": true
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "roomsize": 10.34375,
+                        "tone": 6000.0,
+                        "decay": 18.149999999999999,
+                        "mix": 28.0,
+                        "shimmer": 0.0,
+                        "bandwidth": 27.79017857142858,
+                        "ratio": 1.0,
+                        "damping": 43.75
+                    },
+                    "bypassed": false
+                }
+            }
+        },
+        {
+            "name": "Stacked Fuzz",
+            "data": {
+                "_fuzzface_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "LEVEL": 0.80500000000000005,
+                        "FUZZ": 0.80500000000000005
+                    },
+                    "bypassed": false
+                },
+                "tremolo": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "gain": 0.20000000000000001,
+                        "frequency": 4.0,
+                        "depth": 81.5
+                    },
+                    "bypassed": true
+                },
+                "_supersonic_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.38500000000000001,
+                        "TREBLE": 0.5,
+                        "BASS": 0.5,
+                        "VOLUME": 0.23000000000000001
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false
+                },
+                "_cstb_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "LEVEL": 0.85499999999999998,
+                        "ATTACK": 0.76500000000000001,
+                        "WET_DRY": 100.0
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "roomsize": 10.34375,
+                        "tone": 6000.0,
+                        "decay": 18.149999999999999,
+                        "mix": 28.0,
+                        "shimmer": 0.0,
+                        "bandwidth": 27.79017857142858,
+                        "ratio": 1.0,
+                        "damping": 43.75
+                    },
+                    "bypassed": false
+                }
+            }
+        },
+        {
+            "name": "Trem Fuzz",
+            "data": {
+                "_fuzzface_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "LEVEL": 0.80500000000000005,
+                        "FUZZ": 0.80500000000000005
+                    },
+                    "bypassed": false
+                },
+                "tremolo": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "gain": 0.20000000000000001,
+                        "frequency": 4.0,
+                        "depth": 81.5
+                    },
+                    "bypassed": false
+                },
+                "_supersonic_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.38500000000000001,
+                        "TREBLE": 0.5,
+                        "BASS": 0.5,
+                        "VOLUME": 0.23000000000000001
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false
+                },
+                "_cstb_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "LEVEL": 0.85499999999999998,
+                        "ATTACK": 0.76500000000000001,
+                        "WET_DRY": 100.0
+                    },
+                    "bypassed": true
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "roomsize": 10.34375,
+                        "tone": 6000.0,
+                        "decay": 18.149999999999999,
+                        "mix": 28.0,
+                        "shimmer": 0.0,
+                        "bandwidth": 27.79017857142858,
+                        "ratio": 1.0,
+                        "damping": 43.75
+                    },
+                    "bypassed": false
+                }
+            }
+        },
+        {
+            "name": "All out",
+            "data": {
+                "_fuzzface_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "LEVEL": 0.80500000000000005,
+                        "FUZZ": 0.80500000000000005
+                    },
+                    "bypassed": false
+                },
+                "tremolo": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "gain": 0.20000000000000001,
+                        "frequency": 4.0,
+                        "depth": 81.5
+                    },
+                    "bypassed": false
+                },
+                "_supersonic_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.38500000000000001,
+                        "TREBLE": 0.5,
+                        "BASS": 0.5,
+                        "VOLUME": 0.23000000000000001
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false
+                },
+                "_cstb_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "LEVEL": 0.85499999999999998,
+                        "ATTACK": 0.76500000000000001,
+                        "WET_DRY": 100.0
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "roomsize": 10.34375,
+                        "tone": 6000.0,
+                        "decay": 18.149999999999999,
+                        "mix": 28.0,
+                        "shimmer": 0.0,
+                        "bandwidth": 27.79017857142858,
+                        "ratio": 1.0,
+                        "damping": 43.75
+                    },
+                    "bypassed": false
+                }
+            }
+        }
+    ],
+    "current": 0
+}

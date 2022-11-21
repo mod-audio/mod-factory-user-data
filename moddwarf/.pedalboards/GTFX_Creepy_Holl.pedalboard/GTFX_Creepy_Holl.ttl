@@ -8,128 +8,128 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_right> .
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <xfade_2/inB_left> .
 
 _:b2
-    ingen:tail <xfade_2/out_right> ;
-    ingen:head <xfade_1/inB_right> .
-
-_:b3
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <xfade_2/inB_right> .
-
-_:b4
-    ingen:tail <Gain/Out> ;
-    ingen:head <floaty/lv2_audio_in_1> .
-
-_:b5
-    ingen:tail <Gain/Out> ;
-    ingen:head <cr1_lv2/input> .
-
-_:b6
-    ingen:tail <xfade/out_right> ;
-    ingen:head <Gain/In> .
-
-_:b7
-    ingen:tail <Granulator/out1> ;
-    ingen:head <Freaktail/in1> .
-
-_:b8
-    ingen:tail <Gain_1/Out> ;
-    ingen:head <xfade_2/inA_left> .
-
-_:b9
-    ingen:tail <cr1_lv2/output> ;
-    ingen:head <Freaktail/in1> .
-
-_:b10
-    ingen:tail <Gain2x2_1/Out2> ;
-    ingen:head <playback_2> .
-
-_:b11
-    ingen:tail <capture_2> ;
-    ingen:head <xfade/inB_right> .
-
-_:b12
-    ingen:tail <Gain_1/Out> ;
-    ingen:head <xfade_2/inA_right> .
-
-_:b13
     ingen:tail <xfade/out_left> ;
     ingen:head <Gain/In> .
 
-_:b14
+_:b3
+    ingen:tail <capture_2> ;
+    ingen:head <xfade/inB_right> .
+
+_:b4
+    ingen:tail <Gain_1/Out> ;
+    ingen:head <xfade_2/inA_right> .
+
+_:b5
+    ingen:tail <Gain/Out> ;
+    ingen:head <floaty/lv2_audio_in_1> .
+
+_:b6
+    ingen:tail <Gain2x2_1/Out2> ;
+    ingen:head <playback_2> .
+
+_:b7
     ingen:tail <xfade_2/out_left> ;
     ingen:head <xfade_1/inB_left> .
 
+_:b8
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <xfade_2/inB_right> .
+
+_:b9
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_right> .
+
+_:b10
+    ingen:tail <xfade/out_left> ;
+    ingen:head <xfade_1/inA_left> .
+
+_:b11
+    ingen:tail <xfade_1/out_right> ;
+    ingen:head <Gain2x2_1/In2> .
+
+_:b12
+    ingen:tail <Freaktail/out0> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b13
+    ingen:tail <Granulator/out0> ;
+    ingen:head <Freaktail/in0> .
+
+_:b14
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <Gain_1/In> .
+
 _:b15
-    ingen:tail <xfade/out_right> ;
-    ingen:head <xfade_1/inA_right> .
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_left> .
 
 _:b16
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inB_left> .
+    ingen:tail <Gain2x2_1/Out1> ;
+    ingen:head <playback_1> .
 
 _:b17
-    ingen:tail <Freaktail/out1> ;
-    ingen:head <Gain2x2/In2> .
+    ingen:tail <xfade_1/out_left> ;
+    ingen:head <Gain2x2_1/In1> .
 
 _:b18
     ingen:tail <floaty/lv2_audio_out_1> ;
     ingen:head <Granulator/in0> .
 
 _:b19
+    ingen:tail <Freaktail/out1> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b20
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inB_left> .
+
+_:b21
+    ingen:tail <xfade/out_right> ;
+    ingen:head <xfade_1/inA_right> .
+
+_:b22
     ingen:tail <Gain2x2/Out2> ;
     ingen:head <Gain_1/In> .
 
-_:b20
-    ingen:tail <Gain/Out> ;
-    ingen:head <Freaktail/in1> .
-
-_:b21
+_:b23
     ingen:tail <floaty/lv2_audio_out_1> ;
     ingen:head <Freaktail/in0> .
 
-_:b22
-    ingen:tail <Granulator/out0> ;
-    ingen:head <Freaktail/in0> .
-
-_:b23
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <xfade_2/inB_left> .
-
 _:b24
-    ingen:tail <xfade_1/out_left> ;
-    ingen:head <Gain2x2_1/In1> .
+    ingen:tail <Gain/Out> ;
+    ingen:head <Freaktail/in1> .
 
 _:b25
-    ingen:tail <xfade_1/out_right> ;
-    ingen:head <Gain2x2_1/In2> .
+    ingen:tail <xfade_2/out_right> ;
+    ingen:head <xfade_1/inB_right> .
 
 _:b26
-    ingen:tail <Gain2x2_1/Out1> ;
-    ingen:head <playback_1> .
+    ingen:tail <xfade/out_right> ;
+    ingen:head <Gain/In> .
 
 _:b27
-    ingen:tail <cr1_lv2/output> ;
-    ingen:head <Granulator/in1> .
+    ingen:tail <Granulator/out1> ;
+    ingen:head <Freaktail/in1> .
 
 _:b28
-    ingen:tail <Freaktail/out0> ;
-    ingen:head <Gain2x2/In1> .
+    ingen:tail <Gain_1/Out> ;
+    ingen:head <xfade_2/inA_left> .
 
 _:b29
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <Gain_1/In> .
+    ingen:tail <chorusflanger/OutputL> ;
+    ingen:head <Granulator/in1> .
 
 _:b30
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_left> .
+    ingen:tail <chorusflanger/OutputL> ;
+    ingen:head <Freaktail/in1> .
 
 _:b31
-    ingen:tail <xfade/out_left> ;
-    ingen:head <xfade_1/inA_left> .
+    ingen:tail <Gain/Out> ;
+    ingen:head <chorusflanger/InputL> .
 
 <Gain2x2>
     ingen:canvasX 2807.0 ;
@@ -139,7 +139,7 @@ _:b31
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2/In1> ,
              <Gain2x2/In2> ,
              <Gain2x2/Out1> ,
@@ -177,112 +177,6 @@ _:b31
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Granulator>
-    ingen:canvasX 1786.0 ;
-    ingen:canvasY 666.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 1 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
-    lv2:port <Granulator/in0> ,
-             <Granulator/in1> ,
-             <Granulator/out0> ,
-             <Granulator/out1> ,
-             <Granulator/delay_length> ,
-             <Granulator/grain_density> ,
-             <Granulator/grain_length> ,
-             <Granulator/mix> ,
-             <Granulator/:bypass> ;
-    lv2:prototype <http://faust-lv2.googlecode.com/Granulator> ;
-    pedal:instanceNumber 11 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<Granulator/in0>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Granulator/in1>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Granulator/in0>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Granulator/in1>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Granulator/delay_length>
-    ingen:value 5.398438 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Granulator/mix>
-    ingen:value 0.390625 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Granulator/grain_length>
-    ingen:value 0.323906 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Granulator/grain_density>
-    ingen:value 9.875000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Granulator/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<cr1_lv2>
-    ingen:canvasX 1402.2 ;
-    ingen:canvasY 1096.4 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 1 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 6 ;
-    lv2:port <cr1_lv2/input> ,
-             <cr1_lv2/output> ,
-             <cr1_lv2/speed> ,
-             <cr1_lv2/depth> ,
-             <cr1_lv2/:bypass> ;
-    lv2:prototype <http://overtonedsp.co.uk/lv2/cr1.lv2> ;
-    pedal:instanceNumber 7 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<cr1_lv2/input>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<cr1_lv2/input>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<cr1_lv2/depth>
-    ingen:value 10.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<cr1_lv2/speed>
-    ingen:value 1.570312 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<cr1_lv2/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <floaty>
     ingen:canvasX 1405.1 ;
     ingen:canvasY 367.4 ;
@@ -314,8 +208,8 @@ _:b31
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<floaty/delay>
-    ingen:value 450.497009 ;
+<floaty/warp>
+    ingen:value 98.437500 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -324,13 +218,8 @@ _:b31
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<floaty/rate>
-    ingen:value -0.187500 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<floaty/feedback>
-    ingen:value 18.750000 ;
+<floaty/delay>
+    ingen:value 450.497009 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -339,8 +228,13 @@ _:b31
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<floaty/warp>
-    ingen:value 98.437500 ;
+<floaty/feedback>
+    ingen:value 18.750000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<floaty/rate>
+    ingen:value -0.187500 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -357,7 +251,7 @@ _:b31
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
+    mod:releaseNumber 6 ;
     lv2:port <Freaktail/in0> ,
              <Freaktail/in1> ,
              <Freaktail/out0> ,
@@ -387,13 +281,13 @@ _:b31
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<Freaktail/Tail_level>
-    ingen:value 0.280000 ;
+<Freaktail/Roomsize>
+    ingen:value 1.959219 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Freaktail/Roomsize>
-    ingen:value 1.959219 ;
+<Freaktail/Tail_level>
+    ingen:value 0.280000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -403,6 +297,70 @@ _:b31
         lv2:InputPort .
 
 <Freaktail/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Granulator>
+    ingen:canvasX 1786.0 ;
+    ingen:canvasY 666.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 6 ;
+    lv2:port <Granulator/in0> ,
+             <Granulator/in1> ,
+             <Granulator/out0> ,
+             <Granulator/out1> ,
+             <Granulator/delay_length> ,
+             <Granulator/grain_density> ,
+             <Granulator/grain_length> ,
+             <Granulator/mix> ,
+             <Granulator/:bypass> ;
+    lv2:prototype <http://faust-lv2.googlecode.com/Granulator> ;
+    pedal:instanceNumber 11 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Granulator/in0>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Granulator/in1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Granulator/in0>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Granulator/in1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Granulator/mix>
+    ingen:value 0.390625 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Granulator/grain_length>
+    ingen:value 0.323906 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Granulator/delay_length>
+    ingen:value 5.398438 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Granulator/grain_density>
+    ingen:value 9.875000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Granulator/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -468,13 +426,13 @@ _:b31
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade/mode>
-    ingen:value 0.000000 ;
+<xfade/xfade>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade/xfade>
-    ingen:value 1.000000 ;
+<xfade/mode>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -491,7 +449,7 @@ _:b31
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain/In> ,
              <Gain/Out> ,
              <Gain/Gain> ,
@@ -580,13 +538,13 @@ _:b31
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade_1/mode>
-    ingen:value 0.000000 ;
+<xfade_1/xfade>
+    ingen:value 0.670000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade_1/xfade>
-    ingen:value 0.670000 ;
+<xfade_1/mode>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -603,7 +561,7 @@ _:b31
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2_1/In1> ,
              <Gain2x2_1/In2> ,
              <Gain2x2_1/Out1> ,
@@ -702,13 +660,13 @@ _:b31
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade_2/mode>
-    ingen:value 0.000000 ;
+<xfade_2/xfade>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade_2/xfade>
-    ingen:value 1.000000 ;
+<xfade_2/mode>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -725,7 +683,7 @@ _:b31
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain_1/In> ,
              <Gain_1/Out> ,
              <Gain_1/Gain> ,
@@ -749,6 +707,88 @@ _:b31
         lv2:InputPort .
 
 <Gain_1/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger>
+    ingen:canvasX 1373.4 ;
+    ingen:canvasY 1127.9 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 7 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 11 ;
+    lv2:port <chorusflanger/InputL> ,
+             <chorusflanger/InputR> ,
+             <chorusflanger/OutputL> ,
+             <chorusflanger/OutputR> ,
+             <chorusflanger/Frequency> ,
+             <chorusflanger/LRPhaseShift> ,
+             <chorusflanger/Depth> ,
+             <chorusflanger/Delay> ,
+             <chorusflanger/Contour> ,
+             <chorusflanger/DryLevel> ,
+             <chorusflanger/WetLevel> ,
+             <chorusflanger/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/tap/chorusflanger> ;
+    pedal:instanceNumber 19 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<chorusflanger/InputL>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<chorusflanger/InputR>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<chorusflanger/InputL>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<chorusflanger/InputR>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<chorusflanger/Frequency>
+    ingen:value 1.568080 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/WetLevel>
+    ingen:value -3.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/Delay>
+    ingen:value 25.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/Contour>
+    ingen:value 100.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/Depth>
+    ingen:value 87.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/DryLevel>
+    ingen:value -3.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/LRPhaseShift>
+    ingen:value 90.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<chorusflanger/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -866,7 +906,7 @@ _:b31
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 9 ;
+    pedal:version 11 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -900,16 +940,16 @@ _:b31
               _:b30 ,
               _:b31 ;
     ingen:block <Gain2x2> ,
-                <Granulator> ,
-                <cr1_lv2> ,
                 <floaty> ,
                 <Freaktail> ,
+                <Granulator> ,
                 <xfade> ,
                 <Gain> ,
                 <xfade_1> ,
                 <Gain2x2_1> ,
                 <xfade_2> ,
-                <Gain_1> ;
+                <Gain_1> ,
+                <chorusflanger> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,

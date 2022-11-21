@@ -1,0 +1,72 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "Gain": {
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "xfade": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": true
+                },
+                "xfade_1": {
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Mutant": {
+                    "ports": {
+                        "Mid": 50.0,
+                        "Volume": 75.0,
+                        "Bass": 50.0,
+                        "Depth": 50.0,
+                        "Presence": 100.0,
+                        "Pregain": 60.0,
+                        "Drivegain": 30.0,
+                        "Treble": 50.0,
+                        "Drive": 0.0,
+                        "DriveVolume": 25.0,
+                        "Postgain": 90.0
+                    },
+                    "preset": "file:///root/.lv2/mutant.lv2/1_Neutral-Clean",
+                    "parameters": {},
+                    "bypassed": false
+                },
+                "Gain2x2_1": {
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "parameters": {},
+                    "bypassed": false
+                }
+            },
+            "name": "Default"
+        }
+    ],
+    "current": 0
+}

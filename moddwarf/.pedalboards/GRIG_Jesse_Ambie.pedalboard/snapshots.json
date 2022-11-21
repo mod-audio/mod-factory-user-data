@@ -2,100 +2,100 @@
     "snapshots": [
         {
             "data": {
-                "xfade_1": {
+                "xfade": {
+                    "parameters": {},
                     "ports": {
-                        "shape": 0.0,
+                        "xfade": 1.0,
                         "mode": 0.0,
-                        "xfade": 1.0
+                        "shape": 0.0
                     },
                     "preset": "",
-                    "parameters": {},
-                    "bypassed": true
-                },
-                "Gain2x2": {
-                    "ports": {
-                        "Gain": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {},
                     "bypassed": false
                 },
                 "Gain2x2_1": {
+                    "parameters": {},
                     "ports": {
                         "Gain": -15.0
                     },
                     "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "Gain": {
-                    "ports": {
-                        "Gain": -6.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "cabsim_vintage": {
-                    "ports": {
-                        "Attenuation": -7.6500000000000004,
-                        "Model": 7.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "studiopre": {
-                    "ports": {
-                        "middle": 0.5,
-                        "volume": 10.0,
-                        "bright": 0.0,
-                        "bass": 0.5,
-                        "treble": 0.5
-                    },
-                    "preset": "",
-                    "parameters": {},
                     "bypassed": false
                 },
                 "Scape_1": {
+                    "parameters": {},
                     "ports": {
-                        "bpm": 120.0,
-                        "divider": 3.0,
-                        "feedback": 0.745,
-                        "dry": 0.75,
                         "tune": 440.0,
-                        "blend": 0.80000001192092896
+                        "bpm": 120.0,
+                        "blend": 0.80000001192092896,
+                        "feedback": 0.745,
+                        "divider": 3.0,
+                        "dry": 0.75
                     },
                     "preset": "",
-                    "parameters": {},
                     "bypassed": false
                 },
                 "Prefreak": {
+                    "parameters": {},
                     "ports": {
                         "Blur": 5.2090001106262207,
                         "Level": 0.375
                     },
                     "preset": "",
-                    "parameters": {},
                     "bypassed": false
                 },
-                "xfade": {
+                "cabsim_vintage": {
+                    "parameters": {},
                     "ports": {
-                        "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 1.0
+                        "Attenuation": -7.6500000000000004,
+                        "Model": 7.0
                     },
                     "preset": "",
-                    "parameters": {},
                     "bypassed": false
                 },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "preset": "",
+                    "bypassed": true
+                },
                 "HighPassFilter": {
+                    "parameters": {},
                     "ports": {
                         "Order": 2.0,
                         "Freq": 328.11801147460938
                     },
                     "preset": "",
+                    "bypassed": false
+                },
+                "studiopre": {
                     "parameters": {},
+                    "ports": {
+                        "bass": 0.5,
+                        "bright": 0.0,
+                        "treble": 0.5,
+                        "volume": 10.0,
+                        "middle": 0.5
+                    },
+                    "preset": "",
+                    "bypassed": false
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "preset": "",
                     "bypassed": false
                 }
             },
@@ -103,303 +103,306 @@
         },
         {
             "data": {
-                "xfade_1": {
+                "xfade": {
+                    "parameters": {},
                     "ports": {
-                        "shape": 0.0,
+                        "xfade": 1.0,
                         "mode": 0.0,
-                        "xfade": 1.0
+                        "shape": 0.0
                     },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": true
+                    "bypassed": false,
+                    "preset": ""
                 },
-                "Gain2x2": {
-                    "ports": {
-                        "Gain": 0.0
-                    },
-                    "preset": "",
+                "Scape_1": {
                     "parameters": {},
-                    "bypassed": false
-                },
-                "Gain2x2_1": {
                     "ports": {
-                        "Gain": -15.0
+                        "tune": 440.0,
+                        "bpm": 120.0,
+                        "blend": 0.80000001192092896,
+                        "feedback": 0.745,
+                        "divider": 3.0,
+                        "dry": 0.75
                     },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "bypassed": true,
+                    "preset": ""
                 },
                 "Gain": {
+                    "parameters": {},
                     "ports": {
                         "Gain": -6.0
                     },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "cabsim_vintage": {
-                    "ports": {
-                        "Attenuation": -7.6500000000000004,
-                        "Model": 7.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "studiopre": {
-                    "ports": {
-                        "middle": 0.5,
-                        "volume": 10.0,
-                        "bright": 0.0,
-                        "bass": 0.5,
-                        "treble": 0.5
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "Scape_1": {
-                    "ports": {
-                        "bpm": 120.0,
-                        "divider": 3.0,
-                        "feedback": 0.745,
-                        "dry": 0.75,
-                        "tune": 440.0,
-                        "blend": 0.80000001192092896
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": true
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "Prefreak": {
+                    "parameters": {},
                     "ports": {
                         "Blur": 5.2090001106262207,
                         "Level": 0.375
                     },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "bypassed": false,
+                    "preset": ""
                 },
-                "xfade": {
-                    "ports": {
-                        "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 1.0
-                    },
-                    "preset": "",
+                "cabsim_vintage": {
                     "parameters": {},
-                    "bypassed": false
+                    "ports": {
+                        "Attenuation": -7.6500000000000004,
+                        "Model": 7.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -15.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "studiopre": {
+                    "parameters": {},
+                    "ports": {
+                        "bass": 0.5,
+                        "bright": 0.0,
+                        "volume": 10.0,
+                        "treble": 0.5,
+                        "middle": 0.5
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
                 },
                 "HighPassFilter": {
+                    "parameters": {},
                     "ports": {
                         "Order": 2.0,
                         "Freq": 328.11801147460938
                     },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "bypassed": false,
+                    "preset": ""
                 }
             },
             "name": "Freaked"
         },
         {
             "data": {
-                "xfade_1": {
+                "xfade": {
+                    "parameters": {},
                     "ports": {
-                        "shape": 0.0,
+                        "xfade": 1.0,
                         "mode": 0.0,
-                        "xfade": 1.0
+                        "shape": 0.0
                     },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": true
+                    "bypassed": true,
+                    "preset": ""
                 },
-                "Gain2x2": {
-                    "ports": {
-                        "Gain": 0.0
-                    },
-                    "preset": "",
+                "Scape_1": {
                     "parameters": {},
-                    "bypassed": false
-                },
-                "Gain2x2_1": {
                     "ports": {
-                        "Gain": -15.0
+                        "tune": 440.0,
+                        "bpm": 120.0,
+                        "blend": 0.80000001192092896,
+                        "feedback": 0.745,
+                        "divider": 3.0,
+                        "dry": 0.75
                     },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "Gain": {
+                    "parameters": {},
                     "ports": {
                         "Gain": -6.0
                     },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "cabsim_vintage": {
-                    "ports": {
-                        "Attenuation": -7.6500000000000004,
-                        "Model": 7.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "studiopre": {
-                    "ports": {
-                        "middle": 0.5,
-                        "volume": 10.0,
-                        "bright": 0.0,
-                        "bass": 0.5,
-                        "treble": 0.5
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "Scape_1": {
-                    "ports": {
-                        "bpm": 120.0,
-                        "divider": 3.0,
-                        "feedback": 0.745,
-                        "dry": 0.75,
-                        "tune": 440.0,
-                        "blend": 0.80000001192092896
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "Prefreak": {
+                    "parameters": {},
                     "ports": {
                         "Blur": 5.2090001106262207,
                         "Level": 0.375
                     },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "bypassed": false,
+                    "preset": ""
                 },
-                "xfade": {
-                    "ports": {
-                        "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 1.0
-                    },
-                    "preset": "",
+                "cabsim_vintage": {
                     "parameters": {},
-                    "bypassed": true
+                    "ports": {
+                        "Attenuation": -7.6500000000000004,
+                        "Model": 7.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -15.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "studiopre": {
+                    "parameters": {},
+                    "ports": {
+                        "bass": 0.5,
+                        "bright": 0.0,
+                        "volume": 10.0,
+                        "treble": 0.5,
+                        "middle": 0.5
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
                 },
                 "HighPassFilter": {
+                    "parameters": {},
                     "ports": {
                         "Order": 2.0,
                         "Freq": 328.11801147460938
                     },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "bypassed": false,
+                    "preset": ""
                 }
             },
             "name": "Scape"
         },
         {
             "data": {
-                "xfade_1": {
+                "xfade": {
+                    "parameters": {},
                     "ports": {
-                        "shape": 0.0,
+                        "xfade": 1.0,
                         "mode": 0.0,
-                        "xfade": 1.0
+                        "shape": 0.0
                     },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": true
+                    "bypassed": false,
+                    "preset": ""
                 },
-                "Gain2x2": {
-                    "ports": {
-                        "Gain": 0.0
-                    },
-                    "preset": "",
+                "Scape_1": {
                     "parameters": {},
-                    "bypassed": false
-                },
-                "Gain2x2_1": {
                     "ports": {
-                        "Gain": -15.0
+                        "tune": 440.0,
+                        "bpm": 120.0,
+                        "blend": 0.80000001192092896,
+                        "feedback": 0.93500000000000005,
+                        "divider": 3.0,
+                        "dry": 0.75
                     },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "Gain": {
+                    "parameters": {},
                     "ports": {
                         "Gain": -6.0
                     },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "cabsim_vintage": {
-                    "ports": {
-                        "Attenuation": -7.6500000000000004,
-                        "Model": 7.0
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "studiopre": {
-                    "ports": {
-                        "middle": 0.5,
-                        "volume": 10.0,
-                        "bright": 0.0,
-                        "bass": 0.5,
-                        "treble": 0.5
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
-                },
-                "Scape_1": {
-                    "ports": {
-                        "bpm": 120.0,
-                        "divider": 3.0,
-                        "feedback": 0.93500000000000005,
-                        "dry": 0.75,
-                        "tune": 440.0,
-                        "blend": 0.80000001192092896
-                    },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "Prefreak": {
+                    "parameters": {},
                     "ports": {
                         "Blur": 15.0,
                         "Level": 0.375
                     },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "bypassed": false,
+                    "preset": ""
                 },
-                "xfade": {
-                    "ports": {
-                        "shape": 0.0,
-                        "mode": 0.0,
-                        "xfade": 1.0
-                    },
-                    "preset": "",
+                "cabsim_vintage": {
                     "parameters": {},
-                    "bypassed": false
+                    "ports": {
+                        "Attenuation": -7.6500000000000004,
+                        "Model": 7.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -15.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "studiopre": {
+                    "parameters": {},
+                    "ports": {
+                        "bass": 0.5,
+                        "bright": 0.0,
+                        "volume": 10.0,
+                        "treble": 0.5,
+                        "middle": 0.5
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
                 },
                 "HighPassFilter": {
+                    "parameters": {},
                     "ports": {
                         "Order": 2.0,
                         "Freq": 328.11801147460938
                     },
-                    "preset": "",
-                    "parameters": {},
-                    "bypassed": false
+                    "bypassed": false,
+                    "preset": ""
                 }
             },
             "name": "looooong"

@@ -8,88 +8,88 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <modulay/lv2_audio_out_1> ;
-    ingen:head <reverb/in_l> .
+    ingen:tail <reverb/out_l> ;
+    ingen:head <Gain2x2/In1> .
 
 _:b2
-    ingen:tail <cs_chorus2/out1> ;
-    ingen:head <modulay/lv2_audio_in_1> .
-
-_:b3
     ingen:tail <BigMuffPi/Out1> ;
     ingen:head <studiopre/in> .
 
+_:b3
+    ingen:tail <Gain/Out> ;
+    ingen:head <mono/in> .
+
 _:b4
-    ingen:tail <mono/out> ;
-    ingen:head <BigMuffPi/In> .
-
-_:b5
-    ingen:tail <modulay/lv2_audio_out_1> ;
-    ingen:head <reverb/in_r> .
-
-_:b6
     ingen:tail <cabsim_vintage/Out> ;
     ingen:head <cs_chorus2/in> .
 
+_:b5
+    ingen:tail <cs_chorus2/out1> ;
+    ingen:head <modulay/lv2_audio_in_1> .
+
+_:b6
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inB_left> .
+
 _:b7
-    ingen:tail <studiopre/out> ;
-    ingen:head <cabsim_vintage/In> .
+    ingen:tail <mono/out> ;
+    ingen:head <BigMuffPi/In> .
 
 _:b8
     ingen:tail <capture_1> ;
     ingen:head <xfade/inA_left> .
 
 _:b9
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_right> .
+    ingen:tail <modulay/lv2_audio_out_1> ;
+    ingen:head <reverb/in_l> .
 
 _:b10
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inB_left> .
+    ingen:tail <Gain2x2_1/Out1> ;
+    ingen:head <Gain/In> .
 
 _:b11
-    ingen:tail <capture_2> ;
-    ingen:head <xfade/inB_right> .
+    ingen:tail <xfade/out_left> ;
+    ingen:head <Gain2x2_1/In1> .
 
 _:b12
-    ingen:tail <Gain/Out> ;
-    ingen:head <mono/in> .
+    ingen:tail <Gain2x2_1/Out2> ;
+    ingen:head <Gain/In> .
 
 _:b13
     ingen:tail <reverb/out_r> ;
     ingen:head <Gain2x2/In2> .
 
 _:b14
-    ingen:tail <reverb/out_l> ;
-    ingen:head <Gain2x2/In1> .
-
-_:b15
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <playback_1> .
-
-_:b16
     ingen:tail <Gain2x2/Out2> ;
     ingen:head <playback_2> .
 
+_:b15
+    ingen:tail <capture_2> ;
+    ingen:head <xfade/inB_right> .
+
+_:b16
+    ingen:tail <studiopre/out> ;
+    ingen:head <cabsim_vintage/In> .
+
 _:b17
-    ingen:tail <xfade/out_left> ;
-    ingen:head <Gain2x2_1/In1> .
+    ingen:tail <modulay/lv2_audio_out_1> ;
+    ingen:head <reverb/in_r> .
 
 _:b18
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_right> .
+
+_:b19
     ingen:tail <xfade/out_right> ;
     ingen:head <Gain2x2_1/In2> .
 
-_:b19
-    ingen:tail <Gain2x2_1/Out2> ;
-    ingen:head <Gain/In> .
-
 _:b20
-    ingen:tail <Gain2x2_1/Out1> ;
-    ingen:head <Gain/In> .
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
 
 <studiopre>
-    ingen:canvasX 1888.7 ;
-    ingen:canvasY 425.7 ;
+    ingen:canvasX 1888.0 ;
+    ingen:canvasY 425.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 3 ;
@@ -117,7 +117,7 @@ _:b20
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<studiopre/treble>
+<studiopre/bass>
     ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -127,7 +127,7 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<studiopre/middle>
+<studiopre/treble>
     ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -137,7 +137,7 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<studiopre/bass>
+<studiopre/middle>
     ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -184,13 +184,18 @@ _:b20
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<mono/bypass>
+<mono/gain>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/threshold>
-    ingen:value -18.000000 ;
+<mono/release>
+    ingen:value 0.050000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/bypass>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -199,8 +204,8 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/noClip>
-    ingen:value 1.000000 ;
+<mono/rms>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -209,18 +214,13 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/gain>
-    ingen:value 0.000000 ;
+<mono/noClip>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/rms>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/release>
-    ingen:value 0.050000 ;
+<mono/threshold>
+    ingen:value -18.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -246,8 +246,8 @@ _:b20
         lv2:InputPort .
 
 <BigMuffPi>
-    ingen:canvasX 1456.6 ;
-    ingen:canvasY 193.4 ;
+    ingen:canvasX 1456.0 ;
+    ingen:canvasY 193.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -273,13 +273,13 @@ _:b20
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<BigMuffPi/Tone>
-    ingen:value 0.184152 ;
+<BigMuffPi/Level>
+    ingen:value 0.664062 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<BigMuffPi/Level>
-    ingen:value 0.664062 ;
+<BigMuffPi/Tone>
+    ingen:value 0.184152 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -328,13 +328,8 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<cs_chorus2/delay>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<cs_chorus2/mod_freq_1>
-    ingen:value 0.025411 ;
+<cs_chorus2/mod_freq_2>
+    ingen:value 0.110640 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -343,8 +338,13 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<cs_chorus2/mod_freq_2>
-    ingen:value 0.110640 ;
+<cs_chorus2/mod_freq_1>
+    ingen:value 0.025411 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<cs_chorus2/delay>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -354,8 +354,8 @@ _:b20
         lv2:InputPort .
 
 <reverb>
-    ingen:canvasX 3165.7 ;
-    ingen:canvasY 469.8 ;
+    ingen:canvasX 3165.0 ;
+    ingen:canvasY 469.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -398,33 +398,8 @@ _:b20
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<reverb/xover>
-    ingen:value 223.606995 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<reverb/f1_freq>
-    ingen:value 159.054001 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<reverb/damping>
-    ingen:value 6000.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<reverb/rt_mid>
+<reverb/rt_low>
     ingen:value 2.750000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<reverb/f2_freq>
-    ingen:value 86.950144 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<reverb/f2_gain>
-    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -433,8 +408,13 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<reverb/rt_low>
-    ingen:value 2.750000 ;
+<reverb/f2_gain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<reverb/f1_freq>
+    ingen:value 159.054001 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -443,8 +423,28 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<reverb/damping>
+    ingen:value 6000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<reverb/f2_freq>
+    ingen:value 86.950144 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<reverb/xover>
+    ingen:value 223.606995 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <reverb/delay>
     ingen:value 0.060000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<reverb/rt_mid>
+    ingen:value 2.750000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -454,8 +454,8 @@ _:b20
         lv2:InputPort .
 
 <modulay>
-    ingen:canvasX 2987.9 ;
-    ingen:canvasY 1113.4 ;
+    ingen:canvasX 2987.0 ;
+    ingen:canvasY 1113.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -495,8 +495,18 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<modulay/time>
+    ingen:value 604.062500 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <modulay/tone>
     ingen:value 2456.521051 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<modulay/mix>
+    ingen:value 61.272321 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -505,18 +515,8 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<modulay/time>
-    ingen:value 604.062500 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <modulay/rate>
     ingen:value 1.504952 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<modulay/mix>
-    ingen:value 61.272321 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -526,18 +526,19 @@ _:b20
         lv2:InputPort .
 
 <cabsim_vintage>
-    ingen:canvasX 2004.2 ;
-    ingen:canvasY 631.6 ;
+    ingen:canvasX 2004.0 ;
+    ingen:canvasY 631.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 9 ;
+    mod:releaseNumber 11 ;
     lv2:port <cabsim_vintage/In> ,
              <cabsim_vintage/Out> ,
              <cabsim_vintage/Attenuation> ,
              <cabsim_vintage/Model> ,
+             <cabsim_vintage/Fidelity> ,
              <cabsim_vintage/:bypass> ;
     lv2:prototype <http://moddevices.com/plugins/mod-devel/cabsim-vintage> ;
     pedal:instanceNumber 26 ;
@@ -557,6 +558,11 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<cabsim_vintage/Fidelity>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <cabsim_vintage/Model>
     ingen:value 10.000000 ;
     a lv2:ControlPort ,
@@ -568,8 +574,8 @@ _:b20
         lv2:InputPort .
 
 <xfade>
-    ingen:canvasX 228.3 ;
-    ingen:canvasY 283.8 ;
+    ingen:canvasX 228.0 ;
+    ingen:canvasY 283.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -623,11 +629,6 @@ _:b20
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade/shape>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <xfade/xfade>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
@@ -638,20 +639,25 @@ _:b20
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<xfade/shape>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <xfade/:bypass>
     ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <Gain>
-    ingen:canvasX 894.8 ;
-    ingen:canvasY 907.1 ;
+    ingen:canvasX 894.0 ;
+    ingen:canvasY 907.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain/In> ,
              <Gain/Out> ,
              <Gain/Gain> ,
@@ -680,14 +686,14 @@ _:b20
         lv2:InputPort .
 
 <Gain2x2>
-    ingen:canvasX 3845.5 ;
-    ingen:canvasY 472.8 ;
+    ingen:canvasX 3845.0 ;
+    ingen:canvasY 472.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2/In1> ,
              <Gain2x2/In2> ,
              <Gain2x2/Out1> ,
@@ -716,7 +722,7 @@ _:b20
         lv2:OutputPort .
 
 <Gain2x2/Gain>
-    ingen:value -5.000000 ;
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -727,13 +733,13 @@ _:b20
 
 <Gain2x2_1>
     ingen:canvasX 525.0 ;
-    ingen:canvasY 602.8 ;
+    ingen:canvasY 602.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2_1/In1> ,
              <Gain2x2_1/In2> ,
              <Gain2x2_1/Out1> ,
@@ -879,12 +885,12 @@ _:b20
     doap:name "GRIG:Stupendo" ;
     pedal:unitName "MOD Dwarf" ;
     pedal:unitModel "dwarf:aarch64-a35" ;
-    pedal:width 4018 ;
-    pedal:height 1734 ;
+    pedal:width 3360 ;
+    pedal:height 1710 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 26 ;
+    pedal:version 30 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,

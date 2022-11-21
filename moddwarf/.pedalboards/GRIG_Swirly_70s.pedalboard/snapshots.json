@@ -1,0 +1,375 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "_supersonic_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.10144927536231885,
+                        "BASS": 0.44,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.28985507246376796
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "faIR_cabsim": {
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "_bajatubedriver_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "TONE": 0.59999999999999998,
+                        "DRIVE": 0.29499999999999998,
+                        "VOLUME": 0.34000000357627869
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "BigMuffPi": {
+                    "parameters": {},
+                    "ports": {
+                        "Level": 0.495,
+                        "Tone": 0.65625,
+                        "Sustain": 0.109375
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "ports": {
+                        "shimmer": 25.0,
+                        "roomsize": 10.0,
+                        "bandwidth": 68.75,
+                        "tone": 6000.0,
+                        "decay": 18.149999999999999,
+                        "ratio": 1.0,
+                        "damping": 29.6875,
+                        "mix": 30.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "PhaserII": {
+                    "parameters": {},
+                    "ports": {
+                        "resonance": 0.75,
+                        "spread": 0.375,
+                        "lfo": 0.0,
+                        "depth": 1.0,
+                        "rate": 0.171875
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                }
+            },
+            "name": "Spring Phaser"
+        },
+        {
+            "data": {
+                "_supersonic_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.10144927536231885,
+                        "BASS": 0.44,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.25
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "faIR_cabsim": {
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": -3.6662946428571388,
+                        "Model": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "_bajatubedriver_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "TONE": 0.59999999999999998,
+                        "DRIVE": 0.29499999999999998,
+                        "VOLUME": 0.34000000357627869
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "BigMuffPi": {
+                    "parameters": {},
+                    "ports": {
+                        "Level": 0.495,
+                        "Tone": 0.65625,
+                        "Sustain": 0.109375
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "ports": {
+                        "shimmer": 25.0,
+                        "roomsize": 10.0,
+                        "bandwidth": 68.75,
+                        "tone": 6000.0,
+                        "decay": 18.149999999999999,
+                        "ratio": 1.0,
+                        "damping": 29.6875,
+                        "mix": 30.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "PhaserII": {
+                    "parameters": {},
+                    "ports": {
+                        "resonance": 0.75,
+                        "spread": 0.375,
+                        "lfo": 0.0,
+                        "depth": 1.0,
+                        "rate": 0.171875
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                }
+            },
+            "name": "Driven Phase-Verb"
+        },
+        {
+            "data": {
+                "_supersonic_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.10144927536231885,
+                        "BASS": 0.44,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.25
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "faIR_cabsim": {
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": -5.9263392857142776,
+                        "Model": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "_bajatubedriver_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "TONE": 0.59999999999999998,
+                        "DRIVE": 0.29499999999999998,
+                        "VOLUME": 0.34000000357627869
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "BigMuffPi": {
+                    "parameters": {},
+                    "ports": {
+                        "Level": 0.495,
+                        "Tone": 0.65625,
+                        "Sustain": 0.109375
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "ports": {
+                        "shimmer": 25.0,
+                        "roomsize": 10.0,
+                        "bandwidth": 68.75,
+                        "tone": 6000.0,
+                        "decay": 18.149999999999999,
+                        "ratio": 1.0,
+                        "damping": 29.6875,
+                        "mix": 30.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "PhaserII": {
+                    "parameters": {},
+                    "ports": {
+                        "resonance": 0.75,
+                        "spread": 0.375,
+                        "lfo": 0.0,
+                        "depth": 1.0,
+                        "rate": 0.171875
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                }
+            },
+            "name": "Fuzzed Out"
+        },
+        {
+            "data": {
+                "_supersonic_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.10144927536231885,
+                        "BASS": 0.44,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.25
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "faIR_cabsim": {
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": -5.5245535714285836,
+                        "Model": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "_bajatubedriver_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "TONE": 0.59999999999999998,
+                        "DRIVE": 0.29499999999999998,
+                        "VOLUME": 0.34000000357627869
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "BigMuffPi": {
+                    "parameters": {},
+                    "ports": {
+                        "Level": 0.495,
+                        "Tone": 0.65625,
+                        "Sustain": 0.109375
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "ports": {
+                        "shimmer": 25.0,
+                        "roomsize": 10.0,
+                        "bandwidth": 68.75,
+                        "tone": 6000.0,
+                        "decay": 18.149999999999999,
+                        "ratio": 1.0,
+                        "damping": 29.6875,
+                        "mix": 30.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "PhaserII": {
+                    "parameters": {},
+                    "ports": {
+                        "resonance": 0.75,
+                        "spread": 0.375,
+                        "lfo": 0.0,
+                        "depth": 1.0,
+                        "rate": 0.171875
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                }
+            },
+            "name": "Driven Verb"
+        },
+        {
+            "data": {
+                "_supersonic_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.10144927536231885,
+                        "BASS": 0.44,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.25
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "faIR_cabsim": {
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": -5.4241071428571956,
+                        "Model": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "_bajatubedriver_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "TONE": 0.59999999999999998,
+                        "DRIVE": 0.29499999999999998,
+                        "VOLUME": 0.34000000357627869
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "BigMuffPi": {
+                    "parameters": {},
+                    "ports": {
+                        "Level": 0.495,
+                        "Tone": 0.65625,
+                        "Sustain": 0.109375
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "ports": {
+                        "shimmer": 25.0,
+                        "roomsize": 10.0,
+                        "bandwidth": 68.75,
+                        "tone": 6000.0,
+                        "decay": 18.149999999999999,
+                        "ratio": 1.0,
+                        "damping": 29.6875,
+                        "mix": 30.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "PhaserII": {
+                    "parameters": {},
+                    "ports": {
+                        "resonance": 0.75,
+                        "spread": 0.375,
+                        "lfo": 0.0,
+                        "depth": 1.0,
+                        "rate": 0.171875
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                }
+            },
+            "name": "Fuzzy Verb"
+        }
+    ],
+    "current": 0
+}

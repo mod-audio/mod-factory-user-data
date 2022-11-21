@@ -1,0 +1,109 @@
+{
+    "snapshots": [
+        {
+            "data": {
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "room": {
+                    "preset": "file:///root/.lv2/DragonflyRoomReverb.lv2/p12_Medium_Clear_Room.ttl",
+                    "parameters": {},
+                    "ports": {
+                        "early_level": 25.0,
+                        "spin": 0.80000001192092896,
+                        "size": 12.0,
+                        "early_send": 20.0,
+                        "late_level": 50.0,
+                        "predelay": 8.0,
+                        "wander": 40.0,
+                        "width": 100.0,
+                        "diffuse": 70.0,
+                        "dry_level": 0.0,
+                        "in_low_cut": 4.0,
+                        "late_damp": 9400.0,
+                        "early_damp": 10000.0,
+                        "decay": 0.40000000596046448,
+                        "boost_freq": 600.0,
+                        "low_boost": 50.0,
+                        "in_high_cut": 16000.0
+                    },
+                    "bypassed": false
+                },
+                "Gain_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -5.0
+                    },
+                    "bypassed": true
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "shape": 0.0,
+                        "xfade": 1.0,
+                        "mode": 0.0
+                    },
+                    "bypassed": true
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Fidelity": 1.0,
+                        "Model": 0.0
+                    },
+                    "bypassed": false
+                },
+                "mod_cv_control": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 1.0
+                    },
+                    "bypassed": true
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "studiopre": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "bright": 0.0,
+                        "middle": 0.5,
+                        "volume": 2.0,
+                        "bass": 0.5,
+                        "treble": 0.5
+                    },
+                    "bypassed": false
+                },
+                "mod_volume_2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Volume": 0.30000001192092896,
+                        "Mode": 1.0
+                    },
+                    "bypassed": false
+                }
+            },
+            "name": "Default"
+        }
+    ],
+    "current": 0
+}

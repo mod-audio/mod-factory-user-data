@@ -1,513 +1,517 @@
 {
-    "current": 0,
     "snapshots": [
         {
-            "name": "Para Float",
             "data": {
-                "paranoia": {
-                    "preset": "",
-                    "bypassed": false,
-                    "ports": {
-                        "crush": 40.0,
-                        "wet": -9.0,
-                        "filter": 57.756696428571388,
-                        "nuclear": 4.0
-                    },
-                    "parameters": {}
-                },
-                "Gain2x2": {
-                    "preset": "",
-                    "bypassed": false,
+                "Gain2x2_1": {
+                    "parameters": {},
                     "ports": {
                         "Gain": 0.0
                     },
-                    "parameters": {}
-                },
-                "xfade": {
-                    "preset": "",
-                    "bypassed": true,
-                    "ports": {
-                        "xfade": 1.0,
-                        "mode": 0.0,
-                        "shape": 0.0
-                    },
-                    "parameters": {}
-                },
-                "floaty": {
-                    "preset": "",
                     "bypassed": false,
-                    "ports": {
-                        "warp": 60.0,
-                        "rate": 1.0,
-                        "filter": 19.0,
-                        "mix": 42.0,
-                        "delay": 280.0,
-                        "feedback": 30.9375
-                    },
-                    "parameters": {}
-                },
-                "Gain": {
-                    "preset": "",
-                    "bypassed": false,
-                    "ports": {
-                        "Gain": -6.0
-                    },
-                    "parameters": {}
+                    "preset": ""
                 },
                 "bitta": {
-                    "preset": "",
-                    "bypassed": true,
+                    "parameters": {},
                     "ports": {
+                        "drywet": 1.0,
                         "crush": 8.0,
-                        "drywet": 1.0,
                         "active": 1.0
                     },
-                    "parameters": {}
+                    "bypassed": true,
+                    "preset": ""
                 },
                 "hip2b": {
-                    "preset": "",
-                    "bypassed": true,
+                    "parameters": {},
                     "ports": {
                         "OCTAVE": 0.0,
-                        "OUT_GAIN": 0.5,
                         "UP": 0.015625,
+                        "IN_GAIN": 2.0,
+                        "OUT_GAIN": 0.5,
                         "DOWN": 0.01785714285714235,
-                        "WETDRY": 0.045200892857142863,
-                        "IN_GAIN": 2.0
+                        "WETDRY": 0.045200892857142863
                     },
-                    "parameters": {}
-                },
-                "Gain2x2_1": {
-                    "preset": "",
-                    "bypassed": false,
-                    "ports": {
-                        "Gain": 0.0
-                    },
-                    "parameters": {}
-                },
-                "Plate": {
-                    "bypassed": false,
-                    "ports": {
-                        "blend": 0.17633928571428575,
-                        "tail": 0.5,
-                        "bandwidth": 0.99949997663497925,
-                        "damping": 0.00050000002374872565
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "_supersonic_": {
-                    "bypassed": false,
-                    "ports": {
-                        "BYPASS": 1.0,
-                        "BASS": 0.5,
-                        "TREBLE": 0.5,
-                        "VOLUME": 0.25,
-                        "GAIN": 0.072463768115942032
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "filta": {
-                    "preset": "",
-                    "bypassed": false,
-                    "ports": {
-                        "frequency_control": 0.40999999999999998,
-                        "active": 1.0
-                    },
-                    "parameters": {}
-                },
-                "cabsim_vintage": {
-                    "bypassed": false,
-                    "ports": {
-                        "Attenuation": 0.0,
-                        "Model": 7.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                }
-            }
-        },
-        {
-            "name": "disgusting",
-            "data": {
-                "paranoia": {
-                    "preset": "",
-                    "bypassed": false,
-                    "ports": {
-                        "crush": 40.0,
-                        "wet": -9.0,
-                        "filter": 57.756696428571388,
-                        "nuclear": 4.0
-                    },
-                    "parameters": {}
+                    "bypassed": true,
+                    "preset": ""
                 },
                 "Gain2x2": {
-                    "preset": "",
-                    "bypassed": false,
+                    "parameters": {},
                     "ports": {
                         "Gain": 0.0
                     },
-                    "parameters": {}
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "floaty": {
+                    "parameters": {},
+                    "ports": {
+                        "warp": 60.0,
+                        "delay": 280.0,
+                        "feedback": 30.9375,
+                        "rate": 1.0,
+                        "filter": 19.0,
+                        "mix": 42.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Plate": {
+                    "parameters": {},
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "blend": 0.17633928571428575,
+                        "damping": 0.00050000002374872565,
+                        "tail": 0.5
+                    },
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "xfade": {
-                    "preset": "",
-                    "bypassed": true,
+                    "parameters": {},
                     "ports": {
                         "xfade": 1.0,
                         "mode": 0.0,
                         "shape": 0.0
                     },
-                    "parameters": {}
+                    "bypassed": true,
+                    "preset": ""
                 },
-                "floaty": {
-                    "preset": "",
-                    "bypassed": false,
+                "paranoia": {
+                    "parameters": {},
                     "ports": {
-                        "warp": 60.0,
-                        "rate": 1.0,
-                        "filter": 19.0,
-                        "mix": 42.0,
-                        "delay": 280.0,
-                        "feedback": 30.9375
+                        "wet": -9.0,
+                        "crush": 40.0,
+                        "filter": 57.756696428571388,
+                        "nuclear": 4.0
                     },
-                    "parameters": {}
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "_supersonic_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.072463768115942032,
+                        "BASS": 0.5,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.25
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 7.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "Gain": {
-                    "preset": "",
-                    "bypassed": false,
+                    "parameters": {},
                     "ports": {
                         "Gain": -6.0
                     },
-                    "parameters": {}
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "filta": {
+                    "parameters": {},
+                    "ports": {
+                        "frequency_control": 0.40999999999999998,
+                        "active": 1.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                }
+            },
+            "name": "Para Float"
+        },
+        {
+            "data": {
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "bitta": {
-                    "preset": "",
-                    "bypassed": true,
+                    "parameters": {},
                     "ports": {
+                        "drywet": 1.0,
                         "crush": 8.0,
-                        "drywet": 1.0,
                         "active": 1.0
                     },
-                    "parameters": {}
+                    "bypassed": true,
+                    "preset": ""
                 },
                 "hip2b": {
-                    "preset": "",
-                    "bypassed": false,
+                    "parameters": {},
                     "ports": {
                         "OCTAVE": 0.0,
-                        "OUT_GAIN": 0.5,
                         "UP": 0.015625,
+                        "IN_GAIN": 2.0,
+                        "OUT_GAIN": 0.5,
                         "DOWN": 0.01785714285714235,
-                        "WETDRY": 0.045200892857142863,
-                        "IN_GAIN": 2.0
+                        "WETDRY": 0.045200892857142863
                     },
-                    "parameters": {}
-                },
-                "Gain2x2_1": {
-                    "preset": "",
                     "bypassed": false,
-                    "ports": {
-                        "Gain": 0.0
-                    },
-                    "parameters": {}
-                },
-                "Plate": {
-                    "bypassed": false,
-                    "ports": {
-                        "blend": 0.17633928571428575,
-                        "tail": 0.5,
-                        "bandwidth": 0.99949997663497925,
-                        "damping": 0.00050000002374872565
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "_supersonic_": {
-                    "bypassed": false,
-                    "ports": {
-                        "BYPASS": 1.0,
-                        "BASS": 0.5,
-                        "TREBLE": 0.5,
-                        "VOLUME": 0.25,
-                        "GAIN": 0.072463768115942032
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "filta": {
-                    "preset": "",
-                    "bypassed": false,
-                    "ports": {
-                        "frequency_control": 0.40999999999999998,
-                        "active": 1.0
-                    },
-                    "parameters": {}
-                },
-                "cabsim_vintage": {
-                    "bypassed": false,
-                    "ports": {
-                        "Attenuation": 0.0,
-                        "Model": 7.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                }
-            }
-        },
-        {
-            "name": "Gated-ish",
-            "data": {
-                "paranoia": {
-                    "preset": "",
-                    "bypassed": false,
-                    "ports": {
-                        "crush": 40.0,
-                        "wet": -9.0,
-                        "filter": 57.756696428571388,
-                        "nuclear": 4.0
-                    },
-                    "parameters": {}
+                    "preset": ""
                 },
                 "Gain2x2": {
-                    "preset": "",
-                    "bypassed": false,
+                    "parameters": {},
                     "ports": {
                         "Gain": 0.0
                     },
-                    "parameters": {}
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "floaty": {
+                    "parameters": {},
+                    "ports": {
+                        "warp": 60.0,
+                        "delay": 280.0,
+                        "feedback": 30.9375,
+                        "rate": 1.0,
+                        "filter": 19.0,
+                        "mix": 42.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Plate": {
+                    "parameters": {},
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "blend": 0.17633928571428575,
+                        "damping": 0.00050000002374872565,
+                        "tail": 0.5
+                    },
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "xfade": {
-                    "preset": "",
-                    "bypassed": true,
+                    "parameters": {},
                     "ports": {
                         "xfade": 1.0,
                         "mode": 0.0,
                         "shape": 0.0
                     },
-                    "parameters": {}
+                    "bypassed": true,
+                    "preset": ""
                 },
-                "floaty": {
-                    "preset": "",
-                    "bypassed": false,
+                "paranoia": {
+                    "parameters": {},
                     "ports": {
-                        "warp": 60.0,
-                        "rate": 1.0,
-                        "filter": 19.0,
-                        "mix": 42.0,
-                        "delay": 280.0,
-                        "feedback": 30.9375
+                        "wet": -9.0,
+                        "crush": 40.0,
+                        "filter": 57.756696428571388,
+                        "nuclear": 4.0
                     },
-                    "parameters": {}
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "_supersonic_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.072463768115942032,
+                        "BASS": 0.5,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.25
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 7.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "Gain": {
-                    "preset": "",
-                    "bypassed": false,
+                    "parameters": {},
                     "ports": {
                         "Gain": -6.0
                     },
-                    "parameters": {}
-                },
-                "bitta": {
-                    "preset": "",
                     "bypassed": false,
-                    "ports": {
-                        "crush": 6.0,
-                        "drywet": 1.0,
-                        "active": 1.0
-                    },
-                    "parameters": {}
-                },
-                "hip2b": {
-                    "preset": "",
-                    "bypassed": false,
-                    "ports": {
-                        "OCTAVE": 0.0,
-                        "OUT_GAIN": 0.5,
-                        "UP": 0.015625,
-                        "DOWN": 0.01785714285714235,
-                        "WETDRY": 0.045200892857142863,
-                        "IN_GAIN": 2.0
-                    },
-                    "parameters": {}
-                },
-                "Gain2x2_1": {
-                    "preset": "",
-                    "bypassed": false,
-                    "ports": {
-                        "Gain": 0.0
-                    },
-                    "parameters": {}
-                },
-                "Plate": {
-                    "bypassed": false,
-                    "ports": {
-                        "blend": 0.17633928571428575,
-                        "tail": 0.5,
-                        "bandwidth": 0.99949997663497925,
-                        "damping": 0.00050000002374872565
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "_supersonic_": {
-                    "bypassed": false,
-                    "ports": {
-                        "BYPASS": 1.0,
-                        "BASS": 0.5,
-                        "TREBLE": 0.5,
-                        "VOLUME": 0.25,
-                        "GAIN": 0.072463768115942032
-                    },
-                    "preset": "",
-                    "parameters": {}
+                    "preset": ""
                 },
                 "filta": {
-                    "preset": "",
-                    "bypassed": false,
+                    "parameters": {},
                     "ports": {
                         "frequency_control": 0.40999999999999998,
                         "active": 1.0
                     },
-                    "parameters": {}
-                },
-                "cabsim_vintage": {
                     "bypassed": false,
-                    "ports": {
-                        "Attenuation": 0.0,
-                        "Model": 7.0
-                    },
-                    "preset": "",
-                    "parameters": {}
+                    "preset": ""
                 }
-            }
+            },
+            "name": "disgusting"
         },
         {
-            "name": "hip para",
             "data": {
-                "paranoia": {
-                    "preset": "",
-                    "bypassed": false,
-                    "ports": {
-                        "crush": 40.0,
-                        "wet": -9.0,
-                        "filter": 57.756696428571388,
-                        "nuclear": 4.0
-                    },
-                    "parameters": {}
-                },
-                "Gain2x2": {
-                    "preset": "",
-                    "bypassed": false,
+                "Gain2x2_1": {
+                    "parameters": {},
                     "ports": {
                         "Gain": 0.0
                     },
-                    "parameters": {}
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "bitta": {
+                    "parameters": {},
+                    "ports": {
+                        "drywet": 1.0,
+                        "crush": 6.0,
+                        "active": 1.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "hip2b": {
+                    "parameters": {},
+                    "ports": {
+                        "OCTAVE": 0.0,
+                        "UP": 0.015625,
+                        "IN_GAIN": 2.0,
+                        "OUT_GAIN": 0.5,
+                        "DOWN": 0.01785714285714235,
+                        "WETDRY": 0.045200892857142863
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "floaty": {
+                    "parameters": {},
+                    "ports": {
+                        "warp": 60.0,
+                        "delay": 280.0,
+                        "feedback": 30.9375,
+                        "rate": 1.0,
+                        "filter": 19.0,
+                        "mix": 42.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Plate": {
+                    "parameters": {},
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "blend": 0.17633928571428575,
+                        "damping": 0.00050000002374872565,
+                        "tail": 0.5
+                    },
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "xfade": {
-                    "preset": "",
-                    "bypassed": true,
+                    "parameters": {},
                     "ports": {
                         "xfade": 1.0,
                         "mode": 0.0,
                         "shape": 0.0
                     },
-                    "parameters": {}
-                },
-                "floaty": {
-                    "preset": "",
                     "bypassed": true,
+                    "preset": ""
+                },
+                "paranoia": {
+                    "parameters": {},
                     "ports": {
-                        "warp": 60.0,
-                        "rate": 1.0,
-                        "filter": 19.0,
-                        "mix": 42.0,
-                        "delay": 280.0,
-                        "feedback": 30.9375
+                        "wet": -9.0,
+                        "crush": 40.0,
+                        "filter": 57.756696428571388,
+                        "nuclear": 4.0
                     },
-                    "parameters": {}
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "_supersonic_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.072463768115942032,
+                        "BASS": 0.5,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.25
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 7.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "Gain": {
-                    "preset": "",
-                    "bypassed": false,
+                    "parameters": {},
                     "ports": {
                         "Gain": -6.0
                     },
-                    "parameters": {}
-                },
-                "bitta": {
-                    "preset": "",
-                    "bypassed": true,
-                    "ports": {
-                        "crush": 6.0,
-                        "drywet": 1.0,
-                        "active": 1.0
-                    },
-                    "parameters": {}
-                },
-                "hip2b": {
-                    "preset": "",
                     "bypassed": false,
-                    "ports": {
-                        "OCTAVE": 0.0,
-                        "OUT_GAIN": 0.5,
-                        "UP": 0.015625,
-                        "DOWN": 0.01785714285714235,
-                        "WETDRY": 0.045200892857142863,
-                        "IN_GAIN": 2.0
-                    },
-                    "parameters": {}
-                },
-                "Gain2x2_1": {
-                    "preset": "",
-                    "bypassed": false,
-                    "ports": {
-                        "Gain": 0.0
-                    },
-                    "parameters": {}
-                },
-                "Plate": {
-                    "bypassed": false,
-                    "ports": {
-                        "blend": 0.17633928571428575,
-                        "tail": 0.5,
-                        "bandwidth": 0.99949997663497925,
-                        "damping": 0.00050000002374872565
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "_supersonic_": {
-                    "bypassed": false,
-                    "ports": {
-                        "BYPASS": 1.0,
-                        "BASS": 0.5,
-                        "TREBLE": 0.5,
-                        "VOLUME": 0.25,
-                        "GAIN": 0.072463768115942032
-                    },
-                    "preset": "",
-                    "parameters": {}
+                    "preset": ""
                 },
                 "filta": {
-                    "preset": "",
-                    "bypassed": false,
+                    "parameters": {},
                     "ports": {
                         "frequency_control": 0.40999999999999998,
                         "active": 1.0
                     },
-                    "parameters": {}
+                    "bypassed": false,
+                    "preset": ""
+                }
+            },
+            "name": "Gated-ish"
+        },
+        {
+            "data": {
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "bitta": {
+                    "parameters": {},
+                    "ports": {
+                        "drywet": 1.0,
+                        "crush": 6.0,
+                        "active": 1.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "hip2b": {
+                    "parameters": {},
+                    "ports": {
+                        "OCTAVE": 0.0,
+                        "UP": 0.015625,
+                        "IN_GAIN": 2.0,
+                        "OUT_GAIN": 0.5,
+                        "DOWN": 0.01785714285714235,
+                        "WETDRY": 0.045200892857142863
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "floaty": {
+                    "parameters": {},
+                    "ports": {
+                        "warp": 60.0,
+                        "delay": 280.0,
+                        "feedback": 30.9375,
+                        "rate": 1.0,
+                        "filter": 19.0,
+                        "mix": 42.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "Plate": {
+                    "parameters": {},
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "blend": 0.17633928571428575,
+                        "damping": 0.00050000002374872565,
+                        "tail": 0.5
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "xfade": {
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "paranoia": {
+                    "parameters": {},
+                    "ports": {
+                        "wet": -9.0,
+                        "crush": 40.0,
+                        "filter": 57.756696428571388,
+                        "nuclear": 4.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "_supersonic_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.072463768115942032,
+                        "BASS": 0.5,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.25
+                    },
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "cabsim_vintage": {
-                    "bypassed": false,
+                    "parameters": {},
                     "ports": {
                         "Attenuation": 0.0,
-                        "Model": 7.0
+                        "Model": 7.0,
+                        "Fidelity": 1.0
                     },
-                    "preset": "",
-                    "parameters": {}
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "filta": {
+                    "parameters": {},
+                    "ports": {
+                        "frequency_control": 0.40999999999999998,
+                        "active": 1.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
                 }
-            }
+            },
+            "name": "hip para"
         }
-    ]
+    ],
+    "current": 0
 }

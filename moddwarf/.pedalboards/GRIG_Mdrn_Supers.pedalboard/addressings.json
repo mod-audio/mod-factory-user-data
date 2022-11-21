@@ -1,0 +1,179 @@
+{
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "page": 0,
+            "momentary": 0,
+            "maximum": 1.0,
+            "group": null,
+            "label": "Boost",
+            "instance": "/graph/Gain_1",
+            "subpage": 0,
+            "port": ":bypass",
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "coloured": false
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "page": 0,
+            "momentary": 0,
+            "maximum": 1.0,
+            "group": null,
+            "label": "Verb",
+            "instance": "/graph/room",
+            "subpage": 0,
+            "port": ":bypass",
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "coloured": false
+        }
+    ],
+    "/hmi/group1": [],
+    "/bpm": [],
+    "/hmi/knob1": [
+        {
+            "minimum": 0,
+            "page": 0,
+            "momentary": 0,
+            "maximum": 25,
+            "group": null,
+            "label": "Verb",
+            "instance": "/graph/room",
+            "subpage": 2,
+            "port": ":presets",
+            "tempo": false,
+            "dividers": null,
+            "steps": 24,
+            "coloured": false
+        },
+        {
+            "minimum": 0.0,
+            "page": 0,
+            "momentary": 0,
+            "maximum": 1.0,
+            "group": null,
+            "label": "amp.bass",
+            "instance": "/graph/_supersonic_",
+            "subpage": 1,
+            "port": "BASS",
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "coloured": false
+        },
+        {
+            "minimum": 3.0,
+            "page": 0,
+            "momentary": 0,
+            "maximum": 13.0,
+            "group": null,
+            "label": "boost",
+            "instance": "/graph/Gain_1",
+            "subpage": 0,
+            "port": "Gain",
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.0,
+            "page": 0,
+            "momentary": 0,
+            "maximum": 1.0,
+            "group": null,
+            "label": "Verb.lvl",
+            "instance": "/graph/mod_volume_2x2",
+            "subpage": 2,
+            "port": "Volume",
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "coloured": false
+        },
+        {
+            "minimum": 0.0,
+            "page": 0,
+            "momentary": 0,
+            "maximum": 1.0,
+            "group": null,
+            "label": "Amp.GAIN",
+            "instance": "/graph/_supersonic_",
+            "subpage": 0,
+            "port": "GAIN",
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "coloured": false
+        },
+        {
+            "minimum": 0.0,
+            "page": 0,
+            "momentary": 0,
+            "maximum": 1.0,
+            "group": null,
+            "label": "amp.treb",
+            "instance": "/graph/_supersonic_",
+            "subpage": 1,
+            "port": "TREBLE",
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "coloured": false
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "minimum": 0.0,
+            "page": 0,
+            "momentary": 0,
+            "maximum": 1.0,
+            "group": null,
+            "label": "ST INPUT",
+            "instance": "/graph/xfade",
+            "subpage": 2,
+            "port": ":bypass",
+            "tempo": false,
+            "dividers": null,
+            "steps": 33,
+            "coloured": false
+        },
+        {
+            "minimum": 0.0,
+            "page": 0,
+            "momentary": 0,
+            "maximum": 1.0,
+            "group": null,
+            "label": "amp.vol",
+            "instance": "/graph/_supersonic_",
+            "subpage": 0,
+            "port": "VOLUME",
+            "tempo": false,
+            "dividers": null,
+            "steps": 201,
+            "coloured": false
+        },
+        {
+            "minimum": 0.0,
+            "page": 0,
+            "momentary": 0,
+            "maximum": 12.0,
+            "group": null,
+            "label": "Cab",
+            "instance": "/graph/faIR_cabsim",
+            "subpage": 1,
+            "port": "Model",
+            "tempo": false,
+            "dividers": null,
+            "steps": 9,
+            "coloured": false
+        }
+    ]
+}

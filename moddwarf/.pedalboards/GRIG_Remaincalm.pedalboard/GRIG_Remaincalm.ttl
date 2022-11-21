@@ -8,218 +8,76 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <playback_2> .
-
-_:b2
     ingen:tail <Gain2x2_1/Out1> ;
     ingen:head <Gain/In> .
 
-_:b3
-    ingen:tail <capture_2> ;
-    ingen:head <xfade/inB_right> .
-
-_:b4
-    ingen:tail <Gain2x2_1/Out2> ;
-    ingen:head <Gain/In> .
-
-_:b5
+_:b2
     ingen:tail <mud/lv2_audio_out_1> ;
     ingen:head <floaty/lv2_audio_in_1> .
 
-_:b6
-    ingen:tail <Gain/Out> ;
-    ingen:head <avocado/lv2_audio_in_1> .
-
-_:b7
-    ingen:tail <paranoia/lv2_audio_out_1> ;
-    ingen:head <mud/lv2_audio_in_1> .
-
-_:b8
+_:b3
     ingen:tail <avocado/lv2_audio_out_1> ;
     ingen:head <paranoia/lv2_audio_in_1> .
 
-_:b9
-    ingen:tail <xfade/out_left> ;
-    ingen:head <Gain2x2_1/In1> .
-
-_:b10
+_:b4
     ingen:tail <capture_1> ;
     ingen:head <xfade/inA_left> .
 
-_:b11
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <playback_1> .
-
-_:b12
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_right> .
-
-_:b13
-    ingen:tail <xfade/out_right> ;
-    ingen:head <Gain2x2_1/In2> .
-
-_:b14
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inB_left> .
-
-_:b15
-    ingen:tail <_supersonic_/out> ;
-    ingen:head <faIR_cabsim/In> .
-
-_:b16
-    ingen:tail <floaty/lv2_audio_out_1> ;
-    ingen:head <_supersonic_/in> .
-
-_:b17
-    ingen:tail <faIR_cabsim/Out> ;
-    ingen:head <Gain2x2/In1> .
-
-_:b18
+_:b5
     ingen:tail <faIR_cabsim/Out> ;
     ingen:head <Gain2x2/In2> .
 
-<Gain>
-    ingen:canvasX 1001.0 ;
-    ingen:canvasY 842.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 1 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
-    lv2:port <Gain/In> ,
-             <Gain/Out> ,
-             <Gain/Gain> ,
-             <Gain/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain> ;
-    pedal:instanceNumber 11 ;
-    pedal:preset <> ;
-    a ingen:Block .
+_:b6
+    ingen:tail <xfade/out_left> ;
+    ingen:head <Gain2x2_1/In1> .
 
-<Gain/In>
-    a lv2:AudioPort ,
-        lv2:InputPort .
+_:b7
+    ingen:tail <Gain/Out> ;
+    ingen:head <avocado/lv2_audio_in_1> .
 
-<Gain/In>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
+_:b8
+    ingen:tail <Gain2x2_1/Out2> ;
+    ingen:head <Gain/In> .
 
-<Gain/Gain>
-    ingen:value -6.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
+_:b9
+    ingen:tail <_supersonic_/out> ;
+    ingen:head <faIR_cabsim/In> .
 
-<Gain/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
+_:b10
+    ingen:tail <paranoia/lv2_audio_out_1> ;
+    ingen:head <mud/lv2_audio_in_1> .
 
-<Gain2x2>
-    ingen:canvasX 3306.0 ;
-    ingen:canvasY 356.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 1 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
-    lv2:port <Gain2x2/In1> ,
-             <Gain2x2/In2> ,
-             <Gain2x2/Out1> ,
-             <Gain2x2/Out2> ,
-             <Gain2x2/Gain> ,
-             <Gain2x2/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
-    pedal:instanceNumber 16 ;
-    pedal:preset <> ;
-    a ingen:Block .
+_:b11
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inB_left> .
 
-<Gain2x2/In1>
-    a lv2:AudioPort ,
-        lv2:InputPort .
+_:b12
+    ingen:tail <floaty/lv2_audio_out_1> ;
+    ingen:head <_supersonic_/in> .
 
-<Gain2x2/In2>
-    a lv2:AudioPort ,
-        lv2:InputPort .
+_:b13
+    ingen:tail <capture_2> ;
+    ingen:head <xfade/inB_right> .
 
-<Gain2x2/In1>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
+_:b14
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
 
-<Gain2x2/In2>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
+_:b15
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
 
-<Gain2x2/Gain>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
+_:b16
+    ingen:tail <xfade/out_right> ;
+    ingen:head <Gain2x2_1/In2> .
 
-<Gain2x2/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
+_:b17
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_right> .
 
-<_supersonic_>
-    ingen:canvasX 2029.8 ;
-    ingen:canvasY 916.5 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 35 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 3 ;
-    lv2:port <_supersonic_/in> ,
-             <_supersonic_/out> ,
-             <_supersonic_/BYPASS> ,
-             <_supersonic_/GAIN> ,
-             <_supersonic_/BASS> ,
-             <_supersonic_/TREBLE> ,
-             <_supersonic_/VOLUME> ,
-             <_supersonic_/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_supersonic_#_supersonic_> ;
-    pedal:instanceNumber 18 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<_supersonic_/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<_supersonic_/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<_supersonic_/BYPASS>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_supersonic_/BASS>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_supersonic_/VOLUME>
-    ingen:value 0.250000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_supersonic_/TREBLE>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_supersonic_/GAIN>
-    ingen:value 0.150000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_supersonic_/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
+_:b18
+    ingen:tail <faIR_cabsim/Out> ;
+    ingen:head <Gain2x2/In1> .
 
 <xfade>
     ingen:canvasX 271.0 ;
@@ -277,13 +135,13 @@ _:b18
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<xfade/xfade>
-    ingen:value 1.000000 ;
+<xfade/mode>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade/mode>
-    ingen:value 0.000000 ;
+<xfade/xfade>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -297,15 +155,111 @@ _:b18
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<Gain>
+    ingen:canvasX 1001.0 ;
+    ingen:canvasY 842.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 18 ;
+    lv2:port <Gain/In> ,
+             <Gain/Out> ,
+             <Gain/Gain> ,
+             <Gain/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain> ;
+    pedal:instanceNumber 11 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Gain/In>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain/In>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain/Gain>
+    ingen:value -6.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_supersonic_>
+    ingen:canvasX 2029.0 ;
+    ingen:canvasY 916.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 35 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 3 ;
+    lv2:port <_supersonic_/in> ,
+             <_supersonic_/out> ,
+             <_supersonic_/BYPASS> ,
+             <_supersonic_/GAIN> ,
+             <_supersonic_/BASS> ,
+             <_supersonic_/TREBLE> ,
+             <_supersonic_/VOLUME> ,
+             <_supersonic_/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_supersonic_#_supersonic_> ;
+    pedal:instanceNumber 18 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<_supersonic_/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<_supersonic_/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<_supersonic_/TREBLE>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_supersonic_/BASS>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_supersonic_/GAIN>
+    ingen:value 0.150000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_supersonic_/VOLUME>
+    ingen:value 0.250000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_supersonic_/BYPASS>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_supersonic_/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <faIR_cabsim>
     ingen:canvasX 2798.1 ;
     ingen:canvasY 939.2 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
-    lv2:microVersion 1 ;
+    lv2:microVersion 2 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
+    mod:releaseNumber 9 ;
     lv2:port <faIR_cabsim/In> ,
              <faIR_cabsim/Out> ,
              <faIR_cabsim/Attenuation> ,
@@ -339,6 +293,52 @@ _:b18
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<Gain2x2>
+    ingen:canvasX 3306.0 ;
+    ingen:canvasY 356.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 18 ;
+    lv2:port <Gain2x2/In1> ,
+             <Gain2x2/In2> ,
+             <Gain2x2/Out1> ,
+             <Gain2x2/Out2> ,
+             <Gain2x2/Gain> ,
+             <Gain2x2/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:instanceNumber 16 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain2x2/Gain>
+    ingen:value -3.839286 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain2x2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <Gain2x2_1>
     ingen:canvasX 654.0 ;
     ingen:canvasY 469.0 ;
@@ -347,7 +347,7 @@ _:b18
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2_1/In1> ,
              <Gain2x2_1/In2> ,
              <Gain2x2_1/Out1> ,
@@ -452,13 +452,18 @@ _:b18
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<floaty/warp>
-    ingen:value 60.000000 ;
+<floaty/rate>
+    ingen:value 1.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<floaty/rate>
-    ingen:value 1.500000 ;
+<floaty/feedback>
+    ingen:value 20.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<floaty/mix>
+    ingen:value 12.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -467,18 +472,13 @@ _:b18
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<floaty/mix>
-    ingen:value 42.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <floaty/filter>
     ingen:value 50.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<floaty/feedback>
-    ingen:value 20.000000 ;
+<floaty/warp>
+    ingen:value 60.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -515,11 +515,6 @@ _:b18
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<mud/mix>
-    ingen:value 75.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <mud/lfo>
     ingen:value 100.000000 ;
     a lv2:ControlPort ,
@@ -527,6 +522,11 @@ _:b18
 
 <mud/filter>
     ingen:value 59.821429 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mud/mix>
+    ingen:value 39.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -564,11 +564,6 @@ _:b18
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<paranoia/crush>
-    ingen:value 65.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <paranoia/wet>
     ingen:value -3.000000 ;
     a lv2:ControlPort ,
@@ -581,6 +576,11 @@ _:b18
 
 <paranoia/nuclear>
     ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<paranoia/crush>
+    ingen:value 65.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -702,7 +702,7 @@ _:b18
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 33 ;
+    pedal:version 36 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -722,11 +722,11 @@ _:b18
               _:b16 ,
               _:b17 ,
               _:b18 ;
-    ingen:block <Gain> ,
-                <Gain2x2> ,
+    ingen:block <xfade> ,
+                <Gain> ,
                 <_supersonic_> ,
-                <xfade> ,
                 <faIR_cabsim> ,
+                <Gain2x2> ,
                 <Gain2x2_1> ,
                 <avocado> ,
                 <floaty> ,

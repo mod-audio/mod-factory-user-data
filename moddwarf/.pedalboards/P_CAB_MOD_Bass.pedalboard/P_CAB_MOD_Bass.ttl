@@ -8,64 +8,64 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <cabsim_bass/Out> ;
-    ingen:head <Gain2x2/In1> .
-
-_:b2
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_right> .
-
-_:b3
-    ingen:tail <xfade/out_right> ;
-    ingen:head <Gain/In> .
-
-_:b4
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <xfade_1/inB_left> .
-
-_:b5
-    ingen:tail <xfade/out_left> ;
-    ingen:head <Gain/In> .
-
-_:b6
-    ingen:tail <Gain2x2/Out2> ;
-    ingen:head <xfade_1/inB_right> .
-
-_:b7
-    ingen:tail <cabsim_bass/Out> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b8
-    ingen:tail <xfade/out_left> ;
-    ingen:head <xfade_1/inA_left> .
-
-_:b9
-    ingen:tail <xfade_1/out_left> ;
-    ingen:head <playback_1> .
-
-_:b10
-    ingen:tail <xfade_1/out_right> ;
-    ingen:head <playback_2> .
-
-_:b11
-    ingen:tail <capture_2> ;
-    ingen:head <xfade/inB_right> .
-
-_:b12
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_left> .
-
-_:b13
     ingen:tail <xfade/out_right> ;
     ingen:head <xfade_1/inA_right> .
 
-_:b14
+_:b2
+    ingen:tail <xfade_1/out_right> ;
+    ingen:head <playback_2> .
+
+_:b3
+    ingen:tail <Gain/Out> ;
+    ingen:head <cabsim_bass/In> .
+
+_:b4
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <xfade_1/inB_right> .
+
+_:b5
     ingen:tail <capture_1> ;
     ingen:head <xfade/inB_left> .
 
+_:b6
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_left> .
+
+_:b7
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_right> .
+
+_:b8
+    ingen:tail <xfade/out_left> ;
+    ingen:head <Gain/In> .
+
+_:b9
+    ingen:tail <xfade/out_right> ;
+    ingen:head <Gain/In> .
+
+_:b10
+    ingen:tail <xfade/out_left> ;
+    ingen:head <xfade_1/inA_left> .
+
+_:b11
+    ingen:tail <xfade_1/out_left> ;
+    ingen:head <playback_1> .
+
+_:b12
+    ingen:tail <capture_2> ;
+    ingen:head <xfade/inB_right> .
+
+_:b13
+    ingen:tail <cabsim_bass/Out> ;
+    ingen:head <Gain2x2/In1> .
+
+_:b14
+    ingen:tail <cabsim_bass/Out> ;
+    ingen:head <Gain2x2/In2> .
+
 _:b15
-    ingen:tail <Gain/Out> ;
-    ingen:head <cabsim_bass/In> .
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <xfade_1/inB_left> .
 
 <Gain2x2>
     ingen:canvasX 2994.0 ;
@@ -75,7 +75,7 @@ _:b15
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2/In1> ,
              <Gain2x2/In2> ,
              <Gain2x2/Out1> ,
@@ -273,7 +273,7 @@ _:b15
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain/In> ,
              <Gain/Out> ,
              <Gain/Gain> ,
@@ -309,12 +309,13 @@ _:b15
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 8 ;
+    mod:releaseNumber 11 ;
     lv2:port <cabsim_bass/In> ,
              <cabsim_bass/Out> ,
              <cabsim_bass/Attenuation> ,
              <cabsim_bass/Model> ,
              <cabsim_bass/MicPos> ,
+             <cabsim_bass/Fidelity> ,
              <cabsim_bass/:bypass> ;
     lv2:prototype <http://moddevices.com/plugins/mod-devel/cabsim-bass> ;
     pedal:instanceNumber 8 ;
@@ -330,16 +331,21 @@ _:b15
         lv2:OutputPort .
 
 <cabsim_bass/Attenuation>
-    ingen:value -17.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<cabsim_bass/MicPos>
-    ingen:value 0.000000 ;
+    ingen:value -3.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <cabsim_bass/Model>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<cabsim_bass/Fidelity>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<cabsim_bass/MicPos>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -458,11 +464,11 @@ _:b15
     pedal:unitName "MOD Dwarf" ;
     pedal:unitModel "dwarf:aarch64-a35" ;
     pedal:width 3840 ;
-    pedal:height 1838 ;
+    pedal:height 1756 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 10 ;
+    pedal:version 12 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,

@@ -12,64 +12,64 @@ _:b1
     ingen:head <playback_2> .
 
 _:b2
-    ingen:tail <capture_2> ;
-    ingen:head <xfade/inB_right> .
-
-_:b3
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_right> .
-
-_:b4
-    ingen:tail <xfade/out_right> ;
-    ingen:head <Gain2x2_1/In2> .
-
-_:b5
-    ingen:tail <Gain2x2_1/Out1> ;
-    ingen:head <Gain/In> .
-
-_:b6
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inB_left> .
-
-_:b7
-    ingen:tail <Gain2x2_1/Out2> ;
-    ingen:head <Gain/In> .
-
-_:b8
-    ingen:tail <Gain2x2/Out1> ;
-    ingen:head <playback_1> .
-
-_:b9
     ingen:tail <xfade/out_left> ;
     ingen:head <Gain2x2_1/In1> .
 
-_:b10
-    ingen:tail <capture_1> ;
-    ingen:head <xfade/inA_left> .
-
-_:b11
-    ingen:tail <_bajatubedriver_/out> ;
-    ingen:head <CollisionDrive/in> .
-
-_:b12
+_:b3
     ingen:tail <CollisionDrive/out> ;
     ingen:head <Gain2x2/In1> .
 
-_:b13
-    ingen:tail <CollisionDrive/out> ;
-    ingen:head <Gain2x2/In2> .
-
-_:b14
+_:b4
     ingen:tail <mono/out> ;
     ingen:head <_bajatubedriver_/in> .
 
+_:b5
+    ingen:tail <capture_2> ;
+    ingen:head <xfade/inB_right> .
+
+_:b6
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_right> .
+
+_:b7
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inB_left> .
+
+_:b8
+    ingen:tail <Gain2x2_1/Out1> ;
+    ingen:head <Gain/In> .
+
+_:b9
+    ingen:tail <xfade/out_right> ;
+    ingen:head <Gain2x2_1/In2> .
+
+_:b10
+    ingen:tail <Gain2x2_1/Out2> ;
+    ingen:head <Gain/In> .
+
+_:b11
+    ingen:tail <CollisionDrive/out> ;
+    ingen:head <Gain2x2/In2> .
+
+_:b12
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
+
+_:b13
+    ingen:tail <_bajatubedriver_/out> ;
+    ingen:head <CollisionDrive/in> .
+
+_:b14
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inA_left> .
+
 _:b15
-    ingen:tail <wah1_lv2/output> ;
+    ingen:tail <_quack_/out> ;
     ingen:head <mono/in> .
 
 _:b16
     ingen:tail <Gain/Out> ;
-    ingen:head <wah1_lv2/input> .
+    ingen:head <_quack_/in> .
 
 <Gain2x2>
     ingen:canvasX 3368.0 ;
@@ -79,7 +79,7 @@ _:b16
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2/In1> ,
              <Gain2x2/In2> ,
              <Gain2x2/Out1> ,
@@ -178,13 +178,13 @@ _:b16
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade/xfade>
-    ingen:value 1.000000 ;
+<xfade/mode>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade/mode>
-    ingen:value 0.000000 ;
+<xfade/xfade>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -201,7 +201,7 @@ _:b16
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain/In> ,
              <Gain/Out> ,
              <Gain/Gain> ,
@@ -237,7 +237,7 @@ _:b16
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 16 ;
+    mod:releaseNumber 18 ;
     lv2:port <Gain2x2_1/In1> ,
              <Gain2x2_1/In2> ,
              <Gain2x2_1/Out1> ,
@@ -275,45 +275,9 @@ _:b16
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<wah1_lv2>
-    ingen:canvasX 1434.7 ;
-    ingen:canvasY 445.6 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 1 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 7 ;
-    lv2:port <wah1_lv2/input> ,
-             <wah1_lv2/output> ,
-             <wah1_lv2/sensitivity> ,
-             <wah1_lv2/:bypass> ;
-    lv2:prototype <http://overtonedsp.co.uk/lv2/wah1.lv2> ;
-    pedal:instanceNumber 6 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<wah1_lv2/input>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<wah1_lv2/input>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<wah1_lv2/sensitivity>
-    ingen:value 1.300000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<wah1_lv2/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <mono>
-    ingen:canvasX 1857.7 ;
-    ingen:canvasY 364.4 ;
+    ingen:canvasX 1857.0 ;
+    ingen:canvasY 364.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 1 ;
@@ -348,8 +312,8 @@ _:b16
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<mono/bypass>
-    ingen:value 0.000000 ;
+<mono/noClip>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -363,11 +327,6 @@ _:b16
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/noClip>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <mono/attack>
     ingen:value 0.000474 ;
     a lv2:ControlPort ,
@@ -375,6 +334,11 @@ _:b16
 
 <mono/gain>
     ingen:value 3.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/bypass>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -410,7 +374,7 @@ _:b16
         lv2:InputPort .
 
 <CollisionDrive>
-    ingen:canvasX 2818.9 ;
+    ingen:canvasX 2818.0 ;
     ingen:canvasY 463.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
@@ -451,13 +415,13 @@ _:b16
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<CollisionDrive/BRIGHT>
-    ingen:value 0.500000 ;
+<CollisionDrive/ATTACK>
+    ingen:value 2.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<CollisionDrive/LEVEL>
-    ingen:value -2.000000 ;
+<CollisionDrive/BRIGHT>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -466,8 +430,8 @@ _:b16
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<CollisionDrive/ATTACK>
-    ingen:value 2.000000 ;
+<CollisionDrive/LEVEL>
+    ingen:value -2.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -481,8 +445,8 @@ _:b16
         lv2:InputPort .
 
 <_bajatubedriver_>
-    ingen:canvasX 2308.1 ;
-    ingen:canvasY 406.9 ;
+    ingen:canvasX 2308.0 ;
+    ingen:canvasY 406.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -509,18 +473,8 @@ _:b16
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_bajatubedriver_/VOLUME>
-    ingen:value 0.340000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <_bajatubedriver_/TONE>
     ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_bajatubedriver_/BYPASS>
-    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -529,8 +483,96 @@ _:b16
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<_bajatubedriver_/VOLUME>
+    ingen:value 0.340000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_bajatubedriver_/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <_bajatubedriver_/:bypass>
     ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_quack_>
+    ingen:canvasX 1328.3 ;
+    ingen:canvasY 396.2 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 34 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 6 ;
+    lv2:port <_quack_/in> ,
+             <_quack_/out> ,
+             <_quack_/BYPASS> ,
+             <_quack_/DEPTH> ,
+             <_quack_/DRIVE> ,
+             <_quack_/GAIN> ,
+             <_quack_/MODE> ,
+             <_quack_/PEAK> ,
+             <_quack_/RANGE> ,
+             <_quack_/TONE> ,
+             <_quack_/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_quack_#_quack_> ;
+    pedal:instanceNumber 10 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<_quack_/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<_quack_/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<_quack_/TONE>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_quack_/RANGE>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_quack_/PEAK>
+    ingen:value 16.750000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_quack_/DEPTH>
+    ingen:value 0.375000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_quack_/GAIN>
+    ingen:value 6.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_quack_/DRIVE>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_quack_/BYPASS>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_quack_/MODE>
+    ingen:value 2.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_quack_/:bypass>
+    ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -642,12 +684,12 @@ _:b16
     doap:name "GTFX:Wah.Comp.Drives" ;
     pedal:unitName "MOD Dwarf" ;
     pedal:unitModel "dwarf:aarch64-a35" ;
-    pedal:width 0 ;
-    pedal:height 0 ;
+    pedal:width 3840 ;
+    pedal:height 1742 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 4 ;
+    pedal:version 6 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -669,10 +711,10 @@ _:b16
                 <xfade> ,
                 <Gain> ,
                 <Gain2x2_1> ,
-                <wah1_lv2> ,
                 <mono> ,
                 <CollisionDrive> ,
-                <_bajatubedriver_> ;
+                <_bajatubedriver_> ,
+                <_quack_> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,

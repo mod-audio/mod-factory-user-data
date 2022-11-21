@@ -1,0 +1,995 @@
+{
+    "snapshots": [
+        {
+            "name": "Shimmer Delay",
+            "data": {
+                "harmless": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tone": 6000.0,
+                        "rate": 10.043999671936035,
+                        "phase": 0.0,
+                        "depth": 70.0,
+                        "shape": 0.2800000011920929
+                    },
+                    "bypassed": true
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "Mutant": {
+                    "preset": "file:///root/.lv2/mutant.lv2/3_Breakup",
+                    "parameters": {},
+                    "ports": {
+                        "Drivegain": 30.0,
+                        "Pregain": 60.0,
+                        "Treble": 50.0,
+                        "Presence": 100.0,
+                        "DriveVolume": 25.0,
+                        "Drive": 0.0,
+                        "Postgain": 90.0,
+                        "Mid": 50.0,
+                        "Bass": 50.0,
+                        "Volume": 75.0,
+                        "Depth": 50.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "rate": 2.0,
+                        "repeats": 35.75,
+                        "depth": 1.0,
+                        "mix": 60.0,
+                        "morph": 50.0,
+                        "time": 500.0,
+                        "tone": 3000.0
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 10.0,
+                        "Fidelity": 1.0,
+                        "Attenuation": -3.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 30.700000762939453,
+                        "mix": 30.0,
+                        "ratio": 2.0,
+                        "shimmer": 50.0,
+                        "roomsize": 80.0,
+                        "bandwidth": 75.0,
+                        "damping": 50.0,
+                        "tone": 1000.0
+                    },
+                    "bypassed": false
+                }
+            }
+        },
+        {
+            "name": "Fast Wave Shim",
+            "data": {
+                "harmless": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tone": 6000.0,
+                        "rate": 10.043999671936035,
+                        "phase": 0.0,
+                        "depth": 70.0,
+                        "shape": 0.2800000011920929
+                    },
+                    "bypassed": false
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "Mutant": {
+                    "preset": "file:///root/.lv2/mutant.lv2/2_Vintage-Clean",
+                    "parameters": {},
+                    "ports": {
+                        "Drivegain": 25.0,
+                        "Pregain": 35.0,
+                        "Treble": 50.0,
+                        "Presence": 78.0,
+                        "DriveVolume": 25.0,
+                        "Drive": 0.0,
+                        "Postgain": 65.0,
+                        "Mid": 90.0,
+                        "Bass": 25.0,
+                        "Volume": 90.0,
+                        "Depth": 30.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "rate": 2.0,
+                        "repeats": 35.75,
+                        "depth": 1.0,
+                        "mix": 60.0,
+                        "morph": 50.0,
+                        "time": 500.0,
+                        "tone": 3000.0
+                    },
+                    "bypassed": true
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 10.0,
+                        "Fidelity": 1.0,
+                        "Attenuation": -3.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 30.700000762939453,
+                        "mix": 30.0,
+                        "ratio": 2.0,
+                        "shimmer": 50.0,
+                        "roomsize": 80.0,
+                        "bandwidth": 75.0,
+                        "damping": 50.0,
+                        "tone": 1000.0
+                    },
+                    "bypassed": false
+                }
+            }
+        },
+        {
+            "name": "Fifth Slap",
+            "data": {
+                "harmless": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tone": 6000.0,
+                        "rate": 10.043999671936035,
+                        "phase": 0.0,
+                        "depth": 70.0,
+                        "shape": 0.2800000011920929
+                    },
+                    "bypassed": true
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "Mutant": {
+                    "preset": "file:///root/.lv2/mutant.lv2/2_Vintage-Clean",
+                    "parameters": {},
+                    "ports": {
+                        "Drivegain": 25.0,
+                        "Pregain": 35.0,
+                        "Treble": 50.0,
+                        "Presence": 78.0,
+                        "DriveVolume": 25.0,
+                        "Drive": 0.0,
+                        "Postgain": 65.0,
+                        "Mid": 90.0,
+                        "Bass": 25.0,
+                        "Volume": 90.0,
+                        "Depth": 30.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "rate": 2.0,
+                        "repeats": 85.25,
+                        "depth": 1.0,
+                        "mix": 60.0,
+                        "morph": 50.0,
+                        "time": 93.5,
+                        "tone": 3000.0
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 10.0,
+                        "Fidelity": 1.0,
+                        "Attenuation": -3.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 30.700000762939453,
+                        "mix": 30.0,
+                        "ratio": 1.5049999999999999,
+                        "shimmer": 50.0,
+                        "roomsize": 80.0,
+                        "bandwidth": 75.0,
+                        "damping": 50.0,
+                        "tone": 1000.0
+                    },
+                    "bypassed": false
+                }
+            }
+        },
+        {
+            "name": "Delay",
+            "data": {
+                "harmless": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tone": 6000.0,
+                        "rate": 10.043999671936035,
+                        "phase": 0.0,
+                        "depth": 70.0,
+                        "shape": 0.2800000011920929
+                    },
+                    "bypassed": true
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "Mutant": {
+                    "preset": "file:///root/.lv2/mutant.lv2/2_Vintage-Clean",
+                    "parameters": {},
+                    "ports": {
+                        "Drivegain": 25.0,
+                        "Pregain": 35.0,
+                        "Treble": 50.0,
+                        "Presence": 78.0,
+                        "DriveVolume": 25.0,
+                        "Drive": 0.0,
+                        "Postgain": 65.0,
+                        "Mid": 90.0,
+                        "Bass": 25.0,
+                        "Volume": 90.0,
+                        "Depth": 30.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "rate": 2.0,
+                        "repeats": 35.75,
+                        "depth": 1.0,
+                        "mix": 60.0,
+                        "morph": 50.0,
+                        "time": 500.0,
+                        "tone": 3000.0
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 10.0,
+                        "Fidelity": 1.0,
+                        "Attenuation": -3.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 30.700000762939453,
+                        "mix": 30.0,
+                        "ratio": 2.0,
+                        "shimmer": 50.0,
+                        "roomsize": 80.0,
+                        "bandwidth": 75.0,
+                        "damping": 50.0,
+                        "tone": 1000.0
+                    },
+                    "bypassed": true
+                }
+            }
+        },
+        {
+            "name": "Sim+Shimdelay",
+            "data": {
+                "harmless": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tone": 6000.0,
+                        "rate": 10.043999671936035,
+                        "phase": 0.0,
+                        "depth": 70.0,
+                        "shape": 0.2800000011920929
+                    },
+                    "bypassed": true
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "Mutant": {
+                    "preset": "file:///root/.lv2/mutant.lv2/3_Breakup",
+                    "parameters": {},
+                    "ports": {
+                        "Drivegain": 30.0,
+                        "Pregain": 60.0,
+                        "Treble": 50.0,
+                        "Presence": 100.0,
+                        "DriveVolume": 25.0,
+                        "Drive": 0.0,
+                        "Postgain": 90.0,
+                        "Mid": 50.0,
+                        "Bass": 50.0,
+                        "Volume": 75.0,
+                        "Depth": 50.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "rate": 2.0,
+                        "repeats": 35.75,
+                        "depth": 1.0,
+                        "mix": 60.0,
+                        "morph": 50.0,
+                        "time": 500.0,
+                        "tone": 3000.0
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 10.0,
+                        "Fidelity": 1.0,
+                        "Attenuation": -3.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 30.700000762939453,
+                        "mix": 30.0,
+                        "ratio": 2.0,
+                        "shimmer": 50.0,
+                        "roomsize": 80.0,
+                        "bandwidth": 75.0,
+                        "damping": 50.0,
+                        "tone": 1000.0
+                    },
+                    "bypassed": false
+                }
+            }
+        },
+        {
+            "name": "Sim+FWShim",
+            "data": {
+                "harmless": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tone": 6000.0,
+                        "rate": 10.043999671936035,
+                        "phase": 0.0,
+                        "depth": 70.0,
+                        "shape": 0.2800000011920929
+                    },
+                    "bypassed": false
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "Mutant": {
+                    "preset": "file:///root/.lv2/mutant.lv2/3_Breakup",
+                    "parameters": {},
+                    "ports": {
+                        "Drivegain": 30.0,
+                        "Pregain": 60.0,
+                        "Treble": 50.0,
+                        "Presence": 100.0,
+                        "DriveVolume": 25.0,
+                        "Drive": 0.0,
+                        "Postgain": 90.0,
+                        "Mid": 50.0,
+                        "Bass": 50.0,
+                        "Volume": 75.0,
+                        "Depth": 50.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "rate": 2.0,
+                        "repeats": 35.75,
+                        "depth": 1.0,
+                        "mix": 60.0,
+                        "morph": 50.0,
+                        "time": 500.0,
+                        "tone": 3000.0
+                    },
+                    "bypassed": true
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 10.0,
+                        "Fidelity": 1.0,
+                        "Attenuation": -3.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 30.700000762939453,
+                        "mix": 30.0,
+                        "ratio": 2.0,
+                        "shimmer": 50.0,
+                        "roomsize": 80.0,
+                        "bandwidth": 75.0,
+                        "damping": 50.0,
+                        "tone": 1000.0
+                    },
+                    "bypassed": false
+                }
+            }
+        },
+        {
+            "name": "Sim+Fifthslap",
+            "data": {
+                "harmless": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tone": 6000.0,
+                        "rate": 10.043999671936035,
+                        "phase": 0.0,
+                        "depth": 70.0,
+                        "shape": 0.2800000011920929
+                    },
+                    "bypassed": true
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "Mutant": {
+                    "preset": "file:///root/.lv2/mutant.lv2/3_Breakup",
+                    "parameters": {},
+                    "ports": {
+                        "Drivegain": 30.0,
+                        "Pregain": 60.0,
+                        "Treble": 50.0,
+                        "Presence": 100.0,
+                        "DriveVolume": 25.0,
+                        "Drive": 0.0,
+                        "Postgain": 90.0,
+                        "Mid": 50.0,
+                        "Bass": 50.0,
+                        "Volume": 75.0,
+                        "Depth": 50.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "rate": 2.0,
+                        "repeats": 84.700000000000003,
+                        "depth": 1.0,
+                        "mix": 60.0,
+                        "morph": 50.0,
+                        "time": 93.5,
+                        "tone": 3000.0
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 10.0,
+                        "Fidelity": 1.0,
+                        "Attenuation": -3.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 30.700000762939453,
+                        "mix": 30.0,
+                        "ratio": 1.5049999999999999,
+                        "shimmer": 50.0,
+                        "roomsize": 80.0,
+                        "bandwidth": 75.0,
+                        "damping": 50.0,
+                        "tone": 1000.0
+                    },
+                    "bypassed": false
+                }
+            }
+        },
+        {
+            "name": "Sim+Delay",
+            "data": {
+                "harmless": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tone": 6000.0,
+                        "rate": 10.043999671936035,
+                        "phase": 0.0,
+                        "depth": 70.0,
+                        "shape": 0.2800000011920929
+                    },
+                    "bypassed": true
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "Mutant": {
+                    "preset": "file:///root/.lv2/mutant.lv2/3_Breakup",
+                    "parameters": {},
+                    "ports": {
+                        "Drivegain": 30.0,
+                        "Pregain": 60.0,
+                        "Treble": 50.0,
+                        "Presence": 100.0,
+                        "DriveVolume": 25.0,
+                        "Drive": 0.0,
+                        "Postgain": 90.0,
+                        "Mid": 50.0,
+                        "Bass": 50.0,
+                        "Volume": 75.0,
+                        "Depth": 50.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "rate": 2.0,
+                        "repeats": 35.75,
+                        "depth": 1.0,
+                        "mix": 60.0,
+                        "morph": 50.0,
+                        "time": 500.0,
+                        "tone": 3000.0
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 10.0,
+                        "Fidelity": 1.0,
+                        "Attenuation": -3.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 30.700000762939453,
+                        "mix": 30.0,
+                        "ratio": 2.0,
+                        "shimmer": 50.0,
+                        "roomsize": 80.0,
+                        "bandwidth": 75.0,
+                        "damping": 50.0,
+                        "tone": 1000.0
+                    },
+                    "bypassed": true
+                }
+            }
+        },
+        {
+            "name": "Sim+dlyverb",
+            "data": {
+                "harmless": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "tone": 6000.0,
+                        "rate": 10.043999671936035,
+                        "phase": 0.0,
+                        "depth": 70.0,
+                        "shape": 0.2800000011920929
+                    },
+                    "bypassed": true
+                },
+                "Gain": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "bypassed": false
+                },
+                "Mutant": {
+                    "preset": "file:///root/.lv2/mutant.lv2/3_Breakup",
+                    "parameters": {},
+                    "ports": {
+                        "Drivegain": 30.0,
+                        "Pregain": 60.0,
+                        "Treble": 50.0,
+                        "Presence": 100.0,
+                        "DriveVolume": 25.0,
+                        "Drive": 0.0,
+                        "Postgain": 90.0,
+                        "Mid": 50.0,
+                        "Bass": 50.0,
+                        "Volume": 75.0,
+                        "Depth": 50.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false
+                },
+                "modulay": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "rate": 2.0,
+                        "repeats": 35.75,
+                        "depth": 1.0,
+                        "mix": 60.0,
+                        "morph": 50.0,
+                        "time": 500.0,
+                        "tone": 3000.0
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 10.0,
+                        "Fidelity": 1.0,
+                        "Attenuation": -3.0
+                    },
+                    "bypassed": false
+                },
+                "xfade": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": true
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "xfade": 1.0,
+                        "mode": 0.0,
+                        "shape": 0.0
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 30.700000762939453,
+                        "mix": 30.0,
+                        "ratio": 1.0029999999999999,
+                        "shimmer": 50.0,
+                        "roomsize": 80.0,
+                        "bandwidth": 75.0,
+                        "damping": 50.0,
+                        "tone": 1000.0
+                    },
+                    "bypassed": false
+                }
+            }
+        }
+    ],
+    "current": 0
+}

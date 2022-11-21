@@ -1,91 +1,57 @@
 {
+    "current": 0,
     "snapshots": [
         {
+            "name": "Default",
             "data": {
-                "cabsim_vintage": {
-                    "parameters": {},
-                    "ports": {
-                        "Attenuation": 0.0,
-                        "Model": 0.0
-                    },
-                    "preset": "",
-                    "bypassed": false
-                },
-                "faIR_cabsim": {
-                    "parameters": {},
-                    "ports": {
-                        "Attenuation": 0.0,
-                        "Model": 0.0
-                    },
-                    "preset": "",
-                    "bypassed": false
-                },
                 "xfade": {
+                    "parameters": {},
                     "preset": "",
+                    "bypassed": true,
                     "ports": {
                         "shape": 0.0,
                         "xfade": 1.0,
                         "mode": 0.0
-                    },
-                    "bypassed": true,
-                    "parameters": {}
-                },
-                "Gain2x2_1": {
-                    "preset": "",
-                    "ports": {
-                        "Gain": 0.0
-                    },
-                    "bypassed": false,
-                    "parameters": {}
+                    }
                 },
                 "xfade_1": {
+                    "parameters": {},
                     "preset": "",
+                    "bypassed": false,
                     "ports": {
                         "shape": 0.0,
                         "xfade": 1.0,
                         "mode": 0.0
-                    },
-                    "bypassed": true,
-                    "parameters": {}
-                },
-                "Gain2x2": {
-                    "preset": "",
-                    "ports": {
-                        "Gain": 0.0
-                    },
-                    "bypassed": false,
-                    "parameters": {}
-                },
-                "Gain": {
-                    "preset": "",
-                    "ports": {
-                        "Gain": -6.0
-                    },
-                    "bypassed": false,
-                    "parameters": {}
+                    }
                 },
                 "cabsim_bass": {
                     "parameters": {},
-                    "ports": {
-                        "Attenuation": -17.0,
-                        "MicPos": 0.0,
-                        "Model": 0.0
-                    },
                     "preset": "",
-                    "bypassed": false
+                    "bypassed": false,
+                    "ports": {
+                        "Attenuation": -3.0,
+                        "Model": 0.0,
+                        "Fidelity": 1.0,
+                        "MicPos": 0.0
+                    }
                 },
-                "cabsim_modern": {
+                "Gain2x2": {
                     "parameters": {},
-                    "ports": {
-                        "Attenuation": 0.0,
-                        "Model": 0.0
-                    },
                     "preset": "",
-                    "bypassed": false
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "Gain": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    }
                 }
-            },
-            "name": "Default"
+            }
         }
-    ],
-    "current": 0
+    ]
 }

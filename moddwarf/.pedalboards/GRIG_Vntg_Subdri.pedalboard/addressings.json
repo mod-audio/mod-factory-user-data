@@ -1,0 +1,179 @@
+{
+    "/bpm": [],
+    "/hmi/group1": [],
+    "/hmi/footswitch2": [
+        {
+            "group": null,
+            "maximum": 1.0,
+            "momentary": 0,
+            "label": "Baja TubeDriver",
+            "subpage": 0,
+            "page": 0,
+            "tempo": false,
+            "minimum": 0.0,
+            "coloured": false,
+            "port": ":bypass",
+            "instance": "/graph/_bajatubedriver_",
+            "steps": 201,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "group": null,
+            "maximum": 1.0,
+            "momentary": 0,
+            "label": "DRIVE",
+            "subpage": 0,
+            "page": 0,
+            "tempo": false,
+            "minimum": 0.0,
+            "coloured": false,
+            "port": "DRIVE",
+            "instance": "/graph/_bajatubedriver_",
+            "steps": 201,
+            "dividers": null
+        },
+        {
+            "group": null,
+            "maximum": 1.0,
+            "momentary": 0,
+            "label": "GAIN",
+            "subpage": 1,
+            "page": 0,
+            "tempo": false,
+            "minimum": 0.0,
+            "coloured": false,
+            "port": "GAIN",
+            "instance": "/graph/_supersonic_",
+            "steps": 201,
+            "dividers": null
+        },
+        {
+            "group": null,
+            "maximum": 12.0,
+            "momentary": 0,
+            "label": "Cab L.",
+            "subpage": 2,
+            "page": 0,
+            "tempo": false,
+            "minimum": 0.0,
+            "coloured": false,
+            "port": "Model",
+            "instance": "/graph/cabsim_vintage",
+            "steps": 12,
+            "dividers": null
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "group": null,
+            "maximum": 1.0,
+            "momentary": 0,
+            "label": "-Octave",
+            "subpage": 0,
+            "page": 0,
+            "tempo": false,
+            "minimum": 0.0,
+            "coloured": false,
+            "port": ":bypass",
+            "instance": "/graph/Drop",
+            "steps": 201,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "group": null,
+            "maximum": 1.0,
+            "momentary": 0,
+            "label": "VOLUME",
+            "subpage": 0,
+            "page": 0,
+            "tempo": false,
+            "minimum": 0.0,
+            "coloured": false,
+            "port": "VOLUME",
+            "instance": "/graph/_bajatubedriver_",
+            "steps": 201,
+            "dividers": null
+        },
+        {
+            "group": null,
+            "maximum": 1.0,
+            "momentary": 0,
+            "label": "TREBLE",
+            "subpage": 1,
+            "page": 0,
+            "tempo": false,
+            "minimum": 0.0,
+            "coloured": false,
+            "port": "TREBLE",
+            "instance": "/graph/_supersonic_",
+            "steps": 201,
+            "dividers": null
+        },
+        {
+            "group": null,
+            "maximum": 1.0,
+            "momentary": 0,
+            "label": "Verb Mix",
+            "subpage": 2,
+            "page": 0,
+            "tempo": false,
+            "minimum": 0.0,
+            "coloured": false,
+            "port": "blend",
+            "instance": "/graph/PlateX2",
+            "steps": 201,
+            "dividers": null
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "group": null,
+            "maximum": 1.0,
+            "momentary": 0,
+            "label": "TONE",
+            "subpage": 0,
+            "page": 0,
+            "tempo": false,
+            "minimum": 0.0,
+            "coloured": false,
+            "port": "TONE",
+            "instance": "/graph/_bajatubedriver_",
+            "steps": 201,
+            "dividers": null
+        },
+        {
+            "group": null,
+            "maximum": 1.0,
+            "momentary": 0,
+            "label": "BASS",
+            "subpage": 1,
+            "page": 0,
+            "tempo": false,
+            "minimum": 0.0,
+            "coloured": false,
+            "port": "BASS",
+            "instance": "/graph/_supersonic_",
+            "steps": 201,
+            "dividers": null
+        },
+        {
+            "group": null,
+            "maximum": 12.0,
+            "momentary": 0,
+            "label": "Cab R.",
+            "subpage": 2,
+            "page": 0,
+            "tempo": false,
+            "minimum": 0.0,
+            "coloured": false,
+            "port": "Model",
+            "instance": "/graph/cabsim_vintage_1",
+            "steps": 12,
+            "dividers": null
+        }
+    ]
+}

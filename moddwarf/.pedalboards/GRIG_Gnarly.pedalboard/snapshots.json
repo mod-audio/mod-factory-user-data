@@ -1,0 +1,390 @@
+{
+    "snapshots": [
+        {
+            "name": "Clean",
+            "data": {
+                "paranoia": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "wet": -11.699999999999999,
+                        "crush": 40.0,
+                        "nuclear": 12.32,
+                        "filter": 40.0
+                    },
+                    "bypassed": true
+                },
+                "Plate": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "damping": 0.125,
+                        "blend": 0.19,
+                        "tail": 0.30499999999999999
+                    },
+                    "bypassed": false
+                },
+                "faIR_cabsim": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "Attenuation": -7.0,
+                        "Model": 0.0
+                    },
+                    "bypassed": false
+                },
+                "_timray_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "TRIM": 0.5,
+                        "BYPASS": 0.0,
+                        "BASS": 0.5,
+                        "VOLUME": 0.5,
+                        "GAIN": 0.73913002014160156,
+                        "TREBLE": 0.5
+                    },
+                    "bypassed": true
+                },
+                "Mutant": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/mutant.lv2/3_Breakup",
+                    "ports": {
+                        "DriveVolume": 25.0,
+                        "Depth": 50.0,
+                        "Pregain": 60.0,
+                        "Volume": 75.0,
+                        "Postgain": 90.0,
+                        "Drive": 0.0,
+                        "Drivegain": 30.0,
+                        "Presence": 100.0,
+                        "Bass": 50.0,
+                        "Mid": 50.0,
+                        "Treble": 50.0
+                    },
+                    "bypassed": false
+                },
+                "mud": {
+                    "parameters": {},
+                    "preset": "http://remaincalm.org/plugins/mud#preset005",
+                    "ports": {
+                        "lfo": -40.0,
+                        "mix": 75.0,
+                        "filter": 22.5
+                    },
+                    "bypassed": true
+                }
+            }
+        },
+        {
+            "name": "Mudulated",
+            "data": {
+                "paranoia": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "wet": -11.699999999999999,
+                        "crush": 40.0,
+                        "nuclear": 12.32,
+                        "filter": 40.0
+                    },
+                    "bypassed": true
+                },
+                "Plate": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "damping": 0.125,
+                        "blend": 0.19,
+                        "tail": 0.30499999999999999
+                    },
+                    "bypassed": false
+                },
+                "faIR_cabsim": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "Attenuation": -7.0,
+                        "Model": 0.0
+                    },
+                    "bypassed": false
+                },
+                "_timray_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "TRIM": 0.5,
+                        "BYPASS": 0.0,
+                        "BASS": 0.5,
+                        "VOLUME": 0.5,
+                        "GAIN": 0.73913002014160156,
+                        "TREBLE": 0.5
+                    },
+                    "bypassed": true
+                },
+                "Mutant": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/mutant.lv2/3_Breakup",
+                    "ports": {
+                        "DriveVolume": 25.0,
+                        "Depth": 50.0,
+                        "Pregain": 60.0,
+                        "Volume": 75.0,
+                        "Postgain": 90.0,
+                        "Drive": 0.0,
+                        "Drivegain": 30.0,
+                        "Presence": 100.0,
+                        "Bass": 50.0,
+                        "Mid": 50.0,
+                        "Treble": 50.0
+                    },
+                    "bypassed": false
+                },
+                "mud": {
+                    "parameters": {},
+                    "preset": "http://remaincalm.org/plugins/mud#preset005",
+                    "ports": {
+                        "lfo": -40.0,
+                        "mix": 75.0,
+                        "filter": 22.5
+                    },
+                    "bypassed": false
+                }
+            }
+        },
+        {
+            "name": "Dist Mud",
+            "data": {
+                "paranoia": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "wet": -11.699999999999999,
+                        "crush": 40.0,
+                        "nuclear": 12.32,
+                        "filter": 40.0
+                    },
+                    "bypassed": true
+                },
+                "Plate": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "damping": 0.125,
+                        "blend": 0.19,
+                        "tail": 0.30499999999999999
+                    },
+                    "bypassed": false
+                },
+                "faIR_cabsim": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "Attenuation": -7.0,
+                        "Model": 0.0
+                    },
+                    "bypassed": false
+                },
+                "_timray_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "TRIM": 0.5,
+                        "BYPASS": 1.0,
+                        "BASS": 0.5,
+                        "VOLUME": 0.5,
+                        "GAIN": 0.73913002014160156,
+                        "TREBLE": 0.5
+                    },
+                    "bypassed": false
+                },
+                "Mutant": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/mutant.lv2/3_Breakup",
+                    "ports": {
+                        "DriveVolume": 25.0,
+                        "Depth": 50.0,
+                        "Pregain": 60.0,
+                        "Volume": 75.0,
+                        "Postgain": 90.0,
+                        "Drive": 0.0,
+                        "Drivegain": 30.0,
+                        "Presence": 100.0,
+                        "Bass": 50.0,
+                        "Mid": 50.0,
+                        "Treble": 50.0
+                    },
+                    "bypassed": false
+                },
+                "mud": {
+                    "parameters": {},
+                    "preset": "http://remaincalm.org/plugins/mud#preset005",
+                    "ports": {
+                        "lfo": -40.0,
+                        "mix": 75.0,
+                        "filter": 22.5
+                    },
+                    "bypassed": false
+                }
+            }
+        },
+        {
+            "name": "Destroy Mud",
+            "data": {
+                "paranoia": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "wet": -11.699999999999999,
+                        "crush": 40.0,
+                        "nuclear": 12.32,
+                        "filter": 40.0
+                    },
+                    "bypassed": false
+                },
+                "Plate": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "damping": 0.125,
+                        "blend": 0.19,
+                        "tail": 0.30499999999999999
+                    },
+                    "bypassed": false
+                },
+                "faIR_cabsim": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "Attenuation": -7.0,
+                        "Model": 0.0
+                    },
+                    "bypassed": false
+                },
+                "_timray_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "TRIM": 0.5,
+                        "BYPASS": 0.0,
+                        "BASS": 0.5,
+                        "VOLUME": 0.5,
+                        "GAIN": 0.73913002014160156,
+                        "TREBLE": 0.5
+                    },
+                    "bypassed": true
+                },
+                "Mutant": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/mutant.lv2/3_Breakup",
+                    "ports": {
+                        "DriveVolume": 25.0,
+                        "Depth": 50.0,
+                        "Pregain": 60.0,
+                        "Volume": 75.0,
+                        "Postgain": 90.0,
+                        "Drive": 0.0,
+                        "Drivegain": 30.0,
+                        "Presence": 100.0,
+                        "Bass": 50.0,
+                        "Mid": 50.0,
+                        "Treble": 50.0
+                    },
+                    "bypassed": false
+                },
+                "mud": {
+                    "parameters": {},
+                    "preset": "http://remaincalm.org/plugins/mud#preset005",
+                    "ports": {
+                        "lfo": -40.0,
+                        "mix": 75.0,
+                        "filter": 22.5
+                    },
+                    "bypassed": false
+                }
+            }
+        },
+        {
+            "name": "All Out",
+            "data": {
+                "paranoia": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "wet": -11.699999999999999,
+                        "crush": 40.0,
+                        "nuclear": 12.32,
+                        "filter": 40.0
+                    },
+                    "bypassed": false
+                },
+                "Plate": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "bandwidth": 0.99949997663497925,
+                        "damping": 0.125,
+                        "blend": 0.19,
+                        "tail": 0.30499999999999999
+                    },
+                    "bypassed": false
+                },
+                "faIR_cabsim": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "Attenuation": -7.0,
+                        "Model": 0.0
+                    },
+                    "bypassed": false
+                },
+                "_timray_": {
+                    "parameters": {},
+                    "preset": "",
+                    "ports": {
+                        "TRIM": 0.5,
+                        "BYPASS": 1.0,
+                        "BASS": 0.5,
+                        "VOLUME": 0.5,
+                        "GAIN": 0.73913002014160156,
+                        "TREBLE": 0.5
+                    },
+                    "bypassed": false
+                },
+                "Mutant": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/mutant.lv2/3_Breakup",
+                    "ports": {
+                        "DriveVolume": 25.0,
+                        "Depth": 50.0,
+                        "Pregain": 60.0,
+                        "Volume": 75.0,
+                        "Postgain": 90.0,
+                        "Drive": 0.0,
+                        "Drivegain": 30.0,
+                        "Presence": 100.0,
+                        "Bass": 50.0,
+                        "Mid": 50.0,
+                        "Treble": 50.0
+                    },
+                    "bypassed": false
+                },
+                "mud": {
+                    "parameters": {},
+                    "preset": "http://remaincalm.org/plugins/mud#preset005",
+                    "ports": {
+                        "lfo": -40.0,
+                        "mix": 75.0,
+                        "filter": 22.5
+                    },
+                    "bypassed": false
+                }
+            }
+        }
+    ],
+    "current": 0
+}

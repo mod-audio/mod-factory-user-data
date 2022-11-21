@@ -1,0 +1,409 @@
+{
+    "snapshots": [
+        {
+            "name": "Touch of Verb",
+            "data": {
+                "tremolo": {
+                    "preset": "file:///root/.lv2/tap-tremolo.lv2/default-preset",
+                    "parameters": {},
+                    "ports": {
+                        "frequency": 5.0,
+                        "gain": 0.0,
+                        "depth": 50.0
+                    },
+                    "bypassed": true
+                },
+                "_supersonic_": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "TREBLE": 0.5,
+                        "BASS": 0.5,
+                        "GAIN": 0.14999999999999999,
+                        "VOLUME": 0.25,
+                        "BYPASS": 1.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -8.0
+                    },
+                    "bypassed": false
+                },
+                "CABINET": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "CLevel": 1.0,
+                        "CBass": -5.333333333333333,
+                        "CTreble": 0.0,
+                        "c_model": 12.0
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 0.0,
+                        "Fidelity": 1.0,
+                        "Attenuation": 0.0
+                    },
+                    "bypassed": false
+                },
+                "reverb": {
+                    "preset": "file:///root/.lv2/tap-reverb.lv2/default-preset",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 2800.0,
+                        "allps_en": 1.0,
+                        "bandpass_en": 1.0,
+                        "mode": 3.0,
+                        "drylevel": -4.0,
+                        "wetlevel": -18.0,
+                        "stereo_enh": 1.0,
+                        "combs_en": 1.0
+                    },
+                    "bypassed": false
+                },
+                "mono": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "ratio": 6.0,
+                        "gain": 0.0,
+                        "bypass": 0.0,
+                        "noClip": 1.0,
+                        "release": 0.05000000074505806,
+                        "threshold": -18.0,
+                        "rms": 0.5,
+                        "attack": 0.00021300000662449747
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "file:///root/.lv2/Shiroverb.lv2/default-preset",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 50.0,
+                        "shimmer": 50.0,
+                        "roomsize": 150.0,
+                        "tone": 1500.0,
+                        "mix": 50.0,
+                        "bandwidth": 75.0,
+                        "damping": 50.0,
+                        "ratio": 2.0
+                    },
+                    "bypassed": true
+                }
+            }
+        },
+        {
+            "name": "Tremolo",
+            "data": {
+                "tremolo": {
+                    "preset": "file:///root/.lv2/tap-tremolo.lv2/default-preset",
+                    "parameters": {},
+                    "ports": {
+                        "frequency": 5.0,
+                        "gain": 0.0,
+                        "depth": 100.0
+                    },
+                    "bypassed": false
+                },
+                "_supersonic_": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "TREBLE": 0.5,
+                        "GAIN": 0.14999999999999999,
+                        "VOLUME": 0.25,
+                        "BASS": 0.5,
+                        "BYPASS": 1.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -8.0
+                    },
+                    "bypassed": false
+                },
+                "CABINET": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "CLevel": 1.0,
+                        "CBass": -5.333333333333333,
+                        "c_model": 12.0,
+                        "CTreble": 0.0
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 0.0,
+                        "Fidelity": 1.0,
+                        "Attenuation": 0.0
+                    },
+                    "bypassed": false
+                },
+                "reverb": {
+                    "preset": "file:///root/.lv2/tap-reverb.lv2/default-preset",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 2800.0,
+                        "allps_en": 1.0,
+                        "bandpass_en": 1.0,
+                        "mode": 3.0,
+                        "drylevel": -4.0,
+                        "wetlevel": -18.0,
+                        "stereo_enh": 1.0,
+                        "combs_en": 1.0
+                    },
+                    "bypassed": false
+                },
+                "mono": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "ratio": 6.0,
+                        "gain": 0.0,
+                        "bypass": 0.0,
+                        "noClip": 1.0,
+                        "release": 0.05000000074505806,
+                        "threshold": -18.0,
+                        "rms": 0.5,
+                        "attack": 0.00021300000662449747
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "file:///root/.lv2/Shiroverb.lv2/default-preset",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 50.0,
+                        "shimmer": 50.0,
+                        "roomsize": 150.0,
+                        "tone": 1500.0,
+                        "mix": 50.0,
+                        "bandwidth": 75.0,
+                        "damping": 50.0,
+                        "ratio": 2.0
+                    },
+                    "bypassed": true
+                }
+            }
+        },
+        {
+            "name": "Shimmer",
+            "data": {
+                "tremolo": {
+                    "preset": "file:///root/.lv2/tap-tremolo.lv2/default-preset",
+                    "parameters": {},
+                    "ports": {
+                        "frequency": 5.0,
+                        "gain": 0.0,
+                        "depth": 50.0
+                    },
+                    "bypassed": true
+                },
+                "_supersonic_": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "TREBLE": 0.5,
+                        "BASS": 0.5,
+                        "GAIN": 0.14999999999999999,
+                        "VOLUME": 0.25,
+                        "BYPASS": 1.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -8.0
+                    },
+                    "bypassed": false
+                },
+                "CABINET": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "CLevel": 1.0,
+                        "CBass": -5.333333333333333,
+                        "CTreble": 0.0,
+                        "c_model": 12.0
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 0.0,
+                        "Fidelity": 1.0,
+                        "Attenuation": 0.0
+                    },
+                    "bypassed": false
+                },
+                "reverb": {
+                    "preset": "file:///root/.lv2/tap-reverb.lv2/default-preset",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 2800.0,
+                        "allps_en": 1.0,
+                        "bandpass_en": 1.0,
+                        "mode": 3.0,
+                        "drylevel": -4.0,
+                        "wetlevel": -18.0,
+                        "stereo_enh": 1.0,
+                        "combs_en": 1.0
+                    },
+                    "bypassed": false
+                },
+                "mono": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "ratio": 6.0,
+                        "gain": 0.0,
+                        "bypass": 0.0,
+                        "noClip": 1.0,
+                        "release": 0.05000000074505806,
+                        "threshold": -18.0,
+                        "rms": 0.5,
+                        "attack": 0.00021300000662449747
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "file:///root/.lv2/Shiroverb.lv2/default-preset",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 50.0,
+                        "shimmer": 50.0,
+                        "roomsize": 150.0,
+                        "tone": 1500.0,
+                        "mix": 50.0,
+                        "bandwidth": 75.0,
+                        "damping": 50.0,
+                        "ratio": 2.0
+                    },
+                    "bypassed": false
+                }
+            }
+        },
+        {
+            "name": "Trem n Shim",
+            "data": {
+                "tremolo": {
+                    "preset": "file:///root/.lv2/tap-tremolo.lv2/default-preset",
+                    "parameters": {},
+                    "ports": {
+                        "frequency": 5.0,
+                        "gain": 0.0,
+                        "depth": 50.0
+                    },
+                    "bypassed": false
+                },
+                "_supersonic_": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "TREBLE": 0.5,
+                        "BASS": 0.5,
+                        "GAIN": 0.14999999999999999,
+                        "VOLUME": 0.25,
+                        "BYPASS": 1.0
+                    },
+                    "bypassed": false
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -8.0
+                    },
+                    "bypassed": false
+                },
+                "CABINET": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "CLevel": 1.0,
+                        "CBass": -5.333333333333333,
+                        "CTreble": 0.0,
+                        "c_model": 12.0
+                    },
+                    "bypassed": false
+                },
+                "cabsim_vintage": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "Model": 0.0,
+                        "Fidelity": 1.0,
+                        "Attenuation": 0.0
+                    },
+                    "bypassed": false
+                },
+                "reverb": {
+                    "preset": "file:///root/.lv2/tap-reverb.lv2/default-preset",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 2800.0,
+                        "allps_en": 1.0,
+                        "bandpass_en": 1.0,
+                        "mode": 3.0,
+                        "drylevel": -4.0,
+                        "wetlevel": -18.0,
+                        "stereo_enh": 1.0,
+                        "combs_en": 1.0
+                    },
+                    "bypassed": false
+                },
+                "mono": {
+                    "preset": "",
+                    "parameters": {},
+                    "ports": {
+                        "ratio": 6.0,
+                        "gain": 0.0,
+                        "bypass": 0.0,
+                        "noClip": 1.0,
+                        "release": 0.05000000074505806,
+                        "threshold": -18.0,
+                        "rms": 0.5,
+                        "attack": 0.00021300000662449747
+                    },
+                    "bypassed": false
+                },
+                "shiroverb": {
+                    "preset": "file:///root/.lv2/Shiroverb.lv2/default-preset",
+                    "parameters": {},
+                    "ports": {
+                        "decay": 50.0,
+                        "shimmer": 50.0,
+                        "roomsize": 150.0,
+                        "tone": 1500.0,
+                        "mix": 50.0,
+                        "bandwidth": 75.0,
+                        "damping": 50.0,
+                        "ratio": 2.0
+                    },
+                    "bypassed": false
+                }
+            }
+        }
+    ],
+    "current": 0
+}

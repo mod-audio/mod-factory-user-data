@@ -1,485 +1,493 @@
 {
-    "current": 0,
     "snapshots": [
         {
-            "name": "VibratoVerb",
             "data": {
-                "modulay": {
-                    "preset": "",
-                    "bypassed": true,
-                    "parameters": {},
-                    "ports": {
-                        "rate": 2.0,
-                        "repeats": 75.0,
-                        "tone": 3000.0,
-                        "depth": 1.0,
-                        "time": 500.0,
-                        "mix": 75.0,
-                        "morph": 50.0
-                    }
-                },
-                "larynx": {
-                    "preset": "",
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "depth": 1.0,
-                        "rate": 5.0,
-                        "tone": 6000.0
-                    }
-                },
-                "Gain2x2_1": {
-                    "preset": "",
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "Gain": 0.0
-                    }
-                },
-                "cabsim_vintage_1": {
-                    "bypassed": false,
-                    "ports": {
-                        "Attenuation": 0.0,
-                        "Model": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "Gain2x2": {
-                    "preset": "",
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "Gain": 0.0
-                    }
-                },
-                "harmless": {
-                    "preset": "",
-                    "bypassed": true,
-                    "parameters": {},
-                    "ports": {
-                        "rate": 4.0,
-                        "depth": 100.0,
-                        "phase": 0.0,
-                        "shape": 0.5,
-                        "tone": 6000.0
-                    }
-                },
-                "_supersonic_": {
-                    "bypassed": false,
-                    "ports": {
-                        "BYPASS": 1.0,
-                        "BASS": 0.5,
-                        "TREBLE": 0.5,
-                        "VOLUME": 0.20000000000000001,
-                        "GAIN": 0.15000000596046448
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
                 "xfade": {
-                    "preset": "",
-                    "bypassed": true,
                     "parameters": {},
                     "ports": {
                         "xfade": 1.0,
                         "mode": 0.0,
                         "shape": 0.0
-                    }
-                },
-                "cabsim_vintage": {
-                    "bypassed": false,
-                    "ports": {
-                        "Attenuation": 0.0,
-                        "Model": 0.0
                     },
-                    "preset": "",
-                    "parameters": {}
+                    "bypassed": true,
+                    "preset": ""
                 },
-                "shiroverb": {
-                    "preset": "",
-                    "bypassed": false,
+                "cabsim_vintage_1": {
                     "parameters": {},
                     "ports": {
-                        "ratio": 2.0,
+                        "Attenuation": 0.0,
+                        "Model": 0.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "modulay": {
+                    "parameters": {},
+                    "ports": {
+                        "rate": 2.0,
+                        "repeats": 75.0,
+                        "time": 500.0,
+                        "morph": 50.0,
+                        "tone": 3000.0,
+                        "depth": 1.0,
+                        "mix": 75.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "_supersonic_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.15000000596046448,
+                        "BASS": 0.5,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.20000000000000001
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "ports": {
+                        "shimmer": 50.0,
+                        "roomsize": 150.0,
                         "bandwidth": 75.0,
                         "tone": 1500.0,
-                        "shimmer": 50.0,
                         "decay": 50.0,
-                        "mix": 50.0,
-                        "roomsize": 150.0,
-                        "damping": 50.0
-                    }
+                        "ratio": 2.0,
+                        "damping": 50.0,
+                        "mix": 50.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "Gain": {
-                    "preset": "",
-                    "bypassed": false,
                     "parameters": {},
                     "ports": {
                         "Gain": -6.0
-                    }
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "larynx": {
+                    "parameters": {},
+                    "ports": {
+                        "depth": 1.0,
+                        "tone": 6000.0,
+                        "rate": 5.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "harmless": {
+                    "parameters": {},
+                    "ports": {
+                        "rate": 4.0,
+                        "tone": 6000.0,
+                        "shape": 0.5,
+                        "depth": 100.0,
+                        "phase": 0.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
                 }
-            }
+            },
+            "name": "VibratoVerb"
         },
         {
-            "name": "Delay Verb",
             "data": {
-                "modulay": {
-                    "preset": "",
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "rate": 2.0,
-                        "repeats": 75.0,
-                        "tone": 3000.0,
-                        "depth": 1.0,
-                        "time": 500.0,
-                        "mix": 75.0,
-                        "morph": 50.0
-                    }
-                },
-                "larynx": {
-                    "preset": "",
-                    "bypassed": true,
-                    "parameters": {},
-                    "ports": {
-                        "depth": 1.0,
-                        "rate": 5.0,
-                        "tone": 6000.0
-                    }
-                },
-                "Gain2x2_1": {
-                    "preset": "",
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "Gain": 0.0
-                    }
-                },
-                "cabsim_vintage_1": {
-                    "bypassed": false,
-                    "ports": {
-                        "Attenuation": 0.0,
-                        "Model": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "Gain2x2": {
-                    "preset": "",
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "Gain": 0.0
-                    }
-                },
-                "harmless": {
-                    "preset": "",
-                    "bypassed": true,
-                    "parameters": {},
-                    "ports": {
-                        "rate": 4.0,
-                        "depth": 100.0,
-                        "phase": 0.0,
-                        "shape": 0.5,
-                        "tone": 6000.0
-                    }
-                },
-                "_supersonic_": {
-                    "bypassed": false,
-                    "ports": {
-                        "BYPASS": 1.0,
-                        "BASS": 0.5,
-                        "TREBLE": 0.5,
-                        "VOLUME": 0.20000000000000001,
-                        "GAIN": 0.15000000596046448
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
                 "xfade": {
-                    "preset": "",
-                    "bypassed": true,
                     "parameters": {},
                     "ports": {
                         "xfade": 1.0,
                         "mode": 0.0,
                         "shape": 0.0
-                    }
-                },
-                "cabsim_vintage": {
-                    "bypassed": false,
-                    "ports": {
-                        "Attenuation": 0.0,
-                        "Model": 0.0
                     },
-                    "preset": "",
-                    "parameters": {}
+                    "bypassed": true,
+                    "preset": ""
                 },
-                "shiroverb": {
-                    "preset": "",
-                    "bypassed": false,
+                "cabsim_vintage_1": {
                     "parameters": {},
                     "ports": {
-                        "ratio": 2.0,
+                        "Attenuation": 0.0,
+                        "Model": 0.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "modulay": {
+                    "parameters": {},
+                    "ports": {
+                        "rate": 2.0,
+                        "repeats": 75.0,
+                        "time": 500.0,
+                        "morph": 50.0,
+                        "tone": 3000.0,
+                        "depth": 1.0,
+                        "mix": 75.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "_supersonic_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.15000000596046448,
+                        "BASS": 0.5,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.20000000000000001
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "shiroverb": {
+                    "parameters": {},
+                    "ports": {
+                        "shimmer": 50.0,
+                        "roomsize": 150.0,
                         "bandwidth": 75.0,
                         "tone": 1500.0,
-                        "shimmer": 50.0,
                         "decay": 50.0,
-                        "mix": 50.0,
-                        "roomsize": 150.0,
-                        "damping": 50.0
-                    }
+                        "ratio": 2.0,
+                        "damping": 50.0,
+                        "mix": 50.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "Gain": {
-                    "preset": "",
-                    "bypassed": false,
                     "parameters": {},
                     "ports": {
                         "Gain": -6.0
-                    }
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "larynx": {
+                    "parameters": {},
+                    "ports": {
+                        "depth": 1.0,
+                        "tone": 6000.0,
+                        "rate": 5.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "harmless": {
+                    "parameters": {},
+                    "ports": {
+                        "rate": 4.0,
+                        "tone": 6000.0,
+                        "shape": 0.5,
+                        "depth": 100.0,
+                        "phase": 0.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
                 }
-            }
+            },
+            "name": "Delay Verb"
         },
         {
-            "name": "Verb Trem",
             "data": {
-                "modulay": {
-                    "preset": "",
-                    "bypassed": true,
-                    "parameters": {},
-                    "ports": {
-                        "rate": 2.0,
-                        "repeats": 75.0,
-                        "tone": 3000.0,
-                        "depth": 1.0,
-                        "time": 500.0,
-                        "mix": 75.0,
-                        "morph": 50.0
-                    }
-                },
-                "larynx": {
-                    "preset": "",
-                    "bypassed": true,
-                    "parameters": {},
-                    "ports": {
-                        "depth": 1.0,
-                        "rate": 5.0,
-                        "tone": 6000.0
-                    }
-                },
-                "Gain2x2_1": {
-                    "preset": "",
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "Gain": 0.0
-                    }
-                },
-                "cabsim_vintage_1": {
-                    "bypassed": false,
-                    "ports": {
-                        "Attenuation": 0.0,
-                        "Model": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "Gain2x2": {
-                    "preset": "",
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "Gain": 0.0
-                    }
-                },
-                "harmless": {
-                    "preset": "",
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "rate": 4.0,
-                        "depth": 100.0,
-                        "phase": 0.0,
-                        "shape": 0.5,
-                        "tone": 6000.0
-                    }
-                },
-                "_supersonic_": {
-                    "bypassed": false,
-                    "ports": {
-                        "BYPASS": 1.0,
-                        "BASS": 0.5,
-                        "TREBLE": 0.5,
-                        "VOLUME": 0.20000000000000001,
-                        "GAIN": 0.15000000596046448
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
                 "xfade": {
-                    "preset": "",
-                    "bypassed": true,
                     "parameters": {},
                     "ports": {
                         "xfade": 1.0,
                         "mode": 0.0,
                         "shape": 0.0
-                    }
+                    },
+                    "bypassed": true,
+                    "preset": ""
                 },
-                "cabsim_vintage": {
-                    "bypassed": false,
+                "cabsim_vintage_1": {
+                    "parameters": {},
                     "ports": {
                         "Attenuation": 0.0,
-                        "Model": 0.0
+                        "Model": 0.0,
+                        "Fidelity": 1.0
                     },
-                    "preset": "",
-                    "parameters": {}
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "modulay": {
+                    "parameters": {},
+                    "ports": {
+                        "rate": 2.0,
+                        "repeats": 75.0,
+                        "time": 500.0,
+                        "morph": 50.0,
+                        "tone": 3000.0,
+                        "depth": 1.0,
+                        "mix": 75.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "_supersonic_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.15000000596046448,
+                        "BASS": 0.5,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.20000000000000001
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "shiroverb": {
-                    "preset": "",
-                    "bypassed": false,
                     "parameters": {},
                     "ports": {
-                        "ratio": 2.0,
+                        "shimmer": 50.0,
+                        "roomsize": 150.0,
                         "bandwidth": 75.0,
                         "tone": 1500.0,
-                        "shimmer": 50.0,
                         "decay": 50.0,
-                        "mix": 50.0,
-                        "roomsize": 150.0,
-                        "damping": 50.0
-                    }
-                },
-                "Gain": {
-                    "preset": "",
+                        "ratio": 2.0,
+                        "damping": 50.0,
+                        "mix": 50.0
+                    },
                     "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2": {
                     "parameters": {},
                     "ports": {
-                        "Gain": -6.0
-                    }
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -1.8303571428571388
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "larynx": {
+                    "parameters": {},
+                    "ports": {
+                        "depth": 1.0,
+                        "tone": 6000.0,
+                        "rate": 5.0
+                    },
+                    "bypassed": true,
+                    "preset": ""
+                },
+                "harmless": {
+                    "parameters": {},
+                    "ports": {
+                        "rate": 4.0,
+                        "tone": 6000.0,
+                        "shape": 0.5,
+                        "depth": 100.0,
+                        "phase": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
                 }
-            }
+            },
+            "name": "Verb Trem"
         },
         {
-            "name": "All On",
             "data": {
-                "modulay": {
-                    "preset": "",
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "rate": 2.0,
-                        "repeats": 75.0,
-                        "tone": 3000.0,
-                        "depth": 1.0,
-                        "time": 500.0,
-                        "mix": 75.0,
-                        "morph": 50.0
-                    }
-                },
-                "larynx": {
-                    "preset": "",
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "depth": 1.0,
-                        "rate": 5.0,
-                        "tone": 6000.0
-                    }
-                },
-                "Gain2x2_1": {
-                    "preset": "",
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "Gain": 0.0
-                    }
-                },
-                "cabsim_vintage_1": {
-                    "bypassed": false,
-                    "ports": {
-                        "Attenuation": 0.0,
-                        "Model": 0.0
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
-                "Gain2x2": {
-                    "preset": "",
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "Gain": 0.0
-                    }
-                },
-                "harmless": {
-                    "preset": "",
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "rate": 4.0,
-                        "depth": 100.0,
-                        "phase": 0.0,
-                        "shape": 0.5,
-                        "tone": 6000.0
-                    }
-                },
-                "_supersonic_": {
-                    "bypassed": false,
-                    "ports": {
-                        "BYPASS": 1.0,
-                        "BASS": 0.5,
-                        "TREBLE": 0.5,
-                        "VOLUME": 0.20000000000000001,
-                        "GAIN": 0.15000000596046448
-                    },
-                    "preset": "",
-                    "parameters": {}
-                },
                 "xfade": {
-                    "preset": "",
-                    "bypassed": true,
                     "parameters": {},
                     "ports": {
                         "xfade": 1.0,
                         "mode": 0.0,
                         "shape": 0.0
-                    }
+                    },
+                    "bypassed": true,
+                    "preset": ""
                 },
-                "cabsim_vintage": {
-                    "bypassed": false,
+                "cabsim_vintage_1": {
+                    "parameters": {},
                     "ports": {
                         "Attenuation": 0.0,
-                        "Model": 0.0
+                        "Model": 0.0,
+                        "Fidelity": 1.0
                     },
-                    "preset": "",
-                    "parameters": {}
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2_1": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "modulay": {
+                    "parameters": {},
+                    "ports": {
+                        "rate": 2.0,
+                        "repeats": 75.0,
+                        "time": 500.0,
+                        "morph": 50.0,
+                        "tone": 3000.0,
+                        "depth": 1.0,
+                        "mix": 75.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "_supersonic_": {
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "GAIN": 0.15000000596046448,
+                        "BASS": 0.5,
+                        "TREBLE": 0.5,
+                        "VOLUME": 0.20000000000000001
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 0.0,
+                        "Fidelity": 1.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
                 },
                 "shiroverb": {
-                    "preset": "",
-                    "bypassed": false,
                     "parameters": {},
                     "ports": {
-                        "ratio": 2.0,
+                        "shimmer": 50.0,
+                        "roomsize": 150.0,
                         "bandwidth": 75.0,
                         "tone": 1500.0,
-                        "shimmer": 50.0,
                         "decay": 50.0,
-                        "mix": 50.0,
-                        "roomsize": 150.0,
-                        "damping": 50.0
-                    }
-                },
-                "Gain": {
-                    "preset": "",
+                        "ratio": 2.0,
+                        "damping": 50.0,
+                        "mix": 50.0
+                    },
                     "bypassed": false,
+                    "preset": ""
+                },
+                "Gain2x2": {
                     "parameters": {},
                     "ports": {
-                        "Gain": -6.0
-                    }
+                        "Gain": 2.3214285714285765
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "Gain": {
+                    "parameters": {},
+                    "ports": {
+                        "Gain": -3.3035714285714306
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "larynx": {
+                    "parameters": {},
+                    "ports": {
+                        "depth": 1.0,
+                        "tone": 6000.0,
+                        "rate": 5.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
+                },
+                "harmless": {
+                    "parameters": {},
+                    "ports": {
+                        "rate": 4.0,
+                        "tone": 6000.0,
+                        "shape": 0.5,
+                        "depth": 100.0,
+                        "phase": 0.0
+                    },
+                    "bypassed": false,
+                    "preset": ""
                 }
-            }
+            },
+            "name": "All On"
         }
-    ]
+    ],
+    "current": 0
 }

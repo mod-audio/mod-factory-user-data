@@ -8,150 +8,106 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <xfade/out_left> ;
-    ingen:head <Drop/In> .
+    ingen:tail <Gain2x2/Out2> ;
+    ingen:head <playback_2> .
 
 _:b2
-    ingen:tail <xfade_1/out_left> ;
-    ingen:head <Saturator/in_l> .
+    ingen:tail <capture_2> ;
+    ingen:head <xfade/inB_right> .
 
 _:b3
     ingen:tail <capture_1> ;
-    ingen:head <mono/in> .
+    ingen:head <xfade/inA_right> .
 
 _:b4
-    ingen:tail <Saturator/out_l> ;
-    ingen:head <_ampegsvt_/in> .
-
-_:b5
     ingen:tail <capture_1> ;
     ingen:head <xfade/inA_left> .
 
+_:b5
+    ingen:tail <xfade/out_right> ;
+    ingen:head <Gain/In> .
+
 _:b6
-    ingen:tail <Drop/Out> ;
-    ingen:head <xfade_1/inB_left> .
+    ingen:tail <Gain_1/Out> ;
+    ingen:head <_ampegsvt_/in> .
 
 _:b7
-    ingen:tail <xfade/out_left> ;
-    ingen:head <Saturator/in_l> .
+    ingen:tail <Gain2x2/Out1> ;
+    ingen:head <playback_1> .
 
 _:b8
     ingen:tail <_ampegsvt_/out> ;
     ingen:head <cabsim_bass/In> .
 
 _:b9
-    ingen:tail <mono/out> ;
-    ingen:head <xfade/inB_left> .
+    ingen:tail <cabsim_bass/Out> ;
+    ingen:head <Gain2x2/In2> .
 
 _:b10
-    ingen:tail <cabsim_bass/Out> ;
-    ingen:head <playback_1> .
+    ingen:tail <Gain/Out> ;
+    ingen:head <Gain_1/In> .
 
 _:b11
     ingen:tail <cabsim_bass/Out> ;
-    ingen:head <playback_2> .
+    ingen:head <Gain2x2/In1> .
 
-<mono>
-    ingen:canvasX 394.0 ;
-    ingen:canvasY 719.0 ;
+_:b12
+    ingen:tail <xfade/out_left> ;
+    ingen:head <Gain/In> .
+
+_:b13
+    ingen:tail <capture_1> ;
+    ingen:head <xfade/inB_left> .
+
+<Gain2x2>
+    ingen:canvasX 3328.0 ;
+    ingen:canvasY 283.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
-    lv2:microVersion 1 ;
-    lv2:minorVersion 2 ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 8 ;
-    lv2:port <mono/in> ,
-             <mono/out> ,
-             <mono/bypass> ,
-             <mono/rms> ,
-             <mono/attack> ,
-             <mono/release> ,
-             <mono/threshold> ,
-             <mono/ratio> ,
-             <mono/gain> ,
-             <mono/noClip> ,
-             <mono/grmeter> ,
-             <mono/lampDrive> ,
-             <mono/meterIn> ,
-             <mono/meterOut> ,
-             <mono/:bypass> ;
-    lv2:prototype <http://invadarecords.com/plugins/lv2/compressor/mono> ;
-    pedal:instanceNumber 3 ;
+    mod:releaseNumber 18 ;
+    lv2:port <Gain2x2/In1> ,
+             <Gain2x2/In2> ,
+             <Gain2x2/Out1> ,
+             <Gain2x2/Out2> ,
+             <Gain2x2/Gain> ,
+             <Gain2x2/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain2x2> ;
+    pedal:instanceNumber 0 ;
     pedal:preset <> ;
     a ingen:Block .
 
-<mono/in>
+<Gain2x2/In1>
     a lv2:AudioPort ,
         lv2:InputPort .
 
-<mono/in>
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain2x2/In1>
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<mono/gain>
-    ingen:value 6.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
+<Gain2x2/In2>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
 
-<mono/ratio>
-    ingen:value 6.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/rms>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/release>
-    ingen:value 0.050000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/bypass>
+<Gain2x2/Gain>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mono/threshold>
-    ingen:value -31.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/attack>
-    ingen:value 0.000351 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/noClip>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mono/grmeter>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<mono/lampDrive>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<mono/meterIn>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<mono/meterOut>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<mono/:bypass>
+<Gain2x2/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <xfade>
-    ingen:canvasX 921.0 ;
-    ingen:canvasY 376.0 ;
+    ingen:canvasX 279.1 ;
+    ingen:canvasY 284.4 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -169,7 +125,7 @@ _:b11
              <xfade/mode> ,
              <xfade/:bypass> ;
     lv2:prototype <http://gareus.org/oss/lv2/xfade> ;
-    pedal:instanceNumber 5 ;
+    pedal:instanceNumber 2 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -210,13 +166,13 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade/xfade>
-    ingen:value 1.000000 ;
+<xfade/mode>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<xfade/mode>
-    ingen:value 0.000000 ;
+<xfade/xfade>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -225,291 +181,45 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Saturator>
-    ingen:canvasX 1891.0 ;
-    ingen:canvasY 375.0 ;
+<Gain>
+    ingen:canvasX 729.0 ;
+    ingen:canvasY 427.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
-    lv2:minorVersion 60 ;
+    lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 10 ;
-    lv2:port <Saturator/in_l> ,
-             <Saturator/in_r> ,
-             <Saturator/out_l> ,
-             <Saturator/out_r> ,
-             <Saturator/bypass> ,
-             <Saturator/level_in> ,
-             <Saturator/level_out> ,
-             <Saturator/mix> ,
-             <Saturator/drive> ,
-             <Saturator/blend> ,
-             <Saturator/lp_pre_freq> ,
-             <Saturator/hp_pre_freq> ,
-             <Saturator/lp_post_freq> ,
-             <Saturator/hp_post_freq> ,
-             <Saturator/p_freq> ,
-             <Saturator/p_level> ,
-             <Saturator/p_q> ,
-             <Saturator/meter_inL> ,
-             <Saturator/meter_inR> ,
-             <Saturator/meter_outL> ,
-             <Saturator/meter_outR> ,
-             <Saturator/clip_inL> ,
-             <Saturator/clip_inR> ,
-             <Saturator/clip_outL> ,
-             <Saturator/clip_outR> ,
-             <Saturator/:bypass> ;
-    lv2:prototype <http://calf.sourceforge.net/plugins/Saturator> ;
-    pedal:instanceNumber 6 ;
+    mod:releaseNumber 18 ;
+    lv2:port <Gain/In> ,
+             <Gain/Out> ,
+             <Gain/Gain> ,
+             <Gain/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain> ;
+    pedal:instanceNumber 3 ;
     pedal:preset <> ;
     a ingen:Block .
 
-<Saturator/in_l>
+<Gain/In>
     a lv2:AudioPort ,
         lv2:InputPort .
 
-<Saturator/in_r>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Saturator/in_l>
+<Gain/In>
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<Saturator/in_r>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Saturator/p_level>
-    ingen:value 1.000000 ;
+<Gain/Gain>
+    ingen:value -6.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Saturator/level_out>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/mix>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/lp_post_freq>
-    ingen:value 20000.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/blend>
-    ingen:value 10.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/lp_pre_freq>
-    ingen:value 20000.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/level_in>
-    ingen:value 7.513794 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/p_q>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/hp_pre_freq>
-    ingen:value 10.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/hp_post_freq>
-    ingen:value 10.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/bypass>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/drive>
-    ingen:value 5.933929 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/p_freq>
-    ingen:value 2000.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Saturator/meter_inL>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<Saturator/meter_inR>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<Saturator/meter_outL>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<Saturator/meter_outR>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<Saturator/clip_inL>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<Saturator/clip_inR>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<Saturator/clip_outL>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<Saturator/clip_outR>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<Saturator/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<xfade_1>
-    ingen:canvasX 1621.0 ;
-    ingen:canvasY 956.0 ;
-    ingen:enabled false ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 516 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 6 ;
-    lv2:port <xfade_1/inA_left> ,
-             <xfade_1/inA_right> ,
-             <xfade_1/inB_left> ,
-             <xfade_1/inB_right> ,
-             <xfade_1/out_left> ,
-             <xfade_1/out_right> ,
-             <xfade_1/xfade> ,
-             <xfade_1/shape> ,
-             <xfade_1/mode> ,
-             <xfade_1/:bypass> ;
-    lv2:prototype <http://gareus.org/oss/lv2/xfade> ;
-    pedal:instanceNumber 7 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<xfade_1/inA_left>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<xfade_1/inA_right>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<xfade_1/inB_left>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<xfade_1/inB_right>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<xfade_1/inA_left>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<xfade_1/inA_right>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<xfade_1/inB_left>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<xfade_1/inB_right>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<xfade_1/shape>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<xfade_1/xfade>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<xfade_1/mode>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<xfade_1/:bypass>
-    ingen:value 1 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Drop>
-    ingen:canvasX 1283.0 ;
-    ingen:canvasY 970.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 2 ;
-    lv2:minorVersion 0 ;
-    mod:builderVersion 1 ;
-    mod:releaseNumber 13 ;
-    lv2:port <Drop/In> ,
-             <Drop/Out> ,
-             <Drop/Step> ,
-             <Drop/Gain> ,
-             <Drop/Fidelity> ,
-             <Drop/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mod-devel/Drop> ;
-    pedal:instanceNumber 8 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<Drop/In>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Drop/In>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Drop/Fidelity>
-    ingen:value 2.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Drop/Gain>
-    ingen:value 3.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Drop/Step>
-    ingen:value -12.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Drop/:bypass>
+<Gain/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <_ampegsvt_>
-    ingen:canvasX 2986.0 ;
-    ingen:canvasY 439.0 ;
+    ingen:canvasX 1527.0 ;
+    ingen:canvasY 328.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -529,7 +239,7 @@ _:b11
              <_ampegsvt_/CABSWITCH> ,
              <_ampegsvt_/:bypass> ;
     lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_ampegsvt_#_ampegsvt_> ;
-    pedal:instanceNumber 9 ;
+    pedal:instanceNumber 4 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -541,33 +251,13 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_ampegsvt_/LOWSWITCH>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_ampegsvt_/VOLUME>
-    ingen:value 0.250000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_ampegsvt_/MIDSWITCH>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_ampegsvt_/TREBLE>
-    ingen:value 0.481027 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <_ampegsvt_/MIDDLE>
     ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_ampegsvt_/BYPASS>
-    ingen:value 1.000000 ;
+<_ampegsvt_/TREBLE>
+    ingen:value 0.500000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -576,13 +266,33 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<_ampegsvt_/BASS>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_ampegsvt_/VOLUME>
+    ingen:value 0.200000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_ampegsvt_/MIDSWITCH>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_ampegsvt_/LOWSWITCH>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <_ampegsvt_/CABSWITCH>
     ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_ampegsvt_/BASS>
-    ingen:value 0.563000 ;
+<_ampegsvt_/BYPASS>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -592,22 +302,23 @@ _:b11
         lv2:InputPort .
 
 <cabsim_bass>
-    ingen:canvasX 3253.0 ;
-    ingen:canvasY 752.0 ;
+    ingen:canvasX 2174.0 ;
+    ingen:canvasY 591.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 8 ;
+    mod:releaseNumber 11 ;
     lv2:port <cabsim_bass/In> ,
              <cabsim_bass/Out> ,
              <cabsim_bass/Attenuation> ,
              <cabsim_bass/Model> ,
              <cabsim_bass/MicPos> ,
+             <cabsim_bass/Fidelity> ,
              <cabsim_bass/:bypass> ;
     lv2:prototype <http://moddevices.com/plugins/mod-devel/cabsim-bass> ;
-    pedal:instanceNumber 10 ;
+    pedal:instanceNumber 5 ;
     pedal:preset <> ;
     a ingen:Block .
 
@@ -619,12 +330,7 @@ _:b11
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<cabsim_bass/Attenuation>
-    ingen:value -22.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<cabsim_bass/MicPos>
+<cabsim_bass/Fidelity>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -634,8 +340,54 @@ _:b11
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<cabsim_bass/MicPos>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<cabsim_bass/Attenuation>
+    ingen:value -6.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <cabsim_bass/:bypass>
     ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain_1>
+    ingen:canvasX 1444.0 ;
+    ingen:canvasY 601.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 1 ;
+    mod:releaseNumber 18 ;
+    lv2:port <Gain_1/In> ,
+             <Gain_1/Out> ,
+             <Gain_1/Gain> ,
+             <Gain_1/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Gain> ;
+    pedal:instanceNumber 9 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Gain_1/In>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Gain_1/In>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Gain_1/Gain>
+    ingen:value 6.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Gain_1/:bypass>
+    ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -748,11 +500,11 @@ _:b11
     pedal:unitName "MOD Dwarf" ;
     pedal:unitModel "dwarf:aarch64-a35" ;
     pedal:width 3840 ;
-    pedal:height 1758 ;
+    pedal:height 1838 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 7 ;
+    pedal:version 3 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -764,14 +516,15 @@ _:b11
               _:b8 ,
               _:b9 ,
               _:b10 ,
-              _:b11 ;
-    ingen:block <mono> ,
+              _:b11 ,
+              _:b12 ,
+              _:b13 ;
+    ingen:block <Gain2x2> ,
                 <xfade> ,
-                <Saturator> ,
-                <xfade_1> ,
-                <Drop> ,
+                <Gain> ,
                 <_ampegsvt_> ,
-                <cabsim_bass> ;
+                <cabsim_bass> ,
+                <Gain_1> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,

@@ -1,0 +1,149 @@
+{
+    "/hmi/group1": [],
+    "/hmi/knob2": [
+        {
+            "minimum": 0.0,
+            "steps": 201,
+            "momentary": 0,
+            "port": "BASS",
+            "dividers": null,
+            "page": 0,
+            "tempo": false,
+            "label": "amp.BASS",
+            "instance": "/graph/_supersonic_",
+            "subpage": 0,
+            "maximum": 1.0,
+            "coloured": false,
+            "group": null
+        },
+        {
+            "minimum": 0.0,
+            "steps": 5,
+            "momentary": 0,
+            "port": "Model",
+            "dividers": null,
+            "page": 0,
+            "tempo": false,
+            "label": "Cab.mdl",
+            "instance": "/graph/cabsim_bass",
+            "subpage": 1,
+            "maximum": 5.0,
+            "coloured": false,
+            "group": null
+        }
+    ],
+    "/hmi/knob3": [
+        {
+            "minimum": 0.0,
+            "steps": 201,
+            "momentary": 0,
+            "port": "TREBLE",
+            "dividers": null,
+            "page": 0,
+            "tempo": false,
+            "label": "amp.treb",
+            "instance": "/graph/_supersonic_",
+            "subpage": 0,
+            "maximum": 1.0,
+            "coloured": false,
+            "group": null
+        },
+        {
+            "minimum": 0.0,
+            "steps": 3,
+            "momentary": 0,
+            "port": "MicPos",
+            "dividers": null,
+            "page": 0,
+            "tempo": false,
+            "label": "Cab.Mic",
+            "instance": "/graph/cabsim_bass",
+            "subpage": 1,
+            "maximum": 3.0,
+            "coloured": false,
+            "group": null
+        },
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "momentary": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "page": 0,
+            "tempo": false,
+            "label": "ST INPUT",
+            "instance": "/graph/xfade",
+            "subpage": 2,
+            "maximum": 1.0,
+            "coloured": false,
+            "group": null
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "minimum": 0.0,
+            "steps": 201,
+            "momentary": 0,
+            "port": "GAIN",
+            "dividers": null,
+            "page": 0,
+            "tempo": false,
+            "label": "amp.gain",
+            "instance": "/graph/_supersonic_",
+            "subpage": 0,
+            "maximum": 1.0,
+            "coloured": false,
+            "group": null
+        },
+        {
+            "minimum": 0.0,
+            "steps": 201,
+            "momentary": 0,
+            "port": "VOLUME",
+            "dividers": null,
+            "page": 0,
+            "tempo": false,
+            "label": "amp.vol",
+            "instance": "/graph/_supersonic_",
+            "subpage": 1,
+            "maximum": 1.0,
+            "coloured": false,
+            "group": null
+        }
+    ],
+    "/hmi/footswitch2": [
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "momentary": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "page": 0,
+            "tempo": false,
+            "label": "Cabsim",
+            "instance": "/graph/cabsim_bass",
+            "subpage": 0,
+            "maximum": 1.0,
+            "coloured": false,
+            "group": null
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "minimum": 0.0,
+            "steps": 33,
+            "momentary": 0,
+            "port": ":bypass",
+            "dividers": null,
+            "page": 0,
+            "tempo": false,
+            "label": "Boost",
+            "instance": "/graph/Gain_1",
+            "subpage": 0,
+            "maximum": 1.0,
+            "coloured": false,
+            "group": null
+        }
+    ],
+    "/bpm": []
+}

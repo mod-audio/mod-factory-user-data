@@ -12,36 +12,36 @@ _:b1
     ingen:head <BigMuffPi/In> .
 
 _:b2
-    ingen:tail <BigMuffPi/Out1> ;
-    ingen:head <_bajatubedriver_/in> .
+    ingen:tail <faIR_cabsim/Out> ;
+    ingen:head <playback_2> .
 
 _:b3
-    ingen:tail <_supersonic_/out> ;
-    ingen:head <faIR_cabsim/In> .
+    ingen:tail <shiroverb/lv2_audio_out_1> ;
+    ingen:head <PhaserII/in> .
 
 _:b4
     ingen:tail <capture_1> ;
     ingen:head <shiroverb/lv2_audio_in_1> .
 
 _:b5
+    ingen:tail <_bajatubedriver_/out> ;
+    ingen:head <_supersonic_/in> .
+
+_:b6
     ingen:tail <shiroverb/lv2_audio_out_2> ;
     ingen:head <PhaserII/in> .
 
-_:b6
-    ingen:tail <shiroverb/lv2_audio_out_1> ;
-    ingen:head <PhaserII/in> .
-
 _:b7
-    ingen:tail <_bajatubedriver_/out> ;
-    ingen:head <_supersonic_/in> .
+    ingen:tail <_supersonic_/out> ;
+    ingen:head <faIR_cabsim/In> .
 
 _:b8
     ingen:tail <faIR_cabsim/Out> ;
     ingen:head <playback_1> .
 
 _:b9
-    ingen:tail <faIR_cabsim/Out> ;
-    ingen:head <playback_2> .
+    ingen:tail <BigMuffPi/Out1> ;
+    ingen:head <_bajatubedriver_/in> .
 
 <_supersonic_>
     ingen:canvasX 2209.0 ;
@@ -78,18 +78,18 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<_supersonic_/BASS>
+    ingen:value 0.440000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <_supersonic_/GAIN>
     ingen:value 0.101449 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <_supersonic_/VOLUME>
-    ingen:value 0.250000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_supersonic_/BASS>
-    ingen:value 0.440000 ;
+    ingen:value 0.289855 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -108,10 +108,10 @@ _:b9
     ingen:canvasY 660.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
-    lv2:microVersion 1 ;
+    lv2:microVersion 2 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 1 ;
-    mod:releaseNumber 5 ;
+    mod:releaseNumber 9 ;
     lv2:port <faIR_cabsim/In> ,
              <faIR_cabsim/Out> ,
              <faIR_cabsim/Attenuation> ,
@@ -179,8 +179,13 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<shiroverb/mix>
-    ingen:value 30.000000 ;
+<shiroverb/shimmer>
+    ingen:value 25.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/roomsize>
+    ingen:value 10.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -189,8 +194,13 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<shiroverb/shimmer>
-    ingen:value 25.000000 ;
+<shiroverb/decay>
+    ingen:value 18.150000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<shiroverb/ratio>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -204,18 +214,8 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<shiroverb/ratio>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/decay>
-    ingen:value 18.150000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<shiroverb/roomsize>
-    ingen:value 10.000000 ;
+<shiroverb/mix>
+    ingen:value 30.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -306,6 +306,11 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
+<BigMuffPi/Level>
+    ingen:value 0.495000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <BigMuffPi/Tone>
     ingen:value 0.656250 ;
     a lv2:ControlPort ,
@@ -313,11 +318,6 @@ _:b9
 
 <BigMuffPi/Sustain>
     ingen:value 0.109375 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<BigMuffPi/Level>
-    ingen:value 0.495000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -356,8 +356,8 @@ _:b9
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<PhaserII/spread>
-    ingen:value 0.375000 ;
+<PhaserII/lfo>
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -366,18 +366,18 @@ _:b9
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<PhaserII/depth>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <PhaserII/rate>
     ingen:value 0.171875 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<PhaserII/lfo>
-    ingen:value 0.000000 ;
+<PhaserII/depth>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<PhaserII/spread>
+    ingen:value 0.375000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -484,16 +484,22 @@ _:b9
     a atom:AtomPort ,
         lv2:InputPort .
 
+<midi_loopback>
+    ingen:value 0 ;
+    lv2:index 12 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
 <>
     doap:name "GRIG:Swirly.70s" ;
     pedal:unitName "MOD Dwarf" ;
     pedal:unitModel "dwarf:aarch64-a35" ;
-    pedal:width 3072 ;
-    pedal:height 1332 ;
+    pedal:width 3360 ;
+    pedal:height 1710 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 12 ;
+    pedal:version 13 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -514,6 +520,7 @@ _:b9
              <:bpm> ,
              <:rolling> ,
              <midi_separated_mode> ,
+             <midi_loopback> ,
              <control_in> ,
              <control_out> ,
              <serial_midi_in> ,
