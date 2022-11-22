@@ -31,7 +31,6 @@ cabsim-bass.lv2
 cabsim-modern.lv2
 cabsim-vintage.lv2
 calf.lv2
-carlafiles.lv2
 cr1.lv2
 dt1.lv2
 fair-cabsim.lv2
