@@ -1,5 +1,8 @@
+
 AudioToCVPitch.lv2
 CollisionDrive.lv2
+DragonflyEarlyReflections.lv2
+DragonflyHallReverb.lv2
 DragonflyPlateReverb.lv2
 DragonflyRoomReverb.lv2
 FluidBass.lv2
@@ -31,20 +34,17 @@ cabsim-bass.lv2
 cabsim-modern.lv2
 cabsim-vintage.lv2
 calf.lv2
-cr1.lv2
-dt1.lv2
+carla-files.lv2
+eg-sampler.lv2
 fair-cabsim.lv2
 fat1.lv2
 fil4.lv2
 floaty.lv2
 fomp.lv2
-gx_CreamMachine.lv2
 gx_KnightFuzz.lv2
-gx_amp.lv2
 gx_ampegsvt.lv2
 gx_bajatubedriver.lv2
 gx_bottlerocket.lv2
-gx_cabinet.lv2
 gx_cstb.lv2
 gx_duck_delay.lv2
 gx_echo.lv2
@@ -57,6 +57,7 @@ gx_quack.lv2
 gx_reverb.lv2
 gx_room_simulator.lv2
 gx_saturate.lv2
+gx_sd1sim.lv2
 gx_shimmizita.lv2
 gx_slowgear.lv2
 gx_studiopre.lv2
@@ -75,7 +76,7 @@ mod-ams.lv2
 mod-arpeggiator.lv2
 mod-audio-to-cv.lv2
 mod-bigmuff.lv2
-mod-caps-AmpVTS.lv2
+mod-button-to-cv.lv2
 mod-caps-AutoFilter.lv2
 mod-caps-Click.lv2
 mod-caps-PhaserII.lv2
@@ -96,6 +97,7 @@ mod-cv-random.lv2
 mod-cv-range.lv2
 mod-cv-round.lv2
 mod-cv-slew.lv2
+mod-cv-switch1.lv2
 mod-drop.lv2
 mod-ds1.lv2
 mod-gain.lv2
@@ -110,12 +112,12 @@ mod-mda-DubDelay.lv2
 mod-mda-EPiano.lv2
 mod-mda-JX10.lv2
 mod-mda-Overdrive.lv2
+mod-mda-Piano.lv2
 mod-mda-RePsycho.lv2
 mod-mda-RingMod.lv2
 mod-mda-SubSynth.lv2
 mod-mda-Vocoder.lv2
 mod-midi-to-cv-mono.lv2
-mod-midi-to-cv-poly.lv2
 mod-mixer-stereo.lv2
 mod-mixer.lv2
 mod-supercapo.lv2
@@ -129,9 +131,7 @@ modspectre.lv2
 mud.lv2
 mutant.lv2
 notes.lv2
-onyx.lv2
 paranoia.lv2
-ph1.lv2
 powercut.lv2
 rkr.lv2
 sooperlooper-2x2.lv2
@@ -151,5 +151,4 @@ tap-reverb.lv2
 tap-tremolo.lv2
 tap-tubewarmth.lv2
 tinygain.lv2
-wah1.lv2
 xfade.lv2
