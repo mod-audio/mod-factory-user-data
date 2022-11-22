@@ -1,4 +1,7 @@
+AudioToCVPitch.lv2
 CollisionDrive.lv2
+DragonflyPlateReverb.lv2
+DragonflyRoomReverb.lv2
 FluidBass.lv2
 FluidDrums.lv2
 Freaktail.lv2
@@ -125,6 +128,7 @@ mod-volume.lv2
 modmeter.lv2
 modspectre.lv2
 mud.lv2
+mutant.lv2
 notes.lv2
 onyx.lv2
 paranoia.lv2
