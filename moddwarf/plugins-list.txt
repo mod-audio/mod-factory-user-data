@@ -22,6 +22,7 @@ TAL-NoiseMaker-ME.lv2
 ZamComp.lv2
 ZamCompX2.lv2
 abGate.lv2
+advanced-noisegate.lv2
 amsynth.lv2
 artyfx-bitta.lv2
 artyfx.lv2
@@ -34,6 +35,7 @@ cabsim-modern.lv2
 cabsim-vintage.lv2
 calf.lv2
 carla-files.lv2
+convolution-reverb.lv2
 eg-sampler.lv2
 fair-cabsim.lv2
 fat1.lv2

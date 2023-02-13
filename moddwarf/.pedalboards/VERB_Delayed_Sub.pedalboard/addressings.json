@@ -1,0 +1,193 @@
+{
+    "/hmi/footswitch2": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Sub>Cho",
+            "steps": 33,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": ":bypass",
+            "coloured": false,
+            "instance": "/graph/mod_cv_parameter_modulation",
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "VVVVerb",
+            "steps": 33,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": ":bypass",
+            "coloured": false,
+            "instance": "/graph/xfade",
+            "maximum": 1.0
+        }
+    ],
+    "/bpm": [],
+    "/cv/graph/mod_cv_parameter_modulation/CVout": {
+        "name": "Mod_cv_parameter_modulation CV Output",
+        "addrs": [
+            {
+                "maximum": 1.0,
+                "label": "Step",
+                "instance": "/graph/SuperWhammy",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": "Step"
+            }
+        ]
+    },
+    "/hmi/group1": [],
+    "/hmi/knob3": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Cho.Dpth",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "ModulationDepth",
+            "coloured": false,
+            "instance": "/graph/mod_cv_parameter_modulation",
+            "maximum": 100.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Send.Dry",
+            "steps": 201,
+            "minimum": -30.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "lecholevel",
+            "coloured": false,
+            "instance": "/graph/echo",
+            "maximum": 10.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Send.Sub",
+            "steps": 201,
+            "minimum": -30.0,
+            "group": null,
+            "subpage": 2,
+            "momentary": 0,
+            "port": "recholevel",
+            "coloured": false,
+            "instance": "/graph/echo",
+            "maximum": 10.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Fbk.Sub",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 2,
+            "momentary": 0,
+            "port": "rhaasfeedback",
+            "coloured": false,
+            "instance": "/graph/echo",
+            "maximum": 100.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Fbk.dry",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "lfeedback",
+            "coloured": false,
+            "instance": "/graph/echo",
+            "maximum": 100.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Mix",
+            "steps": 201,
+            "minimum": -1.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "xfade",
+            "coloured": false,
+            "instance": "/graph/xfade",
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "dividers": 0.5,
+            "tempo": false,
+            "page": 0,
+            "label": "PDly.Sub",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 2,
+            "momentary": 0,
+            "port": "rhaasdelay",
+            "coloured": false,
+            "instance": "/graph/echo",
+            "maximum": 2000.0
+        },
+        {
+            "dividers": 0.5,
+            "tempo": false,
+            "page": 0,
+            "label": "PDly.Dry",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "ldelay",
+            "coloured": false,
+            "instance": "/graph/echo",
+            "maximum": 2000.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "IR",
+            "steps": 32,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "irfile",
+            "coloured": false,
+            "instance": "/graph/ConvolutionReverb",
+            "maximum": 32.0
+        }
+    ]
+}

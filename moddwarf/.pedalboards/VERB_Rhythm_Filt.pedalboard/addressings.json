@@ -1,0 +1,175 @@
+{
+    "/hmi/footswitch2": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "TAP",
+            "steps": 260,
+            "minimum": 20.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": ":bpm",
+            "coloured": false,
+            "instance": "/pedalboard",
+            "maximum": 280.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Verb",
+            "steps": 33,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": ":bypass",
+            "coloured": false,
+            "instance": "/graph/xfade_1",
+            "maximum": 1.0
+        }
+    ],
+    "/bpm": [
+        {
+            "page": null,
+            "dividers": 1,
+            "tempo": true,
+            "port": "Bpm",
+            "label": "Bpm",
+            "instance": "/graph/arpeggiator",
+            "minimum": 0.33300000000000002,
+            "steps": 15,
+            "maximum": 12
+        }
+    ],
+    "/cv/graph/mod_cv_parameter_modulation/CVout": {
+        "name": "Mod_cv_parameter_modulation CV Output",
+        "addrs": [
+            {
+                "maximum": 127.0,
+                "label": "Velocity",
+                "instance": "/graph/arpeggiator",
+                "operational_mode": "+",
+                "minimum": 1.0,
+                "steps": 126,
+                "port": "velocity"
+            }
+        ]
+    },
+    "/hmi/group1": [],
+    "/hmi/knob3": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Division",
+            "steps": 12,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "Divisions",
+            "coloured": false,
+            "instance": "/graph/arpeggiator",
+            "maximum": 12.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Reso",
+            "steps": 201,
+            "minimum": 0.01,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "resonance",
+            "coloured": false,
+            "instance": "/graph/vcf",
+            "maximum": 0.995
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Decay",
+            "steps": 201,
+            "minimum": 0.10000000149011612,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "decay",
+            "coloured": false,
+            "instance": "/graph/dragonfly_reverb",
+            "maximum": 10.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Freq",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "freq",
+            "coloured": false,
+            "instance": "/graph/vcf",
+            "maximum": 10.0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "mod filter",
+            "steps": 33,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 2,
+            "momentary": 0,
+            "port": ":bypass",
+            "coloured": false,
+            "instance": "/graph/mindi",
+            "maximum": 1.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "inv Filt",
+            "steps": 33,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": ":bypass",
+            "coloured": false,
+            "instance": "/graph/mod_cv_attenuverter",
+            "maximum": 1.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Mix",
+            "steps": 201,
+            "minimum": -1.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "xfade",
+            "coloured": false,
+            "instance": "/graph/xfade_1",
+            "maximum": 1.0
+        }
+    ]
+}

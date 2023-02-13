@@ -1,0 +1,401 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": -7.5,
+                        "irfile": 1.0,
+                        "drylevel": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                }
+            },
+            "name": "E140 Plate"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": -7.5,
+                        "irfile": 3.0,
+                        "drylevel": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                }
+            },
+            "name": "Foundry Room"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": -7.5,
+                        "irfile": 4.0,
+                        "drylevel": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                }
+            },
+            "name": "Monmart Foyer"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": -7.5,
+                        "irfile": 7.0,
+                        "drylevel": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                }
+            },
+            "name": "Prisoners Dungeon"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": -7.5,
+                        "irfile": 8.0,
+                        "drylevel": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                }
+            },
+            "name": "Vauhallan Church"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": -7.5,
+                        "irfile": 11.0,
+                        "drylevel": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                }
+            },
+            "name": "Organ Pit"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": -7.5,
+                        "irfile": 12.0,
+                        "drylevel": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                }
+            },
+            "name": "Grain Silo Dome"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": -7.5,
+                        "irfile": 15.0,
+                        "drylevel": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                }
+            },
+            "name": "BM7 Shimmer"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": -7.5,
+                        "irfile": 19.0,
+                        "drylevel": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                }
+            },
+            "name": "ESpace Huge 2"
+        }
+    ]
+}

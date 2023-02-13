@@ -1,5 +1,99 @@
 [
     {
+        "title": "CHAINS:Reverb",
+        "pedalboards": [
+            {
+                "bundle": "/root/.pedalboards/VERB_Quick_Room.pedalboard",
+                "title": "VERB:Quick Room"
+            },
+            {
+                "bundle": "/root/.pedalboards/VERB_Quick_Hall.pedalboard",
+                "title": "VERB:Quick Hall"
+            },
+            {
+                "bundle": "/root/.pedalboards/VERB_Quick_Plate.pedalboard",
+                "title": "VERB:Quick Plate"
+            },
+            {
+                "bundle": "/root/.pedalboards/VERB_Room.pedalboard",
+                "title": "VERB:Room"
+            },
+            {
+                "bundle": "/root/.pedalboards/VERB_Hall.pedalboard",
+                "title": "VERB:Hall"
+            },
+            {
+                "bundle": "/root/.pedalboards/VERB_Plate.pedalboard",
+                "title": "VERB:Plate"
+            },
+            {
+                "bundle": "/root/.pedalboards/VERB_Shimmer.pedalboard",
+                "title": "VERB:Shimmer"
+            },
+            {
+                "bundle": "/root/.pedalboards/VERB_Spring.pedalboard",
+                "title": "VERB:Spring"
+            },
+            {
+                "bundle": "/root/.pedalboards/VERB_Convolution.pedalboard",
+                "title": "VERB:Convolution"
+            },
+            {
+                "bundle": "/root/.pedalboards/VERB_Split.pedalboard",
+                "title": "VERB:Split"
+            },
+            {
+                "bundle": "/root/.pedalboards/VERB_Momentary_H.pedalboard",
+                "title": "VERB:Momentary Hall"
+            },
+            {
+                "bundle": "/root/.pedalboards/VERB_Rhythm_Filt.pedalboard",
+                "title": "VERB:Rhythm Filter"
+            },
+            {
+                "bundle": "/root/.pedalboards/VERB_Gated_Plate-98338.pedalboard",
+                "title": "VERB:Gated Plate"
+            },
+            {
+                "bundle": "/root/.pedalboards/VERB_Dyna_Shimme.pedalboard",
+                "title": "VERB:Dyna Shimmer"
+            },
+            {
+                "bundle": "/root/.pedalboards/VERB_Delayed_Sub.pedalboard",
+                "title": "VERB:Delayed Sub"
+            }
+        ]
+    },
+    {
+        "title": "CHAINS:Guitar Synth",
+        "pedalboards": [
+            {
+                "title": "GSYNTH:Bass",
+                "bundle": "/root/.pedalboards/GSYNTH_Bass.pedalboard"
+            },
+            {
+                "title": "GSYNTH:Lead",
+                "bundle": "/root/.pedalboards/GSYNTH_Lead.pedalboard"
+            },
+            {
+                "title": "GSYNTH:Chords",
+                "bundle": "/root/.pedalboards/GSYNTH_Chords-22439.pedalboard"
+            },
+            {
+                "title": "GSYNTH:Guitar Mix",
+                "bundle": "/root/.pedalboards/GSYNTH_Guitar_Mi.pedalboard"
+            },
+            {
+                "title": "GSYNTH:Flexible",
+                "bundle": "/root/.pedalboards/GSYNTH_Flexible.pedalboard"
+            },
+            {
+                "title": "GSYNTH:Minimal",
+                "bundle": "/root/.pedalboards/GSYNTH_Minimal.pedalboard"
+            }
+        ]
+    },
+    {
         "title": "CHAINS:Guitar FX",
         "pedalboards": [
             {
@@ -101,35 +195,6 @@
             {
                 "title": "GTFX:Sad.Satellite",
                 "bundle": "/root/.pedalboards/GTFX_Sad_Satelli.pedalboard"
-            }
-        ]
-    },
-    {
-        "title": "CHAINS:Guitar Synth",
-        "pedalboards": [
-            {
-                "title": "GSYNTH:Bass",
-                "bundle": "/root/.pedalboards/GSYNTH_Bass.pedalboard"
-            },
-            {
-                "title": "GSYNTH:Lead",
-                "bundle": "/root/.pedalboards/GSYNTH_Lead.pedalboard"
-            },
-            {
-                "title": "GSYNTH:Chords",
-                "bundle": "/root/.pedalboards/GSYNTH_Chords-22439.pedalboard"
-            },
-            {
-                "title": "GSYNTH:Guitar Mix",
-                "bundle": "/root/.pedalboards/GSYNTH_Guitar_Mi.pedalboard"
-            },
-            {
-                "title": "GSYNTH:Flexible",
-                "bundle": "/root/.pedalboards/GSYNTH_Flexible.pedalboard"
-            },
-            {
-                "title": "GSYNTH:Minimal",
-                "bundle": "/root/.pedalboards/GSYNTH_Minimal.pedalboard"
             }
         ]
     },

@@ -1,0 +1,1085 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000000000001
+                    }
+                },
+                "room": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/DragonflyRoomReverb.lv2/p12_Medium_Clear_Room.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_boost": 50.0,
+                        "predelay": 8.0,
+                        "early_send": 20.0,
+                        "size": 12.0,
+                        "width": 100.0,
+                        "in_low_cut": 4.0,
+                        "late_level": 75.0,
+                        "decay": 0.40000000596046448,
+                        "in_high_cut": 16000.0,
+                        "dry_level": 0.0,
+                        "wander": 40.0,
+                        "early_damp": 10000.0,
+                        "early_level": 37.0,
+                        "late_damp": 9400.0,
+                        "spin": 0.80000001192092896,
+                        "boost_freq": 600.0,
+                        "diffuse": 70.0
+                    }
+                },
+                "mod_volume_2x2_2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "mod_cv_control_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "logic_operators": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    }
+                }
+            },
+            "name": "Medium Room"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000000000001
+                    }
+                },
+                "room": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/DragonflyRoomReverb.lv2/p22_Large_Clear_Room.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_boost": 60.0,
+                        "predelay": 12.0,
+                        "early_send": 20.0,
+                        "size": 15.0,
+                        "width": 100.0,
+                        "in_low_cut": 4.0,
+                        "late_level": 75.0,
+                        "decay": 0.69999998807907104,
+                        "in_high_cut": 16000.0,
+                        "dry_level": 0.0,
+                        "wander": 40.0,
+                        "early_damp": 9400.0,
+                        "early_level": 37.0,
+                        "late_damp": 8500.0,
+                        "spin": 0.40000000596046448,
+                        "boost_freq": 600.0,
+                        "diffuse": 80.0
+                    }
+                },
+                "mod_volume_2x2_2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "mod_cv_control_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "logic_operators": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    }
+                }
+            },
+            "name": "Large Room"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000000000001
+                    }
+                },
+                "room": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/DragonflyRoomReverb.lv2/p32_Clear_Hall.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_boost": 60.0,
+                        "predelay": 12.0,
+                        "early_send": 20.0,
+                        "size": 24.0,
+                        "width": 100.0,
+                        "in_low_cut": 4.0,
+                        "late_level": 75.0,
+                        "decay": 1.6000000238418579,
+                        "in_high_cut": 16000.0,
+                        "dry_level": 0.0,
+                        "wander": 40.0,
+                        "early_damp": 14000.0,
+                        "early_level": 37.0,
+                        "late_damp": 12000.0,
+                        "spin": 0.40000000596046448,
+                        "boost_freq": 600.0,
+                        "diffuse": 84.0
+                    }
+                },
+                "mod_volume_2x2_2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "mod_cv_control_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "logic_operators": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    }
+                }
+            },
+            "name": "Clear Hall"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000000000001
+                    }
+                },
+                "room": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/DragonflyRoomReverb.lv2/p34_Percussion_Hall.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_boost": 60.0,
+                        "predelay": 16.0,
+                        "early_send": 20.0,
+                        "size": 20.0,
+                        "width": 100.0,
+                        "in_low_cut": 4.0,
+                        "late_level": 75.0,
+                        "decay": 1.5,
+                        "in_high_cut": 16000.0,
+                        "dry_level": 0.0,
+                        "wander": 10.0,
+                        "early_damp": 7000.0,
+                        "early_level": 37.0,
+                        "late_damp": 5000.0,
+                        "spin": 2.7000000476837158,
+                        "boost_freq": 300.0,
+                        "diffuse": 40.0
+                    }
+                },
+                "mod_volume_2x2_2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "mod_cv_control_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "logic_operators": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    }
+                }
+            },
+            "name": "Perc Hall"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000000000001
+                    }
+                },
+                "room": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/DragonflyRoomReverb.lv2/p42_Dark_Plate.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_boost": 40.0,
+                        "predelay": 0.0,
+                        "early_send": 20.0,
+                        "size": 10.0,
+                        "width": 100.0,
+                        "in_low_cut": 4.0,
+                        "late_level": 75.0,
+                        "decay": 2.0,
+                        "in_high_cut": 16000.0,
+                        "dry_level": 0.0,
+                        "wander": 20.0,
+                        "early_damp": 5200.0,
+                        "early_level": 37.0,
+                        "late_damp": 4000.0,
+                        "spin": 0.40000000596046448,
+                        "boost_freq": 500.0,
+                        "diffuse": 78.0
+                    }
+                },
+                "mod_volume_2x2_2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "mod_cv_control_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "logic_operators": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    }
+                }
+            },
+            "name": "Dark Plate"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 0.0
+                    }
+                },
+                "room": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/DragonflyRoomReverb.lv2/p43_Brick_Wall.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_boost": 10.0,
+                        "predelay": 80.0,
+                        "early_send": 20.0,
+                        "size": 20.0,
+                        "width": 80.0,
+                        "in_low_cut": 4.0,
+                        "late_level": 75.0,
+                        "decay": 0.40000000596046448,
+                        "in_high_cut": 16000.0,
+                        "dry_level": 0.0,
+                        "wander": 5.0,
+                        "early_damp": 16000.0,
+                        "early_level": 37.0,
+                        "late_damp": 15000.0,
+                        "spin": 0.20000000298023224,
+                        "boost_freq": 200.0,
+                        "diffuse": 12.0
+                    }
+                },
+                "mod_volume_2x2_2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "mod_cv_control_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "logic_operators": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    }
+                }
+            },
+            "name": "Brick Wall"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 0.0
+                    }
+                },
+                "room": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/DragonflyRoomReverb.lv2/p44_Echo_Chamber.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_boost": 20.0,
+                        "predelay": 10.0,
+                        "early_send": 20.0,
+                        "size": 12.0,
+                        "width": 120.0,
+                        "in_low_cut": 4.0,
+                        "late_level": 75.0,
+                        "decay": 4.0,
+                        "in_high_cut": 16000.0,
+                        "dry_level": 0.0,
+                        "wander": 80.0,
+                        "early_damp": 12000.0,
+                        "early_level": 37.0,
+                        "late_damp": 9000.0,
+                        "spin": 2.2999999523162842,
+                        "boost_freq": 500.0,
+                        "diffuse": 24.0
+                    }
+                },
+                "mod_volume_2x2_2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "mod_cv_control_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "logic_operators": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    }
+                }
+            },
+            "name": "Echo Chamber"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000000000001
+                    }
+                },
+                "room": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/DragonflyRoomReverb.lv2/p45_Long_Tunnel.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_boost": 50.0,
+                        "predelay": 0.0,
+                        "early_send": 20.0,
+                        "size": 25.0,
+                        "width": 50.0,
+                        "in_low_cut": 4.0,
+                        "late_level": 75.0,
+                        "decay": 8.0,
+                        "in_high_cut": 16000.0,
+                        "dry_level": 0.0,
+                        "wander": 10.0,
+                        "early_damp": 8000.0,
+                        "early_level": 37.0,
+                        "late_damp": 6000.0,
+                        "spin": 0.40000000596046448,
+                        "boost_freq": 500.0,
+                        "diffuse": 90.0
+                    }
+                },
+                "mod_volume_2x2_2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "mod_cv_control_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "logic_operators": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    }
+                }
+            },
+            "name": "Long Tunnel"
+        }
+    ]
+}

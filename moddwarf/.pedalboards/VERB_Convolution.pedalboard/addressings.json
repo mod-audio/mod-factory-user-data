@@ -1,0 +1,104 @@
+{
+    "/hmi/footswitch2": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Trails",
+            "steps": 1,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "trails",
+            "coloured": false,
+            "instance": "/graph/ConvolutionReverb",
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "reverb",
+            "steps": 33,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": ":bypass",
+            "coloured": false,
+            "instance": "/graph/ConvolutionReverb",
+            "maximum": 1.0
+        }
+    ],
+    "/bpm": [],
+    "/hmi/group1": [],
+    "/hmi/knob3": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "rev.wet",
+            "steps": 201,
+            "minimum": -60.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "wetlevel",
+            "coloured": false,
+            "instance": "/graph/ConvolutionReverb",
+            "maximum": 0.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "rev.dry",
+            "steps": 201,
+            "minimum": -60.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "drylevel",
+            "coloured": false,
+            "instance": "/graph/ConvolutionReverb",
+            "maximum": 0.0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "rev.hpf",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "hpf",
+            "coloured": false,
+            "instance": "/graph/ConvolutionReverb",
+            "maximum": 500.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "IR",
+            "steps": 32,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "irfile",
+            "coloured": false,
+            "instance": "/graph/ConvolutionReverb",
+            "maximum": 32.0
+        }
+    ]
+}

@@ -1,0 +1,156 @@
+{
+    "/cv/graph/mod_cv_control/Cvoutput": {
+        "name": "cabs",
+        "addrs": [
+            {
+                "maximum": 1.0,
+                "label": "Cabsim L",
+                "instance": "/graph/cabsim_vintage",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": ":bypass"
+            },
+            {
+                "maximum": 1.0,
+                "label": "cabsim R",
+                "instance": "/graph/cabsim_vintage_1",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": ":bypass"
+            }
+        ]
+    },
+    "/hmi/footswitch2": [],
+    "/hmi/footswitch1": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Spring",
+            "steps": 33,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": ":bypass",
+            "coloured": false,
+            "instance": "/graph/xfade_1",
+            "maximum": 1.0
+        }
+    ],
+    "/bpm": [],
+    "/hmi/group1": [],
+    "/hmi/knob3": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Hi Lvl",
+            "steps": 201,
+            "minimum": -18.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "HSgain",
+            "coloured": false,
+            "instance": "/graph/stereo",
+            "maximum": 18.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "cabsim",
+            "steps": 33,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": ":bypass",
+            "coloured": false,
+            "instance": "/graph/mod_cv_control",
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "mid lvl",
+            "steps": 201,
+            "minimum": -18.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "gain2",
+            "coloured": false,
+            "instance": "/graph/stereo",
+            "maximum": 18.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Low Cut",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "hpf",
+            "coloured": false,
+            "instance": "/graph/ConvolutionReverb",
+            "maximum": 500.0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Low Lvl",
+            "steps": 201,
+            "minimum": -18.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "LSgain",
+            "coloured": false,
+            "instance": "/graph/stereo",
+            "maximum": 18.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Mix",
+            "steps": 201,
+            "minimum": -1.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "xfade",
+            "coloured": false,
+            "instance": "/graph/xfade_1",
+            "maximum": 1.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Level",
+            "steps": 201,
+            "minimum": -18.0,
+            "group": null,
+            "subpage": 2,
+            "momentary": 0,
+            "port": "gain",
+            "coloured": false,
+            "instance": "/graph/stereo",
+            "maximum": 18.0
+        }
+    ]
+}

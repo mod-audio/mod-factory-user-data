@@ -1,0 +1,767 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "plate": {
+                    "preset": "file:///root/.lv2/DragonflyPlateReverb.lv2/Clear_Plate.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_cut": 100.0,
+                        "dry_level": 0.0,
+                        "early_level": 43.75,
+                        "early_damp": 7000.0,
+                        "high_cut": 13000.0,
+                        "width": 100.0,
+                        "predelay": 0.0,
+                        "algorithm": 1.0,
+                        "decay": 0.60000002384185791
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000298023224
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_attenuverter": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2_2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "logic_operators": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Clear Plate"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "plate": {
+                    "preset": "file:///root/.lv2/DragonflyPlateReverb.lv2/Foil_Trail.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_cut": 200.0,
+                        "dry_level": 0.0,
+                        "early_level": 43.75,
+                        "early_damp": 13000.0,
+                        "high_cut": 16000.0,
+                        "width": 50.0,
+                        "predelay": 0.0,
+                        "algorithm": 0.0,
+                        "decay": 0.30000001192092896
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000298023224
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_attenuverter": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2_2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "logic_operators": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Foil Trail"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "plate": {
+                    "preset": "file:///root/.lv2/DragonflyPlateReverb.lv2/Metal_Roof.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_cut": 100.0,
+                        "dry_level": 0.0,
+                        "early_level": 43.75,
+                        "early_damp": 10000.0,
+                        "high_cut": 13000.0,
+                        "width": 120.0,
+                        "predelay": 20.0,
+                        "algorithm": 0.0,
+                        "decay": 1.04
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.34999999999999998
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_attenuverter": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2_2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "logic_operators": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Metal Roof"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "plate": {
+                    "preset": "file:///root/.lv2/DragonflyPlateReverb.lv2/Narrow_Tank.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_cut": 50.0,
+                        "dry_level": 0.0,
+                        "early_level": 43.75,
+                        "early_damp": 7000.0,
+                        "high_cut": 10000.0,
+                        "width": 60.0,
+                        "predelay": 10.0,
+                        "algorithm": 2.0,
+                        "decay": 0.60000002384185791
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.10000000000000001
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_attenuverter": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2_2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "logic_operators": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Narrow Tank"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "plate": {
+                    "preset": "file:///root/.lv2/DragonflyPlateReverb.lv2/Phat_Tank.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_cut": 50.0,
+                        "dry_level": 0.0,
+                        "early_level": 43.75,
+                        "early_damp": 4000.0,
+                        "high_cut": 10000.0,
+                        "width": 150.0,
+                        "predelay": 10.0,
+                        "algorithm": 2.0,
+                        "decay": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.10000000000000001
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_attenuverter": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2_2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "logic_operators": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Phat Tank"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "plate": {
+                    "preset": "file:///root/.lv2/DragonflyPlateReverb.lv2/Abrupt_Plate.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_cut": 50.0,
+                        "dry_level": 0.0,
+                        "early_level": 43.75,
+                        "early_damp": 7000.0,
+                        "high_cut": 10000.0,
+                        "width": 100.0,
+                        "predelay": 20.0,
+                        "algorithm": 1.0,
+                        "decay": 0.20000000298023224
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.10000000000000001
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_attenuverter": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2_2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_volume_2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_control_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "logic_operators": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Abrupt Plate"
+        }
+    ]
+}

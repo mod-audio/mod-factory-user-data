@@ -1,0 +1,635 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_parameter_modulation": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 75.0,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": -150.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_slew": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 250.0,
+                        "RiseTime": 0.10000000149011612,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shimmer": 50.0,
+                        "roomsize": 150.0,
+                        "tone": 1500.0,
+                        "mix": 100.0,
+                        "bandwidth": 75.0,
+                        "ratio": 2.0,
+                        "damping": 50.0,
+                        "decay": 75.150031999999996
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_abs": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_parameter_modulation_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 65.0,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": -150.0
+                    },
+                    "parameters": {}
+                },
+                "mod_audio_to_cv": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Offset": 0.0,
+                        "BYPASS": 1.0,
+                        "Level": 10.0
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {}
+                },
+                "vcf": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "expFMGain": 0.0,
+                        "vcfType": 0.0,
+                        "resonanceGain": 0.0,
+                        "inputGain": 1.0,
+                        "linFMGain": 0.0,
+                        "freq": 5.0,
+                        "resonance": 0.49299999999999999
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Duck +Oct"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_parameter_modulation": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 15.0,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": -150.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_slew": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 250.0,
+                        "RiseTime": 0.10000000149011612,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shimmer": 50.0,
+                        "roomsize": 150.0,
+                        "tone": 1500.0,
+                        "mix": 100.0,
+                        "bandwidth": 75.0,
+                        "ratio": 0.5,
+                        "damping": 50.0,
+                        "decay": 15.754365
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_abs": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_parameter_modulation_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 70.5,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": -150.0
+                    },
+                    "parameters": {}
+                },
+                "mod_audio_to_cv": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Offset": 0.0,
+                        "BYPASS": 1.0,
+                        "Level": 10.0
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {}
+                },
+                "vcf": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "expFMGain": 0.0,
+                        "vcfType": 0.0,
+                        "resonanceGain": 0.0,
+                        "inputGain": 1.0,
+                        "linFMGain": 0.0,
+                        "freq": 5.0,
+                        "resonance": 0.81799999999999995
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Duck -Oct"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_parameter_modulation": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 35.0,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": -140.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_slew": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 250.0,
+                        "RiseTime": 0.10000000149011612,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shimmer": 50.0,
+                        "roomsize": 150.0,
+                        "tone": 1500.0,
+                        "mix": 100.0,
+                        "bandwidth": 75.0,
+                        "ratio": 0.5,
+                        "damping": 50.0,
+                        "decay": 35.569271000000001
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.29999999999999999
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_abs": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_parameter_modulation_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 12.5,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": 190.0
+                    },
+                    "parameters": {}
+                },
+                "mod_audio_to_cv": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Offset": 0.0,
+                        "BYPASS": 1.0,
+                        "Level": 10.0
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {}
+                },
+                "vcf": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "expFMGain": 0.0,
+                        "vcfType": 0.0,
+                        "resonanceGain": 0.0,
+                        "inputGain": 1.0,
+                        "linFMGain": 0.0,
+                        "freq": 5.0,
+                        "resonance": 0.80800000000000005
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Quack -Oct"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_parameter_modulation": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 0.0,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": 200.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_slew": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 250.0,
+                        "RiseTime": 0.10000000149011612,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shimmer": 50.0,
+                        "roomsize": 150.0,
+                        "tone": 1500.0,
+                        "mix": 100.0,
+                        "bandwidth": 75.0,
+                        "ratio": 1.5049999999999999,
+                        "damping": 50.0,
+                        "decay": 1.240971
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.29999999999999999
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_abs": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_parameter_modulation_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 63.0,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": 72.0
+                    },
+                    "parameters": {}
+                },
+                "mod_audio_to_cv": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Offset": 0.0,
+                        "BYPASS": 1.0,
+                        "Level": 10.0
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {}
+                },
+                "vcf": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "expFMGain": 0.0,
+                        "vcfType": 0.0,
+                        "resonanceGain": 0.0,
+                        "inputGain": 1.0,
+                        "linFMGain": 0.0,
+                        "freq": 5.0,
+                        "resonance": 0.74399999999999999
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Quack +Fifth"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_parameter_modulation": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 25.0,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": -100.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_slew": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 250.0,
+                        "RiseTime": 0.10000000149011612,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "shiroverb": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shimmer": 50.0,
+                        "roomsize": 150.0,
+                        "tone": 1500.0,
+                        "mix": 100.0,
+                        "bandwidth": 75.0,
+                        "ratio": 0.97999999999999998,
+                        "damping": 50.0,
+                        "decay": 25.723547
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.29999999999999999
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_abs": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_parameter_modulation_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 78.0,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_audio_to_cv": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Offset": 0.0,
+                        "BYPASS": 1.0,
+                        "Level": 10.0
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {}
+                },
+                "vcf": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "expFMGain": 0.0,
+                        "vcfType": 0.0,
+                        "resonanceGain": 0.0,
+                        "inputGain": 1.0,
+                        "linFMGain": 0.0,
+                        "freq": 5.0,
+                        "resonance": 0.16800000000000001
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Duck Detune"
+        }
+    ]
+}

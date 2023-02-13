@@ -1,0 +1,177 @@
+{
+    "/hmi/footswitch2": [],
+    "/hmi/footswitch1": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Verb",
+            "steps": 33,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": ":bypass",
+            "coloured": false,
+            "instance": "/graph/xfade_1",
+            "maximum": 1.0
+        }
+    ],
+    "/bpm": [],
+    "/cv/graph/mod_cv_parameter_modulation/CVout": {
+        "name": "Mod_cv_parameter_modulation CV Output",
+        "addrs": [
+            {
+                "maximum": 100.0,
+                "label": "decay",
+                "instance": "/graph/shiroverb",
+                "operational_mode": "+",
+                "minimum": 1.0,
+                "steps": 33,
+                "port": "decay"
+            }
+        ]
+    },
+    "/hmi/group1": [],
+    "/hmi/knob3": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Vol>Dcay",
+            "steps": 201,
+            "minimum": -200.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "ModulationDepth",
+            "coloured": false,
+            "instance": "/graph/mod_cv_parameter_modulation",
+            "maximum": 200.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Vol>Filt",
+            "steps": 201,
+            "minimum": -200.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "ModulationDepth",
+            "coloured": false,
+            "instance": "/graph/mod_cv_parameter_modulation_1",
+            "maximum": 200.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "roomsize",
+            "steps": 201,
+            "minimum": 1.0,
+            "group": null,
+            "subpage": 2,
+            "momentary": 0,
+            "port": "roomsize",
+            "coloured": false,
+            "instance": "/graph/shiroverb",
+            "maximum": 300.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Decay",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "ParameterValue",
+            "coloured": false,
+            "instance": "/graph/mod_cv_parameter_modulation",
+            "maximum": 100.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Filter",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "ParameterValue",
+            "coloured": false,
+            "instance": "/graph/mod_cv_parameter_modulation_1",
+            "maximum": 100.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "ratio",
+            "steps": 201,
+            "minimum": 0.5,
+            "group": null,
+            "subpage": 2,
+            "momentary": 0,
+            "port": "ratio",
+            "coloured": false,
+            "instance": "/graph/shiroverb",
+            "maximum": 2.0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Reso",
+            "steps": 201,
+            "minimum": 0.01,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "resonance",
+            "coloured": false,
+            "instance": "/graph/vcf",
+            "maximum": 0.995
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "shimmer",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 2,
+            "momentary": 0,
+            "port": "shimmer",
+            "coloured": false,
+            "instance": "/graph/shiroverb",
+            "maximum": 100.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Mix",
+            "steps": 201,
+            "minimum": -1.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "xfade",
+            "coloured": false,
+            "instance": "/graph/xfade_1",
+            "maximum": 1.0
+        }
+    ]
+}

@@ -1,0 +1,236 @@
+{
+    "/hmi/footswitch2": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Trails",
+            "steps": 33,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": ":bypass",
+            "coloured": false,
+            "instance": "/graph/mod_cv_control",
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Plate",
+            "steps": 33,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": ":bypass",
+            "coloured": false,
+            "instance": "/graph/mod_cv_control_1",
+            "maximum": 1.0
+        }
+    ],
+    "/cv/graph/logic_operators/CV_out": {
+        "name": "return",
+        "addrs": [
+            {
+                "maximum": 1.0,
+                "label": "Volume",
+                "instance": "/graph/mod_volume_2x2",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": "Volume"
+            }
+        ]
+    },
+    "/bpm": [],
+    "/cv/graph/mod_cv_attenuverter/CVout1": {
+        "name": "dry",
+        "addrs": [
+            {
+                "maximum": 1.0,
+                "label": "Volume",
+                "instance": "/graph/mod_volume_2x2_1",
+                "operational_mode": "-",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": "Volume"
+            }
+        ]
+    },
+    "/cv/graph/mod_cv_control_1/Cvoutput": {
+        "name": "send",
+        "addrs": [
+            {
+                "maximum": 1.0,
+                "label": "Volume",
+                "instance": "/graph/mod_volume_2x2_2",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": "Volume"
+            }
+        ]
+    },
+    "/hmi/group1": [],
+    "/hmi/knob3": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Wet Lvl",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "early_level",
+            "coloured": false,
+            "instance": "/graph/plate",
+            "maximum": 100.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Algorithm",
+            "steps": 2,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "algorithm",
+            "coloured": false,
+            "instance": "/graph/plate",
+            "maximum": 2.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Dampen",
+            "steps": 201,
+            "minimum": 1000.0,
+            "group": null,
+            "subpage": 2,
+            "momentary": 0,
+            "port": "early_damp",
+            "coloured": false,
+            "instance": "/graph/plate",
+            "maximum": 16000.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Dry Lvl",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "dry_level",
+            "coloured": false,
+            "instance": "/graph/plate",
+            "maximum": 100.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Decay",
+            "steps": 201,
+            "minimum": 0.10000000149011612,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "decay",
+            "coloured": false,
+            "instance": "/graph/plate",
+            "maximum": 10.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "High Cut",
+            "steps": 201,
+            "minimum": 1000.0,
+            "group": null,
+            "subpage": 2,
+            "momentary": 0,
+            "port": "high_cut",
+            "coloured": false,
+            "instance": "/graph/plate",
+            "maximum": 16000.0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Preset",
+            "steps": 7,
+            "minimum": 0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": ":presets",
+            "coloured": false,
+            "instance": "/graph/plate",
+            "maximum": 8
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Predelay",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "predelay",
+            "coloured": false,
+            "instance": "/graph/plate",
+            "maximum": 100.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Low Cut",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 2,
+            "momentary": 0,
+            "port": "low_cut",
+            "coloured": false,
+            "instance": "/graph/plate",
+            "maximum": 200.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 1,
+            "label": "ST Width",
+            "steps": 201,
+            "minimum": 50.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "width",
+            "coloured": false,
+            "instance": "/graph/plate",
+            "maximum": 150.0
+        }
+    ]
+}

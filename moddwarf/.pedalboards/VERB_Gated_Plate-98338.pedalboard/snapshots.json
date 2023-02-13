@@ -1,0 +1,309 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000000000001
+                    },
+                    "parameters": {}
+                },
+                "plate": {
+                    "preset": "file:///root/.lv2/DragonflyPlateReverb.lv2/Phat_Tank.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_cut": 50.0,
+                        "dry_level": 0.0,
+                        "early_level": 100.0,
+                        "predelay": 0.0,
+                        "high_cut": 10000.0,
+                        "width": 150.0,
+                        "early_damp": 4000.0,
+                        "decay": 3.02,
+                        "algorithm": 2.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "Advanced_NoiseGate": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Threshold": -38.0,
+                        "Attack": 1.0,
+                        "Hold": 50.75,
+                        "Decay": 50.950000000000003
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "PlayPlucked"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000298023224
+                    },
+                    "parameters": {}
+                },
+                "plate": {
+                    "preset": "file:///root/.lv2/DragonflyPlateReverb.lv2/Phat_Tank.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_cut": 50.0,
+                        "dry_level": 0.0,
+                        "early_level": 100.0,
+                        "predelay": 0.0,
+                        "high_cut": 10000.0,
+                        "width": 150.0,
+                        "early_damp": 4000.0,
+                        "decay": 3.0199999809265137,
+                        "algorithm": 2.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "Advanced_NoiseGate": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Threshold": -24.0,
+                        "Attack": 1.0,
+                        "Hold": 50.75,
+                        "Decay": 50.950000762939453
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Abrupt"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000298023224
+                    },
+                    "parameters": {}
+                },
+                "plate": {
+                    "preset": "file:///root/.lv2/DragonflyPlateReverb.lv2/Phat_Tank.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_cut": 50.0,
+                        "dry_level": 0.0,
+                        "early_level": 100.0,
+                        "predelay": 0.0,
+                        "high_cut": 10000.0,
+                        "width": 150.0,
+                        "early_damp": 4000.0,
+                        "decay": 3.0199999809265137,
+                        "algorithm": 2.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "Advanced_NoiseGate": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Threshold": -24.0,
+                        "Attack": 1.0,
+                        "Hold": 50.75,
+                        "Decay": 500.5
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Smooth"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "plate": {
+                    "preset": "file:///root/.lv2/DragonflyPlateReverb.lv2/Phat_Tank.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "low_cut": 50.0,
+                        "dry_level": 0.0,
+                        "early_level": 100.0,
+                        "predelay": 0.0,
+                        "high_cut": 10000.0,
+                        "width": 150.0,
+                        "early_damp": 4000.0,
+                        "decay": 2.0800000000000001,
+                        "algorithm": 2.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "Advanced_NoiseGate": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Threshold": -45.0,
+                        "Attack": 1.0,
+                        "Hold": 1.0,
+                        "Decay": 1.0
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Sensitive"
+        }
+    ]
+}

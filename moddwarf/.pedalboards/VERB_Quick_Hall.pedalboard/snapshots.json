@@ -1,0 +1,821 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "dragonfly_reverb": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/DragonflyHallReverb.lv2/p23_Small_Dark_Hall.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "spin": 2.5,
+                        "early_send": 20.0,
+                        "size": 24.0,
+                        "delay": 12.0,
+                        "width": 100.0,
+                        "high_xo": 4000.0,
+                        "late_level": 40.0,
+                        "high_mult": 0.34999999403953552,
+                        "low_cut": 4.0,
+                        "dry_level": 0.0,
+                        "diffuse": 60.0,
+                        "low_mult": 1.5,
+                        "modulation": 15.0,
+                        "early_level": 20.0,
+                        "decay": 1.5,
+                        "low_xo": 500.0,
+                        "high_cut": 5800.0,
+                        "wander": 10.0
+                    }
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000298023224
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "mod_volume_2x2_2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_cv_control_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "logic_operators": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    }
+                }
+            },
+            "name": "Small Dark"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "dragonfly_reverb": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/DragonflyHallReverb.lv2/p31_Medium_Bright_Hall.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "spin": 2.9000000953674316,
+                        "early_send": 20.0,
+                        "size": 30.0,
+                        "delay": 18.0,
+                        "width": 100.0,
+                        "high_xo": 6400.0,
+                        "late_level": 40.0,
+                        "high_mult": 0.60000002384185791,
+                        "low_cut": 4.0,
+                        "dry_level": 0.0,
+                        "diffuse": 90.0,
+                        "low_mult": 1.25,
+                        "modulation": 15.0,
+                        "early_level": 20.0,
+                        "decay": 1.6000000238418579,
+                        "low_xo": 400.0,
+                        "high_cut": 10000.0,
+                        "wander": 15.0
+                    }
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000298023224
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "mod_volume_2x2_2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_cv_control_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "logic_operators": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    }
+                }
+            },
+            "name": "Medium Bright"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "dragonfly_reverb": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/DragonflyHallReverb.lv2/p42_Large_Clear_Hall.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "spin": 2.0999999046325684,
+                        "early_send": 20.0,
+                        "size": 40.0,
+                        "delay": 12.0,
+                        "width": 100.0,
+                        "high_xo": 5200.0,
+                        "late_level": 40.0,
+                        "high_mult": 0.40000000596046448,
+                        "low_cut": 4.0,
+                        "dry_level": 0.0,
+                        "diffuse": 80.0,
+                        "low_mult": 2.0,
+                        "modulation": 15.0,
+                        "early_level": 20.0,
+                        "decay": 2.7999999523162842,
+                        "low_xo": 550.0,
+                        "high_cut": 8200.0,
+                        "wander": 20.0
+                    }
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000298023224
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "mod_volume_2x2_2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_cv_control_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "logic_operators": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    }
+                }
+            },
+            "name": "Large Clear"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "dragonfly_reverb": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/DragonflyHallReverb.lv2/p43_Large_Dark_Hall.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "spin": 2.0999999046325684,
+                        "early_send": 20.0,
+                        "size": 40.0,
+                        "delay": 20.0,
+                        "width": 100.0,
+                        "high_xo": 2800.0,
+                        "late_level": 40.0,
+                        "high_mult": 0.20000000298023224,
+                        "low_cut": 4.0,
+                        "dry_level": 0.0,
+                        "diffuse": 60.0,
+                        "low_mult": 2.5,
+                        "modulation": 15.0,
+                        "early_level": 20.0,
+                        "decay": 3.0,
+                        "low_xo": 600.0,
+                        "high_cut": 6250.0,
+                        "wander": 20.0
+                    }
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000298023224
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "mod_volume_2x2_2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_cv_control_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "logic_operators": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    }
+                }
+            },
+            "name": "Large Dark"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "dragonfly_reverb": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/DragonflyHallReverb.lv2/p45_Great_Hall.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "spin": 2.5999999046325684,
+                        "early_send": 20.0,
+                        "size": 50.0,
+                        "delay": 20.0,
+                        "width": 90.0,
+                        "high_xo": 4000.0,
+                        "late_level": 40.0,
+                        "high_mult": 0.30000001192092896,
+                        "low_cut": 4.0,
+                        "dry_level": 0.0,
+                        "diffuse": 95.0,
+                        "low_mult": 2.5,
+                        "modulation": 15.0,
+                        "early_level": 20.0,
+                        "decay": 3.7999999523162842,
+                        "low_xo": 750.0,
+                        "high_cut": 5500.0,
+                        "wander": 22.0
+                    }
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000298023224
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "mod_volume_2x2_2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_cv_control_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "logic_operators": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    }
+                }
+            },
+            "name": "Great Hall"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "dragonfly_reverb": {
+                    "parameters": {},
+                    "preset": "file:///root/.lv2/DragonflyHallReverb.lv2/p45_Great_Hall.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "spin": 2.5999999046325684,
+                        "early_send": 20.0,
+                        "size": 50.0,
+                        "delay": 20.0,
+                        "width": 90.0,
+                        "high_xo": 4000.0,
+                        "late_level": 40.0,
+                        "high_mult": 0.30000001192092896,
+                        "low_cut": 4.0,
+                        "dry_level": 0.0,
+                        "diffuse": 95.0,
+                        "low_mult": 2.5,
+                        "modulation": 15.0,
+                        "early_level": 20.0,
+                        "decay": 10.0,
+                        "low_xo": 750.0,
+                        "high_cut": 5500.0,
+                        "wander": 22.0
+                    }
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000298023224
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "mod_volume_2x2_2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 0.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "mod_volume_2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Volume": 1.0,
+                        "PluginEnabled": 1.0,
+                        "Mode": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_cv_control_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 0.0
+                    }
+                },
+                "logic_operators": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Hysteresis": 0.0,
+                        "SwitchPoint": 5.0,
+                        "LogicOperator": 3.0
+                    }
+                }
+            },
+            "name": "Great Hall+"
+        }
+    ]
+}

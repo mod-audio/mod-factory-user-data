@@ -1,0 +1,701 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    }
+                },
+                "mod_cv_parameter_modulation": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "ParameterValue": 50.0,
+                        "BYPASS": 0.0,
+                        "ModulationDepth": 35.0
+                    }
+                },
+                "lfo2_freq": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "waveForm": 0.0,
+                        "freq": 0.69999998807907104,
+                        "phi0": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.5
+                    }
+                },
+                "SuperWhammy": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Fidelity": 3.0,
+                        "First": -12.0,
+                        "Step": 0.0,
+                        "Last": 12.0,
+                        "Gain": 3.0,
+                        "Clean": 0.0
+                    }
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": 0.0,
+                        "irfile": 7.0,
+                        "drylevel": -60.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "echo": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "swapoutputs": 0.0,
+                        "rhaasfeedback": 0.0,
+                        "rhaasdelay": 500.0,
+                        "recholevel": 0.0,
+                        "haaseffect": 0.0,
+                        "crossmode": 0.0,
+                        "dryLevel": -70.0,
+                        "lecholevel": 0.0,
+                        "lfeedback": 0.0,
+                        "ldelay": 200.0
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": 0.05000000074505806,
+                        "Smoothing": 0.0
+                    }
+                }
+            },
+            "name": "Sub Dungeon"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    }
+                },
+                "mod_cv_parameter_modulation": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "ParameterValue": 50.0,
+                        "BYPASS": 0.0,
+                        "ModulationDepth": 35.0
+                    }
+                },
+                "lfo2_freq": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "waveForm": 0.0,
+                        "freq": 0.69999998807907104,
+                        "phi0": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.5
+                    }
+                },
+                "SuperWhammy": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Fidelity": 3.0,
+                        "First": -12.0,
+                        "Step": 0.0,
+                        "Last": 12.0,
+                        "Gain": 3.0,
+                        "Clean": 0.0
+                    }
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": 0.0,
+                        "irfile": 2.0,
+                        "drylevel": -60.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "echo": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "swapoutputs": 0.0,
+                        "rhaasfeedback": 0.0,
+                        "rhaasdelay": 500.0,
+                        "recholevel": 0.0,
+                        "haaseffect": 0.0,
+                        "crossmode": 0.0,
+                        "dryLevel": -70.0,
+                        "lecholevel": 0.0,
+                        "lfeedback": 0.0,
+                        "ldelay": 200.0
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": 0.05000000074505806,
+                        "Smoothing": 0.0
+                    }
+                }
+            },
+            "name": "Sub Room"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    }
+                },
+                "mod_cv_parameter_modulation": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 50.0,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": 35.0
+                    }
+                },
+                "lfo2_freq": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "waveForm": 0.0,
+                        "freq": 0.69999998807907104,
+                        "phi0": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.5
+                    }
+                },
+                "SuperWhammy": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Fidelity": 3.0,
+                        "First": -12.0,
+                        "Step": 0.49156300000000003,
+                        "Last": 12.0,
+                        "Gain": 3.0,
+                        "Clean": 0.0
+                    }
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": 0.0,
+                        "irfile": 2.0,
+                        "drylevel": -60.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "echo": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "swapoutputs": 0.0,
+                        "rhaasfeedback": 0.0,
+                        "rhaasdelay": 500.0,
+                        "recholevel": 0.0,
+                        "haaseffect": 0.0,
+                        "crossmode": 0.0,
+                        "dryLevel": -70.0,
+                        "lecholevel": 0.0,
+                        "lfeedback": 0.0,
+                        "ldelay": 200.0
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": 0.05000000074505806,
+                        "Smoothing": 0.0
+                    }
+                }
+            },
+            "name": "Chorus Room"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    }
+                },
+                "mod_cv_parameter_modulation": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 50.0,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": 35.0
+                    }
+                },
+                "lfo2_freq": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "waveForm": 0.0,
+                        "freq": 0.69999998807907104,
+                        "phi0": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.5
+                    }
+                },
+                "SuperWhammy": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Fidelity": 3.0,
+                        "First": -12.0,
+                        "Step": 0.50017999999999996,
+                        "Last": 12.0,
+                        "Gain": 3.0,
+                        "Clean": 0.0
+                    }
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": 0.0,
+                        "irfile": 4.0,
+                        "drylevel": -60.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "echo": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "swapoutputs": 0.0,
+                        "rhaasfeedback": 70.0,
+                        "rhaasdelay": 300.0,
+                        "recholevel": 0.0,
+                        "haaseffect": 0.0,
+                        "crossmode": 0.0,
+                        "dryLevel": -70.0,
+                        "lecholevel": -12.0,
+                        "lfeedback": 90.0,
+                        "ldelay": 140.0
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": 0.05000000074505806,
+                        "Smoothing": 0.0
+                    }
+                }
+            },
+            "name": "Fback Foyer"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    }
+                },
+                "mod_cv_parameter_modulation": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 50.0,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": 10.0
+                    }
+                },
+                "lfo2_freq": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "waveForm": 0.0,
+                        "freq": 0.69999998807907104,
+                        "phi0": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 0.0
+                    }
+                },
+                "SuperWhammy": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Fidelity": 3.0,
+                        "First": -12.0,
+                        "Step": 0.50120100000000001,
+                        "Last": 12.0,
+                        "Gain": 3.0,
+                        "Clean": 0.0
+                    }
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": 0.0,
+                        "irfile": 17.0,
+                        "drylevel": -60.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "echo": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "swapoutputs": 0.0,
+                        "rhaasfeedback": 90.0,
+                        "rhaasdelay": 100.0,
+                        "recholevel": -6.0,
+                        "haaseffect": 0.0,
+                        "crossmode": 0.0,
+                        "dryLevel": -70.0,
+                        "lecholevel": 0.0,
+                        "lfeedback": 0.0,
+                        "ldelay": 0.0
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": 0.05000000074505806,
+                        "Smoothing": 0.0
+                    }
+                }
+            },
+            "name": "Jittery Plate"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    }
+                },
+                "mod_cv_parameter_modulation": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "ParameterValue": 50.0,
+                        "BYPASS": 0.0,
+                        "ModulationDepth": 10.0
+                    }
+                },
+                "lfo2_freq": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "waveForm": 0.0,
+                        "freq": 0.69999998807907104,
+                        "phi0": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.29999999999999999
+                    }
+                },
+                "SuperWhammy": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Fidelity": 3.0,
+                        "First": -12.0,
+                        "Step": 0.0,
+                        "Last": 12.0,
+                        "Gain": 3.0,
+                        "Clean": 0.0
+                    }
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": 0.0,
+                        "irfile": 11.0,
+                        "drylevel": -60.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "echo": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "swapoutputs": 0.0,
+                        "rhaasfeedback": 90.0,
+                        "rhaasdelay": 60.0,
+                        "recholevel": -10.800000000000001,
+                        "haaseffect": 0.0,
+                        "crossmode": 0.0,
+                        "dryLevel": -70.0,
+                        "lecholevel": -8.0,
+                        "lfeedback": 45.0,
+                        "ldelay": 230.0
+                    }
+                },
+                "mod_cv_attenuverter": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": 0.05000000074505806,
+                        "Smoothing": 0.0
+                    }
+                }
+            },
+            "name": "Sub Pit"
+        }
+    ]
+}

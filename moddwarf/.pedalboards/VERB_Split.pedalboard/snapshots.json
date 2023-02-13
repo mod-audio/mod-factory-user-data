@@ -1,0 +1,719 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "Prefreak": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Blur": 3.7349998950958252,
+                        "Level": 0.090000003576278687
+                    }
+                },
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "chorusflanger": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "LRPhaseShift": 90.0,
+                        "Contour": 100.0,
+                        "WetLevel": -3.0,
+                        "Delay": 25.0,
+                        "Frequency": 1.7000000476837158,
+                        "DryLevel": -3.0,
+                        "Depth": 75.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "harmless": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "phase": 0.0,
+                        "depth": 90.0,
+                        "tone": 6000.0,
+                        "shape": 0.27500000596046448,
+                        "rate": 3.6700000762939453
+                    }
+                },
+                "Phaser": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "mod_rate": 0.25,
+                        "stages": 6.0,
+                        "base_freq": 1000.0,
+                        "reset": 0.0,
+                        "dry": 0.25,
+                        "amount": 0.75,
+                        "stereo": 180.0,
+                        "mod_depth": 4000.0,
+                        "feedback": 0.49500000476837158
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000298023224
+                    }
+                },
+                "Freaktail": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Tail_level": 0.20000000298023224,
+                        "Roomsize": 2.255000114440918,
+                        "Decay": 0.70800000429153442
+                    }
+                }
+            },
+            "name": "Slow Swirl"
+        },
+        {
+            "data": {
+                "Prefreak": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Blur": 3.7349998950958252,
+                        "Level": 0.090000003576278687
+                    }
+                },
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "chorusflanger": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "LRPhaseShift": 90.0,
+                        "Contour": 100.0,
+                        "WetLevel": -3.0,
+                        "Delay": 25.0,
+                        "Frequency": 1.7000000476837158,
+                        "DryLevel": -3.0,
+                        "Depth": 75.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "harmless": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "phase": 0.0,
+                        "depth": 90.0,
+                        "tone": 6000.0,
+                        "shape": 0.27500000596046448,
+                        "rate": 3.6700000762939453
+                    }
+                },
+                "Phaser": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "mod_rate": 0.25,
+                        "stages": 6.0,
+                        "base_freq": 1000.0,
+                        "reset": 0.0,
+                        "dry": 0.25,
+                        "amount": 0.75,
+                        "stereo": 180.0,
+                        "mod_depth": 4000.0,
+                        "feedback": 0.49500000476837158
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000298023224
+                    }
+                },
+                "Freaktail": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Tail_level": 0.20000000298023224,
+                        "Roomsize": 2.255000114440918,
+                        "Decay": 0.70800000429153442
+                    }
+                }
+            },
+            "name": "Bouncy Swirl"
+        },
+        {
+            "data": {
+                "Prefreak": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Blur": 0.045999999999999999,
+                        "Level": 0.090000003576278687
+                    }
+                },
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "chorusflanger": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "LRPhaseShift": 90.0,
+                        "Contour": 100.0,
+                        "WetLevel": -3.0,
+                        "Delay": 25.0,
+                        "Frequency": 1.7000000476837158,
+                        "DryLevel": -3.0,
+                        "Depth": 75.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "harmless": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "phase": 0.0,
+                        "depth": 90.0,
+                        "tone": 6000.0,
+                        "shape": 0.27500000596046448,
+                        "rate": 3.6700000762939453
+                    }
+                },
+                "Phaser": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "mod_rate": 0.25,
+                        "stages": 6.0,
+                        "base_freq": 1000.0,
+                        "reset": 0.0,
+                        "dry": 0.25,
+                        "amount": 0.75,
+                        "stereo": 180.0,
+                        "mod_depth": 4000.0,
+                        "feedback": 0.49500000476837158
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 0.0
+                    }
+                },
+                "Freaktail": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Tail_level": 0.20000000298023224,
+                        "Roomsize": 0.50900000000000001,
+                        "Decay": 0.52700000000000002
+                    }
+                }
+            },
+            "name": "Short Vibe"
+        },
+        {
+            "data": {
+                "Prefreak": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Blur": 0.045999999999999999,
+                        "Level": 0.090000003576278687
+                    }
+                },
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "chorusflanger": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "LRPhaseShift": 90.0,
+                        "Contour": 100.0,
+                        "WetLevel": -3.0,
+                        "Delay": 25.0,
+                        "Frequency": 1.7000000476837158,
+                        "DryLevel": -3.0,
+                        "Depth": 75.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "harmless": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "phase": 0.0,
+                        "depth": 90.0,
+                        "tone": 6000.0,
+                        "shape": 0.27500000596046448,
+                        "rate": 3.6700000762939453
+                    }
+                },
+                "Phaser": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "mod_rate": 0.25,
+                        "stages": 6.0,
+                        "base_freq": 1000.0,
+                        "reset": 0.0,
+                        "dry": 0.25,
+                        "amount": 0.75,
+                        "stereo": 180.0,
+                        "mod_depth": 4000.0,
+                        "feedback": 0.49500000476837158
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 0.0
+                    }
+                },
+                "Freaktail": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Tail_level": 0.38,
+                        "Roomsize": 5.0,
+                        "Decay": 0.83799999999999997
+                    }
+                }
+            },
+            "name": "Hesitant Grains"
+        },
+        {
+            "data": {
+                "Prefreak": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Blur": 0.045999999999999999,
+                        "Level": 0.050000000000000003
+                    }
+                },
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "chorusflanger": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "LRPhaseShift": 90.0,
+                        "Contour": 100.0,
+                        "WetLevel": -3.0,
+                        "Delay": 25.0,
+                        "Frequency": 1.7000000476837158,
+                        "DryLevel": -3.0,
+                        "Depth": 75.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "harmless": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "phase": 0.0,
+                        "depth": 90.0,
+                        "tone": 6000.0,
+                        "shape": 0.27500000596046448,
+                        "rate": 3.6700000762939453
+                    }
+                },
+                "Phaser": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "mod_rate": 0.25,
+                        "stages": 6.0,
+                        "base_freq": 1000.0,
+                        "reset": 0.0,
+                        "dry": 0.25,
+                        "amount": 0.75,
+                        "stereo": 180.0,
+                        "mod_depth": 4000.0,
+                        "feedback": 0.49500000476837158
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.40000000000000002
+                    }
+                },
+                "Freaktail": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Tail_level": 0.19,
+                        "Roomsize": 0.78300000000000003,
+                        "Decay": 0.93700000000000006
+                    }
+                }
+            },
+            "name": "Gran-Chorus"
+        },
+        {
+            "data": {
+                "Prefreak": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Blur": 0.045999999999999999,
+                        "Level": 0.050000000000000003
+                    }
+                },
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "chorusflanger": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "LRPhaseShift": 90.0,
+                        "Contour": 100.0,
+                        "WetLevel": -3.0,
+                        "Delay": 25.0,
+                        "Frequency": 1.7000000476837158,
+                        "DryLevel": -3.0,
+                        "Depth": 75.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "harmless": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "phase": 0.0,
+                        "depth": 90.0,
+                        "tone": 6000.0,
+                        "shape": 0.27500000596046448,
+                        "rate": 3.6700000762939453
+                    }
+                },
+                "Phaser": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "mod_rate": 0.25,
+                        "stages": 6.0,
+                        "base_freq": 1000.0,
+                        "reset": 0.0,
+                        "dry": 0.25,
+                        "amount": 0.75,
+                        "stereo": 180.0,
+                        "mod_depth": 4000.0,
+                        "feedback": 0.49500000476837158
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 0.0
+                    }
+                },
+                "Freaktail": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Tail_level": 0.35999999999999999,
+                        "Roomsize": 2.0059999999999998,
+                        "Decay": 0.39700000000000002
+                    }
+                }
+            },
+            "name": "Slap Room"
+        },
+        {
+            "data": {
+                "Prefreak": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Blur": 0.045999999999999999,
+                        "Level": 0.037999999999999999
+                    }
+                },
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "chorusflanger": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "LRPhaseShift": 90.0,
+                        "Contour": 100.0,
+                        "WetLevel": -3.0,
+                        "Delay": 25.0,
+                        "Frequency": 1.7000000476837158,
+                        "DryLevel": -3.0,
+                        "Depth": 75.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "harmless": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "phase": 0.0,
+                        "depth": 66.5,
+                        "tone": 6000.0,
+                        "shape": 0.108,
+                        "rate": 8.1259999999999994
+                    }
+                },
+                "Phaser": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "mod_rate": 0.25,
+                        "stages": 6.0,
+                        "base_freq": 1000.0,
+                        "reset": 0.0,
+                        "dry": 0.25,
+                        "amount": 0.75,
+                        "stereo": 180.0,
+                        "mod_depth": 4000.0,
+                        "feedback": 0.49500000476837158
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "Freaktail": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Tail_level": 0.28000000000000003,
+                        "Roomsize": 2.0059999999999998,
+                        "Decay": 0.39700000000000002
+                    }
+                }
+            },
+            "name": "Slight Perc"
+        }
+    ]
+}

@@ -1,0 +1,176 @@
+{
+    "/hmi/footswitch2": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Trails",
+            "steps": 33,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": ":bypass",
+            "coloured": false,
+            "instance": "/graph/mod_cv_control",
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Hall",
+            "steps": 33,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 1,
+            "port": ":bypass",
+            "coloured": false,
+            "instance": "/graph/mod_cv_control_1",
+            "maximum": 1.0
+        }
+    ],
+    "/cv/graph/logic_operators/CV_out": {
+        "name": "return",
+        "addrs": [
+            {
+                "maximum": 1.0,
+                "label": "Volume",
+                "instance": "/graph/mod_volume_2x2",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": "Volume"
+            }
+        ]
+    },
+    "/bpm": [],
+    "/cv/graph/mod_cv_attenuverter/CVout1": {
+        "name": "dry",
+        "addrs": [
+            {
+                "maximum": 1.0,
+                "label": "Volume",
+                "instance": "/graph/mod_volume_2x2_1",
+                "operational_mode": "-",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": "Volume"
+            }
+        ]
+    },
+    "/cv/graph/mod_cv_control_1/Cvoutput": {
+        "name": "send",
+        "addrs": [
+            {
+                "maximum": 1.0,
+                "label": "Volume",
+                "instance": "/graph/mod_volume_2x2_2",
+                "operational_mode": "+",
+                "minimum": 0.0,
+                "steps": 33,
+                "port": "Volume"
+            }
+        ]
+    },
+    "/hmi/group1": [],
+    "/hmi/knob3": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "High Cut",
+            "steps": 201,
+            "minimum": 1000.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "high_cut",
+            "coloured": false,
+            "instance": "/graph/dragonfly_reverb",
+            "maximum": 16000.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "wet lvl",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "Volume",
+            "coloured": false,
+            "instance": "/graph/mod_volume_2x2_3",
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Low Cut",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "low_cut",
+            "coloured": false,
+            "instance": "/graph/dragonfly_reverb",
+            "maximum": 200.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "dry lvl",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "Volume",
+            "coloured": false,
+            "instance": "/graph/mod_volume_2x2_4",
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Hall",
+            "steps": 26,
+            "minimum": 0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": ":presets",
+            "coloured": false,
+            "instance": "/graph/dragonfly_reverb",
+            "maximum": 27
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Decay",
+            "steps": 201,
+            "minimum": 0.10000000000000001,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "decay",
+            "coloured": false,
+            "instance": "/graph/dragonfly_reverb",
+            "maximum": 10.0
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "/hmi/footswitch2": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Gate",
+            "steps": 33,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": ":bypass",
+            "coloured": false,
+            "instance": "/graph/Advanced_NoiseGate",
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/footswitch1": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Plate",
+            "steps": 33,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": ":bypass",
+            "coloured": false,
+            "instance": "/graph/xfade",
+            "maximum": 1.0
+        }
+    ],
+    "/bpm": [],
+    "/hmi/group1": [],
+    "/hmi/knob3": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "G.Thresh",
+            "steps": 201,
+            "minimum": -80.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "Threshold",
+            "coloured": false,
+            "instance": "/graph/Advanced_NoiseGate",
+            "maximum": -10.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "P.HiCut",
+            "steps": 201,
+            "minimum": 1000.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "high_cut",
+            "coloured": false,
+            "instance": "/graph/plate",
+            "maximum": 16000.0
+        }
+    ],
+    "/hmi/knob2": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "G.Decay",
+            "steps": 201,
+            "minimum": 1.0,
+            "group": null,
+            "subpage": 2,
+            "momentary": 0,
+            "port": "Decay",
+            "coloured": false,
+            "instance": "/graph/Advanced_NoiseGate",
+            "maximum": 1000.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "P.LoCut",
+            "steps": 201,
+            "minimum": 0.0,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "low_cut",
+            "coloured": false,
+            "instance": "/graph/plate",
+            "maximum": 200.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Mix",
+            "steps": 201,
+            "minimum": -1.0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": "xfade",
+            "coloured": false,
+            "instance": "/graph/xfade",
+            "maximum": 1.0
+        }
+    ],
+    "/hmi/knob1": [
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "Plate",
+            "steps": 7,
+            "minimum": 0,
+            "group": null,
+            "subpage": 0,
+            "momentary": 0,
+            "port": ":presets",
+            "coloured": false,
+            "instance": "/graph/plate",
+            "maximum": 8
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "G.Hold",
+            "steps": 201,
+            "minimum": 1.0,
+            "group": null,
+            "subpage": 2,
+            "momentary": 0,
+            "port": "Hold",
+            "coloured": false,
+            "instance": "/graph/Advanced_NoiseGate",
+            "maximum": 200.0
+        },
+        {
+            "dividers": null,
+            "tempo": false,
+            "page": 0,
+            "label": "P.Decay",
+            "steps": 201,
+            "minimum": 0.10000000000000001,
+            "group": null,
+            "subpage": 1,
+            "momentary": 0,
+            "port": "decay",
+            "coloured": false,
+            "instance": "/graph/plate",
+            "maximum": 10.0
+        }
+    ]
+}

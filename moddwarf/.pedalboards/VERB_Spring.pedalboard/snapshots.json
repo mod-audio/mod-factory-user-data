@@ -1,0 +1,620 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "Fidelity": 1.0,
+                        "Model": 0.0,
+                        "Attenuation": 0.0
+                    }
+                },
+                "cabsim_vintage_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "Fidelity": 1.0,
+                        "Model": 0.0,
+                        "Attenuation": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "stereo": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "LSfreq": 400.0,
+                        "peakreset": 1.0,
+                        "q1": 0.60000002384185791,
+                        "q3": 0.60000002384185791,
+                        "q2": 1.4500000476837158,
+                        "q4": 0.60000002384185791,
+                        "HSq": 1.0,
+                        "LPQ": 1.0,
+                        "HighPass": 0.0,
+                        "sec1": 0.0,
+                        "sec3": 0.0,
+                        "sec2": 1.0,
+                        "sec4": 0.0,
+                        "HSfreq": 1000.0,
+                        "freq4": 2500.0,
+                        "freq3": 1250.0,
+                        "freq2": 682.65997314453125,
+                        "freq1": 160.0,
+                        "HSsec": 1.0,
+                        "gain2": 0.0,
+                        "LSq": 1.0,
+                        "LowPass": 0.0,
+                        "gain": 0.0,
+                        "HSgain": 0.0,
+                        "HPQ": 0.69999998807907104,
+                        "LSgain": 0.0,
+                        "enable": 1.0,
+                        "HPfreq": 20.0,
+                        "gain4": 0.0,
+                        "LSsec": 1.0,
+                        "LPfreq": 20000.0,
+                        "gain3": 0.0,
+                        "gain1": 0.0
+                    }
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": 0.0,
+                        "irfile": 0.0,
+                        "drylevel": -60.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.40000000000000002
+                    }
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 1.0
+                    }
+                }
+            },
+            "name": "Go-To Spring"
+        },
+        {
+            "data": {
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Fidelity": 1.0,
+                        "Model": 0.0,
+                        "Attenuation": 0.0
+                    }
+                },
+                "cabsim_vintage_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Fidelity": 1.0,
+                        "Model": 0.0,
+                        "Attenuation": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "stereo": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "LSfreq": 400.0,
+                        "peakreset": 1.0,
+                        "q1": 0.60000002384185791,
+                        "q3": 0.60000002384185791,
+                        "q2": 1.4500000476837158,
+                        "q4": 0.60000002384185791,
+                        "HSq": 1.0,
+                        "LPQ": 1.0,
+                        "HighPass": 0.0,
+                        "sec1": 0.0,
+                        "sec3": 0.0,
+                        "sec2": 1.0,
+                        "sec4": 0.0,
+                        "HSfreq": 1000.0,
+                        "freq4": 2500.0,
+                        "freq3": 1250.0,
+                        "freq2": 682.65997314453125,
+                        "freq1": 160.0,
+                        "HSsec": 1.0,
+                        "gain2": 0.0,
+                        "LSq": 1.0,
+                        "LowPass": 0.0,
+                        "gain": 0.0,
+                        "HSgain": 0.0,
+                        "HPQ": 0.69999998807907104,
+                        "LSgain": 0.0,
+                        "enable": 1.0,
+                        "HPfreq": 20.0,
+                        "gain4": 0.0,
+                        "LSsec": 1.0,
+                        "LPfreq": 20000.0,
+                        "gain3": 0.0,
+                        "gain1": 0.0
+                    }
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": 0.0,
+                        "irfile": 0.0,
+                        "drylevel": -60.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.40000000000000002
+                    }
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 1.0
+                    }
+                }
+            },
+            "name": "Through Cabinet"
+        },
+        {
+            "data": {
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "Fidelity": 1.0,
+                        "Model": 0.0,
+                        "Attenuation": 0.0
+                    }
+                },
+                "cabsim_vintage_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "Fidelity": 1.0,
+                        "Model": 0.0,
+                        "Attenuation": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "stereo": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "LSfreq": 400.0,
+                        "peakreset": 1.0,
+                        "q1": 0.60000002384185791,
+                        "q3": 0.60000002384185791,
+                        "q2": 1.4500000476837158,
+                        "q4": 0.60000002384185791,
+                        "HSq": 1.0,
+                        "LPQ": 1.0,
+                        "HighPass": 0.0,
+                        "sec1": 0.0,
+                        "sec3": 0.0,
+                        "sec2": 1.0,
+                        "sec4": 0.0,
+                        "HSfreq": 1000.0,
+                        "freq4": 2500.0,
+                        "freq3": 1250.0,
+                        "freq2": 682.65997314453125,
+                        "freq1": 160.0,
+                        "HSsec": 1.0,
+                        "gain2": -18.0,
+                        "LSq": 1.0,
+                        "LowPass": 0.0,
+                        "gain": 0.0,
+                        "HSgain": 12.6,
+                        "HPQ": 0.69999998807907104,
+                        "LSgain": 18.0,
+                        "enable": 1.0,
+                        "HPfreq": 20.0,
+                        "gain4": 0.0,
+                        "LSsec": 1.0,
+                        "LPfreq": 20000.0,
+                        "gain3": 0.0,
+                        "gain1": 0.0
+                    }
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": 0.0,
+                        "irfile": 0.0,
+                        "drylevel": -60.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000000000001
+                    }
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 1.0
+                    }
+                }
+            },
+            "name": "Mid Scoop"
+        },
+        {
+            "data": {
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "Fidelity": 1.0,
+                        "Model": 0.0,
+                        "Attenuation": 0.0
+                    }
+                },
+                "cabsim_vintage_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "Fidelity": 1.0,
+                        "Model": 0.0,
+                        "Attenuation": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "stereo": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "LSfreq": 400.0,
+                        "peakreset": 1.0,
+                        "q1": 0.60000002384185791,
+                        "q3": 0.60000002384185791,
+                        "q2": 1.4500000476837158,
+                        "q4": 0.60000002384185791,
+                        "HSq": 1.0,
+                        "LPQ": 1.0,
+                        "HighPass": 0.0,
+                        "sec1": 0.0,
+                        "sec3": 0.0,
+                        "sec2": 1.0,
+                        "sec4": 0.0,
+                        "HSfreq": 1000.0,
+                        "freq4": 2500.0,
+                        "freq3": 1250.0,
+                        "freq2": 682.65997314453125,
+                        "freq1": 160.0,
+                        "HSsec": 1.0,
+                        "gain2": -10.800000000000001,
+                        "LSq": 1.0,
+                        "LowPass": 0.0,
+                        "gain": 0.0,
+                        "HSgain": 18.0,
+                        "HPQ": 0.69999998807907104,
+                        "LSgain": -18.0,
+                        "enable": 1.0,
+                        "HPfreq": 20.0,
+                        "gain4": 0.0,
+                        "LSsec": 1.0,
+                        "LPfreq": 20000.0,
+                        "gain3": 0.0,
+                        "gain1": 0.0
+                    }
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": 0.0,
+                        "irfile": 0.0,
+                        "drylevel": -60.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000000000001
+                    }
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 1.0
+                    }
+                }
+            },
+            "name": "Bright"
+        },
+        {
+            "data": {
+                "cabsim_vintage": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "Fidelity": 1.0,
+                        "Model": 0.0,
+                        "Attenuation": 0.0
+                    }
+                },
+                "cabsim_vintage_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "Fidelity": 1.0,
+                        "Model": 0.0,
+                        "Attenuation": 0.0
+                    }
+                },
+                "xfade": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    }
+                },
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "stereo": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "LSfreq": 400.0,
+                        "peakreset": 1.0,
+                        "q1": 0.60000002384185791,
+                        "q3": 0.60000002384185791,
+                        "q2": 1.4500000476837158,
+                        "q4": 0.60000002384185791,
+                        "HSq": 1.0,
+                        "LPQ": 1.0,
+                        "HighPass": 0.0,
+                        "sec1": 0.0,
+                        "sec3": 0.0,
+                        "sec2": 1.0,
+                        "sec4": 0.0,
+                        "HSfreq": 1000.0,
+                        "freq4": 2500.0,
+                        "freq3": 1250.0,
+                        "freq2": 682.65997314453125,
+                        "freq1": 160.0,
+                        "HSsec": 1.0,
+                        "gain2": -0.54000000000000004,
+                        "LSq": 1.0,
+                        "LowPass": 0.0,
+                        "gain": 0.0,
+                        "HSgain": -18.0,
+                        "HPQ": 0.69999998807907104,
+                        "LSgain": 0.0,
+                        "enable": 1.0,
+                        "HPfreq": 20.0,
+                        "gain4": 0.0,
+                        "LSsec": 1.0,
+                        "LPfreq": 20000.0,
+                        "gain3": 0.0,
+                        "gain1": 0.0
+                    }
+                },
+                "ConvolutionReverb": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "lv2_enabled": 1.0,
+                        "trails": 1.0,
+                        "hpf": 0.0,
+                        "wetlevel": 0.0,
+                        "irfile": 0.0,
+                        "drylevel": -60.0
+                    }
+                },
+                "Gain2x2": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    }
+                },
+                "xfade_1": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.20000000000000001
+                    }
+                },
+                "mod_cv_control": {
+                    "parameters": {},
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 1.0
+                    }
+                }
+            },
+            "name": "Dark"
+        }
+    ]
+}

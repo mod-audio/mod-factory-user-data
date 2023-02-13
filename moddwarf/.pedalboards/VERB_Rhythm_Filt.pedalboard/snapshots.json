@@ -1,0 +1,974 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_parameter_modulation": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 26.328502655029297,
+                        "ModulationDepth": 200.0,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "midi_to_cv_mono": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Octave": 0.0,
+                        "Semitone": 0.0,
+                        "Panic": 0.0,
+                        "Retrigger": 0.0,
+                        "Cent": 0.0
+                    },
+                    "parameters": {}
+                },
+                "dragonfly_reverb": {
+                    "preset": "file:///root/.lv2/DragonflyHallReverb.lv2/p41_Large_Bright_Hall.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "width": 100.0,
+                        "spin": 2.0999999046325684,
+                        "diffuse": 90.0,
+                        "size": 40.0,
+                        "delay": 20.0,
+                        "wander": 20.0,
+                        "early_send": 20.0,
+                        "late_level": 65.0,
+                        "decay": 5.0,
+                        "low_cut": 4.0,
+                        "dry_level": 0.0,
+                        "low_mult": 1.5,
+                        "modulation": 15.0,
+                        "early_level": 23.333332061767578,
+                        "high_xo": 5800.0,
+                        "low_xo": 400.0,
+                        "high_cut": 8200.0,
+                        "high_mult": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_slew": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 896.1456298828125,
+                        "RiseTime": 0.10000000149011612,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mindi": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "AUTOFF": 1.0,
+                        "CHAN": 0.0,
+                        "DATA2": 127.0,
+                        "DELAY": 0.0,
+                        "DATA1": 60.0,
+                        "ENABLE": 1.0,
+                        "MSGTYPE": 9.0
+                    },
+                    "parameters": {}
+                },
+                "mod_audio_to_cv": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Offset": 0.0,
+                        "BYPASS": 1.0,
+                        "Level": 10.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.25
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_abs": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0
+                    },
+                    "parameters": {}
+                },
+                "arpeggiator": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "noteLength": 0.49543478249477713,
+                        "velocity": 34.0,
+                        "latch": 0.0,
+                        "enabled": 1.0,
+                        "sync": 0.0,
+                        "octaveMode": 4.0,
+                        "Panic": 0.0,
+                        "octaveSpread": 4.0,
+                        "Bpm": 120.0,
+                        "arpMode": 0.0,
+                        "Divisions": 6.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_slew_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 0.10000000149011612,
+                        "RiseTime": 0.10000000149011612,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_attenuverter": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Offset": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Smoothing": 0.0
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {}
+                },
+                "vcf": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "expFMGain": 0.0,
+                        "freq": 6.5,
+                        "resonanceGain": 0.0,
+                        "inputGain": 1.0,
+                        "resonance": 0.88200000000000001,
+                        "linFMGain": 0.0,
+                        "vcfType": 0.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_meter": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Reset": 1.0,
+                        "PluginEnabled": 1.0
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Abduction"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_parameter_modulation": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 26.328502655029297,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": 200.0
+                    },
+                    "parameters": {}
+                },
+                "midi_to_cv_mono": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Semitone": 0.0,
+                        "Panic": 0.0,
+                        "Retrigger": 0.0,
+                        "Octave": 0.0,
+                        "Cent": 0.0
+                    },
+                    "parameters": {}
+                },
+                "dragonfly_reverb": {
+                    "preset": "file:///root/.lv2/DragonflyHallReverb.lv2/p41_Large_Bright_Hall.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "late_level": 65.0,
+                        "spin": 2.0999999046325684,
+                        "early_send": 20.0,
+                        "size": 40.0,
+                        "delay": 20.0,
+                        "width": 100.0,
+                        "high_xo": 5800.0,
+                        "high_mult": 0.5,
+                        "decay": 5.0,
+                        "low_cut": 4.0,
+                        "dry_level": 0.0,
+                        "low_mult": 1.5,
+                        "modulation": 15.0,
+                        "early_level": 23.333332061767578,
+                        "wander": 20.0,
+                        "low_xo": 400.0,
+                        "high_cut": 8200.0,
+                        "diffuse": 90.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_slew": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 896.1456298828125,
+                        "RiseTime": 0.10000000149011612,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mindi": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ENABLE": 1.0,
+                        "CHAN": 0.0,
+                        "DATA2": 127.0,
+                        "DELAY": 0.0,
+                        "DATA1": 60.0,
+                        "AUTOFF": 1.0,
+                        "MSGTYPE": 9.0
+                    },
+                    "parameters": {}
+                },
+                "mod_audio_to_cv": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Offset": 0.0,
+                        "BYPASS": 1.0,
+                        "Level": 10.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.25
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_abs": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0
+                    },
+                    "parameters": {}
+                },
+                "arpeggiator": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "noteLength": 0.49543499946594238,
+                        "velocity": 34.0,
+                        "latch": 0.0,
+                        "enabled": 1.0,
+                        "sync": 0.0,
+                        "Bpm": 120.0,
+                        "Panic": 0.0,
+                        "octaveSpread": 4.0,
+                        "octaveMode": 4.0,
+                        "arpMode": 0.0,
+                        "Divisions": 2.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_slew_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 0.10000000149011612,
+                        "RiseTime": 0.10000000149011612,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_attenuverter": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "PluginEnabled": 0.0,
+                        "Smoothing": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Offset": 0.0
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {}
+                },
+                "vcf": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "expFMGain": 0.0,
+                        "vcfType": 0.0,
+                        "resonanceGain": 0.0,
+                        "inputGain": 1.0,
+                        "linFMGain": 0.0,
+                        "freq": 2.3999999999999999,
+                        "resonance": 0.68500000000000005
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Slooooow"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_parameter_modulation": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 26.328502655029297,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": 200.0
+                    },
+                    "parameters": {}
+                },
+                "midi_to_cv_mono": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Semitone": 0.0,
+                        "Panic": 0.0,
+                        "Retrigger": 0.0,
+                        "Octave": 0.0,
+                        "Cent": 0.0
+                    },
+                    "parameters": {}
+                },
+                "dragonfly_reverb": {
+                    "preset": "file:///root/.lv2/DragonflyHallReverb.lv2/p41_Large_Bright_Hall.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "late_level": 65.0,
+                        "spin": 2.0999999046325684,
+                        "early_send": 20.0,
+                        "size": 40.0,
+                        "delay": 20.0,
+                        "width": 100.0,
+                        "high_xo": 5800.0,
+                        "high_mult": 0.5,
+                        "decay": 1.04,
+                        "low_cut": 4.0,
+                        "dry_level": 0.0,
+                        "low_mult": 1.5,
+                        "modulation": 15.0,
+                        "early_level": 23.333332061767578,
+                        "wander": 20.0,
+                        "low_xo": 400.0,
+                        "high_cut": 8200.0,
+                        "diffuse": 90.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_slew": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 896.1456298828125,
+                        "RiseTime": 0.10000000149011612,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mindi": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ENABLE": 1.0,
+                        "CHAN": 0.0,
+                        "DATA2": 127.0,
+                        "DELAY": 0.0,
+                        "DATA1": 60.0,
+                        "AUTOFF": 1.0,
+                        "MSGTYPE": 9.0
+                    },
+                    "parameters": {}
+                },
+                "mod_audio_to_cv": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Offset": 0.0,
+                        "BYPASS": 1.0,
+                        "Level": 10.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.25
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_abs": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0
+                    },
+                    "parameters": {}
+                },
+                "arpeggiator": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "noteLength": 0.49543499946594238,
+                        "velocity": 35.0,
+                        "latch": 0.0,
+                        "enabled": 1.0,
+                        "sync": 0.0,
+                        "Bpm": 120.0,
+                        "Panic": 0.0,
+                        "octaveSpread": 4.0,
+                        "octaveMode": 4.0,
+                        "arpMode": 0.0,
+                        "Divisions": 12.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_slew_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 0.10000000149011612,
+                        "RiseTime": 0.10000000149011612,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_attenuverter": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "PluginEnabled": 0.0,
+                        "Smoothing": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Offset": 0.0
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {}
+                },
+                "vcf": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "expFMGain": 0.0,
+                        "vcfType": 0.0,
+                        "resonanceGain": 0.0,
+                        "inputGain": 1.0,
+                        "linFMGain": 0.0,
+                        "freq": 3.0,
+                        "resonance": 0.66500000000000004
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Trills"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_parameter_modulation": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 26.328502655029297,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": 200.0
+                    },
+                    "parameters": {}
+                },
+                "midi_to_cv_mono": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Semitone": 0.0,
+                        "Panic": 0.0,
+                        "Retrigger": 0.0,
+                        "Octave": 0.0,
+                        "Cent": 0.0
+                    },
+                    "parameters": {}
+                },
+                "dragonfly_reverb": {
+                    "preset": "file:///root/.lv2/DragonflyHallReverb.lv2/p41_Large_Bright_Hall.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "late_level": 65.0,
+                        "spin": 2.0999999046325684,
+                        "early_send": 20.0,
+                        "size": 40.0,
+                        "delay": 20.0,
+                        "width": 100.0,
+                        "high_xo": 5800.0,
+                        "high_mult": 0.5,
+                        "decay": 3.5150000000000001,
+                        "low_cut": 4.0,
+                        "dry_level": 0.0,
+                        "low_mult": 1.5,
+                        "modulation": 15.0,
+                        "early_level": 23.333332061767578,
+                        "wander": 20.0,
+                        "low_xo": 400.0,
+                        "high_cut": 8200.0,
+                        "diffuse": 90.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_slew": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 896.1456298828125,
+                        "RiseTime": 0.10000000149011612,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mindi": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ENABLE": 1.0,
+                        "CHAN": 0.0,
+                        "DATA2": 127.0,
+                        "DELAY": 0.0,
+                        "DATA1": 60.0,
+                        "AUTOFF": 1.0,
+                        "MSGTYPE": 9.0
+                    },
+                    "parameters": {}
+                },
+                "mod_audio_to_cv": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Offset": 0.0,
+                        "BYPASS": 1.0,
+                        "Level": 10.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.25
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_abs": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0
+                    },
+                    "parameters": {}
+                },
+                "arpeggiator": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "noteLength": 0.49543499946594238,
+                        "velocity": 34.0,
+                        "latch": 0.0,
+                        "enabled": 1.0,
+                        "sync": 0.0,
+                        "Bpm": 120.0,
+                        "Panic": 0.0,
+                        "octaveSpread": 4.0,
+                        "octaveMode": 4.0,
+                        "arpMode": 0.0,
+                        "Divisions": 9.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_slew_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 0.10000000149011612,
+                        "RiseTime": 0.10000000149011612,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_attenuverter": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0,
+                        "Smoothing": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Offset": 0.0
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {}
+                },
+                "vcf": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "expFMGain": 0.0,
+                        "vcfType": 0.0,
+                        "resonanceGain": 0.0,
+                        "inputGain": 1.0,
+                        "linFMGain": 0.0,
+                        "freq": 8.1500000000000004,
+                        "resonance": 0.89200000000000002
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Bright Snaps"
+        },
+        {
+            "data": {
+                "mod_auto_input_selector": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "summedGain": 0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_parameter_modulation": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ParameterValue": 26.328502655029297,
+                        "BYPASS": 1.0,
+                        "ModulationDepth": 200.0
+                    },
+                    "parameters": {}
+                },
+                "midi_to_cv_mono": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Semitone": 0.0,
+                        "Panic": 0.0,
+                        "Retrigger": 0.0,
+                        "Octave": 0.0,
+                        "Cent": 0.0
+                    },
+                    "parameters": {}
+                },
+                "dragonfly_reverb": {
+                    "preset": "file:///root/.lv2/DragonflyHallReverb.lv2/p41_Large_Bright_Hall.ttl",
+                    "bypassed": false,
+                    "ports": {
+                        "late_level": 65.0,
+                        "spin": 2.0999999046325684,
+                        "early_send": 20.0,
+                        "size": 40.0,
+                        "delay": 20.0,
+                        "width": 100.0,
+                        "high_xo": 5800.0,
+                        "high_mult": 0.5,
+                        "decay": 10.0,
+                        "low_cut": 4.0,
+                        "dry_level": 0.0,
+                        "low_mult": 1.5,
+                        "modulation": 15.0,
+                        "early_level": 23.333332061767578,
+                        "wander": 20.0,
+                        "low_xo": 400.0,
+                        "high_cut": 8200.0,
+                        "diffuse": 90.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_slew": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 896.1456298828125,
+                        "RiseTime": 0.10000000149011612,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mindi": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "ENABLE": 1.0,
+                        "CHAN": 0.0,
+                        "DATA2": 127.0,
+                        "DELAY": 0.0,
+                        "DATA1": 60.0,
+                        "AUTOFF": 1.0,
+                        "MSGTYPE": 9.0
+                    },
+                    "parameters": {}
+                },
+                "mod_audio_to_cv": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Offset": 0.0,
+                        "BYPASS": 1.0,
+                        "Level": 10.0
+                    },
+                    "parameters": {}
+                },
+                "Gain2x2": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "parameters": {}
+                },
+                "xfade_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": -0.5
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_abs": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "PluginEnabled": 1.0
+                    },
+                    "parameters": {}
+                },
+                "arpeggiator": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "noteLength": 0.49543499946594238,
+                        "velocity": 34.0,
+                        "latch": 0.0,
+                        "enabled": 1.0,
+                        "sync": 0.0,
+                        "Bpm": 120.0,
+                        "Panic": 0.0,
+                        "octaveSpread": 4.0,
+                        "octaveMode": 4.0,
+                        "arpMode": 0.0,
+                        "Divisions": 9.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_slew_1": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "FallTime": 0.10000000149011612,
+                        "RiseTime": 0.10000000149011612,
+                        "BYPASS": 1.0
+                    },
+                    "parameters": {}
+                },
+                "xfade": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "shape": 0.0,
+                        "mode": 0.0,
+                        "xfade": 1.0
+                    },
+                    "parameters": {}
+                },
+                "mod_cv_attenuverter": {
+                    "preset": "",
+                    "bypassed": true,
+                    "ports": {
+                        "PluginEnabled": 0.0,
+                        "Smoothing": 0.0,
+                        "Mode": 0.0,
+                        "Multiplier": -1.0,
+                        "Offset": 0.0
+                    },
+                    "parameters": {}
+                },
+                "Gain": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "Gain": -6.0
+                    },
+                    "parameters": {}
+                },
+                "vcf": {
+                    "preset": "",
+                    "bypassed": false,
+                    "ports": {
+                        "expFMGain": 0.0,
+                        "vcfType": 0.0,
+                        "resonanceGain": 0.0,
+                        "inputGain": 1.0,
+                        "linFMGain": 0.0,
+                        "freq": 3.0,
+                        "resonance": 0.104
+                    },
+                    "parameters": {}
+                }
+            },
+            "name": "Dark Pad"
+        }
+    ]
+}
