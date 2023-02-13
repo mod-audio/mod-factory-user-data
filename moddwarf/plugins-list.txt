@@ -76,6 +76,8 @@ mod-2voices.lv2
 mod-ams.lv2
 mod-arpeggiator.lv2
 mod-audio-to-cv.lv2
+mod-auto-input-selector.lv2
+mod-auto-output-selector.lv2
 mod-bigmuff.lv2
 mod-button-to-cv.lv2
 mod-caps-AutoFilter.lv2
